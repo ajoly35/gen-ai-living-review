@@ -1,0 +1,18 @@
+name: Submit a paper
+description: Send a paper to the living review. It is checked against its full text and added to Latest research.
+title: "Paper: "
+labels: ["paper"]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Link to the paper
+      description: Paper page or PDF (NBER, SSRN, arXiv, journal, author site). A tweet link works if it points to the paper.
+      placeholder: https://
+    validations:
+      required: true
+  - type: textarea
+    id: note
+    attributes:
+      label: PDF or note (optional)
+      description: Attach the PDF here if the paper is behind a paywall or login (tap to attach a file). Add a line on why it matters if you like.

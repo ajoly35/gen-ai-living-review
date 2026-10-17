@@ -1,0 +1,40 @@
+# When new Latest research entries land on main, publish them as a GitHub Release.
+# GitHub emails a release to everyone watching the repository's releases.
+name: Release new papers
+on:
+  push:
+    branches: [main]
+    paths: ["_includes/latest.md"]
+  workflow_dispatch: # manual run: releases every entry currently on the page
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Collect the entries added in this push
+        id: notes
+        run: |
+          before="${{ github.event.before }}"
+          empty_tree=$(git hash-object -t tree /dev/null)
+          if [ "${{ github.event_name }}" = workflow_dispatch ] || ! git cat-file -e "$before^{commit}" 2>/dev/null; then before=$empty_tree; fi
+          git diff --unified=0 "$before" HEAD -- _includes/latest.md \
+            | grep '^+' | grep -v '^+++' | sed 's/^+//' > added.md || true
+          if ! grep -q '^### ' added.md; then echo "none=true" >> "$GITHUB_OUTPUT"; exit 0; fi
+          titles=$(grep '^### ' added.md | sed 's/^### //; s/, ".*//' | paste -sd ';' - | sed 's/;/; /g')
+          {
+            echo "New research added to the living review on $(date -u '+%-d %B %Y'). Full review: https://ajoly35.github.io/gen-ai-living-review/"
+            echo
+            sed 's/\$\$\([^$]*\)\$\$/\1/g; s/&#36;/$/g; s/](#\([a-z0-9-]*\))/](https:\/\/ajoly35.github.io\/gen-ai-living-review\/#\1)/g' added.md
+          } > notes.md
+          echo "title=New papers: $titles" >> "$GITHUB_OUTPUT"
+      - name: Publish the release
+        if: steps.notes.outputs.none != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TITLE: ${{ steps.notes.outputs.title }}
+        run: |
+          gh release create "update-$(date -u +%Y%m%d)-${GITHUB_SHA::7}" --title "${TITLE:0:250}" --notes-file notes.md
