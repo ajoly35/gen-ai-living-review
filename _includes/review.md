@@ -73,9 +73,13 @@ Remote work may have prepared the ground for AI by turning office tasks into dig
 ## Main patterns
 
 Combining the expertise model of Hosseini and Lichtinger (2026) with the demand condition of Lichtinger and Hosseini (2026), the change in employment in occupation $$o$$ is, to a first order,
+
+
 $$
 \Delta\ln L_o \approx \underbrace{b_o\,(\eta_o-\sigma_o)\,\Delta a}_{\text{substitution and scale}} \;+\; \underbrace{\frac{(\eta_o-1)\,\kappa_o}{\eta_o+\kappa_o}\,\pi_o}_{\text{productivity}} \;+\; \underbrace{\frac{\eta_o}{\eta_o+\kappa_o}\,\Delta\ln ps_o}_{\text{eligibility}}
 $$
+
+
 where $$L_o$$ is employment in occupation $$o$$; $$\Delta a$$ is the fall in the log price of AI services; $$b_o$$ is the occupation’s exposure, measured as the share of its costs spent on AI services; $$\sigma_o$$ is the elasticity of substitution between its labour and AI services: how easily AI does the work instead of the worker; $$\eta_o$$ is the price elasticity of demand for its output, the demand side: when AI makes the occupation’s output 1% cheaper, whether through cheaper AI or more productive workers, the economy buys $$\eta_o$$% more of it in place of other occupations’ output; $$\pi_o$$ is its workers’ log productivity gain, $$-\ln(1-g_o)$$, where $$g_o$$ is the share of labour time AI saves on its tasks; $$ps_o$$ is the share of workers whose training meets its entry requirement; $$\sigma$$ is the elasticity of substitution between occupations; and $$\kappa_o$$ is the elasticity of labour supply to the occupation’s wage.[^4]
 
 **Clear: consensus across papers or robust identification.**

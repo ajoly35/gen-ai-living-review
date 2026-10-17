@@ -37,7 +37,7 @@ md = re.sub(r'<a href="#([^"]+)"[^>]*>[^<]*</a>',
 md = re.sub(r"Sections?\u00a0", lambda m: m.group(0).lower().replace("\u00a0", " "), md)
 md = re.sub(r'<span id="[^"]*"[^>]*></span>\n?', "", md)
 md = re.sub(r'<span class="nocase">([^<]*)</span>', r"\1", md)
-md = re.sub(r"``` math\n(.*?)\n```", lambda m: "$$\n" + m.group(1).rstrip(",").strip() + "\n$$", md, flags=re.S)
+md = re.sub(r"``` math\n(.*?)\n```", lambda m: "\n\n$$\n" + m.group(1).rstrip(",").strip() + "\n$$\n\n", md, flags=re.S)
 md = re.sub(r"\$`([^`]*)`\$", r"$$\1$$", md)          # kramdown inline maths
 md = md.replace("\\$", "&#36;")
 md = re.sub(r'<div class="multicols">.*?</div>\n*', "", md, flags=re.S)
