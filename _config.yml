@@ -1,0 +1,11 @@
+title: "Gen-AI, Jobs and Growth: A Living Review"
+description: "A living review of the causal evidence on generative AI and employment, with new papers on AI, labour markets and growth added every week."
+author: Adrien Joly
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
+  toc_levels: 2
+  auto_ids: true
+  hard_wrap: false
+exclude: [scripts, README.md]
