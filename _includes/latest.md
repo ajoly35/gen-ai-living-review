@@ -14,6 +14,32 @@ New papers on AI and labour markets and AI and growth, newest first, each placed
 
 **Caveat.** Industry contributions are growth accounting, not causal estimates. The ONS release does not attribute the growth to AI; the link to AI comes from the FT and the economists it quotes, and computer programming also covers non-AI work.
 
+### Anthropic's third-quarter revenue (Reuters and *Financial Times*, 14 October 2026)
+
+Reuters ([report](https://www.thestar.com.my/tech/tech-news/2026/10/15/anthropic-revenue-jumps-to-168-billion-in-third-quarter-ft-reports)), citing the *Financial Times*, with earlier quarters from [The Next Web](https://thenextweb.com/news/anthropic-q3-revenue-16-8bn-ipo), 15 October 2026. News report of unaudited figures given to investors; reported as context on demand for AI services.
+
+**What it finds.** Anthropic told investors its revenue reached &#36;16.8bn in the third quarter of 2026, after about &#36;11.6bn in the second and &#36;4.7bn in the first, and that it turned a profit and was cash-flow positive in the quarter. Revenue thus rose about 150% from the first to the second quarter and about 45% from the second to the third. Bloomberg reports a stock market listing could follow in November.
+
+**Where it fits.**
+
+- *Diffusion, $$b_o\Delta a$$ ([Main patterns](#main-patterns)).* Firms' spending on AI services, the cost share $$b_o$$, is rising fast at one of the largest providers, which tripled its quarterly revenue in six months. Quarterly growth is slowing, from about 150% to 45%.
+- *Growth.* Revenue of this size is what the AI investment boom is betting on: it is the demand side of the capital spending financed in the next entry.
+
+**Caveat.** One firm's unaudited figures, disclosed to investors ahead of a listing. This review is maintained with Claude, Anthropic's model.
+
+### CoreWeave's bonds trade at distressed yields (CNBC, 14 October 2026)
+
+CNBC reporting, via [investingLive](https://investinglive.com/stocks/coreweave-bonds-trade-like-distressed-debt-as-ai-spending-outpaces-balance-sheets/), 15 October 2026, with LSEG and S&P Global data. News report; context on how AI capital spending is financed.
+
+**What it finds.** On 14 October, shares of CoreWeave, a cloud provider that rents out AI chips, fell about 16%, and its bonds due 2032 yielded about 14.8%, against a 9.625% coupon. S&P rates the firm B+, below investment grade, and says its capital spending is "close to hyperscaler scale without the balance sheet of a hyperscaler". Its chief executive told staff that the backlog of customer contracts covers all its debt. Alphabet, Amazon, Meta and Oracle had issued more than &#36;228bn of bonds in 2026 by mid-October, more than double their total for 2025 (LSEG).
+
+**Where it fits.**
+
+- *Growth.* AI investment is increasingly financed by debt, and the stress shows first at the firms without large cash flows. In the AI correction scenarios of the IMF (2026) and the Bank of England (2026), the financial channel costs more output than the direct loss of investment, which falling imports partly offset.
+- *Price of AI services, $$\Delta a$$ ([Main patterns](#main-patterns)).* The fall in the price of AI services that drives the review's equation depends on this capacity being built. Dearer financing would slow it.
+
+**Caveat.** Market moves over one day, reported second hand.
+
 ### Sacher, Cotter, Jones, Korinek and McCrory (2026), "The AI Expectations Gap"
 
 Anthropic Institute, 16 October 2026. [Report](https://www.anthropic.com/research/ai-expectations-gap). Descriptive survey, outside the review's causal evidence standard; reported as context.
