@@ -1,5 +1,19 @@
 New papers on AI and labour markets and AI and growth, newest first, each placed against the review below. Every figure is checked against the paper itself.
 
+### Strauss, Romei and Fleming (2026), "What is behind the surprising resilience of the UK economy?"
+
+*Financial Times*, 17 October 2026, with the [ONS GDP monthly estimate for August 2026](https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpmonthlyestimateuk/august2026) (15 October 2026). News analysis of official data, outside the review's causal evidence standard; reported as context for AI and growth.
+
+**What it finds.** UK GDP grew 1.8% in the three months to August 2026 compared with a year earlier, the fastest since 2022, and AI-related business services lead it. In the ONS release, computer programming, consultancy and related activities added 0.32 percentage points, about a sixth of that growth and the largest contribution of any industry. The FT reports professional services up 6.6% on a year earlier and the biggest contributor. Consumer-facing services stay weak: hospitality shrank 1% over the year and consumer services remain 6% below their pre-pandemic level, while construction fell 1.6%. Payroll employment fell over the year in both the tech sector and professional services.
+
+**Where it fits.**
+
+- *Output without hires, $$\kappa_o$$ and the margin of adjustment ([Main patterns](#main-patterns)).* The industries growing fastest are cutting payroll employment. This matches the review's finding that AI shows up as fewer hires in exposed work rather than layoffs, including in the UK, where more exposed firms employ fewer juniors (Klein Teeselink 2025; section [“Exposure designs: hiring and entry”](#exposure-designs-hiring-and-entry)).
+- *Demand for expert work, $$\eta_o$$ ([Main patterns](#main-patterns)).* Growth comes from firms selling AI adoption and advice to other firms, much of it exported. It is the aggregate side of Garicano (2026), where demand for lawyers, accountants and software developers grows as clients adopt AI (section [“Firm adoption studies”](#firm-adoption-studies)), although there employment grew too.
+- *Growth.* The gain so far sits in industries that produce and sell AI services, not in the economy-wide productivity of adopters. Economists quoted expect that second step, with employment and real wages recovering only in late 2027.
+
+**Caveat.** Industry contributions are growth accounting, not causal estimates. The ONS release does not attribute the growth to AI; the link to AI comes from the FT and the economists it quotes, and computer programming also covers non-AI work.
+
 ### Sacher, Cotter, Jones, Korinek and McCrory (2026), "The AI Expectations Gap"
 
 Anthropic Institute, 16 October 2026. [Report](https://www.anthropic.com/research/ai-expectations-gap). Descriptive survey, outside the review's causal evidence standard; reported as context.
