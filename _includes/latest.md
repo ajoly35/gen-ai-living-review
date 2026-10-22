@@ -1,5 +1,34 @@
 New papers on AI and labour markets and AI and growth, newest first, each placed against the review below. Every figure is checked against the paper itself.
 
+### Wilmers et al. (2026), "How employment is changing at Anthropic"
+
+Anthropic Institute, 16 October 2026. [Report](https://www.anthropic.com/research/employment-at-anthropic). Case study of one firm from internal records: descriptive hiring trends, and an event study of output around engineers' adoption of coding agents (person and month fixed effects).
+
+**What it finds.** At Anthropic, an AI developer that heavily uses its own agents, junior technical hiring fell while output per worker rose. The authors use internal data on employment, AI use, output, surveys, calendars and hiring score cards, plus 17 interviews. Since early 2025, juniors fell from 27% to 9% of technical hires and from 21% to 14% of technical employees, while total technical hiring kept growing. In an April 2026 survey, about a third of machine learning managers and a fifth of software engineering managers said they hire less because of AI. By August 2026, agents run by employees worked six times as many hours as the employees themselves. Code commits per engineer are five times their level of six months earlier. Following 192 engineers who adopt coding agents against 74 who do not, code added rises sharply after adoption. Code written by agents is no more often deleted or reverted than code the same person writes directly. Agent management, such as writing specifications and monitoring pipelines, rose from 10% of employees' Claude sessions in autumn 2025 to 22% in spring 2026.
+
+**Where it fits.**
+
+- *Mobility, $$\kappa_o$$, and the margin of adjustment ([Main patterns](#main-patterns)).* The firm adjusts through entry, not layoffs: it triples in size yet hires fewer juniors in technical work. This confirms Hosseini and Lichtinger (2025), where adopters cut junior hiring (section [“Firm adoption studies”](#firm-adoption-studies)).
+- *Substitution against demand, $$\sigma_o$$ against $$\eta_o$$ ([Main patterns](#main-patterns)).* Both forces show at once: one adopter grows fast and cuts the junior share. It resembles Chandar and Klein Teeselink (2026), where senior employment rose at adopters while junior employment fell insignificantly.
+- *Productivity gain, $$\pi_o$$.* The within-person gain extends the field experiments (section [“Field experiments”](#field-experiments)) to agents that work autonomously. Output is measured as code volume, and engineers who adopt fully autonomous agents were already on a steeper path.
+- *New tasks.* Workers move from doing tasks to managing agents, a new task that section [“Does reorganisation create new tasks?”](#does-reorganisation-create-new-tasks) has so far found little of.
+
+**Caveat.** One firm that sells AI, studied by its own staff, during a period of explosive revenue growth. Adoption is not random, and the hiring trends are descriptive. This review is maintained with Claude, Anthropic's model.
+
+### Legate-Yang and Massenkoff (2026), "What work can robots do?"
+
+Anthropic, 30 September 2026. [Report](https://www.anthropic.com/research/what-work-can-robots-do). Descriptive measurement: an index of task exposure to robots, rated by Claude, with a historical backtest. Outside the review's causal evidence standard; reported as context for AI and growth.
+
+**What it finds.** Robots can already do 74% of US physical tasks, or 34% of all working time, but they are cheaper than workers for only 0.3% of working time. The authors have Claude rate 7,594 physical tasks from O*NET, the US database of occupational tasks, by the least structured setting where a demonstrated robot can do them. Tasks are weighted by employment (BLS 2025) and by time shares estimated by Claude. As shares of all working time, 12% of tasks are physical and beyond robots, and 23% are doable in purpose-built settings such as assembly lines. Another 10% are doable in structured workplaces such as warehouses, and 1% in open settings such as roads. Language models alone expose about half of work; adding robots raises this to 81%. Workers in the most robot-exposed fifth of jobs are 55 percentage points less likely than unexposed workers to hold a degree, and earn about &#36;30 less per hour. Robot prices have fallen about 3% a year since the 1990s. At that rate, robots become cheaper than workers for 10% of today's work only in about 40 years, and for half of physical work by 2085. Comparing 1977 tasks rated with today's robots and with robots of 1977, robots each year became able to do about 2% of the physical tasks they could not do before.
+
+**Where it fits.**
+
+- *Growth: automating goods and services (companion review).* Physical tasks are the weak links in Jones and Tonetti (2026) and Aghion, Jones and Jones (2019). On these numbers they stay costly for decades, so they support slower acceleration. The authors note that automation raises productivity only once machines are much cheaper than workers.
+- *Exposure, $$b_o$$ (section [“Key concepts and definitions”](#key-concepts-and-definitions)).* The review's exposure measures cover language models (Eloundou et al. 2024; Massenkoff and McCrory 2026). Robot exposure falls on different workers: less educated, lower paid and more often male.
+- *Diffusion, $$b_o\Delta a$$ ([Main patterns](#main-patterns)).* Being able to do a task is not being cheap enough to do it. The gap between 34% and 0.3% mirrors the review's finding that adoption lags exposure.
+
+**Caveat.** Task ratings, time shares and robot costs all come from Claude, built by the authors' employer, and rest on judgement calls about terse task descriptions. The cost scenarios hold tasks and wages fixed.
+
 ### Strauss, Romei and Fleming (2026), "What is behind the surprising resilience of the UK economy?"
 
 *Financial Times*, 17 October 2026, with the [ONS GDP monthly estimate for August 2026](https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpmonthlyestimateuk/august2026) (15 October 2026). News analysis of official data, outside the review's causal evidence standard; reported as context for AI and growth.
