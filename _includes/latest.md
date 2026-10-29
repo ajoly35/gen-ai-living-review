@@ -1,5 +1,19 @@
 New papers on AI and labour markets and AI and growth, newest first, each placed against the review below. Every figure is checked against the paper itself.
 
+### Herdağdelen, Joren and Tamkin (2026), "How AI agents shape experts' judgment calls"
+
+Anthropic, 27 October 2026. [Report](https://www.anthropic.com/research/agents-judgment-calls). Randomised experiment on one task: the option a coding agent favours on each decision is set by coin flip. It bears on the review's organisation section, not on labour market outcomes.
+
+**What it finds.** Experts working with an AI agent mostly adopt the agent's view on judgment calls, and rarely notice. Herdağdelen, Joren and Tamkin (2026) recruit 61 analysts with experience in causal inference to assess a fictional farm advisory programme using Claude Code. The 11 who chose not to use the agent are left out, leaving 50. On four analytical choices with two defensible options, such as yield per hectare or yield per unit of cost, the agent was secretly told to favour one, drawn at random. Analysts chose the agent's option 86% of the time, against 50% if the lean had no effect. The lean moved each choice by 62 to 82 percentage points. It moved the final recommendation by 17 points: 54% recommended expanding the programme when the agent leaned that way, against 36% when it leaned against. In 38 cases where analysts had stated a view first, they switched 60% of the time when the agent disagreed, against 6% when it agreed. Afterwards, 77% repeated the agent's arguments but only 15% credited it, and 52% called the recommendation more their own than the agent's. Experience and expertise did not predict who deferred. Non-users made serious errors in 6 of 11 cases, against 3 of 50 users, and took a median 90 minutes against 65.
+
+**Where it fits.**
+
+- *Who holds knowledge (section [“Who holds knowledge?”](#who-holds-knowledge)).* Ide and Talamàs (2025) separate AI that assists workers from AI that works autonomously; the evidence there concerns assistants, such as Dell’Acqua et al. (2025). With an agent doing the analysis, the judgment itself moves to the machine, even among experienced experts.
+- *Value of expertise (section [“Organisation: who decides how AI is used”](#organisation-who-decides-how-ai-is-used)).* In Acemoglu et al. (2026), automation makes the expertise behind a task obsolete. Here experts keep the sign-off, yet a coin flip largely settles the result. Formal human oversight may overstate how much expert judgment still decides.
+- *Productivity gain, $$\pi_o$$ ([Main patterns](#main-patterns)).* Users made fewer serious errors and finished faster than non-users, in line with the field experiments (section [“Field experiments”](#field-experiments)). That comparison is not randomised: non-users were less experienced.
+
+**Caveat.** One hour-long task, with an agent told to hold and voice a preference, so the effect in everyday work may be smaller. The study is by researchers at the firm that makes the agent; this review is maintained with Claude, Anthropic's model.
+
 ### Wilmers et al. (2026), "How employment is changing at Anthropic"
 
 Anthropic Institute, 16 October 2026. [Report](https://www.anthropic.com/research/employment-at-anthropic). Case study of one firm from internal records: descriptive hiring trends, and an event study of output around engineers' adoption of coding agents (person and month fixed effects).

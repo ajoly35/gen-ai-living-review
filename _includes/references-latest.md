@@ -2,6 +2,8 @@ Aghion, Philippe, Benjamin F. Jones, and Charles I. Jones. 2019. “Artificial I
 
 Bank of England. 2026. *Financial Stability Report*. July. [Link](https://www.bankofengland.co.uk/-/media/boe/files/financial-stability-report/2026/financial-stability-report-july-2026.pdf).
 
+Herdağdelen, Amaç, Hailey Joren, and Alex Tamkin. 2026. *How AI Agents Shape Experts’ Judgment Calls*. Anthropic, 27 October. [Link](https://www.anthropic.com/research/agents-judgment-calls).
+
 International Monetary Fund. 2026. *World Economic Outlook*. April. [Link](https://www.imf.org/-/media/files/publications/weo/2026/april/english/text.pdf).
 
 Jones, Charles I., and Christopher Tonetti. 2026. *Past Automation and Future A.I.: How Weak Links Tame the Growth Explosion*. Working Paper. Stanford University. [Link](https://web.stanford.edu/~chadj/JonesTonetti_Automation.pdf).
