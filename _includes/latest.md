@@ -1,5 +1,88 @@
 New papers on AI and labour markets and AI and growth, newest first, each placed against the review below. Every figure is checked against the paper itself.
 
+### Fernández-Villaverde (2026), "Saving for the Machines"
+
+NBER Working Paper 35964, 2 November 2026. [Paper](https://www.nber.org/papers/w35964). Calibrated growth model: task-based production with optimal household saving, and a transition to full automation over 2025 to 2045. Theory, reported for the companion growth review.
+
+**What it finds.** How fast automation raises growth depends on how much households save, not only on the technology. Fernández-Villaverde (2026) puts the task model of Acemoglu and Restrepo (2018) into a growth model calibrated to the US. Every task becomes automatable between 2025 and 2045. When tasks are strong complements, growth reaches 11.7% a year if households save optimally, against 2.2% if saving stays at its 2025 rate of 23%. Saving rises because automation lifts the capital share, from one third to one under full automation. With an elasticity of substitution across tasks, $$\sigma$$, of 1, households save 15% of output on impact and 54% in the limit. By 2045, output is about sixteen times its trend without automation with $$\sigma=1$$, and five times with $$\sigma=0.2$$. Under full automation, wages stay between a quarter and a half of trend, because labour cannot earn more than the machines that replace it. If only 85% of tasks become automatable and $$\sigma=0.2$$, growth falls back to near 2% by 2065. The last human tasks then earn scarcity rents, and wages rise to nine times trend. The ten-year real yield jumps from 5.1% to 13.6% on impact with $$\sigma=1$$. Households with no assets lose the equivalent of 40% to 65% of their consumption. Keeping their labour income on trend costs at most 4% of GDP with $$\sigma=1$$ and 20% with $$\sigma=0.2$$, at the peak.
+
+**Where it fits.**
+
+- *Automating goods and services, when growth accelerates (companion review).* Jones and Tonetti (2026) set $$\sigma=0.2$$ and find a slow acceleration. With optimal saving, the same weak links give double-digit growth. This contradicts their conclusion, and locates the bottleneck in capital supply rather than technology.
+- *What GDP misses and who captures the gains (companion review).* It keeps the automation path of Imas and Moll (2026) but lets saving respond. Under full automation the gains go to capital, so the split depends on who owns the machines.
+- *Who captures the gains ([Main patterns](#main-patterns)).* It asks who saves for the buildout: AI campuses alone absorb 3.6% of GDP a year over 2025 to 2032 in Van Nieuwerburgh (2026). Here, owners of capital do.
+
+**Caveat.** The author calls these benchmarks, not forecasts: the automation path is assumed, and a representative household is the most elastic case for capital supply. Growth above 15% may not happen, for the reasons in Imas and Moll (2026).
+
+### Domnisoru and Heikkinen (2026), "How is AI Affecting College Major and Course Choices? Evidence from Finland"
+
+RFBerlin Discussion Paper 293/26, 2 November 2026. [Paper](https://www.rfberlin.com/network-paper/how-is-ai-affecting-college-major-and-course-choices-evidence-from-finland/). Event studies on Finnish administrative data on university applications and courses, by the AI exposure of each degree; the authors describe the application results as not causal.
+
+**What it finds.** Finnish students are turning away from university degrees exposed to AI, and the shift is larger than the job losses so far. Domnisoru and Heikkinen (2026) score each degree by the occupations its Finnish graduates hold, using Anthropic's measure of observed automation (Handa et al. 2025). They use first-choice applications to Finnish universities and elective course records. Between the 2022 and 2026 rounds, first-choice applicants to ICT fell 38.0%, while applicants to all other fields rose 16.5%. ICT seats were largely unchanged. Applicants to the most exposed quarter of degrees fell 16.6%, against a rise of 20.3% for the other three quarters, after similar trends before 2022. Within the same broad field, one standard deviation more exposure lowers first-choice applicants by 8.8% in 2025 and 14.0% in 2026. Pre-2023 coefficients are indistinguishable from zero, and dropping ICT barely changes the estimates. Other exposure measures give about half the effect. By 2026, graduates of degrees one standard deviation more exposed had employment 1 point lower and unemployment 0.7 point higher. Enrolled students do not switch degrees more. Among students outside ICT, AI and machine learning electives rose from 0.3% to 0.7% of students, while programming electives kept falling.
+
+**Where it fits.**
+
+- *Mobility, $$\kappa_o$$, and the margin of adjustment ([Main patterns](#main-patterns)).* Adjustment through entry now starts before the labour market, at the choice of degree. This extends Orr et al. (2026), where graduates of exposed majors, mostly computer science, lost employment (section [“Exposure designs: hiring and entry”](#exposure-designs-hiring-and-entry)).
+- *Eligibility, $$\Delta\ln ps_o$$ ([Main patterns](#main-patterns)).* The dynamic model of Hosseini and Lichtinger (2026) predicts more entry into exposed occupations. Here applications to exposed degrees fall, and controls for each field's graduate unemployment barely move the estimates. Students seem to act on expected, not current, conditions.
+- *Totals unchanged (section [“Exposure designs: hiring and entry”](#exposure-designs-hiring-and-entry)).* The authors extend Kauhanen and Rouvinen (2025) to March 2026 and still find no economy-wide effect within firms. Losses for young graduates come from hiring across firms.
+
+**Caveat.** ICT is four degree codes in one field, so its estimate rests on few clusters; post-pandemic shifts and a 2025 entrance exam reform could also move choices. ICT programmes remain oversubscribed, so enrolment has not yet fallen.
+
+### Levy Yeyati, Judzik and Barbiero (2026), "Practice Makes Perfect: Tacit Knowledge, Generative AI, and Returns to Schooling and Experience"
+
+Universidad Torcuato Di Tella, arXiv, 26 October 2026. [Paper](https://arxiv.org/abs/2610.36008). Difference in differences on US Current Population Survey wages: the most against the least exposed occupations, before and after ChatGPT.
+
+**What it finds.** In exposed occupations, ChatGPT lowered the wage return to schooling and raised the return to early career experience. Levy Yeyati, Judzik and Barbiero (2026) use 655,919 earnings observations from the Current Population Survey, 2018 to June 2026. They compare occupations in the top and bottom quarters of the Felten, Raj and Seamans exposure index, fixed before November 2022. After ChatGPT's release, the return to a year of schooling falls by 0.55 log points in exposed occupations, from 7.5 before, a decline of about 7.3%. The return to a year of experience rises by 0.26 log points at three years, is unchanged at fifteen, and falls by 0.12 at twenty-five. Event studies are flat before the release for schooling and early experience. A placebo dated at the start of the pandemic shows no effect. Applying one top-coding rule to the whole sample gives −0.53. Letting each occupation keep its own pre-release slopes gives −0.58, +0.26 and −0.11.
+
+**Where it fits.**
+
+- *Wages (section [“Exposure designs: wages”](#exposure-designs-wages)).* Azar et al. (2026a) find lower wages in exposed occupations and a falling college premium. This extends them to the price of schooling inside exposed occupations: AI supplies codified knowledge, so schooling is worth less there.
+- *Juniors and training (section [“Why these patterns: theory”](#why-these-patterns-theory)).* Practice gains value early in careers, while experience tied to older tools depreciates. This fits Garicano and Rayo (2025), where AI makes codified knowledge cheap but practice still matters.
+- *Productivity gain, $$\pi_o$$ ([Main patterns](#main-patterns)).* Field experiments find novices gain most (Brynjolfsson et al. 2025), which would flatten pay by experience. In market wages, early experience instead gains value. This contrasts with the experiments.
+
+**Caveat.** Exposed occupations faced other shocks after 2022, such as remote work and the tech hiring slowdown. Top coding hits 11.5% of exposed observations against 0.7% of others, and the paper is not yet peer reviewed.
+
+### Hyman et al. (2025), "How Retrainable are AI-Exposed Workers?"
+
+NBER Working Paper 34174, August 2025, revised August 2026. [Paper](https://www.nber.org/papers/w34174). Matched comparison of publicly funded trainees with job seekers who received only job search help; selection on observables.
+
+**What it finds.** Public job training pays off for workers leaving AI-exposed jobs, mainly because it moves them into less exposed occupations. Hyman et al. (2025) use 99,575 matched training spells funded by the US Workforce Innovation and Opportunity Act, 2012 to 2024. They link occupations before and after training to state unemployment insurance earnings. Each trainee is matched to a similarly exposed job seeker who received only job search help. Earnings are balanced before training. In the three quarters after training, trainees from high-exposure occupations earn &#36;1,011 to &#36;1,370 more per quarter than their matches, in 2010 dollars, or 9.6% more. Over 2012 to 2024, trainees from low-exposure occupations gain about &#36;2,400 a quarter, against about &#36;1,200 for high-exposure ones. For high-exposure trainees, the gain rose from about &#36;1,000 a quarter before 2020 to about &#36;3,000 in 2022 to 2024. Most of that rise comes from moving into less exposed occupations, such as nursing assistants. About 45% of occupations are "AI retrainable": their workers earn more after moving into more exposed occupations.
+
+**Where it fits.**
+
+- *Mobility, $$\kappa_o$$ ([Main patterns](#main-patterns)).* The review notes that how displaced workers would move is not yet observed (Manning and Aguirre 2026). This is first evidence: retrained workers move out of exposed occupations, with earnings gains.
+- *New tasks (section [“Does reorganisation create new tasks?”](#does-reorganisation-create-new-tasks)).* A smaller part of the gain comes from training into more exposed, AI-complementary work. This extends Humlum and Vestergaard (2025), where few workers report new AI tasks.
+
+**Caveat.** Matching on observables cannot rule out that trainees are more motivated; occupation codes exist for only 22% of spells. The rise in 2022 to 2024 coincides with a very tight labour market, which the authors note may raise the value of credentials.
+
+### Althoff and Reichardt (2026), "Task-Specific Technical Change and Comparative Advantage"
+
+NBER Working Paper 35353, 22 June 2026, also CESifo Working Paper 12403; figures from the authors' version of 13 July 2026. [Paper](https://www.nber.org/papers/w35353). Estimated dynamic task model with AI scenarios rated by language models; a structural simulation, not causal evidence.
+
+**What it finds.** In a model estimated on US careers, AI raises average wages and narrows inequality, mainly because it lowers the skills that tasks require. Althoff and Reichardt (2026) model workers with five skill dimensions who choose occupations and learn on the job. They estimate it on the NLSY79 panel and on the skill requirements of 19,530 O*NET tasks. Language models rate whether AI can augment each task, automate it or "simplify" it, lowering its skill requirements. In the moderate scenario, AI saves 25.2% of worker time on average. In the new steady state, average wages rise 27.6%, and the ratio of the 90th to the 10th wage percentile falls 24%. It falls 13% in the slow scenario and 33% in the rapid one. Augmentation adds 22% to average wages and automation 8%; simplification subtracts 3%, because it slows learning. Without simplification, inequality would rise slightly. Welfare gains for current workers equal a 15% to 45% rise in lifetime wages. With adoption costs highest for low-skill workers, the 90-10 ratio still falls 15%, but the average wage gain shrinks from 28% to 0.3%.
+
+**Where it fits.**
+
+- *Eligibility, $$\Delta\ln ps_o$$ ([Main patterns](#main-patterns)).* Simplification is the eligibility shift. Hosseini and Lichtinger (2026) find it narrows the 90-50 gap in a static model; here it drives the whole fall in inequality. Both predict more entry into exposed jobs, whereas entry fell (section [“Exposure designs: hiring and entry”](#exposure-designs-hiring-and-entry)).
+- *Wages (section [“Exposure designs: wages”](#exposure-designs-wages)).* Occupations that gain workers see the largest relative wage falls, as simplification widens the pool of qualified workers. That fits Azar et al. (2026a) only if supply, not demand, moves pay.
+- *Aggregating task gains over the next decade (companion review).* The 27.6% gain exceeds Acemoglu (2025), because it adds augmentation. Adoption costs cut it to 0.3%, so diffusion decides the aggregate gain.
+
+**Caveat.** AI capabilities are rated by language models, and the NLSY79 follows one cohort born in 1957 to 1964. The results compare steady states, so they say little about timing.
+
+### Colaiacovo and Koning (2026), "Delegating to AI: Beliefs and the Organization of Work at New Ventures"
+
+Harvard Business School Working Paper 26-093, 18 June 2026. [Paper](https://www.hbs.edu/faculty/Pages/item.aspx?num=69112). Survey of 199 startup founders with a randomised information experiment; the comparison of adopters is descriptive.
+
+**What it finds.** Startup founders who formally build AI into their workflows report far larger labour savings, and their choice is not explained by beliefs about what AI can do. Colaiacovo and Koning (2026) survey 199 founders of North American software and IT startups, contacted between May and July 2025. Firms average 16 employees and 3.5 years of age. Asked how many more employees they would need without AI for the same output, founders answer 55% on average and 17% at the median. 30% say none. Founders who formally integrate AI report 91.4% (median 40%), against 24% (median 10%) for informal users. Controlling for the share of staff using AI and how tools are sourced, the gap is 20 points. In a customer service experiment, beliefs about AI's performance explain at most a third of willingness to delegate. Optimistic rather than pessimistic information raised performance beliefs by about 5 points, and willingness to delegate to AI alone by 4 points. Formal integrators are no more optimistic about AI's performance than informal users.
+
+**Where it fits.**
+
+- *Management (section [“How do management practices shape adoption?”](#how-do-management-practices-shape-adoption)).* It confirms Coyle et al. (2026) and Bergeaud and Bunel (2026): managers' choices, not access to the tool, set how deeply firms use AI.
+- *Reorganisation (section [“Does reorganisation create new tasks?”](#does-reorganisation-create-new-tasks)).* Large savings appear where firms redesign work, consistent with Dillon et al. (2025), where Copilot without reorganisation only cut email time.
+- *Diffusion, $$b_o\,\Delta a$$ ([Main patterns](#main-patterns)).* Even among heavy users, the median founder reports saving 17% of headcount, and nearly a third none. This fits the small effects reported by executives in Yotzov et al. (2026).
+
+**Caveat.** Answers are self-reported counterfactuals from a small, self-selected sample: 199 of 8,237 firms contacted. Formal integration is chosen, so its link to savings is not causal.
+
 ### Herdağdelen, Joren and Tamkin (2026), "How AI agents shape experts' judgment calls"
 
 Anthropic, 27 October 2026. [Report](https://www.anthropic.com/research/agents-judgment-calls). Randomised experiment on one task: the option a coding agent favours on each decision is set by coin flip. It bears on the review's organisation section, not on labour market outcomes.
