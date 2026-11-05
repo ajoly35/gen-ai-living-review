@@ -4,11 +4,15 @@ Althoff, Lukas, and Hugo Reichardt. 2026. *Task-Specific Technical Change and Co
 
 Bank of England. 2026. *Financial Stability Report*. July. [Link](https://www.bankofengland.co.uk/-/media/boe/files/financial-stability-report/2026/financial-stability-report-july-2026.pdf).
 
+Bianchini, Stefano, and Georgiana-Ioana Coroama. 2026. *LLMs and the Organization of Scientific Work*. arXiv:2611.02996. [Link](https://arxiv.org/abs/2611.02996).
+
 Colaiacovo, Innessa, and Rembrand Koning. 2026. *Delegating to AI: Beliefs and the Organization of Work at New Ventures*. Working Paper 26-093. Harvard Business School. [Link](https://www.hbs.edu/faculty/Pages/item.aspx?num=69112).
 
 Domnisoru, Ciprian, and Tuomas P. Heikkinen. 2026. *How Is AI Affecting College Major and Course Choices? Evidence from Finland*. Discussion Paper No. 293/26. RFBerlin, 2 November. [Link](https://www.rfberlin.com/network-paper/how-is-ai-affecting-college-major-and-course-choices-evidence-from-finland/).
 
 Fernández-Villaverde, Jesús. 2026. *Saving for the Machines*. Working Paper No. 35964. NBER. [Link](https://www.nber.org/papers/w35964).
+
+Gans, Joshua S., and Peter Landry. 2026. *Training Your Replacement: Worker Incentives and the Pace of Automation*. Working Paper No. 35950. NBER. [Link](https://www.nber.org/papers/w35950).
 
 Herdağdelen, Amaç, Hailey Joren, and Alex Tamkin. 2026. *How AI Agents Shape Experts’ Judgment Calls*. Anthropic, 27 October. [Link](https://www.anthropic.com/research/agents-judgment-calls).
 

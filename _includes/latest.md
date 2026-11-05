@@ -1,5 +1,33 @@
 New papers on AI and labour markets and AI and growth, newest first, each placed against the review below. Every figure is checked against the paper itself.
 
+### Bianchini and Coroama (2026), "LLMs and the Organization of Scientific Work"
+
+BETA, University of Strasbourg, arXiv 2611.02996, 2 November 2026. [Paper](https://arxiv.org/abs/2611.02996). Event study around the release of ChatGPT, comparing each year with 2022 and with the 2018 to 2021 trend. Every team was exposed at once, so there is no untreated comparison group.
+
+**What it finds.** Since ChatGPT, research teams spread each task across fewer members, and each member does a narrower set of tasks. Bianchini and Coroama (2026) use contribution statements for 117,211 PLOS ONE papers published from 2018 to 2025. These record which co-author did which of 14 roles, grouped into six tasks such as ideation, writing and coordination. By 2025, the share of a team credited with ideation is 2.6 percentage points below its 2022 level, writing 2.7 points lower and coordination 1.4 points lower. Writing participation had been rising before 2022, and the trend reversed. Each author is credited with 0.08 fewer of the six tasks in 2025 than in 2022. The overlap between co-authors' task sets falls by 0.018, against a 2018 to 2019 mean of 0.52. Both measures had been rising before 2022. The changes come from newly formed teams, about 90% of papers. In teams whose exact members had published together before, no task departs significantly from its earlier trend. Across 21 fields, medicine and economics show the most departures.
+
+**Where it fits.**
+
+- *Who holds knowledge (section [“Who holds knowledge?”](#who-holds-knowledge)).* Hoffmann et al. (2025) find that a coding assistant moved developers towards coding and away from coordinating others. This extends that result to teams: with an LLM, one person covers inputs that used to need several colleagues.
+- *Reorganisation (section [“Does reorganisation create new tasks?”](#does-reorganisation-create-new-tasks)).* Dillon et al. (2025) find that Copilot saved email time without changing the mix of tasks over six months. Here the division of labour does change, but only in new teams, which suggests reorganisation happens when teams form rather than within existing ones.
+- *Organisation: who decides how AI is used (section [“Organisation: who decides how AI is used”](#organisation-who-decides-how-ai-is-used)).* The inertia of established teams fits the review's view that reorganising is costly and slows the effect of AI on work, as in Bergeaud and Bunel (2026).
+
+**Caveat.** The design compares years, so other changes after 2022, such as the end of pandemic disruption, could explain part of the break. Contribution statements are self-reported and record who took part, not how much.
+
+### Gans and Landry (2026), "Training Your Replacement: Worker Incentives and the Pace of Automation"
+
+NBER Working Paper 35950, 26 October 2026. [Paper](https://www.nber.org/papers/w35950). Theory: an efficiency wage model, in which firms pay above workers' outside option to deter shirking, extended to a worker who trains the AI that replaces them. Outside the review's causal evidence standard; reported because it bears on the organisation section and on the pace of diffusion.
+
+**What it finds.** When workers must train the AI that will replace them, firms pay them more and may automate more slowly than is efficient. Gans and Landry (2026) extend Shapiro and Stiglitz (1984). A worker can shirk, cooperate with training, or obstruct training while keeping output intact. Only cooperation completes training, and completion ends the job. Dismissal is then a weaker threat, so the firm must raise the worker's rent, and the worker is better off with AI than without it. A slowly training system can create a job that pays more than it produces, because the worker is building an asset for the firm. A fast training system can destroy a job it never automates: the firm will not pay the higher wage, hires no one, and the system never learns. The worker obstructs whenever training is faster than the rate at which obstruction is detected. The firm therefore trains below the fastest feasible rate, either to prevent obstruction or because faster training then raises the rent faster than total surplus. Obstruction never occurs in equilibrium, yet it sets the pace of automation. A credible bonus paid on completion, equal to the worker's rent without AI, removes both the extra rent and the slowdown. The paper has no data; it opens with Meta's 2026 programme recording employees' screen activity as AI training data, which more than 1,600 employees petitioned against.
+
+**Where it fits.**
+
+- *Organisation: who decides how AI is used (section [“Organisation: who decides how AI is used”](#organisation-who-decides-how-ai-is-used)).* Acemoglu et al. (2026) argue that rents push firms towards automation that makes workers replaceable. Gans and Landry (2026) add a pull the other way: when the worker holds the knowledge the AI needs, those rents rise and automation slows.
+- *Who holds knowledge (section [“Who holds knowledge?”](#who-holds-knowledge)).* The evidence there concerns assistants that move knowledge down the hierarchy, as in Ide and Talamàs (2025). This model covers the reverse flow, from worker to machine, and makes it depend on the worker's incentives.
+- *Exposure and diffusion, $$b_o\,\Delta a$$ ([Main patterns](#main-patterns)).* The review explains slow diffusion by management and restructuring costs (Coyle et al. 2026; Bergeaud and Bunel 2026). The model adds a channel, and predicts higher pay, not lower, for workers while they train their replacement.
+
+**Caveat.** The predictions are untested, and the authors note that little is known about how often workers obstruct AI training. The results require the AI to replace the worker who trains it; if it only augments the job, the wage premium and slowdown vanish.
+
 ### Fernández-Villaverde (2026), "Saving for the Machines"
 
 NBER Working Paper 35964, 2 November 2026. [Paper](https://www.nber.org/papers/w35964). Calibrated growth model: task-based production with optimal household saving, and a transition to full automation over 2025 to 2045. Theory, reported for the companion growth review.
