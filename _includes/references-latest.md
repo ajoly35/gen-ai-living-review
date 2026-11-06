@@ -28,11 +28,15 @@ Legate-Yang, Russell, and Maxim Massenkoff. 2026. *What Work Can Robots Do?* Ant
 
 Levy Yeyati, Eduardo, Darío Judzik, and Juan Ignacio Barbiero. 2026. *Practice Makes Perfect: Tacit Knowledge, Generative AI, and Returns to Schooling and Experience*. arXiv:2610.36008. [Link](https://arxiv.org/abs/2610.36008).
 
+Mehdi, Tahsin, and Marc Frenette. 2026. *Hiring and Job Separation Rates in the Era of Generative Artificial Intelligence: Early Evidence*. Economic and Social Reports, Catalogue no. 36-28-0001. Statistics Canada, 28 October. [Link](https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026010/article/00003-eng.htm).
+
 Office for National Statistics. 2026. *GDP Monthly Estimate, UK: August 2026*. Statistical bulletin, 15 October. [Link](https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpmonthlyestimateuk/august2026).
 
 Sacher, Szymon, Tess Cotter, Charles I. Jones, Anton Korinek, and Peter McCrory. 2026. *The AI Expectations Gap: Public and Frontier Lab Views on AI's Impact on Work*. The Anthropic Institute, 16 October. [Link](https://www.anthropic.com/research/ai-expectations-gap).
 
 Strauss, Delphine, Valentina Romei, and Sam Fleming. 2026. "What Is Behind the Surprising Resilience of the UK Economy?" *Financial Times*, 17 October.
+
+Tadepalli, Karthik. 2026. *Efficiency vs Capability in the Intelligence Explosion*. arXiv:2610.33447. [Link](https://arxiv.org/abs/2610.33447).
 
 Wilmers, Nathan, Regina Catipon, Maxim Massenkoff, and Peter McCrory. 2026. *How Employment Is Changing at Anthropic*. Technical Report. The Anthropic Institute, 16 October. [Link](https://www.anthropic.com/research/employment-at-anthropic).
 
