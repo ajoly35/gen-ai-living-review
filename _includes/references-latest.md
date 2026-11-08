@@ -18,6 +18,8 @@ Gans, Joshua S., and Peter Landry. 2026. *Training Your Replacement: Worker Ince
 
 Herdağdelen, Amaç, Hailey Joren, and Alex Tamkin. 2026. *How AI Agents Shape Experts’ Judgment Calls*. Anthropic, 27 October. [Link](https://www.anthropic.com/research/agents-judgment-calls).
 
+Hermle, Johannes, Benjamin Jones, Lukas Althoff, Ryan Heller, Thomas Lyttelton, Carolyn Stein, Nathan Wilmers, Maxim Massenkoff, and Peter McCrory. 2026. *AI for Scientific Discovery: How Researchers Use Claude*. Technical Report. The Anthropic Institute, 5 November. [Link](https://www.anthropic.com/research/how-researchers-use-claude).
+
 Hyman, Benjamin G., Benjamin Lahey, Karen Ni, and Laura Pilossoph. 2025. *How Retrainable Are AI-Exposed Workers?* Working Paper No. 34174. NBER. Revised August 2026. [Link](https://www.nber.org/papers/w34174).
 
 International Monetary Fund. 2026. *World Economic Outlook*. April. [Link](https://www.imf.org/-/media/files/publications/weo/2026/april/english/text.pdf).
