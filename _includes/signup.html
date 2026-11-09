@@ -39,14 +39,15 @@ email workflow (.github/workflows/email.yml) sends to. Otherwise the form compos
     </div>
     <fieldset class="signup-freq">
       <legend>{% if l == "fr" %}Rythme{% else %}How often{% endif %}</legend>
-      <label><input type="radio" name="frequency" value="daily"> {% if l == "fr" %}Chaque nouvelle étude, le matin{% else %}Each new study, in the morning{% endif %}</label>
-      <label><input type="radio" name="frequency" value="weekly" checked> {% if l == "fr" %}Un résumé le lundi{% else %}One digest on Mondays{% endif %}</label>
-      <label><input type="radio" name="frequency" value="monthly"> {% if l == "fr" %}Un résumé le 1er du mois{% else %}One digest on the 1st of the month{% endif %}</label>
+      <label><input type="checkbox" name="frequency" value="daily"> {% if l == "fr" %}Chaque nouvelle étude, le matin{% else %}Each new study, in the morning{% endif %}</label>
+      <label><input type="checkbox" name="frequency" value="weekly" checked> {% if l == "fr" %}Un résumé le lundi{% else %}One digest on Mondays{% endif %}</label>
+      <label><input type="checkbox" name="frequency" value="monthly"> {% if l == "fr" %}Un résumé le 1er du mois{% else %}One digest on the 1st of the month{% endif %}</label>
+      <span class="signup-note">{% if l == "fr" %}Cochez un ou plusieurs rythmes.{% else %}Tick one or more.{% endif %}</span>
     </fieldset>
     <fieldset class="signup-freq">
-      <legend>{% if l == "fr" %}Format{% else %}Format{% endif %}</legend>
-      <label><input type="radio" name="audience" value="general" checked> {% if l == "fr" %}Le brief : une courte lettre pour non-économistes. Ce qui est nouveau, comment cela s'assemble, une idée d'un article clé expliquée simplement, un graphique{% else %}The brief: a short newsletter for non-economists. What is new, how it fits together, one idea from a key paper explained simply, one chart{% endif %}</label>
-      <label><input type="radio" name="audience" value="academic"> {% if l == "fr" %}Résumé académique : l'entrée complète (dispositif, chiffres, limite){% else %}Academic digest: the full entry (design, figures, caveat){% endif %}</label>
+      <legend>{% if l == "fr" %}Format (un ou les deux){% else %}Format (one or both){% endif %}</legend>
+      <label><input type="checkbox" name="audience" value="general" checked> {% if l == "fr" %}Le brief : une courte lettre pour non-économistes. Ce qui est nouveau, comment cela s'assemble, une idée d'un article clé expliquée simplement, un graphique{% else %}The brief: a short newsletter for non-economists. What is new, how it fits together, one idea from a key paper explained simply, one chart{% endif %}</label>
+      <label><input type="checkbox" name="audience" value="academic"> {% if l == "fr" %}Résumé académique : l'entrée complète (dispositif, chiffres, limite){% else %}Academic digest: the full entry (design, figures, caveat){% endif %}</label>
     </fieldset>
     <input type="hidden" name="lang" value="{{ l }}">
     <input type="text" name="hp" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-10000px;width:1px;height:1px;opacity:0">
@@ -58,7 +59,8 @@ email workflow (.github/workflows/email.yml) sends to. Otherwise the form compos
   </form>
   <script>
   (function(){var f=document.getElementById('sh-form'),m=document.getElementById('sh-msg');if(!f)return;
-    f.addEventListener('submit',function(e){e.preventDefault();var d={};new FormData(f).forEach(function(v,k){d[k]=v;});
+    f.addEventListener('submit',function(e){e.preventDefault();var fd=new FormData(f),d={};fd.forEach(function(v,k){if(k==='frequency'||k==='audience'){(d[k]=d[k]||[]).push(v);}else{d[k]=v;}});
+      if(!d.frequency||!d.audience){m.textContent=(f.getAttribute('data-lang')==='fr')?'Choisissez au moins un rythme et un format.':'Pick at least one rhythm and one format.';m.hidden=false;return;}
       var btn=f.querySelector('button');btn.disabled=true;
       fetch(f.getAttribute('action'),{method:'POST',headers:{'Content-Type':'text/plain;charset=UTF-8'},body:JSON.stringify(d)})
         .then(function(r){return r.json();}).then(function(j){m.textContent=j.message||(j.ok?'OK':'Error');m.hidden=false;if(j.ok){f.email.value='';}})

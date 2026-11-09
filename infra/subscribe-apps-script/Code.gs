@@ -14,6 +14,10 @@
 var FREQ = ["daily", "weekly", "monthly"], LANG = ["en", "fr"];
 var HEAD = ["email", "name", "frequency", "lang", "status", "token", "created_at", "confirmed_at", "unsubscribed_at", "audience"];
 var AUD = ["general", "academic"];
+// A reader may tick several rhythms and both formats: stored as comma-separated lists, e.g. "daily,weekly" / "general,academic".
+function pickList_(v, allowed, dflt) { var a = Array.isArray(v) ? v : String(v || "").split(","); var out = [];
+  a.forEach(function (x) { x = String(x).trim(); if (allowed.indexOf(x) >= 0 && out.indexOf(x) < 0) out.push(x); }); return out.length ? out.join(",") : dflt; }
+function hasIn_(cell, value) { return String(cell || "").split(",").indexOf(value) >= 0; }
 var P = PropertiesService.getScriptProperties();
 // Settings: Script properties first, then the CONFIG object of Config.gs (pushed by clasp). setup() copies CONFIG into the properties.
 function cfg(k) { var v = P.getProperty(k); if (v) return v; return (typeof CONFIG !== "undefined" && CONFIG[k]) ? CONFIG[k] : null; }
@@ -26,12 +30,12 @@ function setup() {
 var T = {
   en: { subject: "Confirm your subscription: Gen-AI, Jobs and Growth", already: "You are already subscribed; your preferences were updated.",
         pending: "Check your inbox: a confirmation email is on its way.", bad: "Please enter a valid email address.",
-        body: function (name, url, f) { return "<p>Hello" + (name ? " " + esc(name) : "") + ",</p><p>One click to confirm that you want the living review's emails (" + FL.en[f] + "):</p>" +
+        body: function (name, url, f) { return "<p>Hello" + (name ? " " + esc(name) : "") + ",</p><p>One click to confirm that you want the living review's emails (" + f + "):</p>" +
           "<p><a href=\"" + url + "\" style=\"display:inline-block;padding:10px 16px;background:#7a2e1f;color:#fff;border-radius:6px;text-decoration:none;\">Confirm my subscription</a></p>" +
           "<p style=\"color:#6b665e;font-size:14px;\">If you did not ask for this, ignore this message and nothing will be sent. To keep the emails out of spam, add this sender to your contacts. Adrien Joly, London School of Economics.</p>"; } },
   fr: { subject: "Confirmez votre inscription : IA générative, emploi et croissance", already: "Vous êtes déjà inscrit ; vos préférences ont été mises à jour.",
         pending: "Regardez votre boîte de réception : un courriel de confirmation arrive.", bad: "Merci d'indiquer une adresse valide.",
-        body: function (name, url, f) { return "<p>Bonjour" + (name ? " " + esc(name) : "") + ",</p><p>Un clic pour confirmer que vous souhaitez recevoir les courriels de la revue vivante (" + FL.fr[f] + ") :</p>" +
+        body: function (name, url, f) { return "<p>Bonjour" + (name ? " " + esc(name) : "") + ",</p><p>Un clic pour confirmer que vous souhaitez recevoir les courriels de la revue vivante (" + f + ") :</p>" +
           "<p><a href=\"" + url + "\" style=\"display:inline-block;padding:10px 16px;background:#7a2e1f;color:#fff;border-radius:6px;text-decoration:none;\">Confirmer mon inscription</a></p>" +
           "<p style=\"color:#6b665e;font-size:14px;\">Si vous n'êtes pas à l'origine de cette demande, ignorez ce message : rien ne sera envoyé. Pour éviter le dossier spam, ajoutez cet expéditeur à vos contacts. Adrien Joly, London School of Economics.</p>"; } }
 };
@@ -78,7 +82,7 @@ function subscribe_(b) {
   if (b.hp) return out({ ok: true, message: t.pending });                       // honeypot: pretend
   var email = String(b.email || "").trim().toLowerCase();
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email) || email.length > 254) return out({ ok: false, message: t.bad });
-  var name = String(b.name || "").trim().slice(0, 120), freq = FREQ.indexOf(b.frequency) >= 0 ? b.frequency : "weekly", aud = AUD.indexOf(b.audience) >= 0 ? b.audience : "general";
+  var name = String(b.name || "").trim().slice(0, 120), freq = pickList_(b.frequency, FREQ, "weekly"), aud = pickList_(b.audience, AUD, "general");
   var lock = LockService.getScriptLock(); lock.waitLock(10000);
   try {
     var all = rows(), r = null; for (var i = 0; i < all.length; i++) if (all[i].email === email) r = all[i];
@@ -87,7 +91,7 @@ function subscribe_(b) {
     if (r) { if (name) setCell(r._row, "name", name); setCell(r._row, "frequency", freq); setCell(r._row, "lang", lang); setCell(r._row, "audience", aud); setCell(r._row, "status", "pending"); }
     else sheet("subscribers").appendRow([email, name, freq, lang, "pending", tok, now(), "", "", aud]);
   } finally { lock.releaseLock(); }
-  var url = siteUrl_(lang) + "subscribed/?t=" + tok, html = t.body(name, url, freq);
+  var url = siteUrl_(lang) + "subscribed/?t=" + tok, html = t.body(name, url, freq.split(",").map(function (f) { return FL[lang][f]; }).join(lang === "fr" ? " et " : " and "));
   mail_(email, t.subject, html, html.replace(/<[^>]+>/g, " ") + "\n" + url);
   return out({ ok: true, message: t.pending });
 }
@@ -107,7 +111,7 @@ function send_(b) {
   var tag = String(b.tag || "weekly"), lang = /-fr$/.test(tag) ? "fr" : "en", rest = tag.replace(/-fr$/, "");
   var aud = /-academic$/.test(rest) ? "academic" : "general", freq = rest.replace(/-academic$/, "");
   if (FREQ.indexOf(freq) < 0 || !b.subject || !b.html) return out({ ok: false, message: "Need subject, html and a valid tag (freq[-academic][-fr])" });
-  var list = rows().filter(function (r) { return r.status === "confirmed" && r.frequency === freq && r.lang === lang && ((r.audience || "general") === aud); });
+  var list = rows().filter(function (r) { return r.status === "confirmed" && hasIn_(r.frequency, freq) && r.lang === lang && hasIn_(r.audience || "general", aud); });
   var quota = quota_(), sent = 0, skipped = 0, base = selfUrl();
   for (var i = 0; i < list.length; i++) {
     if (b.dry_run) { sent++; continue; }

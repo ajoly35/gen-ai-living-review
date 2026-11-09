@@ -77,7 +77,8 @@ async function subscribe(req, env) {
   const email = String(b.email || "").trim().toLowerCase();
   if (!EMAIL.test(email) || email.length > 254) return json(env, { ok: false, message: T[lang].bad }, 400);
   const name = String(b.name || "").trim().slice(0, 120);
-  const frequency = FREQ.has(b.frequency) ? b.frequency : "weekly";
+  const pick = (v, ok, d) => { const a = [...new Set((Array.isArray(v) ? v : String(v || "").split(",")).map(x => String(x).trim()).filter(x => ok.has(x)))]; return a.length ? a.join(",") : d; };
+  const frequency = pick(b.frequency, FREQ, "weekly"), audience = pick(b.audience, new Set(["general", "academic"]), "general");
   const ipHash = await sha((req.headers.get("CF-Connecting-IP") || "") + (env.SEND_TOKEN || ""));
   const row = await env.DB.prepare("SELECT id, status, token FROM subscribers WHERE email = ?").bind(email).first();
   if (row && row.status === "confirmed") {
