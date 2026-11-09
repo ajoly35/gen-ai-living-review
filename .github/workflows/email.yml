@@ -1,0 +1,79 @@
+# Clean emails for new entries. Three triggers:
+#  - push to main that changes _includes/latest.md  -> daily email (the entries added by that push)
+#  - Monday 07:00 UTC                                -> weekly digest (entries added in the last 7 days)
+#  - 1st of the month 07:10 UTC                      -> monthly digest (entries added in the last month)
+# Each run writes the email (HTML, text, Markdown) to emails/ so it can be read, exported or pasted into
+# Substack, and sends it through Buttondown to the subscribers carrying the matching tag when the
+# SUBSCRIBE_API + SEND_TOKEN secrets exist (self-hosted list, infra/subscribe-worker), or through Buttondown if only
+# BUTTONDOWN_API_KEY exists. Without any secret the send step is a dry run.
+name: Email new papers
+on:
+  push:
+    branches: [main]
+    paths: ["_includes/latest.md"]
+  schedule:
+    - cron: "0 7 * * 1"
+    - cron: "10 7 1 * *"
+  workflow_dispatch:
+    inputs:
+      kind:
+        description: daily | weekly | monthly
+        default: weekly
+permissions:
+  contents: write
+concurrency: email
+jobs:
+  email:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: Decide the kind and cut out the entries
+        id: cut
+        run: |
+          kind=daily
+          if [ "${{ github.event_name }}" = schedule ]; then
+            case "${{ github.event.schedule }}" in "0 7 * * 1") kind=weekly;; *) kind=monthly;; esac
+          elif [ "${{ github.event_name }}" = workflow_dispatch ]; then kind="${{ github.event.inputs.kind }}"; fi
+          if [ "$kind" = daily ]; then before="${{ github.event.before }}"
+          elif [ "$kind" = weekly ]; then before=$(git rev-list -1 --before="7 days ago" HEAD)
+          else before=$(git rev-list -1 --before="1 month ago" HEAD); fi
+          empty_tree=$(git hash-object -t tree /dev/null)
+          if [ -z "$before" ] || ! git cat-file -e "$before^{commit}" 2>/dev/null; then before=$empty_tree; fi
+          git diff --unified=0 "$before" HEAD -- _includes/latest.md | grep '^+' | grep -v '^+++' | sed 's/^+//' > added.md || true
+          # keep whole entries only: an edit inside an old entry adds lines without a heading
+          python3 - <<'PY'
+          import re
+          t=open("added.md",encoding="utf-8").read()
+          keep="\n".join(c if i==0 else "### "+c for i,c in enumerate(re.split(r"^### ",t,flags=re.M)) if i>0 and "**" in c)
+          open("added.md","w",encoding="utf-8").write(keep)
+          PY
+          echo "kind=$kind" >> "$GITHUB_OUTPUT"
+          if grep -q '^### ' added.md; then echo "some=true" >> "$GITHUB_OUTPUT"; else echo "some=false" >> "$GITHUB_OUTPUT"; fi
+      - name: Build the emails (English and French)
+        if: steps.cut.outputs.some == 'true'
+        id: build
+        run: |
+          python3 -I scripts/build_email.py --added added.md --kind "${{ steps.cut.outputs.kind }}" --lang en --out emails
+          python3 -I scripts/build_email.py --added added.md --kind "${{ steps.cut.outputs.kind }}" --lang fr --out emails || echo "no French entries yet"
+          echo "base=emails/$(date -u +%F)-${{ steps.cut.outputs.kind }}" >> "$GITHUB_OUTPUT"
+      - name: Keep a copy in the repository
+        if: steps.cut.outputs.some == 'true'
+        run: |
+          git config user.name "living-review-bot"; git config user.email "actions@users.noreply.github.com"
+          git add emails && git commit -m "Emails: ${{ steps.cut.outputs.kind }} $(date -u +%F) [skip ci]" && git push || echo "nothing to commit"
+      - name: Send through the self-hosted list (infra/subscribe-worker), or Buttondown if that is what is configured
+        if: steps.cut.outputs.some == 'true'
+        env:
+          SUBSCRIBE_API: ${{ secrets.SUBSCRIBE_API }}
+          SEND_TOKEN: ${{ secrets.SEND_TOKEN }}
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+        run: |
+          b="${{ steps.build.outputs.base }}"; k="${{ steps.cut.outputs.kind }}"
+          if [ -n "$SUBSCRIBE_API" ]; then
+            python3 -I scripts/send_selfhosted.py --html "$b-en.html" --text "$b-en.txt" --subject "$b-en.subject" --tag "$k"
+            [ -f "$b-fr.html" ] && python3 -I scripts/send_selfhosted.py --html "$b-fr.html" --text "$b-fr.txt" --subject "$b-fr.subject" --tag "$k-fr" || true
+          else
+            python3 -I scripts/send_buttondown.py --html "$b-en.html" --subject "$b-en.subject" --tag "$k"
+            [ -f "$b-fr.html" ] && python3 -I scripts/send_buttondown.py --html "$b-fr.html" --subject "$b-fr.subject" --tag "$k-fr" || true
+          fi

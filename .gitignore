@@ -1,0 +1,8 @@
+infra/subscribe-apps-script/Config.gs
+infra/subscribe-apps-script/.clasp.json
+infra/subscribe-apps-script/.clasprc.json
+infra/subscribe-apps-script/.deploy.json
+infra/subscribe-apps-script/.deploy.log
+infra/subscribe-apps-script/.create.log
+infra/subscribe-apps-script/.exec-url
+infra/subscribe-apps-script/node_modules/

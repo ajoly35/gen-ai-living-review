@@ -1,0 +1,44 @@
+as_of: '2026-11-09'
+n_studies: 96
+n_news: 5
+tiles:
+  en:
+  - value: '96'
+    label: studies in the review
+    compare: 34 meet the causal standard; 5 news items kept as context
+  - value: 13/22
+    label: causal labour-market studies finding fewer jobs, hires or lower pay
+    compare: 4 find no effect, 2 find gains
+  - value: 5/10
+    label: causal studies of hiring, entry or young workers that find a fall
+    compare: 3 find no effect, 1 find more hiring
+  - value: '33'
+    label: growth and productivity studies
+    compare: mostly calibrated models and growth accounting, few causal estimates
+  - value: '30'
+    label: papers added to Latest research in the last 30 days
+    compare: one paper a morning when there is one
+  - value: 10 mo
+    label: median age of the version cited
+    compare: US 30, multi 10, UK 5
+  fr:
+  - value: '96'
+    label: études dans la revue
+    compare: 34 au standard causal ; 5 articles de presse gardés pour le contexte
+  - value: 13/22
+    label: études causales sur le travail trouvant moins d'emplois, d'embauches ou
+      de salaire
+    compare: 4 sans effet, 2 avec des gains
+  - value: 5/10
+    label: études causales sur les embauches, l'entrée ou les jeunes qui trouvent
+      une baisse
+    compare: 3 sans effet, 1 avec plus d'embauches
+  - value: '33'
+    label: études sur la croissance et la productivité
+    compare: surtout des modèles calibrés et de la comptabilité de la croissance
+  - value: '30'
+    label: articles ajoutés aux Articles récents en 30 jours
+    compare: un article par matin quand il y en a un
+  - value: 10 mois
+    label: âge médian de la version citée
+    compare: US 30, multi 10, UK 5

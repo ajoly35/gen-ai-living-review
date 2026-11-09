@@ -1,0 +1,115 @@
+{%- comment -%}
+Sign-up box. Parameters: include.topic (employment | growth | productivity | all), include.lang (en | fr).
+If site.subscribe_api is set, the form posts (JSON, sent as text/plain so no preflight) to the self-hosted API: the Cloudflare Worker in
+infra/subscribe-worker (/api/subscribe) or the Apps Script web app in infra/subscribe-apps-script (?action=subscribe, URL on
+script.google.com). Confirmed opt-in, own list; name, email, frequency, lang and a honeypot field. Else if site.buttondown_username is set, the form posts to Buttondown (hosted list, double opt-in, unsubscribe link),
+with the chosen frequency stored as a tag (daily, weekly, monthly; French readers get the -fr tag) that the
+email workflow (.github/workflows/email.yml) sends to. Otherwise the form composes an email to subscribe_email.
+{%- endcomment -%}
+{%- assign topic = include.topic | default: "all" -%}
+{%- assign l = include.lang | default: "en" -%}
+{%- assign bd = site.buttondown_username -%}
+{%- assign sfx = "" -%}{%- if l == "fr" -%}{%- assign sfx = "-fr" -%}{%- endif -%}
+<section class="signup" id="signup" aria-labelledby="signup-title">
+{%- if l == "fr" %}
+  <h2 id="signup-title">Recevoir les nouvelles études par courriel</h2>
+  <p class="signup-lead">Un courriel propre et court, lisible sans être économiste : ce que l'étude trouve, pourquoi c'est important, sa limite, et les idées principales de la revue en bas. Choisissez le rythme ; aucun courriel les jours sans nouvelle étude.</p>
+{%- else %}
+  <h2 id="signup-title">Get new studies by email</h2>
+  <p class="signup-lead">
+    {%- if topic == "employment" -%}A short, clean email each time a verified study on generative AI and employment, hiring, hours or wages is added: what it finds, why it matters, its caveat, and the review's main ideas at the bottom.
+    {%- elsif topic == "growth" -%}A short, clean email each time a verified study on AI and growth, productivity scenarios or the AI investment cycle is added: what it finds, why it matters, its caveat, and the review's main ideas at the bottom.
+    {%- elsif topic == "productivity" -%}A short, clean email each time a verified study or official release on AI and measured productivity is added: what it finds, why it matters, its caveat.
+    {%- else -%}A short, clean email written for readers who are not economists: what the study finds, why it matters, its caveat, and the review's main ideas at the bottom. Pick a rhythm; no email on days without a new study.
+    {%- endif -%}
+  </p>
+{%- endif %}
+
+{%- assign api = site.subscribe_api -%}
+{%- if api and api != "" %}
+  {%- if api contains "script.google.com" -%}{%- assign sub_url = api | append: "?action=subscribe" -%}{%- else -%}{%- assign sub_url = api | append: "/api/subscribe" -%}{%- endif %}
+  <form class="signup-form" id="sh-form" action="{{ sub_url }}" method="post" data-lang="{{ l }}">
+    <div class="signup-row">
+      <label for="sh-name">{% if l == "fr" %}Prénom et nom (facultatif){% else %}Name (optional){% endif %}</label>
+      <input id="sh-name" name="name" type="text" autocomplete="name">
+    </div>
+    <div class="signup-row">
+      <label for="sh-email">{% if l == "fr" %}Courriel{% else %}Email{% endif %}</label>
+      <input id="sh-email" name="email" type="email" autocomplete="email" required inputmode="email" placeholder="{% if l == 'fr' %}vous@exemple.org{% else %}you@example.org{% endif %}">
+    </div>
+    <fieldset class="signup-freq">
+      <legend>{% if l == "fr" %}Rythme{% else %}How often{% endif %}</legend>
+      <label><input type="radio" name="frequency" value="daily"> {% if l == "fr" %}Chaque nouvelle étude, le matin{% else %}Each new study, in the morning{% endif %}</label>
+      <label><input type="radio" name="frequency" value="weekly" checked> {% if l == "fr" %}Un résumé le lundi{% else %}One digest on Mondays{% endif %}</label>
+      <label><input type="radio" name="frequency" value="monthly"> {% if l == "fr" %}Un résumé le 1er du mois{% else %}One digest on the 1st of the month{% endif %}</label>
+    </fieldset>
+    <input type="hidden" name="lang" value="{{ l }}">
+    <input type="text" name="hp" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-10000px;width:1px;height:1px;opacity:0">
+    <div class="signup-actions">
+      <button type="submit" class="btn btn-primary">{% if l == "fr" %}S'inscrire{% else %}Sign up{% endif %}</button>
+      <span class="signup-note">{% if l == "fr" %}Inscription confirmée par courriel, désinscription en un clic dans chaque envoi. Liste tenue par Adrien Joly, sans plateforme de newsletter.{% else %}Confirmed opt-in: you click a link in a first email; every message has a one-click unsubscribe. The list is kept by Adrien Joly, not by a newsletter platform.{% endif %}</span>
+    </div>
+    <p class="signup-done" id="sh-msg" role="status" hidden></p>
+  </form>
+  <script>
+  (function(){var f=document.getElementById('sh-form'),m=document.getElementById('sh-msg');if(!f)return;
+    f.addEventListener('submit',function(e){e.preventDefault();var d={};new FormData(f).forEach(function(v,k){d[k]=v;});
+      var btn=f.querySelector('button');btn.disabled=true;
+      fetch(f.getAttribute('action'),{method:'POST',headers:{'Content-Type':'text/plain;charset=UTF-8'},body:JSON.stringify(d)})
+        .then(function(r){return r.json();}).then(function(j){m.textContent=j.message||(j.ok?'OK':'Error');m.hidden=false;if(j.ok){f.email.value='';}})
+        .catch(function(){m.textContent=(f.getAttribute('data-lang')==='fr')?'Le serveur ne répond pas ; réessayez dans un instant.':'The server did not answer; please try again in a moment.';m.hidden=false;})
+        .finally(function(){btn.disabled=false;});});})();
+  </script>
+{%- elsif bd and bd != "" %}
+  <form class="signup-form" action="https://buttondown.com/api/emails/embed-subscribe/{{ bd }}" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/{{ bd }}', 'popupwindow')">
+    <div class="signup-row">
+      <label for="bd-email">{% if l == "fr" %}Courriel{% else %}Email{% endif %}</label>
+      <input id="bd-email" name="email" type="email" autocomplete="email" required placeholder="{% if l == 'fr' %}vous@exemple.org{% else %}you@example.org{% endif %}">
+    </div>
+    <fieldset class="signup-freq">
+      <legend>{% if l == "fr" %}Rythme{% else %}How often{% endif %}</legend>
+      <label><input type="radio" name="tag" value="daily{{ sfx }}"> {% if l == "fr" %}Chaque nouvelle étude (le matin){% else %}Each new study, in the morning{% endif %}</label>
+      <label><input type="radio" name="tag" value="weekly{{ sfx }}" checked> {% if l == "fr" %}Un résumé le lundi{% else %}One digest on Mondays{% endif %}</label>
+      <label><input type="radio" name="tag" value="monthly{{ sfx }}"> {% if l == "fr" %}Un résumé le 1er du mois{% else %}One digest on the 1st of the month{% endif %}</label>
+    </fieldset>
+    <input type="hidden" name="embed" value="1">
+    <div class="signup-actions">
+      <button type="submit" class="btn btn-primary">{% if l == "fr" %}S'inscrire{% else %}Sign up{% endif %}</button>
+      <span class="signup-note">{% if l == "fr" %}Confirmation par courriel, lien de désinscription dans chaque envoi. Liste tenue par Buttondown.{% else %}You confirm by email; every message has an unsubscribe link. List hosted by Buttondown.{% endif %}</span>
+    </div>
+  </form>
+{%- else %}
+  <form class="signup-form" id="signup-form" action="mailto:{{ site.subscribe_email }}" method="get" data-topic="{{ topic }}">
+    <div class="signup-row">
+      <label for="signup-email">{% if l == "fr" %}Courriel{% else %}Email{% endif %}</label>
+      <input id="signup-email" name="email" type="email" autocomplete="email" required placeholder="you@example.org">
+    </div>
+    <fieldset class="signup-freq">
+      <legend>{% if l == "fr" %}Rythme{% else %}How often{% endif %}</legend>
+      <label><input type="radio" name="frequency" value="daily"> {% if l == "fr" %}Chaque nouvelle étude{% else %}Each new study{% endif %}</label>
+      <label><input type="radio" name="frequency" value="weekly" checked> {% if l == "fr" %}Hebdomadaire{% else %}Weekly{% endif %}</label>
+      <label><input type="radio" name="frequency" value="monthly"> {% if l == "fr" %}Mensuel{% else %}Monthly{% endif %}</label>
+    </fieldset>
+    <div class="signup-actions">
+      <button type="submit" class="btn btn-primary">{% if l == "fr" %}S'inscrire{% else %}Sign up{% endif %}</button>
+      <span class="signup-note">{% if l == "fr" %}Ouvre un courriel à{% else %}Opens an email to{% endif %} <span class="mono">{{ site.subscribe_email }}</span>. {% if l == "fr" %}Vous êtes ajouté à la main, en général sous un jour.{% else %}You are added by hand, usually within a day.{% endif %}</span>
+    </div>
+  </form>
+  <script>
+  (function(){var f=document.getElementById('signup-form');if(!f)return;f.addEventListener('submit',function(e){e.preventDefault();
+    var em=f.email.value,fr=(f.querySelector('input[name=frequency]:checked')||{}).value||'weekly';
+    var s=encodeURIComponent('Living review: sign up ('+fr+')'),b=encodeURIComponent('Please add '+em+' to the '+fr+' list, topic: '+f.getAttribute('data-topic')+'.');
+    window.location.href=f.getAttribute('action')+'?subject='+s+'&body='+b;});})();
+  </script>
+{%- endif %}
+
+  <div class="signup-alt">
+    <p class="signup-alt-title">{% if l == "fr" %}Sans intermédiaire{% else %}Two routes that need no one in the loop{% endif %}</p>
+    <ul>
+      <li><a class="btn btn-secondary" href="https://github.com/ajoly35/gen-ai-living-review" rel="noopener">{% if l == "fr" %}Suivre les publications GitHub{% else %}Watch releases on GitHub{% endif %}</a> <span class="signup-note">{% if l == "fr" %}Sur la page du dépôt : Watch, Custom, Releases. Une notification par entrée, en anglais.{% else %}On the repository page: Watch, then Custom, then Releases. One notification per entry, raw text.{% endif %}</span></li>
+      <li><a class="btn btn-secondary" href="https://github.com/ajoly35/gen-ai-living-review/releases.atom" rel="noopener">RSS</a> <span class="signup-note">{% if l == "fr" %}Pour un lecteur de flux.{% else %}For a feed reader, or an RSS-to-email service of your choice.{% endif %}</span></li>
+    </ul>
+  </div>
+  <p class="signup-submit">{% if l == "fr" %}Un article que la revue devrait couvrir ?{% else %}Have a paper the review should cover?{% endif %} <a href="https://github.com/ajoly35/gen-ai-living-review/issues/new?template=paper.yml" rel="noopener">{% if l == "fr" %}Proposez-le ici{% else %}Submit it here{% endif %}</a>. {% if l == "fr" %}Il est vérifié sur son texte intégral avant d'apparaître.{% else %}It is checked against its full text before it appears.{% endif %}</p>
+  <p class="signup-archive"><a href="{{ '/emails/' | relative_url }}">{% if l == "fr" %}Courriels envoyés (archive){% else %}Past emails (archive){% endif %}</a></p>
+</section>

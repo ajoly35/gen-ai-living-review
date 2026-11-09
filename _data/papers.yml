@@ -1,0 +1,2288 @@
+# Every study cited in the living review (review.md), its Latest research
+# section (latest.md) and the companion growth review (Gen-AI-and-growth,
+# draft/review-v8.tex). One item per distinct study. Built 2026-11-09 from the
+# site files and the growth-review ledger only; null = not stated in them.
+#
+# Field notes
+#   date            YYYY-MM of the version cited; YYYY-01 + date_precision: year when only a year is given
+#   added           review-body papers: 2026-10-17 (site live); Latest entries: provenance date (proxy);
+#                   growth-review-only papers: 2026-10-13 (ledger first pass) or 2026-11-09 (v8 additions)
+#   causal          meets the review's causal standard as the review labels it
+#   direction       sign of the GenAI effect on the main labour outcome (growth papers: growth effect)
+#   magnitude       headline number as the review states it (growth review: ledger headline if the draft gives none)
+
+# ---------------------------------------------------------------------------
+# Review body (review.md / references-review.md)
+# ---------------------------------------------------------------------------
+
+- key: acemoglu-autor-johnson-2026
+  authors: "Acemoglu et al."
+  year: 2026
+  title: "Building Pro-Worker Artificial Intelligence"
+  date: "2026-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "NBER WP"
+  theme: organisation
+  design: theory
+  causal: false
+  outcome: "direction of technology (automation, augmentation, expertise levelling, new tasks)"
+  direction: not-applicable
+  magnitude: null
+  population: "all workers"
+  country: null
+  url: null
+  note: "Classifies technologies by what they do to the value of workers' expertise; also tier-B in the growth ledger, not cited there."
+
+- key: acemoglu-restrepo-2022
+  authors: "Acemoglu and Restrepo"
+  year: 2022
+  title: "Tasks, Automation, and the Rise in US Wage Inequality"
+  date: "2022-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "Econometrica"
+  theme: wages
+  design: structural-or-calibrated-model
+  causal: false
+  outcome: "US wage structure"
+  direction: not-applicable
+  magnitude: "automation accounts for 50 to 70% of the change in the US wage structure over four decades"
+  population: "all workers"
+  country: "US"
+  url: null
+  note: "Pre-GenAI automation; cited for the distributional precedent."
+
+- key: aghion-bunel-jaravel-2025
+  authors: "Aghion et al."
+  year: 2025
+  title: "How Different Uses of AI Shape Labor Demand: Evidence from France"
+  date: "2025-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "AEA Papers and Proceedings"
+  theme: employment
+  design: adoption-did
+  causal: true
+  outcome: "employment at AI-adopting firms (pre-GenAI)"
+  direction: positive
+  magnitude: null
+  population: "firms"
+  country: "France"
+  url: null
+  note: "Cited for the pre-GenAI scale effect: growth at adopters offset most of the fall in demand for exposed work."
+
+- key: azar-2026a
+  authors: "Azar et al."
+  year: 2026
+  title: "The College Wage Premium in the Generative AI Era"
+  date: "2026-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "SSRN"
+  theme: wages
+  design: exposure-did
+  causal: true
+  outcome: "occupational wages; college wage premium"
+  direction: negative
+  magnitude: "-4.9% wages by 2026 for a move from the 10th to the 90th percentile of exposure; college premium -5.3 log points 2022 to 2026"
+  population: "all workers; college graduates"
+  country: null
+  url: null
+  note: "Event study 2018 to 2026, base year 2022; exposure gap explains 28 to 32% of the fall in the college premium."
+
+- key: azar-2026b
+  authors: "Azar et al."
+  year: 2026
+  title: "The Wage Effects of Generative AI"
+  date: "2026-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "SSRN"
+  theme: wages
+  design: exposure-did
+  causal: true
+  outcome: "wages and employment by occupational exposure"
+  direction: negative
+  magnitude: "same -4.9% wage estimate in the employer survey; no detectable change in employment"
+  population: "all workers"
+  country: null
+  url: null
+  note: "Exposed occupations adjust through pay rather than headcount."
+
+- key: babina-2023
+  authors: "Babina et al."
+  year: 2023
+  title: "Firm Investments in Artificial Intelligence Technologies and Changes in Workforce Composition"
+  date: "2023-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "University of Chicago Press (NBER volume)"
+  theme: organisation
+  design: descriptive-or-survey
+  causal: false
+  outcome: "firm hierarchy (junior, middle-management and senior shares)"
+  direction: positive
+  magnitude: "1 SD higher share of AI workers: +1.6% junior share, -0.8% middle management, -0.7% senior roles (2010 to 2018)"
+  population: "firms"
+  country: "US"
+  url: null
+  note: "Pre-GenAI; firm-level correlation between AI hiring and flattening."
+
+- key: bergeaud-bertheau-2026
+  authors: "Bergeaud, Bertheau, et al."
+  year: 2026
+  title: "IA Générative : Un Gel Des Embauches de Jeunes Dans Les Métiers Exposés"
+  date: "2026-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "LIFT HEC Paris policy paper"
+  theme: employment
+  design: exposure-did
+  causal: true
+  outcome: "young hires on permanent contracts"
+  direction: negative
+  magnitude: "-28.3% permanent hires of 21 to 29 year olds in the most exposed fifth of occupations vs -7.5% in the least exposed fifth, Nov 2022 to Mar 2026"
+  population: "young workers (21 to 29)"
+  country: "France"
+  url: null
+  note: "Dares hiring and separation records; firm-level match to Banque de France survey: intensive AI users cut young permanent hires 17 to 25%."
+
+- key: bergeaud-bunel-2026
+  authors: "Bergeaud and Bunel"
+  year: 2026
+  title: "Pourquoi l’IA Ne Rend Pas (Encore) La France Plus Productive"
+  date: "2026-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "LIFT HEC Paris policy paper"
+  theme: adoption-diffusion
+  design: descriptive-or-survey
+  causal: false
+  outcome: "firm adoption of AI"
+  direction: not-applicable
+  magnitude: "18% of French firms with 10+ employees used AI in 2025 vs 26% in Germany"
+  population: "firms"
+  country: "France"
+  url: null
+  note: "Attributes the gap to management practices and restructuring costs."
+
+- key: bergeaud-delbouve-2026
+  authors: "Bergeaud, Delbouve, et al."
+  year: 2026
+  title: "L’augmentation Des Factures d’IA Et La Montée de l’open Weight"
+  date: "2026-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "LIFT HEC Paris policy paper"
+  theme: adoption-diffusion
+  design: descriptive-or-survey
+  causal: false
+  outcome: "firms' AI spending and open-weight model share"
+  direction: not-applicable
+  magnitude: "open weight models 40% to 73% of OpenRouter tokens Jan to Aug 2026, 11% to 34% of spending"
+  population: "firms and developers"
+  country: "multi"
+  url: null
+  note: null
+
+- key: bick-blandin-deming-2024
+  authors: "Bick et al."
+  year: 2024
+  title: "The Rapid Adoption of Generative AI"
+  date: "2024-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "NBER WP"
+  theme: adoption-diffusion
+  design: descriptive-or-survey
+  causal: false
+  outcome: "GenAI use at work"
+  direction: not-applicable
+  magnitude: "college graduates twice as likely as others to use GenAI at work"
+  population: "all workers"
+  country: "US"
+  url: null
+  note: null
+
+- key: bonin-darougheh-kuchler-2026
+  authors: "Bonin et al."
+  year: 2026
+  title: "AI Adoption and Firm Size: Employment Effects in Monthly Administrative Data"
+  date: "2026-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "Danmarks Nationalbank WP"
+  theme: employment
+  design: adoption-did
+  causal: true
+  outcome: "employment at adopting firms"
+  direction: negative
+  magnitude: "-11% employment vs trend by late 2025 at adopters, entirely in firms under 100 employees; -20% for workers under 30"
+  population: "firms; workers under 30"
+  country: "Denmark"
+  url: null
+  note: "Adoption dated from Denmark's IT use survey."
+
+- key: brynjolfsson-collis-2026
+  authors: "Brynjolfsson et al."
+  year: 2026
+  title: "What Is Generative AI Worth?"
+  date: "2026-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "Stanford Digital Economy Lab WP"
+  theme: theory-other
+  design: lab-or-online-experiment
+  causal: false
+  outcome: "consumer surplus from chatbots"
+  direction: not-applicable
+  magnitude: "average US user would need $124.50 a month to give up chatbots (median $11.40); $172bn a year of consumer surplus vs about $14bn of consumer revenue"
+  population: "consumers"
+  country: "US"
+  url: null
+  note: "Growth ledger lists the same paper as nguyen2026worth (choice experiments, SSRN, pdf-needed, not cited there)."
+
+- key: brynjolfsson-li-raymond-2025
+  authors: "Brynjolfsson et al."
+  year: 2025
+  title: "Generative AI at Work"
+  date: "2025-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: [review, growth-review]
+  series: "Quarterly Journal of Economics"
+  theme: productivity
+  design: field-experiment
+  causal: true
+  outcome: "resolutions per hour"
+  direction: positive
+  magnitude: "+14% resolutions per hour on average, +34% for the least productive fifth of agents"
+  population: "customer support agents (5,179)"
+  country: "US"
+  url: null
+  note: "Staggered rollout of a GPT-based assistant at a Fortune 500 software firm."
+
+- key: chandar-klein-teeselink-2026
+  authors: "Chandar and Klein Teeselink"
+  year: 2026
+  title: "How Does AI Change Labor Demand? Evidence from 41 Countries"
+  date: "2026-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "Stanford Digital Economy Lab WP"
+  theme: employment
+  design: adoption-did
+  causal: true
+  outcome: "junior and senior employment at adopting multinational affiliates"
+  direction: mixed
+  magnitude: "senior employment +6.7%; junior employment -2.5% (insignificant)"
+  population: "affiliates of multinational firms"
+  country: "multi"
+  url: null
+  note: "Matched affiliates, adoption instrumented with adoption by other multinationals in the parent's city."
+
+- key: coatanlem-coste-2025
+  authors: "Coatanlem and Coste"
+  year: 2025
+  title: "Cost of Failure, Disruptive Innovation and Targeted Flexicurity: More Evidence Supporting Targeted Reforms"
+  date: "2025-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "IEP@BU Bocconi WP"
+  theme: organisation
+  design: descriptive-or-survey
+  causal: false
+  outcome: "cost of laying off a worker"
+  direction: not-applicable
+  magnitude: "38 months of salary in France vs 31 in Germany, 7 in the US, 3.3 in Denmark"
+  population: "large firms"
+  country: "multi"
+  url: null
+  note: null
+
+- key: coyle-2026
+  authors: "Coyle et al."
+  year: 2026
+  title: "More Than Just Plug and Play: Early Evidence on Organisational Capital and AI Adoption"
+  date: "2026-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "Bennett School of Public Policy WP"
+  theme: organisation
+  design: descriptive-or-survey
+  causal: false
+  outcome: "firm AI adoption by management quality"
+  direction: not-applicable
+  magnitude: "top tenth of structured management scores adopt AI about 10 pp more than the bottom tenth"
+  population: "firms (1,292)"
+  country: "UK"
+  url: null
+  note: "ONS Management and Expectations Survey; same practices do not predict robots or specialised software."
+
+- key: cruces-2026
+  authors: "Cruces et al."
+  year: 2026
+  title: "Does Generative AI Narrow Education-Based Productivity Gaps? Evidence from a Randomized Experiment"
+  date: "2026-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "NBER WP"
+  theme: productivity
+  design: field-experiment
+  causal: true
+  outcome: "productivity on task by education"
+  direction: positive
+  magnitude: null
+  population: "workers with less education"
+  country: null
+  url: null
+  note: "Listed among experiments finding the largest gains for less educated or lower-baseline workers."
+
+- key: cui-dias-ye-2025
+  authors: "Cui et al."
+  year: 2025
+  title: "Signaling in the Age of AI: Evidence from Cover Letters"
+  date: "2025-09"
+  date_precision: month
+  added: "2026-10-17"
+  source: review
+  series: "arXiv"
+  theme: employment
+  design: online-labour-market
+  causal: true
+  outcome: "employer callbacks; signal value of cover letters"
+  direction: negative
+  magnitude: "link between letter-job match and callbacks cut by 51%"
+  population: "job applicants; labour market entrants"
+  country: null
+  url: null
+  note: "Employers relied more on work histories, which entrants lack."
+
+- key: cui-demirer-2026
+  authors: "Cui et al."
+  year: 2026
+  title: "The Effects of Generative AI on High-Skilled Work: Evidence from Three Field Experiments with Software Developers"
+  date: "2026-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "Management Science"
+  theme: productivity
+  design: field-experiment
+  causal: true
+  outcome: "tasks completed"
+  direction: positive
+  magnitude: "+26% tasks completed with a coding assistant"
+  population: "software developers"
+  country: null
+  url: null
+  note: null
+
+- key: dellacqua-2025
+  authors: "Dell’Acqua et al."
+  year: 2025
+  title: "The Cybernetic Teammate: A Field Experiment on Generative AI Reshaping Teamwork and Expertise"
+  date: "2025-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "NBER WP"
+  theme: organisation
+  design: field-experiment
+  causal: true
+  outcome: "solution quality, individuals vs pairs with and without AI"
+  direction: positive
+  magnitude: "individual with AI +0.37 SD solution quality, above a pair without AI (+0.24)"
+  population: "Procter & Gamble professionals (776)"
+  country: null
+  url: null
+  note: null
+
+- key: dellacqua-2023
+  authors: "Dell’Acqua et al."
+  year: 2023
+  title: "Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of AI on Knowledge Worker Productivity and Quality"
+  date: "2023-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "Harvard Business School WP"
+  theme: productivity
+  design: field-experiment
+  causal: true
+  outcome: "task productivity and quality"
+  direction: mixed
+  magnitude: null
+  population: "consultants"
+  country: null
+  url: null
+  note: "Largest gains for lower-baseline workers; consultants performed worse on a problem beyond GPT-4's capabilities."
+
+- key: demirer-horton-2026
+  authors: "Demirer et al."
+  year: 2026
+  title: "Chaining Tasks, Redefining Work: A Theory of AI Automation"
+  date: "2026-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "NBER WP"
+  theme: theory-other
+  design: theory
+  causal: false
+  outcome: "automatability of jobs with chained vs scattered exposed steps"
+  direction: not-applicable
+  magnitude: null
+  population: "all workers"
+  country: null
+  url: null
+  note: null
+
+- key: dillon-2025
+  authors: "Dillon et al."
+  year: 2025
+  title: "Shifting Work Patterns with Generative AI"
+  date: "2025-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "NBER WP"
+  theme: organisation
+  design: field-experiment
+  causal: true
+  outcome: "time use (email, meetings) and task composition"
+  direction: mixed
+  magnitude: "-1.4 hours a week on email (12% of pre-experiment time); meeting time and task mix unchanged"
+  population: "knowledge workers (7,137 in 66 firms)"
+  country: null
+  url: null
+  note: "Randomised Copilot access over six months; no reorganisation, no new tasks."
+
+- key: eloundou-2024
+  authors: "Eloundou et al."
+  year: 2024
+  title: "GPTs Are GPTs: Labor Market Impact Potential of LLMs"
+  date: "2024-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: [review, growth-review]
+  series: "Science"
+  theme: theory-other
+  design: descriptive-or-survey
+  causal: false
+  outcome: "task and occupational exposure to LLMs"
+  direction: not-applicable
+  magnitude: "20% of US tasks exposed (as used by Acemoglu 2025)"
+  population: "all workers"
+  country: "US"
+  url: null
+  note: "Defines exposure: LLM could halve task time at equal quality."
+
+- key: facius-iacono-2026
+  authors: "Facius and Iacono"
+  year: 2026
+  title: "Labor Market Consequences of Generative AI: Early Evidence from Norway"
+  date: "2026-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "CESifo WP"
+  theme: employment
+  design: exposure-did
+  causal: true
+  outcome: "young workers' employment within firms"
+  direction: "null"
+  magnitude: "small and insignificant declines; larger estimates at placebo dates before ChatGPT"
+  population: "young workers"
+  country: "Norway"
+  url: null
+  note: null
+
+- key: frank-2026
+  authors: "Frank et al."
+  year: 2026
+  title: "AI-Exposed Jobs Deteriorated Before ChatGPT"
+  date: "2026-01"
+  date_precision: month
+  added: "2026-10-17"
+  source: review
+  series: "arXiv"
+  theme: employment
+  design: descriptive-or-survey
+  causal: false
+  outcome: "unemployment risk in exposed jobs"
+  direction: not-applicable
+  magnitude: "unemployment risk in exposed jobs rose from early 2022"
+  population: "workers in exposed occupations"
+  country: null
+  url: null
+  note: "Pre-trend evidence: part of the decline predates GenAI."
+
+- key: gambacorta-2024
+  authors: "Gambacorta et al."
+  year: 2024
+  title: "Generative AI and Labour Productivity: A Field Experiment on Coding"
+  date: "2024-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "BIS WP"
+  theme: productivity
+  design: field-experiment
+  causal: true
+  outcome: "coding productivity"
+  direction: positive
+  magnitude: null
+  population: "programmers"
+  country: null
+  url: null
+  note: "Listed among experiments finding the largest gains for lower-baseline or junior workers."
+
+- key: gans-goldfarb-2026
+  authors: "Gans and Goldfarb"
+  year: 2026
+  title: "O-Ring Automation"
+  date: "2026-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "NBER WP"
+  theme: theory-other
+  design: theory
+  causal: false
+  outcome: "labour income under partial automation"
+  direction: not-applicable
+  magnitude: null
+  population: "all workers"
+  country: null
+  url: null
+  note: "Also tier-B in the growth ledger, not cited there."
+
+- key: garicano-2000
+  authors: "Garicano"
+  year: 2000
+  title: "Hierarchies and the Organization of Knowledge in Production"
+  date: "2000-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "Journal of Political Economy"
+  theme: organisation
+  design: theory
+  causal: false
+  outcome: "knowledge hierarchies and the need for managers"
+  direction: not-applicable
+  magnitude: null
+  population: "firms"
+  country: null
+  url: null
+  note: "Pre-AI classic underlying the knowledge-hierarchy argument."
+
+- key: garicano-2026
+  authors: "Garicano"
+  year: 2026
+  title: "The Vanishing Advantage of Specialization: AI, Knowledge Utilization, and the Boundary of the Firm"
+  date: "2026-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "Brookings Papers on Economic Activity conference draft"
+  theme: employment
+  design: descriptive-or-survey
+  causal: false
+  outcome: "employment of expert occupations outside specialist industries"
+  direction: positive
+  magnitude: "US employment of lawyers, accountants, software developers and management analysts +2.5% a year 2022 to 2025; 99% of 337,000 jobs added outside specialist industries"
+  population: "expert occupations"
+  country: "US"
+  url: null
+  note: "The review labels this descriptive."
+
+- key: garicano-li-wu-2026
+  authors: "Garicano et al."
+  year: 2026
+  title: "Weak Bundle, Strong Bundle: How AI Redraws Job Boundaries"
+  date: "2026-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "CEPR DP"
+  theme: theory-other
+  design: theory
+  causal: false
+  outcome: "job boundaries when tasks are bundled by judgment and relationships"
+  direction: not-applicable
+  magnitude: null
+  population: "all workers"
+  country: null
+  url: null
+  note: null
+
+- key: garicano-rayo-2025
+  authors: "Garicano and Rayo"
+  year: 2025
+  title: "Training in the Age of AI: A Theory of Career Viability"
+  date: "2025-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "CEPR DP"
+  theme: education-training
+  design: theory
+  causal: false
+  outcome: "on-the-job training of juniors"
+  direction: not-applicable
+  magnitude: null
+  population: "junior workers"
+  country: null
+  url: null
+  note: "Firms keep training juniors only if a trained expert stays far more productive than a novice."
+
+- key: hampole-2025
+  authors: "Hampole et al."
+  year: 2025
+  title: "Artificial Intelligence and the Labor Market"
+  date: "2025-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "NBER WP"
+  theme: employment
+  design: adoption-did
+  causal: true
+  outcome: "employment at AI-adopting firms (pre-GenAI)"
+  direction: mixed
+  magnitude: null
+  population: "firms"
+  country: "US"
+  url: null
+  note: "Pre-GenAI: growth at adopters offset most of the fall in demand for exposed work; source of the integrator-vacancy keyword method."
+
+- key: hartley-2026
+  authors: "Hartley et al."
+  year: 2026
+  title: "Job Loss Fears in the First Years of Generative Artificial Intelligence"
+  date: "2026-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "SSRN"
+  theme: adoption-diffusion
+  design: descriptive-or-survey
+  causal: false
+  outcome: "GenAI use at work; perceived job loss risk"
+  direction: not-applicable
+  magnitude: "30 to 40% of US workers use GenAI at work; workers put a 20% probability on losing their job to GenAI within two years"
+  population: "all workers"
+  country: "US"
+  url: null
+  note: null
+
+- key: hernaes-kostol-2026
+  authors: "Hernæs and Kostøl"
+  year: 2026
+  title: "Has AI Widened Employment Gaps? Tracking Early-Career Employment by Occupational Exposure in Norway"
+  date: "2026-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "IZA DP"
+  theme: employment
+  design: exposure-did
+  causal: true
+  outcome: "early-career employment by exposure"
+  direction: "null"
+  magnitude: "small and insignificant declines"
+  population: "young workers"
+  country: "Norway"
+  url: null
+  note: null
+
+- key: hoffmann-2025
+  authors: "Hoffmann et al."
+  year: 2025
+  title: "Generative AI and the Nature of Work"
+  date: "2025-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "Harvard Business School WP"
+  theme: organisation
+  design: adoption-did
+  causal: true
+  outcome: "task mix: coding vs coordinating others"
+  direction: not-applicable
+  magnitude: "coding share +5.4 pp (12.4%); coordination share -10 pp (24.9%)"
+  population: "open source developers"
+  country: "multi"
+  url: null
+  note: "Regression discontinuity at the GitHub ranking that granted free Copilot access; classed as adoption-did for want of a closer category."
+
+- key: hosseini-lichtinger-2025
+  authors: "Hosseini and Lichtinger"
+  year: 2025
+  title: "Generative AI as Seniority-Biased Technological Change: Evidence from U.S. Résumé and Job Posting Data"
+  date: "2025-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "SSRN"
+  theme: employment
+  design: adoption-did
+  causal: true
+  outcome: "junior employment at adopting firms"
+  direction: negative
+  magnitude: "junior employment about 9% lower six quarters after adoption; 4 fewer junior hires a quarter vs 5.1 before; seniors unaffected"
+  population: "junior workers at adopting firms (Revelio, 65m workers, 281,000 firms)"
+  country: "US"
+  url: null
+  note: "Adoption dated to the first GenAI integrator vacancy; 10,433 adopters by March 2025."
+
+- key: hosseini-lichtinger-2026
+  authors: "Hosseini and Lichtinger"
+  year: 2026
+  title: "Generative AI and Occupational Entry Barriers: The Labor-Supply Channel of Technological Change"
+  date: "2026-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "SSRN"
+  theme: wages
+  design: structural-or-calibrated-model
+  causal: false
+  outcome: "wage inequality (90-50 gap) via productivity and eligibility shifts"
+  direction: mixed
+  magnitude: "productivity alone widens the 90-50 gap from 0.73 to 0.86 log points; eligibility alone narrows it to 0.67; both 0.79"
+  population: "all workers"
+  country: null
+  url: null
+  note: "Demand elasticity set to 5; 80% of the eligibility effect takes nine years; predicts more entry into exposed occupations, whereas entry fell."
+
+- key: hui-reshef-zhou-2024
+  authors: "Hui et al."
+  year: 2024
+  title: "The Short-Term Effects of Generative Artificial Intelligence on Employment: Evidence from an Online Labor Market"
+  date: "2024-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "Organization Science"
+  theme: employment
+  design: online-labour-market
+  causal: true
+  outcome: "freelance jobs and earnings"
+  direction: negative
+  magnitude: "monthly jobs -2%, earnings -5.2% for writing freelancers"
+  population: "freelancers in writing"
+  country: null
+  url: null
+  note: null
+
+- key: humlum-vestergaard-2025
+  authors: "Humlum and Vestergaard"
+  year: 2025
+  title: "Still Waters, Rapid Currents: Early Labor Market Transformation Under Generative AI"
+  date: "2025-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "NBER WP"
+  theme: employment
+  design: survey-linked-registers
+  causal: true
+  outcome: "earnings, hours, workplace employment and early-career hiring"
+  direction: "null"
+  magnitude: "users' earnings and hours unchanged; no change in employment, wage bills or early-career hiring at encouraging workplaces; 8% of users report new tasks (17% where encouraged)"
+  population: "workers in 11 exposed occupations (25,000)"
+  country: "Denmark"
+  url: null
+  note: "Also tier-B in the growth ledger, not cited there."
+
+- key: ide-talamas-2025
+  authors: "Ide and Talamàs"
+  year: 2025
+  title: "Artificial Intelligence in the Knowledge Economy"
+  date: "2025-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "Journal of Political Economy"
+  theme: organisation
+  design: theory
+  causal: false
+  outcome: "who gains from assistant vs autonomous AI in knowledge hierarchies"
+  direction: not-applicable
+  magnitude: null
+  population: "all workers"
+  country: null
+  url: null
+  note: null
+
+- key: kauhanen-rouvinen-2025
+  authors: "Kauhanen and Rouvinen"
+  year: 2025
+  title: "Assessing Early Labour Market Effects of Generative AI: Evidence from Population Data"
+  date: "2025-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "Applied Economics Letters"
+  theme: employment
+  design: synthetic-control-or-event-study
+  causal: true
+  outcome: "total employment"
+  direction: "null"
+  magnitude: "no effect on total employment"
+  population: "all wage earners"
+  country: "Finland"
+  url: null
+  note: "Synthetic difference in differences; Domnisoru and Heikkinen (2026) extend it to March 2026 with the same result."
+
+- key: kharazian-2026
+  authors: "Kharazian et al."
+  year: 2026
+  title: "A New Look at AI’s Impact on Jobs: Firm-Level AI Spending and Workforce Adjustment"
+  date: "2026-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "SSRN"
+  theme: employment
+  design: adoption-did
+  causal: true
+  outcome: "headcount and entry-level headcount at adopting firms"
+  direction: positive
+  magnitude: "top third of AI spenders +10% headcount, +12% entry-level headcount"
+  population: "firms (21,559 adopters)"
+  country: "US"
+  url: null
+  note: "Adoption dated to three consecutive months of at least $100 spent on AI vendors; spending selects firms already growing."
+
+- key: klaui-siegenthaler-2025
+  authors: "Kläui and Siegenthaler"
+  year: 2025
+  title: "KI Und Der Schweizer Arbeitsmarkt: Erste Evidenz Zu Auswirkungen Auf Arbeitslosigkeit Und Stellenausschreibungen"
+  date: "2025-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "KOF Studien"
+  theme: employment
+  design: exposure-did
+  causal: true
+  outcome: "registered unemployed job seekers"
+  direction: negative
+  magnitude: "unemployed job seekers rose by up to 27% more in highly exposed occupations after autumn 2022"
+  population: "job seekers"
+  country: "Switzerland"
+  url: null
+  note: null
+
+- key: klein-teeselink-2025
+  authors: "Klein Teeselink"
+  year: 2025
+  title: "Generative AI and Labor Market Outcomes: Evidence from the United Kingdom"
+  date: "2025-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "SSRN"
+  theme: employment
+  design: exposure-did
+  causal: true
+  outcome: "junior employment at exposed firms"
+  direction: negative
+  magnitude: "1 SD more exposure lowers junior employment by 0.4%"
+  population: "junior workers; firms"
+  country: "UK"
+  url: null
+  note: null
+
+- key: klein-teeselink-carey-2026
+  authors: "Klein Teeselink and Carey"
+  year: 2026
+  title: "AI, Automation, and Expertise"
+  date: "2026-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "SSRN"
+  theme: employment
+  design: exposure-did
+  causal: true
+  outcome: "job postings"
+  direction: negative
+  magnitude: "1 SD more exposure lowers postings by 6.2%, more where employment protection is stricter"
+  population: "job postings in 39 countries"
+  country: "multi"
+  url: null
+  note: null
+
+- key: kwa-2025
+  authors: "Kwa et al."
+  year: 2025
+  title: "Measuring AI Ability to Complete Long Software Tasks"
+  date: "2025-03"
+  date_precision: month
+  added: "2026-10-17"
+  source: review
+  series: "arXiv"
+  theme: theory-other
+  design: descriptive-or-survey
+  causal: false
+  outcome: "length of software tasks frontier models complete at 50% success"
+  direction: not-applicable
+  magnitude: "doubling about every seven months since 2019"
+  population: "AI models"
+  country: null
+  url: null
+  note: "METR time-horizon trend; Tadepalli (2026) builds on the 131-day doubling."
+
+- key: lichtinger-hosseini-2026
+  authors: "Lichtinger and Hosseini"
+  year: 2026
+  title: "AI and the Distribution of Prosperity: A Unified Framework for Understanding How Technology Shapes Inequality"
+  date: "2026-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "Harvard University WP"
+  theme: theory-other
+  design: theory
+  causal: false
+  outcome: "condition for cheaper AI to raise an occupation's employment (demand elasticity above substitution elasticity)"
+  direction: not-applicable
+  magnitude: null
+  population: "all workers"
+  country: null
+  url: null
+  note: "Source of the substitution-and-scale term in the review's equation."
+
+- key: lodefalk-2026
+  authors: "Lodefalk et al."
+  year: 2026
+  title: "Same Storm, Different Boats: Generative AI and the Age Gradient in Hiring"
+  date: "2026-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "Ratio WP"
+  theme: employment
+  design: exposure-did
+  causal: true
+  outcome: "young workers' employment within employers"
+  direction: negative
+  magnitude: "employment of 22 to 25 year olds 5.5% lower by early 2025 in the most exposed quarter of occupations"
+  population: "young workers (22 to 25)"
+  country: "Sweden"
+  url: null
+  note: "Cannot rule out last-in-first-out layoffs rather than fewer hires."
+
+- key: manning-aguirre-2026
+  authors: "Manning and Aguirre"
+  year: 2026
+  title: "How Adaptable Are American Workers to AI-Induced Job Displacement?"
+  date: "2026-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "NBER WP"
+  theme: employment
+  design: descriptive-or-survey
+  causal: false
+  outcome: "adaptability of workers in exposed occupations"
+  direction: not-applicable
+  magnitude: "6.1 million US workers (4.2%) in highly exposed occupations with low capacity to adapt"
+  population: "all workers"
+  country: "US"
+  url: null
+  note: null
+
+- key: massenkoff-mccrory-2026
+  authors: "Massenkoff and McCrory"
+  year: 2026
+  title: "Labor Market Impacts of AI: A New Measure and Early Evidence"
+  date: "2026-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "Anthropic report"
+  theme: adoption-diffusion
+  design: descriptive-or-survey
+  causal: false
+  outcome: "observed occupational exposure (task ratings combined with Claude usage)"
+  direction: not-applicable
+  magnitude: "computer and mathematical occupations 94% exposed in theory, 33% in observed use; 30% of workers have no observed exposure"
+  population: "all workers"
+  country: "US"
+  url: null
+  note: "Anthropic Economic Index data up to November 2025."
+
+- key: noy-zhang-2023
+  authors: "Noy and Zhang"
+  year: 2023
+  title: "Experimental Evidence on the Productivity Effects of Generative Artificial Intelligence"
+  date: "2023-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: [review, growth-review]
+  series: "Science"
+  theme: productivity
+  design: field-experiment
+  causal: true
+  outcome: "time and quality on writing tasks"
+  direction: positive
+  magnitude: "-40% time on writing tasks; quality +18% (ledger)"
+  population: "professionals"
+  country: "US"
+  url: null
+  note: "Review groups it under field experiments; growth ledger calls it an RCT. Largest gains for lower-baseline workers."
+
+- key: orr-tucker-warren-2026
+  authors: "Orr et al."
+  year: 2026
+  title: "Graduating into Disruption: Labor Market Outcomes for AI-Exposed College Majors"
+  date: "2026-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "US Census Bureau CES WP"
+  theme: employment
+  design: exposure-did
+  causal: true
+  outcome: "graduates' employment and earnings by major exposure"
+  direction: negative
+  magnitude: "-5 pp probability of employment in the quarter after graduation and -13% earnings for the most exposed tenth of majors vs the least exposed six tenths"
+  population: "college graduates (6.7 million)"
+  country: "US"
+  url: null
+  note: null
+
+- key: tucker-2026
+  authors: "Tucker"
+  year: 2026
+  title: "You’re (Not) Hired: Artificial Intelligence and Early Career Hiring in the Quarterly Workforce Indicators"
+  date: "2026-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "US Census Bureau CES WP"
+  theme: employment
+  design: exposure-did
+  causal: true
+  outcome: "employment and hires of 22 to 24 year olds"
+  direction: negative
+  magnitude: "-12% employment of 22 to 24 year olds over ten quarters in the most exposed fifth of industry-state groups, mainly fewer hires"
+  population: "young workers (22 to 24)"
+  country: "US"
+  url: null
+  note: null
+
+- key: van-nieuwerburgh-2026
+  authors: "Van Nieuwerburgh"
+  year: 2026
+  title: "Financing the AI Buildout"
+  date: "2026-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "Brookings Papers on Economic Activity conference draft"
+  theme: growth
+  design: descriptive-or-survey
+  causal: false
+  outcome: "revenue needed to recover AI investment"
+  direction: not-applicable
+  magnitude: "about $3.7 trillion of annual revenue by 2032 (9.2% of projected US GDP) at a 10% return vs about $100bn today for OpenAI and Anthropic"
+  population: "AI firms"
+  country: "US"
+  url: null
+  note: null
+
+- key: yotzov-2026
+  authors: "Yotzov et al."
+  year: 2026
+  title: "Firm Data on AI"
+  date: "2026-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: "NBER WP"
+  theme: adoption-diffusion
+  design: descriptive-or-survey
+  causal: false
+  outcome: "executives' reported employment effect of AI"
+  direction: "null"
+  magnitude: "nine in ten executives report no effect on employment"
+  population: "firms"
+  country: null
+  url: null
+  note: null
+
+# Cited in the review body but absent from references-review.md
+
+- key: deming-2026
+  authors: "Deming"
+  year: 2026
+  title: null
+  date: "2026-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: null
+  theme: theory-other
+  design: null
+  causal: false
+  outcome: "remote work as groundwork for AI (digital records of office tasks)"
+  direction: not-applicable
+  magnitude: null
+  population: null
+  country: null
+  url: null
+  note: "Cited in the Evaluation section; no entry in references-review.md."
+
+- key: emanuel-2026
+  authors: "Emanuel et al."
+  year: 2026
+  title: null
+  date: "2026-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: null
+  theme: education-training
+  design: null
+  causal: false
+  outcome: "feedback received by young engineers after office closure"
+  direction: not-applicable
+  magnitude: "younger engineers lost most of the feedback they had received from sitting near teammates"
+  population: "young engineers at a large firm"
+  country: null
+  url: null
+  note: "Remote work, not AI; cited in the Evaluation section; no entry in references-review.md."
+
+- key: lambert-schindler-2026
+  authors: "Lambert and Schindler"
+  year: 2026
+  title: null
+  date: "2026-01"
+  date_precision: year
+  added: "2026-10-17"
+  source: review
+  series: null
+  theme: employment
+  design: exposure-did
+  causal: false
+  outcome: "junior hiring: remote work exposure vs GenAI exposure"
+  direction: "null"
+  magnitude: "remote work exposure absorbs most of the GenAI effect in exposure designs"
+  population: "junior workers"
+  country: null
+  url: null
+  note: "Cited in the Evaluation section; no entry in references-review.md; design inferred from 'in exposure designs'."
+
+- key: junestrand-2026
+  authors: "Junestrand"
+  year: 2026
+  title: null
+  date: "2026-09"
+  date_precision: month
+  added: "2026-10-17"
+  source: review
+  series: "Bloomberg (news)"
+  theme: employment
+  design: news
+  causal: false
+  outcome: "in-house legal hiring at a legal AI vendor's clients"
+  direction: positive
+  magnitude: "clients' in-house teams are hiring more lawyers"
+  population: "lawyers"
+  country: null
+  url: null
+  note: "Footnote 3: Bloomberg, 22 September 2026; the review labels it descriptive."
+
+- key: acemoglu-2026-xpost
+  authors: "Acemoglu"
+  year: 2026
+  title: null
+  date: "2026-09"
+  date_precision: month
+  added: "2026-10-17"
+  source: review
+  series: "X post"
+  theme: growth
+  design: news
+  causal: false
+  outcome: "who captures AI revenue; boom-or-crash dilemma"
+  direction: not-applicable
+  magnitude: null
+  population: null
+  country: null
+  url: null
+  note: "Footnote 5: X post, 30 September 2026."
+
+# ---------------------------------------------------------------------------
+# Latest research (latest.md / references-latest.md), newest first
+# ---------------------------------------------------------------------------
+
+- key: zhao-2026
+  authors: "Zhao et al."
+  year: 2026
+  title: "AI Exposure and the Changing Responsibilities in Job Postings"
+  date: "2026-11"
+  date_precision: month
+  added: "2026-11-06"
+  source: latest
+  series: "arXiv"
+  theme: organisation
+  design: descriptive-or-survey
+  causal: false
+  outcome: "AI-exposed activities listed in job postings"
+  direction: negative
+  magnitude: "an activity 1 SD more exposed lost 0.19 to 0.24 pp more of its presence 2023 to 2025; postings mentioning AI 5.3% to 8.8%"
+  population: "job postings of 33 large firms (50,000)"
+  country: "US"
+  url: "https://arxiv.org/abs/2611.09870"
+  note: "No control group; outside the causal standard. Four of five authors at Microsoft, one of the 33 firms."
+
+- key: hermle-2026
+  authors: "Hermle et al."
+  year: 2026
+  title: "AI for Scientific Discovery: How Researchers Use Claude"
+  date: "2026-11"
+  date_precision: month
+  added: "2026-11-05"
+  source: latest
+  series: "Anthropic report"
+  theme: growth
+  design: descriptive-or-survey
+  causal: false
+  outcome: "research output (calibrated ideas production function)"
+  direction: positive
+  magnitude: "current AI raises research output 1.35x (arts) to 2.02x (statistics); at most about double, physical work capping larger gains"
+  population: "researchers (207,049 Claude sessions)"
+  country: null
+  url: "https://www.anthropic.com/research/how-researchers-use-claude"
+  note: "Usage data plus survey plus calibrated model; outside the causal standard."
+
+- key: boe-2026-mpr
+  authors: "Bank of England"
+  year: 2026
+  title: "Monetary Policy Report: November 2026"
+  date: "2026-11"
+  date_precision: month
+  added: "2026-11-05"
+  source: latest
+  series: "Bank of England"
+  theme: growth
+  design: growth-accounting-or-official
+  causal: false
+  outcome: "UK GDP growth from AI-related industries; firm productivity and employment"
+  direction: positive
+  magnitude: "novel AI-related activity just under a fifth of UK GDP growth since the start of 2026; firms report +0.5% productivity over three years, near-zero employment effect"
+  population: "UK economy; Decision Maker Panel firms"
+  country: "UK"
+  url: "https://www.bankofengland.co.uk/-/media/boe/files/monetary-policy-report/2026/november/monetary-policy-report-november-2026.pdf"
+  note: "Boxes C and D."
+
+- key: mehdi-frenette-2026
+  authors: "Mehdi and Frenette"
+  year: 2026
+  title: "Hiring and Job Separation Rates in the Era of Generative Artificial Intelligence: Early Evidence"
+  date: "2026-10"
+  date_precision: month
+  added: "2026-10-28"
+  source: latest
+  series: "Statistics Canada"
+  theme: employment
+  design: descriptive-or-survey
+  causal: false
+  outcome: "youth hiring and separation rates by occupational exposure"
+  direction: "null"
+  magnitude: "monthly hiring rate of 15 to 29 year olds fell 3.2% to 3.0% in replace-exposed jobs, 2.9% to 2.5% in help-exposed jobs, 4.0% to 3.3% in low-exposure jobs"
+  population: "young workers (15 to 29)"
+  country: "Canada"
+  url: "https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026010/article/00003-eng.htm"
+  note: "Raw rates, no controls; no exposure gap in the fall of youth hiring."
+
+- key: tadepalli-2026
+  authors: "Tadepalli"
+  year: 2026
+  title: "Efficiency vs Capability in the Intelligence Explosion"
+  date: "2026-10"
+  date_precision: month
+  added: "2026-10-24"
+  source: latest
+  series: "arXiv (GovAI)"
+  theme: growth
+  design: structural-or-calibrated-model
+  causal: false
+  outcome: "conditions for self-sustaining acceleration of AI research"
+  direction: not-applicable
+  magnitude: "both conditions hold in 49% of 200,000 draws; baseline returns 1.07 (efficiency) and 3.45 (capability)"
+  population: "AI research"
+  country: null
+  url: "https://arxiv.org/abs/2610.33447"
+  note: "Compute held fixed; software-only explosion."
+
+- key: bianchini-coroama-2026
+  authors: "Bianchini and Coroama"
+  year: 2026
+  title: "LLMs and the Organization of Scientific Work"
+  date: "2026-11"
+  date_precision: month
+  added: "2026-11-02"
+  source: latest
+  series: "arXiv"
+  theme: organisation
+  design: synthetic-control-or-event-study
+  causal: false
+  outcome: "division of labour within research teams"
+  direction: not-applicable
+  magnitude: "share of a team credited with ideation -2.6 pp vs 2022 by 2025, writing -2.7, coordination -1.4"
+  population: "research teams (117,211 PLOS ONE papers)"
+  country: "multi"
+  url: "https://arxiv.org/abs/2611.02996"
+  note: "Event study around ChatGPT with no untreated group; change comes from newly formed teams."
+
+- key: gans-landry-2026
+  authors: "Gans and Landry"
+  year: 2026
+  title: "Training Your Replacement: Worker Incentives and the Pace of Automation"
+  date: "2026-10"
+  date_precision: month
+  added: "2026-10-26"
+  source: latest
+  series: "NBER WP"
+  theme: organisation
+  design: theory
+  causal: false
+  outcome: "wages and pace of automation when workers train the AI that replaces them"
+  direction: not-applicable
+  magnitude: null
+  population: "workers training AI"
+  country: null
+  url: "https://www.nber.org/papers/w35950"
+  note: "Efficiency wage model; motivating case Meta's 2026 screen-recording programme."
+
+- key: fernandez-villaverde-2026
+  authors: "Fernández-Villaverde"
+  year: 2026
+  title: "Saving for the Machines"
+  date: "2026-11"
+  date_precision: month
+  added: "2026-11-02"
+  source: latest
+  series: "NBER WP"
+  theme: growth
+  design: structural-or-calibrated-model
+  causal: false
+  outcome: "GDP growth and wages under a transition to full automation 2025 to 2045"
+  direction: positive
+  magnitude: "growth 11.7% a year under optimal saving vs 2.2% at the 2025 saving rate; wages a quarter to a half of trend under full automation"
+  population: "households"
+  country: "US"
+  url: "https://www.nber.org/papers/w35964"
+  note: "Benchmarks, not forecasts; automation path assumed."
+
+- key: domnisoru-heikkinen-2026
+  authors: "Domnisoru and Heikkinen"
+  year: 2026
+  title: "How Is AI Affecting College Major and Course Choices? Evidence from Finland"
+  date: "2026-11"
+  date_precision: month
+  added: "2026-11-02"
+  source: latest
+  series: "RFBerlin DP"
+  theme: education-training
+  design: synthetic-control-or-event-study
+  causal: false
+  outcome: "college major choice (first-choice applications) by degree exposure"
+  direction: negative
+  magnitude: "first-choice ICT applicants -38.0% between 2022 and 2026 while other fields +16.5%; 1 SD more exposure lowers applicants 14.0% in 2026"
+  population: "university applicants and students"
+  country: "Finland"
+  url: "https://www.rfberlin.com/network-paper/how-is-ai-affecting-college-major-and-course-choices-evidence-from-finland/"
+  note: "Authors call the application results not causal; graduates of exposed degrees had employment 1 point lower by 2026."
+
+- key: levy-yeyati-2026
+  authors: "Levy Yeyati et al."
+  year: 2026
+  title: "Practice Makes Perfect: Tacit Knowledge, Generative AI, and Returns to Schooling and Experience"
+  date: "2026-10"
+  date_precision: month
+  added: "2026-10-26"
+  source: latest
+  series: "arXiv"
+  theme: wages
+  design: exposure-did
+  causal: true
+  outcome: "returns to schooling and experience in exposed occupations"
+  direction: mixed
+  magnitude: "return to a year of schooling -0.55 log points from 7.5 (about 7.3%); return to a year of experience +0.26 at three years, -0.12 at twenty-five"
+  population: "all workers (CPS, 655,919 earnings observations)"
+  country: "US"
+  url: "https://arxiv.org/abs/2610.36008"
+  note: "Flat pre-trends and a pandemic-dated placebo; not yet peer reviewed."
+
+- key: hyman-2025
+  authors: "Hyman et al."
+  year: 2025
+  title: "How Retrainable Are AI-Exposed Workers?"
+  date: "2026-08"
+  date_precision: month
+  added: "2026-10-26"
+  source: latest
+  series: "NBER WP"
+  theme: education-training
+  design: descriptive-or-survey
+  causal: false
+  outcome: "earnings after publicly funded retraining for workers from exposed occupations"
+  direction: positive
+  magnitude: "+$1,011 to $1,370 a quarter (9.6%) vs matched job seekers in the three quarters after training; about 45% of occupations AI retrainable"
+  population: "WIOA trainees from high-exposure occupations (99,575 spells)"
+  country: "US"
+  url: "https://www.nber.org/papers/w34174"
+  note: "Matched comparison, selection on observables (no closer design category). First issued August 2025, revised August 2026; date is the revision. Position in latest.md is not strictly date-ordered."
+
+- key: althoff-reichardt-2026
+  authors: "Althoff and Reichardt"
+  year: 2026
+  title: "Task-Specific Technical Change and Comparative Advantage"
+  date: "2026-07"
+  date_precision: month
+  added: "2026-06-22"
+  source: latest
+  series: "NBER WP"
+  theme: wages
+  design: structural-or-calibrated-model
+  causal: false
+  outcome: "average wages and 90-10 wage ratio in a dynamic task model"
+  direction: positive
+  magnitude: "moderate scenario: average wages +27.6%, 90-10 ratio -24%; with adoption costs the average gain shrinks to 0.3%"
+  population: "all workers (NLSY79 cohort)"
+  country: "US"
+  url: "https://www.nber.org/papers/w35353"
+  note: "NBER version 22 June 2026, also CESifo WP 12403; figures from the authors' version of 13 July 2026 (date field). 'added' is the NBER date as proxy."
+
+- key: colaiacovo-koning-2026
+  authors: "Colaiacovo and Koning"
+  year: 2026
+  title: "Delegating to AI: Beliefs and the Organization of Work at New Ventures"
+  date: "2026-06"
+  date_precision: month
+  added: "2026-06-18"
+  source: latest
+  series: "Harvard Business School WP"
+  theme: organisation
+  design: descriptive-or-survey
+  causal: false
+  outcome: "founders' reported labour savings from AI"
+  direction: negative
+  magnitude: "founders say they would need 55% more employees without AI (median 17%); formal integrators 91.4% vs 24% for informal users"
+  population: "software startup founders (199)"
+  country: "North America"
+  url: "https://www.hbs.edu/faculty/Pages/item.aspx?num=69112"
+  note: "Survey with a randomised information experiment on beliefs; the adopter comparison is descriptive."
+
+- key: herdagdelen-joren-tamkin-2026
+  authors: "Herdağdelen, Joren and Tamkin"
+  year: 2026
+  title: "How AI Agents Shape Experts’ Judgment Calls"
+  date: "2026-10"
+  date_precision: month
+  added: "2026-10-27"
+  source: latest
+  series: "Anthropic report"
+  theme: organisation
+  design: lab-or-online-experiment
+  causal: true
+  outcome: "expert deference to an AI agent's lean on judgment calls"
+  direction: not-applicable
+  magnitude: "analysts chose the agent's option 86% of the time vs 50% if the lean had no effect; final recommendation moved 17 points"
+  population: "analysts experienced in causal inference (50)"
+  country: null
+  url: "https://www.anthropic.com/research/agents-judgment-calls"
+  note: "Randomised on one task by the agent's maker; bears on organisation, not labour market outcomes."
+
+- key: wilmers-2026
+  authors: "Wilmers et al."
+  year: 2026
+  title: "How Employment Is Changing at Anthropic"
+  date: "2026-10"
+  date_precision: month
+  added: "2026-10-16"
+  source: latest
+  series: "Anthropic report"
+  theme: employment
+  design: descriptive-or-survey
+  causal: false
+  outcome: "junior share of technical hires; output per engineer"
+  direction: negative
+  magnitude: "juniors fell from 27% to 9% of technical hires since early 2025; code commits per engineer five times their level six months earlier"
+  population: "Anthropic technical staff"
+  country: "US"
+  url: "https://www.anthropic.com/research/employment-at-anthropic"
+  note: "Single-firm case study by its own staff; includes an event study of output around agent adoption."
+
+- key: legate-yang-massenkoff-2026
+  authors: "Legate-Yang and Massenkoff"
+  year: 2026
+  title: "What Work Can Robots Do?"
+  date: "2026-09"
+  date_precision: month
+  added: "2026-09-30"
+  source: latest
+  series: "Anthropic report"
+  theme: growth
+  design: descriptive-or-survey
+  causal: false
+  outcome: "robot exposure of physical tasks and cost-competitiveness"
+  direction: not-applicable
+  magnitude: "robots can do 74% of US physical tasks (34% of working time) but are cheaper than workers for only 0.3%"
+  population: "all workers (7,594 physical O*NET tasks)"
+  country: "US"
+  url: "https://www.anthropic.com/research/what-work-can-robots-do"
+  note: "Ratings, time shares and costs all from Claude."
+
+- key: strauss-romei-fleming-2026
+  authors: "Strauss, Romei and Fleming"
+  year: 2026
+  title: "What Is Behind the Surprising Resilience of the UK Economy?"
+  date: "2026-10"
+  date_precision: month
+  added: "2026-10-17"
+  source: latest
+  series: "Financial Times (news)"
+  theme: growth
+  design: news
+  causal: false
+  outcome: "UK GDP growth by industry"
+  direction: positive
+  magnitude: "UK GDP +1.8% in the three months to August 2026 on a year earlier; computer programming and consultancy +0.32 pp, about a sixth"
+  population: "UK economy"
+  country: "UK"
+  url: null
+  note: "News analysis of ONS data; payroll employment fell in tech and professional services."
+
+- key: ons-2026-gdp-august
+  authors: "Office for National Statistics"
+  year: 2026
+  title: "GDP Monthly Estimate, UK: August 2026"
+  date: "2026-10"
+  date_precision: month
+  added: "2026-10-17"
+  source: latest
+  series: "ONS statistical bulletin"
+  theme: growth
+  design: growth-accounting-or-official
+  causal: false
+  outcome: "UK GDP by industry"
+  direction: not-applicable
+  magnitude: null
+  population: "UK economy"
+  country: "UK"
+  url: "https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpmonthlyestimateuk/august2026"
+  note: "Underlying data for the FT entry; the ONS does not attribute growth to AI."
+
+- key: reuters-ft-2026-anthropic-revenue
+  authors: "Reuters and Financial Times"
+  year: 2026
+  title: "Anthropic's third-quarter revenue"
+  date: "2026-10"
+  date_precision: month
+  added: "2026-10-14"
+  source: latest
+  series: "Reuters / Financial Times (news)"
+  theme: adoption-diffusion
+  design: news
+  causal: false
+  outcome: "demand for AI services (one provider's revenue)"
+  direction: not-applicable
+  magnitude: "$16.8bn revenue in Q3 2026 after about $11.6bn in Q2 and $4.7bn in Q1; quarterly growth slowed from about 150% to about 45%"
+  population: "AI firms"
+  country: "US"
+  url: "https://www.thestar.com.my/tech/tech-news/2026/10/15/anthropic-revenue-jumps-to-168-billion-in-third-quarter-ft-reports"
+  note: "Unaudited figures given to investors; not in references-latest.md. Title is the entry heading, not a published headline."
+
+- key: cnbc-2026-coreweave
+  authors: "CNBC"
+  year: 2026
+  title: "CoreWeave's bonds trade at distressed yields"
+  date: "2026-10"
+  date_precision: month
+  added: "2026-10-14"
+  source: latest
+  series: "CNBC (news)"
+  theme: growth
+  design: news
+  causal: false
+  outcome: "financing of AI capital spending"
+  direction: not-applicable
+  magnitude: "CoreWeave 2032 bonds yielded about 14.8% vs a 9.625% coupon; Alphabet, Amazon, Meta and Oracle issued more than $228bn of bonds in 2026 by mid-October"
+  population: "AI infrastructure firms"
+  country: "US"
+  url: "https://investinglive.com/stocks/coreweave-bonds-trade-like-distressed-debt-as-ai-spending-outpaces-balance-sheets/"
+  note: "Reported second hand via investingLive, with LSEG and S&P Global data; not in references-latest.md. Title is the entry heading."
+
+- key: sacher-2026
+  authors: "Sacher et al."
+  year: 2026
+  title: "The AI Expectations Gap: Public and Frontier Lab Views on AI's Impact on Work"
+  date: "2026-10"
+  date_precision: month
+  added: "2026-10-16"
+  source: latest
+  series: "Anthropic report"
+  theme: adoption-diffusion
+  design: descriptive-or-survey
+  causal: false
+  outcome: "expected share of work AI can do by 2030; expected unemployment"
+  direction: not-applicable
+  magnitude: "US workers expect AI to be able to do 28% of their work hours by 2030 vs 75% for Anthropic staff; median adult's answers imply 5.4% GDP growth in 2030, median staff member's 17.1%"
+  population: "US adults (10,980) and Anthropic staff (1,334)"
+  country: "US"
+  url: "https://www.anthropic.com/research/ai-expectations-gap"
+  note: null
+
+# Cited in Latest research text or references-latest.md only (not standalone entries)
+
+- key: boe-2026-fsr
+  authors: "Bank of England"
+  year: 2026
+  title: "Financial Stability Report"
+  date: "2026-07"
+  date_precision: month
+  added: "2026-10-14"
+  source: latest
+  series: "Bank of England"
+  theme: growth
+  design: growth-accounting-or-official
+  causal: false
+  outcome: "AI investment correction scenarios"
+  direction: not-applicable
+  magnitude: null
+  population: "UK economy"
+  country: "UK"
+  url: "https://www.bankofengland.co.uk/-/media/boe/files/financial-stability-report/2026/financial-stability-report-july-2026.pdf"
+  note: "Cited in the CoreWeave entry for correction scenarios in which the financial channel costs more output than the lost investment."
+
+- key: imf-2026-weo
+  authors: "International Monetary Fund"
+  year: 2026
+  title: "World Economic Outlook"
+  date: "2026-04"
+  date_precision: month
+  added: "2026-10-14"
+  source: latest
+  series: "IMF"
+  theme: growth
+  design: growth-accounting-or-official
+  causal: false
+  outcome: "AI investment correction scenarios"
+  direction: not-applicable
+  magnitude: null
+  population: "global economy"
+  country: "multi"
+  url: "https://www.imf.org/-/media/files/publications/weo/2026/april/english/text.pdf"
+  note: "Cited in the CoreWeave entry alongside the Bank of England scenarios."
+
+- key: eth-davidson-2025
+  authors: "Eth and Davidson"
+  year: 2025
+  title: null
+  date: "2025-01"
+  date_precision: year
+  added: "2026-10-24"
+  source: latest
+  series: null
+  theme: growth
+  design: theory
+  causal: false
+  outcome: "research-efficiency units in intelligence-explosion models"
+  direction: not-applicable
+  magnitude: null
+  population: "AI research"
+  country: null
+  url: null
+  note: "Named only in the Tadepalli (2026) entry; no reference line in any file."
+
+- key: davidson-houlden-2025
+  authors: "Davidson and Houlden"
+  year: 2025
+  title: null
+  date: "2025-01"
+  date_precision: year
+  added: "2026-10-24"
+  source: latest
+  series: null
+  theme: growth
+  design: theory
+  causal: false
+  outcome: "research-efficiency units in intelligence-explosion models"
+  direction: not-applicable
+  magnitude: null
+  population: "AI research"
+  country: null
+  url: null
+  note: "Named only in the Tadepalli (2026) entry; no reference line in any file."
+
+# ---------------------------------------------------------------------------
+# Companion growth review (Gen-AI-and-growth/draft/review-v8.tex, ledger.csv)
+# ---------------------------------------------------------------------------
+
+- key: acemoglu-2025
+  authors: "Acemoglu"
+  year: 2025
+  title: "The Simple Macroeconomics of AI"
+  date: "2025-01"
+  date_precision: year
+  added: "2026-10-13"
+  source: [latest, growth-review]
+  series: "Economic Policy"
+  theme: growth
+  design: structural-or-calibrated-model
+  causal: false
+  outcome: "TFP and GDP over ten years"
+  direction: positive
+  magnitude: "TFP +0.66% over ten years (about 0.06 pp a year); GDP +0.93 to 1.16%; welfare -0.72% of consumption if AI also produces bad outputs"
+  population: "US economy"
+  country: "US"
+  url: "https://www.nber.org/papers/w32487"
+  note: "Hulten aggregation: 20% of tasks exposed, 23% profitable, 27% labour cost saving. Working paper May 2024 (NBER 32487), published 2025. Named in Latest entries (Bank of England, Althoff and Reichardt)."
+
+- key: aghion-bunel-2024
+  authors: "Aghion and Bunel"
+  year: 2024
+  title: "AI and Growth: Where Do We Stand?"
+  date: "2024-06"
+  date_precision: month
+  added: "2026-10-13"
+  source: growth-review
+  series: "Collège de France and Banque de France WP"
+  theme: growth
+  design: structural-or-calibrated-model
+  causal: false
+  outcome: "TFP and labour productivity growth over the next decade"
+  direction: positive
+  magnitude: "+0.68 pp a year of TFP growth (60% exposed, 50% profitable, 40% saving); historical analogy +0.8 (US ICT) to +1.3 pp (European electricity) a year of labour productivity growth for a decade"
+  population: "US and French economies"
+  country: "US; France"
+  url: null
+  note: "Unpublished note shared by Xavier; also French AI Commission 2024."
+
+- key: aghion-jones-jones-2019
+  authors: "Aghion, Jones and Jones"
+  year: 2019
+  title: "Artificial Intelligence and Economic Growth"
+  date: "2019-01"
+  date_precision: year
+  added: "2026-10-13"
+  source: [latest, growth-review]
+  series: "University of Chicago Press (NBER volume)"
+  theme: growth
+  design: theory
+  causal: false
+  outcome: "growth rate and capital share under automation of goods and ideas"
+  direction: not-applicable
+  magnitude: null
+  population: "economy"
+  country: null
+  url: "https://www.nber.org/papers/w23928"
+  note: "Baumol weak links; singularity needs full automation when sigma below one. Named in the Legate-Yang and Massenkoff entry."
+
+- key: jones-tonetti-2026
+  authors: "Jones and Tonetti"
+  year: 2026
+  title: "Past Automation and Future A.I.: How Weak Links Tame the Growth Explosion"
+  date: "2026-05"
+  date_precision: month
+  added: "2026-10-13"
+  source: [latest, growth-review]
+  series: "Stanford GSB WP"
+  theme: growth
+  design: growth-accounting-or-official
+  causal: false
+  outcome: "TFP growth from automation; projected growth of GDP per person"
+  direction: positive
+  magnitude: "freezing automation in 1950 removes essentially all US TFP growth to 2023; sigma 0.2; growth reaches only 2.6% by 2075, above 7% by 2030 if all machines improved like computers"
+  population: "US private business sector"
+  country: "US"
+  url: "https://web.stanford.edu/~chadj/JonesTonetti_Automation.pdf"
+  note: "Growth accounting since 1950 plus a calibrated endogenous growth model; version 0.5; automation shares rated by LLMs."
+
+- key: korinek-2026
+  authors: "Korinek et al."
+  year: 2026
+  title: "Economic Scenarios for Transformative AI"
+  date: "2026-09"
+  date_precision: month
+  added: "2026-10-13"
+  source: [latest, growth-review]
+  series: "Anthropic Institute WP"
+  theme: growth
+  design: structural-or-calibrated-model
+  causal: false
+  outcome: "US GDP, labour share and unemployment under scenarios to 2030"
+  direction: positive
+  magnitude: "US GDP vs no-AI path in 2030: +1.6% modest, +8.3% substantial, +32% extreme (15.4% a year growth in 2030); labour share 60% to 45% in the extreme scenario"
+  population: "US economy"
+  country: "US"
+  url: null
+  note: "sigma 0.5; research channel raises labour productivity by well under 1% by 2030. The Sacher et al. (2026) entry feeds survey answers into this model."
+
+- key: imas-moll-2026-double
+  authors: "Imas and Moll"
+  year: 2026
+  title: "Will AI Soon Lead to Double-Digit Growth? Probably Not. Here Is Why"
+  date: "2026-09"
+  date_precision: month
+  added: "2026-10-13"
+  source: growth-review
+  series: "Ghosts of Electricity (Substack essay)"
+  theme: growth
+  design: theory
+  causal: false
+  outcome: "plausibility of double-digit GDP growth"
+  direction: positive
+  magnitude: "4 to 5% annual GDP growth in advanced economies, twice the trend, as the baseline; double-digit growth needs five unlikely assumptions"
+  population: "advanced economies"
+  country: "multi"
+  url: "https://aleximas.substack.com/p/will-ai-soon-lead-to-double-digit"
+  note: "Essay, 9 September 2026; seed via Ben Moll."
+
+- key: imas-moll-2026-solow
+  authors: "Imas and Moll"
+  year: 2026
+  title: "A Standard Task-Based Solow Model Delivers AI-Driven Double-Digit Growth"
+  date: "2026-09"
+  date_precision: month
+  added: "2026-10-13"
+  source: growth-review
+  series: "Technical supplement (benjaminmoll.com)"
+  theme: growth
+  design: structural-or-calibrated-model
+  causal: false
+  outcome: "GDP growth as the automated task share rises to one"
+  direction: positive
+  magnitude: "growth from 2% to about 12% by 2035 as the automated share rises to one over 2025 to 2045; labour share towards zero"
+  population: "economy"
+  country: null
+  url: "https://benjaminmoll.com/task_based_solow/"
+  note: null
+
+- key: filippucci-gal-schief-2024
+  authors: "Filippucci, Gal and Schief"
+  year: 2024
+  title: "Miracle or Myth? Assessing the Macroeconomic Productivity Gains from Artificial Intelligence"
+  date: "2024-11"
+  date_precision: month
+  added: "2026-10-13"
+  source: growth-review
+  series: "OECD AI Papers"
+  theme: growth
+  design: structural-or-calibrated-model
+  causal: false
+  outcome: "TFP and labour productivity growth over ten years"
+  direction: positive
+  magnitude: "+0.25 to 0.6 pp a year of US TFP growth; Baumol drag about 0.1 pp (a sixth), nearly a third if gains are uneven"
+  population: "US and G7 economies"
+  country: "US; G7"
+  url: "https://ideas.repec.org/p/oec/comaaa/29-en.html"
+  note: "Multi-sector general equilibrium model with input-output links."
+
+- key: blumenfeld-2026
+  authors: "Blumenfeld et al."
+  year: 2026
+  title: "The Macroeconomic Effect of AI: Sizing the Software Engineering Channel"
+  date: "2026-09"
+  date_precision: month
+  added: "2026-10-13"
+  source: growth-review
+  series: "NBER WP"
+  theme: growth
+  design: structural-or-calibrated-model
+  causal: false
+  outcome: "expected software engineering productivity and GDP level"
+  direction: positive
+  magnitude: "AI news Nov 2022 to Dec 2025 raised expected software engineer productivity by a permanent 32.6%; GDP level +3.6% (6.5% with R&D)"
+  population: "listed firms by software payroll share"
+  country: "US"
+  url: "https://www.nber.org/papers/w35793"
+  note: "Asset-price cross-section (share price reactions to AI news) fed into a model; expectations, not measured gains."
+
+- key: demirer-musolff-yang-2026
+  authors: "Demirer, Musolff and Yang"
+  year: 2026
+  title: "Writing Code vs. Shipping Code: Productivity Effects Across Generations of AI Coding Tools"
+  date: "2026-09"
+  date_precision: month
+  added: "2026-10-13"
+  source: growth-review
+  series: "NBER WP"
+  theme: productivity
+  design: adoption-did
+  causal: true
+  outcome: "commits, projects and releases after adopting AI coding tools"
+  direction: positive
+  magnitude: "commits +240% cumulative across tool generations, projects +80%, releases +30%; elasticity of substitution between AI and human effort 0.23"
+  population: "GitHub developers (more than 500,000)"
+  country: "multi"
+  url: "https://www.nber.org/papers/w35275"
+  note: "Matched event study of adoption, 2022 to 2026; May 2026 revised September 2026."
+
+- key: baslandze-2026
+  authors: "Baslandze et al."
+  year: 2026
+  title: "Artificial Intelligence, Productivity, and the Workforce: Evidence from Corporate Executives"
+  date: "2026-03"
+  date_precision: month
+  added: "2026-10-13"
+  source: growth-review
+  series: "NBER WP"
+  theme: productivity
+  design: descriptive-or-survey
+  causal: false
+  outcome: "AI-related labour productivity growth reported by executives"
+  direction: positive
+  magnitude: "about +0.8 pp in 2025 in high-skill services and finance, +0.4 pp in manufacturing, construction and low-skill services; more than 2% expected for 2026"
+  population: "corporate executives (about 750)"
+  country: "US"
+  url: "https://www.nber.org/papers/w34984"
+  note: "Atlanta Fed / Duke CFO survey; perceived gains exceed measured."
+
+- key: tamkin-mccrory-2025
+  authors: "Tamkin and McCrory"
+  year: 2025
+  title: "Estimating AI Productivity Gains from Claude Conversations"
+  date: "2025-11"
+  date_precision: month
+  added: "2026-10-13"
+  source: growth-review
+  series: "Anthropic report"
+  theme: growth
+  design: structural-or-calibrated-model
+  causal: false
+  outcome: "US labour productivity growth implied by task time savings"
+  direction: positive
+  magnitude: "tasks sped up about 80%; implied +1.8 pp a year of US labour productivity growth over the next decade (upper bound)"
+  population: "Claude.ai conversations (100,000)"
+  country: "US"
+  url: "https://www.anthropic.com/research/estimating-productivity-gains"
+  note: "LLM-estimated time savings aggregated with Hulten's theorem; assumes full adoption."
+
+- key: davidson-2026
+  authors: "Davidson et al."
+  year: 2026
+  title: "When Does Automating AI Research Produce Explosive Growth? Feedback Loops in Innovation Networks"
+  date: "2026-04"
+  date_precision: month
+  added: "2026-10-13"
+  source: [latest, growth-review]
+  series: "NBER WP"
+  theme: growth
+  design: structural-or-calibrated-model
+  causal: false
+  outcome: "growth rate under automation of research by sector"
+  direction: positive
+  magnitude: "fully automating software research plus 5% of research tasks elsewhere yields a singularity (growth above 200% a year) within six years"
+  population: "economy"
+  country: null
+  url: "https://www.nber.org/papers/w35155"
+  note: "Theory plus simulation. Named in the Hermle et al. (2026) entry."
+
+- key: restrepo-2025
+  authors: "Restrepo"
+  year: 2025
+  title: "We Won't Be Missed: Work and Growth in the AGI World"
+  date: "2025-10"
+  date_precision: month
+  added: "2026-10-13"
+  source: growth-review
+  series: "NBER WP"
+  theme: growth
+  design: theory
+  causal: false
+  outcome: "growth, wages and labour share when AI can do all work"
+  direction: not-applicable
+  magnitude: "growth tracks the growth of compute, no explosion; labour share towards zero"
+  population: "economy"
+  country: null
+  url: "https://www.nber.org/papers/w34423"
+  note: null
+
+- key: trammell-korinek-2026
+  authors: "Trammell and Korinek"
+  year: 2026
+  title: "Economic Growth under Transformative AI"
+  date: "2026-04"
+  date_precision: month
+  added: "2026-10-13"
+  source: [latest, growth-review]
+  series: "NBER WP"
+  theme: growth
+  design: theory
+  causal: false
+  outcome: "growth, labour share and wages across transformative-AI models"
+  direction: positive
+  magnitude: "full automation of production robustly raises growth and lowers the labour share; automating research accelerates but may not suffice alone"
+  population: "economy"
+  country: null
+  url: "https://www.nber.org/papers/w31815"
+  note: "Literature survey (no closer design category); NBER 31815 Oct 2023, revised April 2026, forthcoming Annual Review of Economics. Named in the Hermle et al. (2026) entry."
+
+- key: nordhaus-2021
+  authors: "Nordhaus"
+  year: 2021
+  title: "Are We Approaching an Economic Singularity? Information Technology and the Future of Economic Growth"
+  date: "2021-01"
+  date_precision: year
+  added: "2026-10-13"
+  source: growth-review
+  series: "American Economic Journal: Macroeconomics"
+  theme: growth
+  design: growth-accounting-or-official
+  causal: false
+  outcome: "signs of a coming singularity in US data"
+  direction: "null"
+  magnitude: "productivity growth not accelerating; two share tests weakly positive; extrapolated singularity (growth above 20% a year) beyond 2100"
+  population: "US economy"
+  country: "US"
+  url: "https://www.aeaweb.org/doi/10.1257/mac.20170105"
+  note: "Time-series diagnostic tests; pre-GenAI."
+
+- key: zeira-1998
+  authors: "Zeira"
+  year: 1998
+  title: "Workers, Machines, and Economic Growth"
+  date: "1998-01"
+  date_precision: year
+  added: "2026-10-13"
+  source: growth-review
+  series: "Quarterly Journal of Economics"
+  theme: growth
+  design: theory
+  causal: false
+  outcome: "growth as the automated task share rises"
+  direction: not-applicable
+  magnitude: null
+  population: "economy"
+  country: null
+  url: null
+  note: "Classic task model: growth of output per worker g/(1-alpha)."
+
+- key: acemoglu-restrepo-2018
+  authors: "Acemoglu and Restrepo"
+  year: 2018
+  title: "The Race between Man and Machine: Implications of Technology for Growth, Factor Shares, and Employment"
+  date: "2018-01"
+  date_precision: year
+  added: "2026-10-13"
+  source: growth-review
+  series: "American Economic Review"
+  theme: growth
+  design: theory
+  causal: false
+  outcome: "labour share and growth with automation and new tasks"
+  direction: not-applicable
+  magnitude: null
+  population: "economy"
+  country: null
+  url: null
+  note: "Classic; new tasks offset automation."
+
+- key: hulten-1978
+  authors: "Hulten"
+  year: 1978
+  title: "Growth Accounting with Intermediate Inputs"
+  date: "1978-01"
+  date_precision: year
+  added: "2026-10-13"
+  source: growth-review
+  series: "Review of Economic Studies"
+  theme: growth
+  design: theory
+  causal: false
+  outcome: "aggregate TFP from sectoral productivity gains"
+  direction: not-applicable
+  magnitude: null
+  population: "economy"
+  country: null
+  url: null
+  note: "Classic; Hulten's theorem."
+
+- key: baqaee-farhi-2019
+  authors: "Baqaee and Farhi"
+  year: 2019
+  title: "The Macroeconomic Impact of Microeconomic Shocks: Beyond Hulten's Theorem"
+  date: "2019-01"
+  date_precision: year
+  added: "2026-10-13"
+  source: growth-review
+  series: "Econometrica"
+  theme: growth
+  design: theory
+  causal: false
+  outcome: "aggregate TFP when sectors are complements"
+  direction: not-applicable
+  magnitude: "nonlinearities cut aggregate US TFP growth by about 20 pp over 1948 to 2014 (ledger)"
+  population: "US economy"
+  country: "US"
+  url: null
+  note: "Cited in the draft for Hulten's theorem failing under complementarity; magnitude from the ledger."
+
+- key: bloom-2020
+  authors: "Bloom et al."
+  year: 2020
+  title: "Are Ideas Getting Harder to Find?"
+  date: "2020-01"
+  date_precision: year
+  added: "2026-10-13"
+  source: growth-review
+  series: "American Economic Review"
+  theme: growth
+  design: growth-accounting-or-official
+  causal: false
+  outcome: "research productivity"
+  direction: not-applicable
+  magnitude: "US research productivity has fallen for decades"
+  population: "US economy"
+  country: "US"
+  url: null
+  note: "Pre-AI; empirical."
+
+- key: jones-ci-1995
+  authors: "Jones"
+  year: 1995
+  title: "R&D-Based Models of Economic Growth"
+  date: "1995-01"
+  date_precision: year
+  added: "2026-10-13"
+  source: growth-review
+  series: "Journal of Political Economy"
+  theme: growth
+  design: theory
+  causal: false
+  outcome: "long-run growth in semi-endogenous models"
+  direction: not-applicable
+  magnitude: null
+  population: "economy"
+  country: null
+  url: null
+  note: "Classic; semi-endogenous growth."
+
+- key: brynjolfsson-rock-syverson-2021
+  authors: "Brynjolfsson, Rock and Syverson"
+  year: 2021
+  title: "The Productivity J-Curve: How Intangibles Complement General Purpose Technologies"
+  date: "2021-01"
+  date_precision: year
+  added: "2026-10-13"
+  source: growth-review
+  series: "American Economic Journal: Macroeconomics"
+  theme: productivity
+  design: theory
+  causal: false
+  outcome: "measured productivity during intangible investment"
+  direction: not-applicable
+  magnitude: null
+  population: "US economy"
+  country: "US"
+  url: null
+  note: "Theory plus measurement; measured productivity first understated."
+
+- key: peng-2023
+  authors: "Peng et al."
+  year: 2023
+  title: "The Impact of AI on Developer Productivity: Evidence from GitHub Copilot"
+  date: "2023-02"
+  date_precision: month
+  added: "2026-10-13"
+  source: growth-review
+  series: "arXiv"
+  theme: productivity
+  design: field-experiment
+  causal: true
+  outcome: "time to complete a coding task"
+  direction: positive
+  magnitude: "programmers with Copilot finished a coding task 55.8% faster"
+  population: "programmers"
+  country: null
+  url: "https://arxiv.org/abs/2302.06590"
+  note: "Ledger: RCT, Copilot access, 2022."
+
+- key: moll-rachel-restrepo-2022
+  authors: "Moll, Rachel and Restrepo"
+  year: 2022
+  title: "Uneven Growth: Automation's Impact on Income and Wealth Inequality"
+  date: "2022-01"
+  date_precision: year
+  added: "2026-11-09"
+  source: growth-review
+  series: "Econometrica"
+  theme: wages
+  design: structural-or-calibrated-model
+  causal: false
+  outcome: "income and wealth inequality via the return to wealth"
+  direction: not-applicable
+  magnitude: "automation accounts for part of the rise in US income and wealth inequality over the past forty years"
+  population: "households"
+  country: "US"
+  url: null
+  note: "Added to v8 on 2026-11-09; Korinek et al. (2026) calibrate their saving response to it. Pre-GenAI automation."
+
+- key: imas-2026-productivity
+  authors: "Imas"
+  year: 2026
+  title: "What Is the Impact of AI on Productivity? Reconciling the Micro and the Macro Evidence"
+  date: "2026-01"
+  date_precision: month
+  added: "2026-11-09"
+  source: growth-review
+  series: "Ghosts of Electricity (Substack essay)"
+  theme: productivity
+  design: theory
+  causal: false
+  outcome: "gap between task-level and aggregate productivity gains"
+  direction: not-applicable
+  magnitude: null
+  population: "all workers"
+  country: null
+  url: "https://aleximas.substack.com/p/what-is-the-impact-of-ai-on-productivity"
+  note: "Essay, 29 January 2026; attributes the gap to selection into adoption, training in trials, and untouched tasks becoming bottlenecks. Added to v8 on 2026-11-09."
+
+- key: imas-shukla-2026
+  authors: "Imas and Shukla"
+  year: 2026
+  title: "Who Uses AI (and How)? Tracking the Evidence on AI Adoption"
+  date: "2026-02"
+  date_precision: month
+  added: "2026-11-09"
+  source: growth-review
+  series: "Ghosts of Electricity (Substack essay)"
+  theme: adoption-diffusion
+  design: descriptive-or-survey
+  causal: false
+  outcome: "who uses AI at work"
+  direction: not-applicable
+  magnitude: "observed use concentrated among higher skilled, higher income workers and countries"
+  population: "all workers"
+  country: "multi"
+  url: "https://aleximas.substack.com/p/who-uses-ai-and-how"
+  note: "Essay, 18 February 2026. Added to v8 on 2026-11-09."

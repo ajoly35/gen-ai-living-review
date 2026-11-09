@@ -29,6 +29,12 @@ jobs:
             echo "New research added to the living review on $(date -u '+%-d %B %Y'). Full review: https://ajoly35.github.io/gen-ai-living-review/"
             echo
             sed 's/\$\$\([^$]*\)\$\$/\1/g; s/&#36;/$/g; s/](#\([a-z0-9-]*\))/](https:\/\/ajoly35.github.io\/gen-ai-living-review\/#\1)/g' added.md
+            echo
+            echo "**Main ideas of the review**"
+            echo
+            grep '^- ' _includes/main-ideas.md
+            echo
+            echo "A cleaner version of this email, in English or French, daily, weekly or monthly: https://ajoly35.github.io/gen-ai-living-review/subscribe/"
           } > notes.md
           echo "title=New papers: $titles" >> "$GITHUB_OUTPUT"
       - name: Publish the release

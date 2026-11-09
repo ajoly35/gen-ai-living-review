@@ -1,0 +1,22 @@
+# Cloudflare Worker: self-hosted subscription API for the living review.
+# Deploy: npm i -g wrangler; wrangler login; wrangler d1 create living-review-subscribers (paste database_id below);
+# wrangler d1 execute living-review-subscribers --remote --file=schema.sql; wrangler secret put RESEND_API_KEY;
+# wrangler secret put SEND_TOKEN; wrangler deploy
+name = "living-review-subscribe"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "living-review-subscribers"
+database_id = "REPLACE_WITH_ID_FROM_wrangler_d1_create"
+
+[vars]
+SITE_URL = "https://ajoly35.github.io/gen-ai-living-review"
+ALLOWED_ORIGIN = "https://ajoly35.github.io"
+MAIL_FROM = "Gen-AI, Jobs and Growth <briefings@YOUR-DOMAIN.TLD>"
+REPLY_TO = "a.p.joly@lse.ac.uk"
+PROVIDER = "resend"   # resend (default) | postmark ; both are HTTP JSON APIs, see sendBatch()
+
+# Route the API on your own domain once the domain is on Cloudflare (optional; the workers.dev URL works too):
+# routes = [{ pattern = "api.YOUR-DOMAIN.TLD/*", zone_name = "YOUR-DOMAIN.TLD" }]

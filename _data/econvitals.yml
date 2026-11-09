@@ -1,0 +1,180 @@
+# Snapshot of the EconVitals figures shown on the topic pages. Refreshed in the browser by
+# assets/econvitals.js; this file is the fallback and the first paint. Source for every number:
+# https://raw.githubusercontent.com/econvitals/econvitals-data/main/data/dashboard.json
+# (generated 2026-11-08T21:32Z), itself from BLS and BEA releases. Keys match the JS map.
+as_of: 8 November 2026
+panels:
+  employment:
+    title: "The US labour market this month"
+    lead: "The review finds that generative AI shows up as fewer hires in exposed work, not layoffs, and first among young workers. These are the aggregate series that pattern would have to appear in."
+    tiles:
+      - key: payrolls
+        label: Nonfarm payrolls
+        value: "+165k"
+        period: "Oct 2026"
+        compare: "3-month average +137k; 12-month +74k"
+      - key: unemployment
+        label: Unemployment rate
+        value: "4.1%"
+        period: "Oct 2026"
+        compare: "4.5% a year earlier"
+      - key: hires_rate
+        label: Hires rate
+        value: "3.4%"
+        period: "Sep 2026"
+        compare: "Layoffs rate 1.0%, quits 2.1%"
+      - key: info_payrolls
+        label: Information sector jobs
+        value: "-1k"
+        period: "Oct 2026"
+        compare: "12-month average -10k a month"
+      - key: u_bachelors
+        label: Unemployment, bachelor's degree or higher
+        value: "2.6%"
+        period: "Oct 2026, 3-month average"
+        compare: "Range since 2023: 2.0% to 2.9%"
+      - key: real_ahe
+        label: Real average hourly earnings
+        value: "-0.5%"
+        period: "12 months to Sep 2026"
+        compare: "Nominal +3.1%; CPI-deflated"
+    reads:
+      - head: "Hiring, not firing."
+        text: "The layoffs rate sits at 1.0% while the hires rate is 3.4%, both near their lows since 2023. That is the margin the review's exposure designs point to: adjustment through entry, with the stock of jobs flat (Main patterns, mobility and the margin of adjustment)."
+      - head: "Where exposed work sits."
+        text: "The information sector, which holds most software and media jobs, has lost about 10k jobs a month over the year while total payrolls grew. The sector is small, so this shows in industry detail, not in the headline."
+      - head: "Graduates."
+        text: "Unemployment among workers with a bachelor's degree or higher is at the 79th percentile of its range since 2023, the opposite end from workers without a high school diploma (7th percentile). The review's young-graduate results (Orr et al. 2026; Hernaes and Kostol 2026) are the micro side of this."
+    charts:
+      - slug: nonfarm-payrolls
+        alt: "Nonfarm payroll employment, thousands of jobs per month, with three-month average, since 2024."
+        caption: "Monthly change in nonfarm payrolls, thousands."
+        source: "Bureau of Labor Statistics."
+      - slug: job-openings-quits-rate
+        alt: "Job openings rate and quits rate, percent, since 2024."
+        caption: "Job openings and quits rates, percent."
+        source: "Bureau of Labor Statistics (JOLTS)."
+      - slug: unemployment-rate-by-group-range-3ma
+        alt: "Unemployment rate by demographic and education group, latest three-month average against each group's range since 2023."
+        caption: "Unemployment by group: latest against the range since January 2023."
+        source: "Bureau of Labor Statistics."
+      - slug: employment-growth-by-industry-range
+        alt: "One-month change in jobs by industry, thousands, latest against the range of monthly changes since 2023."
+        caption: "Job growth by industry: latest month against the range since 2023."
+        source: "Bureau of Labor Statistics."
+  growth:
+    title: "US growth and the AI investment cycle"
+    lead: "The growth review's organising equation makes aggregate gains depend on AI's cost share and on how fast its price falls. Both run through the investment series below."
+    tiles:
+      - key: gdp
+        label: Real GDP
+        value: "3.4%"
+        period: "Q3 2026, annual rate (advance)"
+        compare: "4-quarter growth 2.1%"
+      - key: gdp_tracker
+        label: Current-quarter GDP tracker
+        value: "3.2%"
+        period: "Q4 2026, EconVitals composite"
+        compare: "Atlanta Fed GDPNow 3.4%, NY Fed 2.9%"
+      - key: bfi
+        label: Business fixed investment
+        value: "12.7%"
+        period: "Q3 2026, annual rate"
+        compare: "4-quarter growth 8.4%"
+      - key: ipe_software
+        label: Information processing equipment and software
+        value: "23.2%"
+        period: "Q3 2026, annual rate"
+        compare: "4-quarter growth 20.6%"
+      - key: imports
+        label: Imports
+        value: "19.7%"
+        period: "Q3 2026, annual rate"
+        compare: "Data-centre goods drive the rise (chart below)"
+      - key: productivity
+        label: Labour productivity
+        value: "3.6%"
+        period: "Q3 2026, annual rate"
+        compare: "4-quarter growth 2.1%"
+    reads:
+      - head: "Investment first, output later."
+        text: "Spending on information processing equipment and software is growing at about 20% a year, roughly ten times GDP. In the review's terms this is the build-out that has to happen before the price of AI services falls; it adds to GDP as investment now and as productivity only if the capacity is used."
+      - head: "Much of it is imported."
+        text: "Imports rose 19.7% at an annual rate in the third quarter, and EconVitals' decomposition shows data-centre goods account for the rise. Imported equipment adds to the capital stock without adding to domestic output, which is why the capex boom and GDP growth move apart."
+      - head: "Growth at trend, not above it."
+        text: "Four-quarter GDP growth of 2.1% is in line with the pre-AI trend. Studies that add up measured task gains expect AI to add 0.06 to 0.7 points a year to US total factor productivity growth over the next decade, so the aggregate effect would not yet be visible here even if it had begun (Acemoglu 2025; Aghion and Bunel 2024; Filippucci et al. 2024). The Bank of England's November 2026 report finds 0.1 to 0.2 points a year for the UK, in the sectors producing AI rather than using it."
+    charts:
+      - slug: real-gdp
+        alt: "Real GDP growth, percent change at an annual rate by quarter and four-quarter change, since 2024."
+        caption: "Real GDP growth, annual rate and four-quarter change."
+        source: "Bureau of Economic Analysis."
+      - slug: real-equipment-software
+        alt: "Real investment in information processing equipment and software, percent change at an annual rate, since 2024."
+        caption: "Real investment in information processing equipment and software."
+        source: "Bureau of Economic Analysis."
+      - slug: imports-data-centers-vs-other
+        alt: "Goods imports, data-centre goods against all other goods, index 2024 Q4 = 100."
+        caption: "Goods imports: data-centre goods against everything else, index 2024 Q4 = 100."
+        source: "Census Bureau and Bureau of Economic Analysis."
+      - slug: advanced-real-gdp
+        alt: "Real GDP growth in advanced economies, year-over-year percent change."
+        caption: "Real GDP, advanced economies, year on year."
+        source: "BEA, Eurostat, ONS, Cabinet Office of Japan, Statistics Canada."
+  productivity:
+    title: "US productivity now"
+    lead: "Productivity is where AI's effect on growth has to show up eventually. These are the series the chapter's definitions refer to, at their latest values."
+    tiles:
+      - key: productivity
+        label: Nonfarm business productivity
+        value: "3.6%"
+        period: "Q3 2026, annual rate"
+        compare: "4-quarter growth 2.1%"
+      - key: productivity_cycle
+        label: Current cycle, 2019 Q4 to 2026 Q3
+        value: "2.2% a year"
+        period: "Peak to peak"
+        compare: "1.5% in 2007 to 2019; 2.2% average since 1947"
+      - key: productivity_vs_cbo
+        label: Productivity level against CBO's January 2020 path
+        value: "+2.7%"
+        period: "Q3 2026, index 121.9 against 118.7"
+        compare: "Above the pre-pandemic forecast"
+      - key: ulc
+        label: Unit labour costs
+        value: "-0.7%"
+        period: "Q3 2026, annual rate"
+        compare: "4-quarter growth 2.4%"
+      - key: comp_hour
+        label: Compensation per hour
+        value: "4.5%"
+        period: "4 quarters to Q3 2026"
+        compare: "Productivity 2.1% over the same period"
+      - key: ipe_software
+        label: Information processing equipment and software
+        value: "23.2%"
+        period: "Q3 2026, annual rate"
+        compare: "Investment, not yet output"
+    reads:
+      - head: "Faster than the last cycle, not faster than history."
+        text: "Productivity has grown 2.2% a year since the 2019 peak, against 1.5% a year between 2007 and 2019. That is a return to the post-war average, not the acceleration the explosive-growth models describe. The level is 2.7% above what the CBO expected before the pandemic."
+      - head: "Pay runs ahead of productivity."
+        text: "Compensation per hour grew 4.5% over four quarters while productivity grew 2.1%, so unit labour costs rose 2.4%. In the chapter's accounting, that gap is what inflation or the labour share has to absorb."
+      - head: "Attribution is the open question."
+        text: "Nothing in these series says how much is AI. The Bank of England's November 2026 report puts the UK contribution at 0.1 to 0.2 points a year, concentrated in firms producing AI; a survey of nearly 750 US executives (Baslandze et al. 2026) puts the 2025 gain at about 0.8 points in high-skill services and finance and 0.4 points in manufacturing, construction and low-skill services, inferred from revenues."
+    charts:
+      - slug: productivity-growth
+        alt: "Nonfarm business sector productivity, percent change at an annual rate by quarter and four-quarter change, since 2024."
+        caption: "Nonfarm business productivity growth, annual rate and four-quarter change."
+        source: "Bureau of Labor Statistics."
+      - slug: productivity-by-cycle
+        alt: "Average annual productivity growth by business cycle, peak to peak, 1947 to 2026, with the long-term average."
+        caption: "Productivity growth by business cycle, peak to peak, with the average since 1947."
+        source: "Bureau of Labor Statistics."
+      - slug: productivity-vs-cbo
+        alt: "Nonfarm business labour productivity, actual against the CBO January 2020 forecast, index 2017 = 100."
+        caption: "Productivity level against CBO's pre-pandemic forecast, index 2017 = 100."
+        source: "Bureau of Labor Statistics; Congressional Budget Office."
+      - slug: unit-labor-costs-growth
+        alt: "Nonfarm business unit labour costs, percent change at an annual rate, since 2024."
+        caption: "Unit labour costs, annual rate and four-quarter change."
+        source: "Bureau of Labor Statistics."

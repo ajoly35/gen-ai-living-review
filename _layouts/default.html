@@ -1,10 +1,19 @@
+---
+---
+{%- assign lang = page.lang | default: "en" -%}
+{%- assign nav = site.data.i18n[lang] -%}
 <!doctype html>
-<html lang="en">
+<html lang="{{ lang }}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ site.title }}</title>
-<meta name="description" content="{{ site.description }}">
+<title>{% if page.title %}{{ page.title }} · {% endif %}{{ nav.site_title }}</title>
+<meta name="description" content="{{ page.description | default: nav.site_description }}">
+{%- if page.alt %}
+<link rel="alternate" hreflang="{% if lang == 'en' %}fr{% else %}en{% endif %}" href="{{ page.alt | relative_url }}">
+<link rel="alternate" hreflang="{{ lang }}" href="{{ page.url | relative_url }}">
+{%- endif %}
+<link rel="alternate" type="application/atom+xml" title="New papers" href="https://github.com/ajoly35/gen-ai-living-review/releases.atom">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;600&display=swap" rel="stylesheet">
@@ -13,11 +22,22 @@
 <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
 </head>
 <body>
+<nav class="page topnav" aria-label="{{ nav.nav_label }}">
+  <a class="brand" href="{{ nav.home | relative_url }}">{{ nav.brand }}</a>
+  <span class="links">
+    <a href="{{ nav.home | relative_url }}">{{ nav.n_review }}</a>
+    <a href="{{ nav.recent | relative_url }}">{{ nav.n_recent }}</a>
+    <a href="{{ nav.vitals | relative_url }}">{{ nav.n_vitals }}</a>
+    <a href="{{ nav.subscribe | relative_url }}">{{ nav.n_subscribe }}</a>
+    {%- if page.alt %}<a class="lang" href="{{ page.alt | relative_url }}" hreflang="{% if lang == 'en' %}fr{% else %}en{% endif %}">{{ nav.switch }}</a>{% endif %}
+  </span>
+</nav>
 <main class="page">
 {{ content }}
 </main>
 <footer class="page footer">
-<p>Maintained by Adrien Joly (LSE). The review body is the working draft of {{ site.time | date: "%B %Y" }}; the Latest research section is added weekly by an AI assistant from papers checked against their full text, and is not reviewed before it appears.</p>
+{%- assign d = site.time | date: nav.date_format -%}
+<p>{{ nav.footer | replace: "%DATE%", d }}</p>
 </footer>
 </body>
 </html>

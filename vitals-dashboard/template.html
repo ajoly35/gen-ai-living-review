@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GenAI Jobs Field Tracker</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  /* layout: one column, 1100px max; summary tiles, then four charts, then the filterable ledger */
+  --bg:#f6f5f1; --surface:#fcfcfb; --ink:#141412; --ink-2:#52514e; --ink-3:#8a8882; --line:#e2e0d8; --accent:#1c5cab;
+  --display:"Source Serif 4",Georgia,serif; --body:"IBM Plex Sans",system-ui,sans-serif;
+  --s1:#2a78d6;--s2:#eb6834;--s3:#1baf7a;--s4:#eda100;--s5:#e87ba4;--s6:#008300;--s7:#6250d6;--s8:#e34948;
+  --seq1:#cde2fb;--seq2:#9ec5f4;--seq3:#6da7ec;--seq4:#3987e5;--seq5:#256abf;--seq6:#184f95;--seq7:#0d366b;
+  --gray:#c9c7bf;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+  --bg:#141413; --surface:#1a1a19; --ink:#f0efec; --ink-2:#c3c2b7; --ink-3:#8f8e86; --line:#2e2d2a; --accent:#6da7ec;
+  --s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;--s5:#d55181;--s6:#008300;--s7:#9085e9;--s8:#e66767;
+  --seq1:#184f95;--seq2:#1c5cab;--seq3:#256abf;--seq4:#2a78d6;--seq5:#3987e5;--seq6:#6da7ec;--seq7:#9ec5f4;
+  --gray:#4a4944; color-scheme:dark; }}
+:root[data-theme="dark"]{
+  --bg:#141413; --surface:#1a1a19; --ink:#f0efec; --ink-2:#c3c2b7; --ink-3:#8f8e86; --line:#2e2d2a; --accent:#6da7ec;
+  --s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;--s5:#d55181;--s6:#008300;--s7:#9085e9;--s8:#e66767;
+  --seq1:#184f95;--seq2:#1c5cab;--seq3:#256abf;--seq4:#2a78d6;--seq5:#3987e5;--seq6:#6da7ec;--seq7:#9ec5f4;
+  --gray:#4a4944; color-scheme:dark; }
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5}
+main{max-width:1100px;margin:0 auto;padding:28px 16px 64px}
+h1{font-family:var(--display);font-weight:600;font-size:34px;line-height:1.15;margin:0 0 6px;text-wrap:balance}
+h2{font-family:var(--display);font-weight:600;font-size:21px;margin:0 0 4px;text-wrap:balance}
+.lede{color:var(--ink-2);max-width:68ch;margin:0 0 22px}
+.sub{color:var(--ink-2);font-size:14px;margin:0 0 12px;max-width:72ch}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-bottom:28px}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:14px 16px}
+.tile .v{font-size:34px;font-weight:600;font-variant-numeric:tabular-nums;line-height:1.1}
+.tile .l{color:var(--ink-2);font-size:13px;margin-top:4px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:18px 18px 14px;margin-bottom:22px}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+@media (max-width:820px){.row2{grid-template-columns:1fr}}
+svg{display:block;width:100%;height:auto;overflow:visible}
+svg text{font-family:var(--body);fill:var(--ink-2);font-size:12px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;margin:10px 0 0;font-size:13px;color:var(--ink-2)}
+.legend span i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+.grid line{stroke:var(--line)}
+.axis text{fill:var(--ink-3)}
+.bar{stroke:var(--surface);stroke-width:2}
+.bar:hover{opacity:.8}
+.tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--bg);padding:6px 9px;border-radius:5px;font-size:12.5px;max-width:300px;display:none;z-index:9;line-height:1.35}
+.note{color:var(--ink-3);font-size:12.5px;margin:8px 0 0}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 12px}
+select,input{font:inherit;font-size:13px;padding:6px 8px;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--ink)}
+input{min-width:220px}
+.tablewrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--ink-2);font-weight:500;position:sticky;top:0;background:var(--surface)}
+td.n{white-space:nowrap}
+.pill{display:inline-block;padding:1px 7px;border-radius:10px;font-size:11.5px;border:1px solid var(--line);color:var(--ink-2);white-space:nowrap}
+.pill.yes{border-color:var(--s3);color:var(--s3)}
+.pill.theory{border-color:var(--s7);color:var(--s7)}
+.count{color:var(--ink-3);font-size:13px}
+.findings{margin:0;padding-left:18px}
+.findings li{margin-bottom:6px;max-width:80ch}
+a{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (prefers-reduced-motion:no-preference){.bar{transition:opacity .15s}}
+</style>
+</head>
+<body>
+<main>
+<h1>Where the GenAI-and-jobs literature is heading</h1>
+<p class="lede">Every source tracked by the Gen-AI employment review, classified by theme, kind of evidence and kind of answer. Built from the review's reference list and its "Latest research" stream, as of 9 November 2026. Classification is Claude's, from the review text; figures quoted are the ones the review itself states.</p>
+
+<div class="tiles" id="tiles"></div>
+
+<div class="card">
+  <h2>What the counts say</h2>
+  <ul class="findings" id="findings"></ul>
+</div>
+
+<div class="row2">
+<div class="card">
+  <h2>Kind of evidence, by year</h2>
+  <p class="sub">Field experiments came first (2023 to 2024); exposure designs and firm adoption studies dominate 2025 to 2026; theory and calibrated models grow alongside them.</p>
+  <div id="c-design"></div>
+</div>
+<div class="card">
+  <h2>Theme, by year</h2>
+  <p class="sub">The field moved from worker productivity to junior hiring, then to organisation and to macro and expectations.</p>
+  <div id="c-theme"></div>
+</div>
+</div>
+
+<div class="card">
+  <h2>Which themes get which answers</h2>
+  <p class="sub">Count of sources at each theme and answer. Entry and junior hiring is the one theme where the answer is mostly "exposed or young workers lose"; employment stock splits between losses, nulls and gains; organisation returns "it depends".</p>
+  <div id="c-heat"></div>
+</div>
+
+<div class="card">
+  <h2>The live stream: Latest research, September to November 2026</h2>
+  <p class="sub">Each dot is one entry of the review's "Latest research" section, by date, coloured by theme. Filled dots meet the review's causal standard; hollow dots are descriptive, theory or news, reported as context.</p>
+  <div id="c-stream"></div>
+</div>
+
+<div class="card">
+  <h2>Ledger</h2>
+  <div class="filters">
+    <select id="f-theme"><option value="">All themes</option></select>
+    <select id="f-design"><option value="">All kinds of evidence</option></select>
+    <select id="f-answer"><option value="">All answers</option></select>
+    <select id="f-status"><option value="">All statuses</option></select>
+    <input id="f-q" type="search" placeholder="Search authors or title" aria-label="Search">
+    <span class="count" id="count"></span>
+  </div>
+  <div class="tablewrap"><table id="tbl"><thead><tr><th>Source</th><th>Date</th><th>Theme</th><th>Evidence</th><th>Answer</th><th>Causal</th></tr></thead><tbody></tbody></table></div>
+  <p class="note">Status: review body = cited in the 3-page review (v54); latest research = the living review's stream since October 2026; background = method or data references. Causal: yes = meets the review's standard; theory = model or framework; no = descriptive, survey or news. Date is month where the review records one, otherwise the year.</p>
+</div>
+</main>
+<div class="tip" id="tip"></div>
+<script id="data" type="application/json">__DATA__</script>
+<script>
+const D=JSON.parse(document.getElementById('data').textContent);
+const THEMES=["Entry and junior hiring","Employment and hours","Wages and inequality","Worker productivity","Tasks organisation and management","Adoption usage and measurement","Theory of automation and expertise","Macro growth and expectations"];
+const DESIGNS=["Field experiment","Survey linked to registers","Exposure DiD or event study","Firm adoption study","Descriptive data or survey","Calibrated or structural model","Theory","Review policy or news"];
+const ANSWERS=["Exposed or young workers lose","No detectable effect","Workers or firms gain","Mixed: some gain some lose","It depends on tasks and organisation","Measures and context"];
+const col=i=>`var(--s${i+1})`;
+const yr=r=>r.year<2023?"before 2023":String(r.year);
+const YEARS=["before 2023","2023","2024","2025","2026"];
+const tip=document.getElementById('tip');
+function showTip(e,html){tip.innerHTML=html;tip.style.display='block';moveTip(e)}
+function moveTip(e){const x=Math.min(e.clientX+12,window.innerWidth-310);tip.style.left=x+'px';tip.style.top=(e.clientY+14)+'px'}
+function hideTip(){tip.style.display='none'}
+
+// tiles
+const causal=D.filter(r=>r.causal==='yes').length, entry=D.filter(r=>r.theme===THEMES[0]).length, latest=D.filter(r=>r.status==='latest research').length, y26=D.filter(r=>r.year==2026).length;
+document.getElementById('tiles').innerHTML=[[D.length,'sources tracked'],[causal,'meet the causal standard'],[y26,'dated 2026'],[latest,'in the live stream since Oct 2026']].map(([v,l])=>`<div class="tile"><div class="v">${v}</div><div class="l">${l}</div></div>`).join('');
+
+// findings
+const cnt=(f)=>D.filter(f).length;
+const lose=cnt(r=>r.theme===THEMES[0]&&r.answer_kind===ANSWERS[0]), nullE=cnt(r=>r.theme===THEMES[0]&&r.answer_kind===ANSWERS[1]);
+const stockLose=cnt(r=>r.theme===THEMES[1]&&r.answer_kind===ANSWERS[0]),stockNull=cnt(r=>r.theme===THEMES[1]&&r.answer_kind===ANSWERS[1]),stockGain=cnt(r=>r.theme===THEMES[1]&&r.answer_kind===ANSWERS[2]),stockMix=cnt(r=>r.theme===THEMES[1]&&r.answer_kind===ANSWERS[3]);
+const latestCausal=cnt(r=>r.status==='latest research'&&r.causal==='yes');
+const latestOrgMacro=cnt(r=>r.status==='latest research'&&(r.theme===THEMES[4]||r.theme===THEMES[7]));
+const theory26=cnt(r=>r.year==2026&&(r.design==='Theory'||r.design==='Calibrated or structural model'));
+document.getElementById('findings').innerHTML=[
+`<b>Junior hiring is the settled front.</b> Of ${entry} sources on entry and junior hiring, ${lose} find exposed or young workers losing and ${nullE} find no effect (the Nordic designs). The losses are on the hiring margin; the nulls measure employment stocks.`,
+`<b>Employment stock is where the field disagrees.</b> ${stockLose} losses, ${stockNull} nulls, ${stockGain} gain and ${stockMix} mixed results. The split follows the design: firm adoption studies return both signs, exposure designs on total employment return nulls.`,
+`<b>The frontier has moved to organisation and macro.</b> ${latestOrgMacro} of the ${latest} entries in the live stream since October concern organisation or macro, growth and expectations, against none on worker productivity.`,
+`<b>Causal evidence is thinning in the live stream.</b> Only ${latestCausal} of ${latest} recent entries meet the review's causal standard; the rest are descriptive, calibrated models, theory or news. Theory and calibrated models account for ${theory26} of the ${y26} sources dated 2026.`,
+`<b>The answer "it depends" is now the largest substantive category.</b> ${cnt(r=>r.answer_kind===ANSWERS[4])} sources make the effect conditional on tasks, bundles, management or who decides, against ${cnt(r=>r.answer_kind===ANSWERS[0])} that report losses and ${cnt(r=>r.answer_kind===ANSWERS[2])} that report gains.`
+].map(s=>`<li>${s}</li>`).join('');
+
+// stacked bars
+function stacked(id,cats,catOf,leg){
+  const W=520,H=300,m={l:34,r:8,t:8,b:28},iw=W-m.l-m.r,ih=H-m.t-m.b;
+  const tot=YEARS.map(y=>D.filter(r=>yr(r)===y));
+  const max=Math.max(...tot.map(a=>a.length)); const ymax=Math.ceil(max/10)*10;
+  const bw=iw/YEARS.length, pad=bw*0.22;
+  let s=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${id}">`;
+  s+='<g class="grid axis">';
+  for(let v=0;v<=ymax;v+=10){const y=m.t+ih-ih*v/ymax;s+=`<line x1="${m.l}" x2="${W-m.r}" y1="${y}" y2="${y}"/><text x="${m.l-6}" y="${y+4}" text-anchor="end">${v}</text>`}
+  s+='</g>';
+  YEARS.forEach((y,i)=>{
+    let acc=0;const x=m.l+i*bw+pad/2,w=bw-pad;
+    cats.forEach((c,ci)=>{
+      const n=tot[i].filter(r=>catOf(r)===c).length; if(!n)return;
+      const h=ih*n/ymax, yy=m.t+ih-ih*(acc+n)/ymax;
+      s+=`<rect class="bar" x="${x}" y="${yy}" width="${w}" height="${h}" fill="${col(ci)}" data-t="${c}: ${n} (${y})"/>`;
+      acc+=n;
+    });
+    s+=`<text class="axis" x="${x+w/2}" y="${H-8}" text-anchor="middle">${y}</text>`;
+    s+=`<text x="${x+w/2}" y="${m.t+ih-ih*acc/ymax-5}" text-anchor="middle" style="fill:var(--ink);font-weight:500">${acc}</text>`;
+  });
+  s+='</svg>';
+  const el=document.getElementById(id); el.innerHTML=s+`<div class="legend">${cats.map((c,i)=>`<span><i style="background:${col(i)}"></i>${c}</span>`).join('')}</div>`;
+}
+stacked('c-design',DESIGNS,r=>r.design);
+stacked('c-theme',THEMES,r=>r.theme);
+
+// heatmap
+(function(){
+  const W=1000,H=330,m={l:250,r:10,t:70,b:10},iw=W-m.l-m.r,ih=H-m.t-m.b;
+  const cw=iw/ANSWERS.length, rh=ih/THEMES.length;
+  const M=THEMES.map(t=>ANSWERS.map(a=>D.filter(r=>r.theme===t&&r.answer_kind===a).length));
+  const max=Math.max(...M.flat());
+  const seq=['var(--seq1)','var(--seq2)','var(--seq3)','var(--seq4)','var(--seq5)','var(--seq6)','var(--seq7)'];
+  let s=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Theme by answer heatmap">`;
+  ANSWERS.forEach((a,j)=>{const parts=a.replace(':','').split(' ');const l1=parts.slice(0,3).join(' '),l2=parts.slice(3).join(' ');
+    s+=`<text x="${m.l+j*cw+cw/2}" y="${m.t-34}" text-anchor="middle">${l1}</text><text x="${m.l+j*cw+cw/2}" y="${m.t-18}" text-anchor="middle">${l2}</text>`});
+  THEMES.forEach((t,i)=>{
+    s+=`<text x="${m.l-10}" y="${m.t+i*rh+rh/2+4}" text-anchor="end" style="fill:var(--ink)">${t}</text>`;
+    ANSWERS.forEach((a,j)=>{const n=M[i][j];const fill=n?seq[Math.min(6,Math.ceil(n/max*6))]:'transparent';
+      const dark=n/max>0.5;
+      s+=`<rect class="bar" x="${m.l+j*cw}" y="${m.t+i*rh}" width="${cw}" height="${rh}" rx="3" fill="${fill}" stroke="var(--surface)" stroke-width="2" data-t="${t} × ${a}: ${n}"/>`;
+      if(n)s+=`<text x="${m.l+j*cw+cw/2}" y="${m.t+i*rh+rh/2+4}" text-anchor="middle" style="fill:${dark?'#fff':'var(--ink)'};font-weight:500;pointer-events:none">${n}</text>`;
+    });
+  });
+  s+='</svg>';
+  document.getElementById('c-heat').innerHTML=s;
+})();
+
+// stream
+(function(){
+  const L=D.filter(r=>r.status==='latest research');
+  const dates={zhao2026responsibilities:'2026-11-06',hermle2026scientific:'2026-11-05',boe2026mpr:'2026-11-05',mehdi2026hiring:'2026-10-28',tadepalli2026efficiency:'2026-10-24',bianchini2026science:'2026-11-02',gans2026training:'2026-10-26',fernandezvillaverde2026saving:'2026-11-02',domnisoru2026majors:'2026-11-02',levyyeyati2026practice:'2026-10-26',hyman2025retrainable:'2026-08-15',althoff2026taskspecific:'2026-07-13',colaiacovo2026delegating:'2026-06-18',herdagdelen2026judgment:'2026-10-27',wilmers2026anthropic:'2026-10-16',legateyang2026robots:'2026-09-30',strauss2026resilience:'2026-10-17',anthropic2026revenue:'2026-10-14',coreweave2026bonds:'2026-10-14',sacher2026expectations:'2026-10-16'};
+  const W=1000,H=260,m={l:10,r:10,t:20,b:40},iw=W-m.l-m.r;
+  const t0=new Date('2026-06-10'),t1=new Date('2026-11-12');
+  const x=d=>m.l+iw*(new Date(d)-t0)/(t1-t0);
+  let s=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Latest research timeline">`;
+  s+='<g class="grid axis">';
+  ['2026-07-01','2026-08-01','2026-09-01','2026-10-01','2026-11-01'].forEach(d=>{s+=`<line x1="${x(d)}" x2="${x(d)}" y1="${m.t}" y2="${H-m.b}"/><text x="${x(d)+4}" y="${H-m.b+16}">${new Date(d).toLocaleString('en-GB',{month:'short'})} 2026</text>`});
+  s+='</g>';
+  // lane per theme
+  THEMES.forEach((t,i)=>{const y=m.t+(i+0.5)*(H-m.t-m.b)/THEMES.length;s+=`<line x1="${m.l}" x2="${W-m.r}" y1="${y}" y2="${y}" stroke="var(--line)" stroke-dasharray="2 4"/>`});
+  // collision offset
+  const used={};
+  L.forEach(r=>{const d=dates[r.id]||r.date+'-15';const i=THEMES.indexOf(r.theme);let y=m.t+(i+0.5)*(H-m.t-m.b)/THEMES.length;const key=i+':'+Math.round(x(d)/14);used[key]=(used[key]||0);const k=used[key]++;const xx=x(d)+k*13;
+    const causal=r.causal==='yes';
+    s+=`<circle class="bar" cx="${xx}" cy="${y}" r="7" fill="${causal?col(i):'var(--surface)'}" stroke="${col(i)}" stroke-width="2.5" data-t="<b>${r.authors} (${r.year})</b><br>${r.title}<br>${d} · ${r.theme} · ${r.design}"/>`;
+  });
+  s+='</svg>';
+  document.getElementById('c-stream').innerHTML=s+`<div class="legend">${THEMES.map((c,i)=>`<span><i style="background:${col(i)}"></i>${c}</span>`).join('')}</div>`;
+})();
+
+// tooltips
+document.querySelectorAll('[data-t]').forEach(el=>{el.addEventListener('mouseenter',e=>showTip(e,el.dataset.t));el.addEventListener('mousemove',moveTip);el.addEventListener('mouseleave',hideTip)});
+
+// table
+const sel={theme:'f-theme',design:'f-design',answer_kind:'f-answer',status:'f-status'};
+for(const k in sel){const el=document.getElementById(sel[k]);[...new Set(D.map(r=>r[k]))].sort().forEach(v=>{const o=document.createElement('option');o.value=v;o.textContent=v;el.appendChild(o)});el.addEventListener('change',render)}
+document.getElementById('f-q').addEventListener('input',render);
+function render(){
+  const q=document.getElementById('f-q').value.toLowerCase();
+  const rows=D.filter(r=>Object.keys(sel).every(k=>!document.getElementById(sel[k]).value||r[k]===document.getElementById(sel[k]).value)&&(!q||(r.authors+' '+r.title).toLowerCase().includes(q)))
+    .sort((a,b)=>(b.date||b.year+'-00').localeCompare(a.date||a.year+'-00'));
+  document.getElementById('count').textContent=rows.length+' of '+D.length;
+  document.querySelector('#tbl tbody').innerHTML=rows.map(r=>`<tr><td><b>${r.authors}</b> (${r.year})<br><span style="color:var(--ink-2)">${r.title}</span>, ${r.venue}<br><span style="color:var(--ink-2);font-size:12.5px">${r.answer}</span></td><td class="n">${r.date||r.year}</td><td>${r.theme}</td><td>${r.design}</td><td>${r.answer_kind}</td><td><span class="pill ${r.causal}">${r.causal}</span></td></tr>`).join('');
+}
+render();
+</script>
+</body>
+</html>

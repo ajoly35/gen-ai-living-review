@@ -1,0 +1,40 @@
+{%- comment -%}
+EconVitals statistics panel. Parameter: include.topic = employment | growth | productivity.
+Figures come from _data/econvitals.yml (snapshot) and are refreshed in the browser by
+assets/econvitals.js from the public econvitals/econvitals-data repository.
+Charts are the PNGs EconVitals publishes in that repository (img/<slug>.png).
+{%- endcomment -%}
+{%- assign ev = site.data.econvitals -%}
+{%- assign panel = ev.panels[include.topic] -%}
+<section class="econvitals" id="indicators" aria-labelledby="ev-title" data-ev-topic="{{ include.topic }}">
+  <h2 id="ev-title">{{ panel.title }}</h2>
+  <p class="ev-lead">{{ panel.lead }} United States data from <a href="https://econvitals.org/" rel="noopener">EconVitals</a>, Jason Furman's dashboard of official statistics. Figures as of <span data-ev="as_of">{{ ev.as_of }}</span>; they update when EconVitals does.</p>
+
+  <div class="ev-tiles">
+  {%- for t in panel.tiles %}
+    <div class="ev-tile">
+      <div class="ev-label">{{ t.label }}</div>
+      <div class="ev-value" data-ev="{{ t.key }}">{{ t.value }}</div>
+      <div class="ev-period" data-ev="{{ t.key }}_period">{{ t.period }}</div>
+      <div class="ev-compare">{{ t.compare }}</div>
+    </div>
+  {%- endfor %}
+  </div>
+
+  <div class="ev-reads">
+  {%- for r in panel.reads %}
+    <p><strong>{{ r.head }}</strong> {{ r.text }}</p>
+  {%- endfor %}
+  </div>
+
+  <div class="ev-charts">
+  {%- for c in panel.charts %}
+    <figure class="ev-fig">
+      <img data-ev-slug="{{ c.slug }}" src="https://raw.githubusercontent.com/econvitals/econvitals-data/main/img/{{ c.slug }}.png" alt="{{ c.alt }}" loading="lazy">
+      <figcaption>{{ c.caption }} <span class="ev-credit">Chart: EconVitals; {{ c.source }}</span></figcaption>
+    </figure>
+  {%- endfor %}
+  </div>
+
+  <p class="ev-credit-line">Statistics and charts: <a href="https://econvitals.org/" rel="noopener">econvitals.org</a> (Jason Furman, Harvard Kennedy School), built from BLS and BEA releases. EconVitals is United States only; UK and euro area indicators are linked from each page where they exist.</p>
+</section>

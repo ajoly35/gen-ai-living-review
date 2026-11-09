@@ -1,5 +1,7 @@
 ---
 layout: default
+lang: en
+alt: /fr/
 ---
 
 # Gen-AI, Jobs and Growth: A Living Review
@@ -7,17 +9,21 @@ layout: default
 
 <p class="byline">Adrien Joly · London School of Economics · Last updated {{ site.time | date: "%-d %B %Y" }}</p>
 
-What generative AI has done to employment, hiring, hours and wages so far, by research design, with heterogeneity by experience and age. New papers on AI and labour markets and on AI and growth appear in the box below every week.
+What generative AI has done to employment, hiring, hours and wages so far, by research design, with heterogeneity by experience and age. One new paper appears in the box below each morning; the [recent papers]({{ '/latest/' | relative_url }}) page keeps the last twenty, and [research vitals]({{ '/vitals/' | relative_url }}) charts where the field is heading.
 {:.lead}
+
+{% include main-ideas.md %}
+
+{% include paper-of-the-day.html lang="en" %}
 
 * Contents
 {:toc}
 
-<section class="latest" markdown="1">
+<section class="trackers" markdown="1">
 
-## Latest research
+## Live trackers
 
-{% include latest.md %}
+{% include trackers.md %}
 
 </section>
 

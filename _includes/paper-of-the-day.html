@@ -1,0 +1,39 @@
+{%- comment -%}
+Paper of the day: the newest entry of _includes/latest.md (or fr/latest.md) that is a paper, not a news item.
+Parameters: include.lang (en|fr). A paper entry has a quoted title in its heading and a [Paper]( or [Report]( link;
+entries whose provenance line says News report / News analysis, or that carry <!-- kind: news -->, are skipped.
+The routine may force the choice with <!-- kind: paper --> or <!-- kind: news --> right under a heading.
+{%- endcomment -%}
+{%- assign l = include.lang | default: "en" -%}
+{%- if l == "fr" -%}{%- capture raw -%}{%- include fr/latest.md -%}{%- endcapture -%}{%- else -%}{%- capture raw -%}{%- include latest.md -%}{%- endcapture -%}{%- endif -%}
+{%- assign chunks = raw | split: "### " -%}
+{%- assign potd = "" -%}
+{%- assign n = 0 -%}
+{%- for c in chunks offset:1 -%}
+  {%- assign n = n | plus: 1 -%}
+  {%- assign head = c | slice: 0, 900 -%}
+  {%- if potd == "" -%}
+    {%- assign is_paper = false -%}
+    {%- if head contains "kind: paper" -%}{%- assign is_paper = true -%}
+    {%- elsif head contains "kind: news" -%}{%- assign is_paper = false -%}
+    {%- elsif head contains "News report" or head contains "News analysis" or head contains "Article de presse" or head contains "Analyse journalistique" or head contains "Reportage" -%}{%- assign is_paper = false -%}
+    {%- elsif head contains "[Paper](" or head contains "[Report](" or head contains "[Article](" or head contains "[Rapport](" -%}{%- assign is_paper = true -%}
+    {%- endif -%}
+    {%- if is_paper -%}{%- assign potd = c -%}{%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+<section class="latest potd" markdown="1">
+{%- if l == "fr" %}
+## Article du jour
+{:#latest-research}
+
+<p class="potd-meta">Mis à jour chaque matin vers 5 h (heure de Londres) ; dernier passage le {{ site.time | date: "%-d %B %Y" }}. <a href="{{ '/fr/latest/' | relative_url }}">Les {{ n }} entrées récentes</a> · <a href="{{ '/fr/vitals/' | relative_url }}">Où va la recherche</a></p>
+{%- else %}
+## Paper of the day
+{:#latest-research}
+
+<p class="potd-meta">Updated each morning at about 5 am London time; last run {{ site.time | date: "%-d %B %Y" }}. <a href="{{ '/latest/' | relative_url }}">All {{ n }} recent entries</a> · <a href="{{ '/vitals/' | relative_url }}">Where the field is heading</a></p>
+{%- endif %}
+
+### {{ potd }}
+</section>
