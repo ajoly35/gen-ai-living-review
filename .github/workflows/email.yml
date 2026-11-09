@@ -2,8 +2,8 @@
 #  - push to main that changes _includes/latest.md  -> daily email (the entries added by that push)
 #  - Monday 07:00 UTC                                -> weekly digest (entries added in the last 7 days)
 #  - 1st of the month 07:10 UTC                      -> monthly digest (entries added in the last month)
-# Each run writes the email (HTML, text, Markdown) to emails/ so it can be read, exported or pasted into
-# Substack, and sends it through Buttondown to the subscribers carrying the matching tag when the
+# Each run writes four emails (general brief and academic digest, English and French; HTML, text, Markdown) to
+# emails/ so they can be read, exported or pasted into Substack, and sends it through Buttondown to the subscribers carrying the matching tag when the
 # SUBSCRIBE_API + SEND_TOKEN secrets exist (self-hosted list, infra/subscribe-worker), or through Buttondown if only
 # BUTTONDOWN_API_KEY exists. Without any secret the send step is a dry run.
 name: Email new papers
@@ -50,13 +50,15 @@ jobs:
           PY
           echo "kind=$kind" >> "$GITHUB_OUTPUT"
           if grep -q '^### ' added.md; then echo "some=true" >> "$GITHUB_OUTPUT"; else echo "some=false" >> "$GITHUB_OUTPUT"; fi
-      - name: Build the emails (English and French)
+      - name: Build the emails (general brief and academic digest, English and French)
         if: steps.cut.outputs.some == 'true'
         id: build
         run: |
-          python3 -I scripts/build_email.py --added added.md --kind "${{ steps.cut.outputs.kind }}" --lang en --out emails
-          python3 -I scripts/build_email.py --added added.md --kind "${{ steps.cut.outputs.kind }}" --lang fr --out emails || echo "no French entries yet"
-          echo "base=emails/$(date -u +%F)-${{ steps.cut.outputs.kind }}" >> "$GITHUB_OUTPUT"
+          k="${{ steps.cut.outputs.kind }}"
+          for aud in general academic; do for l in en fr; do
+            python3 -I scripts/build_email.py --added added.md --kind "$k" --lang "$l" --audience "$aud" --out emails || echo "no $l entries for $aud"
+          done; done
+          echo "base=emails/$(date -u +%F)-$k" >> "$GITHUB_OUTPUT"
       - name: Keep a copy in the repository
         if: steps.cut.outputs.some == 'true'
         run: |
@@ -71,8 +73,11 @@ jobs:
         run: |
           b="${{ steps.build.outputs.base }}"; k="${{ steps.cut.outputs.kind }}"
           if [ -n "$SUBSCRIBE_API" ]; then
-            python3 -I scripts/send_selfhosted.py --html "$b-en.html" --text "$b-en.txt" --subject "$b-en.subject" --tag "$k"
-            [ -f "$b-fr.html" ] && python3 -I scripts/send_selfhosted.py --html "$b-fr.html" --text "$b-fr.txt" --subject "$b-fr.subject" --tag "$k-fr" || true
+            # tags: daily | daily-academic | daily-fr | daily-academic-fr (same for weekly, monthly); files: -en / -academic-en / -fr / -academic-fr
+            for aud in "" "-academic"; do for l in en fr; do
+              f="$b$aud-$l"; tag="$k$aud"; [ "$l" = fr ] && tag="$tag-fr"
+              [ -f "$f.html" ] && python3 -I scripts/send_selfhosted.py --html "$f.html" --text "$f.txt" --subject "$f.subject" --tag "$tag" || echo "no file for $tag"
+            done; done
           else
             python3 -I scripts/send_buttondown.py --html "$b-en.html" --subject "$b-en.subject" --tag "$k"
             [ -f "$b-fr.html" ] && python3 -I scripts/send_buttondown.py --html "$b-fr.html" --subject "$b-fr.subject" --tag "$k-fr" || true

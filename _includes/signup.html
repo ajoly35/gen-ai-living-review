@@ -13,14 +13,14 @@ email workflow (.github/workflows/email.yml) sends to. Otherwise the form compos
 <section class="signup" id="signup" aria-labelledby="signup-title">
 {%- if l == "fr" %}
   <h2 id="signup-title">Recevoir les nouvelles études par courriel</h2>
-  <p class="signup-lead">Un courriel propre et court, lisible sans être économiste : ce que l'étude trouve, pourquoi c'est important, sa limite, et les idées principales de la revue en bas. Choisissez le rythme ; aucun courriel les jours sans nouvelle étude.</p>
+  <p class="signup-lead">Un brief court sur chaque nouvelle étude, lisible sans être économiste : ce qu'elle explore, pourquoi c'est important, ce que cela change aux preuves, avec un graphique simple. Ou le résumé académique avec les entrées complètes. Choisissez le rythme ; aucun courriel les jours sans nouvelle étude.</p>
 {%- else %}
   <h2 id="signup-title">Get new studies by email</h2>
   <p class="signup-lead">
     {%- if topic == "employment" -%}A short, clean email each time a verified study on generative AI and employment, hiring, hours or wages is added: what it finds, why it matters, its caveat, and the review's main ideas at the bottom.
     {%- elsif topic == "growth" -%}A short, clean email each time a verified study on AI and growth, productivity scenarios or the AI investment cycle is added: what it finds, why it matters, its caveat, and the review's main ideas at the bottom.
     {%- elsif topic == "productivity" -%}A short, clean email each time a verified study or official release on AI and measured productivity is added: what it finds, why it matters, its caveat.
-    {%- else -%}A short, clean email written for readers who are not economists: what the study finds, why it matters, its caveat, and the review's main ideas at the bottom. Pick a rhythm; no email on days without a new study.
+    {%- else -%}A short brief on each new study, written for readers who are not economists: what it explores, why it matters, how it fits the evidence so far, with one simple chart. Or the academic digest with the full entries. Pick a rhythm; no email on days without a new study.
     {%- endif -%}
   </p>
 {%- endif %}
@@ -42,6 +42,11 @@ email workflow (.github/workflows/email.yml) sends to. Otherwise the form compos
       <label><input type="radio" name="frequency" value="daily"> {% if l == "fr" %}Chaque nouvelle étude, le matin{% else %}Each new study, in the morning{% endif %}</label>
       <label><input type="radio" name="frequency" value="weekly" checked> {% if l == "fr" %}Un résumé le lundi{% else %}One digest on Mondays{% endif %}</label>
       <label><input type="radio" name="frequency" value="monthly"> {% if l == "fr" %}Un résumé le 1er du mois{% else %}One digest on the 1st of the month{% endif %}</label>
+    </fieldset>
+    <fieldset class="signup-freq">
+      <legend>{% if l == "fr" %}Format{% else %}Format{% endif %}</legend>
+      <label><input type="radio" name="audience" value="general" checked> {% if l == "fr" %}Brief grand public : ce que l'étude explore, pourquoi c'est important, ce que cela change aux preuves, en mots simples et avec un graphique{% else %}General brief: what the study explores, why it matters, how it fits the evidence, in plain words with one chart{% endif %}</label>
+      <label><input type="radio" name="audience" value="academic"> {% if l == "fr" %}Résumé académique : l'entrée complète (dispositif, chiffres, limite){% else %}Academic digest: the full entry (design, figures, caveat){% endif %}</label>
     </fieldset>
     <input type="hidden" name="lang" value="{{ l }}">
     <input type="text" name="hp" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-10000px;width:1px;height:1px;opacity:0">

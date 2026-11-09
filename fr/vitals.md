@@ -2,16 +2,16 @@
 layout: default
 lang: fr
 alt: /vitals/
-title: Signes vitaux de la recherche
+title: Où va la recherche
 permalink: /fr/vitals/
 ---
 
-# Signes vitaux de la recherche
+# Où va la recherche
 {:.no_toc}
 
 <p class="byline">IA générative, emploi et croissance : une revue vivante · Adrien Joly, London School of Economics · Données au {{ site.data.vitals.as_of }}</p>
 
-Où va la recherche sur l'IA générative, l'emploi et la croissance, lue dans les études de cette revue : combien il y en a, quels dispositifs elles utilisent, quelle réponse elles donnent, et ce qui s'ajoute. Chaque chiffre vient de la base de la revue, codée à partir des entrées de ce site, dans l'esprit d'[EconVitals](https://econvitals.org/) de Jason Furman pour l'économie américaine. La base est dans la source de la page (`_data/papers.yml`) et dans le tableau en bas.
+Où va la recherche sur l'IA générative, l'emploi et la croissance, lue dans les études de cette revue : combien il y en a, quels dispositifs elles utilisent, quelle réponse elles donnent, et ce qui s'ajoute. Chaque chiffre vient de la base de la revue, codée à partir des entrées de ce site. La base est dans la source de la page (`_data/papers.yml`) et dans le tableau en bas.
 {:.lead}
 
 {% assign v = site.data.vitals %}

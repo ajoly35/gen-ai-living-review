@@ -40,10 +40,28 @@ Adrien's decision (9 Nov 2026): offer the daily rhythm from day one, no warm-up;
 `sends` sheet records the skipped count and the next run retries. Do everything below while logged into
 that account only (open a private window), so the Sheet, the script and the web app belong to it.
 
+## Two rules learned the hard way (9 November 2026)
+1. **Never run `clasp create-deployment` or `clasp update-deployment` for the web app.** Both produce a deployment with only a
+   library entry point (the web app URL answers 404 or a Drive "unable to open" page). Create the web app once in the editor
+   (Deploy > New deployment > Web app) and publish new code with Deploy > Manage deployments > pencil > Version: New version >
+   Deploy. `clasp push -f` is fine for uploading code; it changes nothing until a version is published.
+2. **Never put a `script.google.com` link in an email.** When a reader is signed in to Google, the link is rewritten to a
+   `/macros/u/N/s/...` path that the anonymous web app rejects. Confirmation and unsubscribe links therefore point to the
+   site (`/subscribed/?t=…`, `/unsubscribed/?t=…`, French twins under `/fr/`), whose page calls `?action=confirm&json=1` with
+   `fetch(..., {credentials: 'omit'})`, which carries no Google login and works. The one-click List-Unsubscribe POST from mail
+   clients still hits the script URL directly, which works because mail clients send no Google cookies either.
+
+## Audiences and tags
+Subscribers choose a rhythm (daily, weekly, monthly) and a format: **general** (the plain-language brief: what it explores, why
+it matters, how it fits the evidence, one chart) or **academic** (the full entry). The Sheet has an `audience` column; the send
+tag is `freq[-academic][-fr]`, e.g. `daily`, `daily-academic`, `weekly-fr`, `monthly-academic-fr`. The email workflow builds and
+sends the four variants per run. The general brief reads the `**In brief.**` block the routine writes under each entry (three
+labelled lines) and falls back to the entry's own sentences when the block is missing (older entries).
+
 ## State on 9 November 2026 (done by Claude with Adrien in Chrome)
 - Account `ai.economics.brief@gmail.com` created (display name AI Economics Brief); Apps Script API on for that account only.
 - Sheet "Living review subscribers" (id `1rUSNVJqMPpqCQQ_iEX09J6MWlRpb7ooB4j_Rd0p2MYc`) with bound script `1K2tXlJe69b_O16lTQ6pNkGgWLJEevkNdcr2aszWXF7E8pmfjy7uedJIl`, code pushed with clasp, `setup()` run and permissions granted.
-- Web app deployment "subscribe API v1" (version 2): `https://script.google.com/macros/s/AKfycbzpRkretBKp8XvklIRpVjHGefOy2DOHgDtCHaLlRnRBfVcF31RYwTNTkBP0INEdVWvl/exec`. Note: `clasp create-deployment` only makes a library deployment; the web app entry point had to be created in the editor (Deploy > New deployment > Web app). `deploy.sh update` still works for pushing new versions to this deployment id.
+- Web app deployment "subscribe API v2" (the one to keep): `https://script.google.com/macros/s/AKfycbzNbccDjO406eqRFg-ntUJnTdtrUz3dboH-Y-lzjQYNaywWSiC5cU3hgSbRXF3Lxw/exec` (also in `.exec-url` and in `Config.gs` as `EXEC_URL`). v1 was broken by `clasp update-deployment` and deleted. `deploy.sh update` now only pushes code; publish the version in the editor.
 - `_config.yml` `subscribe_api` set; GitHub secrets `SUBSCRIBE_API` and `SEND_TOKEN` set on ajoly35/gen-ai-living-review. Stats endpoint answers; a test subscription for a.p.joly@lse.ac.uk is pending confirmation.
 - Site not yet committed or pushed.
 

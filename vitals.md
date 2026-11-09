@@ -2,16 +2,16 @@
 layout: default
 lang: en
 alt: /fr/vitals/
-title: Research vitals
+title: Direction of the field
 permalink: /vitals/
 ---
 
-# Research vitals
+# Direction of the field
 {:.no_toc}
 
 <p class="byline">Gen-AI, Jobs and Growth: A Living Review · Adrien Joly, London School of Economics · Dataset as of {{ site.data.vitals.as_of }}</p>
 
-Where the research on generative AI, jobs and growth is heading, read off the studies in this review: how many there are, what designs they use, what answer they give, and what has been added lately. Every figure comes from the review's own dataset of studies, coded from the entries on this site, in the spirit of Jason Furman's [EconVitals](https://econvitals.org/) for the US economy. The dataset is in the page source (`_data/papers.yml`) and the table at the bottom.
+Where the research on generative AI, jobs and growth is heading, read off the studies in this review: how many there are, what designs they use, what answer they give, and what has been added lately. Every figure comes from the review's own dataset of studies, coded from the entries on this site. The dataset is in the page source (`_data/papers.yml`) and the table at the bottom.
 {:.lead}
 
 {% assign v = site.data.vitals %}

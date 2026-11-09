@@ -13,7 +13,7 @@ exclude: [scripts, README.md]
 # Sheet, sent by Gmail; https://script.google.com/macros/s/.../exec) OR the Cloudflare Worker URL (infra/subscribe-worker; own
 # domain, Resend relay). Alternative: buttondown_username.
 # With neither, the sign-up form composes an email to subscribe_email.
-subscribe_api: "https://script.google.com/macros/s/AKfycbzpRkretBKp8XvklIRpVjHGefOy2DOHgDtCHaLlRnRBfVcF31RYwTNTkBP0INEdVWvl/exec"
+subscribe_api: "https://script.google.com/macros/s/AKfycbzNbccDjO406eqRFg-ntUJnTdtrUz3dboH-Y-lzjQYNaywWSiC5cU3hgSbRXF3Lxw/exec"
 buttondown_username: ""
 subscribe_email: "a.p.joly@lse.ac.uk"
 include: [emails]

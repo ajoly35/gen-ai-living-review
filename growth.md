@@ -8,9 +8,9 @@ permalink: /growth/
 # AI and economic growth
 {:.no_toc}
 
-<p class="byline">Gen-AI, Jobs and Growth: A Living Review · Adrien Joly, London School of Economics · Figures update with EconVitals</p>
+<p class="byline">Gen-AI, Jobs and Growth: A Living Review · Adrien Joly, London School of Economics</p>
 
-How AI could change the level and growth rate of output: the aggregation of measured task gains, the growth models in which AI automates goods and then ideas, and what GDP misses. This page pairs the companion growth review with the US investment and output series the scenarios run through, and lets you sign up for new papers on this topic.
+How AI could change the level and growth rate of output: the aggregation of measured task gains, the growth models in which AI automates goods and then ideas, and what GDP misses. This page sums up the companion growth review and lets you sign up for new papers on the topic.
 {:.lead}
 
 <p class="cta-row"><a class="btn btn-primary" href="#signup">Get new growth papers by email</a> <a class="btn btn-secondary" href="{{ '/#latest-research' | relative_url }}">Latest research</a></p>
@@ -24,9 +24,7 @@ How AI could change the level and growth rate of output: the aggregation of meas
 
 The growth review is a companion to the employment review and is referenced from the [Latest research]({{ '/#latest-research' | relative_url }}) entries marked "companion review".
 
-{% include econvitals.html topic="growth" %}
 
-Outside the United States: the Bank of England's [Monetary Policy Report](https://www.bankofengland.co.uk/monetary-policy-report/2026/november-2026), the ONS [GDP monthly estimate](https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpmonthlyestimateuk/latest) and Eurostat's [GDP flash estimate](https://ec.europa.eu/eurostat/web/euro-indicators/national-accounts).
 
 ## Added recently on this topic
 

@@ -9,7 +9,7 @@ alt: /fr/
 
 <p class="byline">Adrien Joly · London School of Economics · Last updated {{ site.time | date: "%-d %B %Y" }}</p>
 
-What generative AI has done to employment, hiring, hours and wages so far, by research design, with heterogeneity by experience and age. One new paper appears in the box below each morning; the [recent papers]({{ '/latest/' | relative_url }}) page keeps the last twenty, and [research vitals]({{ '/vitals/' | relative_url }}) charts where the field is heading.
+What generative AI has done to employment, hiring, hours and wages so far, by research design, with heterogeneity by experience and age. One new paper appears in the box below each morning; the [recent papers]({{ '/latest/' | relative_url }}) page keeps the last twenty, and [direction of the field]({{ '/vitals/' | relative_url }}) charts where the research is heading.
 {:.lead}
 
 {% include main-ideas.md %}

@@ -8,9 +8,9 @@ permalink: /employment/
 # Generative AI and employment
 {:.no_toc}
 
-<p class="byline">Gen-AI, Jobs and Growth: A Living Review · Adrien Joly, London School of Economics · Figures update with EconVitals</p>
+<p class="byline">Gen-AI, Jobs and Growth: A Living Review · Adrien Joly, London School of Economics</p>
 
-What generative AI has done so far to employment, hiring, hours and wages, from the causal studies since 2023, with heterogeneity by experience and age. This page pairs the review's findings with the aggregate series they would have to show up in, and lets you sign up for new papers on this topic.
+What generative AI has done so far to employment, hiring, hours and wages, from the causal studies since 2023, with heterogeneity by experience and age. This page sums up the review's findings on the topic and lets you sign up for new papers on it.
 {:.lead}
 
 <p class="cta-row"><a class="btn btn-primary" href="#signup">Get new employment papers by email</a> <a class="btn btn-secondary" href="{{ '/#applied-micro-evidence' | relative_url }}">Read the review</a></p>
@@ -24,9 +24,7 @@ What generative AI has done so far to employment, hiring, hours and wages, from 
 
 The one-line summary, with each parameter's status, is in [Main patterns]({{ '/#main-patterns' | relative_url }}).
 
-{% include econvitals.html topic="employment" %}
 
-Outside the United States: the ONS [labour market overview](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/latest) for the UK and Eurostat's [euro area unemployment](https://ec.europa.eu/eurostat/web/euro-indicators/labour-market) release.
 
 ## Added recently on this topic
 

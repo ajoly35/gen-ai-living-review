@@ -10,7 +10,7 @@ permalink: /fr/
 
 <p class="byline">Adrien Joly · London School of Economics · Dernière mise à jour le {{ site.time | date: "%-d %B %Y" }}</p>
 
-Ce que l'IA générative a fait jusqu'ici à l'emploi, aux embauches, aux heures et aux salaires, dispositif de recherche par dispositif, avec les écarts par expérience et par âge. Un nouvel article paraît dans l'encadré ci-dessous chaque matin ; la page des [articles récents]({{ '/fr/latest/' | relative_url }}) garde les vingt derniers, et les [signes vitaux]({{ '/fr/vitals/' | relative_url }}) montrent en graphiques où va la recherche.
+Ce que l'IA générative a fait jusqu'ici à l'emploi, aux embauches, aux heures et aux salaires, dispositif de recherche par dispositif, avec les écarts par expérience et par âge. Un nouvel article paraît dans l'encadré ci-dessous chaque matin ; la page des [articles récents]({{ '/fr/latest/' | relative_url }}) garde les vingt derniers, et la page [où va la recherche]({{ '/fr/vitals/' | relative_url }}) le montre en graphiques.
 {:.lead}
 
 {% include fr/main-ideas.md %}

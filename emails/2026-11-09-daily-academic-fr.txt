@@ -1,0 +1,45 @@
+IA GÉNÉRATIVE, EMPLOI ET CROISSANCE
+Une nouvelle étude sur l'IA et le travail, vérifiée sur son texte intégral.
+
+Zhao et al. (2026), "AI Exposure and the Changing Responsibilities in Job Postings"
+Microsoft, Microsoft Research et Stanford University, prépublication arXiv, 6 novembre 2026. Article. Comparaison descriptive des offres d'emploi de 2023 et 2025, sans groupe de contrôle ; hors du standard de preuve causale de la revue, rapportée à titre de contexte.
+
+Ce que l'étude trouve. Les grands employeurs américains mentionnent un peu moins souvent dans leurs offres les activités exposées à l'IA, et les décrivent de plus en plus comme réalisées avec l'IA. Sur 50,000 offres de 33 grandes entreprises, une activité plus exposée d'un écart-type a perdu 0.19 à 0.24 point de pourcentage de présence en plus entre 2023 et 2025, une faible part de l'ensemble des activités listées. Sur 57 activités dont la présence a reculé, 55 ont été associées à l'IA dans davantage d'offres. La part des offres mentionnant l'IA est passée de 5.3% à 8.8%.
+
+Pourquoi c'est important. Klein Teeselink et Carey (2026) trouvent moins d'offres dans les professions exposées (section « Approches par l'exposition : embauches et entrée ») ; ici, les activités exposées ne reculent que légèrement au sein des emplois encore proposés, de sorte que le déplacement de la demande passe davantage par les emplois publiés que par le contenu de chacun. Les employeurs réécrivent les activités exposées autour de l'usage de l'IA, pendant côté demande déclarée des nouvelles tâches que Dillon et al. (2025) n'ont pas trouvées (section « La réorganisation crée-t-elle de nouvelles tâches ? »).
+
+Limite. Les offres relèvent en partie du signal et ne montrent ni qui est embauché ni ce que font les travailleurs. Quatre des cinq auteurs travaillent chez Microsoft, l'une des 33 entreprises.
+
+https://arxiv.org/abs/2611.09870
+https://ajoly35.github.io/gen-ai-living-review/fr/latest/#zhao-et-al-2026-ai-exposure-and-the-changing-responsibilities-in-job-postings
+
+——————————————————————————————
+
+Hermle et al. (2026), "AI for Scientific Discovery: How Researchers Use Claude"
+The Anthropic Institute, rapport technique, 5 novembre 2026. Article. Données d'usage descriptives, une enquête et une fonction de production d'idées calibrée ; hors du standard causal, contexte pour l'IA et la croissance.
+
+Ce que l'étude trouve. Les scientifiques utilisent l'IA là où elle fonctionne le mieux, et un modèle calibré indique que l'IA actuelle pourrait au plus doubler la production de recherche, le travail physique plafonnant des gains plus importants. Sur 207,049 sessions de recherche sur Claude et Claude Code (août à septembre 2026), l'analyse de données représente 33.7% et 48.1% des sessions contre 27.6% du temps des chercheurs ; l'idéation en représente 4.2% et 2.1% contre 7.1%. Introduites dans une fonction de production d'idées avec une élasticité de substitution d'un demi, les capacités actuelles multiplient la production par 1.35 dans les arts et par 2.02 en statistique, à budget fixe. Si toutes les étapes non physiques sont automatisées, les disciplines avec peu de travail de laboratoire atteignent 15 à 16 fois, les disciplines de laboratoire 3 à 4 fois.
+
+Pourquoi c'est important. Donne des chiffres par discipline sur le côté des intrants des modèles d'automatisation de la recherche de Davidson et al. et de Trammell et Korinek (revue compagnon) : les étapes physiques sont le goulet d'étranglement à la Baumol. L'usage augmente fortement avec la capacité sur la tâche, de sorte que l'exposition mesurée prédit bien où va l'adoption, à la différence de l'écart à l'échelle de l'économie chez Massenkoff et McCrory (2026) (section « Concepts clés et définitions »).
+
+Limite. Les auteurs étudient le produit de leur employeur sur deux mois d'abonnements grand public ; les scénarios reposent sur un coût de l'IA supposé et un score de capacité évalué par un modèle, non sur une production mesurée.
+
+https://www.anthropic.com/research/how-researchers-use-claude
+https://ajoly35.github.io/gen-ai-living-review/fr/latest/#hermle-et-al-2026-ai-for-scientific-discovery-how-researchers-use-claude
+
+——————————————————————————————
+
+IDÉES PRINCIPALES
+- De grands gains sur les tâches, aucun encore dans les agrégats. Dans les expériences de terrain, l'IA générative accroît la production sur des tâches étroites de 14 à 34%, surtout pour les travailleurs qui étaient les moins productifs auparavant. Dans les registres nordiques, l'emploi total, les heures et les revenus sont inchangés jusqu'ici.
+- L'ajustement passe par l'entrée, pas par les licenciements. Les embauches de jeunes dans les professions les plus exposées ont baissé aux États-Unis, en Suède, au Royaume-Uni et en France, jusqu'à un quart par rapport aux professions moins exposées, et les fins de contrat ont baissé aussi : les entreprises cessent d'embaucher des juniors plutôt que de licencier des salariés. Les embauches sont un petit flux, de sorte que le stock d'emplois évolue lentement et que les totaux paraissent stables.
+- Les professions exposées s'ajustent aussi par la rémunération. Les salaires des professions les plus exposées ont baissé d'environ 5% en 2026 sans changement des effectifs, et cela explique près d'un tiers de la baisse de la prime salariale des diplômés du supérieur.
+- Les résultats au niveau des entreprises divergent. Certaines entreprises adoptantes réduisent l'emploi junior d'environ 9% tandis que l'emploi senior est inchangé ; d'autres, surtout celles qui dépensent le plus en IA, ont crû et embauché davantage d'entrants. Qui compte comme entreprise adoptante explique une grande partie de l'écart, et savoir si la substitution ou l'échelle l'emporte est la grande question ouverte.
+- Les juniors perdent parce que leurs tâches sont les plus codifiables. L'IA accroît le plus la production des novices, mais l'embauche dépend de la demande pour la production de l'entreprise, pas de la production par travailleur. Si l'IA accomplit le travail routinier sur lequel les juniors se formaient, les entreprises ont moins de raisons de les embaucher et de les former.
+- L'organisation décide de la direction. La qualité du management, le coût de la réorganisation et la flexibilité du droit du travail déterminent la profondeur de l'adoption par les entreprises. Jusqu'ici, l'IA fait surtout gagner du temps au sein des emplois existants et fait descendre le savoir dans la hiérarchie ; de nouvelles tâches n'apparaissent que là où les employeurs se réorganisent.
+- Ce qui reste inconnu. La force de la réaction de la demande à une production moins chère, la part de la baisse de l'entrée qui revient à l'IA plutôt qu'au télétravail ou à un ralentissement amorcé en 2022, où s'arrête la baisse de l'entrée à mesure que les modèles s'améliorent, et qui capte les gains.
+
+Lire la revue complète: https://ajoly35.github.io/gen-ai-living-review/fr/
+Se désabonner: {{ unsubscribe_url }}
+
+Une revue vivante tenue par Adrien Joly, London School of Economics.
+Les entrées sont rédigées par un assistant IA à partir de l'article lui-même et ne sont pas relues avant envoi. Les chiffres viennent de l'article ; l'appréciation de la revue est dans la limite.

@@ -18,17 +18,17 @@ A clean email written for readers who are not economists, at the rhythm you choo
   <a class="topic-card" href="{{ '/employment/' | relative_url }}">
     <span class="topic-kicker">Employment</span>
     <span class="topic-title">Hiring, entry, hours and wages</span>
-    <span class="topic-text">Field experiments, exposure designs and firm adoption studies, with heterogeneity by experience and age. Paired with the US labour market this month.</span>
+    <span class="topic-text">Field experiments, exposure designs and firm adoption studies, with heterogeneity by experience and age.</span>
   </a>
   <a class="topic-card" href="{{ '/growth/' | relative_url }}">
     <span class="topic-kicker">Growth</span>
     <span class="topic-title">Scenarios, calibrations and the investment cycle</span>
-    <span class="topic-text">Aggregation of task gains, automation of goods and of ideas, who captures the gains. Paired with US GDP and AI capital spending.</span>
+    <span class="topic-text">Aggregation of task gains, automation of goods and of ideas, who captures the gains.</span>
   </a>
   <a class="topic-card" href="{{ '/productivity/' | relative_url }}">
     <span class="topic-kicker">Productivity</span>
     <span class="topic-title">Companion to the productivity chapter</span>
-    <span class="topic-text">Definitions, what the data show so far, and the measured record. Paired with US productivity, unit labour costs and the pre-pandemic forecast.</span>
+    <span class="topic-text">Definitions, what the data show so far, and the measured record.</span>
   </a>
 </div>
 
