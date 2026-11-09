@@ -1,17 +1,17 @@
 IA GÉNÉRATIVE, EMPLOI ET CROISSANCE
 Une nouvelle étude sur l'IA et le travail, vérifiée sur son texte intégral.
 
-Zhao et al. (2026), "AI Exposure and the Changing Responsibilities in Job Postings"
-Microsoft, Microsoft Research et Stanford University, prépublication arXiv, 6 novembre 2026. Article. Comparaison descriptive des offres d'emploi de 2023 et 2025, sans groupe de contrôle ; hors du standard de preuve causale de la revue, rapportée à titre de contexte.
+Barwick et al. (2026), "AI as Shared Business Infrastructure: Firm Growth and the Distribution of Gains"
+NBER Working Paper 36003, 9 novembre 2026. Article. Doubles différences avec appariement sur les données d'une plateforme chinoise de commerce en ligne, vérifiées par variables instrumentales.
 
-Ce que l'étude trouve. Les grands employeurs américains mentionnent un peu moins souvent dans leurs offres les activités exposées à l'IA, et les décrivent de plus en plus comme réalisées avec l'IA. Sur 50,000 offres de 33 grandes entreprises, une activité plus exposée d'un écart-type a perdu 0.19 à 0.24 point de pourcentage de présence en plus entre 2023 et 2025, une faible part de l'ensemble des activités listées. Sur 57 activités dont la présence a reculé, 55 ont été associées à l'IA dans davantage d'offres. La part des offres mentionnant l'IA est passée de 5.3% à 8.8%.
+Ce que l'étude trouve. Les petites boutiques en ligne chinoises qui ont adopté l'assistant d'IA intégré à leur plateforme ont augmenté leurs ventes mensuelles d'environ moitié, et les plus petites ont gagné le plus. Les données couvrent les vendeurs dont les ventes annuelles avant le lancement ne dépassaient pas 5 millions de RMB, d'octobre 2023 à juillet 2025 : 148,770 adoptants comparés à 77,347 non-adoptants similaires. Les ventes ont augmenté de 51.6% et les commandes de 47.0% par rapport aux non-adoptants appariés, sans écart avant l'adoption. Les ventes ont progressé de 61.5% dans le quart le plus petit, contre 10.3% dans le quart le plus grand. Les adoptants ont publié 62.6% d'images de produits en plus, tandis que le temps du service client par commande a baissé de 5.6%. Les catégories où les outils comptaient le plus ont connu davantage de ventes, d'entrées et de nouveaux produits.
 
-Pourquoi c'est important. Klein Teeselink et Carey (2026) trouvent moins d'offres dans les professions exposées (section « Approches par l'exposition : embauches et entrée ») ; ici, les activités exposées ne reculent que légèrement au sein des emplois encore proposés, de sorte que le déplacement de la demande passe davantage par les emplois publiés que par le contenu de chacun. Les employeurs réécrivent les activités exposées autour de l'usage de l'IA, pendant côté demande déclarée des nouvelles tâches que Dillon et al. (2025) n'ont pas trouvées (section « La réorganisation crée-t-elle de nouvelles tâches ? »).
+Pourquoi c'est important. L'étude prolonge la section « Études d'adoption par les entreprises » : comme chez Kharazian et al. (2026), les adoptants croissent, un effet d'échelle, mais l'adoption est mesurée par l'usage effectif et chez de très petites entreprises. La baisse du temps de travail par commande donne une mesure de terrain de \pi_o (Principales régularités). Les effectifs ne sont pas mesurés : l'étude ne dit pas si la croissance compense les pertes que Bonin et al. (2026) trouvent dans les entreprises danoises de moins de 100 salariés.
 
-Limite. Les offres relèvent en partie du signal et ne montrent ni qui est embauché ni ce que font les travailleurs. Quatre des cinq auteurs travaillent chez Microsoft, l'une des 33 entreprises.
+Limite. Les vendeurs ont choisi d'adopter, à 99 RMB par mois après un mois gratuit, et les plus motivés ont pu s'auto-sélectionner ; les estimations par variables instrumentales sont encore plus élevées. La plateforme, non nommée, vend l'outil et a fourni les données.
 
-https://arxiv.org/abs/2611.09870
-https://ajoly35.github.io/gen-ai-living-review/fr/latest/#zhao-et-al-2026-ai-exposure-and-the-changing-responsibilities-in-job-postings
+https://www.nber.org/papers/w36003
+https://ajoly35.github.io/gen-ai-living-review/fr/latest/#barwick-et-al-2026-ai-as-shared-business-infrastructure-firm-growth-and-the-distribution-of-gains
 
 ——————————————————————————————
 

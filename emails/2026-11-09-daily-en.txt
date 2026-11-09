@@ -1,17 +1,17 @@
 GEN-AI, JOBS AND GROWTH
 One new study on AI and work, checked against its full text.
 
-Zhao et al. (2026), "AI Exposure and the Changing Responsibilities in Job Postings"
-Microsoft, Microsoft Research and Stanford University, arXiv preprint, 6 November 2026. Paper. Descriptive comparison of job postings in 2023 and 2025, no control group; outside the review's causal evidence standard, reported as context.
+Barwick et al. (2026), "AI as Shared Business Infrastructure: Firm Growth and the Distribution of Gains"
+NBER Working Paper 36003, 9 November 2026. Paper. Matched difference in differences on a Chinese e-commerce platform's records of small sellers, checked with instrumental variables.
 
-What it finds. Large US employers list AI-exposed work activities a little less often in their postings, and increasingly describe them as done with AI. In 50,000 postings from 33 large firms, an activity one standard deviation more exposed lost 0.19 to 0.24 percentage points more of its presence between 2023 and 2025, a small share of all listed activities. Of 57 activities whose presence fell, 55 were tied to AI in more postings. Postings mentioning AI rose from 5.3% to 8.8%.
+What it finds. Small online shops in China that adopted their platform's built-in AI assistant raised monthly sales by about half, and the smallest shops gained most. The data cover sellers with pre-launch annual sales of at most RMB 5 million, October 2023 to July 2025: 148,770 adopters against 77,347 similar non-adopters. Sales rose 51.6% and orders 47.0% relative to matched non-adopters, with no gap before adoption. Sales rose 61.5% in the bottom size quarter against 10.3% in the top. Adopters posted 62.6% more product images, while customer-service staff time per order fell 5.6%. Product categories where the tools mattered more saw more sales, entry and new products.
 
-Why it matters. Klein Teeselink and Carey (2026) find fewer postings in exposed occupations (section “Exposure designs: hiring and entry”); here exposed activities shrink only mildly within the jobs still advertised, so the demand shift runs more through which jobs are posted than through what each contains. Employers rewrite exposed activities around AI use, a stated-demand counterpart to the new tasks Dillon et al. (2025) did not find (section “Does reorganisation create new tasks?”).
+Why it matters. It extends section “Firm adoption studies”: like Kharazian et al. (2026), adopters grow, a scale effect, but adoption is measured from actual use and among very small firms. The fall in staff time per order is a field reading of \pi_o (Main patterns). Headcount is not measured, so it cannot say whether growth offsets the losses Bonin et al. (2026) find in Danish firms under 100 employees.
 
-Caveat. Postings are partly signalling and show neither who is hired nor what workers do. Four of the five authors work at Microsoft, one of the 33 firms.
+Caveat. Sellers chose to adopt, at RMB 99 a month after a free month, so keener sellers may select in; the instrumental-variable estimates are larger still. The unnamed platform sells the tool and supplied the data.
 
-https://arxiv.org/abs/2611.09870
-https://ajoly35.github.io/gen-ai-living-review/latest/#zhao-et-al-2026-ai-exposure-and-the-changing-responsibilities-in-job-postings
+https://www.nber.org/papers/w36003
+https://ajoly35.github.io/gen-ai-living-review/latest/#barwick-et-al-2026-ai-as-shared-business-infrastructure-firm-growth-and-the-distribution-of-gains
 
 ——————————————————————————————
 
