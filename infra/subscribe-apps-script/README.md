@@ -35,9 +35,9 @@ Decision of 9 November 2026: a separate free Gmail account, not the personal one
   same mailbox if one is taken the other is too.
 - Set the account's display name to "AI Economics Brief" (the script's default `SENDER_NAME`), turn on 2-step
   verification, and set a recovery email to one of your own addresses.
-New Gmail accounts are rate-limited by Google for their first weeks (well below the 100 a day of established
-accounts, and sometimes temporary 24-hour blocks). Start with the weekly and monthly digests to a handful of
-readers, and add the daily rhythm after two or three weeks of normal use. Do everything below while logged into
+New Gmail accounts can be rate-limited by Google in their first weeks (sometimes temporary 24-hour blocks).
+Adrien's decision (9 Nov 2026): offer the daily rhythm from day one, no warm-up; if a send is blocked, the
+`sends` sheet records the skipped count and the next run retries. Do everything below while logged into
 that account only (open a private window), so the Sheet, the script and the web app belong to it.
 
 ## State on 9 November 2026 (done by Claude with Adrien in Chrome)
