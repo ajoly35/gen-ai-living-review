@@ -13,7 +13,7 @@ Le brief quotidien pour les lecteurs qui ne sont pas économistes : ce qui est n
 {:.lead}
 
 <ul class="emails">
-{% assign bs = site.pages | where_exp: "p", "p.permalink contains '/fr/briefs/' and p.date" | sort: "date" | reverse %}
-{% for b in bs %}<li><a href="{{ b.url | relative_url }}">{{ b.date | date: "%-d %B %Y" }}</a> · {{ b.title | remove: "IA et travail, en bref : " }}</li>
-{% endfor %}
+{% assign bs = site.pages | sort: "date" | reverse %}
+{% for b in bs %}{% if b.date and b.lang == "fr" and b.permalink contains "/fr/briefs/" %}<li><a href="{{ b.url | relative_url }}">{{ b.date | date: "%-d %B %Y" }}</a> · {{ b.title | remove: "IA et travail, en bref : " }}</li>
+{% endif %}{% endfor %}
 </ul>

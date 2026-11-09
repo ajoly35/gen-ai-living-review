@@ -13,7 +13,7 @@ The daily brief for readers who are not economists: what is new, how it fits wit
 {:.lead}
 
 <ul class="emails">
-{% assign bs = site.pages | where_exp: "p", "p.permalink contains '/briefs/' and p.lang == 'en' and p.date" | sort: "date" | reverse %}
-{% for b in bs %}<li><a href="{{ b.url | relative_url }}">{{ b.date | date: "%-d %B %Y" }}</a> · {{ b.title | remove: "AI and work, in brief: " }}{% if b.concept %} · <span class="recent-note">idea: {{ b.concept | replace: "-", " " }}</span>{% endif %}</li>
-{% endfor %}
+{% assign bs = site.pages | sort: "date" | reverse %}
+{% for b in bs %}{% if b.date and b.lang == "en" and b.permalink contains "/briefs/" %}<li><a href="{{ b.url | relative_url }}">{{ b.date | date: "%-d %B %Y" }}</a> · {{ b.title | remove: "AI and work, in brief: " }}{% if b.concept %} · <span class="recent-note">idea: {{ b.concept | replace: "-", " " }}</span>{% endif %}</li>
+{% endif %}{% endfor %}
 </ul>
