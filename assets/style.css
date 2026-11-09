@@ -121,3 +121,16 @@ ul.emails { list-style: none; padding: 0; font-family: Inter, system-ui, sans-se
 .vitals details { margin: 1rem 0; } .vitals summary { cursor: pointer; font-family: Inter, system-ui, sans-serif; font-size: .9rem; color: var(--accent); }
 .vitals table { border-collapse: collapse; width: 100%; font-size: .82rem; font-family: Inter, system-ui, sans-serif; }
 .vitals th, .vitals td { text-align: left; padding: .3rem .4rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+
+/* Briefs (general audience) */
+.brief-note { font-size: .85rem; color: var(--muted); }
+
+/* Personal-site bar: the tabs of ajoly35.github.io stay visible above the living review */
+.sitebar { background: #fdfcfb; border-bottom: 1px solid #e2e2e2; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: .82rem; }
+@media (prefers-color-scheme: dark) { .sitebar { background: #1c1a18; border-bottom-color: #34312c; } }
+.sitebar-inner { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: .4rem 1rem; padding-top: .55rem; padding-bottom: .55rem; }
+.sitebar-name { font-weight: 600; color: var(--text); text-decoration: none; letter-spacing: .01em; }
+.sitebar-links a { color: var(--muted); text-decoration: none; margin-left: .9rem; padding-bottom: 2px; border-bottom: 2px solid transparent; }
+.sitebar-links a:hover { color: var(--text); }
+.sitebar-links a[aria-current="page"] { color: var(--text); border-bottom-color: #7a1f2b; }
+.topnav { padding-top: .9rem; }

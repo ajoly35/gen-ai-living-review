@@ -22,12 +22,27 @@
 <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
 </head>
 <body>
+<nav class="sitebar" aria-label="Adrien Joly">
+  <div class="page sitebar-inner">
+    <a class="sitebar-name" href="https://ajoly35.github.io/">Adrien Joly</a>
+    <span class="sitebar-links">
+      <a href="https://ajoly35.github.io/">Home</a>
+      <a href="https://ajoly35.github.io/cv.html">CV</a>
+      <a href="https://ajoly35.github.io/research.html">Research</a>
+      <a href="https://ajoly35.github.io/gen-ai-living-review/" aria-current="page">AI tracker</a>
+      <a href="https://ajoly35.github.io/writing.html">Writing</a>
+      <a href="https://ajoly35.github.io/talks.html">Talks</a>
+      <a href="https://ajoly35.github.io/setup.html">Claude workflow setup</a>
+    </span>
+  </div>
+</nav>
 <nav class="page topnav" aria-label="{{ nav.nav_label }}">
   <a class="brand" href="{{ nav.home | relative_url }}">{{ nav.brand }}</a>
   <span class="links">
     <a href="{{ nav.home | relative_url }}">{{ nav.n_review }}</a>
     <a href="{{ nav.recent | relative_url }}">{{ nav.n_recent }}</a>
     <a href="{{ nav.vitals | relative_url }}">{{ nav.n_vitals }}</a>
+    <a href="{{ nav.briefs | relative_url }}">{{ nav.n_briefs }}</a>
     <a href="{{ nav.subscribe | relative_url }}">{{ nav.n_subscribe }}</a>
     {%- if page.alt %}<a class="lang" href="{{ page.alt | relative_url }}" hreflang="{% if lang == 'en' %}fr{% else %}en{% endif %}">{{ nav.switch }}</a>{% endif %}
   </span>

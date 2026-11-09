@@ -1,0 +1,57 @@
+# Ideas the general brief explains, one a day, in rotation. The routine picks the first with the oldest (or no) "last"
+# date, writes the "One idea, explained" section from the named paper, and sets "last" to today. Plain words only.
+- key: scale-vs-substitution
+  title: "Does AI let a business do more, or the same with fewer people?"
+  paper: "Kharazian et al. (2026); Hosseini and Lichtinger (2025); Barwick et al. (2026)"
+  last: 2026-11-09
+- key: pro-worker-ai
+  title: "Three kinds of AI: replace, speed up, or spread expertise"
+  paper: "Acemoglu, Autor and Johnson (2026), Building Pro-Worker AI"
+- key: new-tasks
+  title: "Saving an hour a week is not the same as a new job"
+  paper: "Dillon et al. (2025), the Copilot field experiment"
+- key: knowledge-hierarchies
+  title: "Who do you ask when you are stuck? How AI changes the office pecking order"
+  paper: "Garicano (2000); Ide and Talamàs (2025)"
+- key: juniors-first
+  title: "Why the first rung of the ladder is the first to go"
+  paper: "Hosseini and Lichtinger (2025); Bergeaud et al. (2026)"
+- key: entry-not-layoffs
+  title: "No wave of layoffs, yet fewer first jobs: how both can be true"
+  paper: "Tucker (2026); Lodefalk et al. (2026); Humlum and Vestergaard (2025)"
+- key: exposure-vs-use
+  title: "A job that AI could do is not a job AI does"
+  paper: "Eloundou et al. (2024); Massenkoff and McCrory (2026)"
+- key: causal-evidence
+  title: "How economists tell an effect from a coincidence"
+  paper: "Brynjolfsson, Li and Raymond (2025) as the example"
+- key: wages-adjust
+  title: "When the job stays but the pay falls"
+  paper: "Azar et al. (2026)"
+- key: management-matters
+  title: "Why two firms with the same tool get different results"
+  paper: "LIFT policy paper 2026-01; Bloom-style management evidence in the review"
+- key: remote-work-confound
+  title: "Was it AI, or working from home?"
+  paper: "Deming (2026); Emanuel et al. (2026)"
+- key: agents-delegation
+  title: "Handing a decision to a machine: what the first experiments show"
+  paper: "Herdağdelen, Joren and Tamkin (2026); Colaiacovo and Koning (2026)"
+- key: baumol-bottleneck
+  title: "Why the slowest step decides how fast the economy can grow"
+  paper: "Aghion, Jones and Jones (2019); Hermle et al. (2026)"
+- key: gdp-misses
+  title: "What the growth figures cannot see"
+  paper: "Imas and Moll (2026)"
+- key: expectations-gap
+  title: "Why people expect more job loss than the data show"
+  paper: "Sacher et al. (2026), The AI Expectations Gap"
+- key: retraining
+  title: "Can a worker displaced by AI retrain into something better?"
+  paper: "Hyman, Lahey, Ni and Pilossoph (2025)"
+- key: college-premium
+  title: "Is a degree worth less in the age of AI?"
+  paper: "Azar et al. (2026); Levy Yeyati, Judzik and Barbiero (2026)"
+- key: choosing-a-major
+  title: "Students are already voting with their feet"
+  paper: "Domnisoru and Heikkinen (2026)"

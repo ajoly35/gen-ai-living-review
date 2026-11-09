@@ -6,7 +6,8 @@ Inputs
   --latest N       or: take the N newest entries of _includes/latest.md (dry runs, digests)
   --lang en|fr     language of the entries and of the fixed strings (fr reads _includes/fr/)
   --kind daily|weekly|monthly   wording of the lead
-  --audience general|academic   general = plain-language brief (what it explores, why it matters, how it fits the evidence, one chart);
+  --audience general|academic   general = the day's brief page(s) from briefs/ (--brief FILE or --brief-dir DIR), a full newsletter for
+                                non-economists; falls back to a three-line summary per entry when no brief exists.
                                 academic = the full entries (default general)
   --out DIR        where to write <date>-<kind>-<lang>.{html,txt,md}
 Nothing is sent here; see send_buttondown.py.
@@ -213,6 +214,76 @@ def build_general(entries, lang, kind, ideas, date, lead, subject):
     M += [f"[{t['review']}]({site}) · [{t['submit']}](https://github.com/ajoly35/gen-ai-living-review/issues/new?template=paper.yml)", "", f"*{t['by']} {t['disclaimer']}*"]
     return subject, "\n".join(H), "\n".join(T), "\n".join(M)
 
+def read_brief(path):
+    """Jekyll brief page -> (front matter dict, body markdown without Liquid)."""
+    raw = open(path, encoding="utf-8").read()
+    fm = {}
+    if raw.startswith("---"):
+        _, head, body = raw.split("---", 2)
+        for line in head.strip().split("\n"):
+            if ":" in line:
+                k, v = line.split(":", 1); fm[k.strip()] = v.strip().strip('"')
+    else: body = raw
+    body = re.sub(r"\{%.*?%\}", "", body); body = re.sub(r"\{\{.*?\}\}", "", body)
+    body = re.sub(r"\n\{:[^}]*\}", "", body)                      # kramdown attribute lines
+    body = re.sub(r"<p class=\"byline\">.*?</p>", "", body, flags=re.S)
+    return fm, body.strip()
+
+def md_block_to_html(md, lang):
+    """Small Markdown subset: #/##/### headings, paragraphs, bullets, images, bold/italic/links."""
+    F = "-apple-system,Segoe UI,Helvetica,Arial,sans-serif"
+    out = []; para = []; items = []
+    def flush_p():
+        if para: out.append(f'<p style="margin:0 0 12px;">{md_inline(" ".join(para), lang)}</p>'); para.clear()
+    def flush_l():
+        if items: out.append('<ul style="margin:0 0 14px;padding-left:20px;">' + "".join(f'<li style="margin:4px 0;">{md_inline(i, lang)}</li>' for i in items) + "</ul>"); items.clear()
+    for line in md.split("\n"):
+        t = line.rstrip()
+        if not t: flush_p(); flush_l(); continue
+        m = re.match(r"^(#{1,3})\s+(.*)$", t)
+        if m:
+            flush_p(); flush_l(); lvl = len(m.group(1)); txt = md_inline(m.group(2), lang)
+            if lvl == 1: out.append(f'<h1 style="margin:0 0 14px;font:600 24px/1.25 {F};">{txt}</h1>')
+            elif lvl == 2: out.append(f'<h2 style="margin:22px 0 8px;font:600 13px/1.4 {F};letter-spacing:.05em;text-transform:uppercase;color:#7a2e1f;">{txt}</h2>')
+            else: out.append(f'<h3 style="margin:14px 0 8px;font:600 18px/1.3 {F};">{txt}</h3>')
+            continue
+        m = re.match(r"^!\[([^\]]*)\]\(([^)]+)\)\s*$", t)
+        if m:
+            flush_p(); flush_l()
+            out.append(f'<img src="{m.group(2)}" alt="{html.escape(m.group(1))}" style="width:100%;height:auto;border:1px solid #e4e0d8;border-radius:6px;background:#fff;margin:6px 0 8px;">'); continue
+        if re.match(r"^[-*]\s+", t): flush_p(); items.append(re.sub(r"^[-*]\s+", "", t)); continue
+        para.append(t)
+    flush_p(); flush_l()
+    return "\n".join(out)
+
+def build_from_briefs(paths, lang, kind, date):
+    """General-audience email from one or several brief pages (daily: one; weekly/monthly: the period's briefs)."""
+    t = S[lang]; site = f"{SITE}/{t['fr_path']}"
+    briefs = [read_brief(p) for p in paths]
+    if not briefs: return None
+    if len(briefs) == 1:
+        subject = briefs[0][0].get("title") or (t["general_subject"] + (date.strftime("%-d %B %Y") if lang == "en" else fr_date(date)))
+    else:
+        subject = (t["brief_" + kind]).rstrip(".") + f" ({len(briefs)} briefs)" if lang == "en" else (t["brief_" + kind]).rstrip(".") + f" ({len(briefs)} briefs)"
+    H = [f'<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{html.escape(subject)}</title></head>',
+         '<body style="margin:0;background:#fbfaf7;color:#1f1d1a;font:17px/1.6 Georgia,\'Times New Roman\',serif;"><div style="max-width:600px;margin:0 auto;padding:28px 20px 40px;">',
+         f'<p style="margin:0 0 4px;font:600 13px/1.4 -apple-system,Segoe UI,Helvetica,Arial,sans-serif;letter-spacing:.04em;text-transform:uppercase;color:#7a2e1f;">{t["brand"]}</p>',
+         f'<p style="margin:0 0 18px;font:13px/1.4 -apple-system,Segoe UI,Helvetica,Arial,sans-serif;color:#6b665e;">{date.strftime("%-d %B %Y") if lang=="en" else fr_date(date)} · {html.escape(t["brief_" + kind])}</p>']
+    T = [t["brand"].upper(), t["brief_" + kind], ""]; M = []
+    for i, (fm, body) in enumerate(briefs):
+        if len(briefs) > 1:
+            d = fm.get("date", ""); H.append(f'<p style="margin:26px 0 4px;font:600 12px/1.4 -apple-system,Segoe UI,Helvetica,Arial,sans-serif;letter-spacing:.05em;text-transform:uppercase;color:#6b665e;">{d}</p>')
+            T += ["=" * 12 + " " + d, ""]; M += [f"---", "", f"*{d}*", ""]
+            body = re.sub(r"^# .*\n", "", body, count=1)                 # one main title is enough in a digest
+        H.append(md_block_to_html(body, lang))
+        T += [md_plain(re.sub(r"^#+\s*", "", l)) for l in body.split("\n")] + [""]
+        M += [body, ""]
+    H.append(f'<p style="margin:22px 0 8px;font:14px/1.5 -apple-system,Segoe UI,Helvetica,Arial,sans-serif;color:#6b665e;"><a href="{site}briefs/" style="color:#7a2e1f;">{"All briefs" if lang=="en" else "Tous les briefs"}</a> · <a href="{site}" style="color:#7a2e1f;">{t["review"]}</a> · <a href="{{{{ unsubscribe_url }}}}" style="color:#7a2e1f;">{t["unsub"]}</a></p>')
+    H.append(f'<p style="font:12px/1.5 -apple-system,Segoe UI,Helvetica,Arial,sans-serif;color:#6b665e;margin:0;">{t["by"]} {t["disclaimer"]}</p></div></body></html>')
+    T += [f'{t["unsub"]}: {{{{ unsubscribe_url }}}}', "", t["by"], t["disclaimer"]]
+    M = [f"# {subject}", ""] + M + [f"*{t['by']} {t['disclaimer']}*"]
+    return subject, "\n".join(H), "\n".join(T), "\n".join(M)
+
 FR_MONTHS = ["janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"]
 def fr_date(d): return f"{d.day} {FR_MONTHS[d.month-1]} {d.year}"
 
@@ -222,6 +293,8 @@ if __name__ == "__main__":
     ap.add_argument("--lang", default="en", choices=["en", "fr"]); ap.add_argument("--kind", default="daily", choices=["daily", "weekly", "monthly"])
     ap.add_argument("--out", default="emails"); ap.add_argument("--date", default=None)
     ap.add_argument("--audience", default="general", choices=["general", "academic"])
+    ap.add_argument("--brief", action="append", default=[], help="brief page(s) for the general email; repeatable")
+    ap.add_argument("--brief-dir", default=None, help="pick briefs for the period from this folder (daily: today; weekly: 7 days; monthly: 31 days)")
     ap.add_argument("--root", default=os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     a = ap.parse_args()
     date = dt.date.fromisoformat(a.date) if a.date else dt.date.today()
@@ -235,9 +308,20 @@ if __name__ == "__main__":
         en = {e["anchor"]: e for e in parse_entries(open(a.added, encoding="utf-8").read(), "en")}
         fr = parse_entries(open(src, encoding="utf-8").read(), "fr")
         entries = [e for e in fr if e["anchor"] in en] or entries
-    if not entries: print("no entries", file=sys.stderr); sys.exit(3)
-    ideas = main_ideas(os.path.join(a.root, "_includes", S[a.lang]["fr_path"], "main-ideas.md"))
-    subject, H, T, M = build(entries, a.lang, a.kind, ideas, date, a.audience)
+    briefs = list(a.brief)
+    if a.audience == "general" and a.brief_dir:
+        days = {"daily": 0, "weekly": 6, "monthly": 30}[a.kind]
+        for fn in sorted(os.listdir(a.brief_dir)):
+            m = re.match(r"(\d{4}-\d{2}-\d{2})\.md$", fn)
+            if m and 0 <= (date - dt.date.fromisoformat(m.group(1))).days <= days: briefs.append(os.path.join(a.brief_dir, fn))
+    if a.audience == "general" and briefs:
+        res = build_from_briefs(briefs, a.lang, a.kind, date)
+        subject, H, T, M = res
+    else:
+        if a.audience == "general" and a.brief_dir: print("no brief for the period; falling back to the entries", file=sys.stderr)
+        if not entries: print("no entries", file=sys.stderr); sys.exit(3)
+        ideas = main_ideas(os.path.join(a.root, "_includes", S[a.lang]["fr_path"], "main-ideas.md"))
+        subject, H, T, M = build(entries, a.lang, a.kind, ideas, date, a.audience)
     os.makedirs(a.out, exist_ok=True)
     base = os.path.join(a.out, f"{date.isoformat()}-{a.kind}{'-academic' if a.audience == 'academic' else ''}-{a.lang}")
     open(base + ".html", "w", encoding="utf-8").write(H); open(base + ".txt", "w", encoding="utf-8").write(T); open(base + ".paste.txt", "w", encoding="utf-8").write(M)

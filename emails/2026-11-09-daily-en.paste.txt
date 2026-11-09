@@ -1,27 +1,51 @@
-# New study: AI as Shared Business Infrastructure: Firm Growth and the Distribution of Gains
+# AI and work, in brief: 9 November 2026
 
-*One new study on AI and work, checked against its full text.*
+# AI and work, in brief
 
-## Barwick et al. (2026), "AI as Shared Business Infrastructure: Firm Growth and the Distribution of Gains"
 
-NBER Working Paper 36003, 9 November 2026. [Paper](https://www.nber.org/papers/w36003). Matched difference in differences on a Chinese e-commerce platform's records of small sellers, checked with instrumental variables.
 
-**What it finds.** Small online shops in China that adopted their platform's built-in AI assistant raised monthly sales by about half, and the smallest shops gained most. The data cover sellers with pre-launch annual sales of at most RMB 5 million, October 2023 to July 2025: 148,770 adopters against 77,347 similar non-adopters. Sales rose 51.6% and orders 47.0% relative to matched non-adopters, with no gap before adoption. Sales rose 61.5% in the bottom size quarter against 10.3% in the top. Adopters posted 62.6% more product images, while customer-service staff time per order fell 5.6%. Product categories where the tools mattered more saw more sales, entry and new products.
+## Today in three lines
 
-**Why it matters.** It extends section [“Firm adoption studies”](#firm-adoption-studies): like Kharazian et al. (2026), adopters grow, a scale effect, but adoption is measured from actual use and among very small firms. The fall in staff time per order is a field reading of $$\pi_o$$ ([Main patterns](#main-patterns)). Headcount is not measured, so it cannot say whether growth offsets the losses Bonin et al. (2026) find in Danish firms under 100 employees.
+- A study of about 226,000 small online shops in China finds that those which switched on their platform's AI assistant sold about half as much again as similar shops that did not.
+- The smallest shops gained most: sales up by three fifths in the smallest quarter of shops, by a tenth in the largest.
+- It is a clean example of the question that decides what AI does to jobs: does a business use AI to do more, or to do the same with fewer hands?
 
-*Caveat.* Sellers chose to adopt, at RMB 99 a month after a free month, so keener sellers may select in; the instrumental-variable estimates are larger still. The unnamed platform sells the tool and supplied the data.
+## New research, in plain words
 
-### Main ideas
+### Small online shops that switched on AI sold about half as much again
 
-- *Large gains on tasks, none yet in the aggregates.* In field experiments, generative AI raises output on narrow tasks by 14 to 34%, most for workers who were least productive before. In the Nordic registers, total employment, hours and earnings are unchanged so far.
-- *The adjustment runs through entry, not layoffs.* Young hires in the most exposed occupations have fallen in the US, Sweden, the UK and France, by up to a quarter relative to less exposed occupations, and contract ends fell too: firms stop hiring juniors rather than dismiss workers. Hires are a small flow, so the stock of jobs moves slowly and totals look flat.
-- *Exposed occupations adjust through pay as well.* Wages in the most exposed occupations fell by about 5% by 2026 with no change in headcount, and this explains close to a third of the fall in the college wage premium.
-- *Firm-level results split.* Some adopters cut junior employment by about 9% while senior employment is unchanged; others, especially the biggest spenders on AI, grew and hired more entrants. Who counts as an adopter drives much of the gap, and whether substitution or scale wins is the central open question.
-- *Juniors lose because their tasks are the most codifiable.* AI raises novices' output most, but hiring depends on demand for the firm's output, not on output per worker. If AI does the routine work juniors used to train on, firms have less reason to hire and train them.
-- *Organisation decides the direction.* Management quality, the cost of reorganising and the flexibility of labour law set how deeply firms adopt. So far AI mostly saves time within existing jobs and moves knowledge down the hierarchy; new tasks appear only where employers reorganise.
-- *What is still unknown.* How strongly demand responds to cheaper output, how much of the fall in entry is AI rather than remote work or a slowdown that began in 2022, where the fall in entry ends as models improve, and who captures the gains.
+**What it explores.** Barwick and co-authors follow small sellers on a large Chinese online marketplace between October 2023 and July 2025. The marketplace offered every seller an AI assistant that writes product descriptions, produces product images and answers customer questions. About 149,000 sellers took it up; the authors compare them with about 77,000 similar sellers who did not.
 
-[Read the full review](https://ajoly35.github.io/gen-ai-living-review/) · [Send a paper](https://github.com/ajoly35/gen-ai-living-review/issues/new?template=paper.yml)
+**Why it matters.** Most studies of AI and work look at large companies in rich countries. This one looks at very small businesses, often one person, in the world's biggest online market. Their sales rose by about half, their orders by nearly as much, and the smallest shops gained the most. If that pattern holds elsewhere, AI narrows the gap between tiny firms and big ones rather than widening it.
+
+**How it fits the evidence.** The review already finds that firms which adopt AI tend to grow, and that the biggest spenders hire more. This study adds the smallest firms to that picture. It cannot say what happened to jobs, because the data do not count employees; it does show that the time staff spent per order fell a little, by about one twentieth. The sellers chose to adopt, so the keenest may have joined first, and the marketplace that sells the tool also supplied the data.
+
+[Full entry](https://ajoly35.github.io/gen-ai-living-review/latest/#barwick-et-al-2026-ai-as-shared-business-infrastructure-firm-growth-and-the-distribution-of-gains) · [Paper](https://www.nber.org/papers/w36003)
+
+## How it fits together
+
+Two forces pull in opposite directions when a firm starts using AI. One is substitution: a task that a person used to do is now done by the machine, so the firm needs fewer hours for the same output. The other is scale: the firm becomes cheaper or better, sells more, and needs more people of every kind. Today's study is a scale story: more images, more orders, more sales, and a small saving of staff time per order.
+
+The review's other findings show the substitution side. In France, Sweden, the United States and the United Kingdom, young people entering the most AI-open occupations are hired less than before, by up to a quarter compared with other occupations. Firms are not firing; they are hiring fewer beginners. And in Danish firms with fewer than 100 employees, adopting AI went with job losses, the opposite of the Chinese shops.
+
+So the honest summary is still the one at the top of the review: large gains on individual tasks, growth at many adopters, fewer first jobs for the young, and no visible change yet in total employment. Which force wins depends on whether cheaper output finds enough new buyers.
+
+## One idea, explained: does AI let a business do more, or the same with fewer people?
+
+Think of a bakery that buys a much better oven. The owner can bake the same number of loaves in half the time and send a baker home, or keep everyone and bake twice as many loaves, if the town will buy them. The oven does not decide. The customers do, and so does the owner.
+
+Economists call the first path substitution and the second scale, and the whole debate about AI and jobs turns on their balance. Studies that measure how much faster a person works with AI, often a third faster on narrow tasks, only tell us the oven is better. Studies that follow whole firms tell us what owners did with it. So far the firm studies split: some adopters cut their junior staff by about a tenth, others, especially the heaviest AI users, grew and hired more beginners. Today's Chinese shops sit on the growth side, with one caveat: a tiny shop that doubles its sales may still be a one-person shop.
+
+For a student or a parent, the practical reading is this. The question to ask about any job is not "can AI do parts of it?" but "if AI makes this work cheaper, will people buy more of it?" Where the answer is yes, AI tends to create work. Where demand is fixed, it tends to remove it.
+
+## Where the evidence stands
+
+![Studies on jobs, hiring or pay, by research design. Orange: fewer jobs, hires or lower pay. Grey: no measurable effect. Blue: gains.](https://ajoly35.github.io/gen-ai-living-review/assets/vitals/direction-by-design-en.png)
+
+Each bar counts studies on jobs, hiring or pay. Orange means the study found fewer jobs, fewer hires or lower pay; grey, no measurable effect; blue, gains. The pattern by method is the point: experiments that measure how fast people work find gains, studies of who gets hired find falls, studies of total employment find nothing yet. Today's paper would be a blue bar in the "firms that adopted" row, with the warning that it measured sales, not jobs.
+
+## Read more
+
+[The living review](https://ajoly35.github.io/gen-ai-living-review/) · [Direction of the field](https://ajoly35.github.io/gen-ai-living-review/vitals/) · [Recent papers](https://ajoly35.github.io/gen-ai-living-review/latest/) · [Send a paper](https://github.com/ajoly35/gen-ai-living-review/issues/new?template=paper.yml)
 
 *A living review maintained by Adrien Joly, London School of Economics. Entries are written by an AI assistant from the paper itself and are not reviewed before they are sent. Figures are taken from the paper; the review's own assessment is in the caveat.*
