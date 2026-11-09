@@ -1,5 +1,19 @@
 New papers on AI and labour markets and AI and growth, newest first, each placed against the review below. Every figure is checked against the paper itself.
 
+### Zhao et al. (2026), "AI Exposure and the Changing Responsibilities in Job Postings"
+
+Microsoft, Microsoft Research and Stanford University, arXiv preprint, 6 November 2026. [Paper](https://arxiv.org/abs/2611.09870). Descriptive comparison of job postings in 2023 and 2025 against activity-level AI usage, with no control group. Outside the review's causal evidence standard; reported as context.
+
+**What it finds.** Large US employers list AI-exposed work activities a little less often in their postings, and increasingly describe those activities as done with AI. Zhao et al. (2026) take 50,000 US postings from 33 large firms in ten sectors, posted between 2023 and 2025. An LLM pipeline maps each listed responsibility onto O*NET's 332 intermediate work activities, a standard US taxonomy of what jobs involve. Exposure is the share of Microsoft Copilot use, or of Claude conversations, devoted to each activity. The share of postings mentioning AI rose from 5.3% in 2023 to 8.8% in 2025, and mentions of generative AI from 0.9% to 3.4%. Only 31% of sentences mentioning AI describe job responsibilities; the rest describe qualifications, summaries or the company. The main test uses 20 firms with 22,963 postings. An activity one standard deviation more exposed lost 0.19 percentage points more of its presence in postings with the Copilot measure, and 0.24 points with the Claude measure. As a share of all listed activities, the decline is small: significant for the Claude measure, not for the Copilot one. Part of the fall reflects shorter lists, from 12.0 to 10.5 responsibilities per posting. Among activities in the most exposed quarter, the share of postings that tie the activity to AI rose 0.82 percentage points more than in the least exposed quarter. Of 57 activities whose presence fell, 55 were tied to AI in more postings. For example, "program computer systems" fell from 6.1% to 4.0% of postings, while the share tying it to AI rose from 3.1% to 10.7%.
+
+**Where it fits.**
+
+- *Hiring and entry (section [“Exposure designs: hiring and entry”](#exposure-designs-hiring-and-entry)).* Klein Teeselink and Carey (2026) find fewer postings in exposed occupations. Zhao et al. (2026) look inside postings instead: exposed activities shrink only mildly within the jobs firms still advertise. This suggests the demand shift runs more through which jobs are posted than through what each job contains.
+- *New tasks (section [“Does reorganisation create new tasks?”](#does-reorganisation-create-new-tasks)).* Dillon et al. (2025) find that Copilot users did not change their task mix within six months. Postings show employers rewriting exposed activities around AI use. This extends the review's view that new tasks appear where employers act, though here it is stated demand, not realised work.
+- *Measuring exposure (section [“Key concepts and definitions”](#key-concepts-and-definitions)).* Usage-based exposure, as in Anthropic's observed exposure index, does predict where advertised demand moves. The size of the effect depends on which usage source and outcome are used, so exposure rankings are not interchangeable.
+
+**Caveat.** Postings are partly signalling, and the authors stress that they do not show who is hired or what workers do. Four of the five authors work at Microsoft, one exposure measure is Copilot usage, and Microsoft is one of the 33 firms.
+
 ### Hermle et al. (2026), "AI for Scientific Discovery: How Researchers Use Claude"
 
 The Anthropic Institute, technical report, 5 November 2026. [Paper](https://www.anthropic.com/research/how-researchers-use-claude). Descriptive usage data and a survey, plus a calibrated ideas production function for research acceleration scenarios. Outside the review's causal evidence standard; reported as context for AI and growth.

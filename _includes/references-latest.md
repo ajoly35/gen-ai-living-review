@@ -44,3 +44,4 @@ Tadepalli, Karthik. 2026. *Efficiency vs Capability in the Intelligence Explosio
 
 Wilmers, Nathan, Regina Catipon, Maxim Massenkoff, and Peter McCrory. 2026. *How Employment Is Changing at Anthropic*. Technical Report. The Anthropic Institute, 16 October. [Link](https://www.anthropic.com/research/employment-at-anthropic).
 
+Zhao, Dora, Lin Ai, Pranav Khadpe, Siddharth Suri, and Scott Counts. 2026. *AI Exposure and the Changing Responsibilities in Job Postings*. arXiv:2611.09870. [Link](https://arxiv.org/abs/2611.09870).
