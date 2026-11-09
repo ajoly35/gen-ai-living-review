@@ -1,5 +1,16 @@
 Nouveaux articles sur l'IA et les marchés du travail et sur l'IA et la croissance, du plus récent au plus ancien, chacun situé par rapport à la revue ci-dessous. Chaque chiffre est vérifié dans l'article lui-même.
 
+### Barwick et al. (2026), "AI as Shared Business Infrastructure: Firm Growth and the Distribution of Gains" {#barwick-et-al-2026-ai-as-shared-business-infrastructure-firm-growth-and-the-distribution-of-gains}
+<!-- kind: paper -->
+
+NBER Working Paper 36003, 9 novembre 2026. [Article](https://www.nber.org/papers/w36003). Doubles différences avec appariement sur les données d'une plateforme chinoise de commerce en ligne, vérifiées par variables instrumentales.
+
+**Ce que l'étude trouve.** Les petites boutiques en ligne chinoises qui ont adopté l'assistant d'IA intégré à leur plateforme ont augmenté leurs ventes mensuelles d'environ moitié, et les plus petites ont gagné le plus. Les données couvrent les vendeurs dont les ventes annuelles avant le lancement ne dépassaient pas 5 millions de RMB, d'octobre 2023 à juillet 2025 : 148,770 adoptants comparés à 77,347 non-adoptants similaires. Les ventes ont augmenté de 51.6% et les commandes de 47.0% par rapport aux non-adoptants appariés, sans écart avant l'adoption. Les ventes ont progressé de 61.5% dans le quart le plus petit, contre 10.3% dans le quart le plus grand. Les adoptants ont publié 62.6% d'images de produits en plus, tandis que le temps du service client par commande a baissé de 5.6%. Les catégories où les outils comptaient le plus ont connu davantage de ventes, d'entrées et de nouveaux produits.
+
+**Où cela se place.** L'étude prolonge la section [« Études d'adoption par les entreprises »](#firm-adoption-studies) : comme chez Kharazian et al. (2026), les adoptants croissent, un effet d'échelle, mais l'adoption est mesurée par l'usage effectif et chez de très petites entreprises. La baisse du temps de travail par commande donne une mesure de terrain de $$\pi_o$$ ([Principales régularités](#main-patterns)). Les effectifs ne sont pas mesurés : l'étude ne dit pas si la croissance compense les pertes que Bonin et al. (2026) trouvent dans les entreprises danoises de moins de 100 salariés.
+
+**Limite.** Les vendeurs ont choisi d'adopter, à 99 RMB par mois après un mois gratuit, et les plus motivés ont pu s'auto-sélectionner ; les estimations par variables instrumentales sont encore plus élevées. La plateforme, non nommée, vend l'outil et a fourni les données.
+
 ### Zhao et al. (2026), "AI Exposure and the Changing Responsibilities in Job Postings" {#zhao-et-al-2026-ai-exposure-and-the-changing-responsibilities-in-job-postings}
 
 Microsoft, Microsoft Research et Stanford University, prépublication arXiv, 6 novembre 2026. [Article](https://arxiv.org/abs/2611.09870). Comparaison descriptive des offres d'emploi de 2023 et 2025, sans groupe de contrôle ; hors du standard de preuve causale de la revue, rapportée à titre de contexte.
@@ -192,13 +203,3 @@ Reportage de CNBC, via [investingLive](https://investinglive.com/stocks/coreweav
 **Où cela se place.** L'investissement en IA est de plus en plus financé par la dette, et les tensions apparaissent d'abord chez les entreprises sans flux de trésorerie importants ; dans les scénarios de correction de l'IMF (2026) et de la Bank of England (2026), le canal financier coûte plus de production que l'investissement perdu lui-même. Un financement plus cher ralentirait la baisse du prix des services d'IA, $$\Delta a$$, qui anime l'équation de la revue ([Principales régularités](#main-patterns)).
 
 **Limite.** Les mouvements de marché d'une seule journée, rapportés de seconde main.
-
-### Sacher, Cotter, Jones, Korinek and McCrory (2026), "The AI Expectations Gap" {#sacher-cotter-jones-korinek-and-mccrory-2026-the-ai-expectations-gap}
-
-Anthropic Institute, 16 octobre 2026. [Rapport](https://www.anthropic.com/research/ai-expectations-gap). Enquête descriptive ; hors du standard causal, contexte.
-
-**Ce que l'étude trouve.** Les travailleurs américains s'attendent à ce que l'IA puisse accomplir 28% de leurs heures de travail actuelles d'ici 2030, contre 75% pour le personnel d'Anthropic. Parmi 10,980 adultes américains (Morning Consult, août 2026, pondérés) et 1,334 membres du personnel (non pondérés), ceux qui s'attendent à ce que l'IA fasse moins de la moitié de leur travail prévoient un chômage de 7 à 8% en 2030, et ceux qui s'attendent à 80% ou plus prévoient 12.2%. Les adultes s'attendent à ce que 42% des tâches que l'IA peut accomplir soient effectuées avec l'IA d'ici 2030, le personnel 65%, contre 30 à 40% des travailleurs américains utilisant l'IA générative au travail aujourd'hui (Hartley et al. 2026). Dans le modèle Economic Scenarios, les réponses de l'adulte médian impliquent une croissance du PIB de 5.4% en 2030, celles du membre du personnel médian 17.1%.
-
-**Où cela se place.** Les travailleurs s'attendent à bien plus de chômage que ne le montrent les données : Hartley et al. (2026) trouvent le même écart, et les approches qui mesurent l'emploi total ne trouvent aucun effet, la baisse étant concentrée sur les embauches de jeunes (section [« Approches par l'exposition : embauches et entrée »](#exposure-designs-hiring-and-entry)). L'adulte utilisateur d'IA typique dit qu'une tâche adaptée prend moitié moins de temps, bien au-dessus des gains des expériences de terrain comme les 14% de résolutions par heure en plus dans le service client (section [« Expériences de terrain »](#field-experiments) ; [Principales régularités](#main-patterns), $$\pi_o$$), même si celles-ci mesurent des emplois entiers, non des tâches choisies comme adaptées à l'IA.
-
-**Limite.** Les vues du personnel sont personnelles, venant d'une entreprise qui vend de l'IA ; le seul échantillon représentatif est un panel en ligne d'adultes américains à participation volontaire.

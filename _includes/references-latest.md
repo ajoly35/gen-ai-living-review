@@ -6,6 +6,8 @@ Bank of England. 2026. *Financial Stability Report*. July. [Link](https://www.ba
 
 Bank of England. 2026. *Monetary Policy Report*. November. [Link](https://www.bankofengland.co.uk/-/media/boe/files/monetary-policy-report/2026/november/monetary-policy-report-november-2026.pdf).
 
+Barwick, Panle Jia, Lu Fang, Jinhan Liu, Huilan Xu, and Zhe Yuan. 2026. *AI as Shared Business Infrastructure: Firm Growth and the Distribution of Gains*. Working Paper No. 36003. NBER. [Link](https://www.nber.org/papers/w36003).
+
 Bianchini, Stefano, and Georgiana-Ioana Coroama. 2026. *LLMs and the Organization of Scientific Work*. arXiv:2611.02996. [Link](https://arxiv.org/abs/2611.02996).
 
 Colaiacovo, Innessa, and Rembrand Koning. 2026. *Delegating to AI: Beliefs and the Organization of Work at New Ventures*. Working Paper 26-093. Harvard Business School. [Link](https://www.hbs.edu/faculty/Pages/item.aspx?num=69112).
@@ -35,8 +37,6 @@ Levy Yeyati, Eduardo, Darío Judzik, and Juan Ignacio Barbiero. 2026. *Practice 
 Mehdi, Tahsin, and Marc Frenette. 2026. *Hiring and Job Separation Rates in the Era of Generative Artificial Intelligence: Early Evidence*. Economic and Social Reports, Catalogue no. 36-28-0001. Statistics Canada, 28 October. [Link](https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026010/article/00003-eng.htm).
 
 Office for National Statistics. 2026. *GDP Monthly Estimate, UK: August 2026*. Statistical bulletin, 15 October. [Link](https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpmonthlyestimateuk/august2026).
-
-Sacher, Szymon, Tess Cotter, Charles I. Jones, Anton Korinek, and Peter McCrory. 2026. *The AI Expectations Gap: Public and Frontier Lab Views on AI's Impact on Work*. The Anthropic Institute, 16 October. [Link](https://www.anthropic.com/research/ai-expectations-gap).
 
 Strauss, Delphine, Valentina Romei, and Sam Fleming. 2026. "What Is Behind the Surprising Resilience of the UK Economy?" *Financial Times*, 17 October.
 

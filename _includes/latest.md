@@ -1,5 +1,16 @@
 New papers on AI and labour markets and AI and growth, newest first, each placed against the review below. Every figure is checked against the paper itself.
 
+### Barwick et al. (2026), "AI as Shared Business Infrastructure: Firm Growth and the Distribution of Gains"
+<!-- kind: paper -->
+
+NBER Working Paper 36003, 9 November 2026. [Paper](https://www.nber.org/papers/w36003). Matched difference in differences on a Chinese e-commerce platform's records of small sellers, checked with instrumental variables.
+
+**What it finds.** Small online shops in China that adopted their platform's built-in AI assistant raised monthly sales by about half, and the smallest shops gained most. The data cover sellers with pre-launch annual sales of at most RMB 5 million, October 2023 to July 2025: 148,770 adopters against 77,347 similar non-adopters. Sales rose 51.6% and orders 47.0% relative to matched non-adopters, with no gap before adoption. Sales rose 61.5% in the bottom size quarter against 10.3% in the top. Adopters posted 62.6% more product images, while customer-service staff time per order fell 5.6%. Product categories where the tools mattered more saw more sales, entry and new products.
+
+**Where it fits.** It extends section [“Firm adoption studies”](#firm-adoption-studies): like Kharazian et al. (2026), adopters grow, a scale effect, but adoption is measured from actual use and among very small firms. The fall in staff time per order is a field reading of $$\pi_o$$ ([Main patterns](#main-patterns)). Headcount is not measured, so it cannot say whether growth offsets the losses Bonin et al. (2026) find in Danish firms under 100 employees.
+
+**Caveat.** Sellers chose to adopt, at RMB 99 a month after a free month, so keener sellers may select in; the instrumental-variable estimates are larger still. The unnamed platform sells the tool and supplied the data.
+
 ### Zhao et al. (2026), "AI Exposure and the Changing Responsibilities in Job Postings"
 
 Microsoft, Microsoft Research and Stanford University, arXiv preprint, 6 November 2026. [Paper](https://arxiv.org/abs/2611.09870). Descriptive comparison of job postings in 2023 and 2025, no control group; outside the review's causal evidence standard, reported as context.
@@ -192,13 +203,3 @@ CNBC reporting, via [investingLive](https://investinglive.com/stocks/coreweave-b
 **Where it fits.** AI investment is increasingly debt-financed, and the stress shows first at firms without large cash flows; in the correction scenarios of the IMF (2026) and the Bank of England (2026), the financial channel costs more output than the lost investment itself. Dearer financing would slow the fall in the price of AI services, $$\Delta a$$, that drives the review's equation ([Main patterns](#main-patterns)).
 
 **Caveat.** One day's market moves, reported second hand.
-
-### Sacher, Cotter, Jones, Korinek and McCrory (2026), "The AI Expectations Gap"
-
-Anthropic Institute, 16 October 2026. [Report](https://www.anthropic.com/research/ai-expectations-gap). Descriptive survey; outside the causal standard, context.
-
-**What it finds.** US workers expect AI to be able to do 28% of their current work hours by 2030, against 75% for Anthropic staff. Among 10,980 US adults (Morning Consult, August 2026, weighted) and 1,334 staff (unweighted), those who expect AI to do less than half their work forecast 7 to 8% unemployment in 2030, and those who expect 80% or more forecast 12.2%. Adults expect 42% of the tasks AI can do to be done with AI by 2030, staff 65%, against 30 to 40% of US workers using GenAI at work today (Hartley et al. 2026). In the Economic Scenarios model, the median adult's answers imply 5.4% GDP growth in 2030, the median staff member's 17.1%.
-
-**Where it fits.** Workers expect far more unemployment than the evidence shows: Hartley et al. (2026) find the same gap, and designs that measure total employment find no effect, with the fall concentrated in young hires (section [“Exposure designs: hiring and entry”](#exposure-designs-hiring-and-entry)). The typical AI-using adult says a suited task takes half the time, well above field-experiment gains such as 14% more resolutions per hour in customer support (section [“Field experiments”](#field-experiments); [Main patterns](#main-patterns), $$\pi_o$$), though those measure whole jobs, not tasks chosen as suited to AI.
-
-**Caveat.** Staff views are personal, from a firm that sells AI; the only representative sample is an opt-in online panel of US adults.
