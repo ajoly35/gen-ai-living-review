@@ -82,6 +82,10 @@ Humlum, Anders, and Emilie Vestergaard. 2025. *Still Waters, Rapid Currents: Ear
 
 Ide, Enrique, and Eduard Talamàs. 2025. “Artificial Intelligence in the Knowledge Economy.” *Journal of Political Economy* 133 (12): 3762–800..
 
+Imas, Alex, and Jacob Schaal. 2026. *Has AI Impacted the Labor Market yet? Evaluating the State of the Evidence*. Ghosts of Electricity (essay), 29 September,.
+
+Imas, Alex, and Soumitra Shukla. 2026. *How Will AI-Driven Automation Actually Affect Jobs? The Economics of AI Exposure and Job Displacement*. Ghosts of Electricity (essay), 23 March,.
+
 Kauhanen, Antti, and Petri Rouvinen. 2025. “Assessing Early Labour Market Effects of Generative AI: Evidence from Population Data.” *Applied Economics Letters*, ahead of print..
 
 Kharazian, Ara, Lisa Simon, and Ryan Stevens. 2026. *A New Look at AI’s Impact on Jobs: Firm-Level AI Spending and Workforce Adjustment*. Working Paper No. 7024799. SSRN.
