@@ -6,9 +6,9 @@ Nouveaux articles sur l'IA et les marchés du travail et sur l'IA et la croissan
 Ohio State University et Carnegie Mellon University, prépublication arXiv, 12 octobre 2026. [Article](https://arxiv.org/abs/2610.18921). Trois expériences en ligne préenregistrées, avec des choix rémunérés ; l'identité du concepteur de chaque jeu est révélée à des acheteurs tirés au sort. Un marché de laboratoire, pas des données du marché du travail.
 
 **En bref.**
-Ce qu'elle explore : Si des personnes qui pilotent un outil de programmation par IA conçoivent de meilleurs jeux que l'IA seule, et si les acheteurs paient plus pour des jeux faits par des humains.
-Pourquoi c'est important : Deux espoirs pour garder les humains dans la production sont le goût humain et la préférence des acheteurs pour le travail humain. L'étude teste les deux.
-Ce que cela change aux preuves : Elle ajoute le côté des acheteurs aux études sur l'IA et le travail créatif. Aucun des deux espoirs ne se vérifie ici.
+Ce qu'elle explore : si des personnes qui pilotent un outil de programmation par IA conçoivent de meilleurs jeux que l'IA seule, et si les acheteurs paient plus pour des jeux faits par des humains.
+Pourquoi c'est important : deux espoirs pour garder les humains dans la production sont le goût humain et la préférence des acheteurs pour le travail humain. L'étude teste les deux.
+Ce que cela change aux preuves : elle ajoute le côté des acheteurs aux études sur l'IA et le travail créatif. Aucun des deux espoirs ne se vérifie ici.
 
 **Ce que l'étude trouve.** Les jeux conçus par une IA seule se vendent plus cher que ceux conçus par des personnes qui pilotent le même agent de programmation, et dire aux acheteurs qui a conçu un jeu ne change rien. Parmi 296 participants américains, à la fois concepteurs et acheteurs, les acheteurs paient en moyenne &#36;0.47 pour jouer à un jeu conçu par l'IA, contre &#36;0.37 pour un jeu conçu par un humain, un écart de 0.31 écart-type. Auprès de 549 autres acheteurs, les jeux de 180 professionnels de la création obtiennent 0.16 écart-type de moins que ceux de l'IA. Les concepteurs pensaient battre l'IA de 9 à 17 cents. Révéler le concepteur ne modifie pas la prime de l'IA : 6.8 cents à l'aveugle, contre 6.0 cents avec l'information.
 
