@@ -2,8 +2,6 @@ Aghion, Philippe, Benjamin F. Jones, and Charles I. Jones. 2019. “Artificial I
 
 Althoff, Lukas, and Hugo Reichardt. 2026. *Task-Specific Technical Change and Comparative Advantage*. Working Paper No. 35353. NBER. [Link](https://www.nber.org/papers/w35353).
 
-Bank of England. 2026. *Financial Stability Report*. July. [Link](https://www.bankofengland.co.uk/-/media/boe/files/financial-stability-report/2026/financial-stability-report-july-2026.pdf).
-
 Bank of England. 2026. *Monetary Policy Report*. November. [Link](https://www.bankofengland.co.uk/-/media/boe/files/monetary-policy-report/2026/november/monetary-policy-report-november-2026.pdf).
 
 Barwick, Panle Jia, Lu Fang, Jinhan Liu, Huilan Xu, and Zhe Yuan. 2026. *AI as Shared Business Infrastructure: Firm Growth and the Distribution of Gains*. Working Paper No. 36003. NBER. [Link](https://www.nber.org/papers/w36003).
@@ -11,6 +9,8 @@ Barwick, Panle Jia, Lu Fang, Jinhan Liu, Huilan Xu, and Zhe Yuan. 2026. *AI as S
 Bianchini, Stefano, and Georgiana-Ioana Coroama. 2026. *LLMs and the Organization of Scientific Work*. arXiv:2611.02996. [Link](https://arxiv.org/abs/2611.02996).
 
 Colaiacovo, Innessa, and Rembrand Koning. 2026. *Delegating to AI: Beliefs and the Organization of Work at New Ventures*. Working Paper 26-093. Harvard Business School. [Link](https://www.hbs.edu/faculty/Pages/item.aspx?num=69112).
+
+Conlon, John J., and Peter Schwardmann. 2026. *Creative Destruction: Human-AI Competition in an Experimental Market*. arXiv:2610.18921. [Link](https://arxiv.org/abs/2610.18921).
 
 Domnisoru, Ciprian, and Tuomas P. Heikkinen. 2026. *How Is AI Affecting College Major and Course Choices? Evidence from Finland*. Discussion Paper No. 293/26. RFBerlin, 2 November. [Link](https://www.rfberlin.com/network-paper/how-is-ai-affecting-college-major-and-course-choices-evidence-from-finland/).
 
@@ -23,8 +23,6 @@ Herdağdelen, Amaç, Hailey Joren, and Alex Tamkin. 2026. *How AI Agents Shape E
 Hermle, Johannes, Benjamin Jones, Lukas Althoff, Ryan Heller, Thomas Lyttelton, Carolyn Stein, Nathan Wilmers, Maxim Massenkoff, and Peter McCrory. 2026. *AI for Scientific Discovery: How Researchers Use Claude*. Technical Report. The Anthropic Institute, 5 November. [Link](https://www.anthropic.com/research/how-researchers-use-claude).
 
 Hyman, Benjamin G., Benjamin Lahey, Karen Ni, and Laura Pilossoph. 2025. *How Retrainable Are AI-Exposed Workers?* Working Paper No. 34174. NBER. Revised August 2026. [Link](https://www.nber.org/papers/w34174).
-
-International Monetary Fund. 2026. *World Economic Outlook*. April. [Link](https://www.imf.org/-/media/files/publications/weo/2026/april/english/text.pdf).
 
 Jones, Charles I., and Christopher Tonetti. 2026. *Past Automation and Future A.I.: How Weak Links Tame the Growth Explosion*. Working Paper. Stanford University. [Link](https://web.stanford.edu/~chadj/JonesTonetti_Automation.pdf).
 

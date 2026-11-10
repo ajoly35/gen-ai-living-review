@@ -1,5 +1,21 @@
 New papers on AI and labour markets and AI and growth, newest first, each placed against the review below. Every figure is checked against the paper itself.
 
+### Conlon and Schwardmann (2026), "Creative destruction: Human-AI competition in an experimental market"
+<!-- kind: paper -->
+
+Ohio State University and Carnegie Mellon University, arXiv preprint, 12 October 2026. [Paper](https://arxiv.org/abs/2610.18921). Three preregistered online experiments with paid choices; who designed each game is revealed to randomly chosen buyers. A lab market, not labour market data.
+
+**In brief.**
+What it explores: Whether people directing an AI coding tool design better games than the AI alone, and whether buyers pay more for human-made games.
+Why it matters: Two hopes for keeping people in production are human taste and buyers' preference for human work. This tests both.
+How it fits the evidence: It adds the buyer's side to studies of AI and creative work. Neither hope holds here.
+
+**What it finds.** Games designed by an AI alone sold for more than games designed by people directing the same coding agent, and telling buyers who made a game changed nothing. Among 296 US participants who both designed and bought games, buyers paid &#36;0.47 on average to play an AI-designed game against &#36;0.37 for a human-designed one, a gap of 0.31 standard deviations. With 549 separate buyers, games by 180 creative professionals scored 0.16 standard deviations below AI games. Producers expected to beat the AI by 9 to 17 cents. Disclosing the designer left the AI premium unchanged: 6.8 cents blind against 6.0 cents disclosed.
+
+**Where it fits.** It tests the new task channel of Acemoglu et al. (2026) (section [“Organisation: who decides how AI is used”](#organisation-who-decides-how-ai-is-used)): directing AI gave people no edge in taste and a human label created no demand, suggesting a high $$\sigma_o$$ in creative design ([Main patterns](#main-patterns)). Producers took pride in the work, a loss GDP does not record, the theme of Imas and Moll (2026) (companion review).
+
+**Caveat.** Design took minutes, prices were cents and play lasted about a minute. The AI had one untested prompt, which if anything understates its edge.
+
 ### Barwick et al. (2026), "AI as Shared Business Infrastructure: Firm Growth and the Distribution of Gains"
 <!-- kind: paper -->
 
@@ -192,14 +208,3 @@ Reuters ([report](https://www.thestar.com.my/tech/tech-news/2026/10/15/anthropic
 **Where it fits.** Firms' spending on AI services, the cost share $$b_o$$ ([Main patterns](#main-patterns)), is rising fast at one of the largest providers; this revenue is the demand side of the debt-financed capacity in the next entry.
 
 **Caveat.** One firm's unaudited figures, disclosed ahead of a listing. This review is maintained with Claude, Anthropic's model.
-
-### CoreWeave's bonds trade at distressed yields (CNBC, 14 October 2026)
-<!-- kind: news -->
-
-CNBC reporting, via [investingLive](https://investinglive.com/stocks/coreweave-bonds-trade-like-distressed-debt-as-ai-spending-outpaces-balance-sheets/), 15 October 2026, with LSEG and S&P Global data. News report; context on how AI capital spending is financed.
-
-**What it finds.** On 14 October, shares of CoreWeave, a cloud provider that rents out AI chips, fell about 16%, and its bonds due 2032 yielded about 14.8% against a 9.625% coupon. S&P rates the firm B+ and says its capital spending is "close to hyperscaler scale without the balance sheet of a hyperscaler". Alphabet, Amazon, Meta and Oracle had issued more than &#36;228bn of bonds in 2026 by mid-October, more than double their 2025 total (LSEG).
-
-**Where it fits.** AI investment is increasingly debt-financed, and the stress shows first at firms without large cash flows; in the correction scenarios of the IMF (2026) and the Bank of England (2026), the financial channel costs more output than the lost investment itself. Dearer financing would slow the fall in the price of AI services, $$\Delta a$$, that drives the review's equation ([Main patterns](#main-patterns)).
-
-**Caveat.** One day's market moves, reported second hand.

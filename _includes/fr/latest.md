@@ -1,5 +1,21 @@
 Nouveaux articles sur l'IA et les marchés du travail et sur l'IA et la croissance, du plus récent au plus ancien, chacun situé par rapport à la revue ci-dessous. Chaque chiffre est vérifié dans l'article lui-même.
 
+### Conlon and Schwardmann (2026), "Creative destruction: Human-AI competition in an experimental market" {#conlon-and-schwardmann-2026-creative-destruction-human-ai-competition-in-an-experimental-market}
+<!-- kind: paper -->
+
+Ohio State University et Carnegie Mellon University, prépublication arXiv, 12 octobre 2026. [Article](https://arxiv.org/abs/2610.18921). Trois expériences en ligne préenregistrées, avec des choix rémunérés ; l'identité du concepteur de chaque jeu est révélée à des acheteurs tirés au sort. Un marché de laboratoire, pas des données du marché du travail.
+
+**En bref.**
+Ce qu'elle explore : Si des personnes qui pilotent un outil de programmation par IA conçoivent de meilleurs jeux que l'IA seule, et si les acheteurs paient plus pour des jeux faits par des humains.
+Pourquoi c'est important : Deux espoirs pour garder les humains dans la production sont le goût humain et la préférence des acheteurs pour le travail humain. L'étude teste les deux.
+Ce que cela change aux preuves : Elle ajoute le côté des acheteurs aux études sur l'IA et le travail créatif. Aucun des deux espoirs ne se vérifie ici.
+
+**Ce que l'étude trouve.** Les jeux conçus par une IA seule se vendent plus cher que ceux conçus par des personnes qui pilotent le même agent de programmation, et dire aux acheteurs qui a conçu un jeu ne change rien. Parmi 296 participants américains, à la fois concepteurs et acheteurs, les acheteurs paient en moyenne &#36;0.47 pour jouer à un jeu conçu par l'IA, contre &#36;0.37 pour un jeu conçu par un humain, un écart de 0.31 écart-type. Auprès de 549 autres acheteurs, les jeux de 180 professionnels de la création obtiennent 0.16 écart-type de moins que ceux de l'IA. Les concepteurs pensaient battre l'IA de 9 à 17 cents. Révéler le concepteur ne modifie pas la prime de l'IA : 6.8 cents à l'aveugle, contre 6.0 cents avec l'information.
+
+**Où cela se place.** L'étude teste le canal des nouvelles tâches d'Acemoglu et al. (2026) (section [« Organisation : qui décide de l’usage de l’IA »](#organisation-who-decides-how-ai-is-used)) : piloter l'IA ne donne aux humains aucun avantage de goût, et la mention « fait par un humain » ne crée aucune demande, ce qui suggère un $$\sigma_o$$ élevé dans la conception créative ([Principales régularités](#main-patterns)). Les concepteurs étaient fiers de leur travail, une perte que le PIB n'enregistre pas, thème d'Imas et Moll (2026) (revue compagnon).
+
+**Limite.** La conception a duré quelques minutes, les prix se comptaient en cents et chaque partie environ une minute. L'IA n'avait qu'une consigne, sans test, ce qui sous-estime plutôt son avantage.
+
 ### Barwick et al. (2026), "AI as Shared Business Infrastructure: Firm Growth and the Distribution of Gains" {#barwick-et-al-2026-ai-as-shared-business-infrastructure-firm-growth-and-the-distribution-of-gains}
 <!-- kind: paper -->
 
@@ -192,14 +208,3 @@ Reuters ([article](https://www.thestar.com.my/tech/tech-news/2026/10/15/anthropi
 **Où cela se place.** Les dépenses des entreprises en services d'IA, la part de coût $$b_o$$ ([Principales régularités](#main-patterns)), augmentent vite chez l'un des plus grands fournisseurs ; ce chiffre d'affaires est le côté demande des capacités financées par la dette de l'entrée suivante.
 
 **Limite.** Chiffres non audités d'une seule entreprise, divulgués avant une introduction en bourse. Cette revue est tenue à jour avec Claude, le modèle d'Anthropic.
-
-### CoreWeave's bonds trade at distressed yields (CNBC, 14 October 2026) {#coreweaves-bonds-trade-at-distressed-yields-cnbc-14-october-2026}
-<!-- kind: news -->
-
-Reportage de CNBC, via [investingLive](https://investinglive.com/stocks/coreweave-bonds-trade-like-distressed-debt-as-ai-spending-outpaces-balance-sheets/), 15 octobre 2026, avec des données LSEG et S&P Global. Article de presse ; contexte sur le financement des dépenses d'investissement en IA.
-
-**Ce que l'étude trouve.** Le 14 octobre, l'action de CoreWeave, un fournisseur de cloud qui loue des puces d'IA, a chuté d'environ 16%, et ses obligations à échéance 2032 rapportaient environ 14.8% contre un coupon de 9.625%. S&P note l'entreprise B+ et estime que ses dépenses d'investissement sont « proches de l'échelle d'un hyperscaler sans le bilan d'un hyperscaler ». Alphabet, Amazon, Meta et Oracle avaient émis plus de 228 milliards de dollars d'obligations en 2026 à la mi-octobre, plus du double de leur total de 2025 (LSEG).
-
-**Où cela se place.** L'investissement en IA est de plus en plus financé par la dette, et les tensions apparaissent d'abord chez les entreprises sans flux de trésorerie importants ; dans les scénarios de correction de l'IMF (2026) et de la Bank of England (2026), le canal financier coûte plus de production que l'investissement perdu lui-même. Un financement plus cher ralentirait la baisse du prix des services d'IA, $$\Delta a$$, qui anime l'équation de la revue ([Principales régularités](#main-patterns)).
-
-**Limite.** Les mouvements de marché d'une seule journée, rapportés de seconde main.
