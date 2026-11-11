@@ -1,0 +1,37 @@
+# New study: The Effects of Generative AI on Collaboration and Social Networks Among Knowledge Workers
+
+*One new study on AI and work, checked against its full text.*
+
+## Soda, Iorio and Rizzo (2026), "The Effects of Generative AI on Collaboration and Social Networks Among Knowledge Workers"
+
+Bocconi University and SDA Bocconi, arXiv preprint, 23 October 2026. [Paper](https://arxiv.org/abs/2610.32461). Staggered difference in differences on logged collaboration data during a staged Microsoft Copilot rollout in one firm, checked with a shift-share instrument.
+
+**What it finds.** Workers who adopted Copilot spent more time collaborating, and with more colleagues. The data are Microsoft Viva Insights logs on 11,868 knowledge workers in one unit of a multinational consumer-products firm, September 2024 to September 2025: 1,992 sustained adopters against 9,876 never-adopters, with no gap before adoption. In the first three months after adoption, collaboration hours a worker initiated rose by 1.4 a month relative to never-adopters, mostly in meetings and calls. Adopters worked with about 2.2 more distinct colleagues a month, their networks became less clustered, and they gave more of their time to colleagues they already knew well.
+
+**Why it matters.** It informs section [“Who holds knowledge?”](#who-holds-knowledge): AI output still has to be checked and accepted by colleagues, so the assistant adds consultation rather than replacing it, unlike the shift to remote work in Yang et al. (2022). It nuances Dillon et al. (2025), where Copilot saves time within existing jobs: part of that time may go to coordination.
+
+*Caveat.* Workers partly chose when to start using the tool, and follow-up covers three months in one firm. Logs show who meets whom, not what they discuss or whether work improved.
+
+## Rungcharoenkitkul (2026), "Transformative AI and Demand Bottlenecks"
+
+Bank for International Settlements, BIS Working Paper No. 1381, 10 October 2026. [Paper](https://www.bis.org/publications/working-paper-1381-transformative-ai-and-demand-bottlenecks). Calibrated endogenous growth model of automation and innovation; theory, no causal estimates.
+
+**What it finds.** In the central calibration, AI raises growth briefly, then lowers it: trend growth settles 0.41 percentage points below the pre-AI 2%. Automation requires building machines, which shrinks the consumer spending that pays innovators; research stops paying and automation stalls, with labour's task share at 48% against 60% before. Output growth peaks just under 2.4% about 15 years after activation, and wages are 14.5% below the no-AI path after 20 years. The most optimistic scenario reaches 5.5% growth by year 20, against 13% in Jones and Tonetti (2026) and 18% in Korinek and Suh (2024). Trend growth ends below 2% in all 32 parameter combinations tested.
+
+**Why it matters.** It adds a demand-side limit to the companion review's section on automating goods and services: beyond weak links (Aghion, Jones and Jones 2019; Jones and Tonetti 2026), growth can stall when innovation is paid from consumption. It projects far less than Korinek et al. (2026) because research responds to rents. Falling wages imply a high $$\sigma_o$$ ([Main patterns](#main-patterns)). Research subsidies offset the shortfall; redistribution does not.
+
+*Caveat.* AI's arrival rate is inferred from productivity estimates of 0.06 to 1.5 points a year; across tested values the shortfall ranges from 0.02 to 1.83 points. The result rests on rents earned only from consumers.
+
+### Main ideas
+
+- *Large gains on tasks, none yet in the aggregates.* In field experiments, generative AI raises output on narrow tasks by 14 to 34%, most for workers who were least productive before. In the Nordic registers, total employment, hours and earnings are unchanged so far.
+- *The adjustment runs through entry, not layoffs.* Young hires in the most exposed occupations have fallen in the US, Sweden, the UK and France, by up to a quarter relative to less exposed occupations, and contract ends fell too: firms stop hiring juniors rather than dismiss workers. Hires are a small flow, so the stock of jobs moves slowly and totals look flat.
+- *Exposed occupations adjust through pay as well.* Wages in the most exposed occupations fell by about 5% by 2026 with no change in headcount, and this explains close to a third of the fall in the college wage premium.
+- *Firm-level results split.* Some adopters cut junior employment by about 9% while senior employment is unchanged; others, especially the biggest spenders on AI, grew and hired more entrants. Who counts as an adopter drives much of the gap, and whether substitution or scale wins is the central open question.
+- *Juniors lose because their tasks are the most codifiable.* AI raises novices' output most, but hiring depends on demand for the firm's output, not on output per worker. If AI does the routine work juniors used to train on, firms have less reason to hire and train them.
+- *Organisation decides the direction.* Management quality, the cost of reorganising and the flexibility of labour law set how deeply firms adopt. So far AI mostly saves time within existing jobs and moves knowledge down the hierarchy; new tasks appear only where employers reorganise.
+- *What is still unknown.* How strongly demand responds to cheaper output, how much of the fall in entry is AI rather than remote work or a slowdown that began in 2022, where the fall in entry ends as models improve, and who captures the gains.
+
+[Read the full review](https://ajoly35.github.io/gen-ai-living-review/) · [Send a paper](https://github.com/ajoly35/gen-ai-living-review/issues/new?template=paper.yml)
+
+*A living review maintained by Adrien Joly, London School of Economics. Entries are written by an AI assistant from the paper itself and are not reviewed before they are sent. Figures are taken from the paper; the review's own assessment is in the caveat.*

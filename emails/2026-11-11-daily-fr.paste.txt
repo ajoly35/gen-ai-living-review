@@ -1,0 +1,61 @@
+# IA et travail, en bref : 11 novembre 2026
+
+# IA et travail, en bref
+
+
+
+## Aujourd'hui en trois lignes
+
+- Dans une grande entreprise, les employés qui ont adopté un assistant d'IA ont passé plus de temps avec leurs collègues, pas moins.
+- Un modèle de la banque des banques centrales avertit que l'IA pourrait se freiner elle-même, faute d'acheteurs pour financer les inventions.
+- Deux idées répandues en sortent affaiblies : l'IA rendrait le travail solitaire, et ferait bientôt croître l'économie plusieurs fois plus vite.
+
+## La nouvelle recherche, en mots simples
+
+### Les employés qui ont adopté un assistant d'IA ont vu leurs collègues davantage, pas moins
+
+**Ce qu'elle explore.** Des chercheurs de l'université Bocconi, à Milan, ont suivi près de 12 000 employés de bureau d'un grand groupe de biens de consommation pendant qu'il déployait l'assistant d'IA de Microsoft, de septembre 2024 à septembre 2025. Environ 2 000 sont devenus des utilisateurs réguliers ; ils ont été comparés à des collègues semblables qui ne l'ont jamais utilisé.
+
+**Pourquoi c'est important.** On craint que l'IA isole les employés, alors qu'on apprend beaucoup de ses collègues. C'est l'inverse qui s'est produit. Dans leurs trois premiers mois, ils ont organisé environ une heure et demie de plus par mois de réunions, d'appels et de courriels. Ils ont travaillé avec environ deux personnes de plus, et se sont davantage appuyés sur des collègues en qui ils avaient déjà confiance.
+
+**Ce que cela change aux preuves.** Pour les auteurs, un texte rédigé par l'IA doit encore être vérifié et accepté par d'autres, ce qui crée de nouvelles raisons de se parler. L'étude porte sur une entreprise et trois mois, et ne dit pas si le travail s'est amélioré.
+
+[Entrée complète](https://ajoly35.github.io/gen-ai-living-review/fr/latest/#soda-iorio-and-rizzo-2026-the-effects-of-generative-ai-on-collaboration-and-social-networks-among-knowledge-workers) · [Article](https://arxiv.org/abs/2610.32461)
+
+### L'IA pourrait ralentir son propre progrès si elle appauvrit les acheteurs qui financent les idées nouvelles
+
+**Ce qu'elle explore.** Un économiste de la Banque des règlements internationaux, à Bâle, construit un modèle où l'IA prend en charge de plus en plus de tâches. Chaque tâche confiée aux machines oblige à les construire, ce qui absorbe des revenus sinon dépensés dans les magasins. Or les inventeurs sont rémunérés par ce que les consommateurs achètent.
+
+**Pourquoi c'est important.** Certaines prévisions voient la croissance grimper à 13 à 18 % par an d'ici vingt ans. Ici, le cas le plus optimiste atteint environ cinq et demi pour cent. Dans le cas le plus probable, la croissance monte un peu, puis s'installe près d'un demi-point sous les deux pour cent habituels, et les salaires finissent environ un septième plus bas après vingt ans que sans IA.
+
+**Ce que cela change aux preuves.** C'est un modèle, pas une mesure, et il dépend de la vitesse de progrès de l'IA, que personne ne connaît. Mais il ajoute un nouveau frein à la croissance : non pas des tâches que les machines ne savent pas faire, mais trop peu de demande pour payer l'invention suivante.
+
+[Entrée complète](https://ajoly35.github.io/gen-ai-living-review/fr/latest/#rungcharoenkitkul-2026-transformative-ai-and-demand-bottlenecks) · [Article](https://www.bis.org/publications/working-paper-1381-transformative-ai-and-demand-bottlenecks)
+
+## Comment les pièces s'assemblent
+
+La revue suit deux forces. L'IA peut aider une entreprise à faire plus et embaucher plus, ou à faire autant avec moins de monde. L'étude sur les bureaux se situe à l'intérieur des emplois existants : l'outil a fait gagner du temps, et une partie est allée au travail avec les autres. C'est le constat général : jusqu'ici, l'IA fait surtout gagner du temps dans les emplois existants.
+
+Travailler plus vite n'est pas croître plus vite. C'est, à l'échelle de toute l'économie, la question centrale de la revue : une production moins chère trouve-t-elle assez de nouveaux acheteurs ?
+
+Le changement le plus net se voit à l'entrée. Aux États-Unis, en Suède, au Royaume-Uni et en France, les jeunes sont moins embauchés dans les métiers les plus ouverts à l'IA, jusqu'à un quart de moins, et les salaires de ces métiers ont baissé d'environ un vingtième. Qui profitera des gains reste inconnu.
+
+## Une idée expliquée : à qui demander quand on bloque ? Comment l'IA change la hiérarchie au bureau
+
+Pensez à un service hospitalier. Une infirmière débutante traite les cas courants, consulte une collègue expérimentée pour les cas inhabituels, qui appelle le médecin pour les plus durs. Luis Garicano décrivait ainsi les entreprises en 2000 : des échelles de savoir, où les rares problèmes difficiles montent vers les quelques personnes capables de les résoudre.
+
+Donnez à l'infirmière débutante un outil qui répond à beaucoup de questions : moins de problèmes montent, et le service a besoin de moins de personnel expérimenté. Enrique Ide et Eduard Talamàs ont ajouté l'IA à ce tableau en 2025 : une IA qui assiste aide surtout les moins expérimentés, tandis qu'une IA qui travaille seule aide surtout les plus experts.
+
+Les employés équipés d'un assistant n'ont pas cessé de consulter leurs collègues ; ils en ont consulté davantage, et se sont plus appuyés sur ceux en qui ils avaient confiance. La question passe de « comment faire ? » à « est-ce juste ? ». Pour un étudiant, le jugement et les relations de confiance comptent toujours. Pour un employeur, le temps gagné grâce à l'IA peut partir en vérifications : prévoyez-le.
+
+## Où en sont les preuves
+
+![Études sur l'emploi, les embauches ou les salaires, par dispositif. Orange : moins d'emplois, d'embauches ou de salaire. Gris : pas d'effet mesurable. Bleu : gains.](https://ajoly35.github.io/gen-ai-living-review/assets/vitals/direction-by-design-fr.png)
+
+Chaque barre compte des études : orange pour moins d'emplois, d'embauches ou de salaire, gris pour aucun effet mesurable, bleu pour des gains. Les expériences sur la vitesse de travail trouvent surtout des gains, les études sur les embauches trouvent des baisses, et celles sur l'emploi total ne trouvent encore rien. Aucun des deux articles du jour ne compte des emplois, donc aucun n'a sa barre ; le modèle de croissance, en tant que prévision, pencherait vers l'orange pour les salaires.
+
+## Pour aller plus loin
+
+[La revue vivante](https://ajoly35.github.io/gen-ai-living-review/fr/) · [Où va la recherche](https://ajoly35.github.io/gen-ai-living-review/fr/vitals/) · [Articles récents](https://ajoly35.github.io/gen-ai-living-review/fr/latest/) · [Proposer un article](https://github.com/ajoly35/gen-ai-living-review/issues/new?template=paper.yml)
+
+*Une revue vivante tenue par Adrien Joly, London School of Economics. Les entrées sont rédigées par un assistant IA à partir de l'article lui-même et ne sont pas relues avant envoi. Les chiffres viennent de l'article ; l'appréciation de la revue est dans la limite.*

@@ -1,0 +1,65 @@
+GEN-AI, JOBS AND GROWTH
+Today's new research on AI and work, in plain words.
+
+AI and work, in brief
+
+
+
+Today in three lines
+
+- Office staff at a large company who started using an AI assistant spent more time with colleagues, not less, and worked with about two more people each month.
+- A model from the central banks' own bank warns that AI could stall itself: building machines leaves less spending on the goods that pay for new inventions.
+- Together they push back on two popular stories: that AI makes work lonely, and that it will soon make the economy grow several times faster.
+
+New research, in plain words
+
+Office workers who started using an AI assistant met their colleagues more, not less
+
+What it explores. Researchers at Bocconi University in Milan followed nearly 12,000 office workers at a large consumer-goods company while it rolled out Microsoft's AI assistant, from September 2024 to September 2025. Records of meetings, calls and emails showed who worked with whom. About 2,000 became regular users; they were compared with similar colleagues who never did.
+
+Why it matters. A common worry is that AI will make office work solitary, and much of what people learn at work, they learn from each other. Here the opposite happened. In their first three months, regular users set up about an hour and a half more of meetings, calls and emails a month than non-users. They worked with about two more people, and leaned more on colleagues they already trusted.
+
+How it fits the evidence. The authors' reading is that an AI draft still has to be checked and accepted by other people, which creates new reasons to talk. The study covers one company and three months, and records who met whom, not what they said or whether the work improved.
+
+Full entry · Paper
+
+AI could slow its own progress if it squeezes the shoppers who pay for new ideas
+
+What it explores. An economist at the Bank for International Settlements in Basel builds a model where AI takes over more and more tasks. Each task handed over means building machines, which uses income that would otherwise be spent in shops. Yet inventors earn their reward from what shoppers buy.
+
+Why it matters. Some forecasts see growth jumping to 13 to 18 per cent a year within two decades. Here the most hopeful case reaches about five and a half per cent. In the likeliest case, growth rises a little, then settles almost half a point below the usual two per cent, and wages end up about a seventh lower after twenty years than without AI.
+
+How it fits the evidence. It is a model, not a measurement, and it depends on how fast AI improves, which nobody knows. But it adds a new brake on growth: not tasks machines cannot do, but too little demand to pay for the next invention.
+
+Full entry · Paper
+
+How it fits together
+
+The review follows two forces. AI can let a business do more and hire more, or do the same with fewer people. Today's office study sits inside existing jobs: the tool saved effort, and some of it went into working with others. That fits the wider pattern: so far AI mostly saves time inside existing jobs.
+
+The growth model is a reminder that faster work is not faster growth. This is the economy-wide version of the review's central question: does cheaper output find enough new buyers?
+
+Meanwhile the clearest change is at the entrance. In the United States, Sweden, the United Kingdom and France, young people are hired less into the jobs most open to AI, by up to a quarter, and pay in those jobs has slipped by about a twentieth. Who ends up with the gains is still unknown.
+
+One idea, explained: who do you ask when you are stuck? How AI changes the office pecking order
+
+Think of a hospital ward. A junior nurse handles routine cases and asks a senior nurse about unusual ones, who calls the doctor for the hardest. Luis Garicano described firms this way in 2000: ladders of knowledge, where rare hard problems travel up to the few who can solve them.
+
+Give the junior nurse a tool that answers many questions, and fewer problems go up, so the ward needs fewer senior people. Enrique Ide and Eduard Talamàs added AI to this picture in 2025: an AI that assists helps the least experienced most, while one that works alone helps the most expert.
+
+Workers with an assistant did not stop asking colleagues; they asked more people, and leaned harder on those they trusted. The question shifts from "how do I do this?" to "is this right?" For a student, that means judgment and trusted relationships still count. For an employer, it means the time AI saves may go into checking, so plan for it.
+
+Where the evidence stands
+
+!Studies on jobs, hiring or pay, by research design. Orange: fewer jobs, hires or lower pay. Grey: no measurable effect. Blue: gains.
+
+Each bar counts studies on jobs, hiring or pay. Orange means fewer jobs, fewer hires or lower pay; grey, no measurable effect; blue, gains. Experiments on how fast people work mostly find gains, studies of hiring find falls, and studies of total employment find nothing yet. Neither of today's papers counts jobs, so neither gets a bar; the growth model, as a forecast, would lean orange on pay.
+
+Read more
+
+The living review · Direction of the field · Recent papers · Send a paper
+
+Unsubscribe: {{ unsubscribe_url }}
+
+A living review maintained by Adrien Joly, London School of Economics.
+Entries are written by an AI assistant from the paper itself and are not reviewed before they are sent. Figures are taken from the paper; the review's own assessment is in the caveat.
