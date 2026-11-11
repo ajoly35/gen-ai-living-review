@@ -26,6 +26,8 @@ Hyman, Benjamin G., Benjamin Lahey, Karen Ni, and Laura Pilossoph. 2025. *How Re
 
 Jones, Charles I., and Christopher Tonetti. 2026. *Past Automation and Future A.I.: How Weak Links Tame the Growth Explosion*. Working Paper. Stanford University. [Link](https://web.stanford.edu/~chadj/JonesTonetti_Automation.pdf).
 
+Korinek, Anton, and Donghyun Suh. 2024. *Scenarios for the Transition to AGI*. Working Paper No. 32255. NBER. [Link](https://www.nber.org/papers/w32255).
+
 Korinek, Anton, Charles I. Jones, Szymon Sacher, Tess Cotter, and Peter McCrory. 2026. *Economic Scenarios for Transformative AI*. Working Paper No. 2026-02. The Anthropic Institute.
 
 Legate-Yang, Russell, and Maxim Massenkoff. 2026. *What Work Can Robots Do?* Anthropic, 30 September. [Link](https://www.anthropic.com/research/what-work-can-robots-do).
@@ -34,12 +36,16 @@ Levy Yeyati, Eduardo, Darío Judzik, and Juan Ignacio Barbiero. 2026. *Practice 
 
 Mehdi, Tahsin, and Marc Frenette. 2026. *Hiring and Job Separation Rates in the Era of Generative Artificial Intelligence: Early Evidence*. Economic and Social Reports, Catalogue no. 36-28-0001. Statistics Canada, 28 October. [Link](https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026010/article/00003-eng.htm).
 
-Office for National Statistics. 2026. *GDP Monthly Estimate, UK: August 2026*. Statistical bulletin, 15 October. [Link](https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpmonthlyestimateuk/august2026).
+Rungcharoenkitkul, Phurichai. 2026. *Transformative AI and Demand Bottlenecks*. BIS Working Papers No. 1381. Bank for International Settlements. [Link](https://www.bis.org/publications/working-paper-1381-transformative-ai-and-demand-bottlenecks).
+
+Soda, Giuseppe, Alessandro Iorio, and Leonardo Rizzo. 2026. *The Effects of Generative AI on Collaboration and Social Networks Among Knowledge Workers*. arXiv:2610.32461. [Link](https://arxiv.org/abs/2610.32461).
 
 Strauss, Delphine, Valentina Romei, and Sam Fleming. 2026. "What Is Behind the Surprising Resilience of the UK Economy?" *Financial Times*, 17 October.
 
 Tadepalli, Karthik. 2026. *Efficiency vs Capability in the Intelligence Explosion*. arXiv:2610.33447. [Link](https://arxiv.org/abs/2610.33447).
 
 Wilmers, Nathan, Regina Catipon, Maxim Massenkoff, and Peter McCrory. 2026. *How Employment Is Changing at Anthropic*. Technical Report. The Anthropic Institute, 16 October. [Link](https://www.anthropic.com/research/employment-at-anthropic).
+
+Yang, Longqi, David Holtz, Sonia Jaffe, Siddharth Suri, Shilpi Sinha, Jeffrey Weston, Connor Joyce, Neha Shah, Kevin Sherman, Brent Hecht, and Jaime Teevan. 2022. “The Effects of Remote Work on Collaboration among Information Workers.” *Nature Human Behaviour* 6: 43–54.
 
 Zhao, Dora, Lin Ai, Pranav Khadpe, Siddharth Suri, and Scott Counts. 2026. *AI Exposure and the Changing Responsibilities in Job Postings*. arXiv:2611.09870. [Link](https://arxiv.org/abs/2611.09870).

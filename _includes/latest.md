@@ -1,5 +1,37 @@
 New papers on AI and labour markets and AI and growth, newest first, each placed against the review below. Every figure is checked against the paper itself.
 
+### Soda, Iorio and Rizzo (2026), "The Effects of Generative AI on Collaboration and Social Networks Among Knowledge Workers"
+<!-- kind: paper -->
+
+Bocconi University and SDA Bocconi, arXiv preprint, 23 October 2026. [Paper](https://arxiv.org/abs/2610.32461). Staggered difference in differences on logged collaboration data during a staged Microsoft Copilot rollout in one firm, checked with a shift-share instrument.
+
+**In brief.**
+What it explores: Whether office workers who start using an AI assistant talk to their colleagues less, or more.
+Why it matters: A common fear is that AI makes work lonelier and cuts the everyday contact through which people learn from each other.
+How it fits the evidence: It adds a social side to studies of AI and office work. Contact with colleagues rose rather than fell.
+
+**What it finds.** Workers who adopted Copilot spent more time collaborating, and with more colleagues. The data are Microsoft Viva Insights logs on 11,868 knowledge workers in one unit of a multinational consumer-products firm, September 2024 to September 2025: 1,992 sustained adopters against 9,876 never-adopters, with no gap before adoption. In the first three months after adoption, collaboration hours a worker initiated rose by 1.4 a month relative to never-adopters, mostly in meetings and calls. Adopters worked with about 2.2 more distinct colleagues a month, their networks became less clustered, and they gave more of their time to colleagues they already knew well.
+
+**Where it fits.** It informs section [“Who holds knowledge?”](#who-holds-knowledge): AI output still has to be checked and accepted by colleagues, so the assistant adds consultation rather than replacing it, unlike the shift to remote work in Yang et al. (2022). It nuances Dillon et al. (2025), where Copilot saves time within existing jobs: part of that time may go to coordination.
+
+**Caveat.** Workers partly chose when to start using the tool, and follow-up covers three months in one firm. Logs show who meets whom, not what they discuss or whether work improved.
+
+### Rungcharoenkitkul (2026), "Transformative AI and Demand Bottlenecks"
+<!-- kind: paper -->
+
+Bank for International Settlements, BIS Working Paper No. 1381, 10 October 2026. [Paper](https://www.bis.org/publications/working-paper-1381-transformative-ai-and-demand-bottlenecks). Calibrated endogenous growth model of automation and innovation; theory, no causal estimates.
+
+**In brief.**
+What it explores: Whether AI that automates ever more work could stall itself, because building machines leaves less consumer spending to pay for inventions.
+Why it matters: Some forecasts see growth of 13 to 18% a year within two decades. This asks who pays for the research.
+How it fits the evidence: It sits at the cautious end of growth forecasts and predicts lower wages than without AI for decades.
+
+**What it finds.** In the central calibration, AI raises growth briefly, then lowers it: trend growth settles 0.41 percentage points below the pre-AI 2%. Automation requires building machines, which shrinks the consumer spending that pays innovators; research stops paying and automation stalls, with labour's task share at 48% against 60% before. Output growth peaks just under 2.4% about 15 years after activation, and wages are 14.5% below the no-AI path after 20 years. The most optimistic scenario reaches 5.5% growth by year 20, against 13% in Jones and Tonetti (2026) and 18% in Korinek and Suh (2024). Trend growth ends below 2% in all 32 parameter combinations tested.
+
+**Where it fits.** It adds a demand-side limit to the companion review's section on automating goods and services: beyond weak links (Aghion, Jones and Jones 2019; Jones and Tonetti 2026), growth can stall when innovation is paid from consumption. It projects far less than Korinek et al. (2026) because research responds to rents. Falling wages imply a high $$\sigma_o$$ ([Main patterns](#main-patterns)). Research subsidies offset the shortfall; redistribution does not.
+
+**Caveat.** AI's arrival rate is inferred from productivity estimates of 0.06 to 1.5 points a year; across tested values the shortfall ranges from 0.02 to 1.83 points. The result rests on rents earned only from consumers.
+
 ### Conlon and Schwardmann (2026), "Creative destruction: Human-AI competition in an experimental market"
 <!-- kind: paper -->
 
@@ -186,25 +218,3 @@ Anthropic, 30 September 2026. [Report](https://www.anthropic.com/research/what-w
 **Where it fits.** Physical tasks are the weak links in Jones and Tonetti (2026) and Aghion, Jones and Jones (2019); on these numbers they stay costly for decades, which supports slower acceleration (companion review). Robot exposure falls on different workers from language-model exposure, less educated and lower paid (section [“Key concepts and definitions”](#key-concepts-and-definitions)), and the gap between 34% and 0.3% mirrors the review's finding that adoption lags exposure ([Main patterns](#main-patterns)).
 
 **Caveat.** Task ratings, time shares and robot costs all come from Claude, built by the authors' employer; the cost scenarios hold tasks and wages fixed.
-
-### Strauss, Romei and Fleming (2026), "What is behind the surprising resilience of the UK economy?"
-<!-- kind: news -->
-
-*Financial Times*, 17 October 2026, with the [ONS GDP monthly estimate for August 2026](https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpmonthlyestimateuk/august2026) (15 October 2026). News analysis of official data; outside the causal standard, context for AI and growth.
-
-**What it finds.** UK GDP grew 1.8% in the three months to August 2026 on a year earlier, the fastest since 2022, led by AI-related business services. Computer programming, consultancy and related activities added 0.32 percentage points, about a sixth of that growth and the largest contribution of any industry; professional services rose 6.6%. Consumer-facing services stay weak, with hospitality down 1% and construction down 1.6%. Payroll employment fell over the year in both the tech sector and professional services.
-
-**Where it fits.** The fastest-growing industries are cutting payrolls, which matches AI showing up as fewer hires rather than layoffs, including in the UK (Klein Teeselink 2025; section [“Exposure designs: hiring and entry”](#exposure-designs-hiring-and-entry)). Growth comes from firms selling AI adoption and advice, the aggregate side of Garicano (2026) (section [“Firm adoption studies”](#firm-adoption-studies)), not yet from adopters' productivity; the Bank of England (2026) above puts a trend-adjusted number on this.
-
-**Caveat.** Growth accounting, not causal estimates; the ONS does not attribute the growth to AI, and computer programming also covers non-AI work.
-
-### Anthropic's third-quarter revenue (Reuters and *Financial Times*, 14 October 2026)
-<!-- kind: news -->
-
-Reuters ([report](https://www.thestar.com.my/tech/tech-news/2026/10/15/anthropic-revenue-jumps-to-168-billion-in-third-quarter-ft-reports)), citing the *Financial Times*, with earlier quarters from [The Next Web](https://thenextweb.com/news/anthropic-q3-revenue-16-8bn-ipo), 15 October 2026. Unaudited figures given to investors; context on demand for AI services.
-
-**What it finds.** Anthropic told investors its revenue reached &#36;16.8bn in the third quarter of 2026, after about &#36;11.6bn in the second and &#36;4.7bn in the first, and that it turned a profit and was cash-flow positive in the quarter. Quarterly growth slowed from about 150% to about 45%. Bloomberg reports a stock market listing could follow in November.
-
-**Where it fits.** Firms' spending on AI services, the cost share $$b_o$$ ([Main patterns](#main-patterns)), is rising fast at one of the largest providers; this revenue is the demand side of the debt-financed capacity in the next entry.
-
-**Caveat.** One firm's unaudited figures, disclosed ahead of a listing. This review is maintained with Claude, Anthropic's model.

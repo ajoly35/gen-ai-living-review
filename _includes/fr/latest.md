@@ -1,5 +1,37 @@
 Nouveaux articles sur l'IA et les marchés du travail et sur l'IA et la croissance, du plus récent au plus ancien, chacun situé par rapport à la revue ci-dessous. Chaque chiffre est vérifié dans l'article lui-même.
 
+### Soda, Iorio and Rizzo (2026), "The Effects of Generative AI on Collaboration and Social Networks Among Knowledge Workers" {#soda-iorio-and-rizzo-2026-the-effects-of-generative-ai-on-collaboration-and-social-networks-among-knowledge-workers}
+<!-- kind: paper -->
+
+Université Bocconi et SDA Bocconi, prépublication arXiv, 23 octobre 2026. [Article](https://arxiv.org/abs/2610.32461). Doubles différences échelonnées sur les traces de collaboration enregistrées pendant le déploiement progressif de Microsoft Copilot dans une entreprise, vérifiées par un instrument de type shift-share.
+
+**En bref.**
+Ce qu'elle explore : si les employés de bureau qui commencent à utiliser un assistant d'IA parlent moins, ou davantage, à leurs collègues.
+Pourquoi c'est important : on craint souvent que l'IA rende le travail plus solitaire et coupe les échanges quotidiens par lesquels on apprend des autres.
+Ce que cela change aux preuves : l'étude ajoute un volet social aux travaux sur l'IA et le travail de bureau. Les échanges entre collègues ont augmenté, pas baissé.
+
+**Ce que l'étude trouve.** Les salariés qui ont adopté Copilot passent plus de temps à collaborer, et avec davantage de collègues. Les données sont les traces Microsoft Viva Insights de 11,868 travailleurs du savoir d'une unité d'une multinationale des biens de consommation, de septembre 2024 à septembre 2025 : 1,992 adoptants durables comparés à 9,876 non-adoptants, sans écart avant l'adoption. Dans les trois mois suivant l'adoption, les heures de collaboration initiées par le salarié augmentent de 1.4 par mois par rapport aux non-adoptants, surtout en réunions et en appels. Les adoptants travaillent avec environ 2.2 collègues distincts de plus par mois, leurs réseaux deviennent moins regroupés, et ils consacrent une plus grande part de leur temps aux collègues qu'ils connaissaient déjà bien.
+
+**Où cela se place.** L'étude éclaire la section [« Qui détient le savoir ? »](#who-holds-knowledge) : le contenu produit par l'IA doit encore être vérifié et accepté par des collègues, si bien que l'assistant ajoute de la consultation au lieu de la remplacer, à l'inverse du passage au télétravail chez Yang et al. (2022). Elle nuance Dillon et al. (2025), où Copilot fait gagner du temps au sein des emplois existants : une partie de ce temps peut aller à la coordination.
+
+**Limite.** Les salariés ont en partie choisi quand commencer à utiliser l'outil, et le suivi couvre trois mois dans une seule entreprise. Les traces montrent qui rencontre qui, pas le contenu des échanges ni la qualité du travail.
+
+### Rungcharoenkitkul (2026), "Transformative AI and Demand Bottlenecks" {#rungcharoenkitkul-2026-transformative-ai-and-demand-bottlenecks}
+<!-- kind: paper -->
+
+Banque des règlements internationaux, BIS Working Paper No. 1381, 10 octobre 2026. [Article](https://www.bis.org/publications/working-paper-1381-transformative-ai-and-demand-bottlenecks). Modèle de croissance endogène calibré, avec automatisation et innovation ; théorie, sans estimation causale.
+
+**En bref.**
+Ce qu'elle explore : si une IA qui automatise toujours plus de travail peut se freiner elle-même, car construire des machines laisse moins de dépenses de consommation pour financer les inventions.
+Pourquoi c'est important : certaines prévisions annoncent une croissance de 13 à 18% par an d'ici vingt ans. L'étude demande qui paie la recherche nécessaire.
+Ce que cela change aux preuves : elle se situe du côté prudent des prévisions de croissance et prédit des salaires plus bas que sans IA pendant des décennies.
+
+**Ce que l'étude trouve.** Dans le calibrage central, l'IA accélère brièvement la croissance, puis la ralentit : la croissance tendancielle se stabilise 0.41 point de pourcentage sous les 2% d'avant l'IA. L'automatisation exige de construire des machines, ce qui réduit les dépenses de consommation qui rémunèrent les innovateurs ; la recherche cesse d'être rentable et l'automatisation s'arrête, avec une part des tâches du travail de 48%, contre 60% auparavant. La croissance de la production culmine juste sous 2.4% environ 15 ans après l'activation, et les salaires sont 14.5% sous la trajectoire sans IA au bout de 20 ans. Le scénario le plus optimiste atteint 5.5% de croissance à 20 ans, contre 13% chez Jones et Tonetti (2026) et 18% chez Korinek et Suh (2024). La croissance tendancielle finit sous 2% dans les 32 combinaisons de paramètres testées.
+
+**Où cela se place.** L'étude ajoute une limite du côté de la demande à la section de la revue compagnon sur l'automatisation des biens et services : au-delà des maillons faibles (Aghion, Jones et Jones 2019 ; Jones et Tonetti 2026), la croissance peut caler quand l'innovation est financée par la consommation. Elle projette bien moins que Korinek et al. (2026), car la recherche répond aux rentes. La baisse des salaires implique un $$\sigma_o$$ élevé ([Principales régularités](#main-patterns)). Subventionner la recherche compense le manque à gagner ; redistribuer ne le fait pas.
+
+**Limite.** Le rythme d'arrivée de l'IA est déduit d'estimations de productivité de 0.06 à 1.5 point par an ; selon les valeurs testées, le manque à gagner va de 0.02 à 1.83 point. Le résultat repose sur des rentes tirées uniquement des consommateurs.
+
 ### Conlon and Schwardmann (2026), "Creative destruction: Human-AI competition in an experimental market" {#conlon-and-schwardmann-2026-creative-destruction-human-ai-competition-in-an-experimental-market}
 <!-- kind: paper -->
 
@@ -186,25 +218,3 @@ Anthropic, 30 septembre 2026. [Rapport](https://www.anthropic.com/research/what-
 **Où cela se place.** Les tâches physiques sont les maillons faibles chez Jones et Tonetti (2026) et Aghion, Jones et Jones (2019) ; d'après ces chiffres, elles restent coûteuses pendant des décennies, ce qui plaide pour une accélération plus lente (revue compagnon). L'exposition aux robots touche des travailleurs différents de l'exposition aux modèles de langage, moins diplômés et moins payés (section [« Concepts clés et définitions »](#key-concepts-and-definitions)), et l'écart entre 34% et 0.3% reflète le constat de la revue selon lequel l'adoption est en retard sur l'exposition ([Principales régularités](#main-patterns)).
 
 **Limite.** Les évaluations des tâches, les parts de temps et les coûts des robots viennent tous de Claude, construit par l'employeur des auteurs ; les scénarios de coût maintiennent fixes les tâches et les salaires.
-
-### Strauss, Romei and Fleming (2026), "What is behind the surprising resilience of the UK economy?" {#strauss-romei-and-fleming-2026-what-is-behind-the-surprising-resilience-of-the-uk-economy}
-<!-- kind: news -->
-
-*Financial Times*, 17 octobre 2026, avec l'[estimation mensuelle du PIB de l'ONS pour août 2026](https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpmonthlyestimateuk/august2026) (15 octobre 2026). Analyse journalistique de données officielles ; hors du standard causal, contexte pour l'IA et la croissance.
-
-**Ce que l'étude trouve.** Le PIB britannique a progressé de 1.8% sur les trois mois à août 2026 par rapport à un an plus tôt, le rythme le plus rapide depuis 2022, tiré par les services aux entreprises liés à l'IA. La programmation informatique, le conseil et les activités connexes ont ajouté 0.32 point de pourcentage, environ un sixième de cette croissance et la plus forte contribution de tous les secteurs ; les services professionnels ont progressé de 6.6%. Les services aux consommateurs restent faibles, avec l'hôtellerie-restauration en recul de 1% et la construction en recul de 1.6%. L'emploi salarié a reculé sur l'année tant dans le secteur de la tech que dans les services professionnels.
-
-**Où cela se place.** Les secteurs qui croissent le plus vite réduisent leurs effectifs salariés, ce qui correspond à une IA qui se manifeste par moins d'embauches plutôt que par des licenciements, y compris au Royaume-Uni (Klein Teeselink 2025 ; section [« Approches par l'exposition : embauches et entrée »](#exposure-designs-hiring-and-entry)). La croissance vient d'entreprises qui vendent l'adoption de l'IA et le conseil, le pendant agrégé de Garicano (2026) (section [« Études d'adoption par les entreprises »](#firm-adoption-studies)), pas encore de la productivité des adoptants ; la Bank of England (2026) ci-dessus met un chiffre corrigé de la tendance sur ce point.
-
-**Limite.** Comptabilité de la croissance, non estimations causales ; l'ONS n'attribue pas la croissance à l'IA, et la programmation informatique couvre aussi du travail sans lien avec l'IA.
-
-### Anthropic's third-quarter revenue (Reuters and *Financial Times*, 14 October 2026) {#anthropics-third-quarter-revenue-reuters-and-financial-times-14-october-2026}
-<!-- kind: news -->
-
-Reuters ([article](https://www.thestar.com.my/tech/tech-news/2026/10/15/anthropic-revenue-jumps-to-168-billion-in-third-quarter-ft-reports)), citant le *Financial Times*, avec les trimestres précédents d'après [The Next Web](https://thenextweb.com/news/anthropic-q3-revenue-16-8bn-ipo), 15 octobre 2026. Chiffres non audités communiqués aux investisseurs ; contexte sur la demande de services d'IA.
-
-**Ce que l'étude trouve.** Anthropic a indiqué à ses investisseurs que son chiffre d'affaires a atteint 16.8 milliards de dollars au troisième trimestre 2026, après environ 11.6 milliards au deuxième et 4.7 milliards au premier, et qu'elle a dégagé un bénéfice et un flux de trésorerie positif sur le trimestre. La croissance trimestrielle a ralenti d'environ 150% à environ 45%. Bloomberg rapporte qu'une introduction en bourse pourrait suivre en novembre.
-
-**Où cela se place.** Les dépenses des entreprises en services d'IA, la part de coût $$b_o$$ ([Principales régularités](#main-patterns)), augmentent vite chez l'un des plus grands fournisseurs ; ce chiffre d'affaires est le côté demande des capacités financées par la dette de l'entrée suivante.
-
-**Limite.** Chiffres non audités d'une seule entreprise, divulgués avant une introduction en bourse. Cette revue est tenue à jour avec Claude, le modèle d'Anthropic.
