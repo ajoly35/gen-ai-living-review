@@ -14,6 +14,8 @@ What generative AI has done to employment, hiring, hours and wages so far, by re
 
 {% include main-ideas.md %}
 
+{% include last-update.html lang="en" %}
+
 {% include paper-of-the-day.html lang="en" %}
 
 * Contents

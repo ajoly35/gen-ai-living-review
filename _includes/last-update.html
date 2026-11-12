@@ -1,0 +1,7 @@
+{%- comment -%} Line under the Main ideas box: when the review was last checked against new evidence. Usage: include last-update.html lang="en" {%- endcomment -%}
+{%- assign us = site.pages | sort: "date" | reverse -%}
+{%- assign shown = false -%}
+{%- for u in us -%}{%- if shown == false and u.period and u.lang == include.lang -%}
+{%- assign shown = true -%}
+<p class="last-update">{% if include.lang == "fr" %}Idées principales confrontées aux nouvelles études : <a href="{{ u.url | relative_url }}">{{ u.title | remove: "Bilan de la revue : " }}</a>, {{ u.verdict | downcase }}.{% else %}Main ideas last checked against new studies: <a href="{{ u.url | relative_url }}">{{ u.title | remove: "Review update: " }}</a>, {{ u.verdict | downcase }}.{% endif %}</p>
+{%- endif -%}{%- endfor -%}

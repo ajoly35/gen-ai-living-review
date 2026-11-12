@@ -56,6 +56,7 @@ main.page { padding-top: 1.5rem; }
 .main-ideas { background: var(--panel); border-radius: 6px; padding: .5rem 1.25rem .75rem; margin: 0 0 1.5rem; }
 .main-ideas h3 { margin: .75rem 0 .5rem; font-size: 1rem; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
 .main-ideas ul { margin: 0; padding-left: 1.1rem; }
+.last-update { margin: -1.1rem 0 1.5rem; font: .85rem/1.4 Inter, sans-serif; color: var(--muted); }
 .main-ideas li { font-size: .95rem; margin: .4rem 0; }
 .main-ideas li em { font-style: normal; font-weight: 600; }
 

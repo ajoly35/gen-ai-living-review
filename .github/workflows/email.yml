@@ -1,7 +1,9 @@
 # Clean emails for new entries. Three triggers:
 #  - push to main that changes _includes/latest.md  -> daily email (the entries added by that push)
 #  - Monday 07:00 UTC                                -> weekly digest (entries added in the last 7 days)
-#  - 1st of the month 07:10 UTC                      -> monthly digest (entries added in the last month)
+#  - push to main that adds updates/YYYY-MM.md       -> monthly email built from that review update (merging the
+#                                                       routine's pull request is the approval; see updates/README.md)
+#  - 5th of the month 07:10 UTC                      -> fallback only: entries digest, if no update was merged for last month
 # Each run writes four emails (general brief and academic digest, English and French; HTML, text, Markdown) to
 # emails/ so they can be read, exported or pasted into Substack, and sends it through Buttondown to the subscribers carrying the matching tag when the
 # SUBSCRIBE_API + SEND_TOKEN secrets exist (self-hosted list, infra/subscribe-worker), or through Buttondown if only
@@ -10,10 +12,10 @@ name: Email new papers
 on:
   push:
     branches: [main]
-    paths: ["_includes/latest.md", "briefs/*.md", "briefs/fr/*.md"]
+    paths: ["_includes/latest.md", "briefs/*.md", "briefs/fr/*.md", "updates/*.md", "updates/fr/*.md"]
   schedule:
     - cron: "0 7 * * 1"
-    - cron: "10 7 1 * *"
+    - cron: "10 7 5 * *"
   workflow_dispatch:
     inputs:
       kind:
@@ -35,6 +37,21 @@ jobs:
           if [ "${{ github.event_name }}" = schedule ]; then
             case "${{ github.event.schedule }}" in "0 7 * * 1") kind=weekly;; *) kind=monthly;; esac
           elif [ "${{ github.event_name }}" = workflow_dispatch ]; then kind="${{ github.event.inputs.kind }}"; fi
+          # a push that adds a monthly review update page sends the monthly email from it, and nothing else
+          upd=""
+          if [ "${{ github.event_name }}" = push ]; then
+            upd=$(git diff --diff-filter=A --name-only "${{ github.event.before }}" HEAD -- 'updates/[0-9]*.md' 2>/dev/null | head -1)
+            [ -n "$upd" ] && kind=monthly
+          fi
+          if [ "$kind" = monthly ] && [ -z "$upd" ]; then
+            last=$(date -u -d "$(date -u +%Y-%m-01) -1 day" +%Y-%m)
+            if [ -f "updates/$last.md" ]; then
+              if [ "${{ github.event_name }}" = schedule ]; then echo "update for $last already sent on merge"; echo "some=false" >> "$GITHUB_OUTPUT"; echo "kind=monthly" >> "$GITHUB_OUTPUT"; exit 0; fi
+              upd="updates/$last.md"
+            fi
+          fi
+          echo "update=$upd" >> "$GITHUB_OUTPUT"
+          if [ -n "$upd" ]; then echo "kind=monthly" >> "$GITHUB_OUTPUT"; echo "some=true" >> "$GITHUB_OUTPUT"; : > added.md; exit 0; fi
           if [ "$kind" = daily ]; then before="${{ github.event.before }}"
           elif [ "$kind" = weekly ]; then before=$(git rev-list -1 --before="7 days ago" HEAD)
           else before=$(git rev-list -1 --before="1 month ago" HEAD); fi
@@ -54,7 +71,15 @@ jobs:
         if: steps.cut.outputs.some == 'true'
         id: build
         run: |
-          k="${{ steps.cut.outputs.kind }}"
+          k="${{ steps.cut.outputs.kind }}"; u="${{ steps.cut.outputs.update }}"
+          if [ -n "$u" ]; then
+            fr_u="updates/fr/$(basename "$u")"
+            for aud in general academic; do
+              python3 -I scripts/build_email.py --update "$u" --kind monthly --lang en --audience "$aud" --out emails
+              [ -f "$fr_u" ] && python3 -I scripts/build_email.py --update "$fr_u" --kind monthly --lang fr --audience "$aud" --out emails
+            done
+            echo "base=emails/$(date -u +%F)-monthly" >> "$GITHUB_OUTPUT"; exit 0
+          fi
           for l in en fr; do
             # academic digest: the full entries added in the period
             python3 -I scripts/build_email.py --added added.md --kind "$k" --lang "$l" --audience academic --out emails || echo "no $l entries for academic"

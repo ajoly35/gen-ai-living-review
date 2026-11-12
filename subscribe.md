@@ -11,7 +11,7 @@ permalink: /subscribe/
 
 <p class="byline">Gen-AI, Jobs and Growth: A Living Review · Adrien Joly, London School of Economics</p>
 
-A clean email written for readers who are not economists, at the rhythm you choose: each new study in the morning, a digest on Mondays, or one on the 1st of the month. Each topic also has its own page, with the statistics that frame it and the papers added most recently.
+A clean email written for readers who are not economists, at the rhythm you choose: each new study in the morning, a digest on Mondays, or the [monthly update]({{ '/updates/' | relative_url }}), which says what enters the review and whether it changes the picture. Each topic also has its own page, with the statistics that frame it and the papers added most recently.
 {:.lead}
 
 <div class="topic-cards">

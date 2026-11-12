@@ -15,6 +15,8 @@ Ce que l'IA générative a fait jusqu'ici à l'emploi, aux embauches, aux heures
 
 {% include fr/main-ideas.md %}
 
+{% include last-update.html lang="fr" %}
+
 {% include paper-of-the-day.html lang="fr" %}
 
 * Sommaire

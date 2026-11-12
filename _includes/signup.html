@@ -41,7 +41,7 @@ email workflow (.github/workflows/email.yml) sends to. Otherwise the form compos
       <legend>{% if l == "fr" %}Rythme{% else %}How often{% endif %}</legend>
       <label><input type="checkbox" name="frequency" value="daily"> {% if l == "fr" %}Chaque nouvelle étude, le matin{% else %}Each new study, in the morning{% endif %}</label>
       <label><input type="checkbox" name="frequency" value="weekly" checked> {% if l == "fr" %}Un résumé le lundi{% else %}One digest on Mondays{% endif %}</label>
-      <label><input type="checkbox" name="frequency" value="monthly"> {% if l == "fr" %}Un résumé le 1er du mois{% else %}One digest on the 1st of the month{% endif %}</label>
+      <label><input type="checkbox" name="frequency" value="monthly"> {% if l == "fr" %}Le bilan mensuel : ce qui entre dans la revue et si cela change le tableau{% else %}The monthly update: what enters the review and whether it changes the picture{% endif %}</label>
       <span class="signup-note">{% if l == "fr" %}Cochez un ou plusieurs rythmes.{% else %}Tick one or more.{% endif %}</span>
     </fieldset>
     <fieldset class="signup-freq">
@@ -77,7 +77,7 @@ email workflow (.github/workflows/email.yml) sends to. Otherwise the form compos
       <legend>{% if l == "fr" %}Rythme{% else %}How often{% endif %}</legend>
       <label><input type="radio" name="tag" value="daily{{ sfx }}"> {% if l == "fr" %}Chaque nouvelle étude (le matin){% else %}Each new study, in the morning{% endif %}</label>
       <label><input type="radio" name="tag" value="weekly{{ sfx }}" checked> {% if l == "fr" %}Un résumé le lundi{% else %}One digest on Mondays{% endif %}</label>
-      <label><input type="radio" name="tag" value="monthly{{ sfx }}"> {% if l == "fr" %}Un résumé le 1er du mois{% else %}One digest on the 1st of the month{% endif %}</label>
+      <label><input type="radio" name="tag" value="monthly{{ sfx }}"> {% if l == "fr" %}Le bilan mensuel : ce qui entre dans la revue et si cela change le tableau{% else %}The monthly update: what enters the review and whether it changes the picture{% endif %}</label>
     </fieldset>
     <input type="hidden" name="embed" value="1">
     <div class="signup-actions">
