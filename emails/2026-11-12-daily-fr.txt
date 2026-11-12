@@ -1,0 +1,65 @@
+IA GÉNÉRATIVE, EMPLOI ET CROISSANCE
+La nouvelle recherche du jour sur l'IA et le travail, en mots simples.
+
+IA et travail, en bref
+
+
+
+Aujourd'hui en trois lignes
+
+- Quand on peut accepter la réponse d'une IA, les débutants risquent de ne jamais apprendre le métier, et les experts de perdre peu à peu leur avance.
+- Payer les bonnes réponses trouvées seul relance l'apprentissage, et pour un débutant, ces paiements peuvent s'arrêter.
+- Sur 36 ans d'informatique, la recherche en IA a grandi vite mais s'est resserrée, et chaque percée s'est essoufflée plus tôt.
+
+La nouvelle recherche, en mots simples
+
+Ceux qui s'appuient sur l'IA peuvent cesser d'apprendre, sauf si quelqu'un paie l'entraînement
+
+Ce qu'elle explore. Des chercheurs du Karlsruhe Institute of Technology et d'IBM imaginent une programmeuse qui cherche les erreurs d'un code avec un assistant d'IA. À chaque fois, elle peut accepter le verdict de l'IA ou vérifier seule. Vérifier seule demande un effort mais forme ; accepter va vite, mais le savoir-faire inutilisé s'efface.
+
+Pourquoi c'est important. Dans leur exemple, une débutante qui repère quatre erreurs sur dix travaille avec une IA qui en repère environ six. Accepter rapporte plus aujourd'hui, donc elle ne s'exerce jamais. Un expert à peine meilleur que l'IA cesse aussi de vérifier, et décline lentement, sans que personne le remarque.
+
+Ce que cela change aux preuves. C'est un modèle, pas une mesure. Mais il explique clairement pourquoi les entreprises peuvent cesser de former les débutants, et il chiffre un remède : payer les bonnes réponses trouvées seul. Pour la débutante, les paiements peuvent s'arrêter vers sept erreurs sur dix, quand vérifier seule devient rentable par soi-même.
+
+L'entrée complète · L'article
+
+La recherche en IA a grandi vite, mais ses idées se sont resserrées, et chaque percée s'est usée plus tôt
+
+Ce qu'elle explore. Une équipe de l'université de Chicago et de l'université Tsinghua a lu les résumés de plus de sept millions d'articles d'informatique, de 1990 à 2025. Elle a suivi quelles idées naissaient et disparaissaient, où allaient les chercheurs, et l'assurance des relecteurs.
+
+Pourquoi c'est important. Depuis 2017, date de la conception qui sous-tend les assistants actuels, l'attention s'est concentrée sur quelques sujets, après des décennies de stabilité. Plus de la moitié des chercheurs qui ont changé de domaine sont partis vers l'IA, et les relecteurs sont devenus moins sûrs de leurs avis. Après chaque grande percée, les idées vivantes ont reculé plus vite qu'avant.
+
+Ce que cela change aux preuves. Les prévisions de croissance audacieuses supposent que la recherche accélère avec l'effort. L'étude compte des articles, pas une production : elle ne peut pas dire que la croissance ralentira. Mais quand tout le monde poursuit la même idée, l'effort achète moins de variété, et la prochaine percée peut être plus difficile à trouver.
+
+L'entrée complète · L'article
+
+Comment tout cela s'articule
+
+La revue suit deux forces : l'IA peut permettre à une entreprise de produire plus et d'embaucher plus, ou de faire la même chose avec moins de monde. Le changement le plus net, pour l'instant, se trouve à l'entrée. Aux États-Unis, en Suède, au Royaume-Uni et en France, les jeunes sont moins embauchés dans les métiers les plus ouverts à l'IA, jusqu'à un quart de moins, sans hausse des licenciements.
+
+Le premier article explique pourquoi l'entrée est le point faible. Les débutants payaient leur formation par le travail courant. Si l'IA fait ce travail, l'entreprise a peu de raisons de laisser un débutant s'y exercer. Les experts aussi peuvent perdre leur savoir-faire, ce qui ne se voit qu'en cas de défaillance de l'IA. C'est un choix : les employeurs décident du partage du travail entre personnes et machines, et de la place laissée à l'entraînement.
+
+Le second article regarde plus loin. Une croissance bien plus rapide suppose que la recherche en IA trouve des idées nouvelles, et un domaine encombré les trouve plus lentement. Beaucoup reste inconnu : de combien la demande augmente quand les prix baissent, où s'arrêtera la baisse des embauches de jeunes, et qui captera les gains.
+
+Une idée, expliquée : pourquoi le premier barreau de l'échelle disparaît en premier
+
+Prenez une boulangerie. L'apprenti façonnait les pains toute la matinée pendant que le chef s'occupait des commandes délicates. C'était monotone, mais c'est ainsi qu'il apprenait. Puis la boulangerie achète une machine qui façonne les pains. Le chef reste indispensable ; la matinée de l'apprenti a disparu, et avec elle la raison d'en embaucher un.
+
+Les registres d'embauche montrent la même chose. Aux États-Unis, Seyed Mahdi Hosseini et Guy Lichtinger ont comparé des entreprises qui ont intégré l'IA à leur travail avec des entreprises semblables qui ne l'ont pas fait. Un an et demi plus tard, les premières employaient environ un dixième de jeunes en moins, et pas moins de seniors. En France, Antonin Bergeaud et ses coauteurs trouvent que les embauches en CDI de personnes de 20 à 29 ans ont baissé de plus d'un quart dans le cinquième des métiers les plus ouverts à l'IA, contre moins d'un dixième dans le cinquième le moins ouvert. Pour les jeunes développeurs, les embauches ont baissé d'environ deux cinquièmes. Les entreprises ont cessé d'embaucher plutôt que de licencier.
+
+Les tâches des débutants partent les premières parce qu'elles sont les plus routinières et les plus faciles à décrire. Si vous êtes étudiant, cherchez un travail qui forme le jugement. Si vous êtes salarié, continuez à pratiquer vos compétences. Si vous êtes employeur, économiser sur les débutants aujourd'hui peut vous laisser sans seniors demain.
+
+Où en sont les preuves
+
+!Études sur l'emploi, les embauches ou les salaires, par dispositif. Orange : moins d'emplois, d'embauches ou de salaire. Gris : pas d'effet mesurable. Bleu : gains.
+
+Chaque barre compte des études : orange pour moins d'emplois, d'embauches ou de salaire, gris pour aucun effet mesurable, bleu pour des gains. Les expériences sur la vitesse de travail trouvent surtout des gains, les études sur les embauches trouvent des baisses, et celles sur l'emploi total ne trouvent encore rien. Aucun des deux articles du jour ne compte des emplois, donc aucun n'a sa barre, mais le modèle sur la formation explique comment un travail plus rapide et moins d'embauches peuvent aller de pair.
+
+Pour aller plus loin
+
+La revue vivante · Où va la recherche · Articles récents · Proposer un article
+
+Se désabonner: {{ unsubscribe_url }}
+
+Une revue vivante tenue par Adrien Joly, London School of Economics.
+Les entrées sont rédigées par un assistant IA à partir de l'article lui-même et ne sont pas relues avant envoi. Les chiffres viennent de l'article ; l'appréciation de la revue est dans la limite.
