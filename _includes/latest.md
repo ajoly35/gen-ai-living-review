@@ -1,5 +1,37 @@
 New papers on AI and labour markets and AI and growth, newest first, each placed against the review below. Every figure is checked against the paper itself.
 
+### Diener et al. (2026), "Today's Work, Tomorrow's Workforce: Incentivizing Learning in AI-Assisted Work"
+<!-- kind: paper -->
+
+Karlsruhe Institute of Technology and IBM Research, arXiv preprint, 4 November 2026. [Paper](https://arxiv.org/abs/2611.06346). Dynamic model of workers choosing between accepting an AI's answer and solving tasks themselves; theory with illustrative numbers, no causal estimates.
+
+**In brief.**
+What it explores: Whether workers who can accept an AI's answer still practise enough to learn their job, or keep their skills.
+Why it matters: Juniors have always learned by doing routine work. If AI does it, someone must decide who trains the next experts.
+How it fits the evidence: It offers a reason why firms may stop training juniors, and prices what keeping them learning would cost.
+
+**What it finds.** Relying on AI can trap novices at low skill and let experts lose theirs, while output quality stays at the AI's level, so the loss goes unseen. Solving by hand costs effort but builds skill; accepting saves effort and lets skill decay. Even forward-looking workers stay trapped when learning pays too late. In the authors' code-review example, a novice who finds 40% of bugs, beside an AI that finds 62%, never practises. Paying for correct unaided answers, at first 0.27 of a bug's value per task and falling with skill, carries the novice to 70%, after which payments stop.
+
+**Where it fits.** It formalises the training channel in section [“Why these patterns: theory”](#why-these-patterns-theory): as in Garicano and Rayo (2025), AI removes the routine work through which juniors paid for their training. It adds expert deskilling and an explicit price for practice, a choice that sits with employers (section [“Organisation: who decides how AI is used”](#organisation-who-decides-how-ai-is-used)). It does not test the junior hiring falls of Hosseini and Lichtinger (2025).
+
+**Caveat.** One worker, one task family and chosen parameters, not estimates. Skill grows only through unaided work; if engaged use of AI also teaches, the trap weakens, as the authors note.
+
+### Lu et al. (2026), "Stronger artificial intelligence breakthroughs hasten their own exhaustion"
+<!-- kind: paper -->
+
+University of Chicago Knowledge Lab and Tsinghua University, arXiv preprint, 19 October 2026. [Paper](https://arxiv.org/abs/2610.27296). Descriptive analysis of 36 years of computer science papers, career moves and peer reviews, with an illustrative simulation; outside the causal evidence standard, context for AI and growth.
+
+**In brief.**
+What it explores: Whether pouring more researchers and money into AI research produces more new ideas, or fewer different ones.
+Why it matters: Forecasts of very fast growth assume AI research speeds up as effort grows. Crowding onto one approach could slow it instead.
+How it fits the evidence: It adds a brake to growth forecasts: ideas get harder to find partly because everyone chases the same one.
+
+**What it finds.** Since the Transformer in 2017, computer science has grown while its attention narrowed, and each AI breakthrough was followed by faster exhaustion of its ideas. Across 7.18 million papers from 1990 to 2025, inequality of attention across keywords (a Gini coefficient) rose from 0.26 to 0.33 within eight years of 2017, after decades without change. Of 918,862 moves between subfields, 53.81% ended in AI, mostly by mid-career researchers. In 73,089 peer reviews, 2017 to 2025, reviewer confidence fell from 3.9 to 2.9 out of 5. Active ideas fell below their ceiling modestly after AlexNet, severely after the Transformer.
+
+**Where it fits.** It bears on the companion review's section on automating ideas. Growth models where ideas get harder to find (Aghion, Jones and Jones 2019) treat difficulty as a property of the idea space; here it also depends on how researchers spread their attention. That weakens the research feedback loops behind explosive growth in Davidson et al., in line with the slower paths of Rungcharoenkitkul (2026).
+
+**Caveat.** Nouns in abstracts stand in for ideas, and the post-2022 window is short. The paper does not link narrowing attention to output; the growth reading is ours.
+
 ### Soda, Iorio and Rizzo (2026), "The Effects of Generative AI on Collaboration and Social Networks Among Knowledge Workers"
 <!-- kind: paper -->
 
@@ -198,23 +230,3 @@ Anthropic, 27 October 2026. [Report](https://www.anthropic.com/research/agents-j
 **Where it fits.** The review's evidence on knowledge flows concerns assistants (Ide and Talamàs 2025; Dell’Acqua et al. 2025); with an agent doing the analysis, the judgment itself moves to the machine (section [“Who holds knowledge?”](#who-holds-knowledge)). Experts keep the sign-off, yet a coin flip largely settles the result, so formal oversight may overstate how much expert judgment still decides (section [“Organisation: who decides how AI is used”](#organisation-who-decides-how-ai-is-used)).
 
 **Caveat.** One hour-long task with an agent told to voice a preference, by researchers at the firm that makes the agent. This review is maintained with Claude, Anthropic's model.
-
-### Wilmers et al. (2026), "How employment is changing at Anthropic"
-
-Anthropic Institute, 16 October 2026. [Report](https://www.anthropic.com/research/employment-at-anthropic). Case study of one firm from internal records: descriptive hiring trends and an event study of output around engineers' adoption of coding agents.
-
-**What it finds.** At Anthropic, an AI developer that heavily uses its own agents, junior technical hiring fell while output per worker rose. Since early 2025, juniors fell from 27% to 9% of technical hires and from 21% to 14% of technical employees, while total technical hiring kept growing; about a third of machine learning managers say they hire less because of AI. Code commits per engineer are five times their level of six months earlier, and by August 2026 agents run by employees worked six times as many hours as the employees themselves. Agent management rose from 10% to 22% of employees' Claude sessions in six months.
-
-**Where it fits.** The firm adjusts through entry, not layoffs, confirming Hosseini and Lichtinger (2025) on adopters cutting junior hiring (section [“Firm adoption studies”](#firm-adoption-studies); [Main patterns](#main-patterns), $$\kappa_o$$). Substitution and demand show at once, as in Chandar and Klein Teeselink (2026). Managing agents is a new task, of which section [“Does reorganisation create new tasks?”](#does-reorganisation-create-new-tasks) has so far found little.
-
-**Caveat.** One firm that sells AI, studied by its own staff during explosive growth; adoption is not random and output is measured as code volume. This review is maintained with Claude, Anthropic's model.
-
-### Legate-Yang and Massenkoff (2026), "What work can robots do?"
-
-Anthropic, 30 September 2026. [Report](https://www.anthropic.com/research/what-work-can-robots-do). Descriptive index of task exposure to robots, rated by Claude, with a historical backtest; outside the causal standard, context for AI and growth.
-
-**What it finds.** Robots can already do 74% of US physical tasks, or 34% of all working time, but are cheaper than workers for only 0.3% of working time. Claude rated 7,594 physical O*NET tasks by the least structured setting where a demonstrated robot can do them: 23% of working time is doable in purpose-built settings, 10% in structured workplaces, 1% in open settings, and 12% is physical and beyond robots. Adding robots to language models raises exposed work from about half to 81%. At the 3% a year fall in robot prices since the 1990s, robots become cheaper than workers for 10% of today's work only in about 40 years.
-
-**Where it fits.** Physical tasks are the weak links in Jones and Tonetti (2026) and Aghion, Jones and Jones (2019); on these numbers they stay costly for decades, which supports slower acceleration (companion review). Robot exposure falls on different workers from language-model exposure, less educated and lower paid (section [“Key concepts and definitions”](#key-concepts-and-definitions)), and the gap between 34% and 0.3% mirrors the review's finding that adoption lags exposure ([Main patterns](#main-patterns)).
-
-**Caveat.** Task ratings, time shares and robot costs all come from Claude, built by the authors' employer; the cost scenarios hold tasks and wages fixed.

@@ -1,5 +1,37 @@
 Nouveaux articles sur l'IA et les marchés du travail et sur l'IA et la croissance, du plus récent au plus ancien, chacun situé par rapport à la revue ci-dessous. Chaque chiffre est vérifié dans l'article lui-même.
 
+### Diener et al. (2026), "Today's Work, Tomorrow's Workforce: Incentivizing Learning in AI-Assisted Work" {#diener-et-al-2026-todays-work-tomorrows-workforce-incentivizing-learning-in-ai-assisted-work}
+<!-- kind: paper -->
+
+Karlsruhe Institute of Technology et IBM Research, prépublication arXiv, 4 novembre 2026. [Article](https://arxiv.org/abs/2611.06346). Modèle dynamique où le travailleur choisit, tâche après tâche, entre accepter la réponse de l'IA et résoudre lui-même ; théorie avec chiffres illustratifs, sans estimation causale.
+
+**En bref.**
+Ce qu'elle explore : si des travailleurs qui peuvent accepter la réponse d'une IA s'exercent encore assez pour apprendre leur métier, ou garder leurs compétences.
+Pourquoi c'est important : les débutants ont toujours appris par le travail courant. Si l'IA le fait, il faut décider qui formera les prochains experts.
+Ce que cela change aux preuves : l'étude explique pourquoi les entreprises peuvent cesser de former les débutants, et chiffre ce que coûterait leur apprentissage.
+
+**Ce que l'étude trouve.** S'en remettre à l'IA peut bloquer les débutants à un faible niveau et faire perdre leur savoir-faire aux experts, alors que la qualité du résultat reste celle de l'IA : la perte passe inaperçue. Résoudre à la main coûte un effort mais forme ; accepter épargne l'effort et laisse la compétence s'éroder. Même un travailleur prévoyant reste bloqué quand l'apprentissage paie trop tard. Dans l'exemple des auteurs, une revue de code, un débutant qui trouve 40% des bogues, face à une IA qui en trouve 62%, ne s'exerce jamais. Rémunérer les bonnes réponses trouvées seul, d'abord 0.27 de la valeur d'un bogue par tâche puis moins à mesure que la compétence progresse, le mène à 70%, après quoi les paiements s'arrêtent.
+
+**Où cela se place.** L'étude formalise le canal de la formation de la section [« Pourquoi ces régularités : la théorie »](#why-these-patterns-theory) : comme chez Garicano et Rayo (2025), l'IA supprime le travail courant par lequel les débutants payaient leur formation. Elle y ajoute la perte de compétences des experts et un prix explicite de la pratique, choix qui revient aux employeurs (section [« Organisation : qui décide de l’usage de l’IA »](#organisation-who-decides-how-ai-is-used)). Elle ne teste pas la baisse des embauches de débutants chez Hosseini et Lichtinger (2025).
+
+**Limite.** Un seul travailleur, une seule famille de tâches et des paramètres choisis, non estimés. La compétence ne progresse que par le travail sans aide ; si l'usage actif de l'IA forme aussi, le piège s'atténue, comme le notent les auteurs.
+
+### Lu et al. (2026), "Stronger artificial intelligence breakthroughs hasten their own exhaustion" {#lu-et-al-2026-stronger-artificial-intelligence-breakthroughs-hasten-their-own-exhaustion}
+<!-- kind: paper -->
+
+Knowledge Lab de l'université de Chicago et université Tsinghua, prépublication arXiv, 19 octobre 2026. [Article](https://arxiv.org/abs/2610.27296). Analyse descriptive de 36 ans d'articles, de changements de spécialité et de rapports d'évaluation en informatique, avec une simulation illustrative ; hors du standard de preuve causale, contexte pour l'IA et la croissance.
+
+**En bref.**
+Ce qu'elle explore : si davantage de chercheurs et d'argent dans la recherche en IA produisent plus d'idées nouvelles, ou moins d'idées différentes.
+Pourquoi c'est important : les prévisions de croissance très rapide supposent que la recherche en IA accélère avec l'effort. Se ruer sur une seule approche pourrait la freiner.
+Ce que cela change aux preuves : l'étude ajoute un frein aux prévisions de croissance : les idées deviennent plus dures à trouver en partie parce que tous poursuivent la même.
+
+**Ce que l'étude trouve.** Depuis le Transformer en 2017, l'informatique a grandi tandis que son attention se concentrait, et chaque percée de l'IA a été suivie d'un épuisement plus rapide de ses idées. Sur 7.18 millions d'articles de 1990 à 2025, l'inégalité de l'attention entre mots-clés (un coefficient de Gini) passe de 0.26 à 0.33 dans les huit ans suivant 2017, après des décennies sans changement. Sur 918,862 changements de sous-domaine, 53.81% aboutissent à l'IA, surtout chez des chercheurs en milieu de carrière. Dans 73,089 rapports d'évaluation, de 2017 à 2025, la confiance des évaluateurs baisse de 3.9 à 2.9 sur 5. Les idées actives retombent sous leur plafond, modérément après AlexNet, fortement après le Transformer.
+
+**Où cela se place.** L'étude éclaire la section de la revue compagnon sur l'automatisation des idées. Les modèles de croissance où les idées deviennent plus dures à trouver (Aghion, Jones et Jones 2019) font de la difficulté une propriété de l'espace des idées ; ici, elle dépend aussi de la répartition de l'attention des chercheurs. Cela affaiblit les boucles de rétroaction de la recherche qui sous-tendent la croissance explosive chez Davidson et al., en accord avec les trajectoires plus lentes de Rungcharoenkitkul (2026).
+
+**Limite.** Les noms communs des résumés tiennent lieu d'idées, et la fenêtre après 2022 est courte. L'article ne relie pas la concentration de l'attention à la production ; la lecture en termes de croissance est la nôtre.
+
 ### Soda, Iorio and Rizzo (2026), "The Effects of Generative AI on Collaboration and Social Networks Among Knowledge Workers" {#soda-iorio-and-rizzo-2026-the-effects-of-generative-ai-on-collaboration-and-social-networks-among-knowledge-workers}
 <!-- kind: paper -->
 
@@ -198,23 +230,3 @@ Anthropic, 27 octobre 2026. [Rapport](https://www.anthropic.com/research/agents-
 **Où cela se place.** Les éléments de la revue sur les flux de savoir concernent des assistants (Ide et Talamàs 2025 ; Dell’Acqua et al. 2025) ; avec un agent qui réalise l'analyse, c'est le jugement lui-même qui passe à la machine (section [« Qui détient le savoir ? »](#who-holds-knowledge)). Les experts gardent la signature, mais un tirage à pile ou face règle largement le résultat, de sorte qu'une supervision formelle peut surestimer la part que le jugement expert décide encore (section [« Organisation : qui décide de l'usage de l'IA »](#organisation-who-decides-how-ai-is-used)).
 
 **Limite.** Une seule tâche d'une heure avec un agent chargé d'exprimer une préférence, par des chercheurs de l'entreprise qui fabrique l'agent. Cette revue est tenue à jour avec Claude, le modèle d'Anthropic.
-
-### Wilmers et al. (2026), "How employment is changing at Anthropic" {#wilmers-et-al-2026-how-employment-is-changing-at-anthropic}
-
-Anthropic Institute, 16 octobre 2026. [Rapport](https://www.anthropic.com/research/employment-at-anthropic). Étude de cas d'une seule entreprise à partir de ses registres internes : tendances descriptives des embauches et étude d'événement de la production autour de l'adoption d'agents de programmation par les ingénieurs.
-
-**Ce que l'étude trouve.** Chez Anthropic, un développeur d'IA qui utilise intensivement ses propres agents, les embauches techniques de juniors ont reculé tandis que la production par travailleur a augmenté. Depuis début 2025, les juniors sont passés de 27% à 9% des embauches techniques et de 21% à 14% des salariés techniques, tandis que le total des embauches techniques a continué de croître ; environ un tiers des managers en apprentissage automatique disent embaucher moins à cause de l'IA. Les commits de code par ingénieur sont à cinq fois leur niveau de six mois plus tôt, et en août 2026 les agents pilotés par les salariés ont travaillé six fois plus d'heures que les salariés eux-mêmes. La gestion d'agents est passée de 10% à 22% des sessions Claude des salariés en six mois.
-
-**Où cela se place.** L'entreprise s'ajuste par l'entrée, non par les licenciements, ce qui confirme Hosseini et Lichtinger (2025) sur les adoptants qui réduisent les embauches de juniors (section [« Études d'adoption par les entreprises »](#firm-adoption-studies) ; [Principales régularités](#main-patterns), $$\kappa_o$$). Substitution et demande apparaissent en même temps, comme chez Chandar et Klein Teeselink (2026). La gestion d'agents est une nouvelle tâche, dont la section [« La réorganisation crée-t-elle de nouvelles tâches ? »](#does-reorganisation-create-new-tasks) a jusqu'ici trouvé peu d'exemples.
-
-**Limite.** Une seule entreprise qui vend de l'IA, étudiée par son propre personnel pendant une croissance explosive ; l'adoption n'est pas aléatoire et la production est mesurée en volume de code. Cette revue est tenue à jour avec Claude, le modèle d'Anthropic.
-
-### Legate-Yang and Massenkoff (2026), "What work can robots do?" {#legate-yang-and-massenkoff-2026-what-work-can-robots-do}
-
-Anthropic, 30 septembre 2026. [Rapport](https://www.anthropic.com/research/what-work-can-robots-do). Indice descriptif de l'exposition des tâches aux robots, évalué par Claude, avec un test rétrospectif historique ; hors du standard causal, contexte pour l'IA et la croissance.
-
-**Ce que l'étude trouve.** Les robots peuvent déjà accomplir 74% des tâches physiques américaines, soit 34% du temps de travail total, mais ne sont moins chers que les travailleurs que pour 0.3% du temps de travail. Claude a évalué 7,594 tâches physiques d'O*NET selon le cadre le moins structuré dans lequel un robot démontré peut les accomplir : 23% du temps de travail est réalisable dans des installations dédiées, 10% dans des lieux de travail structurés, 1% en environnement ouvert, et 12% est physique et hors de portée des robots. Ajouter les robots aux modèles de langage porte le travail exposé d'environ la moitié à 81%. Au rythme de baisse de 3% par an des prix des robots depuis les années 1990, les robots ne deviennent moins chers que les travailleurs pour 10% du travail actuel que dans environ 40 ans.
-
-**Où cela se place.** Les tâches physiques sont les maillons faibles chez Jones et Tonetti (2026) et Aghion, Jones et Jones (2019) ; d'après ces chiffres, elles restent coûteuses pendant des décennies, ce qui plaide pour une accélération plus lente (revue compagnon). L'exposition aux robots touche des travailleurs différents de l'exposition aux modèles de langage, moins diplômés et moins payés (section [« Concepts clés et définitions »](#key-concepts-and-definitions)), et l'écart entre 34% et 0.3% reflète le constat de la revue selon lequel l'adoption est en retard sur l'exposition ([Principales régularités](#main-patterns)).
-
-**Limite.** Les évaluations des tâches, les parts de temps et les coûts des robots viennent tous de Claude, construit par l'employeur des auteurs ; les scénarios de coût maintiennent fixes les tâches et les salaires.

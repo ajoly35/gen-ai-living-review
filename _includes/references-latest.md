@@ -12,6 +12,8 @@ Colaiacovo, Innessa, and Rembrand Koning. 2026. *Delegating to AI: Beliefs and t
 
 Conlon, John J., and Peter Schwardmann. 2026. *Creative Destruction: Human-AI Competition in an Experimental Market*. arXiv:2610.18921. [Link](https://arxiv.org/abs/2610.18921).
 
+Diener, Moritz, Daniel Hendriks, Philipp Spitzer, Gerhard Satzger, Joshua Holstein, and Wei Sun. 2026. *Today’s Work, Tomorrow’s Workforce: Incentivizing Learning in AI-Assisted Work*. arXiv:2611.06346. [Link](https://arxiv.org/abs/2611.06346).
+
 Domnisoru, Ciprian, and Tuomas P. Heikkinen. 2026. *How Is AI Affecting College Major and Course Choices? Evidence from Finland*. Discussion Paper No. 293/26. RFBerlin, 2 November. [Link](https://www.rfberlin.com/network-paper/how-is-ai-affecting-college-major-and-course-choices-evidence-from-finland/).
 
 Fernández-Villaverde, Jesús. 2026. *Saving for the Machines*. Working Paper No. 35964. NBER. [Link](https://www.nber.org/papers/w35964).
@@ -30,9 +32,9 @@ Korinek, Anton, and Donghyun Suh. 2024. *Scenarios for the Transition to AGI*. W
 
 Korinek, Anton, Charles I. Jones, Szymon Sacher, Tess Cotter, and Peter McCrory. 2026. *Economic Scenarios for Transformative AI*. Working Paper No. 2026-02. The Anthropic Institute.
 
-Legate-Yang, Russell, and Maxim Massenkoff. 2026. *What Work Can Robots Do?* Anthropic, 30 September. [Link](https://www.anthropic.com/research/what-work-can-robots-do).
-
 Levy Yeyati, Eduardo, Darío Judzik, and Juan Ignacio Barbiero. 2026. *Practice Makes Perfect: Tacit Knowledge, Generative AI, and Returns to Schooling and Experience*. arXiv:2610.36008. [Link](https://arxiv.org/abs/2610.36008).
+
+Lu, Beichen, Honglin Bao, Qi Huang, Qingguo Meng, and James A. Evans. 2026. *Stronger Artificial Intelligence Breakthroughs Hasten Their Own Exhaustion*. arXiv:2610.27296. [Link](https://arxiv.org/abs/2610.27296).
 
 Mehdi, Tahsin, and Marc Frenette. 2026. *Hiring and Job Separation Rates in the Era of Generative Artificial Intelligence: Early Evidence*. Economic and Social Reports, Catalogue no. 36-28-0001. Statistics Canada, 28 October. [Link](https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026010/article/00003-eng.htm).
 
@@ -43,8 +45,6 @@ Soda, Giuseppe, Alessandro Iorio, and Leonardo Rizzo. 2026. *The Effects of Gene
 Strauss, Delphine, Valentina Romei, and Sam Fleming. 2026. "What Is Behind the Surprising Resilience of the UK Economy?" *Financial Times*, 17 October.
 
 Tadepalli, Karthik. 2026. *Efficiency vs Capability in the Intelligence Explosion*. arXiv:2610.33447. [Link](https://arxiv.org/abs/2610.33447).
-
-Wilmers, Nathan, Regina Catipon, Maxim Massenkoff, and Peter McCrory. 2026. *How Employment Is Changing at Anthropic*. Technical Report. The Anthropic Institute, 16 October. [Link](https://www.anthropic.com/research/employment-at-anthropic).
 
 Yang, Longqi, David Holtz, Sonia Jaffe, Siddharth Suri, Shilpi Sinha, Jeffrey Weston, Connor Joyce, Neha Shah, Kevin Sherman, Brent Hecht, and Jaime Teevan. 2022. “The Effects of Remote Work on Collaboration among Information Workers.” *Nature Human Behaviour* 6: 43–54.
 
