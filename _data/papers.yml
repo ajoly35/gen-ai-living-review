@@ -1445,7 +1445,7 @@
   authors: "Hyman et al."
   year: 2025
   title: "How Retrainable Are AI-Exposed Workers?"
-  date: "2026-08"
+  date: "2026-05"
   date_precision: month
   added: "2026-10-26"
   source: latest
@@ -1455,7 +1455,7 @@
   causal: false
   outcome: "earnings after publicly funded retraining for workers from exposed occupations"
   direction: positive
-  magnitude: "+$1,011 to $1,370 a quarter (9.6%) vs matched job seekers in the three quarters after training; about 45% of occupations AI retrainable"
+  magnitude: "high-exposure trainees: about +$900 a quarter before 2020, +$2,900 by 2022-2024 (2010 dollars) vs matched job seekers; 40-45% of occupations AI retrainable"
   population: "WIOA trainees from high-exposure occupations (99,575 spells)"
   country: "US"
   url: "https://www.nber.org/papers/w34174"

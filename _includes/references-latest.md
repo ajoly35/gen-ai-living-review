@@ -24,7 +24,7 @@ Herdağdelen, Amaç, Hailey Joren, and Alex Tamkin. 2026. *How AI Agents Shape E
 
 Hermle, Johannes, Benjamin Jones, Lukas Althoff, Ryan Heller, Thomas Lyttelton, Carolyn Stein, Nathan Wilmers, Maxim Massenkoff, and Peter McCrory. 2026. *AI for Scientific Discovery: How Researchers Use Claude*. Technical Report. The Anthropic Institute, 5 November. [Link](https://www.anthropic.com/research/how-researchers-use-claude).
 
-Hyman, Benjamin G., Benjamin Lahey, Karen Ni, and Laura Pilossoph. 2025. *How Retrainable Are AI-Exposed Workers?* Working Paper No. 34174. NBER. Revised August 2026. [Link](https://www.nber.org/papers/w34174).
+Hyman, Benjamin G., Benjamin Lahey, Karen Ni, and Laura Pilossoph. 2025. *How Retrainable Are AI-Exposed Workers?* Working Paper No. 34174. NBER. Revised May 2026. [Link](https://www.nber.org/papers/w34174).
 
 Jones, Charles I., and Christopher Tonetti. 2026. *Past Automation and Future A.I.: How Weak Links Tame the Growth Explosion*. Working Paper. Stanford University. [Link](https://web.stanford.edu/~chadj/JonesTonetti_Automation.pdf).
 
