@@ -1,0 +1,31 @@
+GEN-AI, JOBS AND GROWTH
+One new study on AI and work, checked against its full text.
+
+Cline and Kaymak (2026), "Job Finding and Unemployment in the Age of AI"
+Federal Reserve Bank of Cleveland, Economic Commentary 2026-26, 9 November 2026. Paper. Worker flows by occupational AI exposure, 2015–2019 against 2024–2026, seasonal controls only, no pre-trend test; descriptive, reported as context.
+
+What it finds. In the most AI-exposed US occupations, unemployment rose because the unemployed took longer to find work, not because more workers lost jobs. Using linked monthly Current Population Survey records for 23 to 54 year olds, the authors rank 923 occupations into 20 exposure groups and compare 2015–2019 with May 2025 to April 2026 (flows from January 2024). Unemployment rose about 1 percentage point more in the most than the least exposed group. The monthly job-finding rate, about 34% on average, fell about 6 points more, lengthening spells from about 10.5 to over 13 weeks. The unemployment gap is about 2 points at ages 23 to 30.
+
+Why it matters. It carries the entry margin of section “Exposure designs: hiring and entry” to the unemployed: as in Tucker (2026) and Bergeaud, Bertheau, et al. (2026), hiring falls while separations do not, and the rise echoes Kläui and Siegenthaler (2025). It qualifies Imas and Schaal (2026), who see no unemployment effect (section “Evaluation”). The flatter usage-based slope fits a productivity gain \pi_o offsetting substitution (Main patterns).
+
+Caveat. The 2015–2019 baseline cannot separate AI from the decline of exposed jobs from early 2022 (Frank et al. 2026). Classing the unemployed by last occupation leaves out first-job seekers.
+
+https://www.clevelandfed.org/publications/economic-commentary/2026/ec-202626-job-finding-and-unemployment-in-the-age-of-ai
+https://ajoly35.github.io/gen-ai-living-review/latest/#cline-and-kaymak-2026-job-finding-and-unemployment-in-the-age-of-ai
+
+——————————————————————————————
+
+MAIN IDEAS
+- Large gains on tasks, none yet in the aggregates. In field experiments, generative AI raises output on narrow tasks by 14 to 34%, most for workers who were least productive before. In the Nordic registers, total employment, hours and earnings are unchanged so far.
+- The adjustment runs through entry, not layoffs. Young hires in the most exposed occupations have fallen in the US, Sweden, the UK and France, by up to a quarter relative to less exposed occupations, and contract ends fell too: firms stop hiring juniors rather than dismiss workers. Hires are a small flow, so the stock of jobs moves slowly and totals look flat.
+- Exposed occupations adjust through pay as well. Wages in the most exposed occupations fell by about 5% by 2026 with no change in headcount, and this explains close to a third of the fall in the college wage premium.
+- Firm-level results split. Some adopters cut junior employment by about 9% while senior employment is unchanged; others, especially the biggest spenders on AI, grew and hired more entrants. Who counts as an adopter drives much of the gap, and whether substitution or scale wins is the central open question.
+- Juniors lose because their tasks are the most codifiable. AI raises novices' output most, but hiring depends on demand for the firm's output, not on output per worker. If AI does the routine work juniors used to train on, firms have less reason to hire and train them.
+- Organisation decides the direction. Management quality, the cost of reorganising and the flexibility of labour law set how deeply firms adopt. So far AI mostly saves time within existing jobs and moves knowledge down the hierarchy; new tasks appear only where employers reorganise.
+- What is still unknown. How strongly demand responds to cheaper output, how much of the fall in entry is AI rather than remote work or a slowdown that began in 2022, where the fall in entry ends as models improve, and who captures the gains.
+
+Read the full review: https://ajoly35.github.io/gen-ai-living-review/
+Unsubscribe: {{ unsubscribe_url }}
+
+A living review maintained by Adrien Joly, London School of Economics.
+Entries are written by an AI assistant from the paper itself and are not reviewed before they are sent. Figures are taken from the paper; the review's own assessment is in the caveat.

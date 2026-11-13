@@ -1,0 +1,53 @@
+# AI and work, in brief: 13 November 2026
+
+# AI and work, in brief
+
+
+
+## Today in three lines
+
+- A Cleveland Fed study finds that Americans out of work in jobs AI can do take longer to find a new one, while people in those jobs are not losing them faster.
+- For someone out of work in these jobs, a typical search now lasts about thirteen weeks instead of ten and a half.
+- People in their twenties are hit about twice as hard as those aged 45 to 54: the door into these jobs is narrowing, but nobody is being pushed out.
+
+## New research, in plain words
+
+### In jobs AI can do, people are not losing work faster, but finding it takes longer
+
+**What it explores.** Alexander Cline and Barış Kaymak, economists at the Federal Reserve Bank of Cleveland, follow Americans aged 23 to 54 from month to month in the government's jobs survey. They sort more than 900 occupations into twenty groups, from least to most open to AI. They compare 2015 to 2019 with 2024 to early 2026: how often people lost a job, and how fast those out of work found another.
+
+**Why it matters.** Unemployment rose by about one extra person in every hundred in the jobs most open to AI, compared with those least open to it. That could mean people losing their jobs, or people out of work struggling to get back in. It is the second. About one in three unemployed people normally finds a job each month; in the jobs most open to AI, that chance fell by about a sixth more than elsewhere. Job losses did not change in any clear way.
+
+**How it fits the evidence.** It agrees with studies in France, Sweden and the United States: firms hire fewer beginners rather than lay people off. It is a first look: it compares averages without allowing for other changes. It also leaves out young people seeking their very first job, so the effect on them could be larger.
+
+[Full entry](https://ajoly35.github.io/gen-ai-living-review/latest/#cline-and-kaymak-2026-job-finding-and-unemployment-in-the-age-of-ai) · [Paper](https://www.clevelandfed.org/publications/economic-commentary/2026/ec-202626-job-finding-and-unemployment-in-the-age-of-ai)
+
+## How it fits together
+
+The review follows two forces. AI can let a business do more and hire more, or do the same work with fewer people. Today's study shows where the second force bites first. Not at the exit: people in these jobs keep them at the usual rate. At the entrance: those trying to get in wait longer.
+
+That matches the clearest finding so far. In the United States, Sweden, the United Kingdom and France, young people are hired less into the occupations most open to AI, by up to a quarter compared with other occupations. In Switzerland, job seekers from these occupations rose by a little over a quarter more than others. Canada is the exception: there, hiring of the young fell as much in jobs little open to AI.
+
+Much is still unknown. A review of the evidence up to October found no sign of AI in unemployment; today's study suggests a first one, but cannot rule out a slowdown that began in 2022, before ChatGPT. Pay is adjusting too: in the occupations most open to AI, wages had fallen by about a twentieth by 2026. Whether cheaper output brings enough new customers to reopen the door is still open.
+
+## One idea, explained: No wave of layoffs, yet fewer first jobs: how both can be true
+
+Picture a newsroom that starts using AI to draft routine stories. Nobody is fired. But each year a few reporters retire or move on, and the editor no longer replaces them all. The newsroom shrinks one empty desk at a time, and the person who pays is the graduate who would have sat there.
+
+The records show this. In the United States, Lee Tucker compared people aged 22 to 24 in the fifth of industries and states most open to AI with young people elsewhere, and with older workers in the same places. Their employment fell by about an eighth over two and a half years, mostly through fewer hires. In Sweden, Magnus Lodefalk and colleagues found jobs for 22 to 25 year olds in the most open occupations about a twentieth lower within the same employers by early 2025. Yet in Denmark, Anders Humlum and Emilie Vestergaard found that workers who use chatbots earn the same and work the same hours as before.
+
+Both hold because hiring is a small stream feeding a large lake. Slow the stream and the lake barely moves for years.
+
+For a student, the first job in these fields is harder to win, so early experience counts double. For a worker, the risk is less a layoff than a long search after leaving. For an employer, each unfilled junior desk today is a missing senior tomorrow.
+
+## Where the evidence stands
+
+![Studies on jobs, hiring or pay, by research design. Orange: fewer jobs, hires or lower pay. Grey: no measurable effect. Blue: gains.](https://ajoly35.github.io/gen-ai-living-review/assets/vitals/direction-by-design-en.png)
+
+Each bar counts studies on jobs, hiring or pay: orange for fewer jobs, hires or lower pay, grey for no measurable effect, blue for gains. Experiments on how fast people work mostly find gains, studies of who gets hired find falls, and studies of total jobs find nothing yet. Today's study would add an orange mark to the bottom row, the simple comparisons, pointing like most hiring studies to fewer people getting in.
+
+## Read more
+
+[The living review](https://ajoly35.github.io/gen-ai-living-review/) · [Direction of the field](https://ajoly35.github.io/gen-ai-living-review/vitals/) · [Recent papers](https://ajoly35.github.io/gen-ai-living-review/latest/) · [Send a paper](https://github.com/ajoly35/gen-ai-living-review/issues/new?template=paper.yml)
+
+*A living review maintained by Adrien Joly, London School of Economics. Entries are written by an AI assistant from the paper itself and are not reviewed before they are sent. Figures are taken from the paper; the review's own assessment is in the caveat.*

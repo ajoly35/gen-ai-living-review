@@ -1,0 +1,57 @@
+IA GÉNÉRATIVE, EMPLOI ET CROISSANCE
+La nouvelle recherche du jour sur l'IA et le travail, en mots simples.
+
+IA et travail, en bref
+
+
+
+Aujourd'hui en trois lignes
+
+- Selon la Réserve fédérale de Cleveland, les chômeurs américains des métiers que l'IA peut faire mettent plus de temps à retrouver un emploi, mais on ne perd pas ces métiers plus vite.
+- Pour un chômeur de ces métiers, une recherche d'emploi dure maintenant environ treize semaines au lieu de dix et demie.
+- Les vingtenaires sont environ deux fois plus touchés que les 45 à 54 ans : la porte d'entrée se rétrécit, mais personne n'est poussé dehors.
+
+La nouvelle recherche, en mots simples
+
+Dans les métiers que l'IA peut faire, on ne perd pas plus son emploi, mais on met plus de temps à en retrouver un
+
+Ce qu'elle explore. Alexander Cline et Barış Kaymak, économistes à la Réserve fédérale de Cleveland, suivent mois après mois des Américains de 23 à 54 ans dans l'enquête officielle sur l'emploi. Ils classent plus de 900 métiers en vingt groupes, du moins ouvert au plus ouvert à l'IA. Ils comparent les années 2015 à 2019 à la période 2024 à début 2026 : à quelle fréquence on perd son emploi, et à quelle vitesse les chômeurs en retrouvent un.
+
+Pourquoi c'est important. Le chômage a augmenté d'environ une personne sur cent de plus dans les métiers les plus ouverts à l'IA que dans les moins ouverts. Ce n'est pas que l'on perd plus son emploi : les chômeurs peinent à revenir. Chaque mois, environ un chômeur sur trois retrouve normalement un emploi ; dans les métiers les plus ouverts à l'IA, cette chance a baissé d'environ un sixième de plus qu'ailleurs. Les pertes d'emploi, elles, n'ont pas bougé de façon nette.
+
+Ce que cela change aux preuves. L'étude rejoint celles menées en France, en Suède et aux États-Unis : les entreprises embauchent moins de débutants plutôt que de licencier. C'est un premier regard : elle compare des moyennes sans tenir compte d'autres changements. Elle laisse aussi de côté les jeunes qui cherchent leur tout premier emploi, si bien que l'effet sur eux pourrait être plus fort.
+
+L'entrée complète · L'article
+
+Comment tout cela s'articule
+
+La revue suit deux forces. L'IA peut permettre à une entreprise de produire plus et d'embaucher plus, ou de faire le même travail avec moins de monde. L'étude du jour montre où la seconde force frappe en premier. Pas à la sortie : ceux qui occupent ces métiers les gardent au rythme habituel. À l'entrée : ceux qui veulent y entrer attendent plus longtemps.
+
+C'est le résultat le plus net à ce jour. Aux États-Unis, en Suède, au Royaume-Uni et en France, les jeunes sont moins embauchés dans les métiers les plus ouverts à l'IA, jusqu'à un quart de moins que dans les autres. En Suisse, le nombre de demandeurs d'emploi venant de ces métiers a augmenté d'un peu plus d'un quart de plus qu'ailleurs. Le Canada fait exception : les embauches de jeunes y ont reculé autant dans les métiers peu ouverts à l'IA.
+
+Beaucoup reste inconnu. Une revue des travaux jusqu'en octobre ne trouvait aucune trace de l'IA dans le chômage ; l'étude du jour en suggère une première, sans pouvoir écarter un ralentissement commencé en 2022, avant ChatGPT. Les salaires s'ajustent aussi : dans les métiers les plus ouverts à l'IA, ils avaient baissé d'environ un vingtième en 2026. Reste à savoir si une production moins chère attirera assez de nouveaux clients pour rouvrir la porte.
+
+Une idée, expliquée : pas de vague de licenciements, et pourtant moins de premiers emplois
+
+Imaginez une rédaction qui confie à l'IA le premier jet des articles de routine. Personne n'est licencié. Mais chaque année, quelques journalistes partent, et la rédactrice en chef ne les remplace plus tous. La rédaction rétrécit d'un bureau vide à la fois, et c'est le jeune diplômé qui aurait occupé ce bureau qui paie.
+
+Les registres le montrent. Aux États-Unis, Lee Tucker a comparé les 22 à 24 ans du cinquième des secteurs et des États les plus ouverts à l'IA aux jeunes d'ailleurs, et aux plus âgés des mêmes endroits. Leur emploi a baissé d'environ un huitième en deux ans et demi, surtout parce qu'ils étaient moins embauchés. En Suède, Magnus Lodefalk et ses coauteurs trouvent, chez un même employeur, environ un vingtième d'emplois en moins pour les 22 à 25 ans des métiers les plus ouverts début 2025. Au Danemark pourtant, Anders Humlum et Emilie Vestergaard trouvent que les salariés qui utilisent des assistants d'IA gagnent autant et travaillent autant qu'avant.
+
+Les deux sont vrais parce que l'embauche est un petit ruisseau qui alimente un grand lac. Ralentissez le ruisseau, et le lac bouge à peine pendant des années.
+
+Si vous êtes étudiant, le premier emploi dans ces métiers est plus dur à décrocher : l'expérience acquise tôt compte double. Si vous êtes salarié, le risque tient moins au licenciement qu'à une longue recherche après un départ. Si vous êtes employeur, chaque poste de débutant non pourvu aujourd'hui est un senior qui manquera demain.
+
+Où en sont les preuves
+
+!Études sur l'emploi, les embauches ou les salaires, par dispositif. Orange : moins d'emplois, d'embauches ou de salaire. Gris : pas d'effet mesurable. Bleu : gains.
+
+Chaque barre compte des études sur l'emploi, les embauches ou les salaires : orange pour moins d'emplois, d'embauches ou de salaire, gris pour aucun effet mesurable, bleu pour des gains. Les expériences trouvent surtout des gains, les études sur les embauches des baisses, celles sur l'emploi total rien encore. L'étude du jour ajouterait une marque orange à la dernière ligne, celle des comparaisons simples.
+
+Pour aller plus loin
+
+La revue vivante · Où va la recherche · Articles récents · Proposer un article
+
+Se désabonner: {{ unsubscribe_url }}
+
+Une revue vivante tenue par Adrien Joly, London School of Economics.
+Les entrées sont rédigées par un assistant IA à partir de l'article lui-même et ne sont pas relues avant envoi. Les chiffres viennent de l'article ; l'appréciation de la revue est dans la limite.
