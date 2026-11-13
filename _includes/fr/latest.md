@@ -1,5 +1,21 @@
 Nouveaux articles sur l'IA et les marchés du travail et sur l'IA et la croissance, du plus récent au plus ancien, chacun situé par rapport à la revue ci-dessous. Chaque chiffre est vérifié dans l'article lui-même.
 
+### Cline and Kaymak (2026), "Job Finding and Unemployment in the Age of AI" {#cline-and-kaymak-2026-job-finding-and-unemployment-in-the-age-of-ai}
+<!-- kind: paper -->
+
+Federal Reserve Bank of Cleveland, Economic Commentary 2026-26, 9 novembre 2026. [Article](https://www.clevelandfed.org/publications/economic-commentary/2026/ec-202626-job-finding-and-unemployment-in-the-age-of-ai). Flux de travailleurs selon l'exposition des professions à l'IA, 2015–2019 contre 2024–2026, contrôles saisonniers seulement, sans test de tendances préalables ; descriptif, contexte.
+
+**En bref.**
+Ce qu'elle explore : si les Américains dont l'IA peut faire le travail perdent leur emploi, ou peinent à en retrouver un.
+Pourquoi c'est important : perdre un emploi et ne pas en retrouver appellent des aides différentes : protéger ceux qui travaillent, ou soutenir ceux qui cherchent.
+Ce que cela change aux preuves : l'étude confirme que l'IA signifie moins d'embauches, pas plus de licenciements, et touche d'abord les jeunes.
+
+**Ce que l'étude trouve.** Dans les professions américaines les plus exposées à l'IA, le chômage a augmenté parce que les chômeurs mettent plus de temps à retrouver un emploi, non parce que davantage de salariés perdent le leur. À partir des données mensuelles appariées de la Current Population Survey pour les 23 à 54 ans, les auteurs classent 923 professions en 20 groupes d'exposition et comparent 2015–2019 à mai 2025–avril 2026 (flux à partir de janvier 2024). Le chômage a augmenté d'environ 1 point de pourcentage de plus dans le groupe le plus exposé que dans le moins exposé. Le taux mensuel de retour à l'emploi, d'environ 34% en moyenne, a baissé d'environ 6 points de plus, ce qui allonge la durée du chômage d'environ 10.5 à plus de 13 semaines. L'écart de chômage atteint environ 2 points chez les 23 à 30 ans.
+
+**Où cela se place.** L'étude étend aux chômeurs la marge d'entrée de la section [« Approches par l'exposition : embauches et entrée »](#exposure-designs-hiring-and-entry) : comme chez Tucker (2026) et Bergeaud, Bertheau, et al. (2026), les embauches reculent sans hausse des séparations, et la hausse rejoint Kläui et Siegenthaler (2025). Elle nuance Imas et Schaal (2026), qui ne voient aucun effet sur le chômage (section [« Évaluation »](#evaluation)). La pente plus faible de la mesure fondée sur l'usage cadre avec un gain de productivité $$\pi_o$$ qui compense la substitution ([Principales régularités](#main-patterns)).
+
+**Limite.** La période de référence 2015–2019 ne permet pas de distinguer l'IA de la dégradation des emplois exposés dès début 2022 (Frank et al. 2026). Classer les chômeurs selon leur dernière profession exclut ceux qui cherchent un premier emploi.
+
 ### Diener et al. (2026), "Today's Work, Tomorrow's Workforce: Incentivizing Learning in AI-Assisted Work" {#diener-et-al-2026-todays-work-tomorrows-workforce-incentivizing-learning-in-ai-assisted-work}
 <!-- kind: paper -->
 
@@ -220,13 +236,3 @@ Harvard Business School Working Paper 26-093, 18 juin 2026. [Article](https://ww
 **Où cela se place.** Confirme Coyle et al. (2026) et Bergeaud et Bunel (2026) : ce sont les choix des dirigeants, non l'accès à l'outil, qui fixent la profondeur de l'usage de l'IA par les entreprises (section [« Comment les pratiques managériales façonnent-elles l'adoption ? »](#how-do-management-practices-shape-adoption)). Les économies importantes apparaissent là où le travail est repensé, à l'opposé de Copilot sans réorganisation chez Dillon et al. (2025) ; et l'utilisateur intensif médian n'économise encore que 17% des effectifs, en ligne avec Yotzov et al. (2026) ([Principales régularités](#main-patterns), $$b_o\,\Delta a$$).
 
 **Limite.** Contrefactuels autodéclarés par 199 des 8,237 entreprises contactées ; l'intégration formelle est choisie, de sorte que son lien avec les économies n'est pas causal.
-
-### Herdağdelen, Joren and Tamkin (2026), "How AI agents shape experts' judgment calls" {#herdağdelen-joren-and-tamkin-2026-how-ai-agents-shape-experts-judgment-calls}
-
-Anthropic, 27 octobre 2026. [Rapport](https://www.anthropic.com/research/agents-judgment-calls). Expérience randomisée sur une seule tâche : l'option que l'agent de programmation favorise à chaque décision est tirée à pile ou face. Concerne la section sur l'organisation, non les résultats sur le marché du travail.
-
-**Ce que l'étude trouve.** Les experts qui travaillent avec un agent d'IA adoptent le plus souvent le point de vue de l'agent sur les questions de jugement, et s'en rendent rarement compte. Cinquante analystes expérimentés en inférence causale ont évalué un programme fictif avec Claude Code, auquel il avait été secrètement demandé de favoriser l'une de deux options défendables sur quatre choix. Les analystes ont retenu l'option de l'agent 86% du temps, contre 50% si l'inclinaison n'avait eu aucun effet, et l'inclinaison a déplacé la recommandation finale de 17 points (54% contre 36%). Lorsque l'agent contredisait un avis qu'ils avaient d'abord exprimé, les analystes ont changé d'avis 60% du temps, contre 6% lorsqu'il l'approuvait. Ensuite, 77% ont repris les arguments de l'agent mais seulement 15% lui en ont attribué le mérite. L'expérience ne prédisait pas qui s'en remettait à l'agent.
-
-**Où cela se place.** Les éléments de la revue sur les flux de savoir concernent des assistants (Ide et Talamàs 2025 ; Dell’Acqua et al. 2025) ; avec un agent qui réalise l'analyse, c'est le jugement lui-même qui passe à la machine (section [« Qui détient le savoir ? »](#who-holds-knowledge)). Les experts gardent la signature, mais un tirage à pile ou face règle largement le résultat, de sorte qu'une supervision formelle peut surestimer la part que le jugement expert décide encore (section [« Organisation : qui décide de l'usage de l'IA »](#organisation-who-decides-how-ai-is-used)).
-
-**Limite.** Une seule tâche d'une heure avec un agent chargé d'exprimer une préférence, par des chercheurs de l'entreprise qui fabrique l'agent. Cette revue est tenue à jour avec Claude, le modèle d'Anthropic.

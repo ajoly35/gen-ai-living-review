@@ -1,5 +1,21 @@
 New papers on AI and labour markets and AI and growth, newest first, each placed against the review below. Every figure is checked against the paper itself.
 
+### Cline and Kaymak (2026), "Job Finding and Unemployment in the Age of AI"
+<!-- kind: paper -->
+
+Federal Reserve Bank of Cleveland, Economic Commentary 2026-26, 9 November 2026. [Paper](https://www.clevelandfed.org/publications/economic-commentary/2026/ec-202626-job-finding-and-unemployment-in-the-age-of-ai). Worker flows by occupational AI exposure, 2015–2019 against 2024–2026, seasonal controls only, no pre-trend test; descriptive, reported as context.
+
+**In brief.**
+What it explores: Whether Americans whose work AI can do are losing jobs, or struggling to find new ones.
+Why it matters: Losing a job and failing to find one call for different help: protecting people in work, or supporting job seekers.
+How it fits the evidence: It supports the view that AI means fewer hires, not more layoffs, with young people hit hardest.
+
+**What it finds.** In the most AI-exposed US occupations, unemployment rose because the unemployed took longer to find work, not because more workers lost jobs. Using linked monthly Current Population Survey records for 23 to 54 year olds, the authors rank 923 occupations into 20 exposure groups and compare 2015–2019 with May 2025 to April 2026 (flows from January 2024). Unemployment rose about 1 percentage point more in the most than the least exposed group. The monthly job-finding rate, about 34% on average, fell about 6 points more, lengthening spells from about 10.5 to over 13 weeks. The unemployment gap is about 2 points at ages 23 to 30.
+
+**Where it fits.** It carries the entry margin of section [“Exposure designs: hiring and entry”](#exposure-designs-hiring-and-entry) to the unemployed: as in Tucker (2026) and Bergeaud, Bertheau, et al. (2026), hiring falls while separations do not, and the rise echoes Kläui and Siegenthaler (2025). It qualifies Imas and Schaal (2026), who see no unemployment effect (section [“Evaluation”](#evaluation)). The flatter usage-based slope fits a productivity gain $$\pi_o$$ offsetting substitution ([Main patterns](#main-patterns)).
+
+**Caveat.** The 2015–2019 baseline cannot separate AI from the decline of exposed jobs from early 2022 (Frank et al. 2026). Classing the unemployed by last occupation leaves out first-job seekers.
+
 ### Diener et al. (2026), "Today's Work, Tomorrow's Workforce: Incentivizing Learning in AI-Assisted Work"
 <!-- kind: paper -->
 
@@ -220,13 +236,3 @@ Harvard Business School Working Paper 26-093, 18 June 2026. [Paper](https://www.
 **Where it fits.** Confirms Coyle et al. (2026) and Bergeaud and Bunel (2026): managers' choices, not access to the tool, set how deeply firms use AI (section [“How do management practices shape adoption?”](#how-do-management-practices-shape-adoption)). Large savings appear where work is redesigned, against Copilot without reorganisation in Dillon et al. (2025); and the median heavy user still saves only 17% of headcount, in line with Yotzov et al. (2026) ([Main patterns](#main-patterns), $$b_o\,\Delta a$$).
 
 **Caveat.** Self-reported counterfactuals from 199 of 8,237 firms contacted; formal integration is chosen, so its link to savings is not causal.
-
-### Herdağdelen, Joren and Tamkin (2026), "How AI agents shape experts' judgment calls"
-
-Anthropic, 27 October 2026. [Report](https://www.anthropic.com/research/agents-judgment-calls). Randomised experiment on one task: the option a coding agent favours on each decision is set by coin flip. Bears on the organisation section, not on labour market outcomes.
-
-**What it finds.** Experts working with an AI agent mostly adopt the agent's view on judgment calls, and rarely notice. Fifty analysts experienced in causal inference assessed a fictional programme with Claude Code, which was secretly told to favour one of two defensible options on four choices. Analysts chose the agent's option 86% of the time, against 50% if the lean had no effect, and the lean moved the final recommendation by 17 points (54% against 36%). When the agent disagreed with a view they had stated first, analysts switched 60% of the time, against 6% when it agreed. Afterwards 77% repeated the agent's arguments but only 15% credited it. Experience did not predict who deferred.
-
-**Where it fits.** The review's evidence on knowledge flows concerns assistants (Ide and Talamàs 2025; Dell’Acqua et al. 2025); with an agent doing the analysis, the judgment itself moves to the machine (section [“Who holds knowledge?”](#who-holds-knowledge)). Experts keep the sign-off, yet a coin flip largely settles the result, so formal oversight may overstate how much expert judgment still decides (section [“Organisation: who decides how AI is used”](#organisation-who-decides-how-ai-is-used)).
-
-**Caveat.** One hour-long task with an agent told to voice a preference, by researchers at the firm that makes the agent. This review is maintained with Claude, Anthropic's model.

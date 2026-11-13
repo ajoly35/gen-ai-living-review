@@ -8,6 +8,8 @@ Barwick, Panle Jia, Lu Fang, Jinhan Liu, Huilan Xu, and Zhe Yuan. 2026. *AI as S
 
 Bianchini, Stefano, and Georgiana-Ioana Coroama. 2026. *LLMs and the Organization of Scientific Work*. arXiv:2611.02996. [Link](https://arxiv.org/abs/2611.02996).
 
+Cline, Alexander, and Barış Kaymak. 2026. *Job Finding and Unemployment in the Age of AI*. Economic Commentary 2026-26. Federal Reserve Bank of Cleveland. [Link](https://doi.org/10.26509/frbc-ec-202626).
+
 Colaiacovo, Innessa, and Rembrand Koning. 2026. *Delegating to AI: Beliefs and the Organization of Work at New Ventures*. Working Paper 26-093. Harvard Business School. [Link](https://www.hbs.edu/faculty/Pages/item.aspx?num=69112).
 
 Conlon, John J., and Peter Schwardmann. 2026. *Creative Destruction: Human-AI Competition in an Experimental Market*. arXiv:2610.18921. [Link](https://arxiv.org/abs/2610.18921).
@@ -19,8 +21,6 @@ Domnisoru, Ciprian, and Tuomas P. Heikkinen. 2026. *How Is AI Affecting College 
 Fernández-Villaverde, Jesús. 2026. *Saving for the Machines*. Working Paper No. 35964. NBER. [Link](https://www.nber.org/papers/w35964).
 
 Gans, Joshua S., and Peter Landry. 2026. *Training Your Replacement: Worker Incentives and the Pace of Automation*. Working Paper No. 35950. NBER. [Link](https://www.nber.org/papers/w35950).
-
-Herdağdelen, Amaç, Hailey Joren, and Alex Tamkin. 2026. *How AI Agents Shape Experts’ Judgment Calls*. Anthropic, 27 October. [Link](https://www.anthropic.com/research/agents-judgment-calls).
 
 Hermle, Johannes, Benjamin Jones, Lukas Althoff, Ryan Heller, Thomas Lyttelton, Carolyn Stein, Nathan Wilmers, Maxim Massenkoff, and Peter McCrory. 2026. *AI for Scientific Discovery: How Researchers Use Claude*. Technical Report. The Anthropic Institute, 5 November. [Link](https://www.anthropic.com/research/how-researchers-use-claude).
 
