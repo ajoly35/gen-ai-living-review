@@ -1,5 +1,37 @@
 New papers on AI and labour markets and AI and growth, newest first, each placed against the review below. Every figure is checked against the paper itself.
 
+### Carollo et al. (2026), "Artificial Intelligence and the U.S. Economy: Current Evidence"
+<!-- kind: paper -->
+
+Federal Reserve Board, Finance and Economics Discussion Series 2026-074, 12 November 2026. [Paper](https://www.federalreserve.gov/econres/feds/artificial-intelligence-and-the-us-economy-current-evidence.htm). Staff review of US data and studies on AI investment, adoption, prices, jobs and productivity; descriptive, reported as context.
+
+**In brief.**
+What it explores: What AI has done to the US economy so far: data-centre spending, use at work, prices, jobs and productivity.
+Why it matters: It is Federal Reserve staff's own reading of the evidence, and it shapes how central bankers judge AI.
+How it fits the evidence: AI shows up in spending and in fewer first jobs, not yet in total jobs or in productivity.
+
+**What it finds.** AI is visible in investment and some prices, barely in jobs and productivity. In the authors' middle scenario, measured data-centre investment rises from about &#36;100 billion in 2024 to over &#36;880 billion by end-2027, above 2% of GDP, with about half of it imported. Annualised revenue of OpenAI, Anthropic and Google DeepMind reached at least &#36;107 billion in 2026Q3, about 19% of software gross output. Over 40% of workers use AI at work, but only 10% daily. Core PCE categories at the 90th percentile of data-centre exposure saw about 5 points more inflation since January 2025 than the median one. The recent productivity pickup mostly predates generative AI.
+
+**Where it fits.** For growth, it supports the companion review's "what the data show so far": AI enters GDP through investment before productivity, with Jones and Tonetti (2026) weak links as a brake. For labour, it reads the entry evidence as Tucker (2026) and Hosseini and Lichtinger (2025) do: fewer young hires, small aggregate effects (section [“Exposure designs: hiring and entry”](#exposure-designs-hiring-and-entry)).
+
+**Caveat.** A synthesis, not new estimates. Most of the analysis was completed in June 2026, and the revenue figures rest on unaudited company statements.
+
+### Major (2026), "Monitoring Early Effects of AI on the Labour Market"
+<!-- kind: paper -->
+
+Reserve Bank of Australia, RBA Insight 2026-09, 9 November 2026. [Paper](https://www.rba.gov.au/publications/insights/australian-economy/2026/monitoring-early-effects-of-ai-on-the-labour-market.html). Labour-market indicators by occupational AI exposure and age against a November 2022 benchmark; descriptive monitoring, reported as context.
+
+**In brief.**
+What it explores: Whether Australians in the jobs most open to AI, and young people, have fared worse since ChatGPT arrived.
+Why it matters: A central bank needs early warning if AI starts to push up unemployment, before it shows in national totals.
+How it fits the evidence: It finds the faint pattern seen elsewhere: little change overall, weaker outcomes for young workers in jobs open to AI.
+
+**What it finds.** There is little sign yet that AI has disrupted Australia's labour market, with tentative signs of weaker outcomes for young workers in the most exposed occupations. Occupations are ranked into employment-weighted quintiles by Jobs and Skills Australia's automation exposure measure (from Gmyrek et al. 2023). Job ads and Labour Force Survey data, complete to February 2026, are compared with November 2022. New top-quintile ads slowed a little more, led by clerks, programmers, ICT analysts, call-centre workers and receptionists. Job-finding and job-loss rates show little gap by exposure. Employment and hours grew a little less in exposed occupations, and within them young workers did worse. Results are in charts only.
+
+**Where it fits.** It adds Australia to section [“Exposure designs: hiring and entry”](#exposure-designs-hiring-and-entry), next to the US, Sweden, the UK and France. Unlike Cline and Kaymak (2026) for the US, it finds no gap in job-finding rates by exposure. Like Mehdi and Frenette (2026) for Canada, it is an official monitoring exercise, not an estimate of $$b_o$$ ([Main patterns](#main-patterns)).
+
+**Caveat.** Exposure measures potential, not actual use. The 2022 benchmark was an exceptionally tight youth labour market, so later weakness may be cyclical, and post-pandemic remote work hits the same groups.
+
 ### Cline and Kaymak (2026), "Job Finding and Unemployment in the Age of AI"
 <!-- kind: paper -->
 
@@ -216,23 +248,3 @@ NBER Working Paper 34174, August 2025, revised May 2026. [Paper](https://www.nbe
 **Where it fits.** First evidence on how displaced workers move, which the review marks as not yet observed (Manning and Aguirre 2026; [Main patterns](#main-patterns), $$\kappa_o$$): retrained workers leave exposed occupations with earnings gains. A smaller part of the gain comes from training into AI-complementary work, extending Humlum and Vestergaard (2025) (section [“Does reorganisation create new tasks?”](#does-reorganisation-create-new-tasks)).
 
 **Caveat.** Matching cannot rule out more motivated trainees; occupation codes exist for only 22% of spells, and 2022 to 2024 was a very tight labour market.
-
-### Althoff and Reichardt (2026), "Task-Specific Technical Change and Comparative Advantage"
-
-NBER Working Paper 35353, 22 June 2026, also CESifo Working Paper 12403; figures from the authors' version of 13 July 2026. [Paper](https://www.nber.org/papers/w35353). Estimated dynamic task model with AI scenarios rated by language models; a structural simulation, not causal evidence.
-
-**What it finds.** In a model estimated on US careers, AI raises average wages and narrows inequality, mainly because it lowers the skills that tasks require. Estimated on the NLSY79 panel and 19,530 O*NET tasks, the moderate scenario saves 25.2% of worker time; in the new steady state average wages rise 27.6% and the 90-10 wage ratio falls 24%. Augmentation adds 22% to wages and automation 8%; simplification subtracts 3% by slowing learning, yet drives the whole fall in inequality. With adoption costs highest for low-skill workers, the 90-10 ratio still falls 15% but the average wage gain shrinks to 0.3%.
-
-**Where it fits.** Simplification is the eligibility shift $$\Delta\ln ps_o$$ ([Main patterns](#main-patterns)): Hosseini and Lichtinger (2026) find it narrows the 90-50 gap in a static model, and both predict more entry into exposed jobs, whereas entry fell (section [“Exposure designs: hiring and entry”](#exposure-designs-hiring-and-entry)). The 27.6% gain exceeds Acemoglu (2025) because it adds augmentation; adoption costs cut it to 0.3%, so diffusion decides the aggregate (companion review).
-
-**Caveat.** AI capabilities are rated by language models; the NLSY79 follows one cohort born in 1957 to 1964, and steady-state comparisons say little about timing.
-
-### Colaiacovo and Koning (2026), "Delegating to AI: Beliefs and the Organization of Work at New Ventures"
-
-Harvard Business School Working Paper 26-093, 18 June 2026. [Paper](https://www.hbs.edu/faculty/Pages/item.aspx?num=69112). Survey of 199 startup founders with a randomised information experiment; the comparison of adopters is descriptive.
-
-**What it finds.** Startup founders who formally build AI into their workflows report far larger labour savings, and the choice is not explained by beliefs about what AI can do. Asked how many more employees they would need without AI, 199 founders of North American software startups (16 employees on average) answer 55% on average and 17% at the median; 30% say none. Formal integrators report 91.4% (median 40%) against 24% (median 10%) for informal users, a 20-point gap after controls. Beliefs about AI's performance explain at most a third of willingness to delegate, and formal integrators are no more optimistic.
-
-**Where it fits.** Confirms Coyle et al. (2026) and Bergeaud and Bunel (2026): managers' choices, not access to the tool, set how deeply firms use AI (section [“How do management practices shape adoption?”](#how-do-management-practices-shape-adoption)). Large savings appear where work is redesigned, against Copilot without reorganisation in Dillon et al. (2025); and the median heavy user still saves only 17% of headcount, in line with Yotzov et al. (2026) ([Main patterns](#main-patterns), $$b_o\,\Delta a$$).
-
-**Caveat.** Self-reported counterfactuals from 199 of 8,237 firms contacted; formal integration is chosen, so its link to savings is not causal.

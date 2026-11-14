@@ -1,16 +1,14 @@
 Aghion, Philippe, Benjamin F. Jones, and Charles I. Jones. 2019. “Artificial Intelligence and Economic Growth.” In *The Economics of Artificial Intelligence: An Agenda*, edited by Ajay Agrawal, Joshua Gans, and Avi Goldfarb, 237–82. University of Chicago Press.
 
-Althoff, Lukas, and Hugo Reichardt. 2026. *Task-Specific Technical Change and Comparative Advantage*. Working Paper No. 35353. NBER. [Link](https://www.nber.org/papers/w35353).
-
 Bank of England. 2026. *Monetary Policy Report*. November. [Link](https://www.bankofengland.co.uk/-/media/boe/files/monetary-policy-report/2026/november/monetary-policy-report-november-2026.pdf).
 
 Barwick, Panle Jia, Lu Fang, Jinhan Liu, Huilan Xu, and Zhe Yuan. 2026. *AI as Shared Business Infrastructure: Firm Growth and the Distribution of Gains*. Working Paper No. 36003. NBER. [Link](https://www.nber.org/papers/w36003).
 
 Bianchini, Stefano, and Georgiana-Ioana Coroama. 2026. *LLMs and the Organization of Scientific Work*. arXiv:2611.02996. [Link](https://arxiv.org/abs/2611.02996).
 
-Cline, Alexander, and Barış Kaymak. 2026. *Job Finding and Unemployment in the Age of AI*. Economic Commentary 2026-26. Federal Reserve Bank of Cleveland. [Link](https://doi.org/10.26509/frbc-ec-202626).
+Carollo, Nick, Leland D. Crane, Daniel Garcia Molina, and Joseph Nichols. 2026. *Artificial Intelligence and the U.S. Economy: Current Evidence*. Finance and Economics Discussion Series 2026-074. Board of Governors of the Federal Reserve System, 12 November. [Link](https://doi.org/10.17016/FEDS.2026.074).
 
-Colaiacovo, Innessa, and Rembrand Koning. 2026. *Delegating to AI: Beliefs and the Organization of Work at New Ventures*. Working Paper 26-093. Harvard Business School. [Link](https://www.hbs.edu/faculty/Pages/item.aspx?num=69112).
+Cline, Alexander, and Barış Kaymak. 2026. *Job Finding and Unemployment in the Age of AI*. Economic Commentary 2026-26. Federal Reserve Bank of Cleveland. [Link](https://doi.org/10.26509/frbc-ec-202626).
 
 Conlon, John J., and Peter Schwardmann. 2026. *Creative Destruction: Human-AI Competition in an Experimental Market*. arXiv:2610.18921. [Link](https://arxiv.org/abs/2610.18921).
 
@@ -35,6 +33,8 @@ Korinek, Anton, Charles I. Jones, Szymon Sacher, Tess Cotter, and Peter McCrory.
 Levy Yeyati, Eduardo, Darío Judzik, and Juan Ignacio Barbiero. 2026. *Practice Makes Perfect: Tacit Knowledge, Generative AI, and Returns to Schooling and Experience*. arXiv:2610.36008. [Link](https://arxiv.org/abs/2610.36008).
 
 Lu, Beichen, Honglin Bao, Qi Huang, Qingguo Meng, and James A. Evans. 2026. *Stronger Artificial Intelligence Breakthroughs Hasten Their Own Exhaustion*. arXiv:2610.27296. [Link](https://arxiv.org/abs/2610.27296).
+
+Major, Mike. 2026. *Monitoring Early Effects of AI on the Labour Market*. RBA Insight 2026-09. Reserve Bank of Australia, 9 November. [Link](https://www.rba.gov.au/publications/insights/australian-economy/2026/monitoring-early-effects-of-ai-on-the-labour-market.html).
 
 Mehdi, Tahsin, and Marc Frenette. 2026. *Hiring and Job Separation Rates in the Era of Generative Artificial Intelligence: Early Evidence*. Economic and Social Reports, Catalogue no. 36-28-0001. Statistics Canada, 28 October. [Link](https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026010/article/00003-eng.htm).
 

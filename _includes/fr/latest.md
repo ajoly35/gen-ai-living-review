@@ -1,5 +1,37 @@
 Nouveaux articles sur l'IA et les marchés du travail et sur l'IA et la croissance, du plus récent au plus ancien, chacun situé par rapport à la revue ci-dessous. Chaque chiffre est vérifié dans l'article lui-même.
 
+### Carollo et al. (2026), "Artificial Intelligence and the U.S. Economy: Current Evidence" {#carollo-et-al-2026-artificial-intelligence-and-the-us-economy-current-evidence}
+<!-- kind: paper -->
+
+Federal Reserve Board, Finance and Economics Discussion Series 2026-074, 12 novembre 2026. [Article](https://www.federalreserve.gov/econres/feds/artificial-intelligence-and-the-us-economy-current-evidence.htm). Synthèse par des économistes de la Fed des données et études américaines sur l'investissement, l'adoption, les prix, l'emploi et la productivité ; descriptif, contexte.
+
+**En bref.**
+Ce qu'elle explore : ce que l'IA a déjà changé dans l'économie américaine : centres de données, usage au travail, prix, emploi et productivité.
+Pourquoi c'est important : c'est la lecture des preuves par les économistes de la Réserve fédérale elle-même, et elle oriente le jugement des banquiers centraux.
+Ce que cela change aux preuves : l'IA se voit dans l'investissement et dans la baisse des premiers emplois, pas encore dans l'emploi total ni la productivité.
+
+**Ce que l'étude trouve.** L'IA est visible dans l'investissement et certains prix, à peine dans l'emploi et la productivité. Dans le scénario central des auteurs, l'investissement mesuré dans les centres de données passe d'environ &#36;100 milliards en 2024 à plus de &#36;880 milliards fin 2027, soit plus de 2% du PIB, dont environ la moitié importée. Le chiffre d'affaires annualisé d'OpenAI, Anthropic et Google DeepMind atteint au moins &#36;107 milliards au troisième trimestre 2026, environ 19% de la production brute du logiciel. Plus de 40% des salariés utilisent l'IA au travail, mais 10% seulement chaque jour. Les catégories du PCE sous-jacent au 90e centile d'exposition aux centres de données ont connu environ 5 points d'inflation de plus que la catégorie médiane depuis janvier 2025. La hausse récente de la productivité précède pour l'essentiel l'IA générative.
+
+**Où cela se place.** Pour la croissance, l'étude conforte la partie « ce que montrent les données » de la revue compagnon : l'IA entre dans le PIB par l'investissement avant la productivité, freinée par les maillons faibles de Jones et Tonetti (2026). Pour le travail, elle lit les preuves sur l'entrée comme Tucker (2026) et Hosseini et Lichtinger (2025) : moins d'embauches de jeunes, effets agrégés faibles (section [« Approches par l'exposition : embauches et entrée »](#exposure-designs-hiring-and-entry)).
+
+**Limite.** Une synthèse, sans estimation nouvelle. L'essentiel de l'analyse date de juin 2026, et les chiffres de revenus reposent sur des déclarations d'entreprises non auditées.
+
+### Major (2026), "Monitoring Early Effects of AI on the Labour Market" {#major-2026-monitoring-early-effects-of-ai-on-the-labour-market}
+<!-- kind: paper -->
+
+Reserve Bank of Australia, RBA Insight 2026-09, 9 novembre 2026. [Article](https://www.rba.gov.au/publications/insights/australian-economy/2026/monitoring-early-effects-of-ai-on-the-labour-market.html). Indicateurs du marché du travail selon l'exposition des professions à l'IA et l'âge, par rapport à novembre 2022 ; suivi descriptif, contexte.
+
+**En bref.**
+Ce qu'elle explore : si les Australiens des métiers les plus ouverts à l'IA, et les jeunes, s'en sortent moins bien depuis l'arrivée de ChatGPT.
+Pourquoi c'est important : une banque centrale doit savoir tôt si l'IA commence à faire monter le chômage, avant que cela se voie dans les totaux.
+Ce que cela change aux preuves : on retrouve le signal faible observé ailleurs : peu de changement global, des jeunes en difficulté dans les métiers ouverts à l'IA.
+
+**Ce que l'étude trouve.** Rien n'indique encore que l'IA ait perturbé le marché du travail australien, mais des signes fragiles montrent des résultats plus faibles pour les jeunes dans les professions les plus exposées. Les professions sont classées en quintiles pondérés par l'emploi selon la mesure d'exposition à l'automatisation de Jobs and Skills Australia (tirée de Gmyrek et al. 2023). Les offres d'emploi et l'enquête emploi, complètes jusqu'à février 2026, sont comparées à novembre 2022. Les nouvelles offres du quintile le plus exposé ralentissent un peu plus, surtout pour les employés de bureau, programmeurs, analystes informatiques, téléconseillers et réceptionnistes. Les taux de retour à l'emploi et de perte d'emploi varient peu avec l'exposition. L'emploi et les heures progressent un peu moins dans les professions exposées, et les jeunes y font moins bien. Les résultats ne figurent que dans des graphiques.
+
+**Où cela se place.** L'étude ajoute l'Australie à la section [« Approches par l'exposition : embauches et entrée »](#exposure-designs-hiring-and-entry), après les États-Unis, la Suède, le Royaume-Uni et la France. Contrairement à Cline et Kaymak (2026) pour les États-Unis, elle ne trouve pas d'écart de retour à l'emploi selon l'exposition. Comme Mehdi et Frenette (2026) pour le Canada, c'est un exercice officiel de suivi, non une estimation de $$b_o$$ ([Principales régularités](#main-patterns)).
+
+**Limite.** L'exposition mesure un potentiel, non un usage réel. En 2022, le marché du travail des jeunes était exceptionnellement tendu : la faiblesse qui suit peut être conjoncturelle, et le télétravail d'après pandémie touche les mêmes groupes.
+
 ### Cline and Kaymak (2026), "Job Finding and Unemployment in the Age of AI" {#cline-and-kaymak-2026-job-finding-and-unemployment-in-the-age-of-ai}
 <!-- kind: paper -->
 
@@ -216,23 +248,3 @@ NBER Working Paper 34174, août 2025, révisé en mai 2026. [Article](https://ww
 **Où cela se place.** Première preuve sur la façon dont les travailleurs déplacés se réorientent, que la revue signalait comme non encore observée (Manning et Aguirre 2026 ; [Principales régularités](#main-patterns), $$\kappa_o$$) : les travailleurs reconvertis quittent les professions exposées avec des gains de revenu. Une plus petite part du gain vient de la formation vers des activités complémentaires de l'IA, ce qui prolonge Humlum et Vestergaard (2025) (section [« La réorganisation crée-t-elle de nouvelles tâches ? »](#does-reorganisation-create-new-tasks)).
 
 **Limite.** L'appariement ne peut exclure que les stagiaires soient plus motivés ; les codes de profession n'existent que pour 22% des épisodes, et 2022 à 2024 a été un marché du travail très tendu.
-
-### Althoff and Reichardt (2026), "Task-Specific Technical Change and Comparative Advantage" {#althoff-and-reichardt-2026-task-specific-technical-change-and-comparative-advantage}
-
-NBER Working Paper 35353, 22 juin 2026, aussi CESifo Working Paper 12403 ; chiffres tirés de la version des auteurs du 13 juillet 2026. [Article](https://www.nber.org/papers/w35353). Modèle dynamique par tâches estimé, avec des scénarios d'IA évalués par des modèles de langage ; une simulation structurelle, non une preuve causale.
-
-**Ce que l'étude trouve.** Dans un modèle estimé sur des carrières américaines, l'IA accroît les salaires moyens et réduit les inégalités, principalement parce qu'elle abaisse les compétences que les tâches exigent. Estimé sur le panel NLSY79 et 19,530 tâches O*NET, le scénario modéré économise 25.2% du temps des travailleurs ; dans le nouvel état stationnaire, les salaires moyens augmentent de 27.6% et le ratio de salaires 90-10 baisse de 24%. L'augmentation ajoute 22% aux salaires et l'automatisation 8% ; la simplification en retranche 3% en ralentissant l'apprentissage, mais elle explique toute la baisse des inégalités. Avec des coûts d'adoption plus élevés pour les travailleurs peu qualifiés, le ratio 90-10 baisse encore de 15%, mais le gain de salaire moyen se réduit à 0.3%.
-
-**Où cela se place.** La simplification est le déplacement d'éligibilité $$\Delta\ln ps_o$$ ([Principales régularités](#main-patterns)) : Hosseini et Lichtinger (2026) trouvent qu'elle réduit l'écart 90-50 dans un modèle statique, et les deux prédisent davantage d'entrées dans les emplois exposés, alors que l'entrée a reculé (section [« Approches par l'exposition : embauches et entrée »](#exposure-designs-hiring-and-entry)). Le gain de 27.6% dépasse Acemoglu (2025) parce qu'il ajoute l'augmentation ; les coûts d'adoption le ramènent à 0.3%, de sorte que la diffusion décide de l'agrégat (revue compagnon).
-
-**Limite.** Les capacités de l'IA sont évaluées par des modèles de langage ; le NLSY79 suit une seule cohorte née entre 1957 et 1964, et les comparaisons d'états stationnaires disent peu sur le calendrier.
-
-### Colaiacovo and Koning (2026), "Delegating to AI: Beliefs and the Organization of Work at New Ventures" {#colaiacovo-and-koning-2026-delegating-to-ai-beliefs-and-the-organization-of-work-at-new-ventures}
-
-Harvard Business School Working Paper 26-093, 18 juin 2026. [Article](https://www.hbs.edu/faculty/Pages/item.aspx?num=69112). Enquête auprès de 199 fondateurs de start-up avec une expérience d'information randomisée ; la comparaison des adoptants est descriptive.
-
-**Ce que l'étude trouve.** Les fondateurs de start-up qui intègrent formellement l'IA dans leurs processus de travail déclarent des économies de main-d'œuvre bien plus importantes, et ce choix ne s'explique pas par leurs croyances sur ce que l'IA sait faire. Interrogés sur le nombre de salariés supplémentaires dont ils auraient besoin sans IA, 199 fondateurs de start-up logicielles nord-américaines (16 salariés en moyenne) répondent 55% en moyenne et 17% à la médiane ; 30% répondent aucun. Les intégrateurs formels déclarent 91.4% (médiane 40%) contre 24% (médiane 10%) pour les utilisateurs informels, un écart de 20 points après contrôles. Les croyances sur la performance de l'IA expliquent au plus un tiers de la disposition à déléguer, et les intégrateurs formels ne sont pas plus optimistes.
-
-**Où cela se place.** Confirme Coyle et al. (2026) et Bergeaud et Bunel (2026) : ce sont les choix des dirigeants, non l'accès à l'outil, qui fixent la profondeur de l'usage de l'IA par les entreprises (section [« Comment les pratiques managériales façonnent-elles l'adoption ? »](#how-do-management-practices-shape-adoption)). Les économies importantes apparaissent là où le travail est repensé, à l'opposé de Copilot sans réorganisation chez Dillon et al. (2025) ; et l'utilisateur intensif médian n'économise encore que 17% des effectifs, en ligne avec Yotzov et al. (2026) ([Principales régularités](#main-patterns), $$b_o\,\Delta a$$).
-
-**Limite.** Contrefactuels autodéclarés par 199 des 8,237 entreprises contactées ; l'intégration formelle est choisie, de sorte que son lien avec les économies n'est pas causal.
