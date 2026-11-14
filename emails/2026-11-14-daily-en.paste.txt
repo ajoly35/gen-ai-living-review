@@ -1,0 +1,63 @@
+# AI and work, in brief: 14 November 2026
+
+# AI and work, in brief
+
+
+
+## Today in three lines
+
+- Economists at the US Federal Reserve find that AI is already visible in what companies spend on data centres, but hardly yet in jobs or in how much each worker produces.
+- In Australia, the central bank sees little sign of AI hurting the job market, with early hints that young people in the jobs most open to AI are doing a little worse.
+- Two central banks, one verdict: the money is flowing, the first rung of the career ladder may be weakening, the rest of the job market has not moved.
+
+## New research, in plain words
+
+### America's central bank sees AI in spending, not yet in jobs or output per worker
+
+**What it explores.** Four economists at the Federal Reserve Board take stock of what AI has done to the US economy so far: data centres, who uses AI, prices, jobs, and output per hour of work.
+
+**Why it matters.** The spending is huge. In the authors' middle forecast, money going into data centres rises from about a hundred billion dollars in 2024 to nearly nine hundred billion by the end of 2027, more than a fiftieth of everything the US produces. More than two in five workers now use AI at work, but only about one in ten every day.
+
+**How it fits the evidence.** On jobs, the authors read the research as this review does: fewer young people hired into AI-friendly occupations, little effect on total employment so far. On output per worker, they think the recent pickup in America mostly started before ChatGPT. It is a summary of other studies, not a new one.
+
+[Full entry](https://ajoly35.github.io/gen-ai-living-review/latest/#carollo-et-al-2026-artificial-intelligence-and-the-us-economy-current-evidence) · [Paper](https://www.federalreserve.gov/econres/feds/artificial-intelligence-and-the-us-economy-current-evidence.htm)
+
+### In Australia, young people in the jobs most open to AI are doing a little worse
+
+**What it explores.** Mike Major, at the Reserve Bank of Australia, sorts jobs into five groups, from least to most open to AI, and follows job ads, job losses, hiring and hours since ChatGPT appeared in November 2022.
+
+**Why it matters.** Job ads for clerks, programmers, call-centre staff and receptionists slowed a little more than others. People in those jobs did not lose work more often. But young workers there did worse than older colleagues, which was not true in other jobs.
+
+**How it fits the evidence.** Studies in the United States, Sweden, Britain and France find young people losing out first; Australia shows the same sign, only fainter. But 2022 was an exceptionally good year for young job seekers, so some of the later weakness may just be the market cooling.
+
+[Full entry](https://ajoly35.github.io/gen-ai-living-review/latest/#major-2026-monitoring-early-effects-of-ai-on-the-labour-market) · [Paper](https://www.rba.gov.au/publications/insights/australian-economy/2026/monitoring-early-effects-of-ai-on-the-labour-market.html)
+
+## How it fits together
+
+The review tracks two forces: AI can let a business do more, or do the same with fewer people. Today's American paper shows where growth is clearest so far: in building AI itself. Data centres, chips and power plants add to the economy now, long before most firms change how they work. Most firms that use AI use it in one or two corners, not at the core.
+
+The second force shows up at the start of careers. Studies in the United States, Sweden, Britain and France find up to a quarter fewer young hires in the jobs most open to AI than in other jobs. Australia points the same way, more faintly. Neither central bank sees a wave of layoffs.
+
+What is still unknown is when the spending turns into more output per worker. Firms must reorganise and train staff first, which can take years. The tool does not decide the outcome; the way firms use it does.
+
+## One idea, explained: a job that AI could do is not a job AI does
+
+Picture a hospital ward that gets a machine able to take blood pressure, write notes and order supplies. On paper, half of a nurse's tasks could now be done by it. In practice, the ward may use it only for notes, because nobody has time to learn the rest.
+
+That is the gap between what AI could do and what it does. Eloundou and co-authors asked people and an AI model which work tasks AI could speed up by half or more. Their answer: nearly half of US jobs could see at least half their tasks affected once the right software exists. Massenkoff and McCrory then checked which tasks people actually bring to Claude, Anthropic's AI. For computer and maths jobs, almost every task could in principle be helped, but only about a third show up in real use. Nearly a third of workers do jobs where no real use shows up at all.
+
+Both of today's papers sort jobs by what AI could do, and both warn that this is not use. That is why "AI could do your job" headlines run ahead of the hiring data.
+
+For a worker, the useful question is not whether AI could do your tasks, but whether your employer is actually changing how the work is done. For an employer, the gains only come from that second step.
+
+## Where the evidence stands
+
+![Studies on jobs, hiring or pay, by research design. Orange: fewer jobs, hires or lower pay. Grey: no measurable effect. Blue: gains.](https://ajoly35.github.io/gen-ai-living-review/assets/vitals/direction-by-design-en.png)
+
+Each bar counts studies on jobs, hiring or pay: orange for fewer jobs, hires or lower pay, grey for no measurable effect, blue for gains. Experiments on how fast people work mostly find gains, studies of who gets hired find falls, and studies of total jobs find nothing yet. The American paper is a summary and adds no bar. The Australian note would add a pale mark to the bottom row, the simple comparisons: grey overall, a hint of orange for the young.
+
+## Read more
+
+[The living review](https://ajoly35.github.io/gen-ai-living-review/) · [Direction of the field](https://ajoly35.github.io/gen-ai-living-review/vitals/) · [Recent papers](https://ajoly35.github.io/gen-ai-living-review/latest/) · [Send a paper](https://github.com/ajoly35/gen-ai-living-review/issues/new?template=paper.yml)
+
+*A living review maintained by Adrien Joly, London School of Economics. Entries are written by an AI assistant from the paper itself and are not reviewed before they are sent. Figures are taken from the paper; the review's own assessment is in the caveat.*

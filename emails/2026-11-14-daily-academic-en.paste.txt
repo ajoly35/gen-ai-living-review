@@ -1,0 +1,37 @@
+# New study: Artificial Intelligence and the U.S. Economy: Current Evidence
+
+*One new study on AI and work, checked against its full text.*
+
+## Carollo et al. (2026), "Artificial Intelligence and the U.S. Economy: Current Evidence"
+
+Federal Reserve Board, Finance and Economics Discussion Series 2026-074, 12 November 2026. [Paper](https://www.federalreserve.gov/econres/feds/artificial-intelligence-and-the-us-economy-current-evidence.htm). Staff review of US data and studies on AI investment, adoption, prices, jobs and productivity; descriptive, reported as context.
+
+**What it finds.** AI is visible in investment and some prices, barely in jobs and productivity. In the authors' middle scenario, measured data-centre investment rises from about &#36;100 billion in 2024 to over &#36;880 billion by end-2027, above 2% of GDP, with about half of it imported. Annualised revenue of OpenAI, Anthropic and Google DeepMind reached at least &#36;107 billion in 2026Q3, about 19% of software gross output. Over 40% of workers use AI at work, but only 10% daily. Core PCE categories at the 90th percentile of data-centre exposure saw about 5 points more inflation since January 2025 than the median one. The recent productivity pickup mostly predates generative AI.
+
+**Why it matters.** For growth, it supports the companion review's "what the data show so far": AI enters GDP through investment before productivity, with Jones and Tonetti (2026) weak links as a brake. For labour, it reads the entry evidence as Tucker (2026) and Hosseini and Lichtinger (2025) do: fewer young hires, small aggregate effects (section [“Exposure designs: hiring and entry”](#exposure-designs-hiring-and-entry)).
+
+*Caveat.* A synthesis, not new estimates. Most of the analysis was completed in June 2026, and the revenue figures rest on unaudited company statements.
+
+## Major (2026), "Monitoring Early Effects of AI on the Labour Market"
+
+Reserve Bank of Australia, RBA Insight 2026-09, 9 November 2026. [Paper](https://www.rba.gov.au/publications/insights/australian-economy/2026/monitoring-early-effects-of-ai-on-the-labour-market.html). Labour-market indicators by occupational AI exposure and age against a November 2022 benchmark; descriptive monitoring, reported as context.
+
+**What it finds.** There is little sign yet that AI has disrupted Australia's labour market, with tentative signs of weaker outcomes for young workers in the most exposed occupations. Occupations are ranked into employment-weighted quintiles by Jobs and Skills Australia's automation exposure measure (from Gmyrek et al. 2023). Job ads and Labour Force Survey data, complete to February 2026, are compared with November 2022. New top-quintile ads slowed a little more, led by clerks, programmers, ICT analysts, call-centre workers and receptionists. Job-finding and job-loss rates show little gap by exposure. Employment and hours grew a little less in exposed occupations, and within them young workers did worse. Results are in charts only.
+
+**Why it matters.** It adds Australia to section [“Exposure designs: hiring and entry”](#exposure-designs-hiring-and-entry), next to the US, Sweden, the UK and France. Unlike Cline and Kaymak (2026) for the US, it finds no gap in job-finding rates by exposure. Like Mehdi and Frenette (2026) for Canada, it is an official monitoring exercise, not an estimate of $$b_o$$ ([Main patterns](#main-patterns)).
+
+*Caveat.* Exposure measures potential, not actual use. The 2022 benchmark was an exceptionally tight youth labour market, so later weakness may be cyclical, and post-pandemic remote work hits the same groups.
+
+### Main ideas
+
+- *Large gains on tasks, none yet in the aggregates.* In field experiments, generative AI raises output on narrow tasks by 14 to 34%, most for workers who were least productive before. In the Nordic registers, total employment, hours and earnings are unchanged so far.
+- *The adjustment runs through entry, not layoffs.* Young hires in the most exposed occupations have fallen in the US, Sweden, the UK and France, by up to a quarter relative to less exposed occupations, and contract ends fell too: firms stop hiring juniors rather than dismiss workers. Hires are a small flow, so the stock of jobs moves slowly and totals look flat.
+- *Exposed occupations adjust through pay as well.* Wages in the most exposed occupations fell by about 5% by 2026 with no change in headcount, and this explains close to a third of the fall in the college wage premium.
+- *Firm-level results split.* Some adopters cut junior employment by about 9% while senior employment is unchanged; others, especially the biggest spenders on AI, grew and hired more entrants. Who counts as an adopter drives much of the gap, and whether substitution or scale wins is the central open question.
+- *Juniors lose because their tasks are the most codifiable.* AI raises novices' output most, but hiring depends on demand for the firm's output, not on output per worker. If AI does the routine work juniors used to train on, firms have less reason to hire and train them.
+- *Organisation decides the direction.* Management quality, the cost of reorganising and the flexibility of labour law set how deeply firms adopt. So far AI mostly saves time within existing jobs and moves knowledge down the hierarchy; new tasks appear only where employers reorganise.
+- *What is still unknown.* How strongly demand responds to cheaper output, how much of the fall in entry is AI rather than remote work or a slowdown that began in 2022, where the fall in entry ends as models improve, and who captures the gains.
+
+[Read the full review](https://ajoly35.github.io/gen-ai-living-review/) · [Send a paper](https://github.com/ajoly35/gen-ai-living-review/issues/new?template=paper.yml)
+
+*A living review maintained by Adrien Joly, London School of Economics. Entries are written by an AI assistant from the paper itself and are not reviewed before they are sent. Figures are taken from the paper; the review's own assessment is in the caveat.*

@@ -1,0 +1,63 @@
+# IA et travail, en bref : 14 novembre 2026
+
+# IA et travail, en bref
+
+
+
+## Aujourd'hui en trois lignes
+
+- Des économistes de la Réserve fédérale américaine constatent que l'IA se voit déjà dans les dépenses en centres de données, mais à peine dans l'emploi ou dans ce que produit chaque salarié.
+- En Australie, la banque centrale voit peu de signes d'un marché du travail abîmé par l'IA, avec de premiers indices que les jeunes des métiers les plus ouverts à l'IA s'en sortent un peu moins bien.
+- Deux banques centrales, un même verdict : l'argent afflue, le premier barreau de l'échelle des carrières se fragilise peut-être, le reste du marché du travail n'a pas bougé.
+
+## La nouvelle recherche, en mots simples
+
+### La banque centrale américaine voit l'IA dans les dépenses, pas encore dans l'emploi ni dans la production par salarié
+
+**Ce qu'elle explore.** Quatre économistes de la Réserve fédérale font le point sur ce que l'IA a déjà changé dans l'économie américaine : centres de données, usage de l'IA, prix, emploi et production par heure de travail.
+
+**Pourquoi c'est important.** Les dépenses sont énormes. Dans le scénario central des auteurs, l'argent investi dans les centres de données passe d'environ cent milliards de dollars en 2024 à près de neuf cents milliards fin 2027, plus d'un cinquantième de tout ce que produisent les États-Unis. Plus de deux salariés sur cinq utilisent l'IA au travail, mais seulement un sur dix chaque jour.
+
+**Ce que cela change aux preuves.** Sur l'emploi, les auteurs lisent la recherche comme cette revue : moins de jeunes embauchés dans les métiers où l'IA aide le plus, peu d'effet sur l'emploi total pour l'instant. Sur la production par salarié, ils pensent que la hausse récente aux États-Unis a surtout commencé avant ChatGPT. C'est une synthèse d'autres études, pas une étude nouvelle.
+
+[L'entrée complète](https://ajoly35.github.io/gen-ai-living-review/fr/latest/#carollo-et-al-2026-artificial-intelligence-and-the-us-economy-current-evidence) · [L'article](https://www.federalreserve.gov/econres/feds/artificial-intelligence-and-the-us-economy-current-evidence.htm)
+
+### En Australie, les jeunes des métiers les plus ouverts à l'IA s'en sortent un peu moins bien
+
+**Ce qu'elle explore.** Mike Major, à la Reserve Bank of Australia, classe les métiers en cinq groupes, du moins au plus ouvert à l'IA. Il suit les offres d'emploi, les pertes d'emploi, les embauches et les heures depuis l'arrivée de ChatGPT en novembre 2022.
+
+**Pourquoi c'est important.** Les offres pour les employés de bureau, programmeurs, téléconseillers et réceptionnistes ont un peu plus ralenti que les autres. Dans ces métiers, on ne perd pas plus souvent son emploi. Mais les jeunes y font moins bien que leurs aînés, ce qui n'est pas le cas dans les autres métiers.
+
+**Ce que cela change aux preuves.** Aux États-Unis, en Suède, au Royaume-Uni et en France, les études trouvent que les jeunes perdent en premier ; l'Australie montre le même signe, en plus faible. Mais 2022 était une année exceptionnellement bonne pour les jeunes qui cherchaient un emploi : une partie de la faiblesse qui suit peut venir du simple refroidissement du marché.
+
+[L'entrée complète](https://ajoly35.github.io/gen-ai-living-review/fr/latest/#major-2026-monitoring-early-effects-of-ai-on-the-labour-market) · [L'article](https://www.rba.gov.au/publications/insights/australian-economy/2026/monitoring-early-effects-of-ai-on-the-labour-market.html)
+
+## Comment tout cela s'articule
+
+La revue suit deux forces : l'IA peut permettre à une entreprise de faire plus, ou de faire la même chose avec moins de monde. L'étude américaine montre où la croissance est la plus nette pour l'instant : dans la construction de l'IA elle-même. Centres de données, puces et centrales électriques font grossir l'économie dès maintenant, bien avant que la plupart des entreprises changent leur façon de travailler. La plupart de celles qui utilisent l'IA s'en servent dans un ou deux recoins, pas au cœur de leur activité.
+
+La seconde force apparaît au début des carrières. Aux États-Unis, en Suède, au Royaume-Uni et en France, les études trouvent jusqu'à un quart d'embauches de jeunes en moins dans les métiers les plus ouverts à l'IA que dans les autres. L'Australie va dans le même sens, plus faiblement. Aucune des deux banques centrales ne voit de vague de licenciements.
+
+Ce que l'on ignore encore, c'est quand ces dépenses se traduiront par plus de production par salarié. Les entreprises doivent d'abord se réorganiser et former leurs équipes, ce qui peut prendre des années. L'outil ne décide pas du résultat ; c'est la façon dont les entreprises s'en servent.
+
+## Une idée, expliquée : un métier que l'IA pourrait faire n'est pas un métier que l'IA fait
+
+Imaginez un service hospitalier qui reçoit une machine capable de prendre la tension, de rédiger les notes et de commander les fournitures. Sur le papier, la moitié des tâches d'une infirmière pourraient désormais être faites par elle. En pratique, le service ne s'en sert peut-être que pour les notes, faute de temps pour apprendre le reste.
+
+C'est l'écart entre ce que l'IA pourrait faire et ce qu'elle fait. Eloundou et ses coauteurs ont demandé à des personnes et à un modèle d'IA quelles tâches l'IA pourrait accélérer de moitié ou plus. Leur réponse : près de la moitié des emplois américains pourraient voir au moins la moitié de leurs tâches touchées, une fois les bons logiciels disponibles. Massenkoff et McCrory ont ensuite regardé quelles tâches les gens confient réellement à Claude, l'IA d'Anthropic. Dans l'informatique et les mathématiques, presque toutes les tâches pourraient en principe être aidées, mais un tiers environ apparaît dans l'usage réel. Près d'un tiers des salariés exercent un métier où aucun usage réel n'apparaît.
+
+Les deux études du jour classent les métiers selon ce que l'IA pourrait faire, et toutes deux préviennent que ce n'est pas l'usage. C'est pourquoi les titres « l'IA pourrait faire votre métier » vont plus vite que les chiffres d'embauche.
+
+Pour un salarié, la bonne question n'est pas de savoir si l'IA pourrait faire vos tâches, mais si votre employeur change réellement la façon de travailler. Pour un employeur, les gains ne viennent que de cette seconde étape.
+
+## Où en sont les preuves
+
+![Études sur l'emploi, les embauches ou les salaires, par dispositif. Orange : moins d'emplois, d'embauches ou de salaire. Gris : pas d'effet mesurable. Bleu : gains.](https://ajoly35.github.io/gen-ai-living-review/assets/vitals/direction-by-design-fr.png)
+
+Chaque barre compte des études sur l'emploi, les embauches ou les salaires : orange pour moins d'emplois, d'embauches ou de salaire, gris pour aucun effet mesurable, bleu pour des gains. Les expériences trouvent surtout des gains, les études sur les embauches des baisses, celles sur l'emploi total rien encore. L'étude américaine est une synthèse et n'ajoute pas de barre. La note australienne ajouterait une marque pâle à la dernière ligne, celle des comparaisons simples : grise pour l'ensemble, une touche d'orange pour les jeunes.
+
+## Pour aller plus loin
+
+[La revue vivante](https://ajoly35.github.io/gen-ai-living-review/fr/) · [Où va la recherche](https://ajoly35.github.io/gen-ai-living-review/fr/vitals/) · [Articles récents](https://ajoly35.github.io/gen-ai-living-review/fr/latest/) · [Proposer un article](https://github.com/ajoly35/gen-ai-living-review/issues/new?template=paper.yml)
+
+*Une revue vivante tenue par Adrien Joly, London School of Economics. Les entrées sont rédigées par un assistant IA à partir de l'article lui-même et ne sont pas relues avant envoi. Les chiffres viennent de l'article ; l'appréciation de la revue est dans la limite.*
