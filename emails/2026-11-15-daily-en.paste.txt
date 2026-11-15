@@ -1,0 +1,51 @@
+# AI and work, in brief: 15 November 2026
+
+# AI and work, in brief
+
+
+
+## Today in three lines
+
+- On Upwork, a large online marketplace for freelancers, requests for written content are shrinking fast, while requests for video and animation are growing.
+- Freelance projects that involve AI are bigger: budgets about half as large again, and about two fifths more hours of work, for almost the same hourly pay.
+- These projects mix kinds of work rarely asked for together before, an early sign that AI may create new work as well as remove old work.
+
+## New research, in plain words
+
+### Freelance writing is shrinking, but AI projects are getting bigger and stranger
+
+**What it explores.** Researchers at OpenAI, which makes ChatGPT, and at Upwork compare what people ask ChatGPT to do with what businesses paid freelancers to do on Upwork, from 2023 to mid-2026. They also look at which tasks clients bundle into each request, and what they pay.
+
+**Why it matters.** In about two thirds of work categories, work that people now do with ChatGPT is bought less from freelancers. Content writing is the clearest case: requests fell more than twice as fast as requests overall. Video and animation gained about a third in share. But AI-related projects are also larger. Compared with other requests in the same field and month, their fixed budgets are about half as large again, and hired freelancers work about two fifths more hours in the first three months. The hourly rate is barely higher. Clients are buying more work, not dearer work.
+
+**How it fits the evidence.** Earlier research found that freelance writers lost work after ChatGPT arrived. This report agrees, and adds a second side: AI-related requests often combine tasks rarely asked for together before, such as AI-generated video with editing. About one pair of tasks in twelve is such an unusual mix, against one in forty in other requests. Two warnings: both companies gain if AI looks good for freelancers, and the report describes patterns without showing that AI caused them.
+
+[Full entry](https://ajoly35.github.io/gen-ai-living-review/latest/#chin-et-al-2026-the-rebundling-of-freelance-work-in-the-ai-age) · [Paper](https://arxiv.org/abs/2611.14708)
+
+## How it fits together
+
+When a business starts using AI, two forces pull in opposite directions. It can do the same work with fewer people, or do more and need more people. Today's report shows both in one marketplace. Simple writing jobs go to the machine. Bigger projects that wrap AI inside a finished product, a video, a campaign, an app, grow and use more hours.
+
+That fits the review's wider picture. In the United States, Sweden, Britain and France, young people are hired less into the jobs most open to AI, by up to a quarter. Freelance writing looks like the same story on a marketplace: fewer small, simple orders. What is new is the other side: the work that grows mixes skills that used to sit with different specialists.
+
+Whether this adds up to more work overall is unknown. Freelance platforms are a small corner of the economy, and those who lose writing orders are not always those who win video projects. The review's view is that organisation decides the direction: AI creates new tasks mainly where someone redesigns the work around it.
+
+## One idea, explained: saving an hour a week is not the same as a new job
+
+Picture a hospital ward that gets a tool which writes up patient notes. Each nurse saves an hour a week. Does the ward now care for more patients, or offer a new kind of care? Not by itself. The saved hours trickle back into the same routine unless someone changes how the ward runs.
+
+One of the largest experiments so far found just that. Dillon and co-authors gave over seven thousand office workers in 66 firms an AI assistant in their email, meeting and writing software, and compared them with colleagues without it. Over six months, the workers with the tool spent almost an hour and a half less a week on email, about an eighth of their email time. Their meetings did not change, since a meeting needs everyone to agree on a new routine, and the mix of their week stayed the same.
+
+Time saved is only raw material. New tasks appear when an employer, or a client, rebuilds the work around the tool, as the Upwork clients mixing AI video with editing seem to do. For a worker, the useful question is not "how much time will AI save me?" but "what will my employer do with that time?" For an employer, the gains come from redesigning jobs, not from buying licences.
+
+## Where the evidence stands
+
+![Studies on jobs, hiring or pay, by research design. Orange: fewer jobs, hires or lower pay. Grey: no measurable effect. Blue: gains.](https://ajoly35.github.io/gen-ai-living-review/assets/vitals/direction-by-design-en.png)
+
+Each bar counts studies on jobs, hiring or pay: orange for fewer jobs, hires or lower pay, grey for no measurable effect, blue for gains. Experiments on how fast people work mostly find gains, studies of hiring find falls, studies of total employment find nothing yet. Today's report would add both colours at once: orange for writing orders, which shrink, and blue for AI projects, which grow. As a description, not a test, it weighs less than the experiments.
+
+## Read more
+
+[The living review](https://ajoly35.github.io/gen-ai-living-review/) · [Direction of the field](https://ajoly35.github.io/gen-ai-living-review/vitals/) · [Recent papers](https://ajoly35.github.io/gen-ai-living-review/latest/) · [Send a paper](https://github.com/ajoly35/gen-ai-living-review/issues/new?template=paper.yml)
+
+*A living review maintained by Adrien Joly, London School of Economics. Entries are written by an AI assistant from the paper itself and are not reviewed before they are sent. Figures are taken from the paper; the review's own assessment is in the caveat.*
