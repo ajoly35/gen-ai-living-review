@@ -1,5 +1,21 @@
 Nouveaux articles sur l'IA et les marchés du travail et sur l'IA et la croissance, du plus récent au plus ancien, chacun situé par rapport à la revue ci-dessous. Chaque chiffre est vérifié dans l'article lui-même.
 
+### Chin et al. (2026), "The Rebundling of Freelance Work in the AI Age" {#chin-et-al-2026-the-rebundling-of-freelance-work-in-the-ai-age}
+<!-- kind: paper -->
+
+OpenAI et Upwork, rapport de recherche sur arXiv, 10 novembre 2026. [Article](https://arxiv.org/abs/2611.14708). Offres d'emploi Upwork de 2023 à mi-2026, comparées à un échantillon de conversations ChatGPT ; descriptif, sans groupe de comparaison dans le temps, hors du standard de preuve causale de la revue ; rapporté à titre de contexte.
+
+**En bref.**
+Ce qu'elle explore : si les entreprises paient encore des indépendants pour un travail que l'on fait désormais avec ChatGPT, et comment les projets d'IA mêlent les types de travail.
+Pourquoi c'est important : si l'IA crée de nouvelles combinaisons de tâches, elle peut créer du travail rémunéré nouveau, pas seulement en supprimer.
+Ce que cela change aux preuves : comme dans les études antérieures sur les indépendants, la rédaction recule ; les projets d'IA sont en outre plus gros et mêlent des tâches inhabituelles.
+
+**Ce que l'étude trouve.** Les activités fréquentes dans ChatGPT tendent à perdre des parts dans les offres Upwork, et les offres liées à l'IA regroupent les tâches de façon nouvelle. Sur 63 catégories de travail, 43 ont évolué comme le prévoit la substitution entre le premier semestre 2023 et le second semestre 2025 : les offres de rédaction de contenu ont reculé plus de deux fois plus vite que l'ensemble des offres, tandis que la part de la vidéo et de l'animation a gagné environ un tiers. Dans les offres liées à l'IA, 8.4% des paires de tâches étaient rarement demandées ensemble avant l'IA générative, contre 2.4% ailleurs. Par rapport aux offres sans IA de même catégorie et de même mois, les budgets forfaitaires sont supérieurs d'environ 52%, les heures des 90 premiers jours des contrats horaires pourvus d'environ 41%, et les taux horaires affichés d'environ 1.5%.
+
+**Où cela se place.** L'étude prolonge la section [« Marchés du travail en ligne »](#online-labour-markets) : Hui et al. (2024) trouvent que les indépendants de la rédaction ont perdu des contrats et des revenus ; ici, les offres de rédaction reculent tandis que les projets d'IA progressent. C'est une preuve, au niveau des offres, des nouvelles tâches que Dillon et al. (2025) n'ont pas trouvées au sein des emplois existants (section [« La réorganisation crée-t-elle de nouvelles tâches ? »](#does-reorganisation-create-new-tasks)), et d'un regroupement des tâches (Garicano, Li et Wu 2026). L'ajustement passe par les heures, pas par le prix de l'heure.
+
+**Limite.** Les deux entreprises ont intérêt à montrer que l'IA accroît la demande de travail indépendant. Les offres liées à l'IA peuvent différer des autres d'une manière que les contrôles par catégorie et par mois ne captent pas.
+
 ### Carollo et al. (2026), "Artificial Intelligence and the U.S. Economy: Current Evidence" {#carollo-et-al-2026-artificial-intelligence-and-the-us-economy-current-evidence}
 <!-- kind: paper -->
 
@@ -238,13 +254,3 @@ Universidad Torcuato Di Tella, arXiv, 26 octobre 2026. [Article](https://arxiv.o
 **Où cela se place.** Étend Azar et al. (2026a), qui trouvent des salaires plus bas et une prime universitaire en baisse dans les professions exposées, au prix de la scolarité en leur sein : l'IA fournit du savoir codifié, donc la scolarité vaut moins (section [« Approches par l'exposition : salaires »](#exposure-designs-wages)). La pratique gagne en valeur tôt, comme chez Garicano et Rayo (2025) (section [« Pourquoi ces régularités : la théorie »](#why-these-patterns-theory)), ce qui contraste avec les expériences de terrain où les novices gagnent le plus (Brynjolfsson et al. 2025 ; [Principales régularités](#main-patterns), $$\pi_o$$).
 
 **Limite.** Les professions exposées ont aussi connu le télétravail et le ralentissement des embauches dans la tech ; la censure des hauts revenus (top coding) touche 11.5% des observations exposées contre 0.7% des autres. Pas encore évalué par les pairs.
-
-### Hyman et al. (2025), "How Retrainable are AI-Exposed Workers?" {#hyman-et-al-2025-how-retrainable-are-ai-exposed-workers}
-
-NBER Working Paper 34174, août 2025, révisé en mai 2026. [Article](https://www.nber.org/papers/w34174). Comparaison appariée de stagiaires financés sur fonds publics avec des demandeurs d'emploi n'ayant reçu qu'une aide à la recherche d'emploi ; sélection sur observables.
-
-**Ce que l'étude trouve.** La formation professionnelle publique est payante pour les travailleurs qui quittent des emplois exposés à l'IA, principalement en les faisant passer vers des professions moins exposées. Sur 1,9 million d'épisodes de formation financés par le Workforce Innovation and Opportunity Act américain (2012 à 2024), les stagiaires gagnent environ 900 &#36; (venant de professions très exposées) à 2 200 &#36; (venant de professions peu exposées) de plus par trimestre que des demandeurs d'emploi appariés n'ayant reçu qu'une aide à la recherche d'emploi, en dollars de 2010. Pour les stagiaires venant de professions très exposées, le gain est passé d'environ 900 &#36; par trimestre avant 2020 à 2 900 &#36; en 2022 à 2024, surtout grâce à des passages vers des professions moins exposées. Environ 40 à 45% des professions sont « reconvertibles vers l'IA » : leurs travailleurs gagnent davantage après être passés vers des professions plus exposées.
-
-**Où cela se place.** Première preuve sur la façon dont les travailleurs déplacés se réorientent, que la revue signalait comme non encore observée (Manning et Aguirre 2026 ; [Principales régularités](#main-patterns), $$\kappa_o$$) : les travailleurs reconvertis quittent les professions exposées avec des gains de revenu. Une plus petite part du gain vient de la formation vers des activités complémentaires de l'IA, ce qui prolonge Humlum et Vestergaard (2025) (section [« La réorganisation crée-t-elle de nouvelles tâches ? »](#does-reorganisation-create-new-tasks)).
-
-**Limite.** L'appariement ne peut exclure que les stagiaires soient plus motivés ; les codes de profession n'existent que pour 22% des épisodes, et 2022 à 2024 a été un marché du travail très tendu.

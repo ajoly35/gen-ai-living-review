@@ -8,6 +8,8 @@ Bianchini, Stefano, and Georgiana-Ioana Coroama. 2026. *LLMs and the Organizatio
 
 Carollo, Nick, Leland D. Crane, Daniel Garcia Molina, and Joseph Nichols. 2026. *Artificial Intelligence and the U.S. Economy: Current Evidence*. Finance and Economics Discussion Series 2026-074. Board of Governors of the Federal Reserve System, 12 November. [Link](https://doi.org/10.17016/FEDS.2026.074).
 
+Chin, Caroline, Shagun Kala, Nadav Kunievsky, Teng Liu, Alex Martin Richmond, and Carl Shan. 2026. *The Rebundling of Freelance Work in the AI Age*. arXiv:2611.14708. [Link](https://arxiv.org/abs/2611.14708).
+
 Cline, Alexander, and Barış Kaymak. 2026. *Job Finding and Unemployment in the Age of AI*. Economic Commentary 2026-26. Federal Reserve Bank of Cleveland. [Link](https://doi.org/10.26509/frbc-ec-202626).
 
 Conlon, John J., and Peter Schwardmann. 2026. *Creative Destruction: Human-AI Competition in an Experimental Market*. arXiv:2610.18921. [Link](https://arxiv.org/abs/2610.18921).
@@ -21,8 +23,6 @@ Fernández-Villaverde, Jesús. 2026. *Saving for the Machines*. Working Paper No
 Gans, Joshua S., and Peter Landry. 2026. *Training Your Replacement: Worker Incentives and the Pace of Automation*. Working Paper No. 35950. NBER. [Link](https://www.nber.org/papers/w35950).
 
 Hermle, Johannes, Benjamin Jones, Lukas Althoff, Ryan Heller, Thomas Lyttelton, Carolyn Stein, Nathan Wilmers, Maxim Massenkoff, and Peter McCrory. 2026. *AI for Scientific Discovery: How Researchers Use Claude*. Technical Report. The Anthropic Institute, 5 November. [Link](https://www.anthropic.com/research/how-researchers-use-claude).
-
-Hyman, Benjamin G., Benjamin Lahey, Karen Ni, and Laura Pilossoph. 2025. *How Retrainable Are AI-Exposed Workers?* Working Paper No. 34174. NBER. Revised May 2026. [Link](https://www.nber.org/papers/w34174).
 
 Jones, Charles I., and Christopher Tonetti. 2026. *Past Automation and Future A.I.: How Weak Links Tame the Growth Explosion*. Working Paper. Stanford University. [Link](https://web.stanford.edu/~chadj/JonesTonetti_Automation.pdf).
 

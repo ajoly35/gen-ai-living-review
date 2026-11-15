@@ -1,5 +1,21 @@
 New papers on AI and labour markets and AI and growth, newest first, each placed against the review below. Every figure is checked against the paper itself.
 
+### Chin et al. (2026), "The Rebundling of Freelance Work in the AI Age"
+<!-- kind: paper -->
+
+OpenAI and Upwork, research report on arXiv, 10 November 2026. [Paper](https://arxiv.org/abs/2611.14708). Upwork job postings, 2023 to mid-2026, set against sampled ChatGPT conversations; descriptive, no comparison group over time, outside the review's causal evidence standard; reported as context.
+
+**In brief.**
+What it explores: Whether businesses still pay freelancers for work people now do with ChatGPT, and how AI projects mix kinds of work.
+Why it matters: If AI creates new combinations of tasks, it can make new paid work, not only remove old work.
+How it fits the evidence: As in earlier freelance studies, writing work shrinks; it adds that AI projects are larger and mix unusual tasks.
+
+**What it finds.** Activities common in ChatGPT tend to lose share of Upwork postings, and AI-related postings bundle tasks in new ways. Of 63 work categories, 43 moved as substitution predicts between H1 2023 and H2 2025: content-writing postings fell more than twice as fast as all postings, while video and animation gained about a third in share. In AI-related postings, 8.4% of task pairs were rarely requested together before generative AI, against 2.4% elsewhere. Against non-AI postings in the same category and month, fixed-price budgets are about 52% higher, hours in the first 90 days of hired hourly contracts about 41% higher, and posted hourly rates about 1.5% higher.
+
+**Where it fits.** It extends section [“Online labour markets”](#online-labour-markets): Hui et al. (2024) find writing freelancers lost jobs and earnings; here writing postings shrink while AI projects grow. It is posting-level evidence of the new tasks Dillon et al. (2025) did not find inside existing jobs (section [“Does reorganisation create new tasks?”](#does-reorganisation-create-new-tasks)), and of rebundling (Garicano, Li and Wu 2026). Adjustment runs through hours, not hourly pay.
+
+**Caveat.** Both firms gain from showing that AI raises freelance demand. AI-related postings may differ from others in ways that controls for category and month do not capture.
+
 ### Carollo et al. (2026), "Artificial Intelligence and the U.S. Economy: Current Evidence"
 <!-- kind: paper -->
 
@@ -238,13 +254,3 @@ Universidad Torcuato Di Tella, arXiv, 26 October 2026. [Paper](https://arxiv.org
 **Where it fits.** Extends Azar et al. (2026a), who find lower wages and a falling college premium in exposed occupations, to the price of schooling inside them: AI supplies codified knowledge, so schooling is worth less (section [“Exposure designs: wages”](#exposure-designs-wages)). Practice gains value early, as in Garicano and Rayo (2025) (section [“Why these patterns: theory”](#why-these-patterns-theory)), which contrasts with the field experiments where novices gain most (Brynjolfsson et al. 2025; [Main patterns](#main-patterns), $$\pi_o$$).
 
 **Caveat.** Exposed occupations also faced remote work and the tech hiring slowdown; top coding hits 11.5% of exposed observations against 0.7% of others. Not yet peer reviewed.
-
-### Hyman et al. (2025), "How Retrainable are AI-Exposed Workers?"
-
-NBER Working Paper 34174, August 2025, revised May 2026. [Paper](https://www.nber.org/papers/w34174). Matched comparison of publicly funded trainees with job seekers who received only job search help; selection on observables.
-
-**What it finds.** Public job training pays off for workers leaving AI-exposed jobs, mainly by moving them into less exposed occupations. Across 1.9 million training spells funded by the US Workforce Innovation and Opportunity Act (2012 to 2024), trainees earn about &#36;900 (from high-exposure occupations) to &#36;2,200 (from low-exposure ones) more per quarter than matched job seekers who received only job search help, in 2010 dollars. For trainees from high-exposure occupations, the gain rose from about &#36;900 a quarter before 2020 to &#36;2,900 by 2022 to 2024, mostly through moves into less exposed occupations. About 40 to 45% of occupations are "AI retrainable": their workers earn more after moving into more exposed ones.
-
-**Where it fits.** First evidence on how displaced workers move, which the review marks as not yet observed (Manning and Aguirre 2026; [Main patterns](#main-patterns), $$\kappa_o$$): retrained workers leave exposed occupations with earnings gains. A smaller part of the gain comes from training into AI-complementary work, extending Humlum and Vestergaard (2025) (section [“Does reorganisation create new tasks?”](#does-reorganisation-create-new-tasks)).
-
-**Caveat.** Matching cannot rule out more motivated trainees; occupation codes exist for only 22% of spells, and 2022 to 2024 was a very tight labour market.
