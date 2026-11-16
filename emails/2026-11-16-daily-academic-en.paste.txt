@@ -1,0 +1,37 @@
+# New study: AI and the Two Margins of Work: Why Job Losses Show Up Before Job Creation
+
+*One new study on AI and work, checked against its full text.*
+
+## Esposito and Zhang (2026), "AI and the Two Margins of Work: Why Job Losses Show Up Before Job Creation"
+
+micro1 and Northeastern University, working paper on arXiv, 12 November 2026. [Paper](https://arxiv.org/abs/2611.17530). Calibrated model plus descriptive industry comparisons in Census and BLS job-flow data; not a causal design, reported as theory and context.
+
+**What it finds.** In the model, AI cuts aggregate hours only if products take time to re-scale: a sudden efficiency gain cuts hired hours by 4.6% at once, while the same gain spread over seven years, like actual adoption, gives a dip of about a quarter of a percent. In the computing era (Census data, 1982 to 1998), entering firms added 2.78 million payroll jobs a year while incumbents shed about 0.96 million net, and firms born from 1978 held 42% of payroll by 1998. In BLS data for 72 industries, 2022Q4 to 2026Q1, incumbent losses rise by 1.1 points of 2019 employment per standard deviation of language-model exposure, standard error 1.9.
+
+**Why it matters.** It informs section [“Why these patterns: theory”](#why-these-patterns-theory) and the scale term $$\eta_o-\sigma_o$$ in [Main patterns](#main-patterns): substitution acts at once, scale arrives later with new firms. It matches flat totals in Humlum and Vestergaard (2025), and its prediction that effects show first in hiring into exposed jobs fits Brynjolfsson et al. (2025) and Hosseini and Lichtinger (2025).
+
+*Caveat.* As the authors note, the industry null cannot tell slow diffusion from no effect. Both authors work at micro1, an AI company.
+
+## Fleck et al. (2026), "AI Implementation at Work: Worker Preferences for Task Changes"
+
+Maastricht University, IZA Discussion Paper 19076, November 2026. [Paper](https://www.iza.org/publications/dp/19076/ai-implementation-at-work-worker-preferences-for-task-changes). Discrete choice experiment (workers pick between hypothetical jobs) in one manufacturing firm; stated preferences, not observed outcomes, reported as context.
+
+**What it finds.** Workers value decision-support AI like a 3% pay rise, and AI that takes over easy tasks hardly at all. The sample is 423 quality control operators of a multinational automotive manufacturer, mostly in Mexico and Romania (4,992 choices between pairs of jobs). Against the job without AI (50 to 100 easy images a minute), decision-support AI (30 to 60 images a minute, with pop-up flags) raises a job's choice probability by 10.4 points, autonomous AI (10 to 30 hard images an hour) by 3.0 points. Willingness to pay is 2.8% and 0.7% (marginally significant) of salary. Workers who found the support AI useful liked the autonomous stage less.
+
+**Why it matters.** It informs section [“Organisation: who decides how AI is used”](#organisation-who-decides-how-ai-is-used): workers prefer what Acemoglu et al. (2026) call augmenting technology over automation, and value it like a small raise. It points to a cost of stepwise rollouts that move from augmentation to automation, a margin firm adoption studies do not observe.
+
+*Caveat.* Choices are hypothetical, in one firm and one occupation, among mostly female workers with intermediate education. The firm helped design the choices, which may frame how AI was presented.
+
+### Main ideas
+
+- *Large gains on tasks, none yet in the aggregates.* In field experiments, generative AI raises output on narrow tasks by 14 to 34%, most for workers who were least productive before. In the Nordic registers, total employment, hours and earnings are unchanged so far.
+- *The adjustment runs through entry, not layoffs.* Young hires in the most exposed occupations have fallen in the US, Sweden, the UK and France, by up to a quarter relative to less exposed occupations, and contract ends fell too: firms stop hiring juniors rather than dismiss workers. Hires are a small flow, so the stock of jobs moves slowly and totals look flat.
+- *Exposed occupations adjust through pay as well.* Wages in the most exposed occupations fell by about 5% by 2026 with no change in headcount, and this explains close to a third of the fall in the college wage premium.
+- *Firm-level results split.* Some adopters cut junior employment by about 9% while senior employment is unchanged; others, especially the biggest spenders on AI, grew and hired more entrants. Who counts as an adopter drives much of the gap, and whether substitution or scale wins is the central open question.
+- *Juniors lose because their tasks are the most codifiable.* AI raises novices' output most, but hiring depends on demand for the firm's output, not on output per worker. If AI does the routine work juniors used to train on, firms have less reason to hire and train them.
+- *Organisation decides the direction.* Management quality, the cost of reorganising and the flexibility of labour law set how deeply firms adopt. So far AI mostly saves time within existing jobs and moves knowledge down the hierarchy; new tasks appear only where employers reorganise.
+- *What is still unknown.* How strongly demand responds to cheaper output, how much of the fall in entry is AI rather than remote work or a slowdown that began in 2022, where the fall in entry ends as models improve, and who captures the gains.
+
+[Read the full review](https://ajoly35.github.io/gen-ai-living-review/) · [Send a paper](https://github.com/ajoly35/gen-ai-living-review/issues/new?template=paper.yml)
+
+*A living review maintained by Adrien Joly, London School of Economics. Entries are written by an AI assistant from the paper itself and are not reviewed before they are sent. Figures are taken from the paper; the review's own assessment is in the caveat.*

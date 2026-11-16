@@ -1,0 +1,65 @@
+IA GÉNÉRATIVE, EMPLOI ET CROISSANCE
+La nouvelle recherche du jour sur l'IA et le travail, en mots simples.
+
+IA et travail, en bref
+
+
+
+Aujourd'hui en trois lignes
+
+- Une nouvelle étude montre que les pertes d'emplois liées à l'IA apparaissent dans les statistiques des années avant les emplois créés par les nouvelles entreprises : les premiers chiffres paraissent donc pires que la réalité.
+- Environ 400 contrôleurs qualité d'usine valorisent une IA qui les aide à décider autant qu'une petite hausse de salaire, et une IA qui reprend leurs tâches faciles presque pas.
+- Les deux vont dans le même sens : l'effet de l'IA sur le travail dépend de la façon dont les entreprises l'introduisent, et du temps que l'on attend avant de juger.
+
+La nouvelle recherche, en mots simples
+
+Les emplois perdus sont comptés avant les emplois créés
+
+Ce qu'elle explore. Mark Esposito et Liu Zhang, de l'entreprise d'IA micro1 et de Northeastern University, se demandent pourquoi le coût d'une nouvelle technologie pour l'emploi apparaît avant ses bénéfices. Une entreprise qui réduit ses effectifs se voit tout de suite dans les chiffres. Une nouvelle entreprise met des années à devenir assez grande pour être comptée.
+
+Pourquoi c'est important. À l'ère de l'informatique, les entreprises américaines créées depuis 1978 employaient environ deux salariés sur cinq en 1998. Si l'IA suit le même chemin, les prochaines années de données apporteront d'abord de mauvaises nouvelles, et les bonnes plus tard.
+
+Ce que cela change aux preuves. Pour l'instant, les secteurs américains les plus ouverts à l'IA n'ont pas perdu plus d'emplois que les autres. C'est ce que produirait une diffusion lente de l'IA, mais aussi une absence totale d'effet : les données ne permettent pas encore de trancher. Les deux auteurs travaillent pour une entreprise d'IA.
+
+Entrée complète · Article
+
+Des contrôleurs d'usine renonceraient à une hausse de salaire pour une IA qui les aide, pas pour une IA qui les remplace
+
+Ce qu'elle explore. Lara Fleck et ses collègues de l'université de Maastricht ont étudié un grand industriel de l'automobile qui introduisait l'IA dans le contrôle qualité. D'abord, l'IA signalait les erreurs possibles et laissait la décision au salarié. Ensuite, elle devait prendre les cas faciles et ne laisser que les difficiles. Les chercheurs ont demandé à 423 contrôleurs, surtout au Mexique et en Roumanie, de choisir entre des paires d'emplois imaginaires.
+
+Pourquoi c'est important. Les salariés valorisent l'IA qui aide autant qu'une hausse de salaire de trois pour cent. L'IA qui reprend les tâches faciles compte à peine plus que l'ancien poste. Ceux qui jugeaient l'IA d'aide la plus utile aiment le moins la seconde étape : avancer par étapes peut coûter la confiance gagnée au départ.
+
+Ce que cela change aux preuves. Les économistes débattent des formes d'IA qui valorisent les compétences et de celles qui les usent. Cette étude interroge directement les salariés. Les réponses portent sur des emplois imaginés, dans une seule entreprise : elles disent ce que les salariés veulent, pas ce qui leur est arrivé.
+
+Entrée complète · Article
+
+Comment les pièces s'assemblent
+
+Deux forces tirent en sens contraire quand les entreprises se mettent à l'IA. Une entreprise peut faire le même travail avec moins de monde, ou faire plus et embaucher. La première étude explique pourquoi la première force se voit plus tôt. Cela rejoint le constat central de la revue. Aux États-Unis, en Suède, au Royaume-Uni et en France, les jeunes sont moins embauchés dans les métiers les plus ouverts à l'IA, jusqu'à un quart de moins, alors que l'emploi total n'a pas bougé.
+
+La seconde étude rejoint un autre constat : c'est l'organisation qui décide de la direction. Le même outil peut être réglé pour aider un salarié ou pour lui retirer du travail, et les salariés préfèrent nettement le premier usage.
+
+Restent inconnus : la vitesse à laquelle les nouvelles entreprises fondées sur l'IA embaucheront, le nombre d'acheteurs pour une production moins chère, et la part de la baisse des premiers emplois due à l'IA plutôt qu'au ralentissement commencé en 2022.
+
+Une idée expliquée : pourquoi deux entreprises avec le même outil obtiennent des résultats différents
+
+Imaginez deux services d'hôpital qui reçoivent le même jour le même nouveau système de surveillance. Dans le premier, la cadre de santé refait les plannings, forme l'équipe et la laisse décider de l'usage des alertes. Dans le second, on allume le système et rien d'autre ne change. Un an plus tard, le premier service a moins d'urgences. Le second a des alarmes que personne ne lit.
+
+Les économistes trouvent la même chose avec l'IA. Au Royaume-Uni, le dixième des entreprises les mieux gérées utilise nettement plus souvent l'IA que le dixième des moins bien gérées, alors que la qualité de gestion ne prédit pas l'usage de robots ou d'autres machines. En France, moins d'entreprises utilisent l'IA qu'en Allemagne, environ une sur cinq contre une sur quatre. Environ sept salariés français sur dix ne reçoivent de leur employeur ni encouragement, ni outils, ni formation. Une étude de l'institut LIFT d'HEC Paris l'explique par le coût de la réorganisation, élevé en France : les entreprises s'en tiennent à des usages limités et réversibles.
+
+L'outil compte moins que ce que l'entreprise fait autour. Pour un employeur, il faut budgéter la formation et la réorganisation, pas seulement la licence. Pour un salarié, il faut demander comment l'outil sera introduit, et si le personnel aura son mot à dire.
+
+Où en sont les preuves
+
+!Études sur l'emploi, les embauches ou les salaires, par dispositif. Orange : moins d'emplois, d'embauches ou de salaire. Gris : pas d'effet mesurable. Bleu : gains.
+
+Orange : moins d'emplois, d'embauches ou de salaire ; gris : aucun effet mesurable ; bleu : des gains. Les études sur la vitesse de travail trouvent des gains, celles sur les embauches des baisses, celles sur l'emploi total rien encore. La première étude du jour viendrait grossir le gris de la ligne sur l'emploi total, et explique pourquoi elle peut rester grise des années alors même que l'IA change le travail. La seconde mesure ce que veulent les salariés, pas l'emploi ni les salaires : elle reste hors du graphique.
+
+Pour aller plus loin
+
+La revue vivante · Où va la recherche · Articles récents · Proposer un article
+
+Se désabonner: {{ unsubscribe_url }}
+
+Une revue vivante tenue par Adrien Joly, London School of Economics.
+Les entrées sont rédigées par un assistant IA à partir de l'article lui-même et ne sont pas relues avant envoi. Les chiffres viennent de l'article ; l'appréciation de la revue est dans la limite.
