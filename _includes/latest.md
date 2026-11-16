@@ -1,5 +1,37 @@
 New papers on AI and labour markets and AI and growth, newest first, each placed against the review below. Every figure is checked against the paper itself.
 
+### Esposito and Zhang (2026), "AI and the Two Margins of Work: Why Job Losses Show Up Before Job Creation"
+<!-- kind: paper -->
+
+micro1 and Northeastern University, working paper on arXiv, 12 November 2026. [Paper](https://arxiv.org/abs/2611.17530). Calibrated model plus descriptive industry comparisons in Census and BLS job-flow data; not a causal design, reported as theory and context.
+
+**In brief.**
+What it explores: Whether jobs lost inside existing firms show up in the statistics sooner than jobs created by new firms and new products.
+Why it matters: If new work is counted late, early figures will make AI look more destructive than it is.
+How it fits the evidence: It agrees that total jobs have not moved yet, and gives a reason why losses would appear first.
+
+**What it finds.** In the model, AI cuts aggregate hours only if products take time to re-scale: a sudden efficiency gain cuts hired hours by 4.6% at once, while the same gain spread over seven years, like actual adoption, gives a dip of about a quarter of a percent. In the computing era (Census data, 1982 to 1998), entering firms added 2.78 million payroll jobs a year while incumbents shed about 0.96 million net, and firms born from 1978 held 42% of payroll by 1998. In BLS data for 72 industries, 2022Q4 to 2026Q1, incumbent losses rise by 1.1 points of 2019 employment per standard deviation of language-model exposure, standard error 1.9.
+
+**Where it fits.** It informs section [“Why these patterns: theory”](#why-these-patterns-theory) and the scale term $$\eta_o-\sigma_o$$ in [Main patterns](#main-patterns): substitution acts at once, scale arrives later with new firms. It matches flat totals in Humlum and Vestergaard (2025), and its prediction that effects show first in hiring into exposed jobs fits Brynjolfsson et al. (2025) and Hosseini and Lichtinger (2025).
+
+**Caveat.** As the authors note, the industry null cannot tell slow diffusion from no effect. Both authors work at micro1, an AI company.
+
+### Fleck et al. (2026), "AI Implementation at Work: Worker Preferences for Task Changes"
+<!-- kind: paper -->
+
+Maastricht University, IZA Discussion Paper 19076, November 2026. [Paper](https://www.iza.org/publications/dp/19076/ai-implementation-at-work-worker-preferences-for-task-changes). Discrete choice experiment (workers pick between hypothetical jobs) in one manufacturing firm; stated preferences, not observed outcomes, reported as context.
+
+**In brief.**
+What it explores: Whether factory inspectors prefer AI that helps them decide, or AI that takes over the easy cases and leaves them only the hard ones.
+Why it matters: How a firm brings in AI shapes whether workers accept it and what their jobs become.
+How it fits the evidence: It gives workers' own view on the choice between AI that helps and AI that replaces.
+
+**What it finds.** Workers value decision-support AI like a 3% pay rise, and AI that takes over easy tasks hardly at all. The sample is 423 quality control operators of a multinational automotive manufacturer, mostly in Mexico and Romania (4,992 choices between pairs of jobs). Against the job without AI (50 to 100 easy images a minute), decision-support AI (30 to 60 images a minute, with pop-up flags) raises a job's choice probability by 10.4 points, autonomous AI (10 to 30 hard images an hour) by 3.0 points. Willingness to pay is 2.8% and 0.7% (marginally significant) of salary. Workers who found the support AI useful liked the autonomous stage less.
+
+**Where it fits.** It informs section [“Organisation: who decides how AI is used”](#organisation-who-decides-how-ai-is-used): workers prefer what Acemoglu et al. (2026) call augmenting technology over automation, and value it like a small raise. It points to a cost of stepwise rollouts that move from augmentation to automation, a margin firm adoption studies do not observe.
+
+**Caveat.** Choices are hypothetical, in one firm and one occupation, among mostly female workers with intermediate education. The firm helped design the choices, which may frame how AI was presented.
+
 ### Chin et al. (2026), "The Rebundling of Freelance Work in the AI Age"
 <!-- kind: paper -->
 
@@ -234,23 +266,3 @@ NBER Working Paper 35964, 2 November 2026. [Paper](https://www.nber.org/papers/w
 **Where it fits.** Jones and Tonetti (2026) set $$\sigma=0.2$$ and find slow acceleration; with optimal saving the same weak links give double-digit growth, which locates the bottleneck in capital supply rather than technology (companion review). Gains go to capital, so who owns the machines decides who captures them ([Main patterns](#main-patterns)).
 
 **Caveat.** Benchmarks, not forecasts: the automation path is assumed, and a representative household is the most elastic case for capital supply.
-
-### Domnisoru and Heikkinen (2026), "How is AI Affecting College Major and Course Choices? Evidence from Finland"
-
-RFBerlin Discussion Paper 293/26, 2 November 2026. [Paper](https://www.rfberlin.com/network-paper/how-is-ai-affecting-college-major-and-course-choices-evidence-from-finland/). Event studies on Finnish administrative data on university applications and courses, by the AI exposure of each degree; the authors call the application results not causal.
-
-**What it finds.** Finnish students are turning away from AI-exposed university degrees, and the shift is larger than the job losses so far. Between the 2022 and 2026 rounds, first-choice applicants to ICT fell 38.0% while applicants to all other fields rose 16.5%. Within the same broad field, one standard deviation more exposure lowers first-choice applicants by 8.8% in 2025 and 14.0% in 2026, with pre-2023 coefficients indistinguishable from zero. By 2026, graduates of degrees one standard deviation more exposed had employment 1 point lower. Enrolled students do not switch degrees more.
-
-**Where it fits.** Adjustment through entry now starts before the labour market, at the choice of degree, extending Orr et al. (2026) on graduates of exposed majors (section [“Exposure designs: hiring and entry”](#exposure-designs-hiring-and-entry); [Main patterns](#main-patterns), $$\kappa_o$$). Hosseini and Lichtinger (2026) predict more entry into exposed occupations; applications fall instead, and students seem to act on expected, not current, conditions ($$\Delta\ln ps_o$$). Extending Kauhanen and Rouvinen (2025) to March 2026 still shows no economy-wide effect within firms.
-
-**Caveat.** ICT is four degree codes in one field, so few clusters; post-pandemic shifts and a 2025 entrance exam reform could also move choices. ICT remains oversubscribed, so enrolment has not yet fallen.
-
-### Levy Yeyati, Judzik and Barbiero (2026), "Practice Makes Perfect: Tacit Knowledge, Generative AI, and Returns to Schooling and Experience"
-
-Universidad Torcuato Di Tella, arXiv, 26 October 2026. [Paper](https://arxiv.org/abs/2610.36008). Difference in differences on US Current Population Survey wages, most against least exposed occupations, before and after ChatGPT.
-
-**What it finds.** In exposed occupations, ChatGPT lowered the wage return to schooling and raised the return to early career experience. On 655,919 earnings observations (2018 to June 2026), comparing the top and bottom quarters of the Felten, Raj and Seamans index, the return to a year of schooling falls by 0.55 log points from 7.5, about 7.3%. The return to a year of experience rises by 0.26 log points at three years, is unchanged at fifteen and falls by 0.12 at twenty-five. Pre-trends are flat and a pandemic-dated placebo shows no effect.
-
-**Where it fits.** Extends Azar et al. (2026a), who find lower wages and a falling college premium in exposed occupations, to the price of schooling inside them: AI supplies codified knowledge, so schooling is worth less (section [“Exposure designs: wages”](#exposure-designs-wages)). Practice gains value early, as in Garicano and Rayo (2025) (section [“Why these patterns: theory”](#why-these-patterns-theory)), which contrasts with the field experiments where novices gain most (Brynjolfsson et al. 2025; [Main patterns](#main-patterns), $$\pi_o$$).
-
-**Caveat.** Exposed occupations also faced remote work and the tech hiring slowdown; top coding hits 11.5% of exposed observations against 0.7% of others. Not yet peer reviewed.

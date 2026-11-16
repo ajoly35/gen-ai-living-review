@@ -1,5 +1,37 @@
 Nouveaux articles sur l'IA et les marchés du travail et sur l'IA et la croissance, du plus récent au plus ancien, chacun situé par rapport à la revue ci-dessous. Chaque chiffre est vérifié dans l'article lui-même.
 
+### Esposito and Zhang (2026), "AI and the Two Margins of Work: Why Job Losses Show Up Before Job Creation" {#esposito-and-zhang-2026-ai-and-the-two-margins-of-work-why-job-losses-show-up-before-job-creation}
+<!-- kind: paper -->
+
+micro1 et Northeastern University, document de travail sur arXiv, 12 novembre 2026. [Article](https://arxiv.org/abs/2611.17530). Modèle calibré et comparaisons descriptives entre secteurs dans les données de flux d'emplois du Census et du BLS ; pas de dispositif causal, rapporté comme théorie et contexte.
+
+**En bref.**
+Ce qu'elle explore : si les emplois perdus dans les entreprises existantes apparaissent dans les statistiques plus tôt que ceux créés par de nouvelles entreprises et de nouveaux produits.
+Pourquoi c'est important : si le travail nouveau est compté en retard, les premiers chiffres feront paraître l'IA plus destructrice qu'elle ne l'est.
+Ce que cela change aux preuves : l'étude confirme que l'emploi total n'a pas encore bougé, et explique pourquoi les pertes apparaîtraient en premier.
+
+**Ce que l'étude trouve.** Dans le modèle, l'IA ne réduit les heures agrégées que si les produits mettent du temps à changer d'échelle : un gain d'efficacité soudain réduit immédiatement les heures salariées de 4.6%, alors que le même gain étalé sur sept ans, comme l'adoption observée, ne produit qu'un creux d'environ un quart de point de pourcentage. À l'ère de l'informatique (données du Census, 1982 à 1998), les entrants ont ajouté 2.78 millions d'emplois salariés par an quand les entreprises en place en perdaient environ 0.96 million en net, et les entreprises nées depuis 1978 détenaient 42% de la masse salariale en 1998. Dans les données du BLS pour 72 secteurs, du 4e trimestre 2022 au 1er trimestre 2026, les pertes des établissements existants augmentent de 1.1 point de l'emploi de 2019 par écart-type d'exposition aux modèles de langage, avec une erreur type de 1.9.
+
+**Où cela se place.** L'étude éclaire la section [« Pourquoi ces régularités : la théorie »](#why-these-patterns-theory) et le terme d'échelle $$\eta_o-\sigma_o$$ des [Principaux constats](#main-patterns) : la substitution agit tout de suite, l'effet d'échelle arrive plus tard avec les nouvelles entreprises. Elle concorde avec l'emploi total stable de Humlum et Vestergaard (2025). Sa prédiction, des effets visibles d'abord dans les embauches vers les emplois exposés, rejoint Brynjolfsson et al. (2025) et Hosseini et Lichtinger (2025).
+
+**Limite.** Comme le notent les auteurs, l'absence d'effet par secteur ne distingue pas une diffusion lente d'un effet nul. Les deux auteurs travaillent chez micro1, une entreprise d'IA.
+
+### Fleck et al. (2026), "AI Implementation at Work: Worker Preferences for Task Changes" {#fleck-et-al-2026-ai-implementation-at-work-worker-preferences-for-task-changes}
+<!-- kind: paper -->
+
+Université de Maastricht, IZA Discussion Paper 19076, novembre 2026. [Article](https://www.iza.org/publications/dp/19076/ai-implementation-at-work-worker-preferences-for-task-changes). Expérience de choix discrets (les salariés choisissent entre des emplois hypothétiques) dans une entreprise industrielle ; préférences déclarées, pas de résultats observés, rapporté à titre de contexte.
+
+**En bref.**
+Ce qu'elle explore : si des contrôleurs qualité d'usine préfèrent une IA qui les aide à décider, ou une IA qui prend les cas faciles et ne leur laisse que les difficiles.
+Pourquoi c'est important : la façon dont une entreprise introduit l'IA détermine si les salariés l'acceptent et ce que devient leur emploi.
+Ce que cela change aux preuves : elle donne le point de vue des salariés sur le choix entre une IA qui aide et une IA qui remplace.
+
+**Ce que l'étude trouve.** Les salariés valorisent une IA d'aide à la décision comme une hausse de salaire de 3%, et une IA qui reprend les tâches faciles presque pas. L'échantillon compte 423 contrôleurs qualité d'un constructeur automobile multinational, surtout au Mexique et en Roumanie (4 992 choix entre des paires d'emplois). Par rapport à l'emploi sans IA (50 à 100 images faciles par minute), l'IA d'aide (30 à 60 images par minute, avec alertes) accroît la probabilité de choisir un emploi de 10.4 points, l'IA autonome (10 à 30 images difficiles par heure) de 3.0 points. Le consentement à payer est de 2.8% et 0.7% (faiblement significatif) du salaire. Les salariés qui jugeaient l'IA d'aide utile apprécient moins l'étape autonome.
+
+**Où cela se place.** L'étude éclaire la section [« Organisation : qui décide de l’usage de l’IA »](#organisation-who-decides-how-ai-is-used) : les salariés préfèrent ce qu'Acemoglu et al. (2026) appellent une technologie d'augmentation à l'automatisation, et la valorisent comme une petite hausse de salaire. Elle signale un coût des déploiements par étapes, qui passent de l'augmentation à l'automatisation, une dimension que les études d'adoption par les entreprises n'observent pas.
+
+**Limite.** Les choix sont hypothétiques, dans une seule entreprise et un seul métier, auprès de salariés surtout féminins et de niveau d'études intermédiaire. L'entreprise a participé à la conception des choix, ce qui peut orienter la présentation de l'IA.
+
 ### Chin et al. (2026), "The Rebundling of Freelance Work in the AI Age" {#chin-et-al-2026-the-rebundling-of-freelance-work-in-the-ai-age}
 <!-- kind: paper -->
 
@@ -234,23 +266,3 @@ NBER Working Paper 35964, 2 novembre 2026. [Article](https://www.nber.org/papers
 **Où cela se place.** Jones et Tonetti (2026) posent $$\sigma=0.2$$ et trouvent une accélération lente ; avec une épargne optimale, les mêmes maillons faibles donnent une croissance à deux chiffres, ce qui situe le goulet d'étranglement dans l'offre de capital plutôt que dans la technologie (revue compagnon). Les gains vont au capital, de sorte que la propriété des machines décide de qui les capte ([Principales régularités](#main-patterns)).
 
 **Limite.** Des repères, non des prévisions : la trajectoire d'automatisation est supposée, et un ménage représentatif est le cas le plus élastique pour l'offre de capital.
-
-### Domnisoru and Heikkinen (2026), "How is AI Affecting College Major and Course Choices? Evidence from Finland" {#domnisoru-and-heikkinen-2026-how-is-ai-affecting-college-major-and-course-choices-evidence-from-finland}
-
-RFBerlin Discussion Paper 293/26, 2 novembre 2026. [Article](https://www.rfberlin.com/network-paper/how-is-ai-affecting-college-major-and-course-choices-evidence-from-finland/). Études d'événement sur données administratives finlandaises de candidatures à l'université et de cours, selon l'exposition à l'IA de chaque diplôme ; les auteurs qualifient les résultats sur les candidatures de non causaux.
-
-**Ce que l'étude trouve.** Les étudiants finlandais se détournent des diplômes universitaires exposés à l'IA, et le mouvement est plus ample que les pertes d'emplois observées jusqu'ici. Entre les sessions 2022 et 2026, les candidats en premier vœu aux TIC ont reculé de 38.0% tandis que les candidats à tous les autres domaines ont augmenté de 16.5%. Au sein d'un même grand domaine, un écart-type d'exposition en plus réduit les candidats en premier vœu de 8.8% en 2025 et de 14.0% en 2026, avec des coefficients avant 2023 indiscernables de zéro. En 2026, les diplômés de filières plus exposées d'un écart-type avaient un taux d'emploi inférieur de 1 point. Les étudiants inscrits ne changent pas davantage de filière.
-
-**Où cela se place.** L'ajustement par l'entrée commence désormais avant le marché du travail, au choix du diplôme, ce qui prolonge Orr et al. (2026) sur les diplômés de filières exposées (section [« Approches par l'exposition : embauches et entrée »](#exposure-designs-hiring-and-entry) ; [Principales régularités](#main-patterns), $$\kappa_o$$). Hosseini et Lichtinger (2026) prédisent davantage d'entrées dans les professions exposées ; les candidatures reculent au contraire, et les étudiants semblent réagir aux conditions anticipées, non aux conditions actuelles ($$\Delta\ln ps_o$$). L'extension de Kauhanen et Rouvinen (2025) jusqu'à mars 2026 ne montre toujours aucun effet à l'échelle de l'économie au sein des entreprises.
-
-**Limite.** Les TIC correspondent à quatre codes de diplôme dans un seul domaine, donc peu de grappes ; les évolutions post-pandémie et une réforme des examens d'entrée en 2025 pourraient aussi déplacer les choix. Les TIC restent en surdemande, de sorte que les inscriptions n'ont pas encore reculé.
-
-### Levy Yeyati, Judzik and Barbiero (2026), "Practice Makes Perfect: Tacit Knowledge, Generative AI, and Returns to Schooling and Experience" {#levy-yeyati-judzik-and-barbiero-2026-practice-makes-perfect-tacit-knowledge-generative-ai-and-returns-to-schooling-and-experience}
-
-Universidad Torcuato Di Tella, arXiv, 26 octobre 2026. [Article](https://arxiv.org/abs/2610.36008). Différence de différences sur les salaires de la Current Population Survey américaine, professions les plus exposées contre les moins exposées, avant et après ChatGPT.
-
-**Ce que l'étude trouve.** Dans les professions exposées, ChatGPT a réduit le rendement salarial de la scolarité et accru le rendement de l'expérience en début de carrière. Sur 655,919 observations de revenus (2018 à juin 2026), en comparant les quarts supérieur et inférieur de l'indice de Felten, Raj et Seamans, le rendement d'une année de scolarité baisse de 0.55 point de log à partir de 7.5, soit environ 7.3%. Le rendement d'une année d'expérience augmente de 0.26 point de log à trois ans, est inchangé à quinze ans et baisse de 0.12 à vingt-cinq ans. Les tendances antérieures sont plates et un placebo daté de la pandémie ne montre aucun effet.
-
-**Où cela se place.** Étend Azar et al. (2026a), qui trouvent des salaires plus bas et une prime universitaire en baisse dans les professions exposées, au prix de la scolarité en leur sein : l'IA fournit du savoir codifié, donc la scolarité vaut moins (section [« Approches par l'exposition : salaires »](#exposure-designs-wages)). La pratique gagne en valeur tôt, comme chez Garicano et Rayo (2025) (section [« Pourquoi ces régularités : la théorie »](#why-these-patterns-theory)), ce qui contraste avec les expériences de terrain où les novices gagnent le plus (Brynjolfsson et al. 2025 ; [Principales régularités](#main-patterns), $$\pi_o$$).
-
-**Limite.** Les professions exposées ont aussi connu le télétravail et le ralentissement des embauches dans la tech ; la censure des hauts revenus (top coding) touche 11.5% des observations exposées contre 0.7% des autres. Pas encore évalué par les pairs.

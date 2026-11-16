@@ -16,9 +16,11 @@ Conlon, John J., and Peter Schwardmann. 2026. *Creative Destruction: Human-AI Co
 
 Diener, Moritz, Daniel Hendriks, Philipp Spitzer, Gerhard Satzger, Joshua Holstein, and Wei Sun. 2026. *Today’s Work, Tomorrow’s Workforce: Incentivizing Learning in AI-Assisted Work*. arXiv:2611.06346. [Link](https://arxiv.org/abs/2611.06346).
 
-Domnisoru, Ciprian, and Tuomas P. Heikkinen. 2026. *How Is AI Affecting College Major and Course Choices? Evidence from Finland*. Discussion Paper No. 293/26. RFBerlin, 2 November. [Link](https://www.rfberlin.com/network-paper/how-is-ai-affecting-college-major-and-course-choices-evidence-from-finland/).
+Esposito, Mark, and Liu Zhang. 2026. *AI and the Two Margins of Work: Why Job Losses Show Up Before Job Creation*. arXiv:2611.17530. [Link](https://arxiv.org/abs/2611.17530).
 
 Fernández-Villaverde, Jesús. 2026. *Saving for the Machines*. Working Paper No. 35964. NBER. [Link](https://www.nber.org/papers/w35964).
+
+Fleck, Lara, Marie-Christine Fregin, Andries de Grip, and Sanne Steens. 2026. *AI Implementation at Work: Worker Preferences for Task Changes*. IZA Discussion Paper No. 19076. IZA@LISER Network, November. [Link](https://www.iza.org/publications/dp/19076/ai-implementation-at-work-worker-preferences-for-task-changes).
 
 Gans, Joshua S., and Peter Landry. 2026. *Training Your Replacement: Worker Incentives and the Pace of Automation*. Working Paper No. 35950. NBER. [Link](https://www.nber.org/papers/w35950).
 
@@ -29,8 +31,6 @@ Jones, Charles I., and Christopher Tonetti. 2026. *Past Automation and Future A.
 Korinek, Anton, and Donghyun Suh. 2024. *Scenarios for the Transition to AGI*. Working Paper No. 32255. NBER. [Link](https://www.nber.org/papers/w32255).
 
 Korinek, Anton, Charles I. Jones, Szymon Sacher, Tess Cotter, and Peter McCrory. 2026. *Economic Scenarios for Transformative AI*. Working Paper No. 2026-02. The Anthropic Institute.
-
-Levy Yeyati, Eduardo, Darío Judzik, and Juan Ignacio Barbiero. 2026. *Practice Makes Perfect: Tacit Knowledge, Generative AI, and Returns to Schooling and Experience*. arXiv:2610.36008. [Link](https://arxiv.org/abs/2610.36008).
 
 Lu, Beichen, Honglin Bao, Qi Huang, Qingguo Meng, and James A. Evans. 2026. *Stronger Artificial Intelligence Breakthroughs Hasten Their Own Exhaustion*. arXiv:2610.27296. [Link](https://arxiv.org/abs/2610.27296).
 
