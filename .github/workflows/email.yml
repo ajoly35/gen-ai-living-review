@@ -67,6 +67,25 @@ jobs:
           PY
           echo "kind=$kind" >> "$GITHUB_OUTPUT"
           if grep -q '^### ' added.md || git diff --name-only "$before" HEAD -- briefs | grep -q '\.md$'; then echo "some=true" >> "$GITHUB_OUTPUT"; else echo "some=false" >> "$GITHUB_OUTPUT"; fi
+      - name: Gemini writes the emails' prose (facts, links and structure unchanged; site text untouched)
+        # scripts/gemini_rewrite.py rewrites, in this checkout only, the prose paragraphs the emails are built from.
+        # A paragraph that fails a check (new number, changed link or label, em-dash...) keeps the routine's text;
+        # without the GEMINI_API_KEY secret, or if the API fails, the emails use the routine's text as before.
+        if: steps.cut.outputs.some == 'true'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          k="${{ steps.cut.outputs.kind }}"; u="${{ steps.cut.outputs.update }}"
+          if [ -n "$u" ]; then
+            python3 -I scripts/gemini_rewrite.py page "$u" --lang en
+            fr_u="updates/fr/$(basename "$u")"; [ -f "$fr_u" ] && python3 -I scripts/gemini_rewrite.py page "$fr_u" --lang fr
+            exit 0
+          fi
+          python3 -I scripts/gemini_rewrite.py briefs briefs --kind "$k" --lang en
+          python3 -I scripts/gemini_rewrite.py briefs briefs/fr --kind "$k" --lang fr
+          cp added.md added.routine.md   # the French entries are matched on the routine's English anchors
+          python3 -I scripts/gemini_rewrite.py entries _includes/fr/latest.md --lang fr --only-anchors-from added.routine.md
+          python3 -I scripts/gemini_rewrite.py entries added.md --lang en
       - name: Build the emails (general brief and academic digest, English and French)
         if: steps.cut.outputs.some == 'true'
         id: build
