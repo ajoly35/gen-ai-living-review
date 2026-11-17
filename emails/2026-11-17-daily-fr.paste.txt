@@ -1,0 +1,53 @@
+# IA et travail, en bref : 17 novembre 2026
+
+# IA et travail, en bref
+
+
+
+## Aujourd'hui en trois lignes
+
+- Une nouvelle étude demande si une IA en progrès rapide enrichira les pays pauvres aussi vite que les pays riches. Dans la plupart des avenirs envisagés, les pays pauvres gagnent, mais les pays riches gagnent encore plus.
+- Dans environ la moitié de ces avenirs, l'écart de revenu entre pays riches et pays pauvres grandit d'au moins deux cinquièmes en 25 ans.
+- Distribuer de l'IA bon marché réduit peu cet écart. Aider les pays pauvres à acquérir les savoir-faire et les compétences liés à l'IA aide beaucoup plus.
+
+## La nouvelle recherche, en mots simples
+
+### L'IA pourrait enrichir les pays pauvres, mais enrichir encore plus les pays riches
+
+**Ce qu'elle explore.** Daniel Björkegren, David Lagakos et Mitchell VanVuren, économistes à Columbia, Boston University et Vanderbilt, bâtissent un modèle simple d'un monde à deux économies, l'une riche et l'autre pauvre. Toutes deux achètent leur IA sur le même marché mondial. Les auteurs font tourner ce modèle sur 25 ans, en variant les façons dont l'IA et les humains travaillent ensemble. Chaque année, l'IA devient soit un septième, soit moitié plus utile.
+
+**Pourquoi c'est important.** La plupart des prévisions sur l'IA et la croissance ne regardent que les pays riches. Pourtant, plus de la moitié de l'humanité vit dans des pays plus pauvres, qui ne génèrent qu'environ une visite sur cent sur les sites d'IA. Ces pays risquent de décrocher pour deux raisons. D'abord, ils manquent parfois des compétences qui rendent l'IA utile. Ensuite, la forte croissance des pays riches pourrait les pousser à acheter tant d'IA que son prix resterait hors de portée des autres.
+
+**Ce que cela change aux preuves.** Il s'agit d'un modèle théorique, pas d'une mesure sur le terrain, et l'éventail des résultats possibles est très large. On ne peut pourtant pas écarter ses scénarios inquiétants. Payer directement l'usage de l'IA des pays pauvres marche mal : chaque dollar dépensé ne leur rapporte qu'environ onze centimes. Les aider à adopter les méthodes de travail des pays riches, en comblant un centième de l'écart chaque année, donne de bien meilleurs résultats. L'un des auteurs a reçu des financements de recherche d'entreprises d'IA.
+
+[Entrée complète](https://ajoly35.github.io/gen-ai-living-review/fr/latest/#bjrkegren-lagakos-and-vanvuren-2026-will-ai-growth-reach-the-developing-world) · [Article](https://www.nber.org/papers/w36035)
+
+## Comment les pièces s'assemblent
+
+Dans les pays riches, deux forces s'opposent quand une entreprise adopte l'IA. Elle peut produire plus et embaucher, ou produire autant avec moins de monde. Pour l'instant, le second effet domine. On le voit dans le recul des premiers emplois pour les jeunes : jusqu'à un quart de moins dans les métiers les plus touchés par l'IA, par rapport aux autres métiers, aux États-Unis, en Suède, au Royaume-Uni et en France. L'emploi total, lui, n'a pas bougé.
+
+L'étude du jour examine ces mêmes forces entre les pays. Quand l'IA remplace le travail humain, les pays riches gagnent le plus, car ils ont les moyens d'acheter davantage d'IA. Quand l'IA a besoin de travailleurs qualifiés à ses côtés, les pays qui en manquent profitent moins de ses progrès. Dans les pays pauvres, les diplômés dont l'IA sait accomplir les tâches risquent le plus de voir leur salaire baisser. Cela rejoint nos constats dans les pays riches, où les salaires des métiers les plus ouverts à l'IA ont reculé d'environ un vingtième par rapport aux autres, sans baisse des effectifs.
+
+Les questions ouvertes restent les mêmes : combien de plus les gens achèteront quand l'IA rendra les choses moins chères, à quelle vitesse les entreprises se réorganiseront, et qui captera les gains. L'étude du jour en ajoute une autre : ces gains passeront-ils seulement les frontières ?
+
+## Une idée expliquée : pourquoi l'étape la plus lente décide de la vitesse de la croissance
+
+Imaginez une rédaction équipée d'une IA qui rédige un premier jet en quelques secondes. Le journal ne sortira pas dix fois plus vite pour autant. Les journalistes doivent toujours aller sur le terrain, appeler leurs sources et vérifier chaque fait. Ce sont ces étapes lentes qui fixent désormais le nombre d'articles publiés.
+
+Philippe Aghion, Benjamin Jones et Charles Jones ont décrit ce même mécanisme pour toute l'économie en 2019. Quand une technologie rend certains produits très bon marché, nous ne dépensons pas forcément plus pour les acheter. Notre argent va plutôt vers ce qui reste long et coûteux à produire, comme les soins médicaux, le bâtiment ou une coupe de cheveux. Ces secteurs lents dictent alors le rythme de la croissance globale. Une étude récente observe la même chose dans la recherche scientifique. Si l'IA faisait tout le travail hors laboratoire, les disciplines théoriques produiraient quinze fois plus d'études. Les sciences expérimentales, elles, ne produiraient que trois ou quatre fois plus, freinées par le rythme lent des expériences à la paillasse.
+
+L'étude du jour montre que le manque de compétences agit lui aussi comme une étape lente, qui freine surtout les pays pauvres.
+
+Pour un salarié ou un étudiant, la leçon est claire : repérez les étapes lentes de votre métier. Ce sont celles qui exigent d'être présent physiquement, d'exercer son jugement ou d'inspirer confiance. L'IA a peu de chances de les rendre bon marché de sitôt.
+
+## Où en sont les preuves
+
+![Études sur l'emploi, les embauches ou les salaires, par dispositif. Orange : moins d'emplois, d'embauches ou de salaire. Gris : pas d'effet mesurable. Bleu : gains.](https://ajoly35.github.io/gen-ai-living-review/assets/vitals/direction-by-design-fr.png)
+
+Orange : moins d'emplois, d'embauches ou de salaire ; gris : aucun effet mesurable ; bleu : des gains. Les études sur la vitesse d'exécution trouvent des gains, celles sur les embauches montrent des baisses, et celles sur l'emploi total ne voient encore rien. L'étude du jour modélise l'avenir au lieu de mesurer le passé, elle n'ajoute donc aucune barre au graphique. Sa prévision d'une baisse de revenus pour les travailleurs qualifiés dont l'IA reprend les tâches rejoint l'orange de nos lignes sur les salaires.
+
+## Pour aller plus loin
+
+[La revue vivante](https://ajoly35.github.io/gen-ai-living-review/fr/) · [Où va la recherche](https://ajoly35.github.io/gen-ai-living-review/fr/vitals/) · [Articles récents](https://ajoly35.github.io/gen-ai-living-review/fr/latest/) · [Proposer un article](https://github.com/ajoly35/gen-ai-living-review/issues/new?template=paper.yml)
+
+*Une revue vivante tenue par Adrien Joly, London School of Economics. Les entrées sont rédigées par un assistant IA à partir de l'article lui-même et ne sont pas relues avant envoi. Les chiffres viennent de l'article ; l'appréciation de la revue est dans la limite.*
