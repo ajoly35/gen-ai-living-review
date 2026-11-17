@@ -48,6 +48,7 @@ email workflow (.github/workflows/email.yml) sends to. Otherwise the form compos
       <legend>{% if l == "fr" %}Format (un ou les deux){% else %}Format (one or both){% endif %}</legend>
       <label><input type="checkbox" name="audience" value="general" checked> {% if l == "fr" %}Le brief : une courte lettre pour non-économistes. Ce qui est nouveau, comment cela s'assemble, une idée d'un article clé expliquée simplement, un graphique{% else %}The brief: a short newsletter for non-economists. What is new, how it fits together, one idea from a key paper explained simply, one chart{% endif %}</label>
       <label><input type="checkbox" name="audience" value="academic"> {% if l == "fr" %}Résumé académique : l'entrée complète (dispositif, chiffres, limite){% else %}Academic digest: the full entry (design, figures, caveat){% endif %}</label>
+      <label><input type="checkbox" name="audience" value="policy"> {% if l == "fr" %}Le brief politiques publiques (quotidien) : le chômage en France, au Royaume-Uni et aux États-Unis, ce que font les pouvoirs publics face à l'IA, et les options sur la table{% else %}The policy brief (daily): unemployment in France, the UK and the US, what governments are doing about AI and work, and the options on the table{% endif %}</label>
     </fieldset>
     <input type="hidden" name="lang" value="{{ l }}">
     <input type="text" name="hp" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-10000px;width:1px;height:1px;opacity:0">

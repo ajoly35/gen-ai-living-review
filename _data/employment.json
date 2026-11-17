@@ -1,0 +1,50 @@
+{
+ "countries": [
+  {
+   "key": "fr",
+   "period": "2026-Q3",
+   "period_en": "Q3 2026",
+   "period_fr": "T3 2026",
+   "all": 8.2,
+   "all_prev": 7.7,
+   "youth": 21.0,
+   "youth_prev": 19.3
+  },
+  {
+   "key": "uk",
+   "period": "2026 AUG",
+   "period_en": "July to September 2026",
+   "period_fr": "juillet à septembre 2026",
+   "all": 4.6,
+   "all_prev": 5.0,
+   "youth": 15.1,
+   "youth_prev": 15.3
+  },
+  {
+   "key": "us",
+   "period": "2026-10",
+   "period_en": "October 2026",
+   "period_fr": "octobre 2026",
+   "all": 4.1,
+   "all_prev": null,
+   "youth": 9.3,
+   "youth_prev": null
+  }
+ ],
+ "adoption": {
+  "wave": "2026-08",
+  "wave_en": "August 2026",
+  "wave_fr": "août 2026",
+  "any": 60.8,
+  "work": 40.5,
+  "any_prev": 54.5,
+  "work_prev": 37.4
+ },
+ "lift": {
+  "ai_total": 104935,
+  "genai_total": 4593,
+  "ai_quarter": 652,
+  "genai_quarter": 111
+ },
+ "updated": "2026-11-17"
+}

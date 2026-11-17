@@ -1,0 +1,67 @@
+# Daily policy brief by email. Trigger: a push to main that adds policy/YYYY-MM-DD.md (the routine's page).
+# Builds the English and French emails from the page, with the employment figures inlined, keeps a copy in emails/
+# and sends them to the subscribers carrying the tags daily-policy and daily-policy-fr (self-hosted list). Without the
+# SUBSCRIBE_API + SEND_TOKEN secrets the send step does nothing. Shape and rules of the page: policy/README.md.
+name: Email the policy brief
+on:
+  push:
+    branches: [main]
+    paths: ["policy/[0-9]*.md"]
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "date of the page to send (YYYY-MM-DD); default today"
+        default: ""
+permissions:
+  contents: write
+concurrency: email
+jobs:
+  policy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: Find the page
+        id: cut
+        run: |
+          d="${{ github.event.inputs.date }}"
+          if [ -z "$d" ] && [ "${{ github.event_name }}" = push ]; then
+            f=$(git diff --diff-filter=A --name-only "${{ github.event.before }}" HEAD -- 'policy/[0-9]*.md' 2>/dev/null | sort | tail -1)
+            [ -n "$f" ] && d=$(basename "$f" .md)
+          fi
+          [ -z "$d" ] && [ "${{ github.event_name }}" = workflow_dispatch ] && d=$(date -u +%F)
+          if [ -n "$d" ] && [ -f "policy/$d.md" ]; then echo "date=$d" >> "$GITHUB_OUTPUT"; echo "some=true" >> "$GITHUB_OUTPUT"; else echo "no new policy page"; echo "some=false" >> "$GITHUB_OUTPUT"; fi
+      - name: Refresh the figures (kept as they are if a source cannot be read)
+        if: steps.cut.outputs.some == 'true'
+        run: python3 -I scripts/fetch_trackers.py || true
+      - name: Gemini writes the emails' prose (facts, links and structure unchanged; site text untouched)
+        if: steps.cut.outputs.some == 'true'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          d="${{ steps.cut.outputs.date }}"
+          python3 -I scripts/gemini_rewrite.py page "policy/$d.md" --lang en
+          [ -f "policy/fr/$d.md" ] && python3 -I scripts/gemini_rewrite.py page "policy/fr/$d.md" --lang fr || true
+      - name: Build the emails
+        if: steps.cut.outputs.some == 'true'
+        run: |
+          d="${{ steps.cut.outputs.date }}"
+          python3 -I scripts/build_email.py --audience policy --kind daily --lang en --brief "policy/$d.md" --date "$d" --out emails
+          [ -f "policy/fr/$d.md" ] && python3 -I scripts/build_email.py --audience policy --kind daily --lang fr --brief "policy/fr/$d.md" --date "$d" --out emails || true
+      - name: Keep a copy in the repository
+        if: steps.cut.outputs.some == 'true'
+        run: |
+          git config user.name "living-review-bot"; git config user.email "actions@users.noreply.github.com"
+          git add emails && git commit -m "Emails: policy ${{ steps.cut.outputs.date }} [skip ci]" && git pull --rebase && git push || echo "nothing to commit"
+      - name: Send through the self-hosted list
+        if: steps.cut.outputs.some == 'true'
+        env:
+          SUBSCRIBE_API: ${{ secrets.SUBSCRIBE_API }}
+          SEND_TOKEN: ${{ secrets.SEND_TOKEN }}
+        run: |
+          b="emails/${{ steps.cut.outputs.date }}-daily-policy"
+          [ -n "$SUBSCRIBE_API" ] || { echo "no list configured: nothing sent"; exit 0; }
+          for l in en fr; do
+            tag=daily-policy; [ "$l" = fr ] && tag=daily-policy-fr
+            [ -f "$b-$l.html" ] && python3 -I scripts/send_selfhosted.py --html "$b-$l.html" --text "$b-$l.txt" --subject "$b-$l.subject" --tag "$tag" || echo "no file for $tag"
+          done

@@ -25,7 +25,7 @@ What generative AI has done to employment, hiring, hours and wages so far, by re
 
 ## Live trackers
 
-{% include trackers.md %}
+{% include trackers.md lang="en" %}
 
 </section>
 

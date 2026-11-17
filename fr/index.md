@@ -26,7 +26,7 @@ Ce que l'IA générative a fait jusqu'ici à l'emploi, aux embauches, aux heures
 
 ## Indicateurs en direct
 
-{% include fr/trackers.md %}
+{% include trackers.md lang="fr" %}
 
 </section>
 

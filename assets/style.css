@@ -39,9 +39,19 @@ mjx-container[display="true"] { overflow-x: auto; overflow-y: hidden; padding: .
 .tracker-label { font-size: .85rem; color: var(--muted); margin-top: .3rem; line-height: 1.3; }
 .tracker-delta { font-family: Inter, system-ui, sans-serif; font-size: .8rem; color: var(--accent); margin-top: .45rem; }
 .tracker-note { font-size: .82rem; color: var(--muted); margin: 0 0 1.25rem; }
-.tracker-embed { margin: 1rem -1rem 0; }
-.tracker-embed iframe { display: block; width: 100%; height: 42rem; border: 1px solid var(--rule); border-radius: 6px; background: #fff; }
-@media (min-width: 48rem) { .tracker-embed { margin: 1rem 0 0; } .tracker-embed iframe { height: 52rem; } }
+.trackers h3 { margin-top: 2rem; }
+.tracker-sources { font-size: .82rem; color: var(--muted); line-height: 1.5; }
+.tracker-fold { border: 1px solid var(--rule); border-radius: 6px; margin: 0 0 1.25rem; }
+.tracker-fold > summary { cursor: pointer; padding: .55rem .9rem; font-family: Inter, system-ui, sans-serif; font-size: .88rem; font-weight: 600; color: var(--accent); }
+.tracker-fold[open] > summary { border-bottom: 1px solid var(--rule); }
+.tracker-fold .tracker-note { margin: .6rem .9rem .75rem; }
+.tracker-table { overflow-x: auto; }
+.tracker-table table { width: 100%; border-collapse: collapse; font-family: Inter, system-ui, sans-serif; font-size: .82rem; font-variant-numeric: tabular-nums; }
+.tracker-table th, .tracker-table td { padding: .4rem .9rem; text-align: right; border-top: 1px solid var(--rule); white-space: nowrap; }
+.tracker-table thead th { border-top: 0; color: var(--muted); font-weight: 400; white-space: normal; vertical-align: bottom; line-height: 1.3; }
+.tracker-table th:first-child { text-align: left; font-weight: 400; }
+.tracker-embed iframe { display: block; width: 100%; height: 42rem; border: 0; border-radius: 0 0 6px 6px; background: #fff; }
+@media (min-width: 48rem) { .tracker-embed iframe { height: 52rem; } }
 
 /* Navigation and language switch */
 .topnav { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: .5rem 1rem;

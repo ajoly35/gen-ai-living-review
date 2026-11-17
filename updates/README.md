@@ -1,7 +1,7 @@
 # Monthly review updates
 
 One page a month, `updates/YYYY-MM.md` (English) and `updates/fr/YYYY-MM.md` (French), drafted by the monthly
-routine on the 1st, covering the previous calendar month. Pages: `/updates/YYYY-MM/`, `/fr/updates/YYYY-MM/`.
+routine on the 16th, covering the 16th of the previous month to the 15th (page named after the month of the run). Pages: `/updates/YYYY-MM/`, `/fr/updates/YYYY-MM/`.
 
 Why it exists (Xavier, 12 Nov 2026): the daily entries are too many to follow. Once a month, re-read what was
 added and answer two questions only:
@@ -9,14 +9,14 @@ added and answer two questions only:
 2. **Does it change our narrative or vision?**
 
 ## Workflow (approval gate)
-1. 1st of the month, ~05:00 UTC: the routine writes both pages on a branch `update/YYYY-MM` and opens a pull
+1. 16th of the month, ~05:00 UTC: the routine writes both pages on a branch `claude/monthly-update-YYYY-MM` and opens a pull
    request. It never pushes to `main` and never edits `_includes/review.md` or `main-ideas.md`.
 2. Adrien reads the PR, edits if needed, and merges. **Merging is the approval.**
 3. The merge triggers `.github/workflows/email.yml`: the monthly email (general and academic, EN and FR) is built
    from the update page and sent to monthly subscribers.
 4. The "Proposed changes" are applied to the review (LaTeX draft, then `scripts/build_review.py`) in a separate
    step, only those Adrien keeps.
-5. Fallback: if no update is merged by the 5th, the old entries digest goes out on the 5th.
+5. Fallback: if no update for the month is merged by the 20th, the old entries digest goes out on the 20th.
 
 ## Verdicts: what "truly deserves to enter" means
 A study is read against the review as it stands. Verdicts, at most **3 "Add"** a month:

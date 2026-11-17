@@ -5,7 +5,7 @@
  *   POST ?action=subscribe   body JSON {name, email, frequency, lang, audience, hp}  -> confirmation email (link to SITE_URL/subscribed/?t=)
  *   GET  ?action=confirm&t=TOKEN[&json=1]   -> status confirmed; json=1 answers JSON (used by the site page), else redirects
  *   GET  ?action=unsubscribe&t=TOKEN  -> status unsubscribed, redirect to /unsubscribed/   (POST also accepted)
- *   POST ?action=send        body JSON {token, subject, html, text, tag, dry_run}  -> tag = daily|weekly|monthly[-academic][-fr]
+ *   POST ?action=send        body JSON {token, subject, html, text, tag, dry_run}  -> tag = daily|weekly|monthly[-academic|-policy][-fr]
  *   GET  ?action=stats&token=...      -> counts and remaining Gmail quota
  * Script properties (Project settings > Script properties): SITE_URL, SEND_TOKEN, SENDER_NAME, REPLY_TO, and on Workspace
  * optionally FROM_ALIAS (a "Send mail as" address such as briefings@your-domain.tld; needs the Gmail scope on first run).
@@ -13,7 +13,7 @@
  */
 var FREQ = ["daily", "weekly", "monthly"], LANG = ["en", "fr"];
 var HEAD = ["email", "name", "frequency", "lang", "status", "token", "created_at", "confirmed_at", "unsubscribed_at", "audience"];
-var AUD = ["general", "academic"];
+var AUD = ["general", "academic", "policy"];
 // A reader may tick several rhythms and both formats: stored as comma-separated lists, e.g. "daily,weekly" / "general,academic".
 function pickList_(v, allowed, dflt) { var a = Array.isArray(v) ? v : String(v || "").split(","); var out = [];
   a.forEach(function (x) { x = String(x).trim(); if (allowed.indexOf(x) >= 0 && out.indexOf(x) < 0) out.push(x); }); return out.length ? out.join(",") : dflt; }
@@ -109,8 +109,8 @@ function unsubscribe_(tok, isPost, asJson) { var r = find_(tok); if (!r) return 
 function send_(b) {
   if (!b.token || b.token !== cfg("SEND_TOKEN")) return out({ ok: false, message: "Unauthorised" });
   var tag = String(b.tag || "weekly"), lang = /-fr$/.test(tag) ? "fr" : "en", rest = tag.replace(/-fr$/, "");
-  var aud = /-academic$/.test(rest) ? "academic" : "general", freq = rest.replace(/-academic$/, "");
-  if (FREQ.indexOf(freq) < 0 || !b.subject || !b.html) return out({ ok: false, message: "Need subject, html and a valid tag (freq[-academic][-fr])" });
+  var aud = /-academic$/.test(rest) ? "academic" : /-policy$/.test(rest) ? "policy" : "general", freq = rest.replace(/-(academic|policy)$/, "");
+  if (FREQ.indexOf(freq) < 0 || !b.subject || !b.html) return out({ ok: false, message: "Need subject, html and a valid tag (freq[-academic|-policy][-fr])" });
   var list = rows().filter(function (r) { return r.status === "confirmed" && hasIn_(r.frequency, freq) && r.lang === lang && hasIn_(r.audience || "general", aud); });
   var quota = quota_(), sent = 0, skipped = 0, base = selfUrl();
   for (var i = 0; i < list.length; i++) {

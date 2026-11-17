@@ -6,7 +6,9 @@ Inputs
   --latest N       or: take the N newest entries of _includes/latest.md (dry runs, digests)
   --lang en|fr     language of the entries and of the fixed strings (fr reads _includes/fr/)
   --kind daily|weekly|monthly   wording of the lead
-  --audience general|academic   general = the day's brief page(s) from briefs/ (--brief FILE or --brief-dir DIR), a full newsletter for
+  --audience general|academic|policy   policy = the day's policy brief page from policy/ (--brief-dir policy), with the
+                                employment figures of _includes/employment-table-<lang>.md inlined; files <date>-<kind>-policy-<lang>.*
+                                general = the day's brief page(s) from briefs/ (--brief FILE or --brief-dir DIR), a full newsletter for
                                 non-economists; falls back to a three-line summary per entry when no brief exists.
                                 academic = the full entries (default general)
   --out DIR        where to write <date>-<kind>-<lang>.{html,txt,md}
@@ -224,6 +226,10 @@ def read_brief(path):
             if ":" in line:
                 k, v = line.split(":", 1); fm[k.strip()] = v.strip().strip('"')
     else: body = raw
+    # the policy brief's "The numbers" block (written by scripts/fetch_trackers.py) goes into the email as it stands
+    inc = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "_includes")
+    body = re.sub(r"\{%-?\s*include (employment-table-(?:en|fr)\.md)\s*-?%\}",
+                  lambda m: open(os.path.join(inc, m.group(1)), encoding="utf-8").read() if os.path.exists(os.path.join(inc, m.group(1))) else "", body)
     body = re.sub(r"\{%.*?%\}", "", body); body = re.sub(r"\{\{.*?\}\}", "", body)
     body = re.sub(r"\n\{:[^}]*\}", "", body)                      # kramdown attribute lines
     body = re.sub(r"<p class=\"byline\">.*?</p>", "", body, flags=re.S)
@@ -288,7 +294,7 @@ def build_from_briefs(paths, lang, kind, date, pre=None, lead=None, index="brief
         H.append(md_block_to_html(body, lang))
         T += [md_plain(re.sub(r"^#+\s*", "", l)) for l in body.split("\n")] + [""]
         M += [body, ""]
-    H.append(f'<p style="margin:22px 0 8px;font:14px/1.5 -apple-system,Segoe UI,Helvetica,Arial,sans-serif;color:#6b665e;"><a href="{site}{index}" style="color:#7a2e1f;">{("All briefs" if lang=="en" else "Tous les briefs") if index=="briefs/" else ("All monthly updates" if lang=="en" else "Tous les bilans")}</a> · <a href="{site}" style="color:#7a2e1f;">{t["review"]}</a> · <a href="{{{{ unsubscribe_url }}}}" style="color:#7a2e1f;">{t["unsub"]}</a></p>')
+    H.append(f'<p style="margin:22px 0 8px;font:14px/1.5 -apple-system,Segoe UI,Helvetica,Arial,sans-serif;color:#6b665e;"><a href="{site}{index}" style="color:#7a2e1f;">{("All briefs" if lang=="en" else "Tous les briefs") if index=="briefs/" else ("All policy briefs" if lang=="en" else "Tous les briefs politiques publiques") if index=="policy/" else ("All monthly updates" if lang=="en" else "Tous les bilans")}</a> · <a href="{site}" style="color:#7a2e1f;">{t["review"]}</a> · <a href="{{{{ unsubscribe_url }}}}" style="color:#7a2e1f;">{t["unsub"]}</a></p>')
     H.append(f'<p style="font:12px/1.5 -apple-system,Segoe UI,Helvetica,Arial,sans-serif;color:#6b665e;margin:0;">{t["by"]} {t["disclaimer"]}</p></div></body></html>')
     T += [f'{t["unsub"]}: {{{{ unsubscribe_url }}}}', "", t["by"], t["disclaimer"]]
     M = [f"# {subject}", ""] + M + [f"*{t['by']} {t['disclaimer']}*"]
@@ -321,7 +327,7 @@ if __name__ == "__main__":
     ap.add_argument("--added"); ap.add_argument("--latest", type=int)
     ap.add_argument("--lang", default="en", choices=["en", "fr"]); ap.add_argument("--kind", default="daily", choices=["daily", "weekly", "monthly"])
     ap.add_argument("--out", default="emails"); ap.add_argument("--date", default=None)
-    ap.add_argument("--audience", default="general", choices=["general", "academic"])
+    ap.add_argument("--audience", default="general", choices=["general", "academic", "policy"])
     ap.add_argument("--brief", action="append", default=[], help="brief page(s) for the general email; repeatable")
     ap.add_argument("--brief-dir", default=None, help="pick briefs for the period from this folder (daily: today; weekly: 7 days; monthly: 31 days)")
     ap.add_argument("--update", default=None, help="monthly: the approved review update page; used for both audiences when given")
@@ -339,13 +345,18 @@ if __name__ == "__main__":
         fr = parse_entries(open(src, encoding="utf-8").read(), "fr")
         entries = [e for e in fr if e["anchor"] in en] or entries
     briefs = list(a.brief)
-    if a.audience == "general" and a.brief_dir:
+    if a.audience in ("general", "policy") and a.brief_dir:
         days = {"daily": 0, "weekly": 6, "monthly": 30}[a.kind]
         for fn in sorted(os.listdir(a.brief_dir)):
             m = re.match(r"(\d{4}-\d{2}-\d{2})\.md$", fn)
             if m and 0 <= (date - dt.date.fromisoformat(m.group(1))).days <= days: briefs.append(os.path.join(a.brief_dir, fn))
     if a.update:
         subject, H, T, M = build_from_update(a.update, a.lang, a.audience, date)
+    elif a.audience == "policy":
+        # policy brief: the day's page from policy/ (or policy/fr/); no fallback, so no page means no email
+        if not briefs: print("no policy brief for the period", file=sys.stderr); sys.exit(3)
+        lead = "AI and work: the numbers, what governments are doing, and what could be done." if a.lang == "en" else "IA et travail : les chiffres, ce que font les pouvoirs publics, et ce qui pourrait être fait."
+        subject, H, T, M = build_from_briefs(briefs, a.lang, a.kind, date, lead=lead, index="policy/")
     elif a.audience == "general" and briefs:
         res = build_from_briefs(briefs, a.lang, a.kind, date)
         subject, H, T, M = res
@@ -355,7 +366,7 @@ if __name__ == "__main__":
         ideas = main_ideas(os.path.join(a.root, "_includes", S[a.lang]["fr_path"], "main-ideas.md"))
         subject, H, T, M = build(entries, a.lang, a.kind, ideas, date, a.audience)
     os.makedirs(a.out, exist_ok=True)
-    base = os.path.join(a.out, f"{date.isoformat()}-{a.kind}{'-academic' if a.audience == 'academic' else ''}-{a.lang}")
+    base = os.path.join(a.out, f"{date.isoformat()}-{a.kind}{'-academic' if a.audience == 'academic' else '-policy' if a.audience == 'policy' else ''}-{a.lang}")
     open(base + ".html", "w", encoding="utf-8").write(H); open(base + ".txt", "w", encoding="utf-8").write(T); open(base + ".paste.txt", "w", encoding="utf-8").write(M)
     open(base + ".subject", "w", encoding="utf-8").write(subject)
     print(base, "|", subject, "|", "update page" if a.update else f"{len(entries)} entries")

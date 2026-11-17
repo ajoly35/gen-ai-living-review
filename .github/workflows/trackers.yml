@@ -1,0 +1,24 @@
+# Refreshes the figures of the policy brief's "The numbers" block every morning, before the routines run:
+# INSEE, ONS and BLS unemployment rates, the GenAI Adoption Tracker and the LIFT job postings tracker
+# (scripts/fetch_trackers.py). Commits _data/employment.json and _includes/employment-table-*.md when they change.
+name: Refresh employment trackers
+on:
+  schedule:
+    - cron: "20 4 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: email
+jobs:
+  trackers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -I scripts/fetch_trackers.py
+      - name: Commit if the figures changed
+        run: |
+          git config user.name "living-review-bot"; git config user.email "actions@users.noreply.github.com"
+          git add _data/employment.json _includes/employment-table-en.md _includes/employment-table-fr.md
+          # the "read on" date alone is not a change worth a commit
+          if git diff --cached --quiet -I'"updated"' -I'read on' -I'lus le' ; then echo "figures unchanged"; exit 0; fi
+          git commit -m "Trackers: employment figures $(date -u +%F) [skip ci]" && git push

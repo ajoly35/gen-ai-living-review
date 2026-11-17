@@ -3,7 +3,7 @@
 #  - Monday 07:00 UTC                                -> weekly digest (entries added in the last 7 days)
 #  - push to main that adds updates/YYYY-MM.md       -> monthly email built from that review update (merging the
 #                                                       routine's pull request is the approval; see updates/README.md)
-#  - 5th of the month 07:10 UTC                      -> fallback only: entries digest, if no update was merged for last month
+#  - 20th of the month 07:10 UTC                     -> fallback only: entries digest, if no update was merged this month
 # Each run writes four emails (general brief and academic digest, English and French; HTML, text, Markdown) to
 # emails/ so they can be read, exported or pasted into Substack, and sends it through Buttondown to the subscribers carrying the matching tag when the
 # SUBSCRIBE_API + SEND_TOKEN secrets exist (self-hosted list, infra/subscribe-worker), or through Buttondown if only
@@ -15,7 +15,7 @@ on:
     paths: ["_includes/latest.md", "briefs/*.md", "briefs/fr/*.md", "updates/*.md", "updates/fr/*.md"]
   schedule:
     - cron: "0 7 * * 1"
-    - cron: "10 7 5 * *"
+    - cron: "10 7 20 * *"
   workflow_dispatch:
     inputs:
       kind:
@@ -44,7 +44,7 @@ jobs:
             [ -n "$upd" ] && kind=monthly
           fi
           if [ "$kind" = monthly ] && [ -z "$upd" ]; then
-            last=$(date -u -d "$(date -u +%Y-%m-01) -1 day" +%Y-%m)
+            last=$(date -u +%Y-%m)   # update pages are named after the month of the routine run (the 16th)
             if [ -f "updates/$last.md" ]; then
               if [ "${{ github.event_name }}" = schedule ]; then echo "update for $last already sent on merge"; echo "some=false" >> "$GITHUB_OUTPUT"; echo "kind=monthly" >> "$GITHUB_OUTPUT"; exit 0; fi
               upd="updates/$last.md"
