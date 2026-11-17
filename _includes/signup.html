@@ -2,7 +2,7 @@
 Sign-up box. Parameters: include.topic (employment | growth | productivity | all), include.lang (en | fr).
 If site.subscribe_api is set, the form posts (JSON, sent as text/plain so no preflight) to the self-hosted API: the Cloudflare Worker in
 infra/subscribe-worker (/api/subscribe) or the Apps Script web app in infra/subscribe-apps-script (?action=subscribe, URL on
-script.google.com). Confirmed opt-in, own list; name, email, frequency, lang and a honeypot field. Else if site.buttondown_username is set, the form posts to Buttondown (hosted list, double opt-in, unsubscribe link),
+script.google.com). Confirmed opt-in, own list; name, email, frequency, format, language of the emails (one or both) and a honeypot field. Else if site.buttondown_username is set, the form posts to Buttondown (hosted list, double opt-in, unsubscribe link),
 with the chosen frequency stored as a tag (daily, weekly, monthly; French readers get the -fr tag) that the
 email workflow (.github/workflows/email.yml) sends to. Otherwise the form composes an email to subscribe_email.
 {%- endcomment -%}
@@ -50,7 +50,12 @@ email workflow (.github/workflows/email.yml) sends to. Otherwise the form compos
       <label><input type="checkbox" name="audience" value="academic"> {% if l == "fr" %}Résumé académique : l'entrée complète (dispositif, chiffres, limite){% else %}Academic digest: the full entry (design, figures, caveat){% endif %}</label>
       <label><input type="checkbox" name="audience" value="policy"> {% if l == "fr" %}Le brief politiques publiques (quotidien) : le chômage en France, au Royaume-Uni et aux États-Unis, ce que font les pouvoirs publics face à l'IA, et les options sur la table{% else %}The policy brief (daily): unemployment in France, the UK and the US, what governments are doing about AI and work, and the options on the table{% endif %}</label>
     </fieldset>
-    <input type="hidden" name="lang" value="{{ l }}">
+    <fieldset class="signup-freq">
+      <legend>{% if l == "fr" %}Langue des courriels (une ou les deux){% else %}Language of the emails (one or both){% endif %}</legend>
+      <label><input type="checkbox" name="lang" value="en"{% if l != "fr" %} checked{% endif %}> {% if l == "fr" %}Anglais{% else %}English{% endif %}</label>
+      <label><input type="checkbox" name="lang" value="fr"{% if l == "fr" %} checked{% endif %}> {% if l == "fr" %}Français{% else %}French{% endif %}</label>
+    </fieldset>
+    <input type="hidden" name="ui" value="{{ l }}">
     <input type="text" name="hp" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-10000px;width:1px;height:1px;opacity:0">
     <div class="signup-actions">
       <button type="submit" class="btn btn-primary">{% if l == "fr" %}S'inscrire{% else %}Sign up{% endif %}</button>
@@ -60,8 +65,8 @@ email workflow (.github/workflows/email.yml) sends to. Otherwise the form compos
   </form>
   <script>
   (function(){var f=document.getElementById('sh-form'),m=document.getElementById('sh-msg');if(!f)return;
-    f.addEventListener('submit',function(e){e.preventDefault();var fd=new FormData(f),d={};fd.forEach(function(v,k){if(k==='frequency'||k==='audience'){(d[k]=d[k]||[]).push(v);}else{d[k]=v;}});
-      if(!d.frequency||!d.audience){m.textContent=(f.getAttribute('data-lang')==='fr')?'Choisissez au moins un rythme et un format.':'Pick at least one rhythm and one format.';m.hidden=false;return;}
+    f.addEventListener('submit',function(e){e.preventDefault();var fd=new FormData(f),d={};fd.forEach(function(v,k){if(k==='frequency'||k==='audience'||k==='lang'){(d[k]=d[k]||[]).push(v);}else{d[k]=v;}});
+      if(!d.frequency||!d.audience||!d.lang){m.textContent=(f.getAttribute('data-lang')==='fr')?'Choisissez au moins un rythme, un format et une langue.':'Pick at least one rhythm, one format and one language.';m.hidden=false;return;}
       var btn=f.querySelector('button');btn.disabled=true;
       fetch(f.getAttribute('action'),{method:'POST',headers:{'Content-Type':'text/plain;charset=UTF-8'},body:JSON.stringify(d)})
         .then(function(r){return r.json();}).then(function(j){m.textContent=j.message||(j.ok?'OK':'Error');m.hidden=false;if(j.ok){f.email.value='';}})

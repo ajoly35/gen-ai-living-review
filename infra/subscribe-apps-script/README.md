@@ -52,7 +52,7 @@ that account only (open a private window), so the Sheet, the script and the web 
    clients still hits the script URL directly, which works because mail clients send no Google cookies either.
 
 ## Audiences and tags
-Subscribers tick one or more rhythms (daily, weekly, monthly) and one or both formats, stored as comma-separated lists in the `frequency` and `audience` cells (a send to tag `weekly-academic` reaches every confirmed reader whose lists contain `weekly` and `academic`). Formats: **general** (the plain-language brief: what it explores, why
+Subscribers tick one or more rhythms (daily, weekly, monthly) one or more formats and one or both languages, stored as comma-separated lists in the `frequency`, `audience` and `lang` cells (`en`, `fr` or `en,fr`; a reader with `en,fr` gets both the English and the French email) (a send to tag `weekly-academic` reaches every confirmed reader whose lists contain `weekly` and `academic`). Formats: **general** (the plain-language brief: what it explores, why
 it matters, how it fits the evidence, one chart) or **academic** (the full entry). The Sheet has an `audience` column; the send
 tag is `freq[-academic][-fr]`, e.g. `daily`, `daily-academic`, `weekly-fr`, `monthly-academic-fr`. The email workflow builds and
 sends the four variants per run. The general brief reads the `**In brief.**` block the routine writes under each entry (three

@@ -2,7 +2,7 @@
  * Self-hosted subscriptions for the living review, Google version: Apps Script web app + Google Sheet + Gmail.
  * Same design as econvitals.org/subscribe (own confirmed opt-in form, own list, own sender) with Google as the server.
  * Endpoints (one URL, the web app's /exec, with ?action=):
- *   POST ?action=subscribe   body JSON {name, email, frequency, lang, audience, hp}  -> confirmation email (link to SITE_URL/subscribed/?t=)
+ *   POST ?action=subscribe   body JSON {name, email, frequency, lang, ui, audience, hp}; lang = "en", "fr" or both (list), ui = language of the page  -> confirmation email (link to SITE_URL/subscribed/?t=)
  *   GET  ?action=confirm&t=TOKEN[&json=1]   -> status confirmed; json=1 answers JSON (used by the site page), else redirects
  *   GET  ?action=unsubscribe&t=TOKEN  -> status unsubscribed, redirect to /unsubscribed/   (POST also accepted)
  *   POST ?action=send        body JSON {token, subject, html, text, tag, dry_run}  -> tag = daily|weekly|monthly[-academic|-policy][-fr]
@@ -14,7 +14,7 @@
 var FREQ = ["daily", "weekly", "monthly"], LANG = ["en", "fr"];
 var HEAD = ["email", "name", "frequency", "lang", "status", "token", "created_at", "confirmed_at", "unsubscribed_at", "audience"];
 var AUD = ["general", "academic", "policy"];
-// A reader may tick several rhythms and both formats: stored as comma-separated lists, e.g. "daily,weekly" / "general,academic".
+// A reader may tick several rhythms, several formats and both languages: stored as comma-separated lists, e.g. "daily,weekly" / "general,academic" / "en,fr".
 function pickList_(v, allowed, dflt) { var a = Array.isArray(v) ? v : String(v || "").split(","); var out = [];
   a.forEach(function (x) { x = String(x).trim(); if (allowed.indexOf(x) >= 0 && out.indexOf(x) < 0) out.push(x); }); return out.length ? out.join(",") : dflt; }
 function hasIn_(cell, value) { return String(cell || "").split(",").indexOf(value) >= 0; }
@@ -78,7 +78,8 @@ function doPost(e) { var a = (e.parameter.action || ""); var b = {};
   return out({ ok: false, message: "Not found" }); }
 
 function subscribe_(b) {
-  var lang = LANG.indexOf(b.lang) >= 0 ? b.lang : "en"; var t = T[lang];
+  var langs = pickList_(b.lang, LANG, "en");                                   // emails wanted: "en", "fr" or "en,fr"
+  var lang = LANG.indexOf(b.ui) >= 0 ? b.ui : langs.split(",")[0]; var t = T[lang];   // language of the page: messages and confirmation email
   if (b.hp) return out({ ok: true, message: t.pending });                       // honeypot: pretend
   var email = String(b.email || "").trim().toLowerCase();
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email) || email.length > 254) return out({ ok: false, message: t.bad });
@@ -86,16 +87,16 @@ function subscribe_(b) {
   var lock = LockService.getScriptLock(); lock.waitLock(10000);
   try {
     var all = rows(), r = null; for (var i = 0; i < all.length; i++) if (all[i].email === email) r = all[i];
-    if (r && r.status === "confirmed") { if (name) setCell(r._row, "name", name); setCell(r._row, "frequency", freq); setCell(r._row, "lang", lang); setCell(r._row, "audience", aud); return out({ ok: true, message: t.already }); }
+    if (r && r.status === "confirmed") { if (name) setCell(r._row, "name", name); setCell(r._row, "frequency", freq); setCell(r._row, "lang", langs); setCell(r._row, "audience", aud); return out({ ok: true, message: t.already }); }
     var tok = r ? r.token : token();
-    if (r) { if (name) setCell(r._row, "name", name); setCell(r._row, "frequency", freq); setCell(r._row, "lang", lang); setCell(r._row, "audience", aud); setCell(r._row, "status", "pending"); }
-    else sheet("subscribers").appendRow([email, name, freq, lang, "pending", tok, now(), "", "", aud]);
+    if (r) { if (name) setCell(r._row, "name", name); setCell(r._row, "frequency", freq); setCell(r._row, "lang", langs); setCell(r._row, "audience", aud); setCell(r._row, "status", "pending"); }
+    else sheet("subscribers").appendRow([email, name, freq, langs, "pending", tok, now(), "", "", aud]);
   } finally { lock.releaseLock(); }
   var url = siteUrl_(lang) + "subscribed/?t=" + tok, html = t.body(name, url, freq.split(",").map(function (f) { return FL[lang][f]; }).join(lang === "fr" ? " et " : " and "));
   mail_(email, t.subject, html, html.replace(/<[^>]+>/g, " ") + "\n" + url);
   return out({ ok: true, message: t.pending });
 }
-function siteUrl_(lang) { return cfg("SITE_URL") + "/" + (lang === "fr" ? "fr/" : ""); }
+function siteUrl_(lang) { return cfg("SITE_URL") + "/" + (String(lang || "").split(",")[0] === "fr" ? "fr/" : ""); }   // a list: its first language
 function find_(tok) { var all = rows(); for (var i = 0; i < all.length; i++) if (tok && all[i].token === tok) return all[i]; return null; }
 function confirm_(tok, asJson) { var r = find_(tok); if (!r) return asJson ? out({ ok: false, message: "unknown" }) : ContentService.createTextOutput("Unknown or expired link.");
   if (r.status !== "confirmed") { setCell(r._row, "status", "confirmed"); setCell(r._row, "confirmed_at", now()); }
@@ -111,7 +112,7 @@ function send_(b) {
   var tag = String(b.tag || "weekly"), lang = /-fr$/.test(tag) ? "fr" : "en", rest = tag.replace(/-fr$/, "");
   var aud = /-academic$/.test(rest) ? "academic" : /-policy$/.test(rest) ? "policy" : "general", freq = rest.replace(/-(academic|policy)$/, "");
   if (FREQ.indexOf(freq) < 0 || !b.subject || !b.html) return out({ ok: false, message: "Need subject, html and a valid tag (freq[-academic|-policy][-fr])" });
-  var list = rows().filter(function (r) { return r.status === "confirmed" && hasIn_(r.frequency, freq) && r.lang === lang && hasIn_(r.audience || "general", aud); });
+  var list = rows().filter(function (r) { return r.status === "confirmed" && hasIn_(r.frequency, freq) && hasIn_(r.lang || "en", lang) && hasIn_(r.audience || "general", aud); });
   var quota = quota_(), sent = 0, skipped = 0, base = selfUrl();
   for (var i = 0; i < list.length; i++) {
     if (b.dry_run) { sent++; continue; }
