@@ -6,6 +6,8 @@ Barwick, Panle Jia, Lu Fang, Jinhan Liu, Huilan Xu, and Zhe Yuan. 2026. *AI as S
 
 Bianchini, Stefano, and Georgiana-Ioana Coroama. 2026. *LLMs and the Organization of Scientific Work*. arXiv:2611.02996. [Link](https://arxiv.org/abs/2611.02996).
 
+Björkegren, Daniel, David Lagakos, and Mitchell VanVuren. 2026. *Will AI Growth Reach the Developing World?* Working Paper No. 36035. NBER. [Link](https://www.nber.org/papers/w36035).
+
 Carollo, Nick, Leland D. Crane, Daniel Garcia Molina, and Joseph Nichols. 2026. *Artificial Intelligence and the U.S. Economy: Current Evidence*. Finance and Economics Discussion Series 2026-074. Board of Governors of the Federal Reserve System, 12 November. [Link](https://doi.org/10.17016/FEDS.2026.074).
 
 Chin, Caroline, Shagun Kala, Nadav Kunievsky, Teng Liu, Alex Martin Richmond, and Carl Shan. 2026. *The Rebundling of Freelance Work in the AI Age*. arXiv:2611.14708. [Link](https://arxiv.org/abs/2611.14708).
@@ -17,8 +19,6 @@ Conlon, John J., and Peter Schwardmann. 2026. *Creative Destruction: Human-AI Co
 Diener, Moritz, Daniel Hendriks, Philipp Spitzer, Gerhard Satzger, Joshua Holstein, and Wei Sun. 2026. *Today’s Work, Tomorrow’s Workforce: Incentivizing Learning in AI-Assisted Work*. arXiv:2611.06346. [Link](https://arxiv.org/abs/2611.06346).
 
 Esposito, Mark, and Liu Zhang. 2026. *AI and the Two Margins of Work: Why Job Losses Show Up Before Job Creation*. arXiv:2611.17530. [Link](https://arxiv.org/abs/2611.17530).
-
-Fernández-Villaverde, Jesús. 2026. *Saving for the Machines*. Working Paper No. 35964. NBER. [Link](https://www.nber.org/papers/w35964).
 
 Fleck, Lara, Marie-Christine Fregin, Andries de Grip, and Sanne Steens. 2026. *AI Implementation at Work: Worker Preferences for Task Changes*. IZA Discussion Paper No. 19076. IZA@LISER Network, November. [Link](https://www.iza.org/publications/dp/19076/ai-implementation-at-work-worker-preferences-for-task-changes).
 

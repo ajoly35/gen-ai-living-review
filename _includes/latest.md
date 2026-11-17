@@ -1,5 +1,21 @@
 New papers on AI and labour markets and AI and growth, newest first, each placed against the review below. Every figure is checked against the paper itself.
 
+### Björkegren, Lagakos and VanVuren (2026), "Will AI Growth Reach the Developing World?"
+<!-- kind: paper -->
+
+Columbia, Boston University and Vanderbilt, NBER Working Paper 36035, November 2026. [Paper](https://www.nber.org/papers/w36035). Two-country growth model with a world market for AI, simulated over 25 years; theory and calibration, not a causal design.
+
+**In brief.**
+What it explores: Whether fast progress in AI will lift poor countries as much as rich ones, or leave them further behind.
+Why it matters: Most AI growth forecasts cover only rich economies, home to a minority of the world's people.
+How it fits the evidence: It takes US growth scenarios to a world where rich countries bid up the price of AI.
+
+**What it finds.** AI raises developing-economy incomes, but advanced-economy incomes more. With AI productivity growing 15% or 50% a year, the income gap widens by at least 40% in about half of scenarios. If AI substitutes for labour and grows 50% a year, every draw diverges without bound; if it complements labour, the typical gap grows 2.4-fold. Missing complementary skills and rich-country demand for AI drive this. An AI-use subsidy returns 11 cents per dollar; closing 1% of the productivity gap yearly lets the poor economy outgrow the rich one under modest AI growth. Halting consumption divergence needs transfers of 1 to 15% of advanced-economy GDP, against 0.22% for US aid in 2024.
+
+**Where it fits.** It extends the companion review's task-gain scenarios (Korinek et al. 2026) and its section on who captures the gains (Restrepo 2025) to two economies sharing one AI market. Satiated demand for AI-intensive output acts like the weak links of Jones and Tonetti (2026). Wage losses for skilled workers whose tasks AI does match section [“Exposure designs: wages”](#exposure-designs-wages).
+
+**Caveat.** Results hinge on unmeasured substitution and satiation parameters; 95% bands are ten times wider than the median path. Björkegren has received research funding from AI companies.
+
 ### Esposito and Zhang (2026), "AI and the Two Margins of Work: Why Job Losses Show Up Before Job Creation"
 <!-- kind: paper -->
 
@@ -256,13 +272,3 @@ NBER Working Paper 35950, 26 October 2026. [Paper](https://www.nber.org/papers/w
 **Where it fits.** Acemoglu et al. (2026) argue that rents push firms towards replacement automation; here, when the worker holds the knowledge the AI needs, rents rise and automation slows (section [“Organisation: who decides how AI is used”](#organisation-who-decides-how-ai-is-used)). It adds a channel to the slow diffusion the review explains by management and restructuring costs (Coyle et al. 2026; Bergeaud and Bunel 2026; [Main patterns](#main-patterns)), and predicts higher pay while workers train their replacement.
 
 **Caveat.** Untested predictions; if the AI only augments the job, the wage premium and the slowdown vanish.
-
-### Fernández-Villaverde (2026), "Saving for the Machines"
-
-NBER Working Paper 35964, 2 November 2026. [Paper](https://www.nber.org/papers/w35964). Calibrated growth model with optimal household saving and a transition to full automation over 2025 to 2045; theory, for the companion growth review.
-
-**What it finds.** How fast automation raises growth depends on how much households save, not only on the technology. In a US-calibrated task model where every task becomes automatable by 2045, growth with strongly complementary tasks reaches 11.7% a year under optimal saving, against 2.2% if saving stays at its 2025 rate of 23%. Saving rises because the capital share goes from one third to one. Under full automation wages stay between a quarter and a half of trend; if only 85% of tasks become automatable, the last human tasks earn scarcity rents and wages rise to nine times trend. Households with no assets lose 40% to 65% of their consumption; keeping their labour income on trend costs 4% to 20% of GDP at the peak.
-
-**Where it fits.** Jones and Tonetti (2026) set $$\sigma=0.2$$ and find slow acceleration; with optimal saving the same weak links give double-digit growth, which locates the bottleneck in capital supply rather than technology (companion review). Gains go to capital, so who owns the machines decides who captures them ([Main patterns](#main-patterns)).
-
-**Caveat.** Benchmarks, not forecasts: the automation path is assumed, and a representative household is the most elastic case for capital supply.

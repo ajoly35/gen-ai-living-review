@@ -1,5 +1,21 @@
 Nouveaux articles sur l'IA et les marchés du travail et sur l'IA et la croissance, du plus récent au plus ancien, chacun situé par rapport à la revue ci-dessous. Chaque chiffre est vérifié dans l'article lui-même.
 
+### Björkegren, Lagakos and VanVuren (2026), "Will AI Growth Reach the Developing World?" {#bjrkegren-lagakos-and-vanvuren-2026-will-ai-growth-reach-the-developing-world}
+<!-- kind: paper -->
+
+Columbia, Boston University et Vanderbilt, NBER Working Paper 36035, novembre 2026. [Article](https://www.nber.org/papers/w36035). Modèle de croissance à deux pays avec un marché mondial de l'IA, simulé sur 25 ans ; théorie et calibration, pas de dispositif causal.
+
+**En bref.**
+Ce qu'elle explore : si les progrès rapides de l'IA enrichiront les pays pauvres autant que les pays riches, ou les laisseront plus loin derrière.
+Pourquoi c'est important : la plupart des prévisions sur l'IA et la croissance ne couvrent que les pays riches, où vit une minorité de la population mondiale.
+Ce que cela change aux preuves : l'étude transpose des scénarios conçus pour les États-Unis à un monde où les pays riches font monter le prix de l'IA.
+
+**Ce que l'étude trouve.** L'IA augmente les revenus de l'économie en développement, mais davantage ceux de l'économie avancée. Avec une productivité de l'IA qui croît de 15% ou de 50% par an, l'écart de revenu se creuse d'au moins 40% dans environ la moitié des scénarios. Si l'IA se substitue au travail et croît de 50% par an, tous les tirages divergent sans limite ; si elle le complète, l'écart typique est multiplié par 2.4. Le manque de compétences complémentaires et la demande d'IA des pays riches expliquent ce résultat. Une subvention à l'usage de l'IA rapporte 11 cents par dollar dépensé ; combler chaque année 1% de l'écart de productivité permet au pays pauvre de croître plus vite que le pays riche quand l'IA progresse modérément. Empêcher l'écart de consommation de se creuser exige des transferts de 1 à 15% du PIB de l'économie avancée, contre 0.22% pour l'aide américaine en 2024.
+
+**Où cela se place.** L'étude étend à deux économies partageant un même marché de l'IA les scénarios de gains par tâche de la revue compagnon (Korinek et al. 2026) et sa section sur qui capte les gains (Restrepo 2025). La saturation de la demande de biens intensifs en IA joue comme les maillons faibles de Jones et Tonetti (2026). Les pertes de salaire des travailleurs qualifiés dont l'IA fait les tâches rejoignent la section [« Approches par l'exposition : salaires »](#exposure-designs-wages).
+
+**Limite.** Les résultats dépendent de paramètres de substitution et de saturation non mesurés ; les intervalles à 95% sont dix fois plus larges que la trajectoire médiane. Björkegren a reçu des financements de recherche d'entreprises d'IA.
+
 ### Esposito and Zhang (2026), "AI and the Two Margins of Work: Why Job Losses Show Up Before Job Creation" {#esposito-and-zhang-2026-ai-and-the-two-margins-of-work-why-job-losses-show-up-before-job-creation}
 <!-- kind: paper -->
 
@@ -256,13 +272,3 @@ NBER Working Paper 35950, 26 octobre 2026. [Article](https://www.nber.org/papers
 **Où cela se place.** Acemoglu et al. (2026) soutiennent que les rentes poussent les entreprises vers l'automatisation de remplacement ; ici, lorsque le travailleur détient le savoir dont l'IA a besoin, les rentes augmentent et l'automatisation ralentit (section [« Organisation : qui décide de l'usage de l'IA »](#organisation-who-decides-how-ai-is-used)). Cela ajoute un canal à la diffusion lente que la revue explique par les coûts de management et de restructuration (Coyle et al. 2026 ; Bergeaud et Bunel 2026 ; [Principales régularités](#main-patterns)), et prédit des salaires plus élevés pendant que les travailleurs entraînent leur remplaçant.
 
 **Limite.** Prédictions non testées ; si l'IA ne fait que compléter le poste, la prime salariale et le ralentissement disparaissent.
-
-### Fernández-Villaverde (2026), "Saving for the Machines" {#fernández-villaverde-2026-saving-for-the-machines}
-
-NBER Working Paper 35964, 2 novembre 2026. [Article](https://www.nber.org/papers/w35964). Modèle de croissance calibré avec épargne optimale des ménages et transition vers l'automatisation complète sur 2025 à 2045 ; théorie, pour la revue compagnon sur la croissance.
-
-**Ce que l'étude trouve.** La vitesse à laquelle l'automatisation accélère la croissance dépend de combien les ménages épargnent, et pas seulement de la technologie. Dans un modèle par tâches calibré sur les États-Unis où chaque tâche devient automatisable d'ici 2045, la croissance avec des tâches fortement complémentaires atteint 11.7% par an sous épargne optimale, contre 2.2% si l'épargne reste à son taux de 2025, 23%. L'épargne augmente parce que la part du capital passe d'un tiers à un. Sous automatisation complète, les salaires restent entre un quart et la moitié de la tendance ; si seulement 85% des tâches deviennent automatisables, les dernières tâches humaines perçoivent des rentes de rareté et les salaires montent à neuf fois la tendance. Les ménages sans actifs perdent 40% à 65% de leur consommation ; maintenir leur revenu du travail sur la tendance coûte 4% à 20% du PIB au pic.
-
-**Où cela se place.** Jones et Tonetti (2026) posent $$\sigma=0.2$$ et trouvent une accélération lente ; avec une épargne optimale, les mêmes maillons faibles donnent une croissance à deux chiffres, ce qui situe le goulet d'étranglement dans l'offre de capital plutôt que dans la technologie (revue compagnon). Les gains vont au capital, de sorte que la propriété des machines décide de qui les capte ([Principales régularités](#main-patterns)).
-
-**Limite.** Des repères, non des prévisions : la trajectoire d'automatisation est supposée, et un ménage représentatif est le cas le plus élastique pour l'offre de capital.
