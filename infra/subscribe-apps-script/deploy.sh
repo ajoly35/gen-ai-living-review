@@ -6,7 +6,7 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 [ -f Config.gs ] || { echo "Config.gs missing: cp Config.example.gs Config.gs and fill SEND_TOKEN"; exit 1; }
-CLASP="npx --yes @google/clasp@2"
+CLASP="npx --yes @google/clasp@3"   # the saved login (~/.clasprc.json) is in the v3 format; v2 fails with a token error
 if [ "${1:-}" = update ]; then
   $CLASP push -f
   echo "Code pushed. Now publish it: in the editor, Deploy > Manage deployments > pencil > Version: New version > Deploy."
