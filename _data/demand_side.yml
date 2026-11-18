@@ -1,0 +1,187 @@
+# Evidence from the demand side: do firms that adopt AI or automation grow their employment?
+# One entry per study. Rendered on /productivity/ (section "Evidence from the demand side").
+# Fields:
+#   generation: pre-genai | genai
+#   design:     causal | descriptive
+#   class:      supports | mixed | contradicts   (supports = adopters grow employment)
+#   finding:    one sentence, every number with its comparison point
+#   added:      date the entry entered this table (YYYY-MM-DD)
+# Rule used for the textbook check (chapter 6, encadré 6.2): the claim "the demand effect dominates"
+# holds for a generation if most of its CAUSAL studies are classed "supports".
+# First built 2026-11-18 from the living review and source PDFs; numbers checked against the papers.
+
+- id: aghion2025uses
+  citation: "Aghion, Bunel, Jaravel, Mikaelsen, Roulet and Søgaard (2025), AEA Papers and Proceedings"
+  url: "https://doi.org/10.1257/pandp.20251047"
+  country: France
+  period: "adoption 2017-2020"
+  generation: pre-genai
+  design: causal
+  class: supports
+  finding: "Employment and sales of adopting firms rise, with semi-elasticities of about 0.05 after a few years, relative to non-adopters (event study, 232 adopters). Does not cover generative AI."
+  added: 2026-11-18
+
+- id: aghion2023manufacturing
+  citation: "Aghion, Antonin, Bunel and Jaravel (2023), Insee working paper 2023-12"
+  url: "https://www.insee.fr/en/statistiques/7613955"
+  country: France
+  period: "1995-2017"
+  generation: pre-genai
+  design: causal
+  class: supports
+  finding: "Investment in modern manufacturing capital (automation, not AI) raises employment at plant, firm and industry level; the industry-level gain holds only in industries facing import competition."
+  added: 2026-11-18
+
+- id: hirvonen2025
+  citation: "Hirvonen, Stenhammar and Tuhkuri (2025), RFBerlin discussion paper 04/25"
+  url: "https://rfberlin.com/wp-content/uploads/2025/02/25004.pdf"
+  country: Finland
+  period: "1994-2018"
+  generation: pre-genai
+  design: causal
+  class: supports
+  finding: "Manufacturing firms that won technology grants (robots, CNC machines) raise employment by 23% relative to close losers, with no detectable change in productivity."
+  added: 2026-11-18
+
+- id: babina2024jfe
+  citation: "Babina, Fedyk, He and Hodson (2024), Journal of Financial Economics"
+  url: "https://alexxihe.github.io/jfe.pdf"
+  country: United States
+  period: "2010-2018"
+  generation: pre-genai
+  design: causal
+  class: supports
+  finding: "One standard deviation more AI investment raises sales by 19.5% and employment by 18.1% over eight years, through new products; no change in sales per worker or total factor productivity."
+  added: 2026-11-18
+
+- id: babina2023firm
+  citation: "Babina, Fedyk, He and Hodson (2023), NBER working paper 31325"
+  url: "https://doi.org/10.3386/w31325"
+  country: United States
+  period: "2010-2018"
+  generation: pre-genai
+  design: causal
+  class: mixed
+  finding: "AI investment makes workforces more educated and flatter: the junior share rises by 1.6% and middle and senior management shares fall, per standard deviation of AI investment."
+  added: 2026-11-18
+
+- id: hampole2025ai
+  citation: "Hampole, Papanikolaou, Schmidt and Seegmiller (2025), NBER working paper 33509"
+  url: "https://www.nber.org/papers/w33509"
+  country: United States
+  period: "2010-2023"
+  generation: pre-genai
+  design: causal
+  class: supports
+  finding: "Exposed tasks lose demand, but overall employment effects are modest because productivity-driven hiring at AI-adopting firms offsets the loss."
+  added: 2026-11-18
+
+- id: acemoglu2022ai
+  citation: "Acemoglu, Autor, Hazell and Restrepo (2022), Journal of Labor Economics"
+  url: "https://www.nber.org/papers/w28257"
+  country: United States
+  period: "2010-2018"
+  generation: pre-genai
+  design: causal
+  class: contradicts
+  finding: "AI-exposed establishments reduce hiring in non-AI positions; no discernible relationship with employment or wage growth at occupation or industry level."
+  added: 2026-11-18
+
+- id: hosseini2025seniority
+  citation: "Hosseini and Lichtinger (2025), SSRN 5425555"
+  url: "https://papers.ssrn.com/abstract=5425555"
+  country: United States
+  period: "2015-2025, 281,000 firms"
+  generation: genai
+  design: causal
+  class: contradicts
+  finding: "Junior employment at adopting firms falls by about 8% eight quarters after adoption, relative to non-adopters; senior employment is unaffected."
+  added: 2026-11-18
+
+- id: chandar2026labor
+  citation: "Chandar and Klein Teeselink (2026)"
+  url: ""
+  country: "41 countries (multinational affiliates)"
+  period: "to March 2026"
+  generation: genai
+  design: causal
+  class: mixed
+  finding: "Total employment of adopting affiliates rises by 3.3% (significant only at 10%), senior employment by 6.7%, while junior employment does not change significantly."
+  added: 2026-11-18
+
+- id: bonin2026firmsize
+  citation: "Bonin, Darougheh and Kuchler (2026), Danmarks Nationalbank working paper 223"
+  url: ""
+  country: Denmark
+  period: "2020-2025, monthly registers"
+  generation: genai
+  design: causal
+  class: contradicts
+  finding: "Employment at 2023 adopters is about 11% below each firm's own trend by late 2025, driven by small firms and by workers with under two years' tenure; no significant effect on revenue, profits or productivity."
+  added: 2026-11-18
+
+- id: bergeaud2026lift
+  citation: "Bergeaud, Bertheau, Bunel, Degos and Palladino (2026), LIFT policy paper 2026-02"
+  url: "https://heclift.github.io/website/"
+  country: France
+  period: "2021-2026"
+  generation: genai
+  design: descriptive
+  class: mixed
+  finding: "Intensive generative-AI users hire 17% to 25% fewer young workers on permanent contracts in 2025 than other firms in the same sector, while their total headcount is not significantly different (-2% to -3%). The authors call the design descriptive."
+  added: 2026-11-18
+
+- id: kharazian2026spending
+  citation: "Kharazian et al. (2026), Ramp and Revelio Labs"
+  url: "https://ramp.com/data/ai-jobs-impact/paper"
+  country: United States
+  period: "21,559 adopters"
+  generation: genai
+  design: causal
+  class: supports
+  finding: "The top third of AI spenders raise headcount by 10% and entry-level headcount by 12% relative to not-yet adopters with similar spending; low-intensity adopters show no significant change."
+  added: 2026-11-18
+
+- id: humlum2025still
+  citation: "Humlum and Vestergaard (2025), NBER working paper 33777"
+  url: "https://www.nber.org/papers/w33777"
+  country: Denmark
+  period: "2023-2024"
+  generation: genai
+  design: causal
+  class: mixed
+  finding: "Workplaces that encourage chatbot use show no change in employment, wage bill or hiring of early-career workers relative to other workplaces."
+  added: 2026-11-18
+
+- id: johnston2026makridis
+  citation: "Johnston and Makridis (2026)"
+  url: ""
+  country: "United States (industry by state)"
+  period: "effects from 2021"
+  generation: genai
+  design: causal
+  class: mixed
+  finding: "One standard deviation more AI exposure raises output by 7%; employment rises by 4% where AI needs human collaboration and does not change where AI can do tasks alone."
+  added: 2026-11-18
+
+- id: bonney2026census
+  citation: "Bonney et al. (2026), US Census Bureau CES working paper 26-25"
+  url: "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-25.pdf"
+  country: United States
+  period: "Nov 2025-Jan 2026 survey"
+  generation: genai
+  design: descriptive
+  class: mixed
+  finding: "18% of firms use AI in a business function; AI-related employment falls in only 2% of firms, and rises in about as few."
+  added: 2026-11-18
+
+- id: genre2026bdf
+  citation: "Genre and Parpais (2026), Bulletin de la Banque de France 266"
+  url: "https://www.banque-france.fr/system/files/2026-09/BDF266-1_IA-et-entreprises_web.pdf"
+  country: France
+  period: "Feb-Apr 2026 survey"
+  generation: genai
+  design: descriptive
+  class: mixed
+  finding: "Net balance of generative-AI users reporting fewer employees because of AI: 2%; firms expect a moderately negative effect on employment over three years."
+  added: 2026-11-18
