@@ -1,0 +1,53 @@
+# IA et travail, en bref : 18 novembre 2026
+
+# IA et travail, en bref
+
+
+
+## Aujourd'hui en trois lignes
+
+- Quand un outil d'IA a commencé à relire le code de logiciels libres, les responsables de ces projets ont eu plus de travail, pas moins : environ un dixième de modifications supplémentaires à examiner.
+- L'IA a accéléré chaque relecture, mais elle a aussi attiré davantage de propositions, souvent envoyées par des comptes automatiques.
+- L'enseignement dépasse l'informatique : quand l'IA rend la production moins coûteuse, la personne chargée de vérifier le résultat peut devenir le goulot d'étranglement.
+
+## La nouvelle recherche, en mots simples
+
+### Un relecteur par IA a donné plus de travail, pas moins, aux responsables de projets logiciels
+
+**Ce qu'elle explore.** Une grande partie des logiciels dans le monde sont développés au grand jour. Tout le monde peut proposer une modification à un projet, et quelques responsables, les mainteneurs, décident de l'accepter ou non. En février 2025, GitHub, qui héberge la plupart de ces projets, a lancé un outil de relecture par IA qui commente chaque modification soumise. Des chercheurs de l'université de Tilburg ont suivi environ 4 000 projets populaires de mars 2024 à février 2026. Ils ont comparé mois par mois environ 700 mainteneurs ayant activé cet outil à environ 1 900 autres qui ne l'avaient pas fait.
+
+**Pourquoi c'est important.** Après avoir activé l'outil, les mainteneurs ont examiné environ un dixième de modifications de plus que ceux qui ne l'utilisaient pas encore, et rédigé environ un septième de commentaires en plus par modification. Les contributeurs humains ont envoyé une vague de propositions le premier mois, avant d'en soumettre moins qu'avant, et de plus petite taille. À l'inverse, les propositions venues de comptes automatiques ont continué d'augmenter. L'outil a rendu chaque relecture plus rapide, mais il a fait grossir la pile de dossiers à traiter.
+
+**Ce que cela change aux preuves.** Notre revue de la littérature montre que l'IA fait surtout gagner du temps dans les postes existants, et que de nouvelles tâches n'émergent que lorsque les entreprises se réorganisent. Cet article met en lumière un troisième scénario : un outil pensé pour gagner du temps a donné plus de travail à ceux qui valident à la fin. Deux limites tout de même : les mainteneurs ont choisi eux-mêmes d'activer l'outil, et l'on parle ici de projets bénévoles, pas d'équipes salariées.
+
+[Entrée complète](https://ajoly35.github.io/gen-ai-living-review/fr/latest/#xu-medappa-and-tunc-2026-does-the-ai-reviewer-alleviate-or-aggravate-the-maintenance-burden-evidence-from-github-copilot-reviewer) · [Article](https://arxiv.org/abs/2611.22793)
+
+## Comment les pièces s'assemblent
+
+Lorsque l'IA arrive au travail, deux logiques s'affrontent : produire autant avec moins de personnel, ou abaisser le coût du travail pour produire davantage. L'étude du jour illustre clairement la seconde logique. Comme relire le code coûtait moins de temps, davantage de modifications ont afflué, et les responsables se sont retrouvés plus chargés.
+
+Cette étude éclaire aussi la façon dont on organise l'usage de l'IA. Les mainteneurs ont délégué le premier tri à une machine, tout en gardant la décision finale. C'est exactement ainsi que procèdent la plupart des entreprises aujourd'hui. Notre revue de la littérature montre que ce sont ces choix d'organisation, bien plus que l'outil lui-même, qui déterminent si l'IA détruit du travail ou en crée. Ici, maintenir un humain en bout de chaîne a fait de son temps une ressource rare.
+
+La plupart des travaux sur l'emploi pointent dans une autre direction : les jeunes décrochent moins de premiers postes dans les métiers les plus touchés par l'IA, avec des baisses allant jusqu'à un quart aux États-Unis, en Suède, au Royaume-Uni et en France. Les salaires reculent par endroits, tandis que l'emploi total ne bouge pas encore. L'étude du jour ne mesure ni l'emploi ni les salaires, mais elle lance un avertissement : le travail de vérification peut gonfler aussi vite que la production.
+
+## Une idée expliquée : comment les économistes distinguent un effet d'une coïncidence
+
+Imaginez qu'un service hospitalier reçoive un nouveau moniteur cardiaque et compte moins de complications un mois plus tard. Faut-il remercier le moniteur ? Ou bien la fin de l'hiver, voire l'arrivée d'une nouvelle infirmière en chef ? Pour trancher, il faut regarder un second service resté sans moniteur, afin de voir comment les choses auraient évolué autrement.
+
+C'est sur ce principe que reposent les études les plus solides sur l'IA et le travail. Brynjolfsson, Li et Raymond ont suivi environ 5 000 agents du service client d'un grand éditeur de logiciels. L'entreprise a équipé ses équipes d'un assistant conversationnel par IA, mais de façon étalée dans le temps. Les chercheurs ont donc pu comparer, au cours des mêmes semaines, les agents déjà équipés à ceux qui attendaient encore leur tour. Le nombre de demandes résolues par heure a grimpé d'environ un septième en moyenne, et d'environ un tiers chez le cinquième d'agents qui travaillaient le moins vite au départ.
+
+L'étude du jour sur les logiciels suit exactement la même logique en comparant les mainteneurs qui ont activé l'IA à ceux qui ne l'avaient pas encore fait. Sa principale limite est un piège classique à garder en tête : ceux qui ont décidé d'adopter l'outil étaient peut-être différents des autres dès le départ.
+
+Que vous soyez étudiant, salarié ou employeur, retenez une règle simple. Quand on vous affirme que tel résultat vient de l'IA, demandez toujours : par rapport à qui ?
+
+## Où en sont les preuves
+
+![Études sur l'emploi, les embauches ou les salaires, par dispositif. Orange : moins d'emplois, d'embauches ou de salaire. Gris : pas d'effet mesurable. Bleu : gains.](https://ajoly35.github.io/gen-ai-living-review/assets/vitals/direction-by-design-fr.png)
+
+Chaque barre recense des études portant sur l'emploi, les embauches ou les salaires : en orange lorsqu'elles constatent un recul, en gris lorsqu'elles ne relèvent aucun effet mesurable, en bleu lorsqu'elles observent une hausse. Les travaux sur la vitesse d'exécution concluent à des gains, ceux sur les embauches à des baisses, et ceux sur l'emploi total ne voient encore rien bouger. Comme l'étude du jour porte sur la charge de travail plutôt que sur l'emploi ou les salaires, elle n'ajoute pas de nouvelle barre au graphique. Elle explique en revanche pourquoi les gains de temps observés sur le terrain ne se traduisent pas aussitôt par des suppressions de postes : le temps économisé à une étape peut être avalé par un surcroît de travail à la suivante.
+
+## Pour aller plus loin
+
+[La revue vivante](https://ajoly35.github.io/gen-ai-living-review/fr/) · [Où va la recherche](https://ajoly35.github.io/gen-ai-living-review/fr/vitals/) · [Articles récents](https://ajoly35.github.io/gen-ai-living-review/fr/latest/) · [Proposer un article](https://github.com/ajoly35/gen-ai-living-review/issues/new?template=paper.yml)
+
+*Une revue vivante tenue par Adrien Joly, London School of Economics. Les entrées sont rédigées par un assistant IA à partir de l'article lui-même et ne sont pas relues avant envoi. Les chiffres viennent de l'article ; l'appréciation de la revue est dans la limite.*

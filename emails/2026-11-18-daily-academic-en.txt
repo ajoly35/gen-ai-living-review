@@ -1,0 +1,31 @@
+GEN-AI, JOBS AND GROWTH
+One new study on AI and work, checked against its full text.
+
+Xu, Medappa and Tunc (2026), "Does the AI Reviewer Alleviate or Aggravate the Maintenance Burden? Evidence from GitHub Copilot Reviewer"
+Tilburg University, working paper on arXiv, 17 November 2026. Paper. Staggered difference in differences comparing GitHub maintainers who adopted an AI code reviewer with those not yet adopting; survival models for time to merge.
+
+What it finds. Adding the AI reviewer increased maintainers' workload. Compared with maintainers who had not yet adopted the tool, adopters handled about 10% more pull requests (proposed code changes) and read 14% more review comments per request. Human requests grew by 8% and bot requests by 5%. The human surge faded after a month and dropped below the comparison group, while bot requests kept climbing. Human requests also got smaller, with 14.1% fewer added lines and 33.8% fewer files. The monthly data run from March 2024 to February 2026 (around the tool's February 2025 launch) and cover 3,937 Python repositories, 689 adopting maintainers, 1,902 other maintainers, and about 975,000 requests. Compared with requests without AI review, AI-reviewed human requests merged faster (merge rate 4.2% higher), whereas bot requests merged slower (21.5% lower).
+
+Why it matters. This feeds into the section “Does reorganisation create new tasks?”. Handing initial screening to AI shifted the bottleneck to human verification rather than freeing up time, much like the unchanged meeting hours in Dillon et al. (2025). It also extends Hoffmann et al. (2025), where a coding assistant pulled developers away from coordination. Cheaper reviews drawing in more submissions echoes the scale force described in Main patterns.
+
+Caveat. Maintainers chose whether to adopt the tool, possibly because they expected a busy spell, and the merge-time comparisons are purely descriptive. Also, the sample covers popular Python open-source projects rather than paid software teams.
+
+https://arxiv.org/abs/2611.22793
+https://ajoly35.github.io/gen-ai-living-review/latest/#xu-medappa-and-tunc-2026-does-the-ai-reviewer-alleviate-or-aggravate-the-maintenance-burden-evidence-from-github-copilot-reviewer
+
+——————————————————————————————
+
+MAIN IDEAS
+- Large gains on tasks, none yet in the aggregates. In field experiments, generative AI raises output on narrow tasks by 14 to 34%, most for workers who were least productive before. In the Nordic registers, total employment, hours and earnings are unchanged so far.
+- The adjustment runs through entry, not layoffs. Young hires in the most exposed occupations have fallen in the US, Sweden, the UK and France, by up to a quarter relative to less exposed occupations, and contract ends fell too: firms stop hiring juniors rather than dismiss workers. Hires are a small flow, so the stock of jobs moves slowly and totals look flat.
+- Exposed occupations adjust through pay as well. Wages in the most exposed occupations fell by about 5% by 2026 with no change in headcount, and this explains close to a third of the fall in the college wage premium.
+- Firm-level results split. Some adopters cut junior employment by about 9% while senior employment is unchanged; others, especially the biggest spenders on AI, grew and hired more entrants. Who counts as an adopter drives much of the gap, and whether substitution or scale wins is the central open question.
+- Juniors lose because their tasks are the most codifiable. AI raises novices' output most, but hiring depends on demand for the firm's output, not on output per worker. If AI does the routine work juniors used to train on, firms have less reason to hire and train them.
+- Organisation decides the direction. Management quality, the cost of reorganising and the flexibility of labour law set how deeply firms adopt. So far AI mostly saves time within existing jobs and moves knowledge down the hierarchy; new tasks appear only where employers reorganise.
+- What is still unknown. How strongly demand responds to cheaper output, how much of the fall in entry is AI rather than remote work or a slowdown that began in 2022, where the fall in entry ends as models improve, and who captures the gains.
+
+Read the full review: https://ajoly35.github.io/gen-ai-living-review/
+Unsubscribe: {{ unsubscribe_url }}
+
+A living review maintained by Adrien Joly, London School of Economics.
+Entries are written by an AI assistant from the paper itself and are not reviewed before they are sent. Figures are taken from the paper; the review's own assessment is in the caveat.

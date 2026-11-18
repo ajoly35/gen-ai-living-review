@@ -1,0 +1,57 @@
+GEN-AI, JOBS AND GROWTH
+Today's new research on AI and work, in plain words.
+
+AI and work, in brief
+
+
+
+Today in three lines
+
+- When an AI tool started checking code on volunteer software projects, the people running those projects ended up with more work, not less: about a tenth more changes to look at.
+- The AI made each check faster, yet it also drew in more submissions. Many came from automated accounts, and those took the longest to get accepted.
+- The lesson goes beyond software. When AI makes work cheaper to produce, the human who checks it can become the bottleneck.
+
+New research, in plain words
+
+An AI reviewer gave the people who run software projects more work, not less
+
+What it explores. Much of the world's software is written in the open. Anyone can propose a change to a project, and a few people in charge, called maintainers, decide what gets in. In February 2025, GitHub, the main home for these projects, offered an AI reviewer that comments on every proposed change. Researchers at Tilburg University tracked about 4,000 popular projects from March 2024 to February 2026, comparing roughly 700 maintainers who turned the reviewer on with about 1,900 who had not, month by month.
+
+Why it matters. After turning the tool on, maintainers handled about a tenth more proposed changes than those who had not yet done so, and wrote about a seventh more comments on each one. Human contributors sent a burst of extra changes in the first month, then sent fewer and smaller ones than before. Changes from automated accounts kept climbing and took longer to get accepted. The tool sped up each check, yet it added to the pile.
+
+How it fits the evidence. Our review finds that AI so far mostly saves time within existing jobs, while new kinds of work appear only when organisations change how they run. This study points to a third possibility: a tool built to save time created extra work for the people who make the final call. Two caveats apply. Maintainers chose to switch the tool on themselves, and these are volunteer projects, not paid teams.
+
+Full entry · Paper
+
+How it fits together
+
+Two forces pull against each other when AI enters the workplace. AI can let a team do the same amount of work with fewer people, or it can make the work cheaper so that more of it gets done. Today's study is a small, clear example of the second force. Because reviewing got cheaper, more changes arrived, leaving the humans in charge busier than before.
+
+It also shows how much depends on who decides how AI gets used. These maintainers let a machine take the first look at each change, while keeping the final say for themselves. Most firms use AI the same way today: as a helper, with a person signing off. Our review finds that choices like this, rather than the tool itself, decide whether AI cuts work or creates it. Here, keeping a human at the end of the line made that person's time the scarce resource.
+
+Most of the evidence on jobs still points in another direction. Young people face up to a quarter fewer first jobs in the occupations most open to AI across the United States, Sweden, the United Kingdom and France, along with lower pay in some places, even as total employment has not budged yet. Today's paper does not track jobs or pay. Instead, it offers a warning: the work of checking can grow just as fast as the work of producing.
+
+One idea, explained: how economists tell an effect from a coincidence
+
+Imagine a hospital ward gets a new heart monitor and, a month later, fewer patients there suffer complications. Did the monitor do it? Or was it the end of winter, or a new head nurse? To find out, you need a second ward that did not get the monitor, showing what would have happened without it.
+
+That simple idea sits behind the most trusted studies of AI at work. Brynjolfsson, Li and Raymond studied about 5,000 customer support workers at a large software firm. The company rolled out an AI chat assistant in stages, giving it to different teams on different dates. That let the researchers compare staff who already had the tool with colleagues who were still waiting for it, during the exact same weeks. Workers with the tool resolved about a seventh more calls per hour on average, and the slowest fifth of staff improved by about a third.
+
+Today's software study relies on the same logic, comparing maintainers who turned the AI on with those who had not yet done so. Its weak spot is one to watch out for everywhere: people chose whether to use the tool, and those who opted in may have been different to begin with.
+
+For a student, a worker or an employer, this gives a simple rule of thumb. Whenever someone claims "AI did this", ask: compared with whom?
+
+Where the evidence stands
+
+!Studies on jobs, hiring or pay, by research design. Orange: fewer jobs, hires or lower pay. Grey: no measurable effect. Blue: gains.
+
+Each bar counts studies on jobs, hiring or pay: orange for fewer jobs, fewer hires or lower pay, grey for no measurable effect, and blue for gains. Studies of how fast people work mostly find gains, studies of who gets hired find drops, and studies of total employment find nothing so far. Because today's paper measures workload rather than jobs or pay, it does not add a bar. Still, it helps explain why the speed gains in the top rows do not turn straight into job cuts: time saved on one task can get eaten up by extra work arriving at the next.
+
+Read more
+
+The living review · Direction of the field · Recent papers · Send a paper
+
+Unsubscribe: {{ unsubscribe_url }}
+
+A living review maintained by Adrien Joly, London School of Economics.
+Entries are written by an AI assistant from the paper itself and are not reviewed before they are sent. Figures are taken from the paper; the review's own assessment is in the caveat.
