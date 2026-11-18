@@ -145,3 +145,17 @@ ul.emails { list-style: none; padding: 0; font-family: Inter, system-ui, sans-se
 .sitebar-links a:hover { color: var(--text); }
 .sitebar-links a[aria-current="page"] { color: var(--text); border-bottom-color: #7a1f2b; }
 .topnav { padding-top: .9rem; }
+
+/* Chapitre 6 tracker (manuel/chapitre-6.md) */
+.ch6-wrap{overflow-x:auto}
+table.ch6{border-collapse:collapse;font-size:.88rem;width:100%}
+table.ch6 th,table.ch6 td{border-top:1px solid #ddd;padding:.6rem .5rem;vertical-align:top;text-align:left}
+table.ch6 td:first-child{width:24%}
+table.ch6 td p{margin:.2rem 0}
+.ch6-sec{color:#666;font-size:.8rem}
+.ch6-v{display:inline-block;font-size:.75rem;font-weight:600;padding:0 .4rem;border:1px solid #999;border-radius:3px}
+.ch6-v-a-corriger{border-color:#b00;color:#b00}
+.ch6-v-nouveau{border-color:#2a5d9f;color:#2a5d9f}
+.ch6-maj{color:#777;font-size:.75rem}
+.ch6-refs-t{font-size:.75rem;color:#666;margin-top:.5rem!important;text-transform:uppercase;letter-spacing:.03em}
+.ch6-refs{font-size:.8rem;margin:.2rem 0 0 1rem;padding:0}

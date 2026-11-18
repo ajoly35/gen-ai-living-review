@@ -8,6 +8,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% if page.title %}{{ page.title }} · {% endif %}{{ nav.site_title }}</title>
+{% if page.noindex %}<meta name="robots" content="noindex">{% endif %}
 <meta name="description" content="{{ page.description | default: nav.site_description }}">
 {%- if page.alt %}
 <link rel="alternate" hreflang="{% if lang == 'en' %}fr{% else %}en{% endif %}" href="{{ page.alt | relative_url }}">

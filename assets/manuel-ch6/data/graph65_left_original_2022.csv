@@ -1,0 +1,12 @@
+country,early_pct_gdp,later_pct_gdp,total_pct_gdp,source
+US,0.2072,0.2649,0.4721,"CAE-SVR joint statement July 2024 fig 6a (Dealroom 2023 + OECD, 2022), vector extraction"
+Canada,0.1443,0.0824,0.2267,"CAE-SVR joint statement July 2024 fig 6a (Dealroom 2023 + OECD, 2022), vector extraction"
+Sweden,0.0599,0.0564,0.1163,"CAE-SVR joint statement July 2024 fig 6a (Dealroom 2023 + OECD, 2022), vector extraction"
+France,0.0733,0.0334,0.1067,"CAE-SVR joint statement July 2024 fig 6a (Dealroom 2023 + OECD, 2022), vector extraction"
+Finland,0.0375,0.0328,0.0703,"CAE-SVR joint statement July 2024 fig 6a (Dealroom 2023 + OECD, 2022), vector extraction"
+United Kingdom,0.0488,0.0139,0.0627,"CAE-SVR joint statement July 2024 fig 6a (Dealroom 2023 + OECD, 2022), vector extraction"
+Netherlands,0.0302,0.0293,0.0595,"CAE-SVR joint statement July 2024 fig 6a (Dealroom 2023 + OECD, 2022), vector extraction"
+Spain,0.0336,0.0241,0.0577,"CAE-SVR joint statement July 2024 fig 6a (Dealroom 2023 + OECD, 2022), vector extraction"
+Germany,0.0304,0.0208,0.0512,"CAE-SVR joint statement July 2024 fig 6a (Dealroom 2023 + OECD, 2022), vector extraction"
+Ireland,0.0259,0.0148,0.0407,"CAE-SVR joint statement July 2024 fig 6a (Dealroom 2023 + OECD, 2022), vector extraction"
+Italy,0.0178,0.0087,0.0265,"CAE-SVR joint statement July 2024 fig 6a (Dealroom 2023 + OECD, 2022), vector extraction"

@@ -1,0 +1,13 @@
+# Written by scripts/manuel_ch6_charts.py; do not edit by hand.
+maj_le: 2026-11-18
+g64:
+  annee: 2025
+  fr_us: 0.97
+  fr_de: 1.0
+  fr_us_2003: 1.2
+  frais: true
+g65:
+  annee: 2025
+  fr_fois: 8.0
+  de_fois: 11.4
+  frais: true

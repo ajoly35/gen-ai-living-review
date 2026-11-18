@@ -1,0 +1,258 @@
+# Veille du chapitre 6 (productivité) de « Les politiques économiques à l'épreuve des faits » (Jaravel et al., 2026).
+# Rendu sur /manuel/chapitre-6/. Une entrée par passage susceptible de changer.
+# RÈGLE : aucun texte du livre ici. Colonne 1 = paraphrase du message + page ; colonne 3 = texte nouveau uniquement.
+# Champs : id (ID de la carte des messages), page, section, message, verdict (tient | renforcé | nuancé | à corriger | nouveau),
+#          maj (auto | manuel), donnees (markdown), brouillon (markdown), references (liste), maj_le (AAAA-MM-JJ)
+# Mise à jour : passage mensuel ; chaque chiffre est lu dans la source (page ou URL), jamais dans un extrait.
+
+- id: C6-2.1-c
+  page: "p. 232"
+  section: "2.1.A Le ralentissement mondial"
+  message: "Deuxième explication du ralentissement : la concentration et le pouvoir de marché des grandes entreprises réduisent leurs incitations à innover (rente, acquisitions « tueuses »)."
+  verdict: renforcé
+  maj: manuel
+  donnees: "L'argument devient concret pour l'IA : trois entreprises (OpenAI, Google, Anthropic) détiennent plus de 84 % des agents d'IA dans le monde, et l'Autorité de la concurrence pointe des risques de verrouillage et d'autopréférence (avis 26-A-05, juil. 2026, p. 3)."
+  brouillon: "Le risque se pose déjà pour l'IA : trois entreprises détiennent plus de 84 % des agents d'IA dans le monde, et l'Autorité de la concurrence relève des risques de verrouillage des utilisateurs et d'autopréférence (Autorité de la concurrence, 2026)."
+  references:
+    - "Autorité de la concurrence (2026), avis n° 26-A-05 relatif au fonctionnement concurrentiel du secteur des agents d'IA, juillet 2026."
+  maj_le: 2026-11-18
+
+- id: C6-2.1-d
+  page: "p. 232-233"
+  section: "2.1.A Le ralentissement mondial"
+  message: "La baisse de la part de R&D financée sur fonds publics, plus génératrice d'externalités, expliquerait jusqu'à un tiers du ralentissement de la productivité américaine depuis 1960."
+  verdict: nuancé
+  maj: manuel
+  donnees: "Une estimation indépendante, fondée sur les chocs de crédits fédéraux, retient un cinquième à un quart du ralentissement de la PGF américaine, « un peu moins » que Dyèvre (Fieldhouse et Mertens, 2025, p. 36-37). Les retombées mondiales de la R&D publique américaine sont environ deux fois les retombées domestiques (De Souza et al., 2026). Les coupes fédérales demandées pour 2026 ont été largement rejetées par le Congrès (NSF -3 %, NIH +1 %) ; aucun effet n'est encore mesuré."
+  brouillon: "Une estimation indépendante, fondée sur les chocs de crédits fédéraux de R&D, attribue au recul de la R&D publique un cinquième à un quart du ralentissement de la productivité globale des facteurs américaine (Fieldhouse et Mertens, 2025)."
+  references:
+    - "Fieldhouse, A. et K. Mertens (2025), « The Returns to Government R&D: Evidence from U.S. Appropriations Shocks », version du 2 décembre 2025 ; NBER WP 33780, publié dans *Entrepreneurship and Innovation Policy and the Economy*, vol. 5 (2026)."
+    - "De Souza, G., A. Fieldhouse, K. Mertens, I. Nath et V. Ramey (2026), « The Effects of U.S. Public R&D on Global Growth », NBER WP 35517."
+  maj_le: 2026-11-18
+
+- id: C6-2.1-f
+  page: "p. 233-234"
+  section: "2.1.B L'espoir de l'IA"
+  message: "L'IA générative accroît fortement la productivité au niveau micro (assistance client, conseil, avocats), d'environ 20 % en moyenne, davantage pour les moins expérimentés."
+  verdict: nuancé
+  maj: auto
+  donnees: "Méta-analyse de 45 études : +17 % sur la tâche après correction du biais de publication (Coupé et Wu, 2025). Forte dispersion : +14 % de demandes résolues par heure dans l'assistance client (Brynjolfsson, Li et Raymond, 2025), -40 % de temps en rédaction (Noy et Zhang, 2023). Les moins expérimentés gagnent le plus dans la majorité des études, mais pas toujours : chez 133 avocats en brevets suivis trois mois, la qualité progresse de 0,34 à 0,38 écart-type et les gains durables vont aux plus expérimentés (Autor et al., 2026). Du code au produit, le gain fond : modifications de code ×3,4, nouvelles versions +30 % (Demirer, Musolff et Yang, 2026)."
+  brouillon: "Les gains de productivité sont en moyenne de l'ordre de 17 % sur les tâches étudiées, selon une méta-analyse de 45 études (Coupé et Wu, 2025), avec de fortes variations : 14 % de demandes résolues en plus par heure dans l'assistance client, mais 40 % de temps en moins sur des tâches de rédaction. Ils sont le plus souvent plus élevés pour les moins expérimentés, mais pas toujours : chez des avocats en brevets suivis pendant trois mois, la qualité progresse de 0,34 à 0,38 écart-type et les gains durables profitent aux plus expérimentés (Autor et al., 2026). Les gains se réduisent aussi de la tâche au produit : chez plus de 500 000 développeurs, l'IA multiplie les modifications de code par 3,4 mais n'augmente les nouvelles versions de logiciels que de 30 % (Demirer et al., 2026)."
+  references:
+    - "Coupé, T. et W. Wu (2025), « The Impact of Generative AI on Productivity: Results of an Early Meta-Analysis », University of Canterbury WP 9/2025."
+    - "Autor, D. et al. (2026), « Does AI Assistance Enhance or Erode Expertise? Evidence from a Three-Month Field Experiment in Patent Drafting », NBER WP 35720."
+    - "Demirer, M., L. Musolff et Y. Yang (2026), étude sur plus de 500 000 développeurs GitHub (revue vivante, section « What the data show so far »)."
+    - "Noy, S. et W. Zhang (2023), « Experimental evidence on the productivity effects of generative artificial intelligence », *Science*."
+  maj_le: 2026-11-18
+
+- id: C6-2.1-b
+  page: "p. 234"
+  section: "2.1.B L'espoir de l'IA"
+  message: "L'IA peut accélérer les découvertes scientifiques (exemple d'AlphaFold, prix Nobel 2024), et donc la biologie, la médecine et le développement de médicaments."
+  verdict: nuancé
+  maj: manuel
+  donnees: "Première évaluation causale d'AlphaFold : le rythme de détermination expérimentale des structures est resté « presque inchangé » ; la recherche fondamentale s'est déplacée vers des protéines jusque-là non étudiées (+15 à 40 %) ; pas d'effet visible à ce stade sur le développement précoce de médicaments (Hill et Stein, 2026, doubles différences sur 570 000 protéines). Les études bibliométriques trouvent plus de publications pour les chercheurs qui utilisent l'IA, mais des sujets plus resserrés ; elles sont corrélationnelles. Toner-Rodgers (2024) a été désavoué par le MIT : à ne pas citer."
+  brouillon: "Son effet mesuré porte toutefois davantage sur l'orientation de la recherche que sur sa vitesse : après sa diffusion, le rythme de détermination expérimentale des structures est resté presque inchangé, mais la recherche fondamentale s'est déplacée vers des protéines jusque-là peu étudiées (+15 à 40 %), sans effet visible à ce stade sur le développement de médicaments (Hill et Stein, 2026)."
+  references:
+    - "Hill, R. et C. Stein (2026), « How Artificial Intelligence Shapes Science: Evidence from AlphaFold », NBER WP 35143."
+  maj_le: 2026-11-18
+
+- id: C6-2.1-g
+  page: "p. 234"
+  section: "2.1.B L'espoir de l'IA"
+  message: "L'effet macroéconomique de l'IA sur la croissance n'est pas tranché : de +0,07 point par an (scénario pessimiste) à +0,7 point (médiane)."
+  verdict: tient
+  maj: auto
+  donnees: "Le chiffre d'Acemoglu est 0,064 point par an (NBER w32487, p. 6) ; 0,07 est un arrondi. Les estimations récentes sont dans la moitié basse : 0,1 à 0,2 point par an selon les entreprises interrogées par la Banque d'Angleterre (nov. 2026) ; pic de 0,2 point en 2032 (Penn Wharton Budget Model, 2025) ; le FMI ne retient aucun gain lié à l'IA dans son scénario central (PEM, oct. 2026, p. 8). Aux États-Unis, la productivité du travail a crû de 2,2 % en 2025 contre 3,0 % en 2024, et la PGF de 0,8 % contre 1,5 % (BLS) : pas d'accélération visible. En France, l'effet de court terme de l'IA passe surtout par l'investissement : environ +0,1 point de croissance en 2025, contre +0,7 point aux États-Unis (Insee, Note de conjoncture, mars 2026)."
+  brouillon: "Les estimations plus récentes se situent plutôt dans la moitié basse de cette fourchette : 0,1 à 0,2 point par an selon les entreprises interrogées par la Banque d'Angleterre (2026), un pic de 0,2 point en 2032 selon le Penn Wharton Budget Model (2025), et le FMI ne retient aucun gain lié à l'IA dans son scénario central (2026). Aux États-Unis, la croissance de la productivité du travail est passée de 3,0 % en 2024 à 2,2 % en 2025 : l'accélération n'est pas encore visible dans les données agrégées (BLS, 2026)."
+  references:
+    - "Bank of England (2026), *Monetary Policy Report*, novembre 2026."
+    - "Penn Wharton Budget Model (2025), « The Projected Impact of Generative AI on Future Productivity Growth », 8 septembre 2025."
+    - "FMI (2026), *Perspectives de l'économie mondiale*, octobre 2026, chapitre 1."
+    - "BLS (2026), « Total Factor Productivity 2025 », USDL-26-0504, 19 mars 2026."
+    - "Insee (2026), *Note de conjoncture*, mars 2026."
+  maj_le: 2026-11-18
+
+- id: C6-2.1-h
+  page: "p. 234-235, encadré 6.2"
+  section: "Encadré 6.2 IA, automatisation et emploi"
+  message: "Côté demande : les entreprises et secteurs qui automatisent ou adoptent l'IA accroissent leur productivité mais aussi leurs effectifs (graphique 6.3)."
+  verdict: nuancé
+  maj: auto
+  donnees: "Vérification automatique sur le tableau des études d'adoption (page Productivity, rubrique « Evidence from the demand side ») : avant l'IA générative, la majorité des études causales soutiennent le message (les adoptants accroissent ventes et effectifs), mais plusieurs ne trouvent pas de hausse de productivité mesurée. Pour l'IA générative, résultats partagés : moins d'embauches de jeunes chez les adoptants (-8 % aux États-Unis, -17 % à -25 % pour les jeunes en CDI en France), emploi total de -11 % par rapport à la tendance au Danemark à +10 % chez les plus gros utilisateurs américains. En France, l'emploi des 15-29 ans dans les activités informatiques a reculé de 7,4 % sur un an au quatrième trimestre 2025, contre -0,7 % pour l'ensemble de l'emploi salarié privé ; l'Insee ne peut pas l'attribuer à l'IA (Note de conjoncture, mars 2026). Pas d'effet agrégé sur l'emploi à ce stade (Trésor-Éco n° 391)."
+  brouillon: "Pour les vagues d'automatisation et d'IA antérieures à l'IA générative, l'effet de demande tend à dominer : les entreprises qui adoptent ces technologies accroissent leurs ventes et leurs effectifs (Aghion et al., 2025 ; Babina et al., 2024 ; Hirvonen et al., 2025), même si plusieurs études ne détectent pas de hausse de leur productivité mesurée. Pour l'IA générative, les premiers résultats sont partagés : les entreprises adoptantes embauchent moins de jeunes (de -8 % aux États-Unis à -17 % à -25 % pour les jeunes en CDI en France), tandis que l'effet sur l'emploi total va de -11 % par rapport à la tendance au Danemark à +10 % parmi les plus gros utilisateurs américains. En France, l'emploi des 15-29 ans dans les activités informatiques a reculé de 7,4 % sur un an fin 2025, contre -0,7 % pour l'ensemble de l'emploi salarié privé, sans que l'on puisse encore l'attribuer à l'IA (Insee, 2026)."
+  references:
+    - "Hosseini, S. et G. Lichtinger (2025), « Generative AI as Seniority-Biased Technological Change », SSRN 5425555."
+    - "Bergeaud, A., A. Bertheau, S. Bunel, E. Degos et M. Palladino (2026), LIFT Policy Paper 2026-02."
+    - "Bonin, H., S. Darougheh et A. Kuchler (2026), « AI Adoption and Firm Size », Danmarks Nationalbank WP 223."
+    - "Kharazian, Z. et al. (2026), Ramp et Revelio Labs."
+    - "Babina, T., A. Fedyk, A. He et J. Hodson (2024), « Artificial intelligence, firm growth, and product innovation », *Journal of Financial Economics*."
+    - "Hirvonen, J., A. Stenhammar et J. Tuhkuri (2025), RFBerlin DP 04/25."
+    - "Insee (2026), *Note de conjoncture*, mars 2026."
+    - "DG Trésor (2026), *Trésor-Éco*, n° 391."
+  maj_le: 2026-11-18
+
+- id: C6-2.2-c
+  page: "p. 236"
+  section: "2.2.A Le décrochage français"
+  message: "Le décrochage français est plus fort dans les secteurs producteurs et utilisateurs de TIC ; un investissement en TI au niveau américain aurait réduit de moitié la divergence de productivité."
+  verdict: nuancé
+  maj: manuel
+  donnees: "Version publiée de la note du CAE (n° 94, sept. 2026) : 86 % du décrochage vis-à-vis des États-Unis entre 1995 et 2025 vient des secteurs liés au numérique (64 % utilisateurs, 22 % producteurs, p. 1 et 4). Un rattrapage de l'investissement numérique aurait résorbé 25 à 50 % de l'écart en 2005, mais 15 à 30 % en 2025 (p. 5) : « de moitié » n'est que le haut de la fourchette de 2005, et la période va jusqu'à 2025. Deux sources indépendantes concordent : sur 1997-2019, les secteurs du numérique expliquent 0,8 point d'un écart de productivité horaire de 0,6 point par an avec les États-Unis, les autres secteurs le réduisant (Trésor-Éco n° 398, p. 1 et 7) ; sur 2000-2019, l'information-communication explique 45 % de l'écart intra-sectoriel (Revue de l'OFCE n° 193, p. 48)."
+  brouillon: "Selon le Conseil d'analyse économique, 86 % du décrochage de productivité de la France par rapport aux États-Unis entre 1995 et 2025 provient des secteurs liés au numérique : 64 % des secteurs utilisateurs des TIC, 22 % des secteurs producteurs. Un alignement de l'investissement numérique sur celui des États-Unis aurait résorbé 25 à 50 % de l'écart en 2005, mais seulement 15 à 30 % en 2025 : l'enjeu porte désormais moins sur le volume de l'investissement que sur sa conversion en gains de productivité (Bergeaud et al., 2026). La DG Trésor et l'OFCE aboutissent au même diagnostic avec d'autres données (Trésor-Éco n° 398, 2026 ; Revue de l'OFCE n° 193, 2026)."
+  references:
+    - "Bergeaud, A., S. Bunel, X. Jaravel et A. Roulet (2026), « Comment lutter contre le décrochage de la productivité ? », *Notes du CAE*, n° 94, septembre 2026."
+    - "DG Trésor (2026), *Trésor-Éco*, n° 398."
+    - "Elewa, A. et al. (2026), *Revue de l'OFCE*, n° 193."
+  maj_le: 2026-11-18
+
+- id: C6-2.2-d
+  page: "p. 236-237"
+  section: "2.2.A Le décrochage français"
+  message: "La dépense de R&D française (2,2 % du PIB en 2023) est loin de l'objectif de 3 % et des pays à la frontière, et stagne depuis 2010 alors qu'elle progresse ailleurs."
+  verdict: tient
+  maj: auto
+  donnees: "OCDE (MSTI, téléchargé le 18/11/2026), 2024 : France 2,18 % (inchangé depuis 2010, aussi dans la Note Flash SIES n° 16), Israël 6,76 %, Corée 5,13 %, États-Unis 3,44 %, Allemagne 3,13 %, Chine 2,69 %, UE 2,13 %. Hausse depuis 2010 : États-Unis +0,73 point, Chine +1,01, Allemagne +0,45, UE +0,24. Les chiffres du livre (Israël 6,3 %, UE +0,15) sont dépassés par les révisions de l'OCDE."
+  brouillon: "En 2024, la France consacre 2,2 % de son PIB à la R&D, une part inchangée depuis 2010, contre 6,8 % en Israël, 5,1 % en Corée du Sud, 3,4 % aux États-Unis et 3,1 % en Allemagne ; la moyenne de l'Union européenne est de 2,1 % et la Chine atteint 2,7 %. Depuis 2010, cette part a progressé de 0,7 point aux États-Unis, de 1,0 point en Chine, de 0,45 point en Allemagne et de 0,25 point dans l'Union européenne (OCDE, 2026)."
+  references:
+    - "OCDE (2026), *Main Science and Technology Indicators*, dépense intérieure brute de R&D en % du PIB, données 2024."
+    - "Amoros, E. et V. Messi (2026), « La dépense de recherche et développement expérimental en 2024 », Note Flash du SIES n° 16, MESR."
+  maj_le: 2026-11-18
+
+- id: C6-2.2-e
+  page: "p. 237"
+  section: "2.2.A Le décrochage français"
+  message: "La productivité du travail a décroché de 8,5 % sous sa tendance pré-Covid entre 2019 et 2023 ; l'apprentissage et la composition en expliqueraient près de la moitié, la rétention de main-d'œuvre environ un quart."
+  verdict: à corriger
+  maj: auto
+  donnees: "Le -8,5 % est exact pour sa mesure (par tête, branches marchandes, T2 2023, tendance 2010-2019). Mais dans le tableau T1 de l'étude citée, apprentissage (1,2 point) et composition (1,4 point) font 2,6 points sur 8,5, soit environ 30 % ; la rétention 1,7 point, environ 20 % ; 3,6 points restent inexpliqués (Devulder et al., 2024, p. 2-3). Les comptes révisés réduisent l'écart : 4,3 points par tête en 2025 pour l'ensemble de l'économie, près de 5 points par heure (CNP, 2026, p. 17-18). Perte durable de productivité potentielle marchande : 2,7 % (Devulder, 2026). L'Insee confirme : 4,3 points sous la tendance par tête en 2025, 4,9 points par heure ; corrigé des apprentis, l'écart des salariés du privé n'est plus que de 2,4 points. Apprentis et micro-entrepreneurs ont fait 20 % et 30 % des créations d'emplois de 2019 à 2025, alors qu'ils ne pesaient que 2 % et 10 % de l'emploi en 2019 (Insee, Note de conjoncture, juin 2026, p. 44-45). Les entrées en apprentissage ont baissé de 4,9 % en 2025 (OFCE, Policy Brief n° 157)."
+  brouillon: "Une étude de la Banque de France en expliquait un peu plus de la moitié : le recours massif à l'apprentissage (1,2 point) et l'embauche de salariés moins qualifiés (1,4 point), ainsi que des rétentions temporaires de main-d'œuvre (1,7 point) (Devulder et al., 2024). Les comptes nationaux révisés ont depuis fortement réduit ce diagnostic : pour l'ensemble de l'économie, la productivité par tête était 4,3 points sous sa tendance d'avant-crise en 2025, et la productivité horaire 4,9 points en dessous ; une fois corrigé du poids des apprentis, l'écart des salariés du privé n'est plus que de 2,4 points (Insee, 2026 ; CNP, 2026). Apprentis et micro-entrepreneurs ont représenté 20 % et 30 % des créations d'emplois de 2019 à 2025, alors qu'ils ne pesaient que 2 % et 10 % de l'emploi en 2019 (Insee, 2026). La Banque de France estime désormais la perte durable de productivité potentielle des branches marchandes à 2,7 %, due surtout à la composition de la main-d'œuvre et à l'apprentissage (Devulder, 2026)."
+  references:
+    - "Devulder, A., B. Ducoudré, M. Lemoine et S. Zuber (2024), *Bulletin de la Banque de France*, n° 251/1."
+    - "Conseil national de productivité (2026), *Sixième rapport*, juillet 2026."
+    - "Devulder, A. (2026), *Bloc-notes Éco*, Banque de France, n° 455, juillet 2026."
+    - "Insee (2026), *Note de conjoncture*, juin 2026, p. 44-45."
+    - "OFCE (2026), *Policy Brief*, n° 157."
+  maj_le: 2026-11-18
+
+- id: nouveau-ia-france
+  page: "après p. 237 (fin de 2.2.A)"
+  section: "Nouvelle section proposée"
+  message: "Nouveau : la diffusion de l'IA, et de l'IA générative, dans les entreprises françaises, et pourquoi elle reste moins intégrée qu'en Allemagne ou aux États-Unis."
+  verdict: nouveau
+  maj: auto
+  donnees: "Insee : entreprises de 10 salariés ou plus utilisant au moins une technologie d'IA, 6 % en 2023, 10 % en 2024, 18 % en 2025 (UE 20 %, Allemagne 26 %). Banque de France : 67 % des entreprises de 20 salariés ou plus utilisent l'IA générative début 2026, surtout de façon limitée ou expérimentale ; 31 % des utilisatrices constatent un gain de productivité. LIFT : usage systématique pondéré par la valeur ajoutée 24 % en France, 39 % en Allemagne, 36 % aux États-Unis ; écart avec l'Allemagne doublé depuis 2021 ; 69 % des salariés ni encouragés, ni équipés, ni formés (44 % aux États-Unis) ; coût de réorganisation de 38 mois de salaire par salarié en France, 31 en Allemagne, 7 aux États-Unis. Les mesures Insee et BdF diffèrent (champ, question, date)."
+  brouillon: "**L'IA se diffuse rapidement dans les entreprises françaises, mais elle y reste moins intégrée qu'en Allemagne ou aux États-Unis.** La part des entreprises de 10 salariés ou plus utilisant au moins une technologie d'IA a triplé en deux ans, de 6 % en 2023 à 18 % en 2025, un niveau proche de la moyenne européenne (20 %) mais inférieur à l'Allemagne (26 %) (Insee, 2026). Début 2026, deux tiers des entreprises de 20 salariés ou plus utilisent l'IA générative, mais surtout de façon limitée ou expérimentale, dans les fonctions support, et seules 31 % des entreprises utilisatrices constatent déjà un gain de productivité (Genre et Parpais, 2026). L'usage reste moins intensif qu'ailleurs : pondérée par la valeur ajoutée, l'utilisation systématique de l'IA générative concerne 24 % des entreprises françaises, contre 39 % en Allemagne et 36 % aux États-Unis, et l'écart avec l'Allemagne a doublé depuis 2021. Le frein tient moins aux compétences qu'à l'organisation : 69 % des salariés français ne sont ni encouragés, ni équipés, ni formés par leur employeur (44 % aux États-Unis), et réorganiser le travail coûte en France 38 mois de salaire par salarié, contre 31 en Allemagne et 7 aux États-Unis (Bergeaud et Bunel, 2026)."
+  references:
+    - "Insee (2025, 2026), *Insee Première*, n° 2061 et n° 2120."
+    - "Genre, V. et A. Parpais (2026), « L'IA s'installe dans les entreprises françaises », *Bulletin de la Banque de France*, n° 266."
+    - "Bergeaud, A. et S. Bunel (2026), LIFT Policy Paper 2026-01, HEC Paris."
+  maj_le: 2026-11-18
+
+- id: C6-2.2-g
+  page: "p. 238-239"
+  section: "2.2.B Le décrochage européen"
+  message: "Le capital-risque est bien plus faible en Europe : en part de PIB, cinq fois moins en France qu'aux États-Unis et huit fois moins en Allemagne, surtout pour les grosses levées (graphique 6.5)."
+  verdict: renforcé
+  maj: auto
+  donnees: "OCDE (extraction du 18/11/2026) : écart France/États-Unis de 6,0 fois en 2024 et 8,0 fois en 2025 ; Allemagne 8,0 et 11,4 fois. Dealroom (2025) : l'Europe capte 39 % du volume mondial des tours de 1 à 4 M$ mais 9 % des tours de plus de 100 M$, contre 76 % pour les États-Unis. L'IA représente 62 % du capital-risque américain en 2025 contre 36 % en Europe. BCE (2026) : fonds de capital-risque américains environ 930 Md€, six fois l'UE."
+  brouillon: "En part de PIB, les investissements en capital-risque sont six à huit fois plus faibles en France qu'aux États-Unis, et huit à onze fois plus faibles en Allemagne (OCDE, 2024-2025). Le retard européen est particulièrement prononcé pour les levées les plus élevées : l'Europe capte 39 % du volume mondial des tours de 1 à 4 millions de dollars, mais seulement 9 % de celui des tours de plus de 100 millions, contre 76 % pour les États-Unis (Dealroom, 2025). L'écart s'est creusé avec l'essor de l'IA, qui représente 62 % du capital-risque américain en 2025 contre 36 % en Europe."
+  references:
+    - "OCDE (2026), *Venture capital investments* (DSD_VC@DF_VC_INV), extraction du 18/11/2026."
+    - "Dealroom.co (2026), données au 12 octobre 2026."
+    - "Baumann, U. et al. (2026), « Europe's venture capital gap and the financing of high-growth firms », *Bulletin économique de la BCE*, n° 5/2026, encadré 1."
+  maj_le: 2026-11-18
+
+- id: C6-3.1-f
+  page: "p. 248-249"
+  section: "3.1.B Soutien transversal à l'innovation"
+  message: "Le CIR, dispositif fiscal le plus généreux de l'OCDE, coûte 7,9 Md€ en 2024 pour 16 000 entreprises ; la part fiscale du soutien public à la R&D des entreprises est passée de 8 % à 49 % dans l'OCDE."
+  verdict: tient
+  maj: auto
+  donnees: "Sénat (note PLF 2027, p. 35) : coût projeté à plus de 7,4 Md€ en 2027 ; 7,3 Md€ en 2025 pour 17 079 entreprises (la même note donne 8,0 Md€ p. 19). Annexe Voies et moyens (PLF 2026) : 7 800 M€ et 17 593 entreprises en 2024 ; régime brevets 1 199 M€ et 1 065 entreprises. France 3e de l'OCDE pour le soutien public à la R&D des entreprises (0,42 % du PIB contre 0,26 % en moyenne). PLF 2027 non adopté au 18/11. Publication OCDE de juin 2026 sur la part fiscale : non lue (accès bloqué). L'annexe du PLF 2027 sur les aides aux entreprises retient 7,8 Md€ pour le CIR et 1,2 Md€ pour le régime brevets en 2024, ce qui permet d'harmoniser les chiffres du chapitre."
+  brouillon: "Son coût est projeté à plus de 7,4 milliards d'euros en 2027, après 7,3 milliards en 2025 pour 17 079 entreprises bénéficiaires (Sénat, 2026). Au total, la France se classe au troisième rang de l'OCDE pour le soutien public à la R&D des entreprises (0,42 % du PIB, contre 0,26 % en moyenne et 0,13 % en Allemagne), alors que sa R&D privée reste inférieure à la moyenne de l'OCDE (Sénat, 2026)."
+  references:
+    - "Sénat, commission des finances (2026), note de présentation PLF 2027, mission « Remboursements et dégrèvements »."
+    - "Cozic, C. et P. Savoldelli (2026), « Pratique des dépenses fiscales : où se situe la France par rapport à ses pairs européens ? », Sénat."
+    - "*Évaluation des voies et moyens*, tome II, PLF 2026."
+  maj_le: 2026-11-18
+
+- id: C6-3.1-i
+  page: "p. 250-251"
+  section: "3.1.C Baisse des prélèvements obligatoires"
+  message: "Les baisses de prélèvements sur les entreprises (environ 30 Md€ en 2018-2024, plus le CICE) sont coûteuses et ont des effets modestes sur l'investissement."
+  verdict: renforcé
+  maj: manuel
+  donnees: "Première évaluation causale de la baisse des impôts de production de 2021 : aucun effet détecté sur l'investissement ni les exportations (doubles différences sur la CFE ; régression sur discontinuité aux seuils de CVAE de 2 M€ et 7,6 M€) ; bénéficiaires surtout grandes entreprises intensives en capital (IPP, 2025). La CVAE reste à 0,28 % en 2026 et 2027 et doit disparaître en 2030."
+  brouillon: "La première évaluation causale de la baisse des impôts de production de 2021 ne détecte aucun effet sur l'investissement ni sur les exportations des entreprises bénéficiaires, qui sont surtout de grandes entreprises intensives en capital (Bach et al., 2025)."
+  references:
+    - "Bach, L., A. Chouc, C. Fize, A. Guillouzouic, C. Malgouyres et C. Dutronc-Postel (2025), « La baisse des impôts de production : ciblage et évaluation », Rapport IPP n° 60."
+  maj_le: 2026-11-18
+
+- id: C6-3.3-b
+  page: "p. 255"
+  section: "3.3.B Dispositifs à mission"
+  message: "France 2030 (54 Md€, 2021-2030) alloue 70 % de ses fonds par appels à projets, mais peine à atteindre sa cible de 50 % pour les acteurs émergents."
+  verdict: renforcé
+  maj: auto
+  donnees: "Fin 2025, les entreprises de moins de 12 ans reçoivent 49 % des aides versées aux entreprises, mais 31 % de l'ensemble des aides du plan ; cible « pas totalement atteinte » (Sénat, 5 nov. 2026, p. 48). La Cour des comptes juge la définition peu restrictive (8 ans au Conseil européen de l'innovation). 86 % de l'enveloppe devrait être attribuée fin 2027 ; 3 Md€ d'aides nouvelles par an en 2026 et 2027 (Sénat, p. 42)."
+  brouillon: "Fin 2025, les entreprises de moins de douze ans recevaient 49 % des aides versées aux entreprises, mais seulement 31 % de l'ensemble des aides du plan (Sénat, 2026), et la Cour des comptes juge cette définition peu restrictive, le Conseil européen de l'innovation retenant un seuil de huit ans (Cour des comptes, 2026). Le plan entre dans sa phase de fin : 86 % de l'enveloppe devrait être attribuée fin 2027."
+  references:
+    - "Sénat, commission des finances (2026), note de présentation PLF 2027, mission « Investir pour la France de 2030 », 5 novembre 2026."
+    - "Cour des comptes (2026), « Le plan d'investissement France 2030 : bilan à mi-parcours et enseignements pour l'avenir », octobre 2026."
+  maj_le: 2026-11-18
+
+- id: C6-4.1-b
+  page: "p. 259"
+  section: "4.1 Réindustrialisation"
+  message: "Une réindustrialisation de grande ampleur n'est pas un levier pertinent de productivité ; l'objectif européen de 20 % du PIB en 2035 (contre environ 14 %) est difficile à justifier."
+  verdict: tient
+  maj: manuel
+  donnees: "Bruegel recommande d'abandonner l'objectif, déjà fixé en 2012 pour 2020 sans être atteint (Policy Brief 10/2026). L'Industrial Accelerator Act est en négociation : pas de position du Conseil au 18/11 (note 13708/26 du 30 sept.) ; vote en commission au Parlement européen annoncé pour le 1er décembre (non vérifié). La DG Trésor ajoute une perte de compétitivité : part de la France dans les exportations mondiales de biens manufacturés de 6,0 % (1995) à 3,3 % (2024) (Trésor-Éco n° 408)."
+  brouillon: "Bruegel recommande lui aussi d'abandonner cet objectif non contraignant, qui avait déjà été fixé en 2012 pour 2020 sans être atteint (García Bercero et al., 2026)."
+  references:
+    - "García Bercero, I., C. Mathieu Collin, B. McWilliams et S. Tagliapietra (2026), « The flaws in the European Union's proposed Industrial Accelerator Act and how to fix them », Bruegel Policy Brief 10/2026."
+    - "Lafrogne-Joussier, R. et A. Salib (2026), Trésor-Éco n° 408."
+  maj_le: 2026-11-18
+
+- id: C6-4.2-b
+  page: "p. 260"
+  section: "4.2 CIR et France 2030"
+  message: "Abaisser le plafond du CIR et relever le taux (ou revenir à une assiette en accroissement pour les grands groupes) accroîtrait son efficacité à budget constant (tableau 6.2)."
+  verdict: renforcé
+  maj: manuel
+  donnees: "Le CAE propose de supprimer le taux de 5 % au-delà de 100 M€ et de réallouer l'économie aux appels à projets (Notes du CAE n° 94). Le Sénat suggère un taux mixte sur le modèle espagnol : 25 % sur le volume, plus 17 % sur les dépenses au-delà de la moyenne des deux années précédentes. Positions concurrentes : AmCham France (« sanctuariser » le CIR, oct. 2025) ; Institut Avant-garde (diviser par deux le CIR des grands groupes, juin 2026)."
+  brouillon: "Le Conseil d'analyse économique propose, a minima, de supprimer le taux de 5 % au-delà de 100 millions d'euros de dépenses et de réallouer l'économie aux appels à projets (Bergeaud et al., 2026). Le Sénat suggère d'étudier un taux mixte sur le modèle espagnol : 25 % sur le volume des dépenses, et 17 % de plus sur les dépenses qui dépassent la moyenne des deux années précédentes (Sénat, 2026)."
+  references:
+    - "Bergeaud, A., S. Bunel, X. Jaravel et A. Roulet (2026), *Notes du CAE*, n° 94."
+    - "Sénat, commission des finances (2026), note de présentation PLF 2027, p. 39."
+  maj_le: 2026-11-18
+
+- id: C6-4.2-c
+  page: "p. 260-261"
+  section: "4.2 CIR et France 2030"
+  message: "France 2030 a un fort effet d'entraînement et s'autofinance en moins de cinq ans ; il doit être pérennisé au-delà de 2030, notamment pour l'IA générative."
+  verdict: renforcé
+  maj: manuel
+  donnees: "Version publiée de la note du CAE (n° 94) : lauréats contre candidats non retenus de 111 appels à projets (7,5 Md€) ; à trois ans, +8 % d'emplois et +51 % de R&D ; 100 000 € d'aide rapportent 218 000 € de prélèvements en trois ans, d'où un autofinancement en trois ans (champ : 3,6 Md€ de France 2030). Réserves : 53 % des lauréats disent que leur projet n'aurait pas pu se faire sans l'aide, dispositif d'évaluation jugé insuffisant (Cour des comptes, 2026). Aucune suite n'est décidée : le Sénat renvoie la question aux échéances électorales de 2027. Aucune critique de l'estimation du CAE trouvée. Le Comité de surveillance des investissements d'avenir (avr. 2026) et le Haut-commissariat à la Stratégie et au Plan (sept. 2026) recommandent tous deux une suite durable, sur 15 à 20 ans, sous la forme d'une institution de type DARPA ; effet de levier estimé à 1,3 € privé par euro public (CSIA, p. 12)."
+  brouillon: "Selon les travaux du Conseil d'analyse économique, qui comparent les lauréats et les candidats non retenus de 111 appels à projets (7,5 milliards d'euros d'aides), les entreprises accompagnées comptent trois ans plus tard 8 % d'emplois et 51 % de dépenses de R&D en plus. Du fait des recettes fiscales induites, 100 000 euros d'aide rapportent 218 000 euros de prélèvements en trois ans : le programme est autofinancé en trois ans (Bergeaud et al., 2026). Ce résultat porte sur 3,6 milliards d'euros de France 2030. La Cour des comptes appelle à la prudence : 53 % des lauréats déclarent que leur projet n'aurait pas pu se faire sans France 2030, et elle juge le dispositif d'évaluation insuffisant (Cour des comptes, 2026). Aucune suite au plan n'est décidée à ce jour, mais le Comité de surveillance des investissements d'avenir et le Haut-commissariat à la Stratégie et au Plan recommandent un effort durable, sur 15 à 20 ans (CSIA, 2026 ; HCSP, 2026)."
+  references:
+    - "Bergeaud, A., S. Bunel, X. Jaravel et A. Roulet (2026), *Notes du CAE*, n° 94."
+    - "Cour des comptes (2026), rapport public thématique sur France 2030, octobre 2026."
+    - "Sénat, commission des finances (2026), note de présentation PLF 2027, mission « Investir pour la France de 2030 », p. 52-53."
+    - "Comité de surveillance des investissements d'avenir (2026), rapport, avril 2026."
+    - "Haut-commissariat à la Stratégie et au Plan (2026), *Focus Économie*, septembre 2026."
+  maj_le: 2026-11-18
+
+- id: C6-4.3-d
+  page: "p. 262"
+  section: "4.3 Cinq axes"
+  message: "Axe 5 : accélérer la diffusion des technologies et éviter une fracture de diffusion de l'IA générative (régions, qualifications, Europe et États-Unis)."
+  verdict: renforcé
+  maj: auto
+  donnees: "La fracture par taille est visible : début 2026, 64 % des entreprises de 20 à 49 salariés utilisent l'IA générative, contre 83 % de celles de 1 000 salariés et plus (Banque de France, 2026). Voir aussi la nouvelle section sur la diffusion de l'IA en France. Comparaison européenne : 23 % des entreprises françaises déclarent un usage modéré ou important de l'IA, contre 39 % dans la zone euro (22 % contre 46 % pour les grandes entreprises) (Banque de France, Bloc-notes Éco n° 451). L'écart porte sur l'IA et le numérique, pas sur les technologies industrielles 4.0, où La Fabrique de l'industrie ne trouve pas de retard français (note n° 61)."
+  brouillon: "La fracture selon la taille est déjà visible : début 2026, 64 % des entreprises de 20 à 49 salariés utilisent l'IA générative, contre 83 % de celles de 1 000 salariés et plus (Genre et Parpais, 2026). La France est aussi en retard sur ses voisins : 23 % des entreprises françaises déclarent un usage modéré ou important de l'IA, contre 39 % dans la zone euro (Banque de France, 2026)."
+  references:
+    - "Genre, V. et A. Parpais (2026), *Bulletin de la Banque de France*, n° 266."
+    - "Banque de France (2026), *Bloc-notes Éco*, n° 451."
+  maj_le: 2026-11-18

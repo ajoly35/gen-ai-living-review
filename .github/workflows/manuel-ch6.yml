@@ -1,0 +1,29 @@
+# Refreshes the chapter 6 charts on /manuel/chapitre-6/ once a month from public OECD data
+# (scripts/manuel_ch6_charts.py): productivity per hour (chart 6.4) and venture capital (chart 6.5).
+# Commits the charts, their CSVs and _data/manuel_ch6_charts.yml when the figures change.
+# The text of the page (_data/manuel_ch6.yml) is updated by the monthly routine, not here.
+name: Refresh chapter 6 charts
+on:
+  schedule:
+    - cron: "30 5 2 * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: email
+jobs:
+  charts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet pandas matplotlib
+      - run: python3 scripts/manuel_ch6_charts.py
+      - name: Commit if the figures changed
+        run: |
+          git config user.name "living-review-bot"; git config user.email "actions@users.noreply.github.com"
+          git add assets/manuel-ch6 _data/manuel_ch6_charts.yml
+          # the extraction date alone is not a change worth a commit
+          if git diff --cached --quiet -I'maj_le' -I'extraction du' ; then echo "figures unchanged"; exit 0; fi
+          git commit -m "Chapitre 6 : graphiques actualisés $(date -u +%F) [skip ci]" && git pull --rebase && git push
