@@ -1,5 +1,21 @@
 New papers on AI and labour markets and AI and growth, newest first, each placed against the review below. Every figure is checked against the paper itself.
 
+### Xu, Medappa and Tunc (2026), "Does the AI Reviewer Alleviate or Aggravate the Maintenance Burden? Evidence from GitHub Copilot Reviewer"
+<!-- kind: paper -->
+
+Tilburg University, working paper on arXiv, 17 November 2026. [Paper](https://arxiv.org/abs/2611.22793). Staggered difference in differences comparing GitHub maintainers who adopted an AI code reviewer with those not yet adopting; survival models for time to merge.
+
+**In brief.**
+What it explores: What happens to the people who check code when an AI reviewer joins open-source software projects.
+Why it matters: As AI makes work cheaper to produce, checking it becomes the bottleneck.
+How it fits the evidence: AI sped up each review but drew more submissions, so the human checkers' workload rose rather than fell.
+
+**What it finds.** The AI reviewer raised maintainers' workload. Adopters handled about 10% more pull requests (proposed code changes) and 14% more review comments per request than maintainers who had not yet adopted. Human requests rose 8% and bot requests 5%; the human surge faded after a month and fell below the comparison group, while bot requests kept rising. Human requests shrank (14.1% fewer added lines, 33.8% fewer files). Data: 3,937 Python repositories, 689 adopting and 1,902 other maintainers, about 975,000 requests, monthly March 2024 to February 2026 (tool launched February 2025). AI-reviewed human requests merged faster (merge rate 4.2% higher), bot requests slower (21.5% lower), than requests without AI review.
+
+**Where it fits.** It informs section [“Does reorganisation create new tasks?”](#does-reorganisation-create-new-tasks): handing screening to AI moved the bottleneck to human verification instead of freeing time, as with the unchanged meeting time in Dillon et al. (2025). It extends Hoffmann et al. (2025), where a coding assistant moved developers away from coordination. More submissions after cheaper review echo the scale force in [Main patterns](#main-patterns).
+
+**Caveat.** Maintainers chose to adopt, perhaps when expecting more activity; merge-time comparisons are descriptive. The sample is popular Python open-source projects, not paid teams.
+
 ### Björkegren, Lagakos and VanVuren (2026), "Will AI Growth Reach the Developing World?"
 <!-- kind: paper -->
 
@@ -262,13 +278,3 @@ BETA, University of Strasbourg, arXiv 2611.02996, 2 November 2026. [Paper](https
 **Where it fits.** Extends Hoffmann et al. (2025), where a coding assistant moved developers away from coordinating others, to whole teams: one person covers inputs that used to need several (section [“Who holds knowledge?”](#who-holds-knowledge)). Reorganisation happens when teams form, not within existing ones, consistent with the inertia and reorganisation costs in Dillon et al. (2025) and Bergeaud and Bunel (2026) (section [“Does reorganisation create new tasks?”](#does-reorganisation-create-new-tasks)).
 
 **Caveat.** Year comparisons cannot separate ChatGPT from other post-2022 changes, such as the end of pandemic disruption; statements record who took part, not how much.
-
-### Gans and Landry (2026), "Training Your Replacement: Worker Incentives and the Pace of Automation"
-
-NBER Working Paper 35950, 26 October 2026. [Paper](https://www.nber.org/papers/w35950). Theory: an efficiency wage model in which a worker trains the AI that replaces them; outside the causal standard, reported for the organisation section.
-
-**What it finds.** When workers must train the AI that will replace them, firms pay them more and may automate more slowly than is efficient. Completing training ends the job, so dismissal is a weaker threat and the firm must raise the worker's rent. The worker obstructs whenever training is faster than obstruction is detected, so the firm trains below the fastest feasible rate; obstruction never occurs in equilibrium, yet it sets the pace. A credible completion bonus equal to the worker's rent without AI removes both the extra rent and the slowdown. No data; the motivating case is Meta's 2026 screen-recording programme, petitioned against by more than 1,600 employees.
-
-**Where it fits.** Acemoglu et al. (2026) argue that rents push firms towards replacement automation; here, when the worker holds the knowledge the AI needs, rents rise and automation slows (section [“Organisation: who decides how AI is used”](#organisation-who-decides-how-ai-is-used)). It adds a channel to the slow diffusion the review explains by management and restructuring costs (Coyle et al. 2026; Bergeaud and Bunel 2026; [Main patterns](#main-patterns)), and predicts higher pay while workers train their replacement.
-
-**Caveat.** Untested predictions; if the AI only augments the job, the wage premium and the slowdown vanish.

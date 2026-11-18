@@ -1,5 +1,21 @@
 Nouveaux articles sur l'IA et les marchés du travail et sur l'IA et la croissance, du plus récent au plus ancien, chacun situé par rapport à la revue ci-dessous. Chaque chiffre est vérifié dans l'article lui-même.
 
+### Xu, Medappa and Tunc (2026), "Does the AI Reviewer Alleviate or Aggravate the Maintenance Burden? Evidence from GitHub Copilot Reviewer" {#xu-medappa-and-tunc-2026-does-the-ai-reviewer-alleviate-or-aggravate-the-maintenance-burden-evidence-from-github-copilot-reviewer}
+<!-- kind: paper -->
+
+Université de Tilburg, document de travail sur arXiv, 17 novembre 2026. [Article](https://arxiv.org/abs/2611.22793). Doubles différences échelonnées comparant les mainteneurs GitHub qui ont adopté un relecteur de code par IA à ceux qui ne l'avaient pas encore adopté ; modèles de survie pour le délai d'intégration.
+
+**En bref.**
+Ce qu'elle explore : ce qui arrive aux personnes qui vérifient le code quand un relecteur par IA rejoint des projets de logiciels libres.
+Pourquoi c'est important : quand l'IA rend le travail moins cher à produire, le vérifier devient le goulet d'étranglement.
+Ce que cela change aux preuves : l'IA accélère chaque relecture mais attire plus de contributions, si bien que la charge des vérificateurs humains augmente au lieu de baisser.
+
+**Ce que l'étude trouve.** Le relecteur par IA a alourdi la charge des mainteneurs. Les adoptants traitent environ 10% de demandes d'intégration (propositions de modification du code) en plus et 14% de commentaires de relecture en plus par demande, par rapport aux mainteneurs qui n'avaient pas encore adopté l'outil. Les demandes humaines augmentent de 8% et celles des robots de 5% ; la hausse des demandes humaines s'estompe après un mois et passe sous le groupe de comparaison, alors que celles des robots continuent de croître. Les demandes humaines rétrécissent (14.1% de lignes ajoutées en moins, 33.8% de fichiers en moins). Données : 3 937 dépôts Python, 689 mainteneurs adoptants et 1 902 autres, environ 975 000 demandes, en mensuel de mars 2024 à février 2026 (outil lancé en février 2025). Les demandes humaines relues par l'IA sont intégrées plus vite (taux d'intégration supérieur de 4.2%), celles des robots plus lentement (inférieur de 21.5%), que les demandes sans relecture par IA.
+
+**Où cela se place.** L'étude éclaire la section [« La réorganisation crée-t-elle de nouvelles tâches ? »](#does-reorganisation-create-new-tasks) : confier le premier tri à l'IA a déplacé le goulet vers la vérification humaine au lieu de libérer du temps, comme le temps de réunion inchangé chez Dillon et al. (2025). Elle prolonge Hoffmann et al. (2025), où un assistant de code détournait les développeurs de la coordination. La hausse des contributions après une relecture moins chère rappelle la force d'échelle des [Principaux constats](#main-patterns).
+
+**Limite.** Les mainteneurs ont choisi d'adopter l'outil, peut-être en anticipant plus d'activité ; les comparaisons de délais sont descriptives. L'échantillon couvre des projets Python libres populaires, pas des équipes salariées.
+
 ### Björkegren, Lagakos and VanVuren (2026), "Will AI Growth Reach the Developing World?" {#bjrkegren-lagakos-and-vanvuren-2026-will-ai-growth-reach-the-developing-world}
 <!-- kind: paper -->
 
@@ -262,13 +278,3 @@ BETA, Université de Strasbourg, arXiv 2611.02996, 2 novembre 2026. [Article](ht
 **Où cela se place.** Étend Hoffmann et al. (2025), où un assistant de programmation a éloigné les développeurs de la coordination des autres, à des équipes entières : une personne couvre des apports qui en exigeaient plusieurs (section [« Qui détient le savoir ? »](#who-holds-knowledge)). La réorganisation se produit à la formation des équipes, non au sein des équipes existantes, ce qui est cohérent avec l'inertie et les coûts de réorganisation chez Dillon et al. (2025) et Bergeaud et Bunel (2026) (section [« La réorganisation crée-t-elle de nouvelles tâches ? »](#does-reorganisation-create-new-tasks)).
 
 **Limite.** Des comparaisons annuelles ne peuvent séparer ChatGPT des autres changements postérieurs à 2022, comme la fin des perturbations de la pandémie ; les déclarations enregistrent qui a participé, non dans quelle mesure.
-
-### Gans and Landry (2026), "Training Your Replacement: Worker Incentives and the Pace of Automation" {#gans-and-landry-2026-training-your-replacement-worker-incentives-and-the-pace-of-automation}
-
-NBER Working Paper 35950, 26 octobre 2026. [Article](https://www.nber.org/papers/w35950). Théorie : un modèle de salaire d'efficience dans lequel un travailleur entraîne l'IA qui le remplace ; hors du standard causal, rapporté pour la section sur l'organisation.
-
-**Ce que l'étude trouve.** Lorsque les travailleurs doivent entraîner l'IA qui les remplacera, les entreprises les paient davantage et peuvent automatiser plus lentement qu'il ne serait efficace. Achever l'entraînement met fin à l'emploi, de sorte que le licenciement est une menace plus faible et que l'entreprise doit accroître la rente du travailleur. Le travailleur fait obstruction dès que l'entraînement va plus vite que la détection de l'obstruction, de sorte que l'entreprise entraîne en deçà du rythme le plus rapide possible ; l'obstruction ne se produit jamais à l'équilibre, mais elle fixe le rythme. Une prime d'achèvement crédible, égale à la rente du travailleur sans IA, supprime à la fois la rente supplémentaire et le ralentissement. Pas de données ; le cas qui motive l'étude est le programme d'enregistrement d'écran de Meta en 2026, contre lequel plus de 1,600 salariés ont pétitionné.
-
-**Où cela se place.** Acemoglu et al. (2026) soutiennent que les rentes poussent les entreprises vers l'automatisation de remplacement ; ici, lorsque le travailleur détient le savoir dont l'IA a besoin, les rentes augmentent et l'automatisation ralentit (section [« Organisation : qui décide de l'usage de l'IA »](#organisation-who-decides-how-ai-is-used)). Cela ajoute un canal à la diffusion lente que la revue explique par les coûts de management et de restructuration (Coyle et al. 2026 ; Bergeaud et Bunel 2026 ; [Principales régularités](#main-patterns)), et prédit des salaires plus élevés pendant que les travailleurs entraînent leur remplaçant.
-
-**Limite.** Prédictions non testées ; si l'IA ne fait que compléter le poste, la prime salariale et le ralentissement disparaissent.

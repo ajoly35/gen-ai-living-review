@@ -22,8 +22,6 @@ Esposito, Mark, and Liu Zhang. 2026. *AI and the Two Margins of Work: Why Job Lo
 
 Fleck, Lara, Marie-Christine Fregin, Andries de Grip, and Sanne Steens. 2026. *AI Implementation at Work: Worker Preferences for Task Changes*. IZA Discussion Paper No. 19076. IZA@LISER Network, November. [Link](https://www.iza.org/publications/dp/19076/ai-implementation-at-work-worker-preferences-for-task-changes).
 
-Gans, Joshua S., and Peter Landry. 2026. *Training Your Replacement: Worker Incentives and the Pace of Automation*. Working Paper No. 35950. NBER. [Link](https://www.nber.org/papers/w35950).
-
 Hermle, Johannes, Benjamin Jones, Lukas Althoff, Ryan Heller, Thomas Lyttelton, Carolyn Stein, Nathan Wilmers, Maxim Massenkoff, and Peter McCrory. 2026. *AI for Scientific Discovery: How Researchers Use Claude*. Technical Report. The Anthropic Institute, 5 November. [Link](https://www.anthropic.com/research/how-researchers-use-claude).
 
 Jones, Charles I., and Christopher Tonetti. 2026. *Past Automation and Future A.I.: How Weak Links Tame the Growth Explosion*. Working Paper. Stanford University. [Link](https://web.stanford.edu/~chadj/JonesTonetti_Automation.pdf).
@@ -45,6 +43,8 @@ Soda, Giuseppe, Alessandro Iorio, and Leonardo Rizzo. 2026. *The Effects of Gene
 Strauss, Delphine, Valentina Romei, and Sam Fleming. 2026. "What Is Behind the Surprising Resilience of the UK Economy?" *Financial Times*, 17 October.
 
 Tadepalli, Karthik. 2026. *Efficiency vs Capability in the Intelligence Explosion*. arXiv:2610.33447. [Link](https://arxiv.org/abs/2610.33447).
+
+Xu, Feiyang, Poonacha K. Medappa, and Murat M. Tunc. 2026. *Does the AI Reviewer Alleviate or Aggravate the Maintenance Burden? Evidence from GitHub Copilot Reviewer*. arXiv:2611.22793. [Link](https://arxiv.org/abs/2611.22793).
 
 Yang, Longqi, David Holtz, Sonia Jaffe, Siddharth Suri, Shilpi Sinha, Jeffrey Weston, Connor Joyce, Neha Shah, Kevin Sherman, Brent Hecht, and Jaime Teevan. 2022. “The Effects of Remote Work on Collaboration among Information Workers.” *Nature Human Behaviour* 6: 43–54.
 
