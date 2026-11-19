@@ -1,0 +1,53 @@
+# IA et travail, en bref : 19 novembre 2026
+
+# IA et travail, en bref
+
+
+
+## Aujourd'hui en trois lignes
+
+- Dans les tribunaux fédéraux américains, environ une affaire civile sur six compte aujourd'hui une partie qui se défend sans avocat, contre environ une sur dix pendant vingt ans.
+- Le travail juridique payé n'a pourtant pas reculé : les ménages dépensent toujours plus qu'avant, et les plus grands cabinets ont accru leurs revenus d'environ un huitième en 2025.
+- Un savoir moins cher n'a pas vidé la profession. Une partie du travail est passée aux particuliers eux-mêmes, et une autre vers des cabinets moins coûteux.
+
+## La nouvelle recherche, en mots simples
+
+### Plus d'Américains vont au tribunal sans avocat, et les grands cabinets se portent bien
+
+**Ce qu'elle explore.** Zhang, Esposito et Yang cherchent à savoir ce qui arrive à un métier quand l'IA rend le savoir d'expert bon marché. Ils observent trois groupes sur le marché juridique américain : les particuliers qui pourraient rédiger seuls leurs actes, les entreprises tentées de recruter leurs propres juristes, et les cabinets qui se disputent le travail restant.
+
+**Pourquoi c'est important.** Depuis 2022, les particuliers sont nettement plus nombreux à déposer seuls une affaire civile. Dans les dossiers de droits civiques, qui exigent une plainte écrite, la part déposée sans avocat grimpe d'environ un quart à près de deux sur cinq. Chez les détenus, qui plaident presque toujours seuls, rien ne bouge vraiment : cette comparaison permet d'écarter l'effet d'évolutions générales des tribunaux. De leur côté, les entreprises n'ont pas internalisé davantage ce travail : environ trois avocats du privé sur dix exerçaient en entreprise en 2024, exactement comme en 2019.
+
+**Ce que cela change aux preuves.** Les plus grands cabinets ont monté leurs tarifs : leur chiffre d'affaires a gagné environ un huitième en 2025 alors que leurs heures facturées ont à peine bougé, tandis que les cabinets moins chers attiraient davantage de nouveaux dossiers. Le travail s'est redistribué, il n'a pas disparu. Une réserve s'impose toutefois : les auteurs travaillent pour une entreprise d'IA qui conçoit des tests juridiques, et ce transfert entre cabinets avait souvent commencé avant l'arrivée de ChatGPT.
+
+[Entrée complète](https://ajoly35.github.io/gen-ai-living-review/fr/latest/#zhang-esposito-and-yang-2026-ai-specialization-and-the-organization-of-knowledge-work-evidence-from-legal-services) · [Article](https://arxiv.org/abs/2611.23354)
+
+## Comment les pièces s'assemblent
+
+Notre revue de littérature revient toujours à deux mécanismes : avec l'IA, une entreprise peut produire plus, ou produire autant avec moins de monde. L'étude du jour ouvre une troisième piste qu'on oublie vite : le client fait le travail lui-même. Un locataire qui rédige sa plainte avec un assistant d'IA n'aurait de toute façon pas eu les moyens de payer un cabinet. Comme les dépenses des ménages en frais d'avocat restent élevées, on assiste plutôt à de nouveaux recours qu'à une fuite de clients.
+
+Ces résultats confirment aussi une idée centrale de la revue : tout dépend de la façon dont les organisations répartissent les tâches. Si les entreprises n'ont pas utilisé l'IA pour rapatrier leur travail juridique, c'est en partie parce que les outils butent encore sur les dossiers longs et complexes : lors d'un test, le meilleur système n'en a mené à bout qu'environ un quart. Les entreprises confient donc les affaires courantes à des cabinets moins chers et réservent les dossiers ardus aux plus prestigieux. Voilà comment les grands cabinets facturent davantage sans travailler plus d'heures.
+
+En revanche, l'étude ne dit rien sur les débuts de carrière. Ailleurs, la revue relève jusqu'à un quart d'embauches de jeunes en moins dans quatre pays pour les métiers que l'IA maîtrise le mieux. Ici, le recrutement de juniors dans les cabinets n'est pas mesuré.
+
+## Une idée expliquée : ce que les chiffres de la croissance ne voient pas
+
+Imas et Moll (2026) rappellent une évidence. Les statistiques de la croissance additionnent ce que les gens paient, pas ce que les choses valent à leurs yeux. Quand un service coûte moins cher, son poids dans les comptes diminue. S'il devient gratuit, il en sort complètement. Selon des estimations qu'ils citent, les Américains retirent des assistants d'IA environ dix fois plus de valeur que le prix qu'ils paient.
+
+Reprenons l'image de la boulangerie. Une famille qui achetait un gâteau à chaque anniversaire apprend à le préparer elle-même grâce à une bonne application de cuisine. La boulangerie vend un gâteau de moins et l'économie, telle qu'on la compte, recule d'un cran. Pourtant la famille a bien son gâteau, et il est peut-être meilleur.
+
+L'étude du jour en livre un cas concret. Quelqu'un qui rédige seul son acte de procédure avec un outil d'IA gratuit accomplit un travail juridique que personne n'est payé pour faire. Dans les comptes nationaux, cela vaut zéro. Dans la vraie vie, cette personne accède à un tribunal qu'elle ne pouvait pas s'offrir avant.
+
+Pour un salarié ou un étudiant, mieux vaut donc se méfier des gros titres affirmant que l'IA ne dope pas la croissance. Une partie des gains profite aux gens comme utilisateurs plutôt que comme travailleurs, et mettra longtemps avant de se voir sur les fiches de paie ou dans la production nationale.
+
+## Où en sont les preuves
+
+![Études sur l'emploi, les embauches ou les salaires, par dispositif. Orange : moins d'emplois, d'embauches ou de salaire. Gris : pas d'effet mesurable. Bleu : gains.](https://ajoly35.github.io/gen-ai-living-review/assets/vitals/direction-by-design-fr.png)
+
+Chaque barre compte des études : orange pour des pertes, gris quand aucun effet mesurable n'apparaît, bleu pour des gains. Les expériences qui chronomètrent des tâches précises trouvent des gains, les travaux sur les embauches repèrent des baisses, et ceux sur l'emploi total ne voient encore rien bouger. Côté emploi, l'étude du jour rejoindrait les barres grises : les avocats ne sont pas partis en entreprise et les cabinets ont maintenu leurs heures. Son seul vrai basculement, la hausse des particuliers qui se défendent seuls, porte sur l'identité de celui qui fait le travail, un angle mort du graphique.
+
+## Pour aller plus loin
+
+[La revue vivante](https://ajoly35.github.io/gen-ai-living-review/fr/) · [Où va la recherche](https://ajoly35.github.io/gen-ai-living-review/fr/vitals/) · [Articles récents](https://ajoly35.github.io/gen-ai-living-review/fr/latest/) · [Proposer un article](https://github.com/ajoly35/gen-ai-living-review/issues/new?template=paper.yml)
+
+*Une revue vivante tenue par Adrien Joly, London School of Economics. Les entrées sont rédigées par un assistant IA à partir de l'article lui-même et ne sont pas relues avant envoi. Les chiffres viennent de l'article ; l'appréciation de la revue est dans la limite.*

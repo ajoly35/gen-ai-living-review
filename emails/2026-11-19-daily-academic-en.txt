@@ -1,0 +1,31 @@
+GEN-AI, JOBS AND GROWTH
+One new study on AI and work, checked against its full text.
+
+Zhang, Esposito and Yang (2026), "AI, Specialization, and the Organization of Knowledge Work: Evidence from Legal Services"
+micro1 (an AI data and benchmark firm) and Northeastern University, working paper on arXiv, 17 November 2026. Paper. Difference in differences across 89 federal court districts, civil cases against prisoner petitions; law-firm and employment evidence is descriptive.
+
+What it finds. Self-representation rose, yet paid legal work held steady. Across 89 US federal districts between fiscal 2022 and 2025, the share of non-prisoner civil cases with a self-represented party grew 6.6 percentage points faster than for prisoner petitions, or 5.7 points after adjusting for prior trends. That share hit 16.8% in fiscal 2025, up from a 9.5 to 12.1% range over the prior two decades, with the sharpest jump in drafting-heavy civil rights cases (from 26% to 38%). Meanwhile, household legal spending remained above its 2010 to 2019 trend. In-house lawyers made up 29.0% of private-sector lawyers in 2024, barely changed from 28.7% in 2019. And in 2025, Am Law 100 revenue climbed 13% while billable hours edged up just 0.1%.
+
+Why it matters. This speaks to the section “Who holds knowledge?”: following Garicano (2000), cheaper access to knowledge lets clients handle routine problems on their own, though so far households rather than firms are doing so. Steady demand at top firms points to scale effects rather than substitution in Main patterns. The paper also extends Esposito and Zhang (2026) to another sector where early adjustment comes through reallocation rather than new jobs.
+
+Caveat. The authors work at micro1, which builds the legal-AI benchmarks cited in the study. Prisoner petitions also make an imperfect control group, and the shifts among law firms began before generative AI arrived.
+
+https://arxiv.org/abs/2611.23354
+https://ajoly35.github.io/gen-ai-living-review/latest/#zhang-esposito-and-yang-2026-ai-specialization-and-the-organization-of-knowledge-work-evidence-from-legal-services
+
+——————————————————————————————
+
+MAIN IDEAS
+- Large gains on tasks, none yet in the aggregates. In field experiments, generative AI raises output on narrow tasks by 14 to 34%, most for workers who were least productive before. In the Nordic registers, total employment, hours and earnings are unchanged so far.
+- The adjustment runs through entry, not layoffs. Young hires in the most exposed occupations have fallen in the US, Sweden, the UK and France, by up to a quarter relative to less exposed occupations, and contract ends fell too: firms stop hiring juniors rather than dismiss workers. Hires are a small flow, so the stock of jobs moves slowly and totals look flat.
+- Exposed occupations adjust through pay as well. Wages in the most exposed occupations fell by about 5% by 2026 with no change in headcount, and this explains close to a third of the fall in the college wage premium.
+- Firm-level results split. Some adopters cut junior employment by about 9% while senior employment is unchanged; others, especially the biggest spenders on AI, grew and hired more entrants. Who counts as an adopter drives much of the gap, and whether substitution or scale wins is the central open question.
+- Juniors lose because their tasks are the most codifiable. AI raises novices' output most, but hiring depends on demand for the firm's output, not on output per worker. If AI does the routine work juniors used to train on, firms have less reason to hire and train them.
+- Organisation decides the direction. Management quality, the cost of reorganising and the flexibility of labour law set how deeply firms adopt. So far AI mostly saves time within existing jobs and moves knowledge down the hierarchy; new tasks appear only where employers reorganise.
+- What is still unknown. How strongly demand responds to cheaper output, how much of the fall in entry is AI rather than remote work or a slowdown that began in 2022, where the fall in entry ends as models improve, and who captures the gains.
+
+Read the full review: https://ajoly35.github.io/gen-ai-living-review/
+Unsubscribe: {{ unsubscribe_url }}
+
+A living review maintained by Adrien Joly, London School of Economics.
+Entries are written by an AI assistant from the paper itself and are not reviewed before they are sent. Figures are taken from the paper; the review's own assessment is in the caveat.
