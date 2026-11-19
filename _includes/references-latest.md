@@ -4,8 +4,6 @@ Bank of England. 2026. *Monetary Policy Report*. November. [Link](https://www.ba
 
 Barwick, Panle Jia, Lu Fang, Jinhan Liu, Huilan Xu, and Zhe Yuan. 2026. *AI as Shared Business Infrastructure: Firm Growth and the Distribution of Gains*. Working Paper No. 36003. NBER. [Link](https://www.nber.org/papers/w36003).
 
-Bianchini, Stefano, and Georgiana-Ioana Coroama. 2026. *LLMs and the Organization of Scientific Work*. arXiv:2611.02996. [Link](https://arxiv.org/abs/2611.02996).
-
 Björkegren, Daniel, David Lagakos, and Mitchell VanVuren. 2026. *Will AI Growth Reach the Developing World?* Working Paper No. 36035. NBER. [Link](https://www.nber.org/papers/w36035).
 
 Carollo, Nick, Leland D. Crane, Daniel Garcia Molina, and Joseph Nichols. 2026. *Artificial Intelligence and the U.S. Economy: Current Evidence*. Finance and Economics Discussion Series 2026-074. Board of Governors of the Federal Reserve System, 12 November. [Link](https://doi.org/10.17016/FEDS.2026.074).
@@ -47,5 +45,7 @@ Tadepalli, Karthik. 2026. *Efficiency vs Capability in the Intelligence Explosio
 Xu, Feiyang, Poonacha K. Medappa, and Murat M. Tunc. 2026. *Does the AI Reviewer Alleviate or Aggravate the Maintenance Burden? Evidence from GitHub Copilot Reviewer*. arXiv:2611.22793. [Link](https://arxiv.org/abs/2611.22793).
 
 Yang, Longqi, David Holtz, Sonia Jaffe, Siddharth Suri, Shilpi Sinha, Jeffrey Weston, Connor Joyce, Neha Shah, Kevin Sherman, Brent Hecht, and Jaime Teevan. 2022. “The Effects of Remote Work on Collaboration among Information Workers.” *Nature Human Behaviour* 6: 43–54.
+
+Zhang, Liu, Mark Esposito, and Isabel Yang. 2026. *AI, Specialization, and the Organization of Knowledge Work: Evidence from Legal Services*. arXiv:2611.23354. [Link](https://arxiv.org/abs/2611.23354).
 
 Zhao, Dora, Lin Ai, Pranav Khadpe, Siddharth Suri, and Scott Counts. 2026. *AI Exposure and the Changing Responsibilities in Job Postings*. arXiv:2611.09870. [Link](https://arxiv.org/abs/2611.09870).

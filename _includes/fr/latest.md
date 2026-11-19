@@ -1,5 +1,21 @@
 Nouveaux articles sur l'IA et les marchés du travail et sur l'IA et la croissance, du plus récent au plus ancien, chacun situé par rapport à la revue ci-dessous. Chaque chiffre est vérifié dans l'article lui-même.
 
+### Zhang, Esposito and Yang (2026), "AI, Specialization, and the Organization of Knowledge Work: Evidence from Legal Services" {#zhang-esposito-and-yang-2026-ai-specialization-and-the-organization-of-knowledge-work-evidence-from-legal-services}
+<!-- kind: paper -->
+
+micro1 (entreprise de données et d'évaluation pour l'IA) et Northeastern University, document de travail sur arXiv, 17 novembre 2026. [Article](https://arxiv.org/abs/2611.23354). Doubles différences sur 89 districts fédéraux, affaires civiles contre recours de détenus ; les résultats sur les cabinets et l'emploi sont descriptifs.
+
+**En bref.**
+Ce qu'elle explore : si un savoir juridique rendu moins cher par l'IA pousse particuliers et entreprises à faire eux-mêmes le travail juridique, ou déplace le travail entre cabinets.
+Pourquoi c'est important : c'est dans les services professionnels que l'IA promet le plus une expertise bon marché ; qui garde le travail décide qui y gagne.
+Ce que cela change aux preuves : plus de gens vont au tribunal sans avocat, mais les entreprises n'embauchent pas plus de juristes internes, et les grands cabinets facturent plus cher.
+
+**Ce que l'étude trouve.** L'auto-représentation progresse, mais le travail juridique payé ne recule pas. Dans 89 districts fédéraux américains, la part des affaires civiles hors détenus avec une partie sans avocat augmente de 6.6 points de plus que pour les recours de détenus entre les exercices 2022 et 2025, soit 5.7 points une fois retirée une tendance antérieure. Elle atteint 16.8% en 2025, contre 9.5 à 12.1% pendant deux décennies, et monte surtout dans les affaires de droits civiques, riches en rédaction (de 26% à 38%). La dépense juridique des ménages reste au-dessus de sa tendance 2010 à 2019. La part des avocats du privé employés en entreprise est de 29.0% en 2024, contre 28.7% en 2019. En 2025, le chiffre d'affaires de l'Am Law 100 progresse de 13% pour des heures facturées en hausse de 0.1%.
+
+**Où cela se place.** L'étude éclaire la section [« Qui détient le savoir ? »](#who-holds-knowledge) : comme chez Garicano (2000), un savoir moins cher permet aux clients de résoudre eux-mêmes plus de problèmes, mais ici ce sont les ménages, non les entreprises, qui internalisent. La demande stable adressée aux cabinets haut de gamme favorise l'effet d'échelle plutôt que la substitution dans les [Principaux constats](#main-patterns). Elle ajoute un secteur à Esposito et Zhang (2026), où l'ajustement passe d'abord par une réallocation plutôt que par la création d'emplois.
+
+**Limite.** Les auteurs travaillent pour micro1, qui produit des évaluations d'IA juridique citées dans l'article. Les recours de détenus sont une comparaison imparfaite, et les tendances des cabinets précèdent l'IA générative.
+
 ### Xu, Medappa and Tunc (2026), "Does the AI Reviewer Alleviate or Aggravate the Maintenance Burden? Evidence from GitHub Copilot Reviewer" {#xu-medappa-and-tunc-2026-does-the-ai-reviewer-alleviate-or-aggravate-the-maintenance-burden-evidence-from-github-copilot-reviewer}
 <!-- kind: paper -->
 
@@ -268,13 +284,3 @@ GovAI, arXiv 2610.33447, 24 octobre 2026. [Article](https://arxiv.org/abs/2610.3
 **Où cela se place.** Remplace les unités scalaires d'efficacité de la recherche d'Eth et Davidson (2025) et de Davidson et Houlden (2025) par des tâches, et conclut que l'efficacité d'inférence, et non la capacité, est la contrainte probable (revue compagnon). Il convertit aussi la tendance des horizons temporels utilisée par la revue (Kwa et al. 2025 ; [Principales régularités](#main-patterns)) en une part de tâches automatisées par doublement.
 
 **Limite.** Les 49% ne sont pas une probabilité : les intrants viennent de séries courtes et de quelques modèles à poids ouverts, et le calcul est maintenu fixe, de sorte qu'il s'agit d'une explosion purement logicielle.
-
-### Bianchini and Coroama (2026), "LLMs and the Organization of Scientific Work" {#bianchini-and-coroama-2026-llms-and-the-organization-of-scientific-work}
-
-BETA, Université de Strasbourg, arXiv 2611.02996, 2 novembre 2026. [Article](https://arxiv.org/abs/2611.02996). Étude d'événement autour de la sortie de ChatGPT par rapport à la tendance 2018 à 2021 ; toutes les équipes ont été exposées en même temps, donc pas de groupe non traité.
-
-**Ce que l'étude trouve.** Depuis ChatGPT, les équipes de recherche répartissent chaque tâche entre moins de membres, et chaque membre accomplit un éventail plus étroit de tâches. Dans les déclarations de contribution de 117,211 articles de PLOS ONE (2018 à 2025), la part d'une équipe créditée de l'idéation est inférieure en 2025 de 2.6 points de pourcentage à son niveau de 2022, la rédaction de 2.7 points et la coordination de 1.4 point, ce qui inverse une tendance à la hausse avant 2022. Le changement vient des équipes nouvellement formées, environ 90% des articles ; les équipes ayant déjà publié ensemble ne montrent pas de rupture significative.
-
-**Où cela se place.** Étend Hoffmann et al. (2025), où un assistant de programmation a éloigné les développeurs de la coordination des autres, à des équipes entières : une personne couvre des apports qui en exigeaient plusieurs (section [« Qui détient le savoir ? »](#who-holds-knowledge)). La réorganisation se produit à la formation des équipes, non au sein des équipes existantes, ce qui est cohérent avec l'inertie et les coûts de réorganisation chez Dillon et al. (2025) et Bergeaud et Bunel (2026) (section [« La réorganisation crée-t-elle de nouvelles tâches ? »](#does-reorganisation-create-new-tasks)).
-
-**Limite.** Des comparaisons annuelles ne peuvent séparer ChatGPT des autres changements postérieurs à 2022, comme la fin des perturbations de la pandémie ; les déclarations enregistrent qui a participé, non dans quelle mesure.

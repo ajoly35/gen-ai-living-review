@@ -1,5 +1,21 @@
 New papers on AI and labour markets and AI and growth, newest first, each placed against the review below. Every figure is checked against the paper itself.
 
+### Zhang, Esposito and Yang (2026), "AI, Specialization, and the Organization of Knowledge Work: Evidence from Legal Services"
+<!-- kind: paper -->
+
+micro1 (an AI data and benchmark firm) and Northeastern University, working paper on arXiv, 17 November 2026. [Paper](https://arxiv.org/abs/2611.23354). Difference in differences across 89 federal court districts, civil cases against prisoner petitions; law-firm and employment evidence is descriptive.
+
+**In brief.**
+What it explores: Whether cheaper legal know-how from AI leads people and companies to do legal work themselves, or moves work between law firms.
+Why it matters: Professional services are where AI most promises cheap expertise; who keeps the work decides who gains.
+How it fits the evidence: More people now go to court without a lawyer, yet companies have not hired more in-house lawyers, and top firms charge more.
+
+**What it finds.** Self-representation rose but paid legal work did not shrink. Across 89 US federal districts, the share of non-prisoner civil cases with a self-represented party rose 6.6 percentage points more than for prisoner petitions between fiscal 2022 and 2025, or 5.7 points after removing an earlier trend. It reached 16.8% in fiscal 2025, against 9.5 to 12.1% for two decades, rising most in drafting-heavy civil rights cases (26% to 38%). Household legal spending stayed above its 2010 to 2019 trend. The in-house share of private-sector lawyers was 29.0% in 2024, against 28.7% in 2019. In 2025 Am Law 100 revenue grew 13% while billable hours rose 0.1%.
+
+**Where it fits.** It informs section [“Who holds knowledge?”](#who-holds-knowledge): as in Garicano (2000), cheaper knowledge lets clients solve more problems themselves, but here households, not firms, take work in-house. Stable demand for premium firms favours scale over substitution in [Main patterns](#main-patterns). It adds a sector to Esposito and Zhang (2026), where adjustment shows up first as reallocation rather than job creation.
+
+**Caveat.** The authors work for micro1, which makes legal-AI benchmarks cited in the paper. Prisoner petitions are an imperfect comparison, and the law-firm patterns predate generative AI.
+
 ### Xu, Medappa and Tunc (2026), "Does the AI Reviewer Alleviate or Aggravate the Maintenance Burden? Evidence from GitHub Copilot Reviewer"
 <!-- kind: paper -->
 
@@ -268,13 +284,3 @@ GovAI, arXiv 2610.33447, 24 October 2026. [Paper](https://arxiv.org/abs/2610.334
 **Where it fits.** Replaces the scalar research-efficiency units of Eth and Davidson (2025) and Davidson and Houlden (2025) with tasks, and finds inference efficiency, not capability, is the likely constraint (companion review). It also turns the time-horizon trend the review uses (Kwa et al. 2025; [Main patterns](#main-patterns)) into a share of tasks automated per doubling.
 
 **Caveat.** The 49% is not a probability: the inputs come from short series and a few open-weight models, and compute is held fixed, so this is a software-only explosion.
-
-### Bianchini and Coroama (2026), "LLMs and the Organization of Scientific Work"
-
-BETA, University of Strasbourg, arXiv 2611.02996, 2 November 2026. [Paper](https://arxiv.org/abs/2611.02996). Event study around ChatGPT's release against the 2018 to 2021 trend; every team was exposed at once, so no untreated group.
-
-**What it finds.** Since ChatGPT, research teams spread each task across fewer members, and each member does a narrower set of tasks. In contribution statements for 117,211 PLOS ONE papers (2018 to 2025), the share of a team credited with ideation is 2.6 percentage points below its 2022 level by 2025, writing 2.7 points and coordination 1.4 points lower, reversing a rising pre-2022 trend. The change comes from newly formed teams, about 90% of papers; teams that had published together before show no significant break.
-
-**Where it fits.** Extends Hoffmann et al. (2025), where a coding assistant moved developers away from coordinating others, to whole teams: one person covers inputs that used to need several (section [“Who holds knowledge?”](#who-holds-knowledge)). Reorganisation happens when teams form, not within existing ones, consistent with the inertia and reorganisation costs in Dillon et al. (2025) and Bergeaud and Bunel (2026) (section [“Does reorganisation create new tasks?”](#does-reorganisation-create-new-tasks)).
-
-**Caveat.** Year comparisons cannot separate ChatGPT from other post-2022 changes, such as the end of pandemic disruption; statements record who took part, not how much.
