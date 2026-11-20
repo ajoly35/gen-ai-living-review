@@ -1,0 +1,657 @@
+IA GÉNÉRATIVE, EMPLOI ET CROISSANCE
+La recherche du mois sur l'IA et le travail, en mots simples.
+
+============ 2026-11-09
+
+
+
+
+Aujourd'hui en trois lignes
+
+- Une étude portant sur environ 226 000 petites boutiques en ligne en Chine montre que celles qui ont activé l'assistant IA de leur plateforme ont vendu à peu près moitié plus que des boutiques similaires restées sans l'outil.
+- Les plus petites boutiques en ont le plus profité : leurs ventes ont grimpé de trois cinquièmes dans le quart des plus petites, contre un dixième dans le quart des plus grandes.
+- Cela illustre bien la question centrale qui détermine l'effet de l'IA sur l'emploi : une entreprise utilise-t-elle l'outil pour produire davantage, ou pour faire la même chose avec moins de monde ?
+
+La nouvelle recherche, en mots simples
+
+Les petites boutiques en ligne qui ont activé l'IA ont vendu moitié plus
+
+Ce qu'elle explore. Barwick et ses coauteurs suivent de petits vendeurs sur une grande place de marché chinoise entre octobre 2023 et juillet 2025. La plateforme a mis à la disposition de tous un assistant IA qui rédige les fiches produits, crée les images et répond aux clients. Environ 149 000 vendeurs l'ont activé ; les auteurs comparent leurs résultats à ceux d'environ 77 000 vendeurs semblables qui ne s'en sont pas servis.
+
+Pourquoi c'est important. La plupart des travaux sur l'IA et l'emploi portent sur de grandes entreprises de pays riches. Cette étude s'intéresse à de toutes petites structures, souvent gérées par une seule personne, sur le plus grand marché en ligne du monde. Leurs ventes ont augmenté d'environ moitié, leurs commandes presque autant, et ce sont les plus petits vendeurs qui ont le plus gagné. Si ce constat se vérifie ailleurs, l'IA réduit l'écart entre les très petites entreprises et les grandes au lieu de le creuser.
+
+Ce que cela change aux preuves. Notre revue de littérature montre déjà que les entreprises qui adoptent l'IA ont tendance à grandir, et que les plus gros utilisateurs recrutent davantage. Cette étude ajoute les très petites structures au tableau. Faute de compter les salariés, elle ne dit rien sur l'emploi ; elle montre en revanche que le temps consacré à chaque commande au service client a légèrement reculé, d'environ un vingtième. Attention toutefois : les vendeurs ont choisi eux-mêmes d'utiliser l'outil, les plus motivés ont donc pu se lancer en premier, et la plateforme qui commercialise l'assistant a aussi fourni les données.
+
+Entrée complète · Article
+
+Comment les pièces s'assemblent
+
+Deux forces s'opposent lorsqu'une entreprise adopte l'IA. La première est le remplacement : la machine reprend une tâche jusque-là confiée à un humain, et l'entreprise a besoin de moins d'heures pour produire autant. La seconde est l'effet de volume : l'entreprise devient moins chère ou meilleure, elle vend davantage et a besoin de plus de bras à tous les postes. L'étude du jour raconte une histoire de volume : davantage d'images, de commandes et de ventes, accompagnés d'un léger gain de temps par commande.
+
+Les autres travaux de notre revue illustrent plutôt le remplacement. En France, en Suède, aux États-Unis et au Royaume-Uni, les jeunes qui débutent dans les métiers où l'IA s'applique le plus facilement sont moins recrutés qu'avant, avec des embauches jusqu'à un quart inférieures à celles des autres métiers. Les entreprises ne licencient pas, elles recrutent moins de débutants. Et au Danemark, chez les entreprises de moins de 100 salariés, le passage à l'IA s'est accompagné de suppressions de postes, à rebours des boutiques chinoises.
+
+Le bilan honnête reste donc celui qui ouvre cette revue : des gains nets sur des tâches isolées, de la croissance chez bon nombre d'entreprises utilisatrices, moins de premiers emplois pour les jeunes, et aucun effet visible à ce stade sur l'emploi total. Tout dépend au fond d'une seule question : une production moins chère attire-t-elle assez de nouveaux clients ?
+
+Une idée expliquée : l'IA permet-elle de faire plus, ou la même chose avec moins de monde ?
+
+Imaginez une boulangerie qui achète un four bien plus performant. Le patron peut cuire autant de pains en deux fois moins de temps et se séparer d'un boulanger, ou garder toute son équipe et cuire deux fois plus de pains, à condition que les habitants les achètent. Ce n'est pas le four qui tranche. Ce sont les clients et le patron.
+
+Les économistes appellent la première option la substitution et la seconde l'effet d'échelle. Tout le débat sur l'IA et l'emploi dépend de l'équilibre entre les deux. Les études qui mesurent les gains de vitesse individuels avec l'IA, souvent d'un tiers sur des tâches précises, montrent simplement que le four marche mieux. Celles qui suivent des entreprises entières montrent ce que les dirigeants ont choisi d'en faire. À ce stade, les constats divergent : certains utilisateurs ont réduit leurs effectifs débutants d'environ un dixième, tandis que d'autres, surtout parmi les utilisateurs les plus assidus, se sont développés et ont recruté plus de jeunes. Les boutiques chinoises étudiées ici penchent du côté de la croissance, à une réserve près : une minuscule boutique qui double ses ventes peut très bien rester l'affaire d'une seule personne.
+
+Pour un étudiant ou un parent, voici la leçon pratique à en tirer. Face à un métier, la bonne question n'est pas « l'IA peut-elle en faire une partie ? », mais « si l'IA rend ce service moins cher, les clients en achèteront-ils davantage ? ». Quand la réponse est oui, l'IA a tendance à créer de l'activité. Quand la demande plafonne, elle a tendance à supprimer du travail.
+
+Où en sont les preuves
+
+!Études sur l'emploi, les embauches ou les salaires, par dispositif. Orange : moins d'emplois, d'embauches ou de salaire. Gris : pas d'effet mesurable. Bleu : gains.
+
+Chaque barre additionne des études portant sur l'emploi, les recrutements ou les salaires. En orange : celles qui observent moins d'emplois, moins d'embauches ou des salaires en baisse ; en gris : aucun effet mesurable ; en bleu : des hausses. L'essentiel tient aux écarts selon l'angle d'observation : les expériences qui chronomètrent la vitesse de travail relèvent des gains, les études sur les recrutements constatent des reculs, et celles qui suivent l'emploi global ne voient encore rien bouger. L'article du jour ajouterait une barre bleue sur la ligne des « entreprises qui ont adopté », en gardant en tête qu'il mesure des ventes et non des emplois.
+
+Pour aller plus loin
+
+La revue vivante · Où va la recherche · Articles récents · Proposer un article
+
+============ 2026-11-10
+
+
+
+
+Aujourd'hui en trois lignes
+
+- Sur un marché expérimental de petits jeux vidéo, les jeux conçus par une IA seule se sont vendus environ un quart plus cher que ceux imaginés par des humains aidés par la même IA.
+- Savoir qu'un jeu venait d'un humain n'a pas poussé les acheteurs à payer plus, à la surprise des créateurs.
+- L'étude met à l'épreuve deux espoirs courants : que le goût humain garde la main, et que les clients paient davantage pour la touche humaine.
+
+La nouvelle recherche, en mots simples
+
+Les jeux conçus par une IA seule battent ceux conçus par des personnes qui utilisaient la même IA
+
+Ce qu'elle explore. John Conlon et Peter Schwardmann, économistes dans l'Ohio et à Pittsburgh, ont créé un petit marché en ligne. Environ 300 volontaires américains ont amélioré des jeux simples en guidant une IA qui code, puis ont payé quelques centimes pour essayer les jeux des autres. En parallèle, l'IA a conçu d'autres jeux toute seule, sur une consigne brève. Ensuite, 180 créatifs professionnels et environ 550 nouveaux acheteurs ont rejoint l'expérience.
+
+Pourquoi c'est important. Que nous restera-t-il ? Deux idées reviennent souvent. D'abord, le goût : l'IA abat la besogne, mais nous décidons de ce qui mérite d'exister. Ensuite, l'origine : les clients aimeraient savoir qu'une personne est derrière l'objet. L'étude teste ces deux pistes. En moyenne, un jeu conçu par l'IA seule s'est vendu 47 cents, contre 37 cents pour un jeu conçu par un humain. Révéler au hasard l'auteur du jeu n'a rien changé au prix. Les créateurs humains pensaient l'emporter, et n'ont révisé leur jugement qu'en découvrant l'idée de l'IA.
+
+Ce que cela change aux preuves. La plupart des travaux suivis ici montrent que l'IA fait gagner du temps. Celui-ci pose une question plus brutale : a-t-on encore besoin d'une personne ? Ici, la réponse penche vers le non. Mais tout s'est joué en quelques minutes et pour quelques centimes. Les vrais marchés créatifs obéissent peut-être à d'autres règles.
+
+Entrée complète · Article
+
+Comment les pièces s'assemblent
+
+Notre revue de littérature suit deux mouvements contraires. Une entreprise peut utiliser l'IA pour produire plus, vendre plus et embaucher, ou pour faire autant avec moins de bras. L'étude du jour touche à une hypothèse cachée derrière ces deux scénarios : gardons-nous le rôle du chef d'orchestre ? Les visions optimistes le supposent. Sur ce petit marché et pour des produits simples, cet avantage humain a disparu.
+
+Ce résultat éclaire nos autres constats. Pour l'instant, l'IA accélère surtout les postes existants, et le travail neuf n'émerge que lorsque les employeurs réorganisent leurs équipes. Aux États-Unis, en Suède, au Royaume-Uni et en France, les embauches de jeunes reculent dans les métiers les plus ouverts à l'IA, jusqu'à un quart de moins que dans les autres métiers. Si la machine prend aussi en charge les petites tâches créatives sur lesquelles les débutants se forment, la première marche devient encore plus haute.
+
+Les participants tiraient aussi une vraie fierté de leurs jeux. Si la machine prend le relais, les statistiques afficheront des jeux plus nombreux et moins chers, sans capter ce plaisir perdu. Reste à voir si le constat vaut pour des projets au long cours.
+
+Une idée expliquée : trois sortes d'IA, remplacer, accélérer ou diffuser l'expertise
+
+Imaginez un service d'hôpital. Une nouvelle machine peut y jouer trois rôles bien distincts. Elle peut remplacer une tâche : un logiciel qui lit seul les radios dévalorise le savoir-faire de celui qui les interprétait. Elle peut accélérer une tâche : mieux équipée, une infirmière rédige ses comptes rendus deux fois plus vite. Enfin, elle peut ouvrir une tâche à d'autres : un petit capteur au bout du doigt mesure l'oxygène du sang, et un technicien réalise en un geste ce qui exigeait une prise de sang et un spécialiste.
+
+Pour Daron Acemoglu, David Autor et Simon Johnson, ce sont là des choix technologiques distincts, aux effets opposés sur les salariés. Remplacer des tâches réduit généralement la part du gâteau qui revient au travail. Les deux autres voies ne tirent les salaires vers le haut que si la baisse des prix attire assez de nouveaux clients. Seule une quatrième voie profite clairement aux travailleurs : l'IA qui fait naître des activités inédites réclamant de nouveaux savoir-faire humains. Or, préviennent les auteurs, les entreprises peuvent préférer la première voie, car elle rend le personnel plus facile à remplacer.
+
+L'étude du jour montre pourquoi cela compte : quand l'IA a fait toute la conception, le rôle de la personne a rétréci. Pour un employeur, choisir son IA, c'est en partie choisir ce que feront ses équipes. Pour un salarié, les compétences les plus sûres sont celles que les nouveaux outils rendent plus précieuses, pas celles qu'ils copient.
+
+Où en sont les preuves
+
+!Études sur l'emploi, les embauches ou les salaires, par dispositif. Orange : moins d'emplois, d'embauches ou de salaire. Gris : pas d'effet mesurable. Bleu : gains.
+
+Orange : moins d'emplois, d'embauches ou de salaire ; gris : pas d'effet mesurable ; bleu : des gains. Les expériences qui mesurent la vitesse de travail avec l'IA trouvent surtout des gains, les études sur les embauches trouvent des baisses, et celles sur l'emploi total ne trouvent encore rien. L'étude du jour ne mesure pas l'emploi, elle n'a donc pas de barre. Si elle en avait une, elle irait avec les expériences mais pencherait vers l'orange : l'IA seule a battu les personnes qui l'utilisaient, signe d'un moindre besoin de concepteurs humains.
+
+Pour aller plus loin
+
+La revue vivante · Où va la recherche · Articles récents · Proposer un article
+
+============ 2026-11-11
+
+
+
+
+Aujourd'hui en trois lignes
+
+- Dans une grande entreprise, les employés qui ont adopté un assistant d'IA ont passé plus de temps avec leurs collègues, pas moins.
+- Un modèle de la banque des banques centrales avertit que l'IA pourrait se freiner toute seule, faute d'acheteurs pour payer les nouvelles inventions.
+- Deux idées reçues y perdent du crédit : l'IA rendrait le travail solitaire, et ferait bientôt croître l'économie plusieurs fois plus vite.
+
+La nouvelle recherche, en mots simples
+
+Les employés qui ont adopté un assistant d'IA ont vu leurs collègues davantage, pas moins
+
+Ce qu'elle explore. Des chercheurs de l'université Bocconi, à Milan, ont suivi près de 12 000 employés de bureau d'un grand groupe de biens de consommation pendant qu'il déployait l'assistant d'IA de Microsoft, de septembre 2024 à septembre 2025. Environ 2 000 sont devenus des utilisateurs réguliers. Les chercheurs les ont comparés à des collègues aux profils semblables qui ne s'en sont jamais servis.
+
+Pourquoi c'est important. On craint souvent que l'IA n'isole les salariés, alors qu'on apprend beaucoup au contact des autres. Ici, l'inverse s'est produit. Durant leurs trois premiers mois d'utilisation, ces employés ont organisé environ une heure et demie de réunions, d'appels et de courriels de plus par mois que leurs collègues sans IA. Ils ont travaillé avec environ deux personnes de plus, et se sont davantage tournés vers des collègues en qui ils avaient déjà confiance.
+
+Ce que cela change aux preuves. Pour les auteurs, un texte produit par l'IA doit encore être relu et validé par d'autres, ce qui donne de nouvelles raisons d'échanger. L'étude ne couvre toutefois qu'une seule entreprise sur trois mois, et ne dit pas si la qualité du travail a progressé.
+
+Entrée complète · Article
+
+L'IA pourrait ralentir son propre progrès si elle appauvrit les acheteurs qui financent les idées nouvelles
+
+Ce qu'elle explore. Un économiste de la Banque des règlements internationaux, à Bâle, a construit un modèle où l'IA reprend de plus en plus de tâches. Chaque tâche confiée aux machines exige de fabriquer ces machines, ce qui absorbe des revenus qui iraient sinon dans les magasins. Or ce sont les achats des consommateurs qui rémunèrent les inventeurs.
+
+Pourquoi c'est important. Certaines prévisions annoncent une croissance de 13 à 18 % par an d'ici vingt ans. Dans ce modèle, le scénario le plus optimiste plafonne autour de cinq et demi pour cent. Dans le cas le plus probable, la croissance accélère un peu, puis s'installe près d'un demi-point sous les deux pour cent habituels. Après vingt ans, les salaires finissent environ un septième plus bas que dans un monde sans IA.
+
+Ce que cela change aux preuves. C'est un modèle théorique, pas une mesure sur le terrain, et tout dépend de la vitesse de progrès de l'IA, que personne ne connaît. Mais il met le doigt sur un autre frein à la croissance : non pas les tâches que les machines échouent à faire, mais le manque d'acheteurs pour rentabiliser l'invention suivante.
+
+Entrée complète · Article
+
+Comment les pièces s'assemblent
+
+Cette lettre suit deux forces opposées. L'IA peut aider une entreprise à produire plus et à embaucher, ou à produire autant avec moins de monde. L'étude sur les employés de bureau regarde ce qui se passe à l'intérieur des postes existants : l'outil a fait gagner du temps, dont une partie a servi à travailler avec les autres. Cela confirme ce qu'on observe ailleurs : jusqu'ici, l'IA fait surtout gagner du temps dans les emplois déjà en place.
+
+Travailler plus vite ne suffit pas à faire croître l'économie plus vite. À l'échelle d'un pays, on retrouve la question centrale de cette lettre : quand produire coûte moins cher, y a-t-il assez de nouveaux acheteurs en face ?
+
+Le recul le plus net touche les débutants. Aux États-Unis, en Suède, au Royaume-Uni et en France, les jeunes sont moins embauchés dans les métiers qui se prêtent le plus à l'IA, avec des baisses allant jusqu'à un quart, et les salaires y ont reculé d'environ un vingtième. On ignore encore à qui iront les gains.
+
+Une idée expliquée : à qui demander quand on bloque ? Comment l'IA change la hiérarchie au bureau
+
+Imaginez un service hospitalier. Une infirmière débutante traite les cas courants. Face à un cas inhabituel, elle consulte une collègue expérimentée, qui appelle elle-même le médecin pour les cas les plus lourds. En 2000, l'économiste Luis Garicano décrivait les entreprises de cette façon : des échelles de savoir, où les rares problèmes difficiles remontent vers les quelques personnes capables de les trancher.
+
+Donnez à cette infirmière débutante un outil qui répond à la plupart de ses questions : moins de problèmes remontent, et le service a besoin de moins de personnel chevronné. Enrique Ide et Eduard Talamàs ont intégré l'IA à ce schéma en 2025. Une IA qui assiste le travailleur aide surtout les moins expérimentés, tandis qu'une IA autonome profite surtout aux plus experts.
+
+Dans les faits, les employés équipés d'un assistant n'ont pas arrêté de solliciter leurs collègues. Ils en ont consulté davantage, en se tournant plus souvent vers leurs interlocuteurs de confiance. La question change : on ne demande plus « comment faire ? », mais « est-ce exact ? ». Pour un étudiant, le sens critique et les liens de confiance gardent toute leur valeur. Pour un employeur, le temps gagné grâce à l'IA risque de passer dans les vérifications : mieux vaut le prévoir.
+
+Où en sont les preuves
+
+!Études sur l'emploi, les embauches ou les salaires, par dispositif. Orange : moins d'emplois, d'embauches ou de salaire. Gris : pas d'effet mesurable. Bleu : gains.
+
+Chaque barre compte des études : orange pour moins d'emplois, d'embauches ou de salaire, gris quand rien ne bouge, bleu pour des gains. Les expériences sur la vitesse d'exécution trouvent surtout des gains, les études sur les embauches relèvent des baisses, et celles sur l'emploi total ne voient encore aucun mouvement. Aucun des deux articles du jour ne mesure l'emploi, ils n'ont donc pas leur barre. En tant que prévision, le modèle de croissance pencherait vers l'orange du côté des salaires.
+
+Pour aller plus loin
+
+La revue vivante · Où va la recherche · Articles récents · Proposer un article
+
+============ 2026-11-12
+
+
+
+
+Aujourd'hui en trois lignes
+
+- Lorsqu'on peut simplement valider la réponse d'une IA, les débutants risquent de ne jamais apprendre le métier, et les experts de perdre peu à peu leur avance.
+- Rémunérer les bonnes réponses trouvées sans aide relance l'apprentissage, et pour un débutant, cette prime n'a pas besoin de durer.
+- Sur 36 ans d'informatique, la recherche en IA a grandi vite mais s'est resserrée sur moins de pistes, et chaque percée s'est essoufflée plus tôt.
+
+La nouvelle recherche, en mots simples
+
+Ceux qui s'appuient sur l'IA peuvent cesser d'apprendre, sauf si quelqu'un paie l'entraînement
+
+Ce qu'elle explore. Des chercheurs du Karlsruhe Institute of Technology et d'IBM mettent en scène une programmeuse qui traque les erreurs d'un code avec un assistant d'IA. À chaque étape, elle choisit de valider l'avis de l'IA ou de vérifier le code seule. Vérifier demande un effort, mais cela forme. Accepter va vite, mais le savoir-faire qu'on n'exerce plus finit par s'effacer.
+
+Pourquoi c'est important. Dans leur exemple, une débutante qui trouve quatre erreurs sur dix travaille avec une IA qui en repère environ six. Accepter l'avis de la machine paie davantage dans l'immédiat, si bien qu'elle ne s'entraîne jamais. Même un expert à peine meilleur que l'IA finit par ne plus vérifier. Son niveau baisse alors lentement, sans que personne s'en aperçoive.
+
+Ce que cela change aux preuves. Il s'agit d'un modèle théorique, pas d'une mesure de terrain. Mais il montre bien pourquoi les entreprises risquent de ne plus former les débutants, et il chiffre une solution : rémunérer les bonnes réponses trouvées seul. Pour la débutante de l'exemple, ces primes peuvent s'arrêter dès qu'elle repère environ sept erreurs sur dix, seuil où travailler seule devient rentable en soi.
+
+L'entrée complète · L'article
+
+La recherche en IA a grandi vite, mais ses idées se sont resserrées, et chaque percée s'est usée plus tôt
+
+Ce qu'elle explore. Une équipe de l'université de Chicago et de l'université Tsinghua a analysé les résumés de plus de sept millions d'articles d'informatique publiés de 1990 à 2025. Elle a suivi l'apparition et le déclin des idées, les changements de domaine des chercheurs et le degré d'assurance des relecteurs.
+
+Pourquoi c'est important. Après des décennies de stabilité, l'attention des chercheurs s'est resserrée sur quelques sujets depuis 2017, année de l'architecture au cœur des assistants actuels. Plus de la moitié des chercheurs ayant changé de spécialité ont rejoint l'IA, et les relecteurs se disent moins sûrs de leurs jugements. Après chaque grande percée, la diversité des idées actives a reculé plus vite qu'auparavant.
+
+Ce que cela change aux preuves. Les prévisions économiques les plus optimistes supposent que plus on met de moyens dans la recherche, plus elle avance vite. Cette étude compte des articles scientifiques, pas la production économique : elle ne prouve donc pas que la croissance ralentira. Mais quand tout le monde creuse le même sillon, l'effort produit moins de variété, et la prochaine grande idée risque d'être plus dure à dénicher.
+
+L'entrée complète · L'article
+
+Comment tout cela s'articule
+
+La revue suit deux forces : l'IA peut permettre à une entreprise de produire plus et d'embaucher plus, ou de faire la même chose avec moins de monde. Le changement le plus net, pour l'instant, se trouve à l'entrée. Aux États-Unis, en Suède, au Royaume-Uni et en France, les jeunes sont moins embauchés dans les métiers les plus ouverts à l'IA, jusqu'à un quart de moins, sans hausse des licenciements.
+
+Le premier article éclaire cette fragilité des débuts de carrière. Jusqu'ici, les juniors finançaient leur apprentissage en abattant le travail courant. Si l'IA s'en charge, l'entreprise n'a plus grand intérêt à laisser un débutant se faire la main. Les experts risquent eux aussi de rouiller, un recul qui reste invisible tant que l'IA ne se trompe pas. Rien n'est pourtant figé : les employeurs choisissent comment répartir les tâches entre humains et machines, et quelle place garder pour l'entraînement.
+
+Le second article porte sur le plus long terme. Pour que la croissance accélère franchement, la recherche en IA doit continuer à faire émerger des pistes neuves. Or un domaine où tout le monde se bouscule au même endroit en trouve moins vite. Beaucoup de questions restent ouvertes : l'ampleur du rebond de la demande quand les prix baissent, le plancher qu'atteindront les embauches de jeunes, et le partage des gains.
+
+Une idée, expliquée : pourquoi le premier barreau de l'échelle disparaît en premier
+
+Imaginez une boulangerie. Toute la matinée, l'apprenti façonnait les pains pendant que le chef préparait les commandes délicates. La tâche était répétitive, mais c'est par là qu'on apprenait le métier. Puis la boulangerie s'équipe d'une façonneuse automatique. On a toujours besoin du chef, mais la matinée de l'apprenti s'est volatilisée, et avec elle la raison d'en recruter un.
+
+Les données d'embauche racontent la même histoire. Aux États-Unis, Seyed Mahdi Hosseini et Guy Lichtinger ont suivi des entreprises ayant adopté l'IA face à des entreprises comparables qui ne l'avaient pas fait. Un an et demi après, les premières comptaient environ un dixième de jeunes en moins, sans baisse chez les plus expérimentés. En France, Antonin Bergeaud et ses coauteurs observent que les embauches en CDI des 20 à 29 ans ont chuté de plus d'un quart dans le cinquième des métiers qui se prêtent le plus à l'IA, contre moins d'un dixième dans le cinquième qui s'y prête le moins. Chez les jeunes développeurs, le recul atteint environ deux cinquièmes. Les entreprises ont gelé les recrutements plutôt que de licencier.
+
+Les tâches confiées aux débutants disparaissent en premier parce qu'elles sont les plus routinières et les plus simples à décrire. Si vous êtes étudiant, visez un poste qui exerce votre jugement. Si vous êtes en poste, gardez la main en pratiquant régulièrement. Et si vous dirigez une équipe, rogner sur les juniors aujourd'hui risque de vous priver de seniors demain.
+
+Où en sont les preuves
+
+!Études sur l'emploi, les embauches ou les salaires, par dispositif. Orange : moins d'emplois, d'embauches ou de salaire. Gris : pas d'effet mesurable. Bleu : gains.
+
+Chaque barre compte des études : orange pour moins d'emplois, d'embauches ou de salaire, gris pour aucun effet mesurable, bleu pour des gains. Les expériences sur la vitesse de travail trouvent surtout des gains, les études sur les embauches trouvent des baisses, et celles sur l'emploi total ne trouvent encore rien. Aucun des deux articles du jour ne compte des emplois, donc aucun n'a sa barre, mais le modèle sur la formation explique comment un travail plus rapide et moins d'embauches peuvent aller de pair.
+
+Pour aller plus loin
+
+La revue vivante · Où va la recherche · Articles récents · Proposer un article
+
+============ 2026-11-13
+
+
+
+
+Aujourd'hui en trois lignes
+
+- Selon la Réserve fédérale de Cleveland, les chômeurs américains des métiers que l'IA peut exercer mettent plus de temps à retrouver un poste, sans que les pertes d'emploi y soient plus fréquentes.
+- Dans ces métiers, une recherche d'emploi dure désormais environ treize semaines au lieu de dix et demie.
+- Les vingtenaires sont environ deux fois plus touchés que les 45 à 54 ans : la porte d'entrée se rétrécit, mais personne n'est poussé dehors.
+
+La nouvelle recherche, en mots simples
+
+Dans les métiers que l'IA peut faire, on ne perd pas plus son emploi, mais on met plus de temps à en retrouver un
+
+Ce qu'elle explore. Alexander Cline et Barış Kaymak, économistes à la Réserve fédérale de Cleveland, suivent mois après mois des Américains de 23 à 54 ans grâce à l'enquête officielle sur l'emploi. Ils répartissent plus de 900 métiers en vingt groupes, du moins au plus ouvert à l'IA. Ils comparent ensuite la période 2015 à 2019 aux années 2024 à début 2026 pour mesurer deux choses : à quelle fréquence on perd son poste, et à quelle vitesse un chômeur en retrouve un.
+
+Pourquoi c'est important. Le chômage a monté d'environ une personne sur cent de plus dans les métiers les plus ouverts à l'IA que dans les moins ouverts. On n'y perd pas davantage son poste : ce sont les chômeurs qui peinent à revenir. D'ordinaire, environ un chômeur sur trois retrouve un emploi chaque mois. Dans les métiers les plus ouverts à l'IA, cette chance a reculé d'environ un sixième de plus qu'ailleurs, tandis que les pertes d'emploi n'ont pas clairement bougé.
+
+Ce que cela change aux preuves. Ce travail rejoint des études menées en France, en Suède et aux États-Unis : plutôt que de licencier, les entreprises recrutent moins de débutants. Cela reste un premier coup d'œil, qui compare des moyennes sans isoler d'autres évolutions. L'étude écarte aussi les jeunes en quête de leur tout premier poste, chez qui le coup de frein pourrait être encore plus fort.
+
+L'entrée complète · L'article
+
+Comment tout cela s'articule
+
+Cette lettre suit deux mouvements contraires. L'IA aide parfois une entreprise à produire davantage et à recruter, mais elle lui permet aussi d'abattre le même travail avec moins de bras. L'étude du jour montre où ce second mouvement frappe d'abord. Pas à la sortie : les salariés en poste gardent leur emploi au rythme habituel. Tout se joue à l'entrée, où les candidats patientent plus longtemps.
+
+C'est le constat le plus clair à ce jour. Aux États-Unis, en Suède, au Royaume-Uni et en France, les embauches de jeunes reculent dans les métiers les plus ouverts à l'IA, jusqu'à un quart de moins que dans les autres métiers. En Suisse, le nombre de demandeurs d'emploi issus de ces professions a grimpé d'un peu plus d'un quart de plus qu'ailleurs. Seul le Canada échappe à cette règle : les recrutements de jeunes y ont autant baissé dans les métiers peu touchés par l'IA.
+
+Beaucoup de questions restent ouvertes. Un bilan des recherches arrêté en octobre ne voyait aucune trace de l'IA dans les chiffres du chômage ; l'étude du jour en repère un premier signe, sans pouvoir exclure un coup de frein amorcé dès 2022, avant ChatGPT. Les salaires plient eux aussi : dans les métiers les plus ouverts à l'IA, ils avaient reculé d'environ un vingtième en 2026. Reste à voir si produire moins cher attirera assez de nouveaux clients pour relancer les embauches.
+
+Une idée, expliquée : pas de vague de licenciements, et pourtant moins de premiers emplois
+
+Imaginez un journal qui confie à l'IA le premier jet de ses articles courants. Personne n'est mis à la porte. Mais chaque année, quelques journalistes s'en vont et la rédactrice en chef ne les remplace plus tous. La rédaction fond d'un bureau vide à la fois, au détriment du jeune diplômé qui aurait dû s'y asseoir.
+
+Les données administratives racontent la même histoire. Aux États-Unis, Lee Tucker a comparé les 22 à 24 ans travaillant dans le cinquième des secteurs et des États les plus ouverts à l'IA aux jeunes des autres régions, ainsi qu'aux salariés plus âgés des mêmes endroits. En deux ans et demi, leur emploi a reculé d'environ un huitième, faute d'embauches surtout. En Suède, Magnus Lodefalk et ses coauteurs observent début 2025, au sein d'un même employeur, environ un vingtième de postes en moins chez les 22 à 25 ans des métiers les plus ouverts à l'IA. Au Danemark en revanche, Anders Humlum et Emilie Vestergaard constatent que les salariés équipés d'assistants d'IA gardent le même salaire et le même temps de travail qu'avant.
+
+Ces deux constats tiennent ensemble, car l'embauche ressemble à un petit ruisseau qui alimente un grand lac. Si le ruisseau ralentit, le niveau du lac met des années à baisser.
+
+Pour un étudiant, décrocher un premier poste dans ces métiers devient plus rude, et chaque expérience acquise tôt vaut double. Pour un salarié en place, le vrai risque n'est pas tant d'être licencié que de chercher longtemps après un départ. Pour un employeur enfin, chaque poste de débutant laissé vide aujourd'hui fera un profil expérimenté de moins demain.
+
+Où en sont les preuves
+
+!Études sur l'emploi, les embauches ou les salaires, par dispositif. Orange : moins d'emplois, d'embauches ou de salaire. Gris : pas d'effet mesurable. Bleu : gains.
+
+Chaque barre additionne des études portant sur l'emploi, les embauches ou les salaires : l'orange signale un recul, le gris l'absence d'effet visible, le bleu une hausse. Les expériences sur le terrain montrent surtout des gains, les travaux sur les recrutements pointent des baisses, et ceux sur l'emploi total ne voient encore rien bouger. L'étude du jour viendrait ajouter un repère orange tout en bas, sur la ligne des comparaisons directes.
+
+Pour aller plus loin
+
+La revue vivante · Où va la recherche · Articles récents · Proposer un article
+
+============ 2026-11-14
+
+
+
+
+Aujourd'hui en trois lignes
+
+- Pour des économistes de la Réserve fédérale américaine, l'IA pèse déjà lourd dans les dépenses en centres de données, mais se voit à peine dans l'emploi ou dans la production par salarié.
+- En Australie, la banque centrale ne voit guère de dégâts liés à l'IA sur le marché du travail, sinon de premiers indices que les jeunes s'en sortent un peu moins bien dans les métiers qui s'y prêtent le plus.
+- Deux banques centrales, un même constat : l'argent afflue, l'entrée dans la vie active se fragilise peut-être, mais le reste du marché du travail n'a pas bougé.
+
+La nouvelle recherche, en mots simples
+
+La banque centrale américaine voit l'IA dans les dépenses, pas encore dans l'emploi ni dans la production par salarié
+
+Ce qu'elle explore. Quatre économistes de la Réserve fédérale dressent le bilan de ce que l'IA a déjà changé dans l'économie américaine : centres de données, usage des outils, prix, emploi et production par heure travaillée.
+
+Pourquoi c'est important. Les montants engagés sont colossaux. Dans le scénario central des auteurs, l'investissement dans les centres de données grimpe d'environ cent milliards de dollars en 2024 à près de neuf cents milliards fin 2027, soit plus d'un cinquantième de toute la production américaine. Plus de deux salariés sur cinq utilisent l'IA au travail, mais seulement un sur dix s'en sert chaque jour.
+
+Ce que cela change aux preuves. Côté emploi, les auteurs tirent la même lecture des travaux existants que cette lettre : les embauches de jeunes reculent dans les métiers où l'IA aide le plus, mais l'emploi total bouge peu pour l'instant. Quant à la production par salarié, sa hausse récente aux États-Unis a selon eux surtout démarré avant ChatGPT. Ce texte résume d'autres travaux et n'apporte pas de nouvelles données.
+
+L'entrée complète · L'article
+
+En Australie, les jeunes des métiers les plus ouverts à l'IA s'en sortent un peu moins bien
+
+Ce qu'elle explore. Mike Major, économiste à la Reserve Bank of Australia, répartit les métiers en cinq groupes, du moins au plus propice à l'IA. Il suit l'évolution des offres d'emploi, des pertes d'emploi, des embauches et des heures travaillées depuis le lancement de ChatGPT en novembre 2022.
+
+Pourquoi c'est important. Les offres destinées aux employés de bureau, programmeurs, téléconseillers et réceptionnistes ont un peu plus ralenti qu'ailleurs. On n'y perd pas davantage son poste que dans les autres professions. En revanche, les jeunes s'en sortent moins bien que leurs aînés dans ces métiers, alors qu'un tel écart n'apparaît pas ailleurs.
+
+Ce que cela change aux preuves. Aux États-Unis, en Suède, au Royaume-Uni et en France, les travaux existants montrent que les jeunes sont touchés en premier. L'Australie va dans le même sens, de façon plus atténuée. Reste une réserve : 2022 a été une année exceptionnelle pour l'embauche des jeunes, et le repli observé depuis tient peut-être en partie au simple refroidissement du marché du travail.
+
+L'entrée complète · L'article
+
+Comment tout cela s'articule
+
+La revue suit deux forces : l'IA peut permettre à une entreprise de faire plus, ou de faire la même chose avec moins de monde. L'étude américaine montre où la croissance est la plus nette pour l'instant : dans la construction de l'IA elle-même. Centres de données, puces et centrales électriques font grossir l'économie dès maintenant, bien avant que la plupart des entreprises changent leur façon de travailler. La plupart de celles qui utilisent l'IA s'en servent dans un ou deux recoins, pas au cœur de leur activité.
+
+La seconde force se dessine en début de carrière. Aux États-Unis, en Suède, au Royaume-Uni et en France, les études relèvent jusqu'à un quart d'embauches de jeunes en moins dans les métiers les plus ouverts à l'IA, comparé aux autres professions. L'Australie esquisse la même tendance, en plus discret. Mais aucune des deux banques centrales n'observe de vague de licenciements.
+
+Reste à savoir quand ces dépenses feront grimper la production par salarié. Les entreprises doivent d'abord revoir leur organisation et former leurs équipes, un travail qui peut prendre des années. L'outil ne dicte pas le résultat : tout dépend de ce que les entreprises en font.
+
+Une idée, expliquée : un métier que l'IA pourrait faire n'est pas un métier que l'IA fait
+
+Prenons un service hospitalier qui reçoit un appareil capable de prendre la tension, de rédiger les notes et de commander les fournitures. Sur le papier, cet appareil peut accomplir la moitié des tâches d'une infirmière. En pratique, le service ne l'utilisera peut-être que pour les notes, faute de temps pour se former au reste.
+
+Voilà tout l'écart entre ce que l'IA pourrait faire et ce qu'elle fait vraiment. Eloundou et ses coauteurs ont demandé à des personnes et à un modèle d'IA quelles tâches l'outil pourrait accélérer de moitié ou plus. Leur estimation : une fois les bons logiciels disponibles, près de la moitié des emplois américains verraient au moins la moitié de leurs tâches concernées. Massenkoff et McCrory ont ensuite observé ce que les gens confient réellement à Claude, l'IA d'Anthropic. En informatique et en mathématiques, presque toutes les tâches s'y prêtent en principe, mais seul un tiers environ apparaît dans l'usage réel. Et près d'un tiers des salariés exercent un métier où l'on ne relève aucun usage concret.
+
+Les deux études du jour classent les métiers selon ce que l'IA pourrait accomplir en théorie, et toutes deux soulignent que cela ne reflète pas l'usage réel. Voilà pourquoi les gros titres annonçant que « l'IA pourrait faire votre métier » vont plus vite que les chiffres d'embauche.
+
+Pour un salarié, la bonne question n'est pas de savoir si l'IA peut accomplir vos tâches, mais si votre employeur réorganise vraiment le travail au quotidien. Pour un employeur, les gains ne viendront qu'à cette seconde étape.
+
+Où en sont les preuves
+
+!Études sur l'emploi, les embauches ou les salaires, par dispositif. Orange : moins d'emplois, d'embauches ou de salaire. Gris : pas d'effet mesurable. Bleu : gains.
+
+Chaque barre dénombre les études sur l'emploi, les embauches ou les salaires : orange en cas de baisse, gris sans effet mesurable, bleu en cas de hausse. Les expériences trouvent surtout des gains, les travaux sur les embauches relèvent des reculs, et ceux sur l'emploi total ne montrent encore rien. Simple synthèse, l'étude américaine n'ajoute pas de barre. La note australienne glisserait une marque pâle sur la dernière ligne, celle des comparaisons simples : du gris dans l'ensemble, avec une touche d'orange pour les jeunes.
+
+Pour aller plus loin
+
+La revue vivante · Où va la recherche · Articles récents · Proposer un article
+
+============ 2026-11-15
+
+
+
+
+Aujourd'hui en trois lignes
+
+- Sur Upwork, grande plateforme en ligne de travailleurs indépendants, les demandes de rédaction reculent vite, alors que la vidéo et l'animation gagnent du terrain.
+- Les missions qui mobilisent l'IA sont plus grosses : budgets environ moitié plus élevés et environ deux cinquièmes d'heures en plus, face aux autres projets, pour un tarif horaire presque identique.
+- Ces missions combinent des métiers rarement demandés ensemble jusqu'ici, premier signe que l'IA peut faire naître du travail nouveau, et pas seulement en supprimer.
+
+La nouvelle recherche, en mots simples
+
+La rédaction en freelance recule, mais les projets d'IA grossissent et changent de forme
+
+Ce qu'elle explore. Des chercheurs d'OpenAI, qui produit ChatGPT, et d'Upwork comparent les demandes adressées à ChatGPT avec les missions confiées par des entreprises à des indépendants sur Upwork, de 2023 à mi-2026. Ils examinent aussi quelles tâches sont regroupées dans une même annonce, et à quel prix.
+
+Pourquoi c'est important. Dans environ deux tiers des catégories de métiers, les tâches que l'on confie désormais à ChatGPT sont moins achetées à des indépendants. En rédaction de contenu, les annonces ont chuté plus de deux fois plus vite que la moyenne de la plateforme. La vidéo et l'animation ont gagné environ un tiers de part. En parallèle, les missions liées à l'IA ont pris de l'ampleur. Comparées aux autres annonces du même domaine et du même mois, elles affichent des budgets environ moitié plus élevés, et les indépendants retenus travaillent environ deux cinquièmes d'heures en plus sur trois mois, pour un tarif horaire à peine supérieur. Les clients achètent davantage d'heures, pas des heures plus chères.
+
+Ce que cela change aux preuves. De premières études montraient déjà que les rédacteurs indépendants perdaient des missions depuis l'arrivée de ChatGPT. Ce rapport le confirme et éclaire l'autre face : les annonces liées à l'IA marient souvent des tâches autrefois séparées, comme la vidéo générée par IA et le montage. Environ une paire de tâches sur douze forme un tel assemblage inédit, contre une sur quarante dans les autres annonces. Deux réserves s'imposent : les deux entreprises ont intérêt à montrer que l'IA profite aux indépendants, et le rapport décrit des évolutions sans prouver que l'IA les provoque.
+
+Entrée complète · Article
+
+Comment les pièces s'assemblent
+
+Quand une entreprise adopte l'IA, deux mouvements s'opposent : produire autant avec moins de bras, ou produire davantage avec plus de monde. Le rapport du jour observe les deux sur une même plateforme. Les petites commandes de texte passent à la machine. Les projets qui glissent l'IA dans un produit complet, qu'il s'agisse d'une vidéo, d'une campagne ou d'une application, se développent.
+
+Ce constat rejoint notre revue de la littérature. Aux États-Unis, en Suède, au Royaume-Uni et en France, les embauches de jeunes reculent dans les métiers les plus ouverts à l'IA, jusqu'à un quart de moins qu'ailleurs. La nouveauté vient de l'autre mouvement : les missions en hausse croisent des savoir-faire qui restaient séparés.
+
+Cela fait-il plus de travail au total ? La question reste ouverte. Ces plateformes ne pèsent qu'une petite part de l'économie, et ceux qui perdent des contrats de rédaction ne sont pas ceux qui décrochent les projets vidéo. Comme le souligne la revue, tout dépend de l'organisation : l'IA fait émerger de nouvelles tâches là où quelqu'un prend la peine de repenser le travail autour d'elle.
+
+Une idée expliquée : gagner une heure par semaine, ce n'est pas créer un emploi
+
+Prenez un service hospitalier équipé d'un outil qui rédige les dossiers des patients. Chaque infirmière économise une heure par semaine. Le service soigne-t-il plus de malades pour autant ? Pas spontanément. Sans réorganisation du service, ces heures gagnées se diluent dans le quotidien.
+
+L'une des plus vastes expériences menées sur le sujet le montre bien. Dillon et ses coauteurs ont équipé plus de sept mille employés de bureau, répartis dans 66 entreprises, d'un assistant d'IA intégré à leur messagerie, à leurs réunions et à leurs outils d'écriture, puis les ont comparés à des collègues qui n'avaient pas l'outil. Au bout de six mois, les premiers passaient près d'une heure et demie de moins par semaine sur leurs courriels, soit environ un huitième de ce temps. Le temps passé en réunion n'a pas bougé, faute d'habitudes collectives revues en commun, et leur semaine est restée faite des mêmes tâches.
+
+Le temps libéré n'est qu'un point de départ. De nouvelles tâches n'apparaissent que lorsqu'un employeur ou un client redessine le travail autour de l'outil, à l'image des clients d'Upwork qui réunissent vidéo par IA et montage. Pour un salarié, la vraie question n'est pas « combien de temps l'IA va-t-elle me faire gagner ? » mais « que fera mon employeur de ce temps ? » Côté employeur, les gains naissent de la refonte des postes, pas de l'achat de licences.
+
+Où en sont les preuves
+
+!Études sur l'emploi, les embauches ou les salaires, par dispositif. Orange : moins d'emplois, d'embauches ou de salaire. Gris : pas d'effet mesurable. Bleu : gains.
+
+Chaque barre compte des études : orange pour moins d'emplois, d'embauches ou de salaire, gris pour aucun effet mesurable, bleu pour des gains. Les expériences sur la vitesse de travail trouvent surtout des gains, les études sur les embauches des baisses, les études sur l'emploi total rien encore. Le rapport du jour ajouterait les deux couleurs : orange pour la rédaction, qui recule, bleu pour les projets d'IA, qui progressent. Simple description, il pèse moins que les expériences.
+
+Pour aller plus loin
+
+La revue vivante · Où va la recherche · Articles récents · Proposer un article
+
+============ 2026-11-16
+
+
+
+
+Aujourd'hui en trois lignes
+
+- Une nouvelle étude montre que les suppressions de postes liées à l'IA entrent dans les statistiques des années avant les embauches des jeunes entreprises : les premiers bilans paraissent donc plus sombres que la réalité.
+- Environ 400 contrôleurs qualité en usine accordent autant de valeur à une IA qui les aide à trancher qu'à une petite hausse de salaire, mais presque aucune à une IA qui reprend leurs tâches faciles.
+- Les deux travaux disent au fond la même chose : l'effet de l'IA sur le travail dépend de la manière dont les entreprises la déploient, et du recul qu'on se donne avant de juger.
+
+La nouvelle recherche, en mots simples
+
+Les emplois perdus sont comptés avant les emplois créés
+
+Ce qu'elle explore. Mark Esposito et Liu Zhang, chercheurs chez micro1 (une entreprise d'IA) et à Northeastern University, cherchent à comprendre pourquoi une nouvelle technologie pèse sur l'emploi dans les chiffres bien avant d'en créer. Quand une entreprise réduit ses effectifs, cela se voit tout de suite dans les statistiques. Quand une nouvelle entreprise voit le jour, il lui faut des années pour grandir assez et peser dans les comptes.
+
+Pourquoi c'est important. Lors de l'essor de l'informatique, les entreprises américaines créées depuis 1978 employaient environ deux salariés sur cinq en 1998. Si l'IA suit le même chemin, les statistiques des prochaines années montreront d'abord les mauvaises nouvelles, et les bonnes n'arriveront que plus tard.
+
+Ce que cela change aux preuves. Jusqu'ici, aux États-Unis, les secteurs qui se prêtent le plus à l'IA n'ont pas perdu plus d'emplois que les autres. On observerait exactement la même chose si l'IA se diffusait lentement, ou si elle n'avait aucun effet du tout : les données actuelles ne permettent pas encore de trancher. Précisons que les deux auteurs travaillent pour une entreprise d'IA.
+
+Entrée complète · Article
+
+Des contrôleurs d'usine renonceraient à une hausse de salaire pour une IA qui les aide, pas pour une IA qui les remplace
+
+Ce qu'elle explore. Lara Fleck et ses collègues de l'université de Maastricht ont suivi un grand constructeur automobile qui introduisait l'IA au contrôle qualité. D'abord, l'outil signalait les défauts possibles mais laissait le salarié décider. Ensuite, il devait traiter seul les cas faciles pour ne laisser aux humains que les cas délicats. Les chercheurs ont demandé à 423 contrôleurs, basés surtout au Mexique et en Roumanie, de choisir entre des paires de postes fictifs.
+
+Pourquoi c'est important. Aux yeux des salariés, travailler avec une IA qui les aide vaut autant qu'une hausse de salaire de trois pour cent. En revanche, une IA qui reprend les tâches faciles n'offre presque aucun attrait par rapport à l'ancien poste. Et ceux qui jugeaient l'IA d'aide la plus utile sont aussi ceux qui rejettent le plus la seconde étape : avancer par paliers peut donc briser la confiance gagnée au départ.
+
+Ce que cela change aux preuves. Les économistes débattent beaucoup des formes d'IA qui renforcent le savoir-faire et de celles qui l'usent. Cette étude pose directement la question aux salariés. Mais les réponses portent sur des postes imaginaires, au sein d'une seule entreprise : elles disent ce que les salariés souhaitent, pas ce qu'ils ont vécu.
+
+Entrée complète · Article
+
+Comment les pièces s'assemblent
+
+Deux forces tirent en sens opposé quand les entreprises passent à l'IA. Une entreprise peut abattre le même travail avec moins de monde, ou produire davantage et embaucher. La première étude explique pourquoi la première force apparaît plus tôt dans les chiffres. Cela rejoint le constat central de cette revue : aux États-Unis, en Suède, au Royaume-Uni et en France, les jeunes sont moins embauchés dans les métiers qui se prêtent le plus à l'IA, jusqu'à un quart de moins, alors que l'emploi total n'a pas bougé.
+
+La seconde étude rejoint un autre constat : tout dépend de l'organisation choisie par l'entreprise. Un même outil peut être réglé pour épauler un salarié ou pour lui retirer une partie de son travail, et les salariés préfèrent nettement le premier usage.
+
+Restent inconnus : la vitesse à laquelle les nouvelles entreprises fondées sur l'IA embaucheront, le nombre d'acheteurs pour une production moins chère, et la part de la baisse des premiers emplois due à l'IA plutôt qu'au ralentissement commencé en 2022.
+
+Une idée expliquée : pourquoi deux entreprises avec le même outil obtiennent des résultats différents
+
+Imaginez deux services d'hôpital qui reçoivent le même jour le même système de surveillance. Dans le premier, la cadre de santé refait les plannings, forme l'équipe et la laisse décider quoi faire des alertes. Dans le second, on branche le système sans rien changer d'autre. Un an plus tard, le premier service compte moins d'urgences. Le second croule sous des alarmes que plus personne ne lit.
+
+Les économistes observent la même chose avec l'IA. Au Royaume-Uni, le dixième des entreprises les mieux gérées utilise bien plus souvent l'IA que le dixième des moins bien gérées, alors que la qualité de gestion ne change rien à l'usage de robots ou d'autres machines. En France, moins d'entreprises utilisent l'IA qu'en Allemagne : environ une sur cinq, contre une sur quatre. Environ sept salariés français sur dix ne reçoivent de leur employeur ni encouragement, ni outils, ni formation. Une étude de l'institut LIFT d'HEC Paris l'explique par le coût élevé d'une réorganisation en France : les entreprises s'en tiennent à des essais limités, faciles à arrêter.
+
+L'outil compte moins que ce que l'entreprise met en place autour. Pour un employeur, il faut prévoir le budget de la formation et de la réorganisation, pas seulement celui des licences. Pour un salarié, la bonne question est de savoir comment l'outil sera déployé, et si les équipes auront leur mot à dire.
+
+Où en sont les preuves
+
+!Études sur l'emploi, les embauches ou les salaires, par dispositif. Orange : moins d'emplois, d'embauches ou de salaire. Gris : pas d'effet mesurable. Bleu : gains.
+
+Orange : moins d'emplois, d'embauches ou de salaire ; gris : aucun effet mesurable ; bleu : des gains. Les études sur la vitesse de travail montrent des gains, celles sur les embauches montrent des baisses, et celles sur l'emploi total ne montrent encore rien. La première étude du jour viendrait allonger le gris sur la ligne de l'emploi total, et explique pourquoi cette ligne peut rester grise des années alors même que l'IA transforme le travail. La seconde mesure ce que veulent les salariés, pas l'emploi ni les salaires : elle reste donc hors du graphique.
+
+Pour aller plus loin
+
+La revue vivante · Où va la recherche · Articles récents · Proposer un article
+
+============ 2026-11-17
+
+
+
+
+Aujourd'hui en trois lignes
+
+- Une nouvelle étude se demande si une IA qui progresse vite enrichira les pays pauvres au même rythme que les pays riches. Dans la plupart des futurs simulés, les pays pauvres y gagnent, mais les pays riches gagnent encore plus.
+- Dans environ la moitié de ces scénarios, l'écart de revenu entre pays riches et pays pauvres se creuse d'au moins deux cinquièmes en 25 ans.
+- Fournir une IA bon marché réduit peu cet écart. Aider les pays pauvres à rattraper leur retard dans les savoir-faire et les compétences liés à l'IA fait beaucoup plus de différence.
+
+La nouvelle recherche, en mots simples
+
+L'IA pourrait enrichir les pays pauvres, mais enrichir encore plus les pays riches
+
+Ce qu'elle explore. Daniel Björkegren, David Lagakos et Mitchell VanVuren, économistes à Columbia, Boston University et Vanderbilt, bâtissent un modèle simple à deux économies, l'une riche, l'autre pauvre, qui achètent leur IA sur un même marché mondial. Ils projettent ce monde sur 25 ans en faisant varier la manière dont les travailleurs et l'IA se complètent ou se remplacent. Chaque année, l'IA devient soit un septième, soit moitié plus utile.
+
+Pourquoi c'est important. La plupart des prévisions sur l'IA et la croissance ne regardent que les pays riches. Or plus de la moitié de l'humanité vit dans des pays plus pauvres, qui ne représentent qu'environ une visite sur cent sur les sites d'IA. Ces économies risquent de décrocher pour deux raisons. Les compétences qui rendent l'IA utile peuvent leur faire défaut. Et des pays riches en pleine croissance pourraient acheter tant d'IA que son prix resterait trop élevé pour les autres.
+
+Ce que cela change aux preuves. Il s'agit d'un modèle théorique, pas d'une mesure sur le terrain, et la fourchette des résultats reste très large. Mais on ne peut pas balayer ses scénarios les plus sombres. Subventionner l'usage de l'IA dans les pays pauvres marche mal : chaque dollar dépensé ne leur rapporte qu'environ onze centimes. Les aider à adopter les méthodes de travail des pays riches, en réduisant l'écart d'un centième par an, donne de bien meilleurs résultats. L'un des auteurs a reçu des financements de recherche d'entreprises d'IA.
+
+Entrée complète · Article
+
+Comment les pièces s'assemblent
+
+Dans les pays riches, deux forces s'opposent quand une entreprise adopte l'IA. Elle peut produire davantage et embaucher, ou produire autant avec moins de bras. Pour l'instant, c'est le second effet qu'on observe d'abord, avec un recul des embauches de jeunes débutants : jusqu'à un quart de moins dans les métiers où l'IA s'applique le plus, aux États-Unis, en Suède, au Royaume-Uni et en France. L'emploi total, lui, n'a pas bougé.
+
+L'étude du jour examine ces mêmes forces d'un pays à l'autre. Quand l'IA remplace directement le travail humain, les pays riches en tirent le plus de profit, car ils ont les moyens d'acheter davantage d'IA. Quand l'IA a besoin de travailleurs qualifiés à ses côtés, les pays qui en manquent gagnent moins. Dans les pays pauvres, ce sont les diplômés dont l'IA sait faire les tâches qui risquent le plus de voir leur salaire baisser. Cela rejoint nos constats dans les pays riches, où les salaires des métiers les plus concernés par l'IA ont reculé d'environ un vingtième, sans baisse des effectifs.
+
+Les questions ouvertes restent les mêmes : combien de plus les gens achèteront quand l'IA rendra les choses moins chères, à quelle vitesse les entreprises se réorganiseront, et qui captera les gains. L'étude du jour en ajoute une autre : ces gains passeront-ils seulement les frontières ?
+
+Une idée expliquée : pourquoi l'étape la plus lente décide de la vitesse de la croissance
+
+Imaginez une rédaction équipée d'une IA capable d'écrire un premier jet en quelques secondes. Le journal ne sortira pas dix fois plus vite pour autant. Il faut toujours aller sur le terrain, appeler ses sources et vérifier chaque fait. Ce sont ces étapes lentes qui limitent désormais le nombre d'articles publiés.
+
+Philippe Aghion, Benjamin Jones et Charles Jones ont décrit ce même mécanisme à l'échelle de toute l'économie en 2019. Quand une technologie rend certains produits très bon marché, nous ne leur consacrons pas forcément plus d'argent. Nos dépenses se reportent vers ce qui reste long ou coûteux à produire, comme la santé, le bâtiment ou une coupe de cheveux. Ces activités lentes dictent alors le rythme de la croissance. Une étude récente observe la même chose dans la recherche scientifique. Si l'IA faisait tout le travail hors laboratoire, les disciplines purement théoriques ou informatiques produiraient quinze fois plus d'études. Les sciences expérimentales ne multiplieraient leur production que par trois ou quatre, freinées par le temps passé à la paillasse.
+
+L'étude du jour montre que le manque de compétences agit lui aussi comme un goulot d'étranglement, qui freine avant tout les pays pauvres.
+
+Pour un salarié ou un étudiant, la leçon est simple : repérez les étapes lentes de votre métier, celles qui exigent d'être sur place, d'exercer son jugement ou d'inspirer confiance. Ce sont celles que l'IA aura le plus de mal à rendre abondantes et bon marché.
+
+Où en sont les preuves
+
+!Études sur l'emploi, les embauches ou les salaires, par dispositif. Orange : moins d'emplois, d'embauches ou de salaire. Gris : pas d'effet mesurable. Bleu : gains.
+
+Orange : moins d'emplois, d'embauches ou de salaire ; gris : aucun effet mesurable ; bleu : des gains. Les études sur la vitesse d'exécution trouvent des gains, celles sur les embauches montrent des baisses, et celles sur l'emploi total ne décèlent encore rien. L'étude du jour modélise l'avenir au lieu de mesurer le passé : elle n'ajoute donc aucune barre au graphique. Mais sa prévision d'une baisse de revenus pour les travailleurs qualifiés dont l'IA reprend les tâches rejoint l'orange de nos lignes sur les salaires.
+
+Pour aller plus loin
+
+La revue vivante · Où va la recherche · Articles récents · Proposer un article
+
+============ 2026-11-18
+
+
+
+
+Aujourd'hui en trois lignes
+
+- Quand une IA s'est mise à relire le code de logiciels libres, les responsables de ces projets ont eu plus de travail, pas moins : environ un dixième de modifications en plus à examiner.
+- L'outil a accéléré chaque relecture, mais il a aussi attiré davantage de propositions, dont beaucoup envoyées par des comptes automatiques.
+- La leçon dépasse l'informatique : quand l'IA rend la production moins coûteuse, la personne chargée de vérifier finit par devenir le point de blocage.
+
+La nouvelle recherche, en mots simples
+
+Un relecteur par IA a donné plus de travail, pas moins, aux responsables de projets logiciels
+
+Ce qu'elle explore. Une grande partie des logiciels dans le monde s'écrit au grand jour. Tout le monde peut proposer de modifier un projet, et quelques responsables, appelés mainteneurs, décident de ce qu'ils acceptent. En février 2025, la plateforme GitHub, qui héberge la plupart de ces projets, a lancé un relecteur par IA qui commente chaque modification proposée. Des chercheurs de l'université de Tilburg ont suivi environ 4 000 projets populaires de mars 2024 à février 2026. Ils ont comparé mois par mois environ 700 mainteneurs ayant activé le relecteur à environ 1 900 qui ne l'avaient pas fait.
+
+Pourquoi c'est important. Après avoir activé l'outil, les mainteneurs ont traité environ un dixième de modifications en plus que ceux qui ne l'utilisaient pas encore, et ont rédigé environ un septième de commentaires en plus sur chacune. Les contributeurs humains ont envoyé une vague de modifications dès le premier mois, avant d'en soumettre moins qu'avant, et de plus petites. Les envois des comptes automatiques, eux, ont continué de grimper. L'outil a rendu chaque relecture plus rapide, mais il a fait grossir la pile.
+
+Ce que cela change aux preuves. La revue montre que l'IA fait surtout gagner du temps dans les emplois existants, et que de nouvelles tâches n'apparaissent que si les entreprises se réorganisent. Cette étude illustre une troisième issue : un outil censé faire gagner du temps a donné plus de travail à ceux qui ont le dernier mot. Deux réserves toutefois : les mainteneurs ont choisi eux-mêmes d'activer l'outil, et il s'agit de projets bénévoles, pas d'équipes salariées.
+
+Entrée complète · Article
+
+Comment les pièces s'assemblent
+
+Deux forces s'opposent quand l'IA arrive au travail : produire autant avec moins de monde, ou abaisser le coût du travail pour en faire davantage. L'étude du jour offre un petit exemple concret de la seconde force. Relire coûte moins d'efforts, les modifications affluent, et les responsables finissent plus occupés.
+
+Elle éclaire aussi qui décide de l'usage de l'IA. Les mainteneurs ont confié le premier examen de chaque modification à une machine, tout en gardant le dernier mot. La plupart des entreprises procèdent ainsi aujourd'hui. La revue montre que ce sont ces choix, bien plus que l'outil lui-même, qui décident si l'IA supprime du travail ou en crée. Ici, garder un humain en bout de chaîne a rendu son temps rare.
+
+La plupart des études sur l'emploi vont dans une autre direction : les jeunes décrochent moins de premiers emplois dans les métiers les plus ouverts à l'IA, jusqu'à un quart de moins aux États-Unis, en Suède, au Royaume-Uni et en France. Les salaires baissent par endroits, tandis que l'emploi total ne bouge pas encore. L'étude du jour ne compte ni les emplois ni les salaires. Elle ajoute en revanche un avertissement : le travail de vérification peut gonfler aussi vite que le travail de production.
+
+Une idée expliquée : comment les économistes distinguent un effet d'une coïncidence
+
+Un service hospitalier reçoit un nouveau moniteur cardiaque. Un mois plus tard, moins de patients y souffrent de complications. Est-ce l'effet du moniteur ? Ou simplement la fin de l'hiver, voire l'arrivée d'une nouvelle infirmière en chef ? Pour trancher, il faut observer un second service resté sans moniteur, qui montre ce qui serait arrivé de toute façon.
+
+Les études les plus fiables sur l'IA et le travail reposent sur ce principe. Brynjolfsson, Li et Raymond ont suivi environ 5 000 agents du service client d'une grande entreprise de logiciels. L'entreprise leur a fourni un assistant de conversation par IA, mais en équipant les équipes à des dates différentes. Les chercheurs ont donc pu comparer, au cours des mêmes semaines, les agents déjà équipés à ceux qui attendaient encore l'outil. Le nombre de demandes résolues par heure a grimpé d'environ un septième en moyenne, et d'environ un tiers chez le cinquième des agents qui étaient auparavant les plus lents.
+
+L'étude du jour sur les logiciels suit la même logique : elle compare les mainteneurs qui ont activé l'IA à ceux qui ne l'avaient pas encore fait. Sa limite, à garder en tête partout, tient à un point : ceux qui ont choisi d'utiliser l'outil étaient peut-être différents des autres dès le départ.
+
+Pour un étudiant, un salarié ou un employeur, le bon réflexe tient en peu de mots. Quand quelqu'un affirme « c'est grâce à l'IA », demandez : par rapport à qui ?
+
+Où en sont les preuves
+
+!Études sur l'emploi, les embauches ou les salaires, par dispositif. Orange : moins d'emplois, d'embauches ou de salaire. Gris : pas d'effet mesurable. Bleu : gains.
+
+Chaque barre compte des études sur l'emploi, les embauches ou les salaires : orange pour moins d'emplois, d'embauches ou de salaire, gris sans effet mesurable, bleu pour des gains. Les études sur la vitesse de travail relèvent des gains, celles sur les embauches montrent des baisses, et celles sur l'emploi total ne voient encore rien bouger. L'étude du jour mesure la charge de travail, ni l'emploi ni les salaires : elle n'ajoute donc aucune barre. Elle explique pourtant pourquoi les gains rapides des premières lignes ne se traduisent pas aussitôt par moins d'emplois : le temps gagné peut être absorbé par un surcroît de travail à l'étape suivante.
+
+Pour aller plus loin
+
+La revue vivante · Où va la recherche · Articles récents · Proposer un article
+
+============ 2026-11-19
+
+
+
+
+Aujourd'hui en trois lignes
+
+- Dans les tribunaux fédéraux américains, environ une affaire civile sur six implique désormais une partie qui plaide sans avocat, contre environ une sur dix pendant vingt ans.
+- Le recours payant aux avocats n'a pourtant pas reculé : les ménages y consacrent toujours plus d'argent qu'avant, et les plus grands cabinets ont accru leurs revenus d'environ un huitième en 2025.
+- Un savoir moins coûteux n'a pas vidé la profession. Une partie du travail est passée aux particuliers eux-mêmes, et une autre vers des cabinets moins chers.
+
+La nouvelle recherche, en mots simples
+
+Plus d'Américains vont au tribunal sans avocat, et les grands cabinets se portent bien
+
+Ce qu'elle explore. Zhang, Esposito et Yang se demandent ce qui arrive à un métier quand l'IA rend le savoir spécialisé bon marché. Ils observent trois acteurs du marché juridique américain : les particuliers qui peuvent rédiger eux-mêmes leurs actes, les entreprises qui peuvent recruter leurs propres juristes, et les cabinets qui se partagent le reste des dossiers.
+
+Pourquoi c'est important. Depuis 2022, nettement plus de particuliers déposent seuls leurs dossiers civils. Dans les affaires de droits civiques, où il faut rédiger une plainte, la part des recours sans avocat grimpe d'environ un quart à près de deux sur cinq. Du côté des détenus, qui plaident presque toujours seuls, rien ne bouge ou presque, ce qui montre que la hausse ne vient pas d'une évolution générale des tribunaux. Les entreprises, elles, n'ont pas internalisé davantage ce travail : environ trois avocats du secteur privé sur dix travaillaient en entreprise en 2024, tout comme en 2019.
+
+Ce que cela change aux preuves. Les plus grands cabinets ont relevé leurs tarifs : leur chiffre d'affaires a gagné environ un huitième en 2025 alors que leurs heures facturées ont à peine bougé. Pendant ce temps, les cabinets moins chers ont attiré davantage de nouveaux dossiers. Le travail s'est donc déplacé plutôt que détruit. Une nuance tout de même : les auteurs travaillent pour une entreprise d'IA qui conçoit des tests pour le secteur juridique, et ce glissement entre cabinets avait souvent commencé avant ChatGPT.
+
+Entrée complète · Article
+
+Comment les pièces s'assemblent
+
+Notre revue de la recherche revient toujours à deux mécanismes : l'IA aide une entreprise soit à produire plus, soit à produire autant avec moins de monde. L'étude du jour ajoute une troisième piste, qu'on oublie vite : le client fait le travail lui-même. Un locataire qui rédige sa plainte avec un assistant d'IA n'aurait de toute façon pas eu les moyens de payer un cabinet. Comme les dépenses des ménages en frais d'avocat restent élevées, on assiste plutôt à de nouveaux recours qu'à une perte de clients pour la profession.
+
+L'étude confirme aussi une autre idée forte de la revue : tout dépend de la façon dont les entreprises s'organisent. Si elles n'ont pas utilisé l'IA pour rapatrier le travail juridique en interne, c'est en partie parce que les outils butent encore sur les dossiers longs et complexes. Lors d'un test, le meilleur système n'en a mené à bien du début à la fin qu'environ un quart. Les entreprises confient donc les tâches courantes à des cabinets moins chers et réservent les affaires ardues aux plus coûteux. Voilà comment les grands cabinets facturent davantage sans faire plus d'heures.
+
+En revanche, l'étude ne dit rien sur les débuts de carrière. Ailleurs, notre revue relève jusqu'à un quart d'embauches de jeunes en moins dans quatre pays pour les métiers que l'IA maîtrise le mieux. Ici, le recrutement des jeunes avocats en cabinet n'est pas mesuré.
+
+Une idée expliquée : ce que les chiffres de la croissance ne voient pas
+
+Imas et Moll (2026) rappellent une évidence. Les chiffres de la croissance additionnent ce que les gens paient, pas ce que les choses valent à leurs yeux. Quand un service coûte moins cher, il pèse moins lourd dans les statistiques. S'il devient gratuit, il en disparaît carrément. Selon des estimations qu'ils citent, les Américains retirent des assistants d'IA une valeur environ dix fois supérieure au prix qu'ils paient.
+
+Reprenons l'exemple de la boulangerie. Une famille qui achetait un gâteau à chaque anniversaire apprend à le faire elle-même grâce à une bonne application de recettes. La boulangerie vend un gâteau de moins et l'économie, telle qu'on la mesure, recule un peu. La famille a pourtant toujours son gâteau, et il est peut-être même meilleur.
+
+L'étude du jour en offre un cas concret. Quelqu'un qui rédige seul son acte de procédure avec un outil d'IA gratuit accomplit un travail juridique sans payer personne. Dans les comptes nationaux, cela vaut zéro. Dans la vraie vie, cette personne accède à un tribunal qu'elle ne pouvait pas s'offrir avant.
+
+Pour un salarié ou un étudiant, mieux vaut donc se méfier des gros titres affirmant que l'IA ne dope pas la croissance. Une partie des gains profite aux gens comme utilisateurs plutôt que comme travailleurs, et mettra longtemps avant d'apparaître sur les fiches de paie ou dans les chiffres de la production nationale.
+
+Où en sont les preuves
+
+!Études sur l'emploi, les embauches ou les salaires, par dispositif. Orange : moins d'emplois, d'embauches ou de salaire. Gris : pas d'effet mesurable. Bleu : gains.
+
+Chaque barre compte des études : orange pour des pertes, gris pour pas d'effet mesurable, bleu pour des gains. Les expériences qui chronomètrent le travail trouvent des gains, les études sur les embauches trouvent des baisses, et celles sur l'emploi total ne trouvent encore rien. L'étude du jour se rangerait avec les barres grises pour l'emploi : les avocats ne sont pas partis en entreprise et les cabinets ont gardé leurs heures. Son seul changement net, plus de gens qui vont seuls au tribunal, concerne qui fait le travail, ce que le graphique ne compte pas.
+
+Pour aller plus loin
+
+La revue vivante · Où va la recherche · Articles récents · Proposer un article
+
+============ 2026-11-20
+
+
+
+
+Aujourd'hui en trois lignes
+
+- Des employés de bureau qui s'imaginent accomplir une tâche avec l'IA disent qu'ils demanderaient ensuite moins d'aide à un collègue, surtout pour chercher des idées.
+- Quand l'équipe peut voir l'échange avec l'IA, ce repli disparaît presque.
+- Une seconde étude montre qu'une informatique moins chère augmenterait la production nationale de quelques pour cent, tout en laissant certains travailleurs coincés dans des secteurs en recul.
+
+La nouvelle recherche, en mots simples
+
+Les salariés qui s'appuient sur l'IA disent qu'ils demanderaient moins d'aide à leurs collègues
+
+Ce qu'elle explore. Chow et ses coauteurs ont fait lire dix courtes situations de travail à 248 employés de bureau américains qui utilisent l'IA chaque semaine. Certaines tâches étaient réalisées avec un assistant d'IA, d'autres sans. Après chaque scène, les participants indiquaient à quel point ils aimeraient demander l'avis d'un collègue.
+
+Pourquoi c'est important. Les débutants apprennent leur métier en posant des questions à leurs collègues. Après un coup de main de l'IA, cette envie recule d'environ un quart de point sur une échelle de cinq, par rapport aux tâches faites sans IA, et d'environ deux cinquièmes de point quand il s'agit de trouver des idées. Confier toute la tâche à l'IA plutôt que de simplement s'en faire aider ne réduit pas davantage cette envie.
+
+Ce que cela change aux preuves. Le mois dernier, les données réelles d'une entreprise montraient l'inverse : les salariés équipés d'un assistant d'IA échangeaient avec davantage de collègues. Cette nouvelle étude repose sur des situations fictives, soumises à des volontaires déjà acquis à l'IA. On en retient surtout un point concret : rendre la conversation avec l'IA visible à toute l'équipe préserve les échanges entre collègues.
+
+Entrée complète · Article
+
+Si l'informatique devient un tiers plus productive, le monde s'enrichit un peu et certains travailleurs restent coincés
+
+Ce qu'elle explore. Dueñas et Mandel simulent 49 économies et 163 secteurs à partir de leurs flux commerciaux de 2022. Ils regardent ce qui se produit si les fournisseurs d'informatique, de logiciels et de télécoms gagnent environ un tiers de productivité en dix ans.
+
+Pourquoi c'est important. La production progresse partout, d'environ trois pour cent dans l'Union européenne et de près de six en Chine. Mais l'agriculture et l'agroalimentaire reculent dans certains pays comme le Mexique et l'Inde, tandis que le secteur numérique attire des travailleurs venus surtout des services. Si changer de secteur est compliqué, l'équivalent d'environ un salarié allemand sur cent reste en poste là où les employeurs souhaiteraient réduire leurs effectifs.
+
+Ce que cela change aux preuves. Il s'agit d'une simulation et non d'une observation directe, et elle porte sur l'ensemble du numérique plutôt que sur la seule IA. Son enseignement tient en une phrase : la hausse nationale masque tous ceux qui doivent changer de métier.
+
+Entrée complète · Article
+
+Comment les pièces s'assemblent
+
+La revue revient toujours à deux forces : l'IA peut permettre à une entreprise de faire plus, ou de faire la même chose avec moins de monde. Le modèle du jour est du premier type, mais là où l'on change difficilement de secteur, la pression dure.
+
+La première étude pose la question de la transmission des savoirs au bureau. Si l'IA répond à la place des collègues aguerris, le débutant obtient sa réponse mais perd l'échange. Cela éclaire l'un des constats récurrents de cette revue : les embauches de jeunes reculent dans les métiers où l'IA excelle, jusqu'à un quart de premiers emplois en moins dans quatre pays.
+
+Ces deux travaux rappellent aussi que tout dépend de la manière dont on s'organise. Une équipe qui utilise l'IA au grand jour continue de se parler, et un pays où l'on change aisément de secteur répartit mieux les gains. Deux questions restent ouvertes : les salariés demandent-ils vraiment moins d'aide dans la vie réelle, et les nouveaux apprennent-ils moins vite pour autant ?
+
+Une idée expliquée : confier une décision à une machine
+
+Imaginez un service hospitalier. Un interne qui hésite sur un dosage peut appeler le médecin senior de garde, ou interroger un assistant d'IA qui ne soupire jamais devant une question posée à trois heures du matin.
+
+Les premières expériences sur les décisions confiées à l'IA dégagent deux constats. Chez Herdağdelen, Joren et Tamkin (2026), des analystes chevronnés épaulés par un agent d'IA choisissent environ six fois sur sept l'option que l'outil pousse discrètement, sans guère lui en attribuer le mérite ensuite. Du côté des créateurs de jeunes entreprises, Colaiacovo et Koning (2026) montrent que la part du travail laissée à l'IA dépend moins des capacités qu'ils lui prêtent que de la façon dont ils réorganisent leur quotidien autour d'elle.
+
+L'étude du jour y ajoute un troisième élément : se faire épauler par l'IA ou tout lui déléguer a le même effet sur l'envie de consulter ses collègues. En revanche, garder cet échange privé ou le partager avec l'équipe change tout.
+
+Côté salarié, mieux vaut continuer à solliciter ses collègues, surtout en début de carrière : la discussion forme bien plus que la réponse brute. Côté employeur, déployer l'IA au vu de tous plutôt qu'en solo façonne la vie d'équipe autant que le choix de l'outil.
+
+Où en sont les preuves
+
+!Études sur l'emploi, les embauches ou les salaires, par dispositif. Orange : moins d'emplois, d'embauches ou de salaire. Gris : pas d'effet mesurable. Bleu : gains.
+
+Chaque barre compte des études : orange pour des pertes, gris pour l'absence d'effet, bleu pour des gains. Les expériences qui chronomètrent des tâches relèvent des gains, les travaux sur les embauches observent des reculs, et ceux qui portent sur l'emploi total ne décèlent encore rien. Aucune des deux études du jour n'ajouterait de barre au graphique : la première porte sur des intentions déclarées, la seconde sur une simulation.
+
+Pour aller plus loin
+
+La revue vivante · Où va la recherche · Articles récents · Proposer un article
+
+Se désabonner: {{ unsubscribe_url }}
+
+Une revue vivante tenue par Adrien Joly, London School of Economics.
+Les entrées sont rédigées par un assistant IA à partir de l'article lui-même et ne sont pas relues avant envoi. Les chiffres viennent de l'article ; l'appréciation de la revue est dans la limite.

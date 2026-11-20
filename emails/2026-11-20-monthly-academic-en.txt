@@ -1,0 +1,269 @@
+GEN-AI, JOBS AND GROWTH
+The studies added to the living review this month.
+
+Chow et al. (2026), "AI-Induced Social Erosion: Using LLMs for Work Tasks Reduces Help-Seeking Intentions Towards Colleagues"
+
+
+https://ajoly35.github.io/gen-ai-living-review/latest/#chow-et-al-2026-ai-induced-social-erosion-using-llms-for-work-tasks-reduces-help-seeking-intentions-towards-colleagues
+
+——————————————————————————————
+
+Dueñas and Mandel (2026), "Structural economic change under the digital transformation"
+
+
+https://ajoly35.github.io/gen-ai-living-review/latest/#dueñas-and-mandel-2026-structural-economic-change-under-the-digital-transformation
+
+——————————————————————————————
+
+Zhang, Esposito and Yang (2026), "AI, Specialization, and the Organization of Knowledge Work: Evidence from Legal Services"
+
+
+https://ajoly35.github.io/gen-ai-living-review/latest/#zhang-esposito-and-yang-2026-ai-specialization-and-the-organization-of-knowledge-work-evidence-from-legal-services
+
+——————————————————————————————
+
+Xu, Medappa and Tunc (2026), "Does the AI Reviewer Alleviate or Aggravate the Maintenance Burden? Evidence from GitHub Copilot Reviewer"
+
+
+https://ajoly35.github.io/gen-ai-living-review/latest/#xu-medappa-and-tunc-2026-does-the-ai-reviewer-alleviate-or-aggravate-the-maintenance-burden-evidence-from-github-copilot-reviewer
+
+——————————————————————————————
+
+Björkegren, Lagakos and VanVuren (2026), "Will AI Growth Reach the Developing World?"
+Columbia, Boston University and Vanderbilt, NBER Working Paper 36035, November 2026. Paper. Two-country growth model with a world market for AI, simulated over 25 years; theory and calibration, not a causal design.
+
+What it finds. AI raises incomes in developing economies, yet raises them more in advanced ones. When AI productivity grows 15% or 50% a year, the income gap widens by at least 40% in about half of the scenarios. If AI substitutes for labour and grows 50% a year, every draw diverges without bound; if it complements labour, the typical gap still grows 2.4-fold. Poorer countries lack complementary skills, while rich-country demand bids up AI prices. Subsidising AI use returns just 11 cents per dollar, whereas closing 1% of the broader productivity gap each year lets the poor economy outgrow the rich one under modest AI growth. Stopping consumption divergence takes transfers of 1 to 15% of advanced-economy GDP, compared with 0.22% for US aid in 2024.
+
+Why it matters. The paper brings two economies sharing a single AI market into the companion review's task-gain scenarios (Korinek et al. 2026) and its section on who captures the gains (Restrepo 2025). Satiated demand for AI-intensive output slows gains much like the weak links in Jones and Tonetti (2026). Skilled workers whose tasks AI takes over lose wages, matching section “Exposure designs: wages”.
+
+Caveat. These results rest on unmeasured substitution and satiation parameters, and the 95% bands are ten times wider than the median path. Björkegren has received research funding from AI companies.
+
+https://www.nber.org/papers/w36035
+https://ajoly35.github.io/gen-ai-living-review/latest/#björkegren-lagakos-and-vanvuren-2026-will-ai-growth-reach-the-developing-world
+
+——————————————————————————————
+
+Esposito and Zhang (2026), "AI and the Two Margins of Work: Why Job Losses Show Up Before Job Creation"
+micro1 and Northeastern University, working paper on arXiv, 12 November 2026. Paper. Calibrated model plus descriptive industry comparisons in Census and BLS job-flow data; not a causal design, reported as theory and context.
+
+What it finds. In the model, AI cuts total hours only when products take time to re-scale. A sudden efficiency gain cuts hired hours by 4.6% right away, whereas spreading that same gain over seven years, closer to actual adoption, produces a dip of about a quarter of a percent. During the computing era (Census data, 1982 to 1998), entering firms added 2.78 million payroll jobs a year while incumbents cut about 0.96 million net, and firms born from 1978 held 42% of payroll by 1998. In BLS data covering 72 industries from 2022Q4 to 2026Q1, incumbent job losses rise by 1.1 points of 2019 employment per standard deviation of language-model exposure, with a standard error of 1.9.
+
+Why it matters. This informs section “Why these patterns: theory” and the scale term \eta_o-\sigma_o in Main patterns: substitution happens right away, while scale effects arrive later with new firms. That matches the flat totals in Humlum and Vestergaard (2025). Its prediction that effects show up first in hiring into exposed jobs also fits Brynjolfsson et al. (2025) and Hosseini and Lichtinger (2025).
+
+Caveat. As the authors point out, the null result across industries cannot separate slow diffusion from no effect at all. Both authors work at micro1, an AI company.
+
+https://arxiv.org/abs/2611.17530
+https://ajoly35.github.io/gen-ai-living-review/latest/#esposito-and-zhang-2026-ai-and-the-two-margins-of-work-why-job-losses-show-up-before-job-creation
+
+——————————————————————————————
+
+Fleck et al. (2026), "AI Implementation at Work: Worker Preferences for Task Changes"
+Maastricht University, IZA Discussion Paper 19076, November 2026. Paper. Discrete choice experiment (workers pick between hypothetical jobs) in one manufacturing firm; stated preferences, not observed outcomes, reported as context.
+
+What it finds. Workers value decision-support AI like a 3% pay rise, and barely value AI that takes over easy tasks. The study covers 423 quality control operators at a multinational automotive manufacturer, mostly in Mexico and Romania, making 4,992 choices between pairs of jobs. Compared with a job without AI (50 to 100 easy images a minute), decision-support AI (30 to 60 images a minute, with pop-up flags) raises the probability of choosing a job by 10.4 points. Autonomous AI (10 to 30 hard images an hour) raises it by 3.0 points. Willingness to pay equals 2.8% of salary for support AI and a marginally significant 0.7% for autonomous AI. Workers who found the support AI useful liked the autonomous stage less.
+
+Why it matters. This feeds into section “Organisation: who decides how AI is used”. Workers prefer what Acemoglu et al. (2026) call augmenting technology over automation, and they value it like a small raise. The results also point to a cost when stepwise rollouts move from augmentation to automation, a margin that firm adoption studies do not observe.
+
+Caveat. Workers made hypothetical choices in just one firm and one occupation, and most were women with intermediate education. The firm also helped design the choices, which may have shaped how AI was presented.
+
+https://www.iza.org/publications/dp/19076/ai-implementation-at-work-worker-preferences-for-task-changes
+https://ajoly35.github.io/gen-ai-living-review/latest/#fleck-et-al-2026-ai-implementation-at-work-worker-preferences-for-task-changes
+
+——————————————————————————————
+
+Chin et al. (2026), "The Rebundling of Freelance Work in the AI Age"
+OpenAI and Upwork, research report on arXiv, 10 November 2026. Paper. Upwork job postings, 2023 to mid-2026, set against sampled ChatGPT conversations; descriptive, no comparison group over time, outside the review's causal evidence standard; reported as context.
+
+What it finds. Tasks that people often do in ChatGPT lose share among Upwork job postings, while AI-related postings group tasks in new ways. Between H1 2023 and H2 2025, 43 out of 63 work categories shifted as substitution predicts. Content-writing postings fell more than twice as fast as postings overall, while video and animation grew their share by about a third. In AI-related postings, 8.4% of task pairs were rarely asked for together before generative AI, compared with 2.4% in other postings. Compared with non-AI postings in the same category and month, AI postings have fixed-price budgets that are about 52% higher, about 41% more hours worked in the first 90 days of hired hourly contracts, and posted hourly rates about 1.5% higher.
+
+Why it matters. This builds on section “Online labour markets”: Hui et al. (2024) found that freelance writers lost jobs and earnings, and here writing postings fall while AI projects grow. At the posting level, it shows the new tasks that Dillon et al. (2025) did not see inside existing jobs (section “Does reorganisation create new tasks?”), as well as task rebundling (Garicano, Li and Wu 2026). The market adjusts through hours worked rather than hourly pay.
+
+Caveat. Both firms stand to gain from showing that AI increases demand for freelancers. Also, AI-related postings may differ from other postings in ways that category and month controls miss.
+
+https://arxiv.org/abs/2611.14708
+https://ajoly35.github.io/gen-ai-living-review/latest/#chin-et-al-2026-the-rebundling-of-freelance-work-in-the-ai-age
+
+——————————————————————————————
+
+Carollo et al. (2026), "Artificial Intelligence and the U.S. Economy: Current Evidence"
+Federal Reserve Board, Finance and Economics Discussion Series 2026-074, 12 November 2026. Paper. Staff review of US data and studies on AI investment, adoption, prices, jobs and productivity; descriptive, reported as context.
+
+What it finds. AI shows up in investment and in some prices, but barely in jobs or productivity. In the authors' middle scenario, measured data-centre investment climbs from about $100 billion in 2024 to over $880 billion by end-2027, topping 2% of GDP, with roughly half imported. Annualised revenue at OpenAI, Anthropic and Google DeepMind hit at least $107 billion in 2026Q3, around 19% of software gross output. Over 40% of workers use AI on the job, though only 10% use it daily. Since January 2025, core PCE categories at the 90th percentile of data-centre exposure recorded about 5 points more inflation than the median category. Most of the recent pickup in productivity came before generative AI.
+
+Why it matters. On growth, it backs up the companion review's "what the data show so far": AI hits GDP through investment before productivity, slowed down by the weak links in Jones and Tonetti (2026). On labour, it reads the entry-level numbers the same way Tucker (2026) and Hosseini and Lichtinger (2025) do: fewer young hires, with small overall effects (section “Exposure designs: hiring and entry”).
+
+Caveat. This is a synthesis, not fresh estimates. Most of the work wrapped up in June 2026, and the revenue numbers rely on unaudited company statements.
+
+https://www.federalreserve.gov/econres/feds/artificial-intelligence-and-the-us-economy-current-evidence.htm
+https://ajoly35.github.io/gen-ai-living-review/latest/#carollo-et-al-2026-artificial-intelligence-and-the-us-economy-current-evidence
+
+——————————————————————————————
+
+Major (2026), "Monitoring Early Effects of AI on the Labour Market"
+Reserve Bank of Australia, RBA Insight 2026-09, 9 November 2026. Paper. Labour-market indicators by occupational AI exposure and age against a November 2022 benchmark; descriptive monitoring, reported as context.
+
+What it finds. AI shows little sign yet of disrupting Australia's labour market, though outcomes look tentatively weaker for young workers in the most exposed occupations. The authors group occupations into employment-weighted quintiles using Jobs and Skills Australia's automation exposure measure (from Gmyrek et al. 2023), and compare job ads and Labour Force Survey data up to February 2026 against November 2022. New ads in the top quintile slowed a little more than in lower quintiles, led by clerks, programmers, ICT analysts, call-centre workers and receptionists. Job-finding and job-loss rates hardly differ across exposure levels. Employment and hours grew slightly less in exposed occupations, and within those jobs, young workers fared worse. The authors report results in charts only.
+
+Why it matters. This puts Australia in section “Exposure designs: hiring and entry”, alongside the US, Sweden, the UK and France. Unlike Cline and Kaymak (2026) in the US, it finds no exposure gap in job-finding rates. Like Mehdi and Frenette (2026) in Canada, it is an official monitoring exercise rather than an estimate of b_o (Main patterns).
+
+Caveat. Exposure tracks potential, not actual AI use. Also, the 2022 benchmark was an exceptionally tight youth labour market, so later weakness may just be cyclical, and post-pandemic remote work affects the same groups.
+
+https://www.rba.gov.au/publications/insights/australian-economy/2026/monitoring-early-effects-of-ai-on-the-labour-market.html
+https://ajoly35.github.io/gen-ai-living-review/latest/#major-2026-monitoring-early-effects-of-ai-on-the-labour-market
+
+——————————————————————————————
+
+Cline and Kaymak (2026), "Job Finding and Unemployment in the Age of AI"
+Federal Reserve Bank of Cleveland, Economic Commentary 2026-26, 9 November 2026. Paper. Worker flows by occupational AI exposure, 2015–2019 against 2024–2026, seasonal controls only, no pre-trend test; descriptive, reported as context.
+
+What it finds. Unemployment rose in the most AI-exposed US occupations because job seekers took longer to find work, not because more workers lost their jobs. Using linked monthly Current Population Survey records for 23 to 54 year olds, the authors sort 923 occupations into 20 exposure groups and compare 2015–2019 with May 2025 to April 2026 (with flows from January 2024). Unemployment rose about 1 percentage point more in the most exposed group than in the least exposed one. The monthly job-finding rate, about 34% on average, fell about 6 points more in the top group, stretching unemployment spells from about 10.5 to over 13 weeks. At ages 23 to 30, the unemployment gap reaches about 2 points.
+
+Why it matters. It extends the entry pattern from section “Exposure designs: hiring and entry” to unemployed workers. As in Tucker (2026) and Bergeaud, Bertheau, et al. (2026), hiring falls while job separations stay flat, and the unemployment rise echoes Kläui and Siegenthaler (2025). That qualifies Imas and Schaal (2026), who find no effect on unemployment (section “Evaluation”). The flatter slope under usage-based measures fits a productivity gain \pi_o offsetting substitution (Main patterns).
+
+Caveat. Comparing against a 2015–2019 baseline cannot separate AI from a decline in exposed jobs that started in early 2022 (Frank et al. 2026). Grouping the unemployed by their last occupation also leaves out people looking for their first job.
+
+https://www.clevelandfed.org/publications/economic-commentary/2026/ec-202626-job-finding-and-unemployment-in-the-age-of-ai
+https://ajoly35.github.io/gen-ai-living-review/latest/#cline-and-kaymak-2026-job-finding-and-unemployment-in-the-age-of-ai
+
+——————————————————————————————
+
+Diener et al. (2026), "Today's Work, Tomorrow's Workforce: Incentivizing Learning in AI-Assisted Work"
+Karlsruhe Institute of Technology and IBM Research, arXiv preprint, 4 November 2026. Paper. Dynamic model of workers choosing between accepting an AI's answer and solving tasks themselves; theory with illustrative numbers, no causal estimates.
+
+What it finds. Relying on AI can trap novices at low skill and erode the skills of experts. Because output stays at the AI's level, this loss goes unseen. Working by hand takes effort and builds skill, while accepting the AI's answer saves effort and lets skill fade. Even forward-looking workers stay stuck when learning pays off too late. In the authors' code-review example, a novice who catches 40% of bugs next to an AI that catches 62% never practises. Paying for correct answers done without AI, starting at 0.27 of a bug's value per task and falling with skill, lifts the novice to 70%, after which payments stop.
+
+Why it matters. This paper models the training channel in section “Why these patterns: theory”. As in Garicano and Rayo (2025), AI takes away the routine work through which juniors paid for their training. Here the authors add expert deskilling and an explicit price for practice, a choice left to employers (section “Organisation: who decides how AI is used”). They do not test the drops in junior hiring in Hosseini and Lichtinger (2025).
+
+Caveat. The model uses one worker, one task family, and chosen parameters rather than estimates. Skill grows only through unaided work. If engaged use of AI also teaches, the trap weakens, as the authors note.
+
+https://arxiv.org/abs/2611.06346
+https://ajoly35.github.io/gen-ai-living-review/latest/#diener-et-al-2026-todays-work-tomorrows-workforce-incentivizing-learning-in-ai-assisted-work
+
+——————————————————————————————
+
+Lu et al. (2026), "Stronger artificial intelligence breakthroughs hasten their own exhaustion"
+University of Chicago Knowledge Lab and Tsinghua University, arXiv preprint, 19 October 2026. Paper. Descriptive analysis of 36 years of computer science papers, career moves and peer reviews, with an illustrative simulation; outside the causal evidence standard, context for AI and growth.
+
+What it finds. Since the Transformer arrived in 2017, computer science has grown while narrowing its focus, and after each AI breakthrough, researchers exhausted its ideas faster. Across 7.18 million papers from 1990 to 2025, inequality of attention across keywords (a Gini coefficient) held steady for decades, then rose from 0.26 to 0.33 within eight years of 2017. Out of 918,862 moves between subfields, 53.81% ended in AI, mostly made by mid-career researchers. Across 73,089 peer reviews from 2017 to 2025, reviewer confidence dropped from 3.9 to 2.9 out of 5. Active ideas fell modestly below their ceiling after AlexNet, and severely after the Transformer.
+
+Why it matters. This speaks to the companion review's section on automating ideas. Growth models where ideas get harder to find (Aghion, Jones and Jones 2019) treat difficulty as a feature of the idea space itself; here, it also depends on how researchers spread their attention. That weakens the research feedback loops driving explosive growth in Davidson et al., matching the slower paths in Rungcharoenkitkul (2026).
+
+Caveat. Nouns in abstracts stand in for ideas, and the post-2022 window is short. The paper does not tie narrowing attention to output; the growth reading is ours.
+
+https://arxiv.org/abs/2610.27296
+https://ajoly35.github.io/gen-ai-living-review/latest/#lu-et-al-2026-stronger-artificial-intelligence-breakthroughs-hasten-their-own-exhaustion
+
+——————————————————————————————
+
+Soda, Iorio and Rizzo (2026), "The Effects of Generative AI on Collaboration and Social Networks Among Knowledge Workers"
+Bocconi University and SDA Bocconi, arXiv preprint, 23 October 2026. Paper. Staggered difference in differences on logged collaboration data during a staged Microsoft Copilot rollout in one firm, checked with a shift-share instrument.
+
+What it finds. Workers who adopted Copilot collaborated for longer and with more colleagues. The study uses Microsoft Viva Insights logs from September 2024 to September 2025 for 11,868 knowledge workers in one unit of a multinational consumer-products firm. It compares 1,992 sustained adopters with 9,876 never-adopters, who showed no gap before adoption. Over the first three months after adoption, worker-initiated collaboration rose by 1.4 hours a month compared with never-adopters, mainly through meetings and calls. Adopters also worked with about 2.2 more distinct colleagues each month. Their networks grew less clustered, and they spent a larger share of their time with colleagues they already knew well.
+
+Why it matters. It speaks to the section “Who holds knowledge?”: colleagues still need to check and accept AI output, so the assistant prompts more consultation instead of replacing it, unlike the move to remote work in Yang et al. (2022). It also qualifies Dillon et al. (2025), who find that Copilot saves time within existing jobs: workers may spend part of those savings on coordination.
+
+Caveat. Workers had some say in when they adopted the tool, and the study tracks just three months in a single firm. The logs capture who meets whom, not what they talk about or whether their work got better.
+
+https://arxiv.org/abs/2610.32461
+https://ajoly35.github.io/gen-ai-living-review/latest/#soda-iorio-and-rizzo-2026-the-effects-of-generative-ai-on-collaboration-and-social-networks-among-knowledge-workers
+
+——————————————————————————————
+
+Rungcharoenkitkul (2026), "Transformative AI and Demand Bottlenecks"
+Bank for International Settlements, BIS Working Paper No. 1381, 10 October 2026. Paper. Calibrated endogenous growth model of automation and innovation; theory, no causal estimates.
+
+What it finds. In the central calibration, AI lifts growth briefly and then lowers it, with trend growth settling 0.41 percentage points below the pre-AI 2%. Automating work requires building machines, which shrinks the consumer spending that pays innovators. Research stops paying off and automation stalls, leaving labour with a 48% task share against 60% before. Output growth peaks just under 2.4% about 15 years after activation, while wages sit 14.5% below the no-AI path after 20 years. The most optimistic scenario reaches 5.5% growth by year 20, compared with 13% in Jones and Tonetti (2026) and 18% in Korinek and Suh (2024). In all 32 parameter combinations tested, trend growth ends up below 2%.
+
+Why it matters. This adds a demand-side limit to the companion review's section on automating goods and services. Beyond weak links (Aghion, Jones and Jones 2019; Jones and Tonetti 2026), growth can stall when consumption has to pay for innovation. It projects far less than Korinek et al. (2026) because research responds to rents. Falling wages imply a high \sigma_o (Main patterns). Research subsidies offset the shortfall, whereas redistribution does not.
+
+Caveat. AI's arrival rate is inferred from productivity estimates of 0.06 to 1.5 points a year, and across the values tested the shortfall ranges from 0.02 to 1.83 points. The result rests on rents coming only from consumers.
+
+https://www.bis.org/publications/working-paper-1381-transformative-ai-and-demand-bottlenecks
+https://ajoly35.github.io/gen-ai-living-review/latest/#rungcharoenkitkul-2026-transformative-ai-and-demand-bottlenecks
+
+——————————————————————————————
+
+Conlon and Schwardmann (2026), "Creative destruction: Human-AI competition in an experimental market"
+Ohio State University and Carnegie Mellon University, arXiv preprint, 12 October 2026. Paper. Three preregistered online experiments with paid choices; who designed each game is revealed to randomly chosen buyers. A lab market, not labour market data.
+
+What it finds. Games designed by an AI on its own sold for more than games designed by people directing the same coding agent, and telling buyers who made each game changed nothing. Among 296 US participants who both designed and bought games, buyers paid $0.47 on average to play an AI-designed game compared with $0.37 for a human-designed one, a gap of 0.31 standard deviations. Tested on 549 separate buyers, games by 180 creative professionals scored 0.16 standard deviations below the AI games. Producers had expected to beat the AI by 9 to 17 cents. Disclosing the designer left the AI premium steady at 6.8 cents blind versus 6.0 cents disclosed.
+
+Why it matters. The paper tests the new task channel of Acemoglu et al. (2026) (section “Organisation: who decides how AI is used”). Directing the AI gave people no edge in taste, and a human label created no extra demand, pointing to a high \sigma_o in creative design (Main patterns). Producers did take pride in their work, a loss that GDP misses and the central theme of Imas and Moll (2026) (companion review).
+
+Caveat. Designing a game took minutes, prices were in cents, and play lasted about a minute. Still, the AI ran on one untested prompt, which if anything understates its edge.
+
+https://arxiv.org/abs/2610.18921
+https://ajoly35.github.io/gen-ai-living-review/latest/#conlon-and-schwardmann-2026-creative-destruction-human-ai-competition-in-an-experimental-market
+
+——————————————————————————————
+
+Barwick et al. (2026), "AI as Shared Business Infrastructure: Firm Growth and the Distribution of Gains"
+NBER Working Paper 36003, 9 November 2026. Paper. Matched difference in differences on a Chinese e-commerce platform's records of small sellers, checked with instrumental variables.
+
+What it finds. Small online shops in China that adopted their platform's built-in AI assistant raised monthly sales by about half, and the smallest shops gained the most. Covering sellers with pre-launch annual sales of at most RMB 5 million from October 2023 to July 2025, the data track 148,770 adopters against 77,347 similar non-adopters. The two groups showed no gap before adoption, after which adopters saw sales rise 51.6% and orders 47.0% compared with matched non-adopters. Sales climbed 61.5% in the bottom size quarter, against 10.3% in the top quarter. Adopters also posted 62.6% more product images and cut customer-service staff time per order by 5.6%. Product categories where the tools mattered more saw more sales, entry and new products.
+
+Why it matters. This extends section “Firm adoption studies”. Like Kharazian et al. (2026), it finds a scale effect where adopters grow, except here adoption is measured from actual use among very small firms. The drop in staff time per order gives a field reading of \pi_o (Main patterns). Because headcount is not measured, the study cannot tell whether this growth offsets the losses that Bonin et al. (2026) find in Danish firms under 100 employees.
+
+Caveat. Sellers chose to adopt, paying RMB 99 a month after a free month, so keener sellers may have selected in, though the instrumental-variable estimates come out larger still. Also, the unnamed platform sells the tool and supplied the data.
+
+https://www.nber.org/papers/w36003
+https://ajoly35.github.io/gen-ai-living-review/latest/#barwick-et-al-2026-ai-as-shared-business-infrastructure-firm-growth-and-the-distribution-of-gains
+
+——————————————————————————————
+
+Zhao et al. (2026), "AI Exposure and the Changing Responsibilities in Job Postings"
+Microsoft, Microsoft Research and Stanford University, arXiv preprint, 6 November 2026. Paper. Descriptive comparison of job postings in 2023 and 2025, no control group; outside the review's causal evidence standard, reported as context.
+
+What it finds. Large US employers list AI-exposed work activities slightly less often in their job ads, and more often describe doing them with AI. Across 50,000 postings from 33 large firms, an activity one standard deviation more exposed fell by 0.19 to 0.24 percentage points more between 2023 and 2025, a small share of all listed activities. Of the 57 activities that appeared less often, 55 were linked to AI in more postings. Postings mentioning AI rose from 5.3% to 8.8%.
+
+Why it matters. Klein Teeselink and Carey (2026) find fewer postings in exposed occupations (section “Exposure designs: hiring and entry”). Here, exposed activities shrink only slightly inside the jobs still advertised, meaning the demand shift works more through which jobs firms post than through what each job contains. Employers also rewrite exposed activities around AI use. This offers a stated-demand counterpart to the new tasks Dillon et al. (2025) did not find (section “Does reorganisation create new tasks?”).
+
+Caveat. Job ads are partly signalling, and show neither who gets hired nor what workers actually do. Four of the five authors work at Microsoft, which is one of the 33 firms.
+
+https://arxiv.org/abs/2611.09870
+https://ajoly35.github.io/gen-ai-living-review/latest/#zhao-et-al-2026-ai-exposure-and-the-changing-responsibilities-in-job-postings
+
+——————————————————————————————
+
+Hermle et al. (2026), "AI for Scientific Discovery: How Researchers Use Claude"
+The Anthropic Institute, technical report, 5 November 2026. Paper. Descriptive usage data, a survey and a calibrated ideas production function; outside the causal standard, context for AI and growth.
+
+What it finds. Scientists use AI where it works best, and a calibrated model implies current AI can at most double research output because physical work caps larger gains. Across 207,049 research sessions on Claude and Claude Code (August to September 2026), data analysis makes up 33.7% and 48.1% of sessions, compared with 27.6% of researcher time. Ideation takes 4.2% and 2.1% of sessions, compared with 7.1% of researcher time. Plugged into an ideas production function with an elasticity of substitution of one half, current capabilities raise output for a fixed budget from 1.35 times in the arts to 2.02 times in statistics. Automating all non-physical steps lifts output 15 to 16 times in fields with little lab work, versus 3 to 4 times in lab fields.
+
+Why it matters. The paper puts field-level numbers on the input side of the research-automation models of Davidson et al. and Trammell and Korinek (companion review), showing that physical steps are the Baumol bottleneck. Usage climbs steeply with task capability, so measured exposure predicts where adoption goes, unlike the economy-wide gap in Massenkoff and McCrory (2026) (section “Key concepts and definitions”).
+
+Caveat. The authors study their own employer's product over two months of consumer plans. Their scenarios rely on an assumed AI cost and a model-rated capability score rather than measured output.
+
+https://www.anthropic.com/research/how-researchers-use-claude
+https://ajoly35.github.io/gen-ai-living-review/latest/#hermle-et-al-2026-ai-for-scientific-discovery-how-researchers-use-claude
+
+——————————————————————————————
+
+Bank of England (2026), "Monetary Policy Report: November 2026"
+Bank of England, Monetary Policy Committee, 5 November 2026. Paper. Growth accounting with an industry proxy for AI activity (Box C) and firm survey estimates (Box D); descriptive, context for AI and growth.
+
+What it finds. AI is lifting UK growth through the industries that build and sell it, while its effect on productivity elsewhere remains small. Adjusted for trend, new AI-related activity in publishing, computer programming and information services accounts for just under a fifth of UK GDP growth since the start of 2026. Firms in the Decision Maker Panel estimate that AI raised their productivity by about 0.5% over three years. The Bank reads this as 0.1 to 0.2 percentage points a year, with close to zero effect on their employment so far. Over the next three years, firms expect gains of 0.9 points a year, half of it coming from slower employment growth.
+
+Why it matters. This puts an official number on the pattern in Strauss, Romei and Fleming (2026) below: growth comes from producing AI, not yet from using it. The 0.1 to 0.2 points sit near Acemoglu (2025), while the firms' forecast sits closer to Korinek et al. (2026) (companion review). Fewer hires without more firings confirm that adjustment happens through entry (section “Exposure designs: hiring and entry”), and the near-zero firm employment effects match Yotzov et al. (2026).
+
+Caveat. The proxy industries do plenty of non-AI work, so "a fifth" is only an order of magnitude, and the productivity and employment figures rely on firms' own estimates. Higher labour costs and the end of labour hoarding also cut hiring and raise measured productivity.
+
+https://www.bankofengland.co.uk/monetary-policy-report/2026/november-2026
+https://ajoly35.github.io/gen-ai-living-review/latest/#bank-of-england-2026-monetary-policy-report-november-2026
+
+——————————————————————————————
+
+MAIN IDEAS
+- Large gains on tasks, none yet in the aggregates. In field experiments, generative AI raises output on narrow tasks by 14 to 34%, most for workers who were least productive before. In the Nordic registers, total employment, hours and earnings are unchanged so far.
+- The adjustment runs through entry, not layoffs. Young hires in the most exposed occupations have fallen in the US, Sweden, the UK and France, by up to a quarter relative to less exposed occupations, and contract ends fell too: firms stop hiring juniors rather than dismiss workers. Hires are a small flow, so the stock of jobs moves slowly and totals look flat.
+- Exposed occupations adjust through pay as well. Wages in the most exposed occupations fell by about 5% by 2026 with no change in headcount, and this explains close to a third of the fall in the college wage premium.
+- Firm-level results split. Some adopters cut junior employment by about 9% while senior employment is unchanged; others, especially the biggest spenders on AI, grew and hired more entrants. Who counts as an adopter drives much of the gap, and whether substitution or scale wins is the central open question.
+- Juniors lose because their tasks are the most codifiable. AI raises novices' output most, but hiring depends on demand for the firm's output, not on output per worker. If AI does the routine work juniors used to train on, firms have less reason to hire and train them.
+- Organisation decides the direction. Management quality, the cost of reorganising and the flexibility of labour law set how deeply firms adopt. So far AI mostly saves time within existing jobs and moves knowledge down the hierarchy; new tasks appear only where employers reorganise.
+- What is still unknown. How strongly demand responds to cheaper output, how much of the fall in entry is AI rather than remote work or a slowdown that began in 2022, where the fall in entry ends as models improve, and who captures the gains.
+
+Read the full review: https://ajoly35.github.io/gen-ai-living-review/
+Unsubscribe: {{ unsubscribe_url }}
+
+A living review maintained by Adrien Joly, London School of Economics.
+Entries are written by an AI assistant from the paper itself and are not reviewed before they are sent. Figures are taken from the paper; the review's own assessment is in the caveat.
