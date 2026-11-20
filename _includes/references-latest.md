@@ -10,11 +10,15 @@ Carollo, Nick, Leland D. Crane, Daniel Garcia Molina, and Joseph Nichols. 2026. 
 
 Chin, Caroline, Shagun Kala, Nadav Kunievsky, Teng Liu, Alex Martin Richmond, and Carl Shan. 2026. *The Rebundling of Freelance Work in the AI Age*. arXiv:2611.14708. [Link](https://arxiv.org/abs/2611.14708).
 
+Chow, Kevin, Sophia Deng, Bowen He, Hanyi Min, Qiaosi Wang, Koustuv Saha, and Vedant Das Swain. 2026. *AI-Induced Social Erosion: Using LLMs for Work Tasks Reduces Help-Seeking Intentions Towards Colleagues*. arXiv:2611.25269. [Link](https://arxiv.org/abs/2611.25269).
+
 Cline, Alexander, and Barış Kaymak. 2026. *Job Finding and Unemployment in the Age of AI*. Economic Commentary 2026-26. Federal Reserve Bank of Cleveland. [Link](https://doi.org/10.26509/frbc-ec-202626).
 
 Conlon, John J., and Peter Schwardmann. 2026. *Creative Destruction: Human-AI Competition in an Experimental Market*. arXiv:2610.18921. [Link](https://arxiv.org/abs/2610.18921).
 
 Diener, Moritz, Daniel Hendriks, Philipp Spitzer, Gerhard Satzger, Joshua Holstein, and Wei Sun. 2026. *Today’s Work, Tomorrow’s Workforce: Incentivizing Learning in AI-Assisted Work*. arXiv:2611.06346. [Link](https://arxiv.org/abs/2611.06346).
+
+Dueñas, Marco, and Antoine Mandel. 2026. *Structural Economic Change under the Digital Transformation*. arXiv:2611.26338. [Link](https://arxiv.org/abs/2611.26338).
 
 Esposito, Mark, and Liu Zhang. 2026. *AI and the Two Margins of Work: Why Job Losses Show Up Before Job Creation*. arXiv:2611.17530. [Link](https://arxiv.org/abs/2611.17530).
 
@@ -39,8 +43,6 @@ Rungcharoenkitkul, Phurichai. 2026. *Transformative AI and Demand Bottlenecks*. 
 Soda, Giuseppe, Alessandro Iorio, and Leonardo Rizzo. 2026. *The Effects of Generative AI on Collaboration and Social Networks Among Knowledge Workers*. arXiv:2610.32461. [Link](https://arxiv.org/abs/2610.32461).
 
 Strauss, Delphine, Valentina Romei, and Sam Fleming. 2026. "What Is Behind the Surprising Resilience of the UK Economy?" *Financial Times*, 17 October.
-
-Tadepalli, Karthik. 2026. *Efficiency vs Capability in the Intelligence Explosion*. arXiv:2610.33447. [Link](https://arxiv.org/abs/2610.33447).
 
 Xu, Feiyang, Poonacha K. Medappa, and Murat M. Tunc. 2026. *Does the AI Reviewer Alleviate or Aggravate the Maintenance Burden? Evidence from GitHub Copilot Reviewer*. arXiv:2611.22793. [Link](https://arxiv.org/abs/2611.22793).
 

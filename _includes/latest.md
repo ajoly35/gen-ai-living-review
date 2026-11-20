@@ -1,5 +1,37 @@
 New papers on AI and labour markets and AI and growth, newest first, each placed against the review below. Every figure is checked against the paper itself.
 
+### Chow et al. (2026), "AI-Induced Social Erosion: Using LLMs for Work Tasks Reduces Help-Seeking Intentions Towards Colleagues"
+<!-- kind: paper -->
+
+NYU, Illinois and Carnegie Mellon, arXiv preprint, 18 November 2026. [Paper](https://arxiv.org/abs/2611.25269). Randomised vignette experiment on 248 US knowledge workers; outcomes are stated intentions, not observed behaviour.
+
+**In brief.**
+What it explores: Whether office workers who get help from AI on a task then turn to their colleagues less.
+Why it matters: Asking colleagues is how newcomers learn and how teams bond; if AI takes those questions, both may weaken.
+How it fits the evidence: A one-firm study found AI users met more colleagues; this one measures intentions, not actions.
+
+**What it finds.** Imagining a task done with AI lowered workers' stated wish to ask a colleague for help. 248 US knowledge workers who use AI weekly each rated ten hypothetical scenarios (2,444 ratings) on 1 to 5 scales. With AI, help-seeking fell by 0.24 points and felt connection to the colleague by 0.25 points, relative to the same tasks without AI. The drop was largest for brainstorming (0.41 points) and proofing (0.26), and not significant for reassurance and search. Using AI in a workspace colleagues can see, rather than privately, raised help-seeking by 0.31 points. Delegating the task to AI, rather than being assisted, made no difference.
+
+**Where it fits.** It informs section [“Who holds knowledge?”](#who-holds-knowledge): if AI answers the questions workers used to take to colleagues, it replaces the help layer of the Garicano (2000) hierarchy, as in Ide and Talamàs (2025). It contrasts with Soda, Iorio and Rizzo (2026), where Copilot adopters collaborated with more colleagues. The shared-workspace effect fits the review's point that organisation decides the direction.
+
+**Caveat.** Hypothetical scenarios measure intentions on the day, not behaviour over months. The sample is self-selected online workers who already trust AI, and effects are a fraction of a point on a five-point scale.
+
+### Dueñas and Mandel (2026), "Structural economic change under the digital transformation"
+<!-- kind: paper -->
+
+Sant'Anna Pisa and Paris School of Economics, arXiv preprint, 19 November 2026. [Paper](https://arxiv.org/abs/2611.26338). Agent-based model of 163 industries in 49 economies, calibrated to 2022 input-output data; simulation, not a causal design.
+
+**In brief.**
+What it explores: What happens worldwide if the industries supplying computing, software and telecoms become a third more productive over ten years.
+Why it matters: AI growth forecasts often stop at national output; who must change industry, and whether they can, decides who pays.
+How it fits the evidence: It finds output gains of a few per cent and modest but lasting pressure on workers in industries that pay less.
+
+**What it finds.** A 35% rise in digital suppliers' productivity (computing, telecoms, electronics, ICT services) over ten years raises GDP everywhere: about 3% in the EU, close to 6% in China. Gross output gains exceed value-added gains; value added falls in some sectors, such as agriculture and food in Mexico, India and Canada. When digital inputs substitute directly for capital and labour in the 49 industries OECD taxonomies rank most AI- or digital-exposed, digital value added rises by 48% (UK) to just over 70% (China). Labour moves into digital industries, largely from services. Without mobility, reallocation gaps reach 1.0 to 1.3% of employment in Germany and 0.5 to 0.7% in the US.
+
+**Where it fits.** For the companion review's section on aggregating task gains, it adds propagation through production networks: gains show up in gross output more than in value added, a channel Acemoglu (2025) and Korinek et al. (2026) abstract from. Persistent wage gaps across industries bear on whether displaced workers can move, as in Hyman et al. (2025).
+
+**Caveat.** The productivity shock is assumed, not estimated, and covers all digital suppliers rather than AI alone. Substitution elasticities are set, not measured, and labour gaps are wage-based pressures, not unemployment.
+
 ### Zhang, Esposito and Yang (2026), "AI, Specialization, and the Organization of Knowledge Work: Evidence from Legal Services"
 <!-- kind: paper -->
 
@@ -264,23 +296,3 @@ Bank of England, Monetary Policy Committee, 5 November 2026. [Paper](https://www
 **Where it fits.** An official number on the pattern in Strauss, Romei and Fleming (2026) below: growth comes from producing AI, not yet from using it. The 0.1 to 0.2 points sit near Acemoglu (2025), the firms' forecast nearer Korinek et al. (2026) (companion review). Fewer hires without more firings confirm adjustment through entry (section [“Exposure designs: hiring and entry”](#exposure-designs-hiring-and-entry)), and near-zero firm employment effects match Yotzov et al. (2026).
 
 **Caveat.** The proxy industries do much non-AI work, so "a fifth" is an order of magnitude, and the productivity and employment figures are firms' own estimates. The end of labour hoarding and higher labour costs also cut hiring and raise measured productivity.
-
-### Mehdi and Frenette (2026), "Hiring and job separation rates in the era of generative artificial intelligence: Early evidence"
-
-Statistics Canada, Economic and Social Reports, 28 October 2026. [Paper](https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026010/article/00003-eng.htm). Raw hiring and separation rates by occupational AI exposure, before and after ChatGPT, no controls; outside the causal standard, context.
-
-**What it finds.** In Canada, hiring of young workers has fallen since ChatGPT, but by as much or more in jobs little exposed to AI as in exposed ones. Comparing the six months to November 2022 with the six months to August 2026, the monthly hiring rate of 15 to 29 year olds fell from 3.2% to 3.0% in exposed jobs where AI is more likely to replace workers, from 2.9% to 2.5% in exposed jobs where it is more likely to help them, and from 4.0% to 3.3% in low-exposure jobs. In coding jobs it fell from 2.5% to 1.9%, but that decline began in early 2022. Youth separation rates stayed within their historical range.
-
-**Where it fits.** Bergeaud, Bertheau, et al. (2026) in France and Tucker (2026) in the US find young hires falling more in exposed jobs; Canada shows no such gap, siding with the total-employment designs of Kauhanen and Rouvinen (2025) and Facius and Iacono (2026) (section [“Exposure designs: hiring and entry”](#exposure-designs-hiring-and-entry)). Flat separations confirm the no-layoffs half of the review's margin-of-adjustment claim ([Main patterns](#main-patterns)), and the pre-ChatGPT fall in coding hires extends the point in section [“Evaluation”](#evaluation) that part of the fall in entry predates GenAI.
-
-**Caveat.** Raw rates from a household survey, with no controls or standard errors; occupation-by-age cells are small, especially for coding jobs.
-
-### Tadepalli (2026), "Efficiency vs Capability in the Intelligence Explosion"
-
-GovAI, arXiv 2610.33447, 24 October 2026. [Paper](https://arxiv.org/abs/2610.33447). Theory and calibration: a task-based growth model of AI research with Monte Carlo simulations over the inputs.
-
-**What it finds.** A self-sustaining acceleration of AI progress, with compute and human researchers fixed, needs both capability (the share of research tasks AI can do) and inference efficiency (research output per unit of compute) to improve fast enough, and neither can make up for the other. Returns must exceed one on both margins. Baseline returns are 1.07 for efficiency and 3.45 for capability, the latter resting on METR's 131-day doubling of time horizons. Both conditions hold in 49% of 200,000 draws; efficiency is the lower margin in 80%, and uncertainty about it explains 45% of the uncertainty about the outcome.
-
-**Where it fits.** Replaces the scalar research-efficiency units of Eth and Davidson (2025) and Davidson and Houlden (2025) with tasks, and finds inference efficiency, not capability, is the likely constraint (companion review). It also turns the time-horizon trend the review uses (Kwa et al. 2025; [Main patterns](#main-patterns)) into a share of tasks automated per doubling.
-
-**Caveat.** The 49% is not a probability: the inputs come from short series and a few open-weight models, and compute is held fixed, so this is a software-only explosion.

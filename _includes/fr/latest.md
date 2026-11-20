@@ -1,5 +1,37 @@
 Nouveaux articles sur l'IA et les marchés du travail et sur l'IA et la croissance, du plus récent au plus ancien, chacun situé par rapport à la revue ci-dessous. Chaque chiffre est vérifié dans l'article lui-même.
 
+### Chow et al. (2026), "AI-Induced Social Erosion: Using LLMs for Work Tasks Reduces Help-Seeking Intentions Towards Colleagues" {#chow-et-al-2026-ai-induced-social-erosion-using-llms-for-work-tasks-reduces-help-seeking-intentions-towards-colleagues}
+<!-- kind: paper -->
+
+NYU, Illinois et Carnegie Mellon, prépublication arXiv, 18 novembre 2026. [Article](https://arxiv.org/abs/2611.25269). Expérience randomisée par vignettes auprès de 248 travailleurs du savoir américains ; les résultats portent sur des intentions déclarées, non sur des comportements observés.
+
+**En bref.**
+Ce qu'elle explore : si les employés de bureau qui se font aider par l'IA sur une tâche se tournent ensuite moins vers leurs collègues.
+Pourquoi c'est important : demander à un collègue, c'est ainsi que les nouveaux apprennent et que les équipes se soudent ; si l'IA prend ces questions, les deux peuvent s'affaiblir.
+Ce que cela change aux preuves : une étude dans une entreprise trouvait que les utilisateurs d'IA voyaient plus de collègues ; celle-ci mesure des intentions, non des actes.
+
+**Ce que l'étude trouve.** Imaginer une tâche faite avec l'IA réduit l'envie déclarée de demander de l'aide à un collègue. 248 travailleurs du savoir américains, utilisateurs hebdomadaires de l'IA, notent chacun dix scénarios fictifs (2 444 notes) sur des échelles de 1 à 5. Avec l'IA, la recherche d'aide baisse de 0.24 point et le lien ressenti avec le collègue de 0.25 point, par rapport aux mêmes tâches faites sans IA. La baisse est la plus forte pour le remue-méninges (0.41 point) et la relecture (0.26), non significative pour la recherche de réassurance et d'information. Utiliser l'IA dans un espace visible des collègues, plutôt qu'en privé, augmente la recherche d'aide de 0.31 point. Déléguer la tâche à l'IA plutôt que s'en faire assister ne change rien.
+
+**Où cela se place.** L'étude éclaire la section [« Qui détient le savoir ? »](#who-holds-knowledge) : si l'IA répond aux questions que les travailleurs posaient à leurs collègues, elle remplace l'étage d'aide de la hiérarchie de Garicano (2000), comme chez Ide et Talamàs (2025). Elle contraste avec Soda, Iorio et Rizzo (2026), où les utilisateurs de Copilot collaboraient avec davantage de collègues. L'effet des espaces partagés rejoint l'idée de la revue : l'organisation décide de la direction.
+
+**Limite.** Des scénarios fictifs mesurent des intentions sur le moment, non des comportements sur plusieurs mois. L'échantillon est fait de travailleurs en ligne volontaires qui font déjà confiance à l'IA, et les effets valent une fraction de point sur une échelle de cinq.
+
+### Dueñas and Mandel (2026), "Structural economic change under the digital transformation" {#dueas-and-mandel-2026-structural-economic-change-under-the-digital-transformation}
+<!-- kind: paper -->
+
+Sant'Anna Pise et Paris School of Economics, prépublication arXiv, 19 novembre 2026. [Article](https://arxiv.org/abs/2611.26338). Modèle multi-agents de 163 branches dans 49 économies, calibré sur les tableaux entrées-sorties de 2022 ; simulation, pas de dispositif causal.
+
+**En bref.**
+Ce qu'elle explore : ce qui se passe dans le monde si les branches qui fournissent informatique, logiciels et télécoms deviennent un tiers plus productives en dix ans.
+Pourquoi c'est important : les prévisions de croissance liées à l'IA s'arrêtent souvent à la production nationale ; qui doit changer de secteur, et s'il le peut, décide de qui paie.
+Ce que cela change aux preuves : l'étude trouve des gains de production de quelques pour cent et une pression modeste mais durable sur les travailleurs des secteurs qui paient moins.
+
+**Ce que l'étude trouve.** Une hausse de 35% de la productivité des fournisseurs numériques (informatique, télécoms, électronique, services TIC) en dix ans augmente le PIB partout, d'environ 3% dans l'UE et de près de 6% en Chine. La production brute progresse plus que la valeur ajoutée ; celle-ci recule dans certains secteurs, comme l'agriculture et l'alimentation au Mexique, en Inde et au Canada. Quand les intrants numériques se substituent directement au capital et au travail dans les 49 branches que les taxonomies de l'OCDE classent comme les plus exposées au numérique ou à l'IA, la valeur ajoutée numérique augmente de 48% (Royaume-Uni) à un peu plus de 70% (Chine). Le travail se déplace vers le numérique, surtout depuis les services. Sans mobilité, les écarts de réallocation atteignent 1.0 à 1.3% de l'emploi en Allemagne et 0.5 à 0.7% aux États-Unis.
+
+**Où cela se place.** Pour la section de la revue compagnon sur l'agrégation des gains par tâche, l'étude ajoute la propagation par les réseaux de production : les gains apparaissent davantage dans la production brute que dans la valeur ajoutée, un canal dont Acemoglu (2025) et Korinek et al. (2026) font abstraction. Les écarts de salaire persistants entre branches éclairent la mobilité des travailleurs déplacés, comme chez Hyman et al. (2025).
+
+**Limite.** Le choc de productivité est supposé, non estimé, et porte sur tous les fournisseurs numériques, pas sur l'IA seule. Les élasticités de substitution sont fixées, non mesurées, et les écarts de main-d'œuvre sont des pressions salariales, pas du chômage.
+
 ### Zhang, Esposito and Yang (2026), "AI, Specialization, and the Organization of Knowledge Work: Evidence from Legal Services" {#zhang-esposito-and-yang-2026-ai-specialization-and-the-organization-of-knowledge-work-evidence-from-legal-services}
 <!-- kind: paper -->
 
@@ -264,23 +296,3 @@ Bank of England, Monetary Policy Committee, 5 novembre 2026. [Article](https://w
 **Où cela se place.** Un chiffre officiel sur la configuration décrite par Strauss, Romei et Fleming (2026) ci-dessous : la croissance vient de la production d'IA, pas encore de son usage. Les 0.1 à 0.2 point se situent près d'Acemoglu (2025), la prévision des entreprises plus près de Korinek et al. (2026) (revue compagnon). Moins d'embauches sans davantage de licenciements confirme un ajustement par l'entrée (section [« Approches par l'exposition : embauches et entrée »](#exposure-designs-hiring-and-entry)), et des effets quasi nuls sur l'emploi des entreprises rejoignent Yotzov et al. (2026).
 
 **Limite.** Les secteurs retenus comme approximation font beaucoup de travail sans lien avec l'IA, de sorte que « un cinquième » est un ordre de grandeur, et les chiffres de productivité et d'emploi sont les propres estimations des entreprises. La fin de la rétention de main-d'œuvre et la hausse des coûts du travail réduisent aussi les embauches et accroissent la productivité mesurée.
-
-### Mehdi and Frenette (2026), "Hiring and job separation rates in the era of generative artificial intelligence: Early evidence" {#mehdi-and-frenette-2026-hiring-and-job-separation-rates-in-the-era-of-generative-artificial-intelligence-early-evidence}
-
-Statistique Canada, Economic and Social Reports, 28 octobre 2026. [Article](https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026010/article/00003-eng.htm). Taux bruts d'embauche et de séparation selon l'exposition des professions à l'IA, avant et après ChatGPT, sans contrôles ; hors du standard causal, contexte.
-
-**Ce que l'étude trouve.** Au Canada, les embauches de jeunes travailleurs ont reculé depuis ChatGPT, mais autant ou davantage dans les emplois peu exposés à l'IA que dans les emplois exposés. En comparant les six mois jusqu'à novembre 2022 aux six mois jusqu'à août 2026, le taux mensuel d'embauche des 15 à 29 ans est passé de 3.2% à 3.0% dans les emplois exposés où l'IA est plus susceptible de remplacer les travailleurs, de 2.9% à 2.5% dans les emplois exposés où elle est plus susceptible de les aider, et de 4.0% à 3.3% dans les emplois peu exposés. Dans les emplois de programmation, il est passé de 2.5% à 1.9%, mais ce recul a commencé début 2022. Les taux de séparation des jeunes sont restés dans leur fourchette historique.
-
-**Où cela se place.** Bergeaud, Bertheau, et al. (2026) en France et Tucker (2026) aux États-Unis trouvent que les embauches de jeunes reculent davantage dans les emplois exposés ; le Canada ne montre pas un tel écart et rejoint les approches par l'emploi total de Kauhanen et Rouvinen (2025) et de Facius et Iacono (2026) (section [« Approches par l'exposition : embauches et entrée »](#exposure-designs-hiring-and-entry)). La stabilité des séparations confirme la moitié « pas de licenciements » de l'affirmation de la revue sur la marge d'ajustement ([Principales régularités](#main-patterns)), et le recul des embauches en programmation antérieur à ChatGPT prolonge le point de la section [« Évaluation »](#evaluation) selon lequel une partie de la baisse de l'entrée précède l'IA générative.
-
-**Limite.** Taux bruts issus d'une enquête auprès des ménages, sans contrôles ni erreurs-types ; les cellules profession par âge sont petites, surtout pour les emplois de programmation.
-
-### Tadepalli (2026), "Efficiency vs Capability in the Intelligence Explosion" {#tadepalli-2026-efficiency-vs-capability-in-the-intelligence-explosion}
-
-GovAI, arXiv 2610.33447, 24 octobre 2026. [Article](https://arxiv.org/abs/2610.33447). Théorie et calibration : un modèle de croissance par tâches de la recherche en IA, avec des simulations de Monte Carlo sur les intrants.
-
-**Ce que l'étude trouve.** Une accélération auto-entretenue du progrès de l'IA, à calcul et chercheurs humains fixes, exige que la capacité (la part des tâches de recherche que l'IA peut accomplir) et l'efficacité d'inférence (la production de recherche par unité de calcul) s'améliorent toutes deux assez vite, et aucune ne peut compenser l'autre. Les rendements doivent dépasser un sur les deux marges. Les rendements de référence sont de 1.07 pour l'efficacité et de 3.45 pour la capacité, ce dernier reposant sur le doublement en 131 jours des horizons temporels mesuré par METR. Les deux conditions tiennent dans 49% de 200,000 tirages ; l'efficacité est la marge la plus faible dans 80% d'entre eux, et l'incertitude à son sujet explique 45% de l'incertitude sur le résultat.
-
-**Où cela se place.** Remplace les unités scalaires d'efficacité de la recherche d'Eth et Davidson (2025) et de Davidson et Houlden (2025) par des tâches, et conclut que l'efficacité d'inférence, et non la capacité, est la contrainte probable (revue compagnon). Il convertit aussi la tendance des horizons temporels utilisée par la revue (Kwa et al. 2025 ; [Principales régularités](#main-patterns)) en une part de tâches automatisées par doublement.
-
-**Limite.** Les 49% ne sont pas une probabilité : les intrants viennent de séries courtes et de quelques modèles à poids ouverts, et le calcul est maintenu fixe, de sorte qu'il s'agit d'une explosion purement logicielle.
