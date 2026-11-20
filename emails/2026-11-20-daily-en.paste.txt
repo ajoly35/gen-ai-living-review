@@ -1,0 +1,63 @@
+# AI and work, in brief: 20 November 2026
+
+# AI and work, in brief
+
+
+
+## Today in three lines
+
+- Office workers who pictured doing a task with AI said they would ask a colleague for help less afterwards, especially when brainstorming.
+- Making the AI chat visible to the team wiped out most of that pull away from colleagues.
+- A second study finds that cheaper computing would lift national output by a few per cent, while leaving some workers stuck in the wrong industries.
+
+## New research, in plain words
+
+### Workers who lean on AI say they would ask their colleagues for help less
+
+**What it explores.** Chow and co-authors gave ten short work scenarios to 248 American office workers who use AI every week. Some scenarios used an AI assistant to get the task done, and others did not. After reading each one, people rated how much they wanted a colleague's feedback.
+
+**Why it matters.** Newcomers learn and teams build trust by asking colleagues for help. Compared with working without AI, getting AI help cut that wish for feedback by about a quarter of a point on a five-point scale, and by about two fifths for brainstorming. Handing the whole task to AI instead of just getting help made no extra difference.
+
+**How it fits the evidence.** Last month, real records from one firm showed the opposite: staff who started using an AI assistant met more colleagues than before. Today's study asks about imagined situations, and its volunteers already trust AI. Its most useful finding is that when the team could see the AI conversation, people kept turning to colleagues.
+
+[Full entry](https://ajoly35.github.io/gen-ai-living-review/latest/#chow-et-al-2026-ai-induced-social-erosion-using-llms-for-work-tasks-reduces-help-seeking-intentions-towards-colleagues) · [Paper](https://arxiv.org/abs/2611.25269)
+
+### If computing gets a third more productive, the world gets a little richer and some workers get stuck
+
+**What it explores.** Dueñas and Mandel build a computer model of 49 economies and 163 industries, based on what industries bought from one another in 2022. They test what happens if the firms supplying computing, software and telecoms grow about a third more productive over ten years.
+
+**Why it matters.** Total output rises everywhere, growing by about three per cent in the European Union and nearly six in China. Yet farming and food shrink in countries like Mexico and India, while digital industries pull workers in, mostly out of services. If switching sectors is hard, the equivalent of about one German worker in a hundred stays stuck where employers want to cut staff.
+
+**How it fits the evidence.** This is a scenario rather than a measurement of real events, and it covers all digital industries, not AI alone. Its clear lesson is that national totals hide the people who have to change jobs.
+
+[Full entry](https://ajoly35.github.io/gen-ai-living-review/latest/#dueas-and-mandel-2026-structural-economic-change-under-the-digital-transformation) · [Paper](https://arxiv.org/abs/2611.26338)
+
+## How it fits together
+
+The review keeps coming back to two forces: AI can let a business do more, or do the same with fewer people. Today's model is a story of doing more. Cheaper computing makes the economy a little larger, but where moving between industries is slow, the pressure lingers.
+
+The first study asks who holds knowledge at work. Juniors have always learned by asking more experienced colleagues. When AI answers instead, a newcomer gets the answer but misses the conversation. That sits right beside one of the review's main findings: first jobs for the young are down by up to a quarter across four countries in the work AI does best.
+
+Both studies also show that how work is organised decides the outcome. Teams that use AI in the open keep people talking, and countries where switching industries is easy spread the gains. We still do not know whether real offices see this drop in asking for help, or whether newcomers learn more slowly because of it.
+
+## One idea, explained: handing a decision to a machine
+
+Picture a hospital ward. A junior doctor unsure about a dose can ask the senior on duty, or turn to an AI assistant that never sighs at a question at three in the morning.
+
+The first experiments on handing decisions to AI point to two things. In Herdağdelen, Joren and Tamkin (2026), experienced analysts working with an AI agent picked the option it quietly favoured about six times in seven, and few gave it credit afterwards. Studying startup founders, Colaiacovo and Koning (2026) found that how much work firms handed to AI depended less on what founders believed AI could do than on whether they had rebuilt their workflows around it.
+
+Today's study adds a third point: whether AI just helped or did the whole task made no difference to how much workers wanted their colleagues afterwards. Privacy did.
+
+For workers, especially early in a career, the lesson is to keep asking people, because the conversation teaches more than the answer. For employers, setting AI up in the open rather than behind closed doors shapes the team just as much as the tool itself.
+
+## Where the evidence stands
+
+![Studies on jobs, hiring or pay, by research design. Orange: fewer jobs, hires or lower pay. Grey: no measurable effect. Blue: gains.](https://ajoly35.github.io/gen-ai-living-review/assets/vitals/direction-by-design-en.png)
+
+Each bar counts studies on jobs, hiring or pay. Orange marks fewer jobs, hires or lower pay; grey marks no measurable effect; blue marks gains. Workplace experiments that time tasks find gains, studies of who gets hired find falls, and studies of total employment find nothing yet. Neither of today's papers adds a bar: the first tracks intentions and the second models a scenario, though its overall gains alongside costs for some echo the chart's mix of blue and orange.
+
+## Read more
+
+[The living review](https://ajoly35.github.io/gen-ai-living-review/) · [Direction of the field](https://ajoly35.github.io/gen-ai-living-review/vitals/) · [Recent papers](https://ajoly35.github.io/gen-ai-living-review/latest/) · [Send a paper](https://github.com/ajoly35/gen-ai-living-review/issues/new?template=paper.yml)
+
+*A living review maintained by Adrien Joly, London School of Economics. Entries are written by an AI assistant from the paper itself and are not reviewed before they are sent. Figures are taken from the paper; the review's own assessment is in the caveat.*

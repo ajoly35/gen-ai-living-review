@@ -1,0 +1,63 @@
+# IA et travail, en bref : 20 novembre 2026
+
+# IA et travail, en bref
+
+
+
+## Aujourd'hui en trois lignes
+
+- Des employés de bureau qui s'imaginent accomplir une tâche avec l'IA disent qu'ils demanderaient ensuite moins d'aide à un collègue, surtout pour chercher des idées.
+- Quand l'équipe peut voir la conversation avec l'IA, ce repli vis-à-vis des collègues disparaît presque.
+- Une seconde étude estime qu'une informatique moins chère augmenterait la production nationale de quelques pour cent, mais laisserait certains travailleurs coincés dans les mauvais secteurs.
+
+## La nouvelle recherche, en mots simples
+
+### Les salariés qui s'appuient sur l'IA disent qu'ils demanderaient moins d'aide à leurs collègues
+
+**Ce qu'elle explore.** Chow et ses coauteurs ont fait lire dix courtes scènes de travail à 248 employés de bureau américains qui utilisent l'IA chaque semaine. Dans certaines scènes, la tâche avait été réalisée avec un assistant d'IA ; dans d'autres, sans. Après chaque lecture, les participants indiquaient à quel point ils souhaiteraient demander l'avis d'un collègue.
+
+**Pourquoi c'est important.** C'est en posant des questions aux collègues que les nouveaux apprennent leur métier. Comparée à un travail fait sans IA, l'aide d'un assistant réduit cette envie d'environ un quart de point sur une échelle de cinq, et d'environ deux cinquièmes de point lorsqu'il s'agit de trouver des idées. Tout déléguer à l'IA plutôt que de s'en faire aider ne creuse pas davantage l'écart.
+
+**Ce que cela change aux preuves.** Le mois dernier, les données réelles d'une entreprise montraient l'inverse : les salariés qui adoptaient un assistant d'IA côtoyaient davantage de collègues. Cette nouvelle étude repose sur des scènes fictives soumises à des volontaires qui font déjà confiance à l'IA. Son résultat le plus utile tient à un choix concret : rendre la conversation avec l'IA visible de l'équipe préserve les échanges entre collègues.
+
+[Entrée complète](https://ajoly35.github.io/gen-ai-living-review/fr/latest/#chow-et-al-2026-ai-induced-social-erosion-using-llms-for-work-tasks-reduces-help-seeking-intentions-towards-colleagues) · [Article](https://arxiv.org/abs/2611.25269)
+
+### Si l'informatique devient un tiers plus productive, le monde s'enrichit un peu et certains travailleurs restent coincés
+
+**Ce qu'elle explore.** À partir des échanges commerciaux de 2022, Dueñas et Mandel simulent 49 économies et 163 secteurs. Ils regardent ce qui se produit si les entreprises d'informatique, de logiciels et de télécoms gagnent environ un tiers de productivité en dix ans.
+
+**Pourquoi c'est important.** La production progresse partout, d'environ trois pour cent dans l'Union européenne et de près de six en Chine. En revanche, l'agriculture et l'alimentation reculent dans certains pays comme le Mexique et l'Inde, et le numérique attire des travailleurs venus surtout des services. Si changer de secteur est difficile, l'équivalent d'environ un salarié allemand sur cent reste en poste là où les employeurs voudraient réduire leurs effectifs.
+
+**Ce que cela change aux preuves.** Il s'agit d'un scénario simulé et non d'une mesure réelle, et il porte sur tout le numérique plutôt que sur la seule IA. Sa leçon reste claire : le total national masque les personnes qui doivent changer d'emploi.
+
+[Entrée complète](https://ajoly35.github.io/gen-ai-living-review/fr/latest/#dueas-and-mandel-2026-structural-economic-change-under-the-digital-transformation) · [Article](https://arxiv.org/abs/2611.26338)
+
+## Comment les pièces s'assemblent
+
+La revue revient toujours à deux forces : l'IA peut permettre à une entreprise de faire plus, ou de faire la même chose avec moins de monde. Le modèle du jour est du premier type, mais là où l'on change difficilement de secteur, la pression dure.
+
+La première étude pose la question de qui transmet le savoir au travail. Si l'IA répond à la place des collègues expérimentés, le débutant obtient sa réponse mais perd l'échange qui va avec. On retrouve là l'un des grands constats de la revue : les jeunes trouvent moins de premiers emplois dans les métiers que l'IA accomplit le mieux, jusqu'à un quart de moins dans quatre pays.
+
+Les deux études rappellent aussi que l'organisation fixe le cap. Une équipe qui utilise l'IA au grand jour continue de se parler ; un pays où l'on change aisément de secteur répartit mieux les gains. Reste à savoir si ce recul des demandes d'aide s'observe dans de vrais bureaux, et s'il freine l'apprentissage des nouveaux.
+
+## Une idée expliquée : confier une décision à une machine
+
+Prenons l'exemple d'un service hospitalier. Un jeune médecin qui hésite sur une dose peut interroger le senior de garde, ou se tourner désormais vers un assistant d'IA qui ne soupire jamais devant une question posée à trois heures du matin.
+
+Les premières expériences sur la délégation de décisions à l'IA dégagent deux enseignements. Chez Herdağdelen, Joren et Tamkin (2026), des analystes expérimentés assistés d'un agent d'IA retiennent environ six fois sur sept l'option que l'outil privilégie discrètement, sans guère lui en attribuer le mérite ensuite. Chez des fondateurs de jeunes entreprises, Colaiacovo et Koning (2026) montrent que la part du travail confiée à l'IA dépend moins de l'idée qu'ils se font de ses capacités que de la réorganisation de leur travail autour d'elle.
+
+L'étude du jour ajoute un troisième point : se faire épauler par l'IA ou tout lui déléguer a le même effet sur l'envie d'aller voir ses collègues ensuite. Ce qui change la donne, c'est que l'échange avec l'IA reste privé ou soit partagé.
+
+Pour un salarié, surtout en début de carrière, la leçon est de continuer à interroger des personnes : l'échange apprend davantage que la seule réponse. Pour un employeur, installer l'IA au grand jour plutôt qu'à huis clos façonne la vie d'équipe autant que l'outil lui-même.
+
+## Où en sont les preuves
+
+![Études sur l'emploi, les embauches ou les salaires, par dispositif. Orange : moins d'emplois, d'embauches ou de salaire. Gris : pas d'effet mesurable. Bleu : gains.](https://ajoly35.github.io/gen-ai-living-review/assets/vitals/direction-by-design-fr.png)
+
+Chaque barre compte des études : en orange les pertes, en gris l'absence d'effet, en bleu les gains. Les expériences qui chronomètrent le travail observent des gains, les études sur les embauches relèvent des baisses, et celles sur l'emploi total ne décèlent encore rien. Aucune des études du jour n'ajouterait de barre : la première recueille des intentions, la seconde simule un scénario.
+
+## Pour aller plus loin
+
+[La revue vivante](https://ajoly35.github.io/gen-ai-living-review/fr/) · [Où va la recherche](https://ajoly35.github.io/gen-ai-living-review/fr/vitals/) · [Articles récents](https://ajoly35.github.io/gen-ai-living-review/fr/latest/) · [Proposer un article](https://github.com/ajoly35/gen-ai-living-review/issues/new?template=paper.yml)
+
+*Une revue vivante tenue par Adrien Joly, London School of Economics. Les entrées sont rédigées par un assistant IA à partir de l'article lui-même et ne sont pas relues avant envoi. Les chiffres viennent de l'article ; l'appréciation de la revue est dans la limite.*
