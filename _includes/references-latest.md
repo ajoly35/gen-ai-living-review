@@ -1,6 +1,6 @@
 Aghion, Philippe, Benjamin F. Jones, and Charles I. Jones. 2019. “Artificial Intelligence and Economic Growth.” In *The Economics of Artificial Intelligence: An Agenda*, edited by Ajay Agrawal, Joshua Gans, and Avi Goldfarb, 237–82. University of Chicago Press.
 
-Bank of England. 2026. *Monetary Policy Report*. November. [Link](https://www.bankofengland.co.uk/-/media/boe/files/monetary-policy-report/2026/november/monetary-policy-report-november-2026.pdf).
+Ahn, Hie Joo, and Nicholas A. Carollo. 2026. *Artificial Intelligence and Labor Market Reallocation*. Working paper. Board of Governors of the Federal Reserve System, 16 July; posted by the Federal Reserve Bank of San Francisco, 17 November. [Link](https://www.frbsf.org/research-and-insights/publications/board-of-governors/2026/11/artificial-intelligence-labor-market-reallocation/).
 
 Barwick, Panle Jia, Lu Fang, Jinhan Liu, Huilan Xu, and Zhe Yuan. 2026. *AI as Shared Business Infrastructure: Firm Growth and the Distribution of Gains*. Working Paper No. 36003. NBER. [Link](https://www.nber.org/papers/w36003).
 

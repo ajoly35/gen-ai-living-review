@@ -1,5 +1,21 @@
 Nouveaux articles sur l'IA et les marchés du travail et sur l'IA et la croissance, du plus récent au plus ancien, chacun situé par rapport à la revue ci-dessous. Chaque chiffre est vérifié dans l'article lui-même.
 
+### Ahn and Carollo (2026), "Artificial Intelligence and Labor Market Reallocation" {#ahn-and-carollo-2026-artificial-intelligence-and-labor-market-reallocation}
+<!-- kind: paper -->
+
+Document de travail des services de la Réserve fédérale daté du 16 juillet 2026, mis en ligne par la Fed de San Francisco le 17 novembre 2026. [Article](https://www.frbsf.org/research-and-insights/publications/board-of-governors/2026/11/artificial-intelligence-labor-market-reallocation/). Flux de travailleurs américains selon l'exposition à l'IA et son adoption, avant et après fin 2022 ; comparaisons de groupes, pas de dispositif causal.
+
+**En bref.**
+Ce qu'elle explore : comment l'IA a changé, depuis l'arrivée de ChatGPT, les chances des Américains de trouver un emploi, de le perdre ou d'en changer.
+Pourquoi c'est important : si l'IA freine l'embauche sans licenciements, le chômage peut monter en silence ; les banques centrales doivent le voir tôt.
+Ce que cela change aux preuves : l'étude confirme que l'IA agit par moins d'embauches, non par plus de licenciements, et chiffre pour la première fois l'effet sur le chômage.
+
+**Ce que l'étude trouve.** Depuis fin 2022, les travailleurs américains dont l'emploi est le plus exposé à l'IA, dans les secteurs qui l'adoptent, retrouvent un emploi plus lentement ; les pertes d'emploi ont à peine bougé. Les auteurs relient les données de la Current Population Survey (2012 à mai 2026) à des scores d'exposition fondés sur OpenAI et Anthropic et à la part des offres Lightcast demandant des compétences en IA. Le chômage de ce groupe très exposé et fort adoptant a augmenté d'un peu moins de 1 point de pourcentage entre fin 2022 et mai 2026, contre 0.4 point pour le groupe peu exposé et faible adoptant. Les passages d'un emploi à l'autre ont reculé, les changements d'activité au sein d'un même emploi ont augmenté, et la prime de croissance salariale des travailleurs exposés s'est effacée. Le taux de chômage naturel aurait augmenté d'environ 0.2 point, avec une forte incertitude.
+
+**Où cela se place.** L'étude étend la section [« Dispositifs d’exposition : embauches et entrée »](#exposure-designs-hiring-and-entry) des jeunes entrants à l'ensemble des demandeurs d'emploi américains : comme chez Cline et Kaymak (2026) et Hosseini et Lichtinger (2025), l'ajustement passe par l'embauche, non par les séparations. Croiser exposition et adoption distingue le potentiel de l'usage, comme chez Massenkoff et McCrory (2026). La hausse des changements de tâches au sein des emplois rejoint la section [« La réorganisation crée-t-elle de nouvelles tâches ? »](#does-reorganisation-create-new-tasks).
+
+**Limite.** L'adoption est mesurée par secteur à partir des offres d'emploi, et la rupture de fin 2022 coïncide avec la hausse des taux et le refroidissement des embauches dans la tech. Classer les chômeurs selon leur dernier métier écarte ceux qui cherchent un premier emploi.
+
 ### Chow et al. (2026), "AI-Induced Social Erosion: Using LLMs for Work Tasks Reduces Help-Seeking Intentions Towards Colleagues" {#chow-et-al-2026-ai-induced-social-erosion-using-llms-for-work-tasks-reduces-help-seeking-intentions-towards-colleagues}
 <!-- kind: paper -->
 
@@ -286,13 +302,3 @@ The Anthropic Institute, rapport technique, 5 novembre 2026. [Article](https://w
 **Où cela se place.** Donne des chiffres par discipline sur le côté des intrants des modèles d'automatisation de la recherche de Davidson et al. et de Trammell et Korinek (revue compagnon) : les étapes physiques sont le goulet d'étranglement à la Baumol. L'usage augmente fortement avec la capacité sur la tâche, de sorte que l'exposition mesurée prédit bien où va l'adoption, à la différence de l'écart à l'échelle de l'économie chez Massenkoff et McCrory (2026) (section [« Concepts clés et définitions »](#key-concepts-and-definitions)).
 
 **Limite.** Les auteurs étudient le produit de leur employeur sur deux mois d'abonnements grand public ; les scénarios reposent sur un coût de l'IA supposé et un score de capacité évalué par un modèle, non sur une production mesurée.
-
-### Bank of England (2026), "Monetary Policy Report: November 2026" {#bank-of-england-2026-monetary-policy-report-november-2026}
-
-Bank of England, Monetary Policy Committee, 5 novembre 2026. [Article](https://www.bankofengland.co.uk/monetary-policy-report/2026/november-2026). Comptabilité de la croissance avec une approximation sectorielle de l'activité liée à l'IA (encadré C) et estimations issues d'une enquête auprès des entreprises (encadré D) ; descriptif, contexte pour l'IA et la croissance.
-
-**Ce que l'étude trouve.** L'IA soutient la croissance britannique à travers les secteurs qui la produisent et la vendent, tandis que son effet sur la productivité ailleurs reste faible. Après correction de la tendance, l'activité nouvelle liée à l'IA dans l'édition, la programmation informatique et les services d'information représente un peu moins d'un cinquième de la croissance du PIB britannique depuis le début de 2026. Les entreprises du Decision Maker Panel estiment que l'IA a accru leur productivité d'environ 0.5% sur trois ans, ce que la Banque lit comme 0.1 à 0.2 point de pourcentage par an, avec un effet proche de zéro sur leur emploi jusqu'ici. Les entreprises anticipent 0.9 point par an au cours des trois prochaines années, dont la moitié par une croissance plus lente de l'emploi.
-
-**Où cela se place.** Un chiffre officiel sur la configuration décrite par Strauss, Romei et Fleming (2026) ci-dessous : la croissance vient de la production d'IA, pas encore de son usage. Les 0.1 à 0.2 point se situent près d'Acemoglu (2025), la prévision des entreprises plus près de Korinek et al. (2026) (revue compagnon). Moins d'embauches sans davantage de licenciements confirme un ajustement par l'entrée (section [« Approches par l'exposition : embauches et entrée »](#exposure-designs-hiring-and-entry)), et des effets quasi nuls sur l'emploi des entreprises rejoignent Yotzov et al. (2026).
-
-**Limite.** Les secteurs retenus comme approximation font beaucoup de travail sans lien avec l'IA, de sorte que « un cinquième » est un ordre de grandeur, et les chiffres de productivité et d'emploi sont les propres estimations des entreprises. La fin de la rétention de main-d'œuvre et la hausse des coûts du travail réduisent aussi les embauches et accroissent la productivité mesurée.

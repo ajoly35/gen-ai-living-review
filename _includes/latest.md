@@ -1,5 +1,21 @@
 New papers on AI and labour markets and AI and growth, newest first, each placed against the review below. Every figure is checked against the paper itself.
 
+### Ahn and Carollo (2026), "Artificial Intelligence and Labor Market Reallocation"
+<!-- kind: paper -->
+
+Federal Reserve Board staff paper dated 16 July 2026, posted by the San Francisco Fed on 17 November 2026. [Paper](https://www.frbsf.org/research-and-insights/publications/board-of-governors/2026/11/artificial-intelligence-labor-market-reallocation/). US worker flows by AI exposure and adoption, before and after late 2022; group comparisons, not a causal design.
+
+**In brief.**
+What it explores: How AI has changed Americans' chances of finding a job, losing one or changing jobs since ChatGPT arrived.
+Why it matters: If AI slows hiring without layoffs, unemployment can creep up quietly; central banks need to see it early.
+How it fits the evidence: It confirms AI works through fewer hires, not more firings, and puts a first number on unemployment.
+
+**What it finds.** Since late 2022, US workers whose jobs are most open to AI, in industries that adopt it, find work more slowly; job loss barely moved. The authors link Current Population Survey records (2012 to May 2026) to OpenAI- and Anthropic-based exposure scores and to Lightcast's share of postings asking for AI skills. Unemployment in this high-exposure, high-adoption group rose by slightly under 1 percentage point from end-2022 to May 2026, against 0.4 points for the low-exposure, low-adoption group. Job-to-job moves fell, switching activities within the same job rose, and exposed workers' wage-growth premium faded. The natural rate of unemployment rose by about 0.2 points, with wide uncertainty.
+
+**Where it fits.** It extends section [“Exposure designs: hiring and entry”](#exposure-designs-hiring-and-entry) from young entrants to all US job seekers: as in Cline and Kaymak (2026) and Hosseini and Lichtinger (2025), adjustment runs through hiring, not separations. Splitting exposure by adoption separates potential from use, as in Massenkoff and McCrory (2026). Rising within-job task switching fits section [“Does reorganisation create new tasks?”](#does-reorganisation-create-new-tasks).
+
+**Caveat.** Adoption is an industry measure from postings, and the late-2022 break coincides with rate rises and the cooling of tech hiring. Classing the unemployed by last occupation leaves out first-job seekers.
+
 ### Chow et al. (2026), "AI-Induced Social Erosion: Using LLMs for Work Tasks Reduces Help-Seeking Intentions Towards Colleagues"
 <!-- kind: paper -->
 
@@ -286,13 +302,3 @@ The Anthropic Institute, technical report, 5 November 2026. [Paper](https://www.
 **Where it fits.** Puts field-level numbers on the input side of the research-automation models of Davidson et al. and Trammell and Korinek (companion review): physical steps are the Baumol bottleneck. Use rises steeply with task capability, so measured exposure does predict where adoption goes, unlike the economy-wide gap in Massenkoff and McCrory (2026) (section [“Key concepts and definitions”](#key-concepts-and-definitions)).
 
 **Caveat.** The authors study their employer's product over two months of consumer plans; the scenarios rest on an assumed AI cost and a model-rated capability score, not measured output.
-
-### Bank of England (2026), "Monetary Policy Report: November 2026"
-
-Bank of England, Monetary Policy Committee, 5 November 2026. [Paper](https://www.bankofengland.co.uk/monetary-policy-report/2026/november-2026). Growth accounting with an industry proxy for AI activity (Box C) and firm survey estimates (Box D); descriptive, context for AI and growth.
-
-**What it finds.** AI is lifting UK growth through the industries that build and sell it, while its effect on productivity elsewhere is still small. After trend adjustment, novel AI-related activity in publishing, computer programming and information services accounts for just under a fifth of UK GDP growth since the start of 2026. Firms in the Decision Maker Panel estimate that AI raised their productivity by about 0.5% over three years, which the Bank reads as 0.1 to 0.2 percentage points a year, with close to zero effect on their employment so far. Firms expect 0.9 points a year over the next three years, half of it through slower employment growth.
-
-**Where it fits.** An official number on the pattern in Strauss, Romei and Fleming (2026) below: growth comes from producing AI, not yet from using it. The 0.1 to 0.2 points sit near Acemoglu (2025), the firms' forecast nearer Korinek et al. (2026) (companion review). Fewer hires without more firings confirm adjustment through entry (section [“Exposure designs: hiring and entry”](#exposure-designs-hiring-and-entry)), and near-zero firm employment effects match Yotzov et al. (2026).
-
-**Caveat.** The proxy industries do much non-AI work, so "a fifth" is an order of magnitude, and the productivity and employment figures are firms' own estimates. The end of labour hoarding and higher labour costs also cut hiring and raise measured productivity.
