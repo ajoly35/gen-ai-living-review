@@ -1,0 +1,53 @@
+# IA et travail, en bref : 21 novembre 2026
+
+# IA et travail, en bref
+
+
+
+## Aujourd'hui en trois lignes
+
+- Selon deux économistes de la Réserve fédérale, les Américains dont l'IA peut assurer l'essentiel du métier mettent plus longtemps à retrouver du travail, sans que les licenciements augmentent.
+- Dans ce groupe, le chômage a grimpé de près d'un point depuis l'arrivée de ChatGPT, soit plus de deux fois la hausse observée dans les métiers que l'IA touche à peine.
+- Leur avance salariale a disparu aussi : le poste existe toujours, mais on le décroche plus difficilement et il paie moins qu'attendu.
+
+## La nouvelle recherche, en mots simples
+
+### Dans les métiers que l'IA sait faire, on retrouve du travail plus lentement, sans vague de licenciements
+
+**Ce qu'elle explore.** Hie Joo Ahn et Nicholas Carollo, économistes à la Réserve fédérale, exploitent l'enquête mensuelle auprès des ménages américains de 2012 à mai 2026. Ils distinguent les travailleurs selon la part de leur métier que l'IA peut réaliser et selon que leur secteur recrute des compétences en IA. Ils suivent ensuite qui perd son poste, en retrouve un ou change d'emploi.
+
+**Pourquoi c'est important.** Le chômage monte pour deux raisons possibles : soit davantage de salariés perdent leur poste, soit les demandeurs d'emploi mettent plus de temps à en retrouver un. Ici, c'est le second mécanisme qui joue. Chez les travailleurs dont l'IA peut faire l'essentiel du métier et dont le secteur adopte l'outil, le chômage a augmenté de près d'un point entre fin 2022 et mai 2026. Il a pris moins d'un demi-point chez ceux que l'IA touche à peine, dans des secteurs qui ne l'utilisent pas. Les licenciements ont peu bougé. Les salariés changent moins d'employeur, mais changent plus souvent de tâches : les entreprises réorganisent le travail au lieu de licencier.
+
+**Ce que cela change aux preuves.** L'étude confirme à l'échelle du pays ce que montraient des travaux plus ciblés : les embauches ralentissent, sans vague de licenciements. Le chômage « normal » américain aurait monté d'environ un cinquième de point, soit un travailleur sur cinq cents, même si ce chiffre reste fragile. La hausse des taux d'intérêt et le coup de frein sur les recrutements dans la tech ont eu lieu au même moment.
+
+[Entrée complète](https://ajoly35.github.io/gen-ai-living-review/fr/latest/#ahn-and-carollo-2026-artificial-intelligence-and-labor-market-reallocation) · [Article](https://www.frbsf.org/research-and-insights/publications/board-of-governors/2026/11/artificial-intelligence-labor-market-reallocation/)
+
+## Comment les pièces s'assemblent
+
+Notre revue garde deux mouvements en tête. L'IA peut aider une entreprise à produire plus et à recruter davantage, ou lui permettre d'abattre le même travail avec moins de bras. L'étude du jour penche vers le second scénario, mais sans casse : on ne renvoie personne, on ouvre simplement moins de postes. C'est déjà ce que nous observions chez les jeunes aux États-Unis, en Suède, au Royaume-Uni et en France, où les recrutements de débutants dans les métiers les plus à portée de l'IA ont reculé jusqu'à un quart par rapport aux autres métiers. Les jeunes ne sont d'ailleurs pas les seuls concernés : dans ces professions, tous les candidats attendent plus longtemps.
+
+Du côté des fiches de paie, les salariés des métiers que l'IA sait aujourd'hui accomplir voyaient leur rémunération grimper plus vite que les autres avant ChatGPT ; cet avantage a fondu. Ce résultat rejoint un autre constat de notre revue : d'ici 2026, les salaires dans les métiers les plus ouverts à l'IA ont reculé d'environ un vingtième par rapport aux autres professions, sans baisse du nombre total d'emplois. Un métier s'ajuste par le recrutement et par la paie bien avant de disparaître.
+
+Tout dépend encore de la façon dont on organise le travail : les employeurs redéfinissent qui fait quoi à l'intérieur de chaque poste. On ne sait pas encore si cette recomposition créera de nouvelles tâches ou finira par réduire les effectifs, ni quelle part du coup de frein vient de l'IA plutôt que de la hausse des taux.
+
+## Une idée expliquée : quand l'emploi reste mais que le salaire baisse
+
+Prenez une rédaction où l'IA rédige le premier jet des articles courants. Personne n'est mis à la porte ; les mêmes secrétaires de rédaction prennent leur service chaque matin. Mais lorsque l'un d'eux s'en va, le journal embauche un remplaçant moins bien payé, car le poste exige moins et moins de titres s'arrachent ce profil.
+
+Azar et ses coauteurs (2026) comparent les métiers américains dont l'IA peut accomplir une grande partie des tâches à ceux qu'elle touche peu. En 2026, les salaires du premier groupe avaient baissé d'environ un vingtième par rapport à ceux du second, tandis que le volume d'emploi restait stable. Une enquête menée auprès des employeurs va dans le même sens. Comme les diplômés du supérieur exercent plus souvent ces métiers à portée de l'IA, ce tassement salarial explique près d'un tiers du recul récent de l'avantage salarial lié au diplôme.
+
+Pourquoi un métier rendu plus productif par l'IA paierait-il moins bien ? Deux explications sont possibles : soit les entreprises ont besoin de moins de monde sur ces postes, soit davantage de candidats peuvent désormais faire l'affaire. Comme les embauches ont reculé, la première piste tient la corde.
+
+Pour un salarié, voir son poste survivre à l'IA n'empêche pas d'y perdre sur la fiche de paie. Pour un étudiant, la bonne question n'est pas seulement « ce métier existera-t-il demain ? », mais aussi « paiera-t-il toujours mieux que les autres ? ».
+
+## Où en sont les preuves
+
+![Études sur l'emploi, les embauches ou les salaires, par dispositif. Orange : moins d'emplois, d'embauches ou de salaire. Gris : pas d'effet mesurable. Bleu : gains.](https://ajoly35.github.io/gen-ai-living-review/assets/vitals/direction-by-design-fr.png)
+
+Chaque barre compte des études : orange pour moins d'emplois, d'embauches ou de salaire, gris pour aucun effet mesurable, bleu pour des gains. Les expériences au travail trouvent des gains, les études des embauches des baisses, celles de l'emploi total rien encore. L'étude du jour ajouterait de l'orange à la ligne des embauches. Elle explique aussi le gris de la ligne de l'emploi total : des embauches plus lentes ne se traduisent que par une petite hausse du chômage national.
+
+## Pour aller plus loin
+
+[La revue vivante](https://ajoly35.github.io/gen-ai-living-review/fr/) · [Où va la recherche](https://ajoly35.github.io/gen-ai-living-review/fr/vitals/) · [Articles récents](https://ajoly35.github.io/gen-ai-living-review/fr/latest/) · [Proposer un article](https://github.com/ajoly35/gen-ai-living-review/issues/new?template=paper.yml)
+
+*Une revue vivante tenue par Adrien Joly, London School of Economics. Les entrées sont rédigées par un assistant IA à partir de l'article lui-même et ne sont pas relues avant envoi. Les chiffres viennent de l'article ; l'appréciation de la revue est dans la limite.*

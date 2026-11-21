@@ -1,0 +1,53 @@
+# AI and work, in brief: 21 November 2026
+
+# AI and work, in brief
+
+
+
+## Today in three lines
+
+- Two Federal Reserve economists find that Americans in the jobs AI can do most of now take longer to get hired, while layoffs in those roles barely moved.
+- Unemployment in that group climbed by close to one point since ChatGPT arrived, more than twice as much as in jobs AI barely touches.
+- Their old pay edge has faded too: the job remains, but it is harder to land and pays less than it would have.
+
+## New research, in plain words
+
+### People in jobs AI can do find new work more slowly, though few are being laid off
+
+**What it explores.** Hie Joo Ahn and Nicholas Carollo, at the Federal Reserve Board, draw on the monthly survey of American households from 2012 to May 2026. They group workers by how much of their job AI could handle, and by whether firms in their industry advertise for AI skills. They then track who loses a job, who finds one, and who switches employers.
+
+**Why it matters.** Unemployment can rise in two ways: either more people lose work, or job seekers take longer to find one. Here, it is the second. Between the end of 2022 and May 2026, unemployment rose by close to one point for workers in jobs AI can do most of, in industries adopting AI. For workers in jobs AI barely touches, in industries not using it, unemployment rose by less than half a point. Layoffs barely moved. Workers switched employers less often, but changed tasks inside their jobs more often. Firms seem to reshuffle duties rather than let staff go.
+
+**How it fits the evidence.** This gives the clearest national picture yet of what smaller studies found: AI brings fewer hires, not more firings. The unemployment rate the country settles at in normal times may have crept up by about a fifth of a point, roughly one worker in five hundred, though that estimate remains uncertain. Higher interest rates and a tech hiring slowdown hit at the same time, and early 2026 shows some recovery.
+
+[Full entry](https://ajoly35.github.io/gen-ai-living-review/latest/#ahn-and-carollo-2026-artificial-intelligence-and-labor-market-reallocation) · [Paper](https://www.frbsf.org/research-and-insights/publications/board-of-governors/2026/11/artificial-intelligence-labor-market-reallocation/)
+
+## How it fits together
+
+The review keeps two competing forces in mind. AI can help a business produce more and hire more, or do the same work with fewer people. Today's study points to the second path, in a quiet way. Nobody gets pushed out the door, but when a job seeker knocks, the opening is less likely to be there. The review spots this same pattern for young people in the United States, Sweden, the United Kingdom and France, where first jobs in the work AI does best dropped by up to a quarter compared with other jobs. Today's paper shows it is not just the young: anyone hunting for work in those roles waits longer.
+
+The paper also speaks to wages. Before ChatGPT, pay grew faster for workers in jobs AI can now handle than for others, and that advantage has faded. This lines up with the review's finding that pay in the jobs most open to AI dropped by about a twentieth by 2026 compared with other roles, with no change in the number of people employed. Jobs adjust first through who gets hired and what they earn, long before roles vanish.
+
+Organisation still decides the direction: employers are redrawing who does what within jobs. Whether that ends in new tasks or fewer posts is still unknown, as is how much of the slowdown is AI rather than higher interest rates.
+
+## One idea, explained: when the job stays but the pay falls
+
+Imagine a newsroom. An AI tool now writes first drafts of routine stories. Nobody gets fired, and the same sub-editors come in each morning. Yet when one leaves, the paper hires a replacement on a lower salary, because the role asks less and fewer papers compete for such workers.
+
+That logic drives the study by Azar and co-authors (2026). They compare American jobs where AI can do much of the work with jobs where it can do little. By 2026, pay in the first group had dropped by about a twentieth relative to the second, while total employment held steady. A separate survey of employers gives the same answer. Because graduates work more often in the jobs AI can do, this wage squeeze accounts for close to a third of the recent fall in the extra pay a degree brings.
+
+Why would wages fall in a job that AI makes more productive? Either employers need fewer of these workers, or more people can now do the work. Because hiring into these roles fell, weaker demand from employers is the likelier reason.
+
+For a worker, the lesson is that a job that survives AI may still pay less. For a student, it is worth asking not only "will this job exist?" but "will it still pay a premium?"
+
+## Where the evidence stands
+
+![Studies on jobs, hiring or pay, by research design. Orange: fewer jobs, hires or lower pay. Grey: no measurable effect. Blue: gains.](https://ajoly35.github.io/gen-ai-living-review/assets/vitals/direction-by-design-en.png)
+
+Each bar tallies studies on jobs, hiring or pay: orange marks fewer jobs, fewer hires or lower pay, grey marks no measurable effect, and blue marks gains. Workplace experiments that time people at work show gains, studies of who gets hired show drops, and studies of total employment find nothing so far. Today's paper puts another orange mark in the hiring row. It also explains the grey in the total row: slower hiring adds up to only a small rise in national unemployment.
+
+## Read more
+
+[The living review](https://ajoly35.github.io/gen-ai-living-review/) · [Direction of the field](https://ajoly35.github.io/gen-ai-living-review/vitals/) · [Recent papers](https://ajoly35.github.io/gen-ai-living-review/latest/) · [Send a paper](https://github.com/ajoly35/gen-ai-living-review/issues/new?template=paper.yml)
+
+*A living review maintained by Adrien Joly, London School of Economics. Entries are written by an AI assistant from the paper itself and are not reviewed before they are sent. Figures are taken from the paper; the review's own assessment is in the caveat.*
