@@ -6,7 +6,8 @@ Text: _data/trackers.yml (one block per language). Live figures: assets/trackers
 {%- assign t = site.data.trackers[include.lang] -%}
 {%- assign us_src = "https://www.genaiadoptiontracker.com/" -%}
 {%- assign lift_url = "https://heclift.github.io/website/en/ai-trackers/diffusion-emploi/index.html" -%}
-{%- assign lift_src = "https://heclift.github.io/website/data/ai-trackers/diffusion-emploi/general_results.csv" -%}
+{%- assign lift_src = "https://heclift.github.io/website/data/ai-trackers/diffusion-emploi/offers_total.csv" -%}
+{%- assign lift_sum = "https://heclift.github.io/website/data/ai-trackers/diffusion-emploi/general_results.csv" -%}
 {{ t.intro }}
 
 ### {{ t.h_us }} {#tracker-use-at-work}
@@ -37,11 +38,11 @@ Text: _data/trackers.yml (one block per language). Live figures: assets/trackers
 
 {{ t.lift_para }}
 
-<div class="tracker-cards" id="lift-cards" data-src="{{ lift_src }}">
-  <div class="tracker-card"><span class="tracker-value" data-key="Total IA offers">{{ t.lift_values[0] }}</span><span class="tracker-label">{{ t.lift_cards[0] }}</span><span class="tracker-delta" data-key="Number of AI offers in last quarter" data-prefix="+" data-suffix="{{ t.lift_delta }}">+{{ t.lift_deltas[0] }}{{ t.lift_delta }}</span></div>
-  <div class="tracker-card"><span class="tracker-value" data-key="Total IA générative offers">{{ t.lift_values[1] }}</span><span class="tracker-label">{{ t.lift_cards[1] }}</span><span class="tracker-delta" data-key="Number of GenAI offers in last quarter" data-prefix="+" data-suffix="{{ t.lift_delta }}">+{{ t.lift_deltas[1] }}{{ t.lift_delta }}</span></div>
-  <div class="tracker-card"><span class="tracker-value" data-key="Number of firms with AI offers">{{ t.lift_values[2] }}</span><span class="tracker-label">{{ t.lift_cards[2] }}</span><span class="tracker-delta" data-key="Number of new AI adopters in last quarter" data-prefix="+" data-suffix="{{ t.lift_delta }}">+{{ t.lift_deltas[2] }}{{ t.lift_delta }}</span></div>
-  <div class="tracker-card"><span class="tracker-value" data-key="Number of firms with GenAI offers">{{ t.lift_values[3] }}</span><span class="tracker-label">{{ t.lift_cards[3] }}</span><span class="tracker-delta" data-key="Number of new GenAI adopters in last quarter" data-prefix="+" data-suffix="{{ t.lift_delta }}">+{{ t.lift_deltas[3] }}{{ t.lift_delta }}</span></div>
+<div class="tracker-cards" id="lift-cards" data-src="{{ lift_src }}" data-summary="{{ lift_sum }}">
+  <div class="tracker-card"><span class="tracker-value" data-key="ai_total">{{ t.lift_values[0] }}</span><span class="tracker-label">{{ t.lift_cards[0] }}</span><span class="tracker-delta" data-key="ai_quarter" data-prefix="+" data-suffix="{{ t.lift_delta }}">+{{ t.lift_deltas[0] }}{{ t.lift_delta }}</span></div>
+  <div class="tracker-card"><span class="tracker-value" data-key="genai_total">{{ t.lift_values[1] }}</span><span class="tracker-label">{{ t.lift_cards[1] }}</span><span class="tracker-delta" data-key="genai_quarter" data-prefix="+" data-suffix="{{ t.lift_delta }}">+{{ t.lift_deltas[1] }}{{ t.lift_delta }}</span></div>
+  <div class="tracker-card"><span class="tracker-value" data-sum="Number of firms with AI offers">{{ t.lift_values[2] }}</span><span class="tracker-label">{{ t.lift_cards[2] }}</span></div>
+  <div class="tracker-card"><span class="tracker-value" data-sum="Number of firms with GenAI offers">{{ t.lift_values[3] }}</span><span class="tracker-label">{{ t.lift_cards[3] }}</span></div>
 </div>
 <p class="tracker-note" id="lift-cards-note" data-live="{{ t.lift_note_live | escape }}">{{ t.lift_note_static }}</p>
 

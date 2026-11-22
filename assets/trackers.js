@@ -123,8 +123,35 @@
     return d;
   }
 
+  // LIFT offers_total.csv: monthly counts, columns ",ia générative,ia générale,cv,nlp,annee,mois" (exclusive categories).
+  // The headline file's posting counts do not match this series (checked 22/11/2026), so postings come from here.
+  function liftSeries(txt) {
+    var all = parseCSV(txt), cats = ['ia générative', 'ia générale', 'cv', 'nlp'], months = [], q = {};
+    if (!all.length) return null;
+    var head = all[0].map(function (h) { return h.trim(); });
+    var rows = all.slice(1).map(function (a) { var o = {}; head.forEach(function (h, i) { o[h] = a[i]; }); return o; });
+    rows.forEach(function (r) {
+      var y = num(r.annee), m = num(r.mois);
+      if (isNaN(y) || isNaN(m)) return;
+      var v = {}, all = 0;
+      cats.forEach(function (c) { v[c] = num(r[c]) || 0; all += v[c]; });
+      months.push({ y: y, m: m, gen: v['ia générative'], all: all });
+      var k = y * 10 + Math.floor((m - 1) / 3) + 1;
+      (q[k] = q[k] || []).push({ gen: v['ia générative'], all: all });
+    });
+    if (!months.length) return null;
+    var end = months.reduce(function (a, b) { return (b.y * 12 + b.m > a.y * 12 + a.m) ? b : a; });
+    var full = Object.keys(q).map(Number).filter(function (k) { return q[k].length === 3; });
+    if (!full.length) return null;
+    var lk = Math.max.apply(null, full), lq = q[lk];
+    var sum = function (arr, f) { return arr.reduce(function (s, x) { return s + x[f]; }, 0); };
+    return { ai_total: sum(months, 'all'), genai_total: sum(months, 'gen'),
+             ai_quarter: sum(lq, 'all'), genai_quarter: sum(lq, 'gen'),
+             end: new Date(end.y, end.m - 1, 1), qYear: Math.floor(lk / 10), qNum: lk % 10 };
+  }
+
   var api = { parseCSV: parseCSV, usWaves: usWaves, usLatest: usLatest, yearBefore: yearBefore,
-              formatters: formatters, liftValues: liftValues };
+              formatters: formatters, liftValues: liftValues, liftSeries: liftSeries };
   if (typeof module !== 'undefined' && module.exports) { module.exports = api; return; }
 
   // ---- Page wiring ----
@@ -188,8 +215,10 @@
   function lift() {
     var box = doc.getElementById('lift-cards');
     if (!box) return;
+    var fr = f.loc === 'fr-FR';
     text(box.getAttribute('data-src')).then(function (txt) {
-      var d = liftValues(txt), n = 0;
+      var d = liftSeries(txt), n = 0;
+      if (!d) throw new Error('LIFT: empty series');
       box.querySelectorAll('[data-key]').forEach(function (el) {
         var v = d[el.getAttribute('data-key')];
         if (typeof v === 'number' && !isNaN(v)) {
@@ -197,7 +226,19 @@
           n++;
         }
       });
-      if (n) note('lift-cards-note', { date: f.day(new Date()) });
+      if (n) note('lift-cards-note', {
+        date: f.day(new Date()),
+        end: d.end.toLocaleDateString(f.loc, { month: 'long', year: 'numeric' }),
+        quarter: fr ? (d.qNum === 1 ? '1er' : d.qNum + 'e') + ' trimestre ' + d.qYear : 'Q' + d.qNum + ' ' + d.qYear
+      });
+    }).catch(function () { /* keep the printed figures */ });
+    var sumUrl = box.getAttribute('data-summary');
+    if (sumUrl) text(sumUrl).then(function (txt) {
+      var d = liftValues(txt);
+      box.querySelectorAll('[data-sum]').forEach(function (el) {
+        var v = d[el.getAttribute('data-sum')];
+        if (typeof v === 'number' && !isNaN(v)) el.textContent = f.count(v);
+      });
     }).catch(function () { /* keep the printed figures */ });
   }
 

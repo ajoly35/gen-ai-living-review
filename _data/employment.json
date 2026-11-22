@@ -41,10 +41,15 @@
   "work_prev": 37.4
  },
  "lift": {
-  "ai_total": 104935,
-  "genai_total": 4593,
-  "ai_quarter": 652,
-  "genai_quarter": 111
+  "genai_total": 4576,
+  "ai_total": 78005,
+  "genai_quarter": 705,
+  "ai_quarter": 3515,
+  "end": "2025-10",
+  "end_en": "October 2025",
+  "end_fr": "octobre 2025",
+  "quarter_en": "Q3 2025",
+  "quarter_fr": "3e trimestre 2025"
  },
- "updated": "2026-11-17"
+ "updated": "2026-11-22"
 }

@@ -27,7 +27,9 @@ INSEE = "https://bdm.insee.fr/series/sdmx/data/SERIES_BDM/{}?lastNObservations=6
 ONS = "https://www.ons.gov.uk/employmentandlabourmarket/peoplenotinwork/unemployment/timeseries/{}/lms/data"
 BLS = "https://api.bls.gov/publicAPI/v1/timeseries/data/{}"
 ADOPT = "https://www.genaiadoptiontracker.com/"
-LIFT = "https://heclift.github.io/website/data/ai-trackers/diffusion-emploi/general_results.csv"
+LIFT = "https://heclift.github.io/website/data/ai-trackers/diffusion-emploi/offers_total.csv"   # monthly series
+# Not general_results.csv: its headline counts (104,935 AI postings; 652 and 111 "last quarter") do not match LIFT's
+# own monthly series (checked 22/11/2026), so the block is built from the series and says where it ends.
 
 PAGES = {
     "fr": "https://www.insee.fr/fr/statistiques/serie/001688527",
@@ -157,14 +159,27 @@ def adoption():
 
 
 def lift():
-    d = {}
-    for line in get(LIFT).splitlines()[1:]:
-        i = line.rfind(",")
-        if i > 0 and fnum(line[i + 1:]) is not None:
-            d[line[:i].strip()] = int(round(float(line[i + 1:])))
-    keys = {"ai_total": "Total IA offers", "genai_total": "Total IA générative offers",
-            "ai_quarter": "Number of AI offers in last quarter", "genai_quarter": "Number of GenAI offers in last quarter"}
-    return {k: d[v] for k, v in keys.items()}
+    rows = list(csv.DictReader(io.StringIO(get(LIFT))))
+    cats = ["ia générative", "ia générale", "cv", "nlp"]           # mutually exclusive categories in LIFT's series
+    months = {}
+    for r in rows:
+        y, m = int(float(r["annee"])), int(float(r["mois"]))
+        months[(y, m)] = {c: fnum(r.get(c)) or 0.0 for c in cats}
+    if not months:
+        raise ValueError("LIFT: empty series")
+    end = max(months)
+    quarters = {}
+    for (y, m), v in months.items():
+        quarters.setdefault((y, (m - 1) // 3 + 1), []).append(v)
+    full = [k for k, v in quarters.items() if len(v) == 3]
+    qy, qn = max(full)
+    q = quarters[(qy, qn)]
+    return dict(genai_total=int(round(sum(v["ia générative"] for v in months.values()))),
+                ai_total=int(round(sum(sum(v.values()) for v in months.values()))),
+                genai_quarter=int(round(sum(v["ia générative"] for v in q))),
+                ai_quarter=int(round(sum(sum(v.values()) for v in q))),
+                end=f"{end[0]}-{end[1]:02d}", end_en=f"{EN_M[end[1] - 1]} {end[0]}", end_fr=f"{FR_M[end[1] - 1]} {end[0]}",
+                quarter_en=f"Q{qn} {qy}", quarter_fr=f"{qn}e trimestre {qy}" if qn > 1 else f"1er trimestre {qy}")
 
 
 # ---- Markdown block ----
@@ -215,13 +230,15 @@ def table(data, lang):
                         f"([GenAI Adoption Tracker]({PAGES['adoption']}), Bick, Blandin and Deming).") if en else
                        (f"- **L'IA au travail, États-Unis.** {pct(a['work'], lang)} des personnes en emploi utilisaient l'IA générative pour leur travail en {a['wave_fr']}{prev} "
                         f"([GenAI Adoption Tracker]({PAGES['adoption']}), Bick, Blandin et Deming)."))
-    if l:
-        bullets.append((f"- **AI hiring, France.** {count(l['genai_total'], lang)} job postings asking for generative AI skills since January 2019, "
-                        f"{count(l['genai_quarter'], lang)} of them in the last quarter; {count(l['ai_total'], lang)} postings for AI skills of any kind "
-                        f"([LIFT tracker]({PAGES['lift']}), HEC Paris, from the Dares JOCAS database). These count demand for AI specialists, not the effect of AI on other jobs.") if en else
-                       (f"- **Embauches en IA, France.** {count(l['genai_total'], lang)} offres d'emploi demandant des compétences en IA générative depuis janvier 2019, "
-                        f"dont {count(l['genai_quarter'], lang)} au dernier trimestre ; {count(l['ai_total'], lang)} offres pour des compétences en IA de tout type "
-                        f"([tracker LIFT]({PAGES['lift']}), HEC Paris, à partir de la base JOCAS de la Dares). Ces chiffres mesurent la demande de spécialistes de l'IA, pas l'effet de l'IA sur les autres emplois."))
+    if l and l.get("end"):
+        bullets.append((f"- **AI hiring, France.** {count(l['genai_total'], lang)} job postings asking for generative AI skills from January 2019 to {l['end_en']}, "
+                        f"{count(l['genai_quarter'], lang)} of them in {l['quarter_en']}; {count(l['ai_total'], lang)} postings for AI skills of any kind "
+                        f"([LIFT tracker]({PAGES['lift']}), HEC Paris, monthly series built from the Dares JOCAS database; the series ends in {l['end_en']}). "
+                        "These count demand for AI specialists, not the effect of AI on other jobs.") if en else
+                       (f"- **Embauches en IA, France.** {count(l['genai_total'], lang)} offres d'emploi demandant des compétences en IA générative de janvier 2019 à {l['end_fr']}, "
+                        f"dont {count(l['genai_quarter'], lang)} au {l['quarter_fr']} ; {count(l['ai_total'], lang)} offres pour des compétences en IA de tout type "
+                        f"([tracker LIFT]({PAGES['lift']}), HEC Paris, série mensuelle construite à partir de la base JOCAS de la Dares ; la série s'arrête en {l['end_fr']}). "
+                        "Ces chiffres mesurent la demande de spécialistes de l'IA, pas l'effet de l'IA sur les autres emplois."))
     return "\n".join(out + ([""] + bullets if bullets else [])) + "\n"
 
 
