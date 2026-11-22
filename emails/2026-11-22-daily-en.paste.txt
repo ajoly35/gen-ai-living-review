@@ -1,0 +1,53 @@
+# AI and work, in brief: 22 November 2026
+
+# AI and work, in brief
+
+
+
+## Today in three lines
+
+- A study of two and a half million research papers finds that, three years after ChatGPT arrived, science looks much as it would have anyway, aside from a shift in favourite words.
+- That matters for growth: the boldest forecasts assume AI will speed up research, yet whole fields show little sign of that so far.
+- Jobs follow the same pattern: large gains on single tasks, but little change yet in the big totals.
+
+## New research, in plain words
+
+### Three years of chatbots changed scientists' words, not yet the way science is done
+
+**What it explores.** Ron Bekkerman and three colleagues at the New Jersey Institute of Technology examined two and a half million research papers from 2015 to 2025 across computer science, mathematics, physics, health and life sciences. Tracking everything from word choice to author team size, they asked whether each trend changed course after late 2022, when chatbots spread, or simply carried on.
+
+**Why it matters.** How scientists write did change. Out of about fourteen thousand common words, roughly eight hundred appeared much more often after 2022, including chatbot favourites like "underscore", while about two hundred plain words such as "good" grew rarer. "Delve" shot up, peaked in 2024 and dropped back as models changed and readers learned to spot it. Deeper features, however, held steady. Vocabulary variety, the share of technical terms, topic range and team size all stuck to the paths they followed before 2022. The only exceptions were more papers in computer science and physics, and larger computer science teams in Asia.
+
+**How it fits the evidence.** Critics worry AI is flooding science with careless writing, while optimists hope it will speed up discovery. Looking across whole fields, this study sees neither happening yet. Because the authors compare each field only with its own past, they cannot prove what AI did, and word counts say little about the quality of the ideas.
+
+[Full entry](https://ajoly35.github.io/gen-ai-living-review/latest/#bekkerman-et-al-2026-large-language-models-have-not-yet-transformed-science) · [Paper](https://arxiv.org/abs/2611.22975)
+
+## How it fits together
+
+The review's first finding is large gains on single tasks, no visible change yet in the totals. In experiments, people with AI get between a seventh and a third more done on some tasks. In Denmark, total employment, hours and earnings have not moved. Today's paper finds the same gap in science. Earlier this month, a study of how researchers use one AI assistant suggested today's tools could at most double a team's output. Across whole fields, the change so far is small.
+
+This matters well beyond science. Forecasts of very fast economic growth rely on AI helping people produce new ideas faster. If research has not shifted gear yet, any economy-wide boost still lies ahead, if it comes at all. Slow steps such as lab work and checking may still set the pace.
+
+AI can help a team produce more, or do the same work with fewer people. In science so far, it looks like a little more output: extra papers in some fields, not fewer researchers. In the job market, AI mainly shows up as fewer first jobs for young people, down by up to a quarter in the work most open to AI across the United States, Sweden, the United Kingdom and France. How much of that drop comes from AI, and how much from everything else that changed after 2020, remains unknown.
+
+## One idea, explained: was it AI, or working from home?
+
+Imagine a hospital ward installing a new computer system in 2023. A year later, it hires fewer junior nurses. Was the computer the reason? Perhaps. Yet the ward also changed its shift patterns after the pandemic. Two things changed at once, and hiring numbers alone cannot tell us which one mattered.
+
+Economists face this exact puzzle. ChatGPT launched in late 2022, right after the big shift to working from home. Deming (2026) argues that remote work paved the way for AI by turning office work into digital records. Emanuel and co-authors (2026) show that when a large firm shut its offices, young engineers lost most of the feedback they used to get from sitting near colleagues. The jobs most open to AI are also those most often done from home, where juniors learn less.
+
+Pulling these trends apart is hard. When researchers compare occupations, much of what looks like an AI effect vanishes once remote work is counted. Inside firms that adopted AI, however, junior jobs fell just as much in work that cannot be done from home. Today's paper makes the same point about science: a jump in medical papers in 2023 was most likely a rebound from a pandemic dip, not a chatbot effect.
+
+For an employer or a student, the lesson is simple: before blaming or crediting AI, ask what else changed at the same time.
+
+## Where the evidence stands
+
+![Studies on jobs, hiring or pay, by research design. Orange: fewer jobs, hires or lower pay. Grey: no measurable effect. Blue: gains.](https://ajoly35.github.io/gen-ai-living-review/assets/vitals/direction-by-design-en.png)
+
+Each bar counts studies on jobs, hiring or pay: orange marks fewer jobs, hires or lower pay, grey marks no measurable effect, and blue marks gains. Experiments that time people at work find gains, hiring studies find falls, and studies of total employment find nothing yet. Because today's paper studies science rather than jobs, it has no bar on the chart. Still, its message sits closest to the grey: across a whole field, much like a whole economy, little has moved so far.
+
+## Read more
+
+[The living review](https://ajoly35.github.io/gen-ai-living-review/) · [Direction of the field](https://ajoly35.github.io/gen-ai-living-review/vitals/) · [Recent papers](https://ajoly35.github.io/gen-ai-living-review/latest/) · [Send a paper](https://github.com/ajoly35/gen-ai-living-review/issues/new?template=paper.yml)
+
+*A living review maintained by Adrien Joly, London School of Economics. Entries are written by an AI assistant from the paper itself and are not reviewed before they are sent. Figures are taken from the paper; the review's own assessment is in the caveat.*

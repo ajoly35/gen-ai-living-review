@@ -1,0 +1,27 @@
+# New study: Large Language Models Have Not Yet Transformed Science
+
+*One new study on AI and work, checked against its full text.*
+
+## Bekkerman et al. (2026), "Large Language Models Have Not Yet Transformed Science"
+
+New Jersey Institute of Technology, arXiv preprint, 17 November 2026. [Paper](https://arxiv.org/abs/2611.22975). Trend breaks at 2022 in 2.5 million papers, 2015 to 2025; descriptive, outside the review's causal evidence standard; context for AI and growth.
+
+**What it finds.** Aside from word choice, post-2022 science largely continues its earlier trends, with few clear breaks. The authors track 2.5 million full-text papers across computer science, mathematics and physics (arXiv) and health and life sciences (PubMed Central). Out of 14,484 common word roots, 796 jump after 2022, 71 rise and then fade ("delve" peaks in 2024), and 199 fall. Vocabulary variety shows no change in slope in any field, while the share of technical terms keeps climbing. Team sizes keep growing on their prior path everywhere except Asian computer science. Paper output speeds up after 2022 in computer science and physics, whereas a 2023 jump in biomedicine follows a COVID-era dip.
+
+**Why it matters.** In the companion review's section on automating ideas, Hermle et al. (2026) document heavy AI use among researchers and project output could up to double. Three years in, though, field-wide practice here still tracks pre-2022 trends, apart from paper counts. Just as in jobs (Humlum and Vestergaard 2025), task-level gains have yet to show up in the aggregates. That sits closer to Aghion, Jones and Jones (2019) than to Davidson et al.
+
+*Caveat.* Writing style and paper counts are rough stand-ins for new ideas or research quality. The study also lacks a control group, and three years since 2022 is a short window, clouded by the rebound from COVID.
+
+### Main ideas
+
+- *Large gains on tasks, none yet in the aggregates.* In field experiments, generative AI raises output on narrow tasks by 14 to 34%, most for workers who were least productive before. In the Nordic registers, total employment, hours and earnings are unchanged so far.
+- *The adjustment runs through entry, not layoffs.* Young hires in the most exposed occupations have fallen in the US, Sweden, the UK and France, by up to a quarter relative to less exposed occupations, and contract ends fell too: firms stop hiring juniors rather than dismiss workers. Hires are a small flow, so the stock of jobs moves slowly and totals look flat.
+- *Exposed occupations adjust through pay as well.* Wages in the most exposed occupations fell by about 5% by 2026 with no change in headcount, and this explains close to a third of the fall in the college wage premium.
+- *Firm-level results split.* Some adopters cut junior employment by about 9% while senior employment is unchanged; others, especially the biggest spenders on AI, grew and hired more entrants. Who counts as an adopter drives much of the gap, and whether substitution or scale wins is the central open question.
+- *Juniors lose because their tasks are the most codifiable.* AI raises novices' output most, but hiring depends on demand for the firm's output, not on output per worker. If AI does the routine work juniors used to train on, firms have less reason to hire and train them.
+- *Organisation decides the direction.* Management quality, the cost of reorganising and the flexibility of labour law set how deeply firms adopt. So far AI mostly saves time within existing jobs and moves knowledge down the hierarchy; new tasks appear only where employers reorganise.
+- *What is still unknown.* How strongly demand responds to cheaper output, how much of the fall in entry is AI rather than remote work or a slowdown that began in 2022, where the fall in entry ends as models improve, and who captures the gains.
+
+[Read the full review](https://ajoly35.github.io/gen-ai-living-review/) · [Send a paper](https://github.com/ajoly35/gen-ai-living-review/issues/new?template=paper.yml)
+
+*A living review maintained by Adrien Joly, London School of Economics. Entries are written by an AI assistant from the paper itself and are not reviewed before they are sent. Figures are taken from the paper; the review's own assessment is in the caveat.*
