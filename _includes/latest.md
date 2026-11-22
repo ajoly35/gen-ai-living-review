@@ -1,5 +1,21 @@
 New papers on AI and labour markets and AI and growth, newest first, each placed against the review below. Every figure is checked against the paper itself.
 
+### Bekkerman et al. (2026), "Large Language Models Have Not Yet Transformed Science"
+<!-- kind: paper -->
+
+New Jersey Institute of Technology, arXiv preprint, 17 November 2026. [Paper](https://arxiv.org/abs/2611.22975). Trend breaks at 2022 in 2.5 million papers, 2015 to 2025; descriptive, outside the review's causal evidence standard; context for AI and growth.
+
+**In brief.**
+What it explores: Whether chatbots have changed how science is written, organised and produced since late 2022, across 2.5 million research papers.
+Why it matters: Forecasts of fast AI-led growth rest on AI speeding up research. This checks whether whole fields have shifted yet.
+How it fits the evidence: As with jobs, the big picture barely moves: some words changed, but most long-run trends carried on.
+
+**What it finds.** Beyond word choice, science after 2022 follows its earlier trends with few detectable breaks. The data are 2.5 million full-text papers in computer science, mathematics and physics (arXiv) and health and life sciences (PubMed Central). Of 14,484 common word roots, 796 surge after 2022, 71 rise then fall ("delve" peaks in 2024) and 199 decline. Lexical diversity shows no slope change in any field, and the density of scientific terms keeps rising. Team sizes keep rising as before, except in Asian computer science. Paper counts grow faster after 2022 in computer science and physics; the 2023 jump in biomedicine follows a COVID-era dip.
+
+**Where it fits.** For the companion review's section on automating ideas: Hermle et al. (2026) find heavy research use of AI and project up to a doubling of output; here, three years in, field-level practice follows pre-2022 trends, except paper counts. As for jobs (Humlum and Vestergaard 2025), task gains have not reached aggregates, closer to Aghion, Jones and Jones (2019) than to Davidson et al.
+
+**Caveat.** Writing traits and paper counts are weak proxies for ideas or quality. There is no comparison group, and three post-2022 years are short and blurred by the COVID rebound.
+
 ### Ahn and Carollo (2026), "Artificial Intelligence and Labor Market Reallocation"
 <!-- kind: paper -->
 
@@ -292,13 +308,3 @@ Microsoft, Microsoft Research and Stanford University, arXiv preprint, 6 Novembe
 **Where it fits.** Klein Teeselink and Carey (2026) find fewer postings in exposed occupations (section [“Exposure designs: hiring and entry”](#exposure-designs-hiring-and-entry)); here exposed activities shrink only mildly within the jobs still advertised, so the demand shift runs more through which jobs are posted than through what each contains. Employers rewrite exposed activities around AI use, a stated-demand counterpart to the new tasks Dillon et al. (2025) did not find (section [“Does reorganisation create new tasks?”](#does-reorganisation-create-new-tasks)).
 
 **Caveat.** Postings are partly signalling and show neither who is hired nor what workers do. Four of the five authors work at Microsoft, one of the 33 firms.
-
-### Hermle et al. (2026), "AI for Scientific Discovery: How Researchers Use Claude"
-
-The Anthropic Institute, technical report, 5 November 2026. [Paper](https://www.anthropic.com/research/how-researchers-use-claude). Descriptive usage data, a survey and a calibrated ideas production function; outside the causal standard, context for AI and growth.
-
-**What it finds.** Scientists use AI where it works best, and a calibrated model says current AI could at most double research output, with physical work capping larger gains. Across 207,049 research sessions on Claude and Claude Code (August to September 2026), data analysis takes 33.7% and 48.1% of sessions against 27.6% of researcher time; ideation takes 4.2% and 2.1% against 7.1%. Fed into an ideas production function with an elasticity of substitution of one half, current capabilities raise output 1.35 times in the arts to 2.02 times in statistics for a fixed budget. With all non-physical steps automated, fields with little lab work reach 15 to 16 times, lab fields 3 to 4 times.
-
-**Where it fits.** Puts field-level numbers on the input side of the research-automation models of Davidson et al. and Trammell and Korinek (companion review): physical steps are the Baumol bottleneck. Use rises steeply with task capability, so measured exposure does predict where adoption goes, unlike the economy-wide gap in Massenkoff and McCrory (2026) (section [“Key concepts and definitions”](#key-concepts-and-definitions)).
-
-**Caveat.** The authors study their employer's product over two months of consumer plans; the scenarios rest on an assumed AI cost and a model-rated capability score, not measured output.

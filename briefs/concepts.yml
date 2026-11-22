@@ -43,6 +43,7 @@
 - key: remote-work-confound
   title: "Was it AI, or working from home?"
   paper: "Deming (2026); Emanuel et al. (2026)"
+  last: 2026-11-22
 - key: agents-delegation
   title: "Handing a decision to a machine: what the first experiments show"
   paper: "Herdağdelen, Joren and Tamkin (2026); Colaiacovo and Koning (2026)"

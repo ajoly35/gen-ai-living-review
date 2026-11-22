@@ -1,5 +1,21 @@
 Nouveaux articles sur l'IA et les marchés du travail et sur l'IA et la croissance, du plus récent au plus ancien, chacun situé par rapport à la revue ci-dessous. Chaque chiffre est vérifié dans l'article lui-même.
 
+### Bekkerman et al. (2026), "Large Language Models Have Not Yet Transformed Science" {#bekkerman-et-al-2026-large-language-models-have-not-yet-transformed-science}
+<!-- kind: paper -->
+
+New Jersey Institute of Technology, prépublication arXiv, 17 novembre 2026. [Article](https://arxiv.org/abs/2611.22975). Ruptures de tendance en 2022 sur 2.5 millions d'articles, 2015 à 2025 ; descriptive, hors du standard de preuve causale de la revue ; contexte pour l'IA et la croissance.
+
+**En bref.**
+Ce qu'elle explore : si les chatbots ont changé, depuis fin 2022, la façon dont la science s'écrit, s'organise et se produit, sur 2.5 millions d'articles.
+Pourquoi c'est important : les prévisions de croissance rapide portée par l'IA supposent qu'elle accélère la recherche. L'étude vérifie si des disciplines entières ont déjà bougé.
+Ce que cela change aux preuves : comme pour l'emploi, la vue d'ensemble bouge à peine : certains mots ont changé, mais la plupart des tendances longues se poursuivent.
+
+**Ce que l'étude trouve.** Au-delà du choix des mots, la science suit après 2022 ses tendances antérieures, avec peu de ruptures détectables. Les données couvrent 2.5 millions d'articles en texte intégral en informatique, mathématiques et physique (arXiv) et en sciences de la santé et de la vie (PubMed Central). Sur 14,484 racines de mots courants, 796 bondissent après 2022, 71 montent puis retombent (« delve » culmine en 2024) et 199 reculent. La diversité lexicale ne change de pente dans aucune discipline, et la densité de termes scientifiques continue de croître. La taille des équipes poursuit sa hausse d'avant, sauf en informatique en Asie. Le nombre d'articles croît plus vite après 2022 en informatique et en physique ; le bond de 2023 en biomédecine suit un creux lié au COVID.
+
+**Où cela se place.** Pour la section de la revue compagnon sur l'automatisation des idées : Hermle et al. (2026) trouvent un usage intensif de l'IA en recherche et projettent jusqu'à un doublement de la production ; ici, trois ans après, les pratiques des disciplines suivent leurs tendances d'avant 2022, sauf le nombre d'articles. Comme pour l'emploi (Humlum et Vestergaard 2025), les gains par tâche n'atteignent pas les agrégats, plus près d'Aghion, Jones et Jones (2019) que de Davidson et al.
+
+**Limite.** Les traits d'écriture et le nombre d'articles mesurent mal les idées ou la qualité. Il n'y a pas de groupe de comparaison, et trois années après 2022 sont une fenêtre courte, brouillée par le rebond post-COVID.
+
 ### Ahn and Carollo (2026), "Artificial Intelligence and Labor Market Reallocation" {#ahn-and-carollo-2026-artificial-intelligence-and-labor-market-reallocation}
 <!-- kind: paper -->
 
@@ -292,13 +308,3 @@ Microsoft, Microsoft Research et Stanford University, prépublication arXiv, 6 n
 **Où cela se place.** Klein Teeselink et Carey (2026) trouvent moins d'offres dans les professions exposées (section [« Approches par l'exposition : embauches et entrée »](#exposure-designs-hiring-and-entry)) ; ici, les activités exposées ne reculent que légèrement au sein des emplois encore proposés, de sorte que le déplacement de la demande passe davantage par les emplois publiés que par le contenu de chacun. Les employeurs réécrivent les activités exposées autour de l'usage de l'IA, pendant côté demande déclarée des nouvelles tâches que Dillon et al. (2025) n'ont pas trouvées (section [« La réorganisation crée-t-elle de nouvelles tâches ? »](#does-reorganisation-create-new-tasks)).
 
 **Limite.** Les offres relèvent en partie du signal et ne montrent ni qui est embauché ni ce que font les travailleurs. Quatre des cinq auteurs travaillent chez Microsoft, l'une des 33 entreprises.
-
-### Hermle et al. (2026), "AI for Scientific Discovery: How Researchers Use Claude" {#hermle-et-al-2026-ai-for-scientific-discovery-how-researchers-use-claude}
-
-The Anthropic Institute, rapport technique, 5 novembre 2026. [Article](https://www.anthropic.com/research/how-researchers-use-claude). Données d'usage descriptives, une enquête et une fonction de production d'idées calibrée ; hors du standard causal, contexte pour l'IA et la croissance.
-
-**Ce que l'étude trouve.** Les scientifiques utilisent l'IA là où elle fonctionne le mieux, et un modèle calibré indique que l'IA actuelle pourrait au plus doubler la production de recherche, le travail physique plafonnant des gains plus importants. Sur 207,049 sessions de recherche sur Claude et Claude Code (août à septembre 2026), l'analyse de données représente 33.7% et 48.1% des sessions contre 27.6% du temps des chercheurs ; l'idéation en représente 4.2% et 2.1% contre 7.1%. Introduites dans une fonction de production d'idées avec une élasticité de substitution d'un demi, les capacités actuelles multiplient la production par 1.35 dans les arts et par 2.02 en statistique, à budget fixe. Si toutes les étapes non physiques sont automatisées, les disciplines avec peu de travail de laboratoire atteignent 15 à 16 fois, les disciplines de laboratoire 3 à 4 fois.
-
-**Où cela se place.** Donne des chiffres par discipline sur le côté des intrants des modèles d'automatisation de la recherche de Davidson et al. et de Trammell et Korinek (revue compagnon) : les étapes physiques sont le goulet d'étranglement à la Baumol. L'usage augmente fortement avec la capacité sur la tâche, de sorte que l'exposition mesurée prédit bien où va l'adoption, à la différence de l'écart à l'échelle de l'économie chez Massenkoff et McCrory (2026) (section [« Concepts clés et définitions »](#key-concepts-and-definitions)).
-
-**Limite.** Les auteurs étudient le produit de leur employeur sur deux mois d'abonnements grand public ; les scénarios reposent sur un coût de l'IA supposé et un score de capacité évalué par un modèle, non sur une production mesurée.

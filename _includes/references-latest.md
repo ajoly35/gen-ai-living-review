@@ -4,6 +4,8 @@ Ahn, Hie Joo, and Nicholas A. Carollo. 2026. *Artificial Intelligence and Labor 
 
 Barwick, Panle Jia, Lu Fang, Jinhan Liu, Huilan Xu, and Zhe Yuan. 2026. *AI as Shared Business Infrastructure: Firm Growth and the Distribution of Gains*. Working Paper No. 36003. NBER. [Link](https://www.nber.org/papers/w36003).
 
+Bekkerman, Ron, Nichole Li, Bahareh Kargar, and Mark Somers. 2026. *Large Language Models Have Not Yet Transformed Science*. arXiv:2611.22975. [Link](https://arxiv.org/abs/2611.22975).
+
 Björkegren, Daniel, David Lagakos, and Mitchell VanVuren. 2026. *Will AI Growth Reach the Developing World?* Working Paper No. 36035. NBER. [Link](https://www.nber.org/papers/w36035).
 
 Carollo, Nick, Leland D. Crane, Daniel Garcia Molina, and Joseph Nichols. 2026. *Artificial Intelligence and the U.S. Economy: Current Evidence*. Finance and Economics Discussion Series 2026-074. Board of Governors of the Federal Reserve System, 12 November. [Link](https://doi.org/10.17016/FEDS.2026.074).
