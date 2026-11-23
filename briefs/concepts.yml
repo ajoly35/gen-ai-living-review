@@ -59,6 +59,7 @@
 - key: expectations-gap
   title: "Why people expect more job loss than the data show"
   paper: "Sacher et al. (2026), The AI Expectations Gap"
+  last: 2026-11-23
 - key: retraining
   title: "Can a worker displaced by AI retrain into something better?"
   paper: "Hyman, Lahey, Ni and Pilossoph (2025)"

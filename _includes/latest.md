@@ -1,5 +1,37 @@
 New papers on AI and labour markets and AI and growth, newest first, each placed against the review below. Every figure is checked against the paper itself.
 
+### Borri et al. (2026), "The Rise of Agents and the Labor Market"
+<!-- kind: paper -->
+
+Luiss, Dallas Fed, Rochester and Yale, arXiv preprint, 20 November 2026. [Paper](https://arxiv.org/abs/2611.27210). Stock-market exposure to AI agent use and job postings of 1,784 listed US firms; event study around Claude Code 2.0 (September 2025).
+
+**In brief.**
+What it explores: Whether US companies most open to AI agents, software that carries out multi-step tasks on its own, advertised fewer jobs once agents improved.
+Why it matters: Agents can take over whole chains of work, not single tasks. If firms advertise fewer junior jobs, entrants feel it first.
+How it fits the evidence: It carries the finding of fewer first jobs, not layoffs, from chatbots to agents.
+
+**What it finds.** Firms more exposed to AI agents advertised fewer jobs once agents improved, mostly junior ones. Exposure is how a firm's stock return moves with weekly agentic token use on OpenRouter (about 2% of global AI tokens); postings are 34.8 million Lightcast ads, January 2022 to July 2026. After Claude Code 2.0 (29 September 2025), firms one standard deviation more exposed beforehand saw 4.73% lower six-month posting growth, with no gap before; the panel estimate is 2.11%. Non-senior postings fell 4.54%; senior ones showed no significant change. Advertised wages held. Broad AI exposure predicts nothing once agentic exposure is included.
+
+**Where it fits.** It extends section [“Exposure designs: hiring and entry”](#exposure-designs-hiring-and-entry) to agents: as in Hosseini and Lichtinger (2025) and Ahn and Carollo (2026), adjustment runs through fewer junior hires. Flat advertised wages contrast with the pay cuts in Azar et al. (2026). Occupation scores (Eloundou et al. 2024) add little once firm exposure is known, consistent with Massenkoff and McCrory (2026): exposure is not use.
+
+**Caveat.** Exposure is read from stock prices, which may also price expected demand shocks. Postings are not hires, the sample is listed firms, and OpenRouter traffic may not represent agent use inside large companies.
+
+### Van Nieuwerburgh and Su (2026), "Clouds of Credit: Mapping the Financial Web Behind AI Compute"
+<!-- kind: paper -->
+
+Columbia Business School, NBER Working Paper 36032, November 2026. [Paper](https://www.nber.org/papers/w36032). Network model of NVIDIA, six hyperscalers, two AI labs, two neoclouds and data-centre landlords, calibrated to their claims at 30 June 2026; theory, not a causal design.
+
+**In brief.**
+What it explores: How the trillions borrowed and promised to build AI data centres tie chipmakers, cloud firms, AI labs and lenders together, and who loses if AI disappoints.
+Why it matters: Growth from AI needs this buildout. If it is too big or too indebted, a disappointment could hit savers and lenders hard.
+How it fits the evidence: It adds the money side to growth forecasts: firms may build about half again more than is best for society.
+
+**What it finds.** Firms overbuild AI compute, and debt makes the network fragile. In equilibrium the network adds 277.5 GW of compute for &#36;6.30 trillion of capital spending, 55% above the planner's 178.9 GW, because each firm ignores how its capacity cuts rivals' revenue. Debt finances about 59% of the expansion; lender debt rises from 5.9% to 26.3% of equity. If AI productivity turns out very low (a state given 25% probability), outside investors lose &#36;16.87 trillion, against &#36;8.8 trillion without the buildout; outside lenders lose about 42% of their stake. Blocking payment spillovers between firms cuts losses by about 30%.
+
+**Where it fits.** For the companion review's section on aggregating task gains: scenarios such as Korinek et al. (2026) take the compute path as given; here competing firms choose it and overshoot. It calibrates the AI investment race of Rungcharoenkitkul (2026) on measured contracts and extends Van Nieuwerburgh (2026). It describes the downside of the buildout, not a growth forecast.
+
+**Caveat.** Productivity states, their probabilities and many private-firm exposures are assumptions. Market values discipline the calibration, so any mispricing passes into the results, and the model has one period with no feedback to the wider economy.
+
 ### Bekkerman et al. (2026), "Large Language Models Have Not Yet Transformed Science"
 <!-- kind: paper -->
 
@@ -287,24 +319,3 @@ How it fits the evidence: It adds the buyer's side to studies of AI and creative
 **Where it fits.** It tests the new task channel of Acemoglu et al. (2026) (section [“Organisation: who decides how AI is used”](#organisation-who-decides-how-ai-is-used)): directing AI gave people no edge in taste and a human label created no demand, suggesting a high $$\sigma_o$$ in creative design ([Main patterns](#main-patterns)). Producers took pride in the work, a loss GDP does not record, the theme of Imas and Moll (2026) (companion review).
 
 **Caveat.** Design took minutes, prices were cents and play lasted about a minute. The AI had one untested prompt, which if anything understates its edge.
-
-### Barwick et al. (2026), "AI as Shared Business Infrastructure: Firm Growth and the Distribution of Gains"
-<!-- kind: paper -->
-
-NBER Working Paper 36003, 9 November 2026. [Paper](https://www.nber.org/papers/w36003). Matched difference in differences on a Chinese e-commerce platform's records of small sellers, checked with instrumental variables.
-
-**What it finds.** Small online shops in China that adopted their platform's built-in AI assistant raised monthly sales by about half, and the smallest shops gained most. The data cover sellers with pre-launch annual sales of at most RMB 5 million, October 2023 to July 2025: 148,770 adopters against 77,347 similar non-adopters. Sales rose 51.6% and orders 47.0% relative to matched non-adopters, with no gap before adoption. Sales rose 61.5% in the bottom size quarter against 10.3% in the top. Adopters posted 62.6% more product images, while customer-service staff time per order fell 5.6%. Product categories where the tools mattered more saw more sales, entry and new products.
-
-**Where it fits.** It extends section [“Firm adoption studies”](#firm-adoption-studies): like Kharazian et al. (2026), adopters grow, a scale effect, but adoption is measured from actual use and among very small firms. The fall in staff time per order is a field reading of $$\pi_o$$ ([Main patterns](#main-patterns)). Headcount is not measured, so it cannot say whether growth offsets the losses Bonin et al. (2026) find in Danish firms under 100 employees.
-
-**Caveat.** Sellers chose to adopt, at RMB 99 a month after a free month, so keener sellers may select in; the instrumental-variable estimates are larger still. The unnamed platform sells the tool and supplied the data.
-
-### Zhao et al. (2026), "AI Exposure and the Changing Responsibilities in Job Postings"
-
-Microsoft, Microsoft Research and Stanford University, arXiv preprint, 6 November 2026. [Paper](https://arxiv.org/abs/2611.09870). Descriptive comparison of job postings in 2023 and 2025, no control group; outside the review's causal evidence standard, reported as context.
-
-**What it finds.** Large US employers list AI-exposed work activities a little less often in their postings, and increasingly describe them as done with AI. In 50,000 postings from 33 large firms, an activity one standard deviation more exposed lost 0.19 to 0.24 percentage points more of its presence between 2023 and 2025, a small share of all listed activities. Of 57 activities whose presence fell, 55 were tied to AI in more postings. Postings mentioning AI rose from 5.3% to 8.8%.
-
-**Where it fits.** Klein Teeselink and Carey (2026) find fewer postings in exposed occupations (section [“Exposure designs: hiring and entry”](#exposure-designs-hiring-and-entry)); here exposed activities shrink only mildly within the jobs still advertised, so the demand shift runs more through which jobs are posted than through what each contains. Employers rewrite exposed activities around AI use, a stated-demand counterpart to the new tasks Dillon et al. (2025) did not find (section [“Does reorganisation create new tasks?”](#does-reorganisation-create-new-tasks)).
-
-**Caveat.** Postings are partly signalling and show neither who is hired nor what workers do. Four of the five authors work at Microsoft, one of the 33 firms.

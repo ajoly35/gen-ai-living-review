@@ -2,11 +2,11 @@ Aghion, Philippe, Benjamin F. Jones, and Charles I. Jones. 2019. “Artificial I
 
 Ahn, Hie Joo, and Nicholas A. Carollo. 2026. *Artificial Intelligence and Labor Market Reallocation*. Working paper. Board of Governors of the Federal Reserve System, 16 July; posted by the Federal Reserve Bank of San Francisco, 17 November. [Link](https://www.frbsf.org/research-and-insights/publications/board-of-governors/2026/11/artificial-intelligence-labor-market-reallocation/).
 
-Barwick, Panle Jia, Lu Fang, Jinhan Liu, Huilan Xu, and Zhe Yuan. 2026. *AI as Shared Business Infrastructure: Firm Growth and the Distribution of Gains*. Working Paper No. 36003. NBER. [Link](https://www.nber.org/papers/w36003).
-
 Bekkerman, Ron, Nichole Li, Bahareh Kargar, and Mark Somers. 2026. *Large Language Models Have Not Yet Transformed Science*. arXiv:2611.22975. [Link](https://arxiv.org/abs/2611.22975).
 
 Björkegren, Daniel, David Lagakos, and Mitchell VanVuren. 2026. *Will AI Growth Reach the Developing World?* Working Paper No. 36035. NBER. [Link](https://www.nber.org/papers/w36035).
+
+Borri, Nicola, Anton Cheremukhin, Yukun Liu, and Aleh Tsyvinski. 2026. *The Rise of Agents and the Labor Market*. arXiv:2611.27210. [Link](https://arxiv.org/abs/2611.27210).
 
 Carollo, Nick, Leland D. Crane, Daniel Garcia Molina, and Joseph Nichols. 2026. *Artificial Intelligence and the U.S. Economy: Current Evidence*. Finance and Economics Discussion Series 2026-074. Board of Governors of the Federal Reserve System, 12 November. [Link](https://doi.org/10.17016/FEDS.2026.074).
 
@@ -46,10 +46,10 @@ Soda, Giuseppe, Alessandro Iorio, and Leonardo Rizzo. 2026. *The Effects of Gene
 
 Strauss, Delphine, Valentina Romei, and Sam Fleming. 2026. "What Is Behind the Surprising Resilience of the UK Economy?" *Financial Times*, 17 October.
 
+Van Nieuwerburgh, Stijn, and Zijin Su. 2026. *Clouds of Credit: Mapping the Financial Web Behind AI Compute*. Working Paper No. 36032. NBER. [Link](https://www.nber.org/papers/w36032).
+
 Xu, Feiyang, Poonacha K. Medappa, and Murat M. Tunc. 2026. *Does the AI Reviewer Alleviate or Aggravate the Maintenance Burden? Evidence from GitHub Copilot Reviewer*. arXiv:2611.22793. [Link](https://arxiv.org/abs/2611.22793).
 
 Yang, Longqi, David Holtz, Sonia Jaffe, Siddharth Suri, Shilpi Sinha, Jeffrey Weston, Connor Joyce, Neha Shah, Kevin Sherman, Brent Hecht, and Jaime Teevan. 2022. “The Effects of Remote Work on Collaboration among Information Workers.” *Nature Human Behaviour* 6: 43–54.
 
 Zhang, Liu, Mark Esposito, and Isabel Yang. 2026. *AI, Specialization, and the Organization of Knowledge Work: Evidence from Legal Services*. arXiv:2611.23354. [Link](https://arxiv.org/abs/2611.23354).
-
-Zhao, Dora, Lin Ai, Pranav Khadpe, Siddharth Suri, and Scott Counts. 2026. *AI Exposure and the Changing Responsibilities in Job Postings*. arXiv:2611.09870. [Link](https://arxiv.org/abs/2611.09870).

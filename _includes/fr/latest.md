@@ -1,5 +1,37 @@
 Nouveaux articles sur l'IA et les marchés du travail et sur l'IA et la croissance, du plus récent au plus ancien, chacun situé par rapport à la revue ci-dessous. Chaque chiffre est vérifié dans l'article lui-même.
 
+### Borri et al. (2026), "The Rise of Agents and the Labor Market" {#borri-et-al-2026-the-rise-of-agents-and-the-labor-market}
+<!-- kind: paper -->
+
+Luiss, Fed de Dallas, Rochester et Yale, prépublication arXiv, 20 novembre 2026. [Article](https://arxiv.org/abs/2611.27210). Exposition boursière à l'usage d'agents d'IA et offres d'emploi de 1,784 entreprises cotées américaines ; étude d'événement autour de Claude Code 2.0 (septembre 2025).
+
+**En bref.**
+Ce qu'elle explore : si les entreprises américaines les plus ouvertes aux agents d'IA, des logiciels qui enchaînent seuls plusieurs tâches, ont publié moins d'offres d'emploi une fois les agents améliorés.
+Pourquoi c'est important : un agent peut reprendre une chaîne de travail entière, pas une seule tâche. Si les entreprises proposent moins de postes juniors, les débutants le sentent d'abord.
+Ce que cela change aux preuves : l'étude étend aux agents le constat de moins de premiers emplois, sans licenciements, établi pour les chatbots.
+
+**Ce que l'étude trouve.** Les entreprises plus exposées aux agents d'IA ont publié moins d'offres une fois les agents améliorés, surtout pour des postes juniors. L'exposition mesure comment le rendement boursier d'une entreprise suit l'usage hebdomadaire de jetons agentiques sur OpenRouter (environ 2% des jetons d'IA mondiaux) ; les offres sont 34.8 millions d'annonces Lightcast, de janvier 2022 à juillet 2026. Après Claude Code 2.0 (29 septembre 2025), les entreprises plus exposées d'un écart type avant la sortie voient leurs offres croître de 4.73% de moins sur six mois, sans écart auparavant ; l'estimation en panel est de 2.11%. Les offres non seniors baissent de 4.54% ; les offres seniors ne varient pas significativement. Les salaires affichés tiennent. L'exposition à l'IA en général ne prédit rien une fois l'exposition agentique incluse.
+
+**Où cela se place.** L'étude étend aux agents la section [« Dispositifs d’exposition : embauches et entrée »](#exposure-designs-hiring-and-entry) : comme chez Hosseini et Lichtinger (2025) et Ahn et Carollo (2026), l'ajustement passe par moins d'embauches juniors. Des salaires affichés stables contrastent avec les baisses de salaire d'Azar et al. (2026). Les scores par métier (Eloundou et al. 2024) apportent peu une fois l'exposition de l'entreprise connue, ce qui rejoint Massenkoff et McCrory (2026) : l'exposition n'est pas l'usage.
+
+**Limite.** L'exposition est lue dans les cours boursiers, qui peuvent aussi anticiper des chocs de demande. Les offres ne sont pas des embauches, l'échantillon se limite aux entreprises cotées, et le trafic OpenRouter peut mal représenter l'usage d'agents dans les grandes entreprises.
+
+### Van Nieuwerburgh and Su (2026), "Clouds of Credit: Mapping the Financial Web Behind AI Compute" {#van-nieuwerburgh-and-su-2026-clouds-of-credit-mapping-the-financial-web-behind-ai-compute}
+<!-- kind: paper -->
+
+Columbia Business School, NBER Working Paper 36032, novembre 2026. [Article](https://www.nber.org/papers/w36032). Modèle de réseau de NVIDIA, six hyperscalers, deux laboratoires d'IA, deux neoclouds et des bailleurs de centres de données, calibré sur leurs engagements au 30 juin 2026 ; théorie, pas de dispositif causal.
+
+**En bref.**
+Ce qu'elle explore : comment les milliers de milliards empruntés et promis pour bâtir les centres de données de l'IA lient fabricants de puces, cloud, laboratoires et prêteurs, et qui perd si l'IA déçoit.
+Pourquoi c'est important : la croissance par l'IA suppose ces investissements. S'ils sont trop gros ou trop endettés, une déception peut frapper durement épargnants et prêteurs.
+Ce que cela change aux preuves : l'étude ajoute le financement aux prévisions de croissance : les entreprises pourraient bâtir environ moitié plus que ce qui est bon pour la société.
+
+**Ce que l'étude trouve.** Les entreprises surinvestissent dans la puissance de calcul, et la dette fragilise le réseau. À l'équilibre, le réseau ajoute 277.5 GW de calcul pour &#36;6.30 billions (milliers de milliards) d'investissement, 55% au-dessus des 178.9 GW du planificateur, car chaque entreprise ignore que sa capacité réduit les revenus de ses rivales. La dette finance environ 59% de l'expansion ; la dette bancaire passe de 5.9% à 26.3% des fonds propres. Si la productivité de l'IA s'avère très faible (un état de probabilité 25%), les investisseurs extérieurs perdent &#36;16.87 billions, contre &#36;8.8 billions sans l'expansion ; les prêteurs extérieurs perdent environ 42% de leur mise. Bloquer la propagation des impayés entre entreprises réduit les pertes d'environ 30%.
+
+**Où cela se place.** Pour la section de la revue compagnon sur l'agrégation des gains par tâche : des scénarios comme Korinek et al. (2026) prennent la trajectoire du calcul comme donnée ; ici, des entreprises en concurrence la choisissent et la dépassent. L'étude calibre sur des contrats mesurés la course à l'investissement de Rungcharoenkitkul (2026) et prolonge Van Nieuwerburgh (2026). Elle décrit le risque baissier de l'expansion, non une prévision de croissance.
+
+**Limite.** Les états de productivité, leurs probabilités et de nombreuses expositions de firmes privées sont des hypothèses. Les valeurs de marché disciplinent la calibration, donc toute erreur d'évaluation se transmet aux résultats, et le modèle n'a qu'une période, sans rétroaction sur l'économie.
+
 ### Bekkerman et al. (2026), "Large Language Models Have Not Yet Transformed Science" {#bekkerman-et-al-2026-large-language-models-have-not-yet-transformed-science}
 <!-- kind: paper -->
 
@@ -287,24 +319,3 @@ Ce que cela change aux preuves : elle ajoute le côté des acheteurs aux étude
 **Où cela se place.** L'étude teste le canal des nouvelles tâches d'Acemoglu et al. (2026) (section [« Organisation : qui décide de l’usage de l’IA »](#organisation-who-decides-how-ai-is-used)) : piloter l'IA ne donne aux humains aucun avantage de goût, et la mention « fait par un humain » ne crée aucune demande, ce qui suggère un $$\sigma_o$$ élevé dans la conception créative ([Principales régularités](#main-patterns)). Les concepteurs étaient fiers de leur travail, une perte que le PIB n'enregistre pas, thème d'Imas et Moll (2026) (revue compagnon).
 
 **Limite.** La conception a duré quelques minutes, les prix se comptaient en cents et chaque partie environ une minute. L'IA n'avait qu'une consigne, sans test, ce qui sous-estime plutôt son avantage.
-
-### Barwick et al. (2026), "AI as Shared Business Infrastructure: Firm Growth and the Distribution of Gains" {#barwick-et-al-2026-ai-as-shared-business-infrastructure-firm-growth-and-the-distribution-of-gains}
-<!-- kind: paper -->
-
-NBER Working Paper 36003, 9 novembre 2026. [Article](https://www.nber.org/papers/w36003). Doubles différences avec appariement sur les données d'une plateforme chinoise de commerce en ligne, vérifiées par variables instrumentales.
-
-**Ce que l'étude trouve.** Les petites boutiques en ligne chinoises qui ont adopté l'assistant d'IA intégré à leur plateforme ont augmenté leurs ventes mensuelles d'environ moitié, et les plus petites ont gagné le plus. Les données couvrent les vendeurs dont les ventes annuelles avant le lancement ne dépassaient pas 5 millions de RMB, d'octobre 2023 à juillet 2025 : 148,770 adoptants comparés à 77,347 non-adoptants similaires. Les ventes ont augmenté de 51.6% et les commandes de 47.0% par rapport aux non-adoptants appariés, sans écart avant l'adoption. Les ventes ont progressé de 61.5% dans le quart le plus petit, contre 10.3% dans le quart le plus grand. Les adoptants ont publié 62.6% d'images de produits en plus, tandis que le temps du service client par commande a baissé de 5.6%. Les catégories où les outils comptaient le plus ont connu davantage de ventes, d'entrées et de nouveaux produits.
-
-**Où cela se place.** L'étude prolonge la section [« Études d'adoption par les entreprises »](#firm-adoption-studies) : comme chez Kharazian et al. (2026), les adoptants croissent, un effet d'échelle, mais l'adoption est mesurée par l'usage effectif et chez de très petites entreprises. La baisse du temps de travail par commande donne une mesure de terrain de $$\pi_o$$ ([Principales régularités](#main-patterns)). Les effectifs ne sont pas mesurés : l'étude ne dit pas si la croissance compense les pertes que Bonin et al. (2026) trouvent dans les entreprises danoises de moins de 100 salariés.
-
-**Limite.** Les vendeurs ont choisi d'adopter, à 99 RMB par mois après un mois gratuit, et les plus motivés ont pu s'auto-sélectionner ; les estimations par variables instrumentales sont encore plus élevées. La plateforme, non nommée, vend l'outil et a fourni les données.
-
-### Zhao et al. (2026), "AI Exposure and the Changing Responsibilities in Job Postings" {#zhao-et-al-2026-ai-exposure-and-the-changing-responsibilities-in-job-postings}
-
-Microsoft, Microsoft Research et Stanford University, prépublication arXiv, 6 novembre 2026. [Article](https://arxiv.org/abs/2611.09870). Comparaison descriptive des offres d'emploi de 2023 et 2025, sans groupe de contrôle ; hors du standard de preuve causale de la revue, rapportée à titre de contexte.
-
-**Ce que l'étude trouve.** Les grands employeurs américains mentionnent un peu moins souvent dans leurs offres les activités exposées à l'IA, et les décrivent de plus en plus comme réalisées avec l'IA. Sur 50,000 offres de 33 grandes entreprises, une activité plus exposée d'un écart-type a perdu 0.19 à 0.24 point de pourcentage de présence en plus entre 2023 et 2025, une faible part de l'ensemble des activités listées. Sur 57 activités dont la présence a reculé, 55 ont été associées à l'IA dans davantage d'offres. La part des offres mentionnant l'IA est passée de 5.3% à 8.8%.
-
-**Où cela se place.** Klein Teeselink et Carey (2026) trouvent moins d'offres dans les professions exposées (section [« Approches par l'exposition : embauches et entrée »](#exposure-designs-hiring-and-entry)) ; ici, les activités exposées ne reculent que légèrement au sein des emplois encore proposés, de sorte que le déplacement de la demande passe davantage par les emplois publiés que par le contenu de chacun. Les employeurs réécrivent les activités exposées autour de l'usage de l'IA, pendant côté demande déclarée des nouvelles tâches que Dillon et al. (2025) n'ont pas trouvées (section [« La réorganisation crée-t-elle de nouvelles tâches ? »](#does-reorganisation-create-new-tasks)).
-
-**Limite.** Les offres relèvent en partie du signal et ne montrent ni qui est embauché ni ce que font les travailleurs. Quatre des cinq auteurs travaillent chez Microsoft, l'une des 33 entreprises.
