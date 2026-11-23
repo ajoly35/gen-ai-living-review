@@ -1,0 +1,63 @@
+# AI and work, in brief: 23 November 2026
+
+# AI and work, in brief
+
+
+
+## Today in three lines
+
+- American companies with the most to gain or lose from AI agents, programs that run whole chains of tasks on their own, posted about one in twenty fewer job adverts after agents improved, mostly for junior roles.
+- A second study tracks the money behind AI data centres: companies may build about half again more than society needs, much of it on borrowed money.
+- Both point the same way: hopes for AI are shifting hiring plans and investment faster than they are changing the economy.
+
+## New research, in plain words
+
+### Firms most open to AI agents cut junior job adverts once agents improved
+
+**What it explores.** Nicola Borri and three colleagues look at AI agents, programs that plan, use software and take action rather than just answer questions. They identify the listed American companies whose share prices move most when agent use jumps, then count their 35 million job adverts from 2022 to mid-2026.
+
+**Why it matters.** In late September 2025, Anthropic released a much stronger coding agent, and agent use took off. Over the next six months, the firms most sensitive to agents posted about one in twenty fewer adverts than similar firms less sensitive to them. Before the release, the two groups had tracked each other closely. All of the drop came in junior roles; senior adverts and offered pay held steady.
+
+**How it fits the evidence.** This echoes earlier studies on chatbots: firms slow down beginner hiring rather than lay people off. Still, adverts are not hires, and share prices move for all sorts of reasons, so treat this as an early warning.
+
+[Full entry](https://ajoly35.github.io/gen-ai-living-review/latest/#borri-et-al-2026-the-rise-of-agents-and-the-labor-market) · [Paper](https://arxiv.org/abs/2611.27210)
+
+### The race to build AI data centres may overshoot, and debt spreads the risk
+
+**What it explores.** Stijn Van Nieuwerburgh and Zijin Su, at Columbia, map who owes what to whom in the AI building boom. They trace the web of loans, leases, contracts and cross-shareholdings linking chipmaker NVIDIA, the cloud giants, two AI labs and data-centre landlords.
+
+**Why it matters.** In their model, firms build about half again more computing power than is best for society, spending over six trillion dollars, because each firm counts its own new sales without subtracting the sales it steals from rivals. Debt covers about three fifths of the bill. If AI disappoints badly, outside investors lose about seventeen trillion dollars, and lenders lose about two fifths of what they put in.
+
+**How it fits the evidence.** Forecasts of fast AI-driven growth assume this building goes ahead; the bigger and more debt-heavy the boom, the harder a disappointment hits. Because the figures rest on model assumptions, they show the scale of the risk rather than a prediction.
+
+[Full entry](https://ajoly35.github.io/gen-ai-living-review/latest/#van-nieuwerburgh-and-su-2026-clouds-of-credit-mapping-the-financial-web-behind-ai-compute) · [Paper](https://www.nber.org/papers/w36032)
+
+## How it fits together
+
+AI can help a business produce more, or produce the same output with fewer staff. So far, the second effect shows up mainly at the entry gate. Young hires in the jobs where AI fits best have fallen by up to a quarter in the United States, Sweden, the United Kingdom and France, while total headcount stays flat. Today's agent study tells the same story: fewer junior adverts, no layoffs.
+
+Pay can adjust too: elsewhere, pay in the jobs most open to AI fell by about a twentieth. Here it held, so firms seem to post fewer junior jobs rather than cheaper ones.
+
+Doing more with AI takes vast data centres, and rival firms racing one another may overbuild on borrowed money. Nobody yet knows how much fresh demand cheaper AI will unlock, and whether all this concrete and silicon will pay off in output and jobs, or end in write-downs.
+
+## One idea, explained: why people expect more job loss than the data show
+
+Picture a bakery that buys a fancy new oven. The brochure promises it can bake almost anything on its own. A year on, the oven has sped up a few steps. Nobody has been sacked, but the bakery took on one apprentice fewer.
+
+That is roughly where AI and work stand today. Sacher and colleagues at the Anthropic Institute (2026) asked about eleven thousand American adults what AI will do by 2030. Workers reckoned AI could handle over a quarter of their working hours by then. Those who expected AI to take over most of their own job also predicted much higher unemployment: about one worker in eight, compared with seven or eight in a hundred among everyone else. The hard data so far show no AI-driven rise in unemployment, only fewer openings for beginners.
+
+Expectations matter even when they run ahead of reality: they move share prices, reshape hiring plans and steer trillions of dollars into construction.
+
+For a student, the pinch is on the bottom rung: getting a first job may be harder than keeping one. For a worker, fear is not a forecast. For an employer, freezing junior hiring on a promise can leave you short of experienced people a few years down the line.
+
+## Where the evidence stands
+
+![Studies on jobs, hiring or pay, by research design. Orange: fewer jobs, hires or lower pay. Grey: no measurable effect. Blue: gains.](https://ajoly35.github.io/gen-ai-living-review/assets/vitals/direction-by-design-en.png)
+
+Each bar counts studies on jobs, hiring or pay: orange for fewer jobs, fewer hires or lower pay, grey for no clear effect, blue for gains. Workplace time-use experiments find gains, hiring studies find drops, and studies of overall employment find nothing yet. Today's paper on AI agents belongs in the orange slice of the hiring bar, with fewer junior adverts. The paper on data-centre finance tracks capital rather than jobs, so it sits outside the chart.
+
+## Read more
+
+[The living review](https://ajoly35.github.io/gen-ai-living-review/) · [Direction of the field](https://ajoly35.github.io/gen-ai-living-review/vitals/) · [Recent papers](https://ajoly35.github.io/gen-ai-living-review/latest/) · [Send a paper](https://github.com/ajoly35/gen-ai-living-review/issues/new?template=paper.yml)
+
+*A living review maintained by Adrien Joly, London School of Economics. Entries are written by an AI assistant from the paper itself and are not reviewed before they are sent. Figures are taken from the paper; the review's own assessment is in the caveat.*

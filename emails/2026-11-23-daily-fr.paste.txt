@@ -1,0 +1,63 @@
+# IA et travail, en bref : 23 novembre 2026
+
+# IA et travail, en bref
+
+
+
+## Aujourd'hui en trois lignes
+
+- Aux États-Unis, les entreprises les plus tournées vers les agents d'IA, des programmes capables d'enchaîner seuls plusieurs tâches, ont publié environ une offre d'emploi sur vingt de moins après l'amélioration de ces outils, surtout pour des postes de débutants.
+- Une seconde étude suit le financement des centres de données liés à l'IA : les entreprises pourraient en construire environ moitié plus que ce dont la société a besoin, en grande partie à crédit.
+- Les deux études racontent la même histoire : les espoirs mis dans l'IA déplacent les embauches et l'investissement plus vite que l'économie réelle.
+
+## La nouvelle recherche, en mots simples
+
+### Les entreprises les plus ouvertes aux agents d'IA ont réduit leurs offres pour débutants
+
+**Ce qu'elle explore.** Nicola Borri et trois collègues s'intéressent aux agents d'IA, des logiciels qui planifient, utilisent d'autres outils et agissent au lieu de simplement répondre. Ils identifient les entreprises américaines cotées dont l'action réagit le plus quand l'usage de ces agents s'envole, puis suivent leurs 35 millions d'offres d'emploi publiées de 2022 à mi-2026.
+
+**Pourquoi c'est important.** Fin septembre 2025, Anthropic a lancé un agent de programmation bien plus performant, ce qui a fait décoller l'usage des agents. Dans les six mois qui ont suivi, les entreprises les plus tournées vers ces outils ont publié environ une offre sur vingt de moins que des entreprises comparables qui y recourent moins. Jusque-là, les deux groupes suivaient le même rythme. Le recul touche les postes de débutants ; les offres pour profils expérimentés et les salaires affichés n'ont pas bougé.
+
+**Ce que cela change aux preuves.** On retrouve le constat déjà observé avec les chatbots : plutôt que de licencier, les entreprises recrutent moins de débutants. Reste qu'une annonce n'est pas une embauche, et qu'un cours de bourse varie pour bien des raisons. C'est donc un premier signal d'alerte.
+
+[Entrée complète](https://ajoly35.github.io/gen-ai-living-review/fr/latest/#borri-et-al-2026-the-rise-of-agents-and-the-labor-market) · [Article](https://arxiv.org/abs/2611.27210)
+
+### La course aux centres de données de l'IA pourrait aller trop loin, et la dette répand le risque
+
+**Ce qu'elle explore.** Stijn Van Nieuwerburgh et Zijin Su, à l'université Columbia, retracent qui doit quoi à qui dans la ruée vers l'IA : le fabricant de puces NVIDIA, les géants du cloud, deux laboratoires d'IA et les propriétaires de centres de données, tous reliés par des prêts, des loyers, des contrats et des participations croisées.
+
+**Pourquoi c'est important.** Selon leur modèle, les entreprises construisent environ moitié plus de capacités de calcul que ce qui profiterait à la société, pour plus de six mille milliards de dollars. Chacune compte ses futurs revenus sans déduire les ventes prises à ses concurrentes. Environ trois cinquièmes de la facture sont financés par l'emprunt. Si l'IA déçoit fortement, les investisseurs extérieurs perdent environ dix-sept mille milliards de dollars, et les prêteurs environ deux cinquièmes de leur mise.
+
+**Ce que cela change aux preuves.** Les scénarios de croissance rapide supposent que ces dépenses ont bien lieu ; mais plus l'emballement est massif et financé par la dette, plus la chute sera rude en cas de déception. Ces montants reposent sur des hypothèses : ils mesurent l'ampleur du risque, pas l'avenir.
+
+[Entrée complète](https://ajoly35.github.io/gen-ai-living-review/fr/latest/#van-nieuwerburgh-and-su-2026-clouds-of-credit-mapping-the-financial-web-behind-ai-compute) · [Article](https://www.nber.org/papers/w36032)
+
+## Comment les pièces s'assemblent
+
+L'IA aide une entreprise soit à produire davantage, soit à produire autant avec moins de bras. Ce second effet se voit surtout en bas de l'échelle. Dans les métiers les plus touchés par l'IA, les embauches de jeunes ont reculé jusqu'à un quart aux États-Unis, en Suède, au Royaume-Uni et en France, alors que l'emploi total tenait bon. Notre étude du jour sur les agents aboutit au même constat : moins d'annonces pour les débutants, mais pas de licenciements.
+
+Les salaires peuvent aussi s'ajuster : ailleurs, la paie dans les métiers les plus ouverts à l'IA a baissé d'environ un vingtième. Ici, elle a tenu : les entreprises semblent publier moins de postes de débutants plutôt que des postes moins payés.
+
+Produire plus grâce à l'IA exige d'immenses centres de données, et la course entre entreprises risque d'en faire sortir de terre beaucoup trop, financés à crédit. Une grande inconnue demeure : quelle demande nouvelle une IA moins coûteuse fera-t-elle naître ? C'est ce qui dira si ces dépenses accoucheront de production et d'emplois, ou de lourdes pertes.
+
+## Une idée expliquée : pourquoi on s'attend à plus de pertes d'emplois que ce que montrent les données
+
+Prenez une boulangerie qui s'équipe d'un nouveau four. Le vendeur jure que la machine fait presque tout toute seule. Un an après, le four a bien accéléré quelques étapes. La boulangerie n'a renvoyé personne, mais elle a recruté un apprenti de moins.
+
+Nous en sommes à peu près là avec l'IA et le travail. Sacher et ses collègues de l'Anthropic Institute (2026) ont interrogé environ onze mille adultes américains sur ce que l'IA changera d'ici 2030. Les salariés estiment qu'elle pourra prendre en charge plus d'un quart de leurs heures de travail. Ceux qui pensent qu'elle accomplira l'essentiel de leurs propres tâches anticipent aussi un chômage bien plus élevé : environ un actif sur huit, contre sept ou huit sur cent chez les autres. Pour l'heure, les chiffres ne montrent aucune poussée du chômage due à l'IA, mais seulement moins de portes ouvertes aux débutants.
+
+Même quand elles vont plus vite que le réel, les croyances comptent : elles orientent déjà la Bourse, les projets de recrutement et des milliers de milliards de dollars d'investissement.
+
+Pour un étudiant, l'obstacle se situe à la première marche : décrocher un poste risque d'être plus difficile que de le garder. Pour un salarié en poste, la crainte ne vaut pas prédiction. Et pour un employeur, fermer la porte aux débutants sur la foi d'une promesse technologique, c'est risquer de manquer de profils aguerris demain.
+
+## Où en sont les preuves
+
+![Études sur l'emploi, les embauches ou les salaires, par dispositif. Orange : moins d'emplois, d'embauches ou de salaire. Gris : pas d'effet mesurable. Bleu : gains.](https://ajoly35.github.io/gen-ai-living-review/assets/vitals/direction-by-design-fr.png)
+
+Chaque barre rassemble des études portant sur l'emploi, les embauches ou les salaires : en orange quand l'IA réduit l'emploi, les recrutements ou la paie, en gris quand aucun effet net ne ressort, en bleu quand il y a des gains. Les essais menés en entreprise montrent des gains, les suivis des recrutements montrent des replis, et les travaux sur l'emploi global ne décèlent encore rien. L'étude du jour sur les agents d'IA viendrait grossir la zone orange de la barre des embauches, avec moins d'annonces pour les débutants. Celle sur les centres de données parle de finance et non d'emploi : elle n'apparaît donc dans aucune barre.
+
+## Pour aller plus loin
+
+[La revue vivante](https://ajoly35.github.io/gen-ai-living-review/fr/) · [Où va la recherche](https://ajoly35.github.io/gen-ai-living-review/fr/vitals/) · [Articles récents](https://ajoly35.github.io/gen-ai-living-review/fr/latest/) · [Proposer un article](https://github.com/ajoly35/gen-ai-living-review/issues/new?template=paper.yml)
+
+*Une revue vivante tenue par Adrien Joly, London School of Economics. Les entrées sont rédigées par un assistant IA à partir de l'article lui-même et ne sont pas relues avant envoi. Les chiffres viennent de l'article ; l'appréciation de la revue est dans la limite.*
