@@ -1,0 +1,394 @@
+# This week's new research on AI and work, in plain words (7 briefs)
+
+---
+
+*2026-11-17*
+
+
+
+
+## Today in three lines
+
+- A new study asks if fast-improving AI will lift poor countries as quickly as rich ones. Across most of the futures it tests, poor countries grow richer, though rich countries gain even more.
+- In roughly half of those futures, the income gap between rich and poor countries widens by at least two fifths within 25 years.
+- Giving away cheap AI barely narrows that gap. Helping poor countries catch up on general know-how and build the skills needed to work alongside AI does much more.
+
+## New research, in plain words
+
+### AI may make poor countries richer, but rich countries richer still
+
+**What it explores.** Economists Daniel Björkegren, David Lagakos and Mitchell VanVuren, from Columbia, Boston University and Vanderbilt, set up a simple model of two economies, one rich and one poor, buying AI on the same global market. They run this setup many times over 25 years, testing different guesses about how well people and AI work together. In their scenarios, AI gets either a seventh or half again more useful each year.
+
+**Why it matters.** Most forecasts of AI and economic growth focus on rich countries. Yet over half the world's population lives in poorer ones, and the poorest countries make up only about one in a hundred visits to AI websites. The paper highlights two reasons they might fall behind. First, they may lack the human skills that make AI useful. Second, fast-growing rich countries might buy up so much AI that its price stays too high for everyone else.
+
+**How it fits the evidence.** This paper offers a theoretical model rather than real-world data, and its possible outcomes span a wide range. Even so, we cannot brush off its gloomier scenarios. Subsidising AI access for poor countries falls flat: every dollar spent brings them only about eleven cents in value. Helping them adopt the working methods of richer economies, closing even one hundredth of that gap each year, pays off far better. One of the authors has received research funding from AI companies.
+
+[Full entry](https://ajoly35.github.io/gen-ai-living-review/latest/#bjrkegren-lagakos-and-vanvuren-2026-will-ai-growth-reach-the-developing-world) · [Paper](https://www.nber.org/papers/w36035)
+
+## How it fits together
+
+Within rich countries, two forces pull in opposite directions when a company adopts AI. A firm can expand output and hire more staff, or produce the same amount with fewer people. So far, the second force has shown up first through a drop in entry-level hiring for young workers: up to a quarter fewer first jobs in the occupations most open to AI across the United States, Sweden, the United Kingdom and France. Overall employment has not budged.
+
+Today's paper tracks those same forces across borders. When AI replaces human work directly, rich countries win out because they can buy the most AI. When AI needs skilled people beside it, countries short on those workers gain less. Inside poor countries, the model predicts that skilled workers whose tasks AI can copy are the ones most likely to take a pay cut. That matches what our review sees in rich countries, where wages in the jobs most open to AI fell by about a twentieth while headcount stayed flat.
+
+The open questions remain: how much more people will buy when AI makes things cheaper, how fast firms will reorganise, and who captures the gains. Today's paper adds another: whether those gains will cross borders at all.
+
+## One idea, explained: why the slowest step decides how fast the economy can grow
+
+Picture a newsroom that gets an AI tool able to write a first draft in seconds. Even then, the newspaper does not publish ten times faster. Reporters still have to visit the scene, call sources and check every fact. Once writing a draft costs almost nothing, those slower steps set the limit on how many stories the newsroom can put out.
+
+Philippe Aghion, Benjamin Jones and Charles Jones made this exact point about the wider economy in 2019. When new technology makes certain goods cheap, people do not buy endless amounts of them. Instead, spending shifts toward goods and services that remain slow and hard to produce, such as care work, construction or haircuts. Those slow sectors end up setting the pace of overall growth. A recent paper on how scientists use AI spots the same bottleneck in research. If AI handled every task outside a physical lab, fields that do little lab work could produce fifteen times more research. Lab-heavy fields would speed up only three or four times, held back by work at the lab bench.
+
+Today's study adds a twist: missing skills can be a slow step too, and they slow poor countries more than rich ones.
+
+For workers and students, the practical takeaway is to spot the slow steps in any job: the tasks that rely on physical presence, good judgement or personal trust. Those are the parts AI is least likely to make cheap.
+
+## Where the evidence stands
+
+![Studies on jobs, hiring or pay, by research design. Orange: fewer jobs, hires or lower pay. Grey: no measurable effect. Blue: gains.](https://ajoly35.github.io/gen-ai-living-review/assets/vitals/direction-by-design-en.png)
+
+Orange marks fewer jobs, fewer hires or lower pay; grey means no clear change; blue shows gains. Workplace tests of individual speed show clear gains, studies of new hiring show drops, and counts of overall employment show no shift yet. Because today's paper models the future instead of counting past results, it adds no new bar to the chart. Still, its forecast of lower pay for skilled workers whose tasks AI can do lines up with the orange bars in our pay rows.
+
+## Read more
+
+[The living review](https://ajoly35.github.io/gen-ai-living-review/) · [Direction of the field](https://ajoly35.github.io/gen-ai-living-review/vitals/) · [Recent papers](https://ajoly35.github.io/gen-ai-living-review/latest/) · [Send a paper](https://github.com/ajoly35/gen-ai-living-review/issues/new?template=paper.yml)
+
+---
+
+*2026-11-18*
+
+
+
+
+## Today in three lines
+
+- When an AI tool started checking code on volunteer software projects, the people running those projects ended up with more work, not less: about a tenth more changes to review.
+- The AI made each check faster, yet it also brought in more submissions, many from automated accounts, and those took the longest to get accepted.
+- The lesson reaches beyond software: when AI makes work cheaper to produce, the human who has to check it can become the bottleneck.
+
+## New research, in plain words
+
+### An AI reviewer gave the people who run software projects more work, not less
+
+**What it explores.** Much of the world's software is written in the open. Anyone can suggest a change to a project, and a few people in charge, called maintainers, decide what goes in. In February 2025 GitHub, the main home of these projects, launched an AI reviewer that comments on every proposed change. Researchers at Tilburg University tracked about 4,000 popular projects from March 2024 to February 2026, comparing roughly 700 maintainers who turned the reviewer on with about 1,900 who had not, month by month.
+
+**Why it matters.** After turning the tool on, maintainers handled about a tenth more proposed changes than those who had not yet switched it on, and wrote about a seventh more comments on each one. Human contributors sent a burst of extra changes in the first month, followed by fewer and smaller ones than before. Submissions from automated accounts kept climbing, though, and took longer to be accepted. The tool sped up individual checks, yet it also grew the pile.
+
+**How it fits the evidence.** Our wider review finds that AI so far mostly saves time within existing jobs, while new kinds of work show up only when organisations change how they operate. This study points to a third result: a tool built to save time created extra work for the people who make the final call. Two caveats apply: maintainers chose whether to turn the tool on, and these are volunteer projects rather than paid teams.
+
+[Full entry](https://ajoly35.github.io/gen-ai-living-review/latest/#xu-medappa-and-tunc-2026-does-the-ai-reviewer-alleviate-or-aggravate-the-maintenance-burden-evidence-from-github-copilot-reviewer) · [Paper](https://arxiv.org/abs/2611.22793)
+
+## How it fits together
+
+Two forces pull in opposite directions when AI enters the workplace. AI can let a team do the same amount of work with fewer people, or it can make the work cheaper so that much more of it gets done. Today's study offers a small, clear example of the second force. Because reviewing got cheaper, more changes arrived, leaving the people in charge busier than before.
+
+The study also highlights how much depends on who decides how AI is used. Maintainers gave the machine the first look at each change while keeping the final say for themselves. Most firms use AI the same way today: as an assistant, with a human signing off at the end. Our review shows that these organisational choices, rather than the technology alone, decide whether AI cuts work or creates more of it. Here, keeping a person in charge made that person's time the scarce resource.
+
+Most of the wider evidence on jobs still points in another direction. Entry-level hiring for young people has dropped by up to a quarter in the occupations most open to AI across the United States, Sweden, the United Kingdom and France, alongside lower pay in some places, even as overall employment has barely budged. Today's paper does not track jobs or wages. Instead, it adds a practical warning: the work of checking output can grow just as fast as the work of producing it.
+
+## One idea, explained: how economists tell an effect from a coincidence
+
+Imagine a hospital ward gets a new heart monitor and, a month later, fewer patients suffer complications. Did the monitor do it? Or did winter end, or a new head nurse take over? To find out, you need a second ward that did not get the monitor, giving you a baseline for what would have happened anyway.
+
+That simple comparison sits behind the most trusted studies of AI at work. Brynjolfsson, Li and Raymond studied about 5,000 customer support agents at a large software firm. The company rolled out an AI chat assistant in stages, giving it to different teams on different dates. That staggered rollout let the researchers compare staff who already had the tool with colleagues who were still waiting for it during the very same weeks. Calls resolved per hour rose by about a seventh on average, and by about a third among the fifth of agents who had previously been the slowest.
+
+Today's software study relies on the same logic, comparing maintainers who turned the AI reviewer on with those who had not yet done so. Its main weakness is one to watch out for everywhere: maintainers chose for themselves whether to adopt the tool, and those who opted in may have been different from the outset.
+
+Whether you are a student, a worker or an employer, the practical rule of thumb is simple. Whenever someone claims "AI did this", ask: compared with whom?
+
+## Where the evidence stands
+
+![Studies on jobs, hiring or pay, by research design. Orange: fewer jobs, hires or lower pay. Grey: no measurable effect. Blue: gains.](https://ajoly35.github.io/gen-ai-living-review/assets/vitals/direction-by-design-en.png)
+
+Each bar counts studies on jobs, hiring or pay: orange for fewer jobs, fewer hires or lower pay, grey for no measurable effect, and blue for gains. Studies of how fast people work mostly find gains, studies of who gets hired find drops, and studies of total employment find nothing yet. Because today's paper measures workload rather than jobs or pay, it adds no new bar to the chart. What it does is help explain why the speed gains at the top do not automatically translate into fewer jobs: time saved on one task can quickly get swallowed up by extra work arriving at the next.
+
+## Read more
+
+[The living review](https://ajoly35.github.io/gen-ai-living-review/) · [Direction of the field](https://ajoly35.github.io/gen-ai-living-review/vitals/) · [Recent papers](https://ajoly35.github.io/gen-ai-living-review/latest/) · [Send a paper](https://github.com/ajoly35/gen-ai-living-review/issues/new?template=paper.yml)
+
+---
+
+*2026-11-19*
+
+
+
+
+## Today in three lines
+
+- In American federal courts, about one civil case in six now has someone arguing without a lawyer, up from about one in ten for the previous two decades.
+- Yet paid legal work has not shrunk: households spend more than before, and the biggest law firms earned about an eighth more in 2025.
+- Cheaper know-how did not empty the profession. People took on some work themselves, and cheaper firms picked up some of the rest.
+
+## New research, in plain words
+
+### More Americans now go to court without a lawyer, and the top law firms are still doing well
+
+**What it explores.** Zhang, Esposito and Yang ask what happens to a profession when AI makes expert knowledge cheap. They look at three groups in American legal services: individuals who might write their own court papers, companies that might hire their own lawyers, and law firms competing for the remaining work.
+
+**Why it matters.** After 2022, far more people started filing their own civil cases. In civil rights disputes, which require a written complaint, self-filed cases jumped from about a quarter to nearly two in five. Prisoners, who almost always file alone anyway, showed little change. That comparison suggests this is a genuine new trend rather than a broad shift in the courts. Meanwhile, companies did not bring more legal work inside: about three in ten private-sector lawyers worked directly for companies in both 2019 and 2024.
+
+**How it fits the evidence.** The biggest law firms raised their prices. In 2025, their revenue grew by about an eighth while their billed hours barely budged, and cheaper firms won more new business. Work is being reshuffled, not wiped out. One caveat: the authors work for an AI company that builds tests for legal AI, and much of this shift between firms started before ChatGPT.
+
+[Full entry](https://ajoly35.github.io/gen-ai-living-review/latest/#zhang-esposito-and-yang-2026-ai-specialization-and-the-organization-of-knowledge-work-evidence-from-legal-services) · [Paper](https://arxiv.org/abs/2611.23354)
+
+## How it fits together
+
+The review keeps coming back to two forces. AI can let a business do more, or let it do the same with fewer people. Today's study adds a third path that is easy to miss: the customer does the job alone. A tenant who drafts a complaint with a chatbot never shows up as a lost sale for a law firm, because they could not have afforded one. Household spending on lawyers stayed high, so this looks like new activity more than stolen business.
+
+The findings also back up a recurring theme of this review: how firms organise work decides where AI takes them. In theory, companies could use AI to handle more legal matters internally. So far they have not, partly because AI tools still stumble on long, complex legal tasks. In one test, the best system fully completed only about a quarter of them. Instead, companies send routine matters to cheaper firms and save the hard cases for expensive ones. That explains how top firms can charge more without logging extra hours.
+
+The paper says nothing about entry-level jobs. Elsewhere, our review finds up to a quarter fewer young hires in the roles AI can do most, across four countries. This study does not track junior hiring at law firms.
+
+## One idea, explained: what the growth figures cannot see
+
+Imas and Moll (2026) make a simple point about national accounts. Economic growth figures add up what people pay for things, not what those things are worth to the people using them. When a product gets cheaper, its weight in the official numbers shrinks. When it turns free, it vanishes from them completely. They cite estimates that Americans get about ten times more value from AI chatbots than they pay for them.
+
+Picture a bakery. A family that used to buy a birthday cake every year learns to bake at home using a good recipe app. The bakery sells one cake fewer, so measured economic output dips slightly. Yet the family still gets its cake, and maybe a better one.
+
+Today's paper offers a real-world version of that cake. Someone who drafts their own court filing with a free AI tool does unpaid legal work. In national statistics, nothing happened. In real life, that person gained access to a court they previously could not afford.
+
+If you are a worker or a student, treat headlines claiming AI has failed to boost growth with caution. Many of the benefits go straight to people as users rather than as earners, and those gains will not show up in pay slips or GDP figures for years.
+
+## Where the evidence stands
+
+![Studies on jobs, hiring or pay, by research design. Orange: fewer jobs, hires or lower pay. Grey: no measurable effect. Blue: gains.](https://ajoly35.github.io/gen-ai-living-review/assets/vitals/direction-by-design-en.png)
+
+Each bar counts studies on jobs, hiring or pay. Orange means fewer jobs, fewer hires or lower pay; grey means no measurable effect; blue means gains. Workplace experiments that time tasks find gains, studies of hiring find drops, and studies of overall employment find nothing yet. Today's paper belongs in the grey column for jobs: lawyers did not move in-house and law firms kept their hours steady. Its one clear shift, more people going to court alone, changes who does the work, something the chart does not track.
+
+## Read more
+
+[The living review](https://ajoly35.github.io/gen-ai-living-review/) · [Direction of the field](https://ajoly35.github.io/gen-ai-living-review/vitals/) · [Recent papers](https://ajoly35.github.io/gen-ai-living-review/latest/) · [Send a paper](https://github.com/ajoly35/gen-ai-living-review/issues/new?template=paper.yml)
+
+---
+
+*2026-11-20*
+
+
+
+
+## Today in three lines
+
+- Office workers who pictured using AI on a task said they would ask a colleague for help less often afterwards, especially when brainstorming.
+- When the team could see the AI chat, most of that pullback from colleagues vanished.
+- A second study finds that cheaper computing would raise national output by a few per cent, while leaving some workers stuck in the wrong industries.
+
+## New research, in plain words
+
+### Workers who lean on AI say they would ask their colleagues for help less
+
+**What it explores.** Chow and co-authors gave ten short work scenarios to 248 American office workers who use AI every week. Some scenarios used an AI assistant to complete the task, and others did not. After reading each one, workers rated how much they would want feedback from a colleague.
+
+**Why it matters.** Newcomers learn and teams build trust by asking colleagues for input. Using AI cut that wish for feedback by about a quarter of a point on a five-point scale, compared with working unaided, and by about two fifths when brainstorming. Letting the AI do the whole task rather than just help made no extra difference.
+
+**How it fits the evidence.** One firm's real records last month showed the opposite: staff who started using an AI assistant met with more colleagues than before. Today's study asks about imagined situations and relies on volunteers who already trust AI. Still, its most useful finding stands out: when the whole team could see the AI conversation, people kept turning to colleagues.
+
+[Full entry](https://ajoly35.github.io/gen-ai-living-review/latest/#chow-et-al-2026-ai-induced-social-erosion-using-llms-for-work-tasks-reduces-help-seeking-intentions-towards-colleagues) · [Paper](https://arxiv.org/abs/2611.25269)
+
+### If computing gets a third more productive, the world gets a little richer and some workers get stuck
+
+**What it explores.** Dueñas and Mandel build a computer model of 49 economies and 163 industries, using 2022 data on what industries bought from one another. They ask what happens if computing, software and telecoms firms grow about a third more productive over ten years.
+
+**Why it matters.** National output grows everywhere, rising by about three per cent in the European Union and nearly six in China. Yet farming and food shrink in countries such as Mexico and India, while digital industries pull workers in, mostly from services. Where switching industries is hard, the equivalent of about one German worker in a hundred ends up stuck in a job employers would rather cut.
+
+**How it fits the evidence.** This paper models a scenario rather than measuring actual events, and it covers all digital industries, not AI alone. Its main lesson is that national totals hide the people who have to change jobs.
+
+[Full entry](https://ajoly35.github.io/gen-ai-living-review/latest/#dueas-and-mandel-2026-structural-economic-change-under-the-digital-transformation) · [Paper](https://arxiv.org/abs/2611.26338)
+
+## How it fits together
+
+The review keeps coming back to two forces: AI can let a business do more, or do the same with fewer people. Today's model is a story of doing more. Cheaper computing makes the economy a little larger, but where moving between industries is slow, the pressure lingers.
+
+The first study speaks to how knowledge gets passed down at work. Junior staff have always learned by asking more experienced colleagues. When AI steps in, the newcomer gets the answer without the conversation. That sits alongside one of the review's main findings: up to a quarter fewer first jobs for young people across four countries in the work AI does best.
+
+Both studies also show that how work is organised decides the outcome. Teams that use AI in the open keep people talking, and countries where switching industries is easy spread the gains. We still do not know whether this drop in asking for help happens in real offices, or whether it slows down how fast newcomers learn.
+
+## One idea, explained: handing a decision to a machine
+
+Picture a hospital ward. A junior doctor unsure about a dose can ask the senior on duty, or turn to an AI assistant that never sighs at a question at three in the morning.
+
+The first experiments on handing decisions to AI show two things. In Herdağdelen, Joren and Tamkin (2026), experienced analysts paired with an AI agent picked the option it quietly favoured about six times in seven, and few credited it afterwards. Studying startup founders, Colaiacovo and Koning (2026) found that how much work firms gave to AI depended less on what founders thought AI could do than on whether they had rebuilt their workflows around it.
+
+Today's study adds a third point: helping or doing the whole task made no difference to how much workers then wanted their colleagues. Privacy did.
+
+For a worker, especially early in a career, the lesson is to keep asking people, because the conversation teaches more than the answer. For an employer, setting up AI in the open rather than behind closed doors shapes the team just as much as the tool itself.
+
+## Where the evidence stands
+
+![Studies on jobs, hiring or pay, by research design. Orange: fewer jobs, hires or lower pay. Grey: no measurable effect. Blue: gains.](https://ajoly35.github.io/gen-ai-living-review/assets/vitals/direction-by-design-en.png)
+
+Each bar counts studies on jobs, hiring or pay. Orange marks fewer jobs, fewer hires or lower pay; grey means no measurable effect; blue shows gains. Experiments that time people at work find gains, hiring studies find drops, and studies of total employment find nothing so far. Neither of today's papers would add a bar, since the first tracks intentions and the second models a scenario, though its mix of overall gains and local costs echoes the chart's blend of blue and orange.
+
+## Read more
+
+[The living review](https://ajoly35.github.io/gen-ai-living-review/) · [Direction of the field](https://ajoly35.github.io/gen-ai-living-review/vitals/) · [Recent papers](https://ajoly35.github.io/gen-ai-living-review/latest/) · [Send a paper](https://github.com/ajoly35/gen-ai-living-review/issues/new?template=paper.yml)
+
+---
+
+*2026-11-21*
+
+
+
+
+## Today in three lines
+
+- Two Federal Reserve economists find that Americans in the jobs AI can do most of now take longer to land work, while layoffs in those jobs barely moved.
+- Since ChatGPT arrived, unemployment in that group has risen by close to one point, more than twice as much as in jobs AI barely touches.
+- Their old pay advantage has faded too: the jobs remain, but they are harder to get and pay less than they would have.
+
+## New research, in plain words
+
+### People in jobs AI can do find new work more slowly, though few are being laid off
+
+**What it explores.** Hie Joo Ahn and Nicholas Carollo at the Federal Reserve Board track the monthly survey of American households from 2012 to May 2026. They group workers by how much of their job AI could handle, and by whether employers in their industry advertise for AI skills. They then watch who loses a job, who finds one, and who switches employers.
+
+**Why it matters.** Unemployment rises in two ways: more people lose their jobs, or job seekers wait longer to find one. Here it is the second. Between the end of 2022 and May 2026, unemployment rose by close to one point for workers in jobs AI can do most of, inside industries taking up AI. For workers in jobs AI barely touches, in industries not using it, unemployment rose by less than half a point. Job losses barely budged. People switched employers less often, yet changed tasks inside their current jobs more often. Firms seem to reshuffle work rather than let staff go.
+
+**How it fits the evidence.** This gives us the clearest national picture yet of what smaller studies have shown: AI brings fewer hires, not more firings. The unemployment rate the country settles at in normal times may have crept up by about a fifth of a point, or roughly one worker in five hundred, though that estimate is uncertain. Higher interest rates and a cooling in tech hiring hit at the same time, and early 2026 shows some recovery.
+
+[Full entry](https://ajoly35.github.io/gen-ai-living-review/latest/#ahn-and-carollo-2026-artificial-intelligence-and-labor-market-reallocation) · [Paper](https://www.frbsf.org/research-and-insights/publications/board-of-governors/2026/11/artificial-intelligence-labor-market-reallocation/)
+
+## How it fits together
+
+The review tracks two competing forces. AI can help a business do more and hire more, or do the same work with fewer people. Today's study points to the second path, in a quiet way. Employers are not showing people the door, they are just less likely to have an opening when a job seeker knocks. The review finds that same pattern for young people in the United States, Sweden, the United Kingdom and France, where first jobs in the work AI does best fell by up to a quarter compared with other jobs. Today's paper shows it goes beyond the young: anyone looking for work in those roles waits longer.
+
+It also speaks to pay. Before ChatGPT, wages grew faster in the jobs AI can now do than in other work, and that lead has faded. This matches the review's finding: by 2026, pay in the jobs most open to AI fell by about a twentieth compared with other jobs, with no change in the number of people employed. Jobs adjust first through who gets hired and what they earn, long before the roles disappear.
+
+Organisation still decides the direction: employers are redrawing who does what within jobs. Whether that ends in new tasks or fewer posts is still unknown, as is how much of the slowdown is AI rather than higher interest rates.
+
+## One idea, explained: when the job stays but the pay falls
+
+Picture a newsroom where an AI tool now writes first drafts of routine stories. Nobody is fired, and the same sub-editors come in each morning. Yet when one leaves, the paper hires a replacement on lower pay, because the role asks less and fewer rival papers are competing for those workers.
+
+That logic sits behind the work of Azar and co-authors (2026). They compare American jobs where AI can do much of the work with jobs where it can do little. By 2026, pay in the first group had dropped by about a twentieth compared with the second, while the number of people employed did not budge. An employer survey gives the same answer. Because graduates more often work in the jobs AI can do, this wage squeeze explains close to a third of the recent drop in the extra pay a degree brings.
+
+Why would pay fall in a job that AI makes more productive? Either employers need fewer of these workers, or more people can now do the work. Because hiring into these jobs dropped, weaker demand from employers is the likelier reason.
+
+For a worker, the lesson is that a job that survives AI may still pay less. For a student, it is worth asking not only "will this job exist?" but "will it still pay a premium?"
+
+## Where the evidence stands
+
+![Studies on jobs, hiring or pay, by research design. Orange: fewer jobs, hires or lower pay. Grey: no measurable effect. Blue: gains.](https://ajoly35.github.io/gen-ai-living-review/assets/vitals/direction-by-design-en.png)
+
+Each bar tallies studies on jobs, hiring or pay: orange marks fewer jobs, fewer hires or lower pay, grey marks no measurable effect, and blue marks gains. Workplace experiments that time tasks find gains, studies of who gets hired find drops, and studies of total employment find nothing yet. Today's paper adds orange to the hiring row. It also explains the grey in the total employment row: slower hiring adds up to only a small rise in national unemployment.
+
+## Read more
+
+[The living review](https://ajoly35.github.io/gen-ai-living-review/) · [Direction of the field](https://ajoly35.github.io/gen-ai-living-review/vitals/) · [Recent papers](https://ajoly35.github.io/gen-ai-living-review/latest/) · [Send a paper](https://github.com/ajoly35/gen-ai-living-review/issues/new?template=paper.yml)
+
+---
+
+*2026-11-22*
+
+
+
+
+## Today in three lines
+
+- A study of two and a half million research papers finds that, three years after ChatGPT arrived, science looks much as it would have anyway, aside from a few pet words.
+- That matters for growth: the boldest forecasts assume AI will speed up research, yet whole fields show little sign of that so far.
+- Jobs follow the same pattern: big gains on single tasks, little movement yet in the overall totals.
+
+## New research, in plain words
+
+### Three years of chatbots changed scientists' words, not yet the way science is done
+
+**What it explores.** Ron Bekkerman and three colleagues at the New Jersey Institute of Technology examined two and a half million research papers from 2015 to 2025 across computer science, mathematics, physics, health and life sciences. From word choice to team size, they tracked each feature over time and asked whether its path bent after late 2022, when chatbots took off, or simply carried on.
+
+**Why it matters.** The wording shifted. Out of about fourteen thousand common words, roughly eight hundred jumped in frequency after 2022, including chatbot favourites like "underscore", while about two hundred plain words like "good" faded. "Delve" surged, peaked in 2024, and then fell back as models changed and readers learned to spot it. Deeper habits held steady, though. Vocabulary variety, the share of technical terms, the range of topics and team sizes all stayed on the paths they followed before 2022. Only a few things broke trend: paper counts rose in computer science and physics, and computer science teams in Asia grew larger.
+
+**How it fits the evidence.** Critics worry that AI is flooding science with careless writing, while optimists hope it will speed up discovery. Looking across entire fields, this study sees neither so far. Still, it compares each field only with its own past, so it cannot prove what AI actually did, and word counts tell us little about the quality of ideas.
+
+[Full entry](https://ajoly35.github.io/gen-ai-living-review/latest/#bekkerman-et-al-2026-large-language-models-have-not-yet-transformed-science) · [Paper](https://arxiv.org/abs/2611.22975)
+
+## How it fits together
+
+The review's first finding is that big gains on single tasks have not yet shown up in the overall totals. In experiments, people using AI finish between a seventh and a third more work on certain tasks. Yet in Denmark, total employment, hours and earnings have not budged. Today's paper spots that same gap in science. Earlier this month, a study of how researchers use one AI assistant suggested that current tools could at most double a team's output. Across whole fields, though, the change so far is small.
+
+This matters well beyond science. Forecasts of rapid growth rely on AI helping people come up with new ideas faster. If research has not shifted into a higher gear yet, any economy-wide boost still lies ahead, if it arrives at all. Slow steps like lab work and checking may still set the pace.
+
+AI can help a team produce more, or do the same work with fewer people. In science, the picture so far is slightly higher output: more papers in some fields, rather than fewer researchers. In the job market, AI mainly shows up as fewer first jobs for young workers, down by up to a quarter in the work most open to AI across the United States, Sweden, the United Kingdom and France. How much of that drop comes from AI, and how much from everything else that changed after 2020, remains unknown.
+
+## One idea, explained: was it AI, or working from home?
+
+Imagine a hospital ward that brings in a new computer system in 2023. A year later, it hires fewer junior nurses. Did the computer do it? Maybe. Yet the ward also changed its shift patterns after the pandemic. Two things shifted at once, so the hiring numbers alone cannot tell us which mattered.
+
+Economists face this exact puzzle. ChatGPT arrived in late 2022, right after the big move to working from home. Deming (2026) argues that remote work paved the way for AI by turning office work into digital records. Emanuel and co-authors (2026) show that when a large firm closed its offices, young engineers lost most of the feedback they used to get from sitting near colleagues. The jobs most open to AI are also the jobs most often done from home, where junior staff learn less.
+
+Untangling these shifts is hard. When researchers compare occupations, much of what looks like an AI effect disappears once remote work is taken into account. Yet inside firms that adopted AI, junior roles fell just as sharply in work that cannot be done from home. Today's paper makes the same point for science: a jump in medical papers in 2023 was probably a bounce back from a pandemic dip, not the work of chatbots.
+
+For an employer or a student, the lesson is clear: before you blame or credit AI, ask what else changed at the same time.
+
+## Where the evidence stands
+
+![Studies on jobs, hiring or pay, by research design. Orange: fewer jobs, hires or lower pay. Grey: no measurable effect. Blue: gains.](https://ajoly35.github.io/gen-ai-living-review/assets/vitals/direction-by-design-en.png)
+
+Each bar counts studies on jobs, hiring or pay: orange marks fewer jobs, hires or lower pay, grey marks no measurable effect, and blue marks gains. Experiments that time people at work find gains, studies of hiring find drops, and studies of total employment find nothing yet. Because today's paper studies science rather than jobs, it has no bar. Even so, its message is closest to the grey: across a whole field, much like a whole economy, very little has moved so far.
+
+## Read more
+
+[The living review](https://ajoly35.github.io/gen-ai-living-review/) · [Direction of the field](https://ajoly35.github.io/gen-ai-living-review/vitals/) · [Recent papers](https://ajoly35.github.io/gen-ai-living-review/latest/) · [Send a paper](https://github.com/ajoly35/gen-ai-living-review/issues/new?template=paper.yml)
+
+---
+
+*2026-11-23*
+
+
+
+
+## Today in three lines
+
+- American companies with the most room to use AI agents, programs that run whole chains of tasks on their own, posted about one in twenty fewer job adverts after those agents improved, mostly for junior roles.
+- A second study follows the money behind AI data centres: companies may build about half again more capacity than society needs, much of it on borrowed money.
+- Both point in the same direction: hopes for AI are shifting hiring plans and investment faster than they are changing the economy.
+
+## New research, in plain words
+
+### Firms most open to AI agents cut junior job adverts once agents improved
+
+**What it explores.** Nicola Borri and three colleagues study AI agents, programs that plan, run software and take action rather than just answer questions. They identify the listed American companies whose share prices react most when agent use jumps, then count their job adverts, 35 million in all, from 2022 to mid-2026.
+
+**Why it matters.** In late September 2025, Anthropic released a much stronger coding agent, and agent use took off. Over the next six months, the firms most likely to use agents posted about one in twenty fewer job adverts than similar firms with less use for them. Before the release, the two groups had moved in step. The drop fell on junior roles, while senior adverts and advertised pay held steady.
+
+**How it fits the evidence.** This echoes what studies of chatbots have found: firms take on fewer beginners rather than lay staff off. Still, job adverts are not actual hires, and share prices move for all sorts of reasons, so treat this as an early warning.
+
+[Full entry](https://ajoly35.github.io/gen-ai-living-review/latest/#borri-et-al-2026-the-rise-of-agents-and-the-labor-market) · [Paper](https://arxiv.org/abs/2611.27210)
+
+### The race to build AI data centres may overshoot, and debt spreads the risk
+
+**What it explores.** Stijn Van Nieuwerburgh and Zijin Su, at Columbia, map who owes what to whom in the AI building boom: chipmaker NVIDIA, the cloud giants, two AI labs and data-centre landlords, all linked by loans, leases, contracts and cross-shareholdings.
+
+**Why it matters.** In their model, firms build about half again more computing power than is best for society, spending over six trillion dollars, because each firm counts the new sales it wins while ignoring the sales it steals from rivals. Debt pays for about three fifths of the bill. If AI disappoints badly, outside investors lose about seventeen trillion dollars, and lenders lose about two fifths of what they put in.
+
+**How it fits the evidence.** Fast-growth forecasts take this construction boom for granted, yet the bigger and more debt-heavy the boom, the harder any disappointment hits. Because the model's numbers rest on assumptions, they measure the scale of the risk rather than predict the future.
+
+[Full entry](https://ajoly35.github.io/gen-ai-living-review/latest/#van-nieuwerburgh-and-su-2026-clouds-of-credit-mapping-the-financial-web-behind-ai-compute) · [Paper](https://www.nber.org/papers/w36032)
+
+## How it fits together
+
+AI can help a business produce more, or produce the same output with fewer staff. So far, the second effect shows up mainly at the entry gate. Hiring of young people into the jobs where AI fits best has fallen by up to a quarter in the United States, Sweden, the United Kingdom and France, even as total employment stays flat. Today's study on agents sees the same pattern: fewer junior adverts, no sackings.
+
+Pay can adjust too: elsewhere, pay in the jobs most open to AI fell by about a twentieth. Here it held, so firms seem to post fewer junior jobs rather than cheaper ones.
+
+Expanding output with AI requires vast data centres, and rivals racing one another may build too many on borrowed money. Nobody yet knows how much new demand cheaper AI will unlock, or whether all this construction will pay off in output and jobs rather than financial losses.
+
+## One idea, explained: why people expect more job loss than the data show
+
+Imagine a bakery buying a fancy new oven. The brochure promises it can bake almost everything by itself. A year on, the oven has sped up a few tasks. Nobody has lost their job, yet the bakery hired one apprentice fewer.
+
+That is roughly where AI and work stand today. Sacher and colleagues at the Anthropic Institute (2026) asked about eleven thousand American adults what AI will do by 2030. Workers reckoned AI could handle over a quarter of their working hours by then. Those expecting AI to take over most of their own tasks also braced for much higher unemployment: about one worker in eight, compared with seven or eight in a hundred among everyone else. So far, actual data show no AI-driven rise in unemployment, only fewer openings for beginners.
+
+Expectations matter even when they run ahead of reality. Right now they are moving share prices, hiring plans and trillions of dollars in construction.
+
+For a student, the squeeze is on the bottom rung: getting a first job may prove harder than keeping one. For a worker, fear is a poor forecast. And for an employer, freezing junior recruitment on a promise can leave you short of seasoned staff a few years down the line.
+
+## Where the evidence stands
+
+![Studies on jobs, hiring or pay, by research design. Orange: fewer jobs, hires or lower pay. Grey: no measurable effect. Blue: gains.](https://ajoly35.github.io/gen-ai-living-review/assets/vitals/direction-by-design-en.png)
+
+Each bar counts studies of jobs, hiring or pay: orange for fewer jobs, fewer hires or lower pay, grey for no clear effect, blue for gains. Workplace experiments that time tasks find gains, studies of recruitment find drops, and studies of overall employment find nothing so far. Today's paper on AI agents belongs in the orange slice of the hiring bar, with its drop in junior adverts. Because the data-centre paper tracks finance rather than labour, it does not appear on the chart.
+
+## Read more
+
+[The living review](https://ajoly35.github.io/gen-ai-living-review/) · [Direction of the field](https://ajoly35.github.io/gen-ai-living-review/vitals/) · [Recent papers](https://ajoly35.github.io/gen-ai-living-review/latest/) · [Send a paper](https://github.com/ajoly35/gen-ai-living-review/issues/new?template=paper.yml)
+
+*A living review maintained by Adrien Joly, London School of Economics. Entries are written by an AI assistant from the paper itself and are not reviewed before they are sent. Figures are taken from the paper; the review's own assessment is in the caveat.*
