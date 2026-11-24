@@ -1,0 +1,31 @@
+GEN-AI, JOBS AND GROWTH
+One new study on AI and work, checked against its full text.
+
+Mohnen and Gans (2026), "How AI Impacts the Quest for Knowledge: Evidence from AlphaFold2"
+Ottawa and Toronto, NBER Working Paper 36045, November 2026. Paper. Difference in differences with a continuous treatment: each protein's AlphaFold2 prediction confidence, before and after the July 2021 release; 530,471 proteins, 2017 to 2025.
+
+What it finds. Where AlphaFold2 predicts shapes with more confidence, biologists shift experiments from unexplored proteins to ones already studied. The authors link 530,471 proteins to 92,918 experiments deposited in the Protein Data Bank from 2017 to 2025, comparing proteins with higher and lower prediction confidence before and after July 2021. Moving from the bottom to the top confidence quartile cuts the yearly chance that a protein far from any known structure gets its first experiment by about 0.16 percentage points, nearly half its 0.35% pre-release rate. First structures in a group of similar proteins fall 24%, while follow-up experiments rise 19%, complexes rise 26%, and total experiments rise 13%.
+
+Why it matters. For the companion review's section on automating ideas, this shows AI makes it cheaper to build on known results rather than pushing out the frontier. That channel is missing from the research feedback loops in Davidson et al. (2026) and Trammell and Korinek (2026). The paper also sharpens Lu et al. (2026) on breakthroughs exhausting themselves, and mirrors section “Exposure designs: hiring and entry”, where AI substitutes for the first rung.
+
+Caveat. Prediction confidence is not random, as low-confidence proteins are longer and better studied. The drop in first experiments shows up only in 2022 and 2023 before returning near zero, and database deposits count successful experiments rather than attempts.
+
+https://www.nber.org/papers/w36045
+https://ajoly35.github.io/gen-ai-living-review/latest/#mohnen-and-gans-2026-how-ai-impacts-the-quest-for-knowledge-evidence-from-alphafold2
+
+——————————————————————————————
+
+MAIN IDEAS
+- Large gains on tasks, none yet in the aggregates. In field experiments, generative AI raises output on narrow tasks by 14 to 34%, most for workers who were least productive before. In the Nordic registers, total employment, hours and earnings are unchanged so far.
+- The adjustment runs through entry, not layoffs. Young hires in the most exposed occupations have fallen in the US, Sweden, the UK and France, by up to a quarter relative to less exposed occupations, and contract ends fell too: firms stop hiring juniors rather than dismiss workers. Hires are a small flow, so the stock of jobs moves slowly and totals look flat.
+- Exposed occupations adjust through pay as well. Wages in the most exposed occupations fell by about 5% by 2026 with no change in headcount, and this explains close to a third of the fall in the college wage premium.
+- Firm-level results split. Some adopters cut junior employment by about 9% while senior employment is unchanged; others, especially the biggest spenders on AI, grew and hired more entrants. Who counts as an adopter drives much of the gap, and whether substitution or scale wins is the central open question.
+- Juniors lose because their tasks are the most codifiable. AI raises novices' output most, but hiring depends on demand for the firm's output, not on output per worker. If AI does the routine work juniors used to train on, firms have less reason to hire and train them.
+- Organisation decides the direction. Management quality, the cost of reorganising and the flexibility of labour law set how deeply firms adopt. So far AI mostly saves time within existing jobs and moves knowledge down the hierarchy; new tasks appear only where employers reorganise.
+- What is still unknown. How strongly demand responds to cheaper output, how much of the fall in entry is AI rather than remote work or a slowdown that began in 2022, where the fall in entry ends as models improve, and who captures the gains.
+
+Read the full review: https://ajoly35.github.io/gen-ai-living-review/
+Unsubscribe: {{ unsubscribe_url }}
+
+A living review maintained by Adrien Joly, London School of Economics.
+Entries are written by an AI assistant from the paper itself and are not reviewed before they are sent. Figures are taken from the paper; the review's own assessment is in the caveat.

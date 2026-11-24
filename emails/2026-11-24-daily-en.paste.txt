@@ -1,0 +1,51 @@
+# AI and work, in brief: 24 November 2026
+
+# AI and work, in brief
+
+
+
+## Today in three lines
+
+- AlphaFold2 predicts the shape of proteins, yet it did not push biologists towards unknown proteins. Where its guesses were surest, researchers studied known proteins more.
+- First experiments on unexplored proteins fell by close to half where the tool was most confident, compared with where its guesses were shaky. Follow-up work on known proteins rose by about a fifth.
+- This matches what the review finds in the job market: AI takes over the first step, and people crowd into the work that builds on it.
+
+## New research, in plain words
+
+### Where an AI tool guessed protein shapes well, scientists stopped exploring and dug deeper instead
+
+**What it explores.** Proteins do most of the work in our cells, and their shape decides what they do. Finding a single shape used to take a lab more than a year and cost up to a few hundred thousand dollars. In 2021, AlphaFold2 began predicting the shape of almost every known protein, though its guesses are surer for some than for others. Myra Mohnen and Joshua Gans track about half a million proteins from 2017 to 2025. They compare lab work on proteins with sure predictions against lab work on proteins with shaky ones, before and after the tool arrived.
+
+**Why it matters.** Many hopes for faster economic growth rest on AI speeding up science. The question is also which direction. Where predictions were surest, the chance that a protein far from anything already known got its first real experiment fell by close to half. Follow-up experiments on proteins already known rose by about a fifth, and studies of proteins working with partners by about a quarter. Total experiments rose by about an eighth. So the tool made science busier, but closer to home.
+
+**How it fits the evidence.** Two other recent papers point the same way. One finds that big AI breakthroughs pull researchers into the same crowded topics, exhausting those areas faster. Another shows that, three years after chatbots arrived, the overall shape of science has barely shifted. Still, the drop in first experiments faded after 2023, so we may be looking at a brief pause rather than a lasting turn.
+
+[Full entry](https://ajoly35.github.io/gen-ai-living-review/latest/#mohnen-and-gans-2026-how-ai-impacts-the-quest-for-knowledge-evidence-from-alphafold2) · [Paper](https://www.nber.org/papers/w36045)
+
+## How it fits together
+
+On jobs, the review's main finding is that AI hits the bottom rung of the ladder. In the United States, Sweden, the United Kingdom and France, hiring of young people entering the occupations most open to AI drops by up to a quarter, while older workers keep their jobs. Today's paper spots the exact same pattern in the lab. Because the tool handles the first step of finding a shape, fewer labs do that step themselves.
+
+This matters for economic growth for the same reason it matters for careers. Junior roles are how workers learn, and first experiments are how science discovers the unknown. When AI makes both seem less worthwhile, the short run looks great: higher output, more follow-up papers, more sales. The long run depends on who still explores. Today's paper adds a warning: future AI tools learn from the experiments scientists run today, so fewer first experiments now mean thinner training data later.
+
+We still do not know if this shift will last. Companies may hire juniors again once they reorganise their work, as some heavy AI users already do. Labs may head back to the frontier, as the fading drop after 2023 suggests. How people choose to organise, not the tool itself, sets the direction.
+
+## One idea, explained: can a worker displaced by AI retrain into something better?
+
+Picture a hospital ward where a medical secretary types up letters from doctors' notes. A voice tool arrives and writes the letters itself. The secretary could hunt for the same job at another hospital, where the same tool will soon follow. Or the secretary could train as a nursing assistant, a hands-on role that requires human presence and that AI cannot do.
+
+Hyman, Lahey, Ni and Pilossoph (2025) study this exact choice in the United States. They track job seekers who took publicly funded training courses, comparing them with similar job seekers who only got help looking for work. Among people coming from jobs most open to AI, trainees earned about &#36;900 more every three months than non-trainees. By 2022 to 2024, that gap had grown to about &#36;2,900, mostly because trainees switched into jobs less open to AI. Yet in about two in five occupations, workers actually earned more after moving into work more open to AI, not less.
+
+For workers, the takeaway is that training pays off most when it leads to a new kind of work, not the same job somewhere else. For employers, it shows that people leaving roles changed by AI can be hired and retrained. For students, it is a good reason to build skills that pair well with AI, or skills that AI cannot touch.
+
+## Where the evidence stands
+
+![Studies on jobs, hiring or pay, by research design. Orange: fewer jobs, hires or lower pay. Grey: no measurable effect. Blue: gains.](https://ajoly35.github.io/gen-ai-living-review/assets/vitals/direction-by-design-en.png)
+
+Each bar counts studies on jobs, hiring or pay. Orange marks studies finding fewer jobs, fewer hires or lower pay; grey means no measurable change; blue shows gains. Because today's paper studies science rather than the job market, it gets no bar of its own. Even so, its findings echo the "who gets hired" row: overall activity holds steady or grows, while the first step shrinks.
+
+## Read more
+
+[The living review](https://ajoly35.github.io/gen-ai-living-review/) · [Direction of the field](https://ajoly35.github.io/gen-ai-living-review/vitals/) · [Recent papers](https://ajoly35.github.io/gen-ai-living-review/latest/) · [Send a paper](https://github.com/ajoly35/gen-ai-living-review/issues/new?template=paper.yml)
+
+*A living review maintained by Adrien Joly, London School of Economics. Entries are written by an AI assistant from the paper itself and are not reviewed before they are sent. Figures are taken from the paper; the review's own assessment is in the caveat.*
