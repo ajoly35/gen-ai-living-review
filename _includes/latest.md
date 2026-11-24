@@ -1,5 +1,21 @@
 New papers on AI and labour markets and AI and growth, newest first, each placed against the review below. Every figure is checked against the paper itself.
 
+### Mohnen and Gans (2026), "How AI Impacts the Quest for Knowledge: Evidence from AlphaFold2"
+<!-- kind: paper -->
+
+Ottawa and Toronto, NBER Working Paper 36045, November 2026. [Paper](https://www.nber.org/papers/w36045). Difference in differences with a continuous treatment: each protein's AlphaFold2 prediction confidence, before and after the July 2021 release; 530,471 proteins, 2017 to 2025.
+
+**In brief.**
+What it explores: Whether an AI tool that predicts the shape of proteins led biologists to study new, unknown proteins, or to dig deeper into ones already known.
+Why it matters: Hopes of faster growth rest on AI speeding up discovery. If AI steers scientists towards familiar ground, new knowledge may grow more slowly than hoped.
+How it fits the evidence: As with jobs, AI replaces the first step: fewer first discoveries, more follow-up work on what is already known.
+
+**What it finds.** Where AlphaFold2's predictions are more confident, experiments shift from unexplored proteins to proteins already studied. The data link 530,471 proteins to 92,918 experiments deposited in the Protein Data Bank, 2017 to 2025, comparing proteins with more and less confident predictions before and after July 2021. Moving from the bottom to the top quartile of confidence lowers the annual chance that a protein far from any known structure gets its first experiment by about 0.16 percentage points, close to half its pre-release rate of 0.35%. First structures in a group of similar proteins fall 24%; follow-up experiments rise 19%, complexes 26%, total experiments 13%.
+
+**Where it fits.** For the companion review's section on automating ideas: AI lowers the cost of building on known results more than it extends the frontier, a channel absent from the research feedback loops of Davidson et al. (2026) and Trammell and Korinek (2026). It sharpens Lu et al. (2026) on breakthroughs exhausting themselves, and mirrors section [“Exposure designs: hiring and entry”](#exposure-designs-hiring-and-entry): AI substitutes for the first rung.
+
+**Caveat.** Confidence is not random: low-confidence proteins are longer and better studied. First experiments fall only in 2022 and 2023, then return near zero, and deposits count successful experiments, not attempts.
+
 ### Borri et al. (2026), "The Rise of Agents and the Labor Market"
 <!-- kind: paper -->
 
@@ -303,19 +319,3 @@ How it fits the evidence: It sits at the cautious end of growth forecasts and pr
 **Where it fits.** It adds a demand-side limit to the companion review's section on automating goods and services: beyond weak links (Aghion, Jones and Jones 2019; Jones and Tonetti 2026), growth can stall when innovation is paid from consumption. It projects far less than Korinek et al. (2026) because research responds to rents. Falling wages imply a high $$\sigma_o$$ ([Main patterns](#main-patterns)). Research subsidies offset the shortfall; redistribution does not.
 
 **Caveat.** AI's arrival rate is inferred from productivity estimates of 0.06 to 1.5 points a year; across tested values the shortfall ranges from 0.02 to 1.83 points. The result rests on rents earned only from consumers.
-
-### Conlon and Schwardmann (2026), "Creative destruction: Human-AI competition in an experimental market"
-<!-- kind: paper -->
-
-Ohio State University and Carnegie Mellon University, arXiv preprint, 12 October 2026. [Paper](https://arxiv.org/abs/2610.18921). Three preregistered online experiments with paid choices; who designed each game is revealed to randomly chosen buyers. A lab market, not labour market data.
-
-**In brief.**
-What it explores: Whether people directing an AI coding tool design better games than the AI alone, and whether buyers pay more for human-made games.
-Why it matters: Two hopes for keeping people in production are human taste and buyers' preference for human work. This tests both.
-How it fits the evidence: It adds the buyer's side to studies of AI and creative work. Neither hope holds here.
-
-**What it finds.** Games designed by an AI alone sold for more than games designed by people directing the same coding agent, and telling buyers who made a game changed nothing. Among 296 US participants who both designed and bought games, buyers paid &#36;0.47 on average to play an AI-designed game against &#36;0.37 for a human-designed one, a gap of 0.31 standard deviations. With 549 separate buyers, games by 180 creative professionals scored 0.16 standard deviations below AI games. Producers expected to beat the AI by 9 to 17 cents. Disclosing the designer left the AI premium unchanged: 6.8 cents blind against 6.0 cents disclosed.
-
-**Where it fits.** It tests the new task channel of Acemoglu et al. (2026) (section [“Organisation: who decides how AI is used”](#organisation-who-decides-how-ai-is-used)): directing AI gave people no edge in taste and a human label created no demand, suggesting a high $$\sigma_o$$ in creative design ([Main patterns](#main-patterns)). Producers took pride in the work, a loss GDP does not record, the theme of Imas and Moll (2026) (companion review).
-
-**Caveat.** Design took minutes, prices were cents and play lasted about a minute. The AI had one untested prompt, which if anything understates its edge.

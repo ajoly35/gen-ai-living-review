@@ -16,8 +16,6 @@ Chow, Kevin, Sophia Deng, Bowen He, Hanyi Min, Qiaosi Wang, Koustuv Saha, and Ve
 
 Cline, Alexander, and Barış Kaymak. 2026. *Job Finding and Unemployment in the Age of AI*. Economic Commentary 2026-26. Federal Reserve Bank of Cleveland. [Link](https://doi.org/10.26509/frbc-ec-202626).
 
-Conlon, John J., and Peter Schwardmann. 2026. *Creative Destruction: Human-AI Competition in an Experimental Market*. arXiv:2610.18921. [Link](https://arxiv.org/abs/2610.18921).
-
 Diener, Moritz, Daniel Hendriks, Philipp Spitzer, Gerhard Satzger, Joshua Holstein, and Wei Sun. 2026. *Today’s Work, Tomorrow’s Workforce: Incentivizing Learning in AI-Assisted Work*. arXiv:2611.06346. [Link](https://arxiv.org/abs/2611.06346).
 
 Dueñas, Marco, and Antoine Mandel. 2026. *Structural Economic Change under the Digital Transformation*. arXiv:2611.26338. [Link](https://arxiv.org/abs/2611.26338).
@@ -39,6 +37,8 @@ Lu, Beichen, Honglin Bao, Qi Huang, Qingguo Meng, and James A. Evans. 2026. *Str
 Major, Mike. 2026. *Monitoring Early Effects of AI on the Labour Market*. RBA Insight 2026-09. Reserve Bank of Australia, 9 November. [Link](https://www.rba.gov.au/publications/insights/australian-economy/2026/monitoring-early-effects-of-ai-on-the-labour-market.html).
 
 Mehdi, Tahsin, and Marc Frenette. 2026. *Hiring and Job Separation Rates in the Era of Generative Artificial Intelligence: Early Evidence*. Economic and Social Reports, Catalogue no. 36-28-0001. Statistics Canada, 28 October. [Link](https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026010/article/00003-eng.htm).
+
+Mohnen, Myra, and Joshua S. Gans. 2026. *How AI Impacts the Quest for Knowledge: Evidence from AlphaFold2*. Working Paper No. 36045. NBER. [Link](https://www.nber.org/papers/w36045).
 
 Rungcharoenkitkul, Phurichai. 2026. *Transformative AI and Demand Bottlenecks*. BIS Working Papers No. 1381. Bank for International Settlements. [Link](https://www.bis.org/publications/working-paper-1381-transformative-ai-and-demand-bottlenecks).
 

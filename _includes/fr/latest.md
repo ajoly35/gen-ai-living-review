@@ -1,5 +1,21 @@
 Nouveaux articles sur l'IA et les marchés du travail et sur l'IA et la croissance, du plus récent au plus ancien, chacun situé par rapport à la revue ci-dessous. Chaque chiffre est vérifié dans l'article lui-même.
 
+### Mohnen and Gans (2026), "How AI Impacts the Quest for Knowledge: Evidence from AlphaFold2" {#mohnen-and-gans-2026-how-ai-impacts-the-quest-for-knowledge-evidence-from-alphafold2}
+<!-- kind: paper -->
+
+Ottawa et Toronto, NBER Working Paper 36045, novembre 2026. [Article](https://www.nber.org/papers/w36045). Différence de différences à traitement continu : confiance de la prédiction d'AlphaFold2 pour chaque protéine, avant et après sa sortie en juillet 2021 ; 530,471 protéines, 2017 à 2025.
+
+**En bref.**
+Ce qu'elle explore : si un outil d'IA qui prédit la forme des protéines a poussé les biologistes vers des protéines nouvelles et inconnues, ou vers celles déjà connues.
+Pourquoi c'est important : l'espoir d'une croissance plus rapide repose sur une IA qui accélère la découverte. Si l'IA ramène les chercheurs en terrain connu, le savoir progresse moins vite.
+Ce que cela change aux preuves : comme pour l'emploi, l'IA remplace la première étape : moins de premières découvertes, plus de travaux de suite sur le déjà connu.
+
+**Ce que l'étude trouve.** Là où les prédictions d'AlphaFold2 sont plus sûres, les expériences se déplacent des protéines inexplorées vers les protéines déjà étudiées. Les données relient 530,471 protéines à 92,918 expériences déposées dans la Protein Data Bank, de 2017 à 2025, et comparent les protéines aux prédictions plus ou moins sûres, avant et après juillet 2021. Passer du quartile de confiance le plus bas au plus haut réduit d'environ 0.16 point de pourcentage la probabilité annuelle qu'une protéine éloignée de toute structure connue reçoive sa première expérience, soit près de la moitié de son taux d'avant la sortie (0.35%). Les premières structures d'un groupe de protéines similaires baissent de 24% ; les expériences de suite augmentent de 19%, les complexes de 26%, le total de 13%.
+
+**Où cela se place.** Pour la section de la revue compagnon sur l'automatisation des idées : l'IA abaisse le coût de bâtir sur des résultats connus plus qu'elle n'étend la frontière, un canal absent des boucles de rétroaction de la recherche de Davidson et al. (2026) et de Trammell et Korinek (2026). L'étude précise Lu et al. (2026) sur l'épuisement des percées et fait écho à la section [« Dispositifs d’exposition : embauches et entrée »](#exposure-designs-hiring-and-entry) : l'IA se substitue au premier échelon.
+
+**Limite.** La confiance n'est pas aléatoire : les protéines peu sûres sont plus longues et mieux étudiées. Les premières expériences ne baissent qu'en 2022 et 2023, puis reviennent près de zéro, et les dépôts comptent les expériences réussies, pas les tentatives.
+
 ### Borri et al. (2026), "The Rise of Agents and the Labor Market" {#borri-et-al-2026-the-rise-of-agents-and-the-labor-market}
 <!-- kind: paper -->
 
@@ -303,19 +319,3 @@ Ce que cela change aux preuves : elle se situe du côté prudent des prévision
 **Où cela se place.** L'étude ajoute une limite du côté de la demande à la section de la revue compagnon sur l'automatisation des biens et services : au-delà des maillons faibles (Aghion, Jones et Jones 2019 ; Jones et Tonetti 2026), la croissance peut caler quand l'innovation est financée par la consommation. Elle projette bien moins que Korinek et al. (2026), car la recherche répond aux rentes. La baisse des salaires implique un $$\sigma_o$$ élevé ([Principales régularités](#main-patterns)). Subventionner la recherche compense le manque à gagner ; redistribuer ne le fait pas.
 
 **Limite.** Le rythme d'arrivée de l'IA est déduit d'estimations de productivité de 0.06 à 1.5 point par an ; selon les valeurs testées, le manque à gagner va de 0.02 à 1.83 point. Le résultat repose sur des rentes tirées uniquement des consommateurs.
-
-### Conlon and Schwardmann (2026), "Creative destruction: Human-AI competition in an experimental market" {#conlon-and-schwardmann-2026-creative-destruction-human-ai-competition-in-an-experimental-market}
-<!-- kind: paper -->
-
-Ohio State University et Carnegie Mellon University, prépublication arXiv, 12 octobre 2026. [Article](https://arxiv.org/abs/2610.18921). Trois expériences en ligne préenregistrées, avec des choix rémunérés ; l'identité du concepteur de chaque jeu est révélée à des acheteurs tirés au sort. Un marché de laboratoire, pas des données du marché du travail.
-
-**En bref.**
-Ce qu'elle explore : si des personnes qui pilotent un outil de programmation par IA conçoivent de meilleurs jeux que l'IA seule, et si les acheteurs paient plus pour des jeux faits par des humains.
-Pourquoi c'est important : deux espoirs pour garder les humains dans la production sont le goût humain et la préférence des acheteurs pour le travail humain. L'étude teste les deux.
-Ce que cela change aux preuves : elle ajoute le côté des acheteurs aux études sur l'IA et le travail créatif. Aucun des deux espoirs ne se vérifie ici.
-
-**Ce que l'étude trouve.** Les jeux conçus par une IA seule se vendent plus cher que ceux conçus par des personnes qui pilotent le même agent de programmation, et dire aux acheteurs qui a conçu un jeu ne change rien. Parmi 296 participants américains, à la fois concepteurs et acheteurs, les acheteurs paient en moyenne &#36;0.47 pour jouer à un jeu conçu par l'IA, contre &#36;0.37 pour un jeu conçu par un humain, un écart de 0.31 écart-type. Auprès de 549 autres acheteurs, les jeux de 180 professionnels de la création obtiennent 0.16 écart-type de moins que ceux de l'IA. Les concepteurs pensaient battre l'IA de 9 à 17 cents. Révéler le concepteur ne modifie pas la prime de l'IA : 6.8 cents à l'aveugle, contre 6.0 cents avec l'information.
-
-**Où cela se place.** L'étude teste le canal des nouvelles tâches d'Acemoglu et al. (2026) (section [« Organisation : qui décide de l’usage de l’IA »](#organisation-who-decides-how-ai-is-used)) : piloter l'IA ne donne aux humains aucun avantage de goût, et la mention « fait par un humain » ne crée aucune demande, ce qui suggère un $$\sigma_o$$ élevé dans la conception créative ([Principales régularités](#main-patterns)). Les concepteurs étaient fiers de leur travail, une perte que le PIB n'enregistre pas, thème d'Imas et Moll (2026) (revue compagnon).
-
-**Limite.** La conception a duré quelques minutes, les prix se comptaient en cents et chaque partie environ une minute. L'IA n'avait qu'une consigne, sans test, ce qui sous-estime plutôt son avantage.
