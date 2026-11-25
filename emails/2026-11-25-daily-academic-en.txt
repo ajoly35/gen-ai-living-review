@@ -1,0 +1,59 @@
+GEN-AI, JOBS AND GROWTH
+One new study on AI and work, checked against its full text.
+
+Raymond and Dillon (2026), "AI-Assisted Programming and Labor Demand"
+MIT and Microsoft Research, arXiv preprint, 23 November 2026. Paper. Staggered difference in differences, with pre-scheduled GitHub contract reviews instrumenting Copilot adoption; 5,414 multinational firms, January 2021 to June 2025.
+
+What it finds. Adopting GitHub Copilot cuts technical hiring, mostly of juniors in code-heavy roles, without raising separations. The authors link GitHub adoption and contract records to Revelio employment data for 5,414 firms employing 38% of US programmers, comparing firms reviewed earlier with firms not yet reviewed. A review lifts adoption by 20 percentage points within a year, and monthly technical hiring is then 7.6% lower. Among firms induced to adopt, quarterly technical hiring drops 29%, from about 55 hires to 39, while junior software engineer hiring drops about 40%. Separations and total technical headcount stay flat.
+
+Why it matters. Our “Firm adoption studies” section gets its first study that accounts for which firms choose to adopt. It backs up Hosseini and Lichtinger (2025) and Borri et al. (2026): fewer junior hires, no layoffs. Even though AI helps novices produce more (Brynjolfsson, Li and Raymond 2025; Dillon et al. 2025), firms do not want more novices. Also, occupation-wide shocks explain at least half of the post-2022 drop in technical hiring, a warning for studies that rely on occupation-level AI exposure.
+
+Caveat. These estimates apply to the first year among large GitHub customers induced to adopt. Also, one author works at Microsoft, which owns GitHub and provided the adoption data.
+
+https://arxiv.org/abs/2611.31083
+https://ajoly35.github.io/gen-ai-living-review/latest/#raymond-and-dillon-2026-ai-assisted-programming-and-labor-demand
+
+——————————————————————————————
+
+Jones and Tonetti (2026), "Past Automation and Future AI: How Weak Links Tame the Growth Explosion"
+Stanford GSB, NBER Working Paper 36050, November 2026. Paper. Task-based growth accounting for the US since 1950 and a calibrated model of endogenous automation; theory and measurement, not a causal design.
+
+What it finds. Automation drove nearly all past US productivity growth, yet AI lifts growth slowly because the tasks people still do act as weak links. Combining BEA and BLS industry accounts with language model estimates of the cost share of newly automated tasks, the paper finds that machines' task productivity grew 4.9 percentage points a year faster than labour's in private business since 1950. Holding automated tasks fixed at 1950 wipes out 91% of automation's TFP contribution. With an elasticity across tasks of 0.2 and past patterns continuing, growth reaches 3.2% in 2050 and 4.8% in 2075, putting GDP per person 15% above trend in 2050. Growth explodes around 2150, or around 2050 under a computer-sector calibration.
+
+Why it matters. Relevant to the companion review's sections on aggregating task gains and automating goods and services, the paper measures the Aghion, Jones and Jones (2019) bottleneck and shows that it binds. Gains over the next decade therefore sit closer to Acemoglu (2025) than to Korinek et al. (2026). Explosive growth (Davidson et al. 2026) arrives late. Fernández-Villaverde (2026) argues that optimal saving cuts out much of the delay.
+
+Caveat. The cost share of newly automated tasks relies on language model queries, an untested measure, and the elasticity drives the timing of the acceleration. Jones is also at Anthropic.
+
+https://www.nber.org/papers/w36050
+https://ajoly35.github.io/gen-ai-living-review/latest/#jones-and-tonetti-2026-past-automation-and-future-ai-how-weak-links-tame-the-growth-explosion
+
+——————————————————————————————
+
+Fernández-Villaverde (2026), "Saving for the Machines"
+University of Pennsylvania, PIER Working Paper 26-018 (20 October 2026); NBER Working Paper 35964, November 2026. Paper. Calibrated task-based growth model of the US with optimal saving; theory, not a causal design.
+
+What it finds. Household saving decides whether automation brings a growth boom, even when tasks strongly complement each other. In a model calibrated to the US in 2025, where every task becomes automatable by 2045 with an elasticity across tasks of 0.2, growth in 2045 reaches 11.7% under optimal saving, compared with 2.2% if saving stays fixed at its 2025 rate of 23%. As machines earn more of total income, optimal saving climbs to about 56% of output. On impact, the ten-year real yield jumps from 5.1% to 13.6% (with an elasticity of one) or to 9.3% (at 0.2). Wage earners with no assets lose the equivalent of 40% to 65% of their consumption.
+
+Why it matters. This speaks to the companion review's sections on automating goods and services and on who captures the gains. The paper extends Imas and Moll (2026) by adding optimal saving and complementary tasks, and it shows that optimal saving turns the slow acceleration of Jones and Tonetti (2026) into double-digit growth. Machine costs put a cap on wages, echoing Restrepo (2025).
+
+Caveat. Treat these numbers as benchmarks, not forecasts. The model assumes the automation path, and the boom relies on an infinitely lived household willing to save over half of output.
+
+https://www.nber.org/papers/w35964
+https://ajoly35.github.io/gen-ai-living-review/latest/#fernández-villaverde-2026-saving-for-the-machines
+
+——————————————————————————————
+
+MAIN IDEAS
+- Large gains on tasks, none yet in the aggregates. In field experiments, generative AI raises output on narrow tasks by 14 to 34%, most for workers who were least productive before. In the Nordic registers, total employment, hours and earnings are unchanged so far.
+- The adjustment runs through entry, not layoffs. Young hires in the most exposed occupations have fallen in the US, Sweden, the UK and France, by up to a quarter relative to less exposed occupations, and contract ends fell too: firms stop hiring juniors rather than dismiss workers. Hires are a small flow, so the stock of jobs moves slowly and totals look flat.
+- Exposed occupations adjust through pay as well. Wages in the most exposed occupations fell by about 5% by 2026 with no change in headcount, and this explains close to a third of the fall in the college wage premium.
+- Firm-level results split. Some adopters cut junior employment by about 9% while senior employment is unchanged; others, especially the biggest spenders on AI, grew and hired more entrants. Who counts as an adopter drives much of the gap, and whether substitution or scale wins is the central open question.
+- Juniors lose because their tasks are the most codifiable. AI raises novices' output most, but hiring depends on demand for the firm's output, not on output per worker. If AI does the routine work juniors used to train on, firms have less reason to hire and train them.
+- Organisation decides the direction. Management quality, the cost of reorganising and the flexibility of labour law set how deeply firms adopt. So far AI mostly saves time within existing jobs and moves knowledge down the hierarchy; new tasks appear only where employers reorganise.
+- What is still unknown. How strongly demand responds to cheaper output, how much of the fall in entry is AI rather than remote work or a slowdown that began in 2022, where the fall in entry ends as models improve, and who captures the gains.
+
+Read the full review: https://ajoly35.github.io/gen-ai-living-review/
+Unsubscribe: {{ unsubscribe_url }}
+
+A living review maintained by Adrien Joly, London School of Economics.
+Entries are written by an AI assistant from the paper itself and are not reviewed before they are sent. Figures are taken from the paper; the review's own assessment is in the caveat.

@@ -1,0 +1,73 @@
+IA GÉNÉRATIVE, EMPLOI ET CROISSANCE
+La nouvelle recherche du jour sur l'IA et le travail, en mots simples.
+
+IA et travail, en bref
+
+
+
+Aujourd'hui en trois lignes
+
+- Un an après avoir adopté un assistant de code par IA, de grandes entreprises ont recruté plus d'un quart de techniciens en moins et environ deux cinquièmes de juniors en moins. Les licenciements n'ont pas augmenté.
+- Selon deux nouveaux modèles, l'IA accélère la croissance moins vite qu'espéré, à moins d'épargner beaucoup plus pour fabriquer les machines.
+- Les premiers emplois reculent d'abord, tandis que les grands gains se font attendre.
+
+La nouvelle recherche, en mots simples
+
+Les entreprises qui ont activé un assistant de code par IA ont embauché moins de jeunes programmeurs, sans licencier davantage
+
+Ce qu'elle explore. Lindsey Raymond et Eleanor Dillon suivent environ 5 400 grandes entreprises clientes de GitHub, une plateforme de gestion de logiciels qui a lancé un assistant de code par IA en 2023. Ces entreprises achètent leurs outils lors de rendez-vous contractuels fixés longtemps à l'avance : certaines ont reçu l'assistant plus tôt simplement parce que leur rendez-vous tombait plus tôt. Les autrices les comparent aux clientes qui attendaient encore leur tour.
+
+Pourquoi c'est important. Un an après avoir adopté l'assistant, ces entreprises ont recruté plus d'un quart de techniciens en moins et environ deux cinquièmes d'ingénieurs logiciels juniors en moins que celles qui attendaient encore. Les recrutements de profils expérimentés se sont maintenus et les départs n'ont pas augmenté. Sur une tâche donnée, l'IA aide surtout les débutants, mais les entreprises en embauchent moins.
+
+Ce que cela change aux preuves. C'est la démonstration la plus nette d'un constat déjà observé dans plusieurs pays : au lieu de licencier, les entreprises recrutent moins de débutants. Eleanor Dillon travaille chez Microsoft, propriétaire de GitHub, qui a fourni les données.
+
+Entrée complète · Article
+
+Les machines ont fait presque toute la croissance passée, mais les tâches encore faites par des personnes freinent l'IA
+
+Ce qu'elle explore. Sur soixante-dix ans de croissance américaine, Charles Jones et Christopher Tonetti calculent la part venue des machines qui reprennent des tâches humaines, avant de regarder vers l'avenir.
+
+Pourquoi c'est important. Si les machines s'étaient limitées à leurs tâches de 1950, environ neuf dixièmes des gains liés à l'automatisation auraient disparu. Pour la suite, la croissance n'accélère que lentement : si l'IA prolonge les tendances passées, le revenu par habitant en 2050 dépassera d'environ un septième seulement son niveau sans accélération.
+
+Ce que cela change aux preuves. Ce travail rejoint les prévisions prudentes. L'économie avance au rythme de ses maillons les plus lents, c'est-à-dire les tâches que seules des personnes accomplissent encore. Charles Jones travaille aussi chez Anthropic, une entreprise d'IA.
+
+Entrée complète · Article
+
+Qu'un boom arrive ou non pourrait dépendre de qui épargne pour payer les machines
+
+Ce qu'elle explore. Jesús Fernández-Villaverde suppose que des machines sauront tout faire d'ici 2045, et cherche combien les ménages épargneraient pour les fabriquer.
+
+Pourquoi c'est important. Avec ces mêmes machines, l'économie croît de plus d'un dixième par an si les ménages épargnent autant qu'il leur convient, mais d'environ un cinquantième seulement s'ils continuent d'épargner moins d'un quart de leur revenu, comme aujourd'hui. Une personne qui vit de son seul salaire, sans patrimoine, pourrait perdre jusqu'aux deux tiers de son pouvoir d'achat.
+
+Ce que cela change aux preuves. Cet article répond au précédent : une croissance lente peut venir d'une épargne insuffisante. Les deux travaux restent des expériences de pensée, pas des prévisions.
+
+Entrée complète · Article
+
+Comment les pièces s'assemblent
+
+Avec l'IA, une entreprise peut produire et recruter davantage, ou produire autant avec moins de personnel. L'étude sur le code illustre ce second cas : aucun poste supprimé, mais moins de débutants embauchés. Ce résultat rejoint le bilan dressé pour les jeunes aux États-Unis, en Suède, au Royaume-Uni et en France, où l'on compte jusqu'à un quart de premiers emplois en moins dans les métiers les plus ouverts à l'IA par rapport aux autres métiers.
+
+L'ensemble de l'économie va-t-il accélérer ? Oui, répondent Jones et Tonetti, mais sur des décennies. Pour Fernández-Villaverde, l'épargne compte tout autant. Tous deux préviennent que les salaires risquent de rester loin derrière la production quand les machines accompliront la plupart des tâches : posséder les machines comptera alors beaucoup. On ignore encore si des logiciels moins chers attireront assez de clients pour relancer l'embauche.
+
+Une idée expliquée : un diplôme vaut-il moins à l'ère de l'IA ?
+
+Imaginez un service hospitalier. Une jeune infirmière arrive avec le savoir des manuels ; une infirmière expérimentée sait repérer l'instant où l'état d'un patient se dégrade, un sens forgé au fil de centaines de nuits de garde. Mettez le manuel dans chaque téléphone du service : le savoir livresque cesse d'être rare. Le jugement, lui, le reste.
+
+Deux études récentes l'observent dans les salaires. Selon Azar et ses coauteurs, la rémunération des métiers les plus ouverts à l'IA a baissé d'environ un vingtième jusqu'en 2026 par rapport aux métiers bien moins ouverts, à effectifs inchangés. Comme les diplômés travaillent davantage dans ces métiers, ce recul explique environ trois dixièmes de la baisse récente de la prime au diplôme aux États-Unis. Selon Levy Yeyati et ses coauteurs, dans ces mêmes métiers, le gain salarial apporté par chaque année d'études a diminué d'environ un quatorzième après ChatGPT, tandis que celui des premières années d'expérience a augmenté.
+
+Un diplôme paie toujours, mais il vaut désormais davantage par ce que l'on apprend sur le terrain. Pour un étudiant, mieux vaut accumuler la pratique autant que les cours. Pour un employeur, l'étude du jour sur le code sonne comme un avertissement : si vous cessez de recruter des débutants, qui deviendra le personnel expérimenté que vous recherchez ?
+
+Où en sont les preuves
+
+!Études sur l'emploi, les embauches ou les salaires, par dispositif. Orange : moins d'emplois, d'embauches ou de salaire. Gris : pas d'effet mesurable. Bleu : gains.
+
+Orange : moins d'emplois, moins d'embauches ou des salaires en baisse ; gris : aucun effet mesurable ; bleu : des gains. Les expériences sur la vitesse de travail relèvent des gains, les études sur les recrutements montrent des baisses, et celles sur l'emploi total ne détectent encore rien. L'étude sur le code rejoint l'orange de la ligne « entreprises qui ont adopté », même si l'effectif total n'a pas bougé. Les articles sur la croissance modélisent l'avenir et n'ont donc pas de barre.
+
+Pour aller plus loin
+
+La revue vivante · Où va la recherche · Articles récents · Proposer un article
+
+Se désabonner: {{ unsubscribe_url }}
+
+Une revue vivante tenue par Adrien Joly, London School of Economics.
+Les entrées sont rédigées par un assistant IA à partir de l'article lui-même et ne sont pas relues avant envoi. Les chiffres viennent de l'article ; l'appréciation de la revue est dans la limite.

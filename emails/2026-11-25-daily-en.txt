@@ -1,0 +1,73 @@
+GEN-AI, JOBS AND GROWTH
+Today's new research on AI and work, in plain words.
+
+AI and work, in brief
+
+
+
+Today in three lines
+
+- Big firms that gave programmers an AI coding assistant hired more than a quarter fewer technical staff a year later, and about two fifths fewer juniors, compared with firms still waiting for the tool. Layoffs did not rise.
+- Two new models show AI lifting growth more slowly than many expect, unless we save far more to build the machines.
+- First jobs disappear earliest, while big economic gains take longer than headlines promise.
+
+New research, in plain words
+
+Companies that switched on an AI coding assistant hired fewer young programmers, but did not fire more
+
+What it explores. Lindsey Raymond and Eleanor Dillon track about 5,400 large companies on GitHub, a software management service that launched an AI coding assistant in 2023. Big firms buy new tools at contract meetings scheduled long in advance, so some got the assistant earlier simply because their meeting fell sooner. The authors compare these early adopters with firms still waiting for their renewal date.
+
+Why it matters. Compared with firms still waiting, companies that adopted the assistant hired more than a quarter fewer technical staff a year later, and about two fifths fewer junior software engineers. Hiring of experienced staff held up, and departures did not rise. Beginners gain the most from AI on a single task, yet firms hire fewer of them.
+
+How it fits the evidence. This offers the clearest test so far of a pattern seen across several countries: firms cut back on hiring beginners rather than firing existing staff. One author works at Microsoft, which owns GitHub and supplied the data.
+
+Full entry · Paper
+
+Machines drove almost all past growth, but the jobs people still do slow AI down
+
+What it explores. Charles Jones and Christopher Tonetti measure how much of the past seventy years of US growth came from machines taking over human tasks, and then project what comes next.
+
+Why it matters. If machines had stayed stuck doing only their 1950 tasks, about nine tenths of the growth gains from automation would have vanished. Looking ahead, growth speeds up, but slowly. If AI follows past patterns, income per person in 2050 will be only about a seventh higher than without it.
+
+How it fits the evidence. This backs the cautious forecasts. The economy moves only as fast as its slowest links, namely the tasks people still do by hand. One author also works at Anthropic, an AI company.
+
+Full entry · Paper
+
+Whether AI brings a boom may depend on who saves for the machines
+
+What it explores. Jesús Fernández-Villaverde imagines a world where machines can do every task by 2045, and asks how much households would save to build them.
+
+Why it matters. With the exact same technology, the economy grows by more than a tenth a year if households save freely to match the new opportunities, compared with only about a fiftieth a year if they keep saving under a quarter of their income as they do today. People who live solely on wages and own no capital could lose up to two thirds of what they can currently afford.
+
+How it fits the evidence. This replies directly to the paper above: slow growth may stem from saving too little rather than from weak technology. Both papers are thought experiments, not forecasts.
+
+Full entry · Paper
+
+How it fits together
+
+A firm that adopts AI can either produce more and hire more, or produce the same amount with fewer people. The coding study catches the second force in action: firms do not cut current staff, they just bring in fewer beginners. That matches our review's finding for young workers in the US, Sweden, the UK and France, who saw up to a quarter fewer first jobs in the occupations most open to AI compared with other occupations.
+
+The growth papers ask whether the broader economy will speed up. Jones and Tonetti say yes, though it will take decades. Fernández-Villaverde argues that saving matters just as much. Both warn that wages could lag far behind output once machines handle most tasks, making machine ownership crucial. One open question remains: will cheaper software attract enough new customers to make firms hire again?
+
+One idea, explained: is a degree worth less in the age of AI?
+
+Picture a hospital ward. A new nurse brings textbook knowledge, while an experienced nurse brings a feel for when a patient is taking a turn for the worse, built over hundreds of night shifts. Put the textbook on every phone in the ward, and book learning stops being scarce. Good judgement stays rare.
+
+Two recent studies spot this shift in paychecks. Azar and co-authors find that pay in jobs most open to AI fell by about a twentieth by 2026 compared with jobs much less open to it, even as employment numbers held steady. Because college graduates hold more of those AI-ready jobs, this drop explains about three tenths of the recent fall in the US degree pay premium. Similarly, Levy Yeyati and co-authors find that in jobs most open to AI, the extra pay for each year of schooling shrank by about a fourteenth after ChatGPT arrived, while the payoff from the first years of work experience rose.
+
+A degree still pays off, then, though more of its value now comes from learning on the job. Students should chase hands-on practice alongside their coursework. Employers, meanwhile, should read today's coding study as a warning: if you stop hiring beginners now, where will you find the experienced staff you prefer tomorrow?
+
+Where the evidence stands
+
+!Studies on jobs, hiring or pay, by research design. Orange: fewer jobs, hires or lower pay. Grey: no measurable effect. Blue: gains.
+
+In the chart, orange marks fewer jobs, fewer hires or lower pay; grey means no measurable change; blue shows gains. Workplace experiments on individual speed show clear gains, hiring studies show drops, and studies of overall employment find no shift yet. The coding study adds more orange to the "firms that adopted" row, even though total headcount held steady. Because the growth papers model the future rather than measure the past, they get no bar.
+
+Read more
+
+The living review · Direction of the field · Recent papers · Send a paper
+
+Unsubscribe: {{ unsubscribe_url }}
+
+A living review maintained by Adrien Joly, London School of Economics.
+Entries are written by an AI assistant from the paper itself and are not reviewed before they are sent. Figures are taken from the paper; the review's own assessment is in the caveat.
