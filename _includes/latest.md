@@ -1,5 +1,53 @@
 New papers on AI and labour markets and AI and growth, newest first, each placed against the review below. Every figure is checked against the paper itself.
 
+### Raymond and Dillon (2026), "AI-Assisted Programming and Labor Demand"
+<!-- kind: paper -->
+
+MIT and Microsoft Research, arXiv preprint, 23 November 2026. [Paper](https://arxiv.org/abs/2611.31083). Staggered difference in differences, with pre-scheduled GitHub contract reviews instrumenting Copilot adoption; 5,414 multinational firms, January 2021 to June 2025.
+
+**In brief.**
+What it explores: Whether large companies that gave their programmers an AI coding assistant then hired fewer programmers, and which ones.
+Why it matters: Beginners gain most from AI on single tasks. If firms still hire fewer of them, the first rung of a software career narrows.
+How it fits the evidence: It confirms, with a cleaner comparison than before, that firms adjust by hiring fewer juniors, not by laying people off.
+
+**What it finds.** Adopting GitHub Copilot cuts technical hiring, mostly of juniors in code-heavy roles, with no rise in separations. GitHub's adoption and contract records are linked to Revelio employment data for 5,414 firms holding 38% of the US programming workforce, comparing firms reviewed earlier with firms not yet reviewed. A review raises adoption by 20 percentage points within a year; monthly technical hiring is then 7.6% lower. Among firms induced to adopt, quarterly technical hiring falls 29%, from about 55 hires to 39, and junior software engineer hiring about 40%. Separations and technical headcount do not change.
+
+**Where it fits.** Section [“Firm adoption studies”](#firm-adoption-studies) gains its first adoption design that deals with selection. It confirms Hosseini and Lichtinger (2025) and Borri et al. (2026): fewer junior hires, no layoffs. Novice productivity gains (Brynjolfsson, Li and Raymond 2025; Dillon et al. 2025) do not raise demand for novices. Occupation-wide shocks explain at least half of the post-2022 fall in technical hiring, a warning for exposure designs.
+
+**Caveat.** Estimates cover large GitHub customers induced to adopt, over the first year. One author works at Microsoft, which owns GitHub and supplied the adoption data.
+
+### Jones and Tonetti (2026), "Past Automation and Future AI: How Weak Links Tame the Growth Explosion"
+<!-- kind: paper -->
+
+Stanford GSB, NBER Working Paper 36050, November 2026. [Paper](https://www.nber.org/papers/w36050). Task-based growth accounting for the US since 1950 and a calibrated model of endogenous automation; theory and measurement, not a causal design.
+
+**In brief.**
+What it explores: How much past US growth came from machines taking over tasks, and how fast AI could speed growth up if that continues.
+Why it matters: Forecasts for AI range from little change to explosive growth. This paper anchors them in seventy years of data.
+How it fits the evidence: Growth does speed up, but slowly: tasks people still do hold the whole economy back for decades.
+
+**What it finds.** Automation drove almost all past US productivity growth, yet AI speeds growth up slowly because tasks people still do are weak links. In BEA and BLS industry accounts, with language models gauging the cost share of newly automated tasks, machines' task productivity grew 4.9 percentage points a year faster than labour's in private business since 1950. Freezing automated tasks at 1950 removes 91% of automation's TFP contribution. With an elasticity across tasks of 0.2 and past patterns continuing, growth reaches 3.2% in 2050 and 4.8% in 2075; GDP per person is 15% above trend in 2050. Growth explodes around 2150, or 2050 in a computer-sector calibration.
+
+**Where it fits.** For the companion review's sections on aggregating task gains and automating goods and services: it measures the Aghion, Jones and Jones (2019) bottleneck and finds it binding, so next-decade gains sit nearer Acemoglu (2025) than Korinek et al. (2026). Explosive growth (Davidson et al. 2026) comes late. Fernández-Villaverde (2026) argues optimal saving undoes much of the delay.
+
+**Caveat.** The cost share of newly automated tasks comes from language model queries, an untested measure, and the elasticity drives the timing. Jones is also at Anthropic.
+
+### Fernández-Villaverde (2026), "Saving for the Machines"
+<!-- kind: paper -->
+
+University of Pennsylvania, PIER Working Paper 26-018 (20 October 2026); NBER Working Paper 35964, November 2026. [Paper](https://www.nber.org/papers/w35964). Calibrated task-based growth model of the US with optimal saving; theory, not a causal design.
+
+**In brief.**
+What it explores: Whether an economy where machines can do every job would grow fast, and who would save to pay for the machines.
+Why it matters: Building AI takes huge investment. If households do not save enough to pay for it, the promised boom may never come.
+How it fits the evidence: Slow growth in other models may come from too little saving, not only from tasks that people alone can do.
+
+**What it finds.** How much households save decides whether automation brings a growth boom, even when tasks are strong complements. In a model calibrated to the US in 2025, with every task automatable by 2045 and an elasticity across tasks of 0.2, growth in 2045 is 11.7% with optimal saving but 2.2% with saving fixed at its 2025 rate of 23%. Optimal saving rises to about 56% of output as machines earn more of income. The ten-year real yield jumps on impact from 5.1% to 13.6% (elasticity of one) or 9.3% (0.2). Wage earners without assets lose the equivalent of 40% to 65% of consumption.
+
+**Where it fits.** For the companion review's sections on automating goods and services and on who captures the gains: it extends Imas and Moll (2026) to optimal saving and complementary tasks, and argues that optimal saving turns the slow acceleration of Jones and Tonetti (2026) into double-digit growth. Wages capped by the cost of machines echo Restrepo (2025).
+
+**Caveat.** These are benchmarks, not forecasts: the automation path is assumed, and the boom rests on an infinitely lived household able to save over half of output.
+
 ### Mohnen and Gans (2026), "How AI Impacts the Quest for Knowledge: Evidence from AlphaFold2"
 <!-- kind: paper -->
 
@@ -271,51 +319,3 @@ How it fits the evidence: It offers a reason why firms may stop training juniors
 **Where it fits.** It formalises the training channel in section [“Why these patterns: theory”](#why-these-patterns-theory): as in Garicano and Rayo (2025), AI removes the routine work through which juniors paid for their training. It adds expert deskilling and an explicit price for practice, a choice that sits with employers (section [“Organisation: who decides how AI is used”](#organisation-who-decides-how-ai-is-used)). It does not test the junior hiring falls of Hosseini and Lichtinger (2025).
 
 **Caveat.** One worker, one task family and chosen parameters, not estimates. Skill grows only through unaided work; if engaged use of AI also teaches, the trap weakens, as the authors note.
-
-### Lu et al. (2026), "Stronger artificial intelligence breakthroughs hasten their own exhaustion"
-<!-- kind: paper -->
-
-University of Chicago Knowledge Lab and Tsinghua University, arXiv preprint, 19 October 2026. [Paper](https://arxiv.org/abs/2610.27296). Descriptive analysis of 36 years of computer science papers, career moves and peer reviews, with an illustrative simulation; outside the causal evidence standard, context for AI and growth.
-
-**In brief.**
-What it explores: Whether pouring more researchers and money into AI research produces more new ideas, or fewer different ones.
-Why it matters: Forecasts of very fast growth assume AI research speeds up as effort grows. Crowding onto one approach could slow it instead.
-How it fits the evidence: It adds a brake to growth forecasts: ideas get harder to find partly because everyone chases the same one.
-
-**What it finds.** Since the Transformer in 2017, computer science has grown while its attention narrowed, and each AI breakthrough was followed by faster exhaustion of its ideas. Across 7.18 million papers from 1990 to 2025, inequality of attention across keywords (a Gini coefficient) rose from 0.26 to 0.33 within eight years of 2017, after decades without change. Of 918,862 moves between subfields, 53.81% ended in AI, mostly by mid-career researchers. In 73,089 peer reviews, 2017 to 2025, reviewer confidence fell from 3.9 to 2.9 out of 5. Active ideas fell below their ceiling modestly after AlexNet, severely after the Transformer.
-
-**Where it fits.** It bears on the companion review's section on automating ideas. Growth models where ideas get harder to find (Aghion, Jones and Jones 2019) treat difficulty as a property of the idea space; here it also depends on how researchers spread their attention. That weakens the research feedback loops behind explosive growth in Davidson et al., in line with the slower paths of Rungcharoenkitkul (2026).
-
-**Caveat.** Nouns in abstracts stand in for ideas, and the post-2022 window is short. The paper does not link narrowing attention to output; the growth reading is ours.
-
-### Soda, Iorio and Rizzo (2026), "The Effects of Generative AI on Collaboration and Social Networks Among Knowledge Workers"
-<!-- kind: paper -->
-
-Bocconi University and SDA Bocconi, arXiv preprint, 23 October 2026. [Paper](https://arxiv.org/abs/2610.32461). Staggered difference in differences on logged collaboration data during a staged Microsoft Copilot rollout in one firm, checked with a shift-share instrument.
-
-**In brief.**
-What it explores: Whether office workers who start using an AI assistant talk to their colleagues less, or more.
-Why it matters: A common fear is that AI makes work lonelier and cuts the everyday contact through which people learn from each other.
-How it fits the evidence: It adds a social side to studies of AI and office work. Contact with colleagues rose rather than fell.
-
-**What it finds.** Workers who adopted Copilot spent more time collaborating, and with more colleagues. The data are Microsoft Viva Insights logs on 11,868 knowledge workers in one unit of a multinational consumer-products firm, September 2024 to September 2025: 1,992 sustained adopters against 9,876 never-adopters, with no gap before adoption. In the first three months after adoption, collaboration hours a worker initiated rose by 1.4 a month relative to never-adopters, mostly in meetings and calls. Adopters worked with about 2.2 more distinct colleagues a month, their networks became less clustered, and they gave more of their time to colleagues they already knew well.
-
-**Where it fits.** It informs section [“Who holds knowledge?”](#who-holds-knowledge): AI output still has to be checked and accepted by colleagues, so the assistant adds consultation rather than replacing it, unlike the shift to remote work in Yang et al. (2022). It nuances Dillon et al. (2025), where Copilot saves time within existing jobs: part of that time may go to coordination.
-
-**Caveat.** Workers partly chose when to start using the tool, and follow-up covers three months in one firm. Logs show who meets whom, not what they discuss or whether work improved.
-
-### Rungcharoenkitkul (2026), "Transformative AI and Demand Bottlenecks"
-<!-- kind: paper -->
-
-Bank for International Settlements, BIS Working Paper No. 1381, 10 October 2026. [Paper](https://www.bis.org/publications/working-paper-1381-transformative-ai-and-demand-bottlenecks). Calibrated endogenous growth model of automation and innovation; theory, no causal estimates.
-
-**In brief.**
-What it explores: Whether AI that automates ever more work could stall itself, because building machines leaves less consumer spending to pay for inventions.
-Why it matters: Some forecasts see growth of 13 to 18% a year within two decades. This asks who pays for the research.
-How it fits the evidence: It sits at the cautious end of growth forecasts and predicts lower wages than without AI for decades.
-
-**What it finds.** In the central calibration, AI raises growth briefly, then lowers it: trend growth settles 0.41 percentage points below the pre-AI 2%. Automation requires building machines, which shrinks the consumer spending that pays innovators; research stops paying and automation stalls, with labour's task share at 48% against 60% before. Output growth peaks just under 2.4% about 15 years after activation, and wages are 14.5% below the no-AI path after 20 years. The most optimistic scenario reaches 5.5% growth by year 20, against 13% in Jones and Tonetti (2026) and 18% in Korinek and Suh (2024). Trend growth ends below 2% in all 32 parameter combinations tested.
-
-**Where it fits.** It adds a demand-side limit to the companion review's section on automating goods and services: beyond weak links (Aghion, Jones and Jones 2019; Jones and Tonetti 2026), growth can stall when innovation is paid from consumption. It projects far less than Korinek et al. (2026) because research responds to rents. Falling wages imply a high $$\sigma_o$$ ([Main patterns](#main-patterns)). Research subsidies offset the shortfall; redistribution does not.
-
-**Caveat.** AI's arrival rate is inferred from productivity estimates of 0.06 to 1.5 points a year; across tested values the shortfall ranges from 0.02 to 1.83 points. The result rests on rents earned only from consumers.

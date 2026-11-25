@@ -1,5 +1,53 @@
 Nouveaux articles sur l'IA et les marchés du travail et sur l'IA et la croissance, du plus récent au plus ancien, chacun situé par rapport à la revue ci-dessous. Chaque chiffre est vérifié dans l'article lui-même.
 
+### Raymond and Dillon (2026), "AI-Assisted Programming and Labor Demand" {#raymond-and-dillon-2026-ai-assisted-programming-and-labor-demand}
+<!-- kind: paper -->
+
+MIT et Microsoft Research, prépublication arXiv, 23 novembre 2026. [Article](https://arxiv.org/abs/2611.31083). Différence de différences échelonnée, les revues de contrat GitHub programmées à l'avance servant d'instrument à l'adoption de Copilot ; 5,414 entreprises multinationales, de janvier 2021 à juin 2025.
+
+**En bref.**
+Ce qu'elle explore : si les grandes entreprises qui ont donné à leurs programmeurs un assistant de code par IA ont ensuite embauché moins de programmeurs, et lesquels.
+Pourquoi c'est important : les débutants gagnent le plus à l'IA sur une tâche donnée. Si les entreprises en embauchent quand même moins, le premier échelon d'une carrière en informatique se rétrécit.
+Ce que cela change aux preuves : l'étude confirme, avec une comparaison plus propre qu'auparavant, que les entreprises s'ajustent en embauchant moins de juniors, pas en licenciant.
+
+**Ce que l'étude trouve.** Adopter GitHub Copilot réduit les embauches techniques, surtout de juniors dans les postes très centrés sur le code, sans hausse des départs. Les données d'adoption et de contrats de GitHub sont reliées aux données d'emploi de Revelio pour 5,414 entreprises qui emploient 38% des programmeurs américains ; on compare les entreprises revues plus tôt à celles pas encore revues. Une revue augmente l'adoption de 20 points de pourcentage en un an ; les embauches techniques mensuelles sont alors inférieures de 7.6%. Parmi les entreprises amenées à adopter, les embauches techniques trimestrielles baissent de 29%, d'environ 55 à 39, et celles d'ingénieurs logiciels juniors d'environ 40%. Les départs et l'effectif technique ne changent pas.
+
+**Où cela se place.** La section [« Études d’adoption par les entreprises »](#firm-adoption-studies) gagne son premier dispositif d'adoption qui traite la sélection. L'étude confirme Hosseini et Lichtinger (2025) et Borri et al. (2026) : moins d'embauches juniors, pas de licenciements. Les gains de productivité des novices (Brynjolfsson, Li et Raymond 2025 ; Dillon et al. 2025) n'augmentent pas la demande de novices. Les chocs propres aux métiers expliquent au moins la moitié de la baisse des embauches techniques après 2022, un avertissement pour les dispositifs d'exposition.
+
+**Limite.** Les estimations portent sur de grands clients de GitHub amenés à adopter, sur la première année. Eleanor Dillon travaille chez Microsoft, propriétaire de GitHub et source des données d'adoption.
+
+### Jones and Tonetti (2026), "Past Automation and Future AI: How Weak Links Tame the Growth Explosion" {#jones-and-tonetti-2026-past-automation-and-future-ai-how-weak-links-tame-the-growth-explosion}
+<!-- kind: paper -->
+
+Stanford GSB, NBER Working Paper 36050, novembre 2026. [Article](https://www.nber.org/papers/w36050). Comptabilité de la croissance par tâches pour les États-Unis depuis 1950 et modèle calibré d'automatisation endogène ; théorie et mesure, pas de dispositif causal.
+
+**En bref.**
+Ce qu'elle explore : quelle part de la croissance américaine passée vient des machines qui reprennent des tâches, et à quelle vitesse l'IA pourrait accélérer la croissance si cela continue.
+Pourquoi c'est important : les prévisions sur l'IA vont du statu quo à une croissance explosive. Cet article les ancre dans soixante-dix ans de données.
+Ce que cela change aux preuves : la croissance accélère, mais lentement : les tâches encore faites par des personnes freinent toute l'économie pendant des décennies.
+
+**Ce que l'étude trouve.** L'automatisation explique presque toute la croissance passée de la productivité américaine, mais l'IA n'accélère la croissance que lentement, car les tâches encore faites par des personnes sont des maillons faibles. Dans les comptes par industrie du BEA et du BLS, avec des modèles de langage pour estimer la part des coûts des tâches nouvellement automatisées, la productivité des machines dans les tâches croît de 4.9 points de pourcentage par an plus vite que celle du travail dans le secteur privé depuis 1950. Figer les tâches automatisées à 1950 supprime 91% de la contribution de l'automatisation à la croissance de la PGF. Avec une élasticité entre tâches de 0.2 et la poursuite des tendances passées, la croissance atteint 3.2% en 2050 et 4.8% en 2075 ; le PIB par habitant dépasse sa tendance de 15% en 2050. La croissance explose vers 2150, ou vers 2050 avec une calibration sur le secteur informatique.
+
+**Où cela se place.** Pour les sections de la revue compagnon sur l'agrégation des gains par tâche et sur l'automatisation des biens et services : l'étude mesure le goulot d'étranglement d'Aghion, Jones et Jones (2019) et le trouve contraignant, si bien que les gains de la prochaine décennie sont plus proches d'Acemoglu (2025) que de Korinek et al. (2026). La croissance explosive (Davidson et al. 2026) arrive tard. Fernández-Villaverde (2026) soutient qu'une épargne optimale efface une bonne part de ce retard.
+
+**Limite.** La part des coûts des tâches nouvellement automatisées vient de requêtes à des modèles de langage, une mesure non éprouvée, et l'élasticité détermine le calendrier. Jones est aussi chez Anthropic.
+
+### Fernández-Villaverde (2026), "Saving for the Machines" {#fernndez-villaverde-2026-saving-for-the-machines}
+<!-- kind: paper -->
+
+Université de Pennsylvanie, PIER Working Paper 26-018 (20 octobre 2026) ; NBER Working Paper 35964, novembre 2026. [Article](https://www.nber.org/papers/w35964). Modèle de croissance par tâches calibré sur les États-Unis, avec épargne optimale ; théorie, pas de dispositif causal.
+
+**En bref.**
+Ce qu'elle explore : si une économie où les machines peuvent faire tous les emplois croîtrait vite, et qui épargnerait pour payer les machines.
+Pourquoi c'est important : construire l'IA demande des investissements énormes. Si les ménages n'épargnent pas assez pour les financer, le boom promis peut ne jamais venir.
+Ce que cela change aux preuves : la croissance lente d'autres modèles peut venir d'une épargne trop faible, pas seulement des tâches que seules les personnes savent faire.
+
+**Ce que l'étude trouve.** Le niveau d'épargne des ménages décide si l'automatisation apporte un boom de croissance, même quand les tâches sont fortement complémentaires. Dans un modèle calibré sur les États-Unis en 2025, où toutes les tâches deviennent automatisables d'ici 2045 avec une élasticité entre tâches de 0.2, la croissance en 2045 est de 11.7% avec une épargne optimale, mais de 2.2% si l'épargne reste à son taux de 2025, 23%. L'épargne optimale monte à environ 56% de la production, car les machines captent une part croissante du revenu. Le taux réel à dix ans bondit à l'impact de 5.1% à 13.6% (élasticité de un) ou 9.3% (0.2). Les salariés sans patrimoine perdent l'équivalent de 40% à 65% de leur consommation.
+
+**Où cela se place.** Pour les sections de la revue compagnon sur l'automatisation des biens et services et sur qui capte les gains : l'étude étend Imas et Moll (2026) à l'épargne optimale et aux tâches complémentaires, et soutient qu'une épargne optimale transforme l'accélération lente de Jones et Tonetti (2026) en croissance à deux chiffres. Des salaires plafonnés par le coût des machines rejoignent Restrepo (2025).
+
+**Limite.** Ce sont des repères, pas des prévisions : le sentier d'automatisation est supposé, et le boom repose sur un ménage à durée de vie infinie capable d'épargner plus de la moitié de la production.
+
 ### Mohnen and Gans (2026), "How AI Impacts the Quest for Knowledge: Evidence from AlphaFold2" {#mohnen-and-gans-2026-how-ai-impacts-the-quest-for-knowledge-evidence-from-alphafold2}
 <!-- kind: paper -->
 
@@ -271,51 +319,3 @@ Ce que cela change aux preuves : l'étude explique pourquoi les entreprises peu
 **Où cela se place.** L'étude formalise le canal de la formation de la section [« Pourquoi ces régularités : la théorie »](#why-these-patterns-theory) : comme chez Garicano et Rayo (2025), l'IA supprime le travail courant par lequel les débutants payaient leur formation. Elle y ajoute la perte de compétences des experts et un prix explicite de la pratique, choix qui revient aux employeurs (section [« Organisation : qui décide de l’usage de l’IA »](#organisation-who-decides-how-ai-is-used)). Elle ne teste pas la baisse des embauches de débutants chez Hosseini et Lichtinger (2025).
 
 **Limite.** Un seul travailleur, une seule famille de tâches et des paramètres choisis, non estimés. La compétence ne progresse que par le travail sans aide ; si l'usage actif de l'IA forme aussi, le piège s'atténue, comme le notent les auteurs.
-
-### Lu et al. (2026), "Stronger artificial intelligence breakthroughs hasten their own exhaustion" {#lu-et-al-2026-stronger-artificial-intelligence-breakthroughs-hasten-their-own-exhaustion}
-<!-- kind: paper -->
-
-Knowledge Lab de l'université de Chicago et université Tsinghua, prépublication arXiv, 19 octobre 2026. [Article](https://arxiv.org/abs/2610.27296). Analyse descriptive de 36 ans d'articles, de changements de spécialité et de rapports d'évaluation en informatique, avec une simulation illustrative ; hors du standard de preuve causale, contexte pour l'IA et la croissance.
-
-**En bref.**
-Ce qu'elle explore : si davantage de chercheurs et d'argent dans la recherche en IA produisent plus d'idées nouvelles, ou moins d'idées différentes.
-Pourquoi c'est important : les prévisions de croissance très rapide supposent que la recherche en IA accélère avec l'effort. Se ruer sur une seule approche pourrait la freiner.
-Ce que cela change aux preuves : l'étude ajoute un frein aux prévisions de croissance : les idées deviennent plus dures à trouver en partie parce que tous poursuivent la même.
-
-**Ce que l'étude trouve.** Depuis le Transformer en 2017, l'informatique a grandi tandis que son attention se concentrait, et chaque percée de l'IA a été suivie d'un épuisement plus rapide de ses idées. Sur 7.18 millions d'articles de 1990 à 2025, l'inégalité de l'attention entre mots-clés (un coefficient de Gini) passe de 0.26 à 0.33 dans les huit ans suivant 2017, après des décennies sans changement. Sur 918,862 changements de sous-domaine, 53.81% aboutissent à l'IA, surtout chez des chercheurs en milieu de carrière. Dans 73,089 rapports d'évaluation, de 2017 à 2025, la confiance des évaluateurs baisse de 3.9 à 2.9 sur 5. Les idées actives retombent sous leur plafond, modérément après AlexNet, fortement après le Transformer.
-
-**Où cela se place.** L'étude éclaire la section de la revue compagnon sur l'automatisation des idées. Les modèles de croissance où les idées deviennent plus dures à trouver (Aghion, Jones et Jones 2019) font de la difficulté une propriété de l'espace des idées ; ici, elle dépend aussi de la répartition de l'attention des chercheurs. Cela affaiblit les boucles de rétroaction de la recherche qui sous-tendent la croissance explosive chez Davidson et al., en accord avec les trajectoires plus lentes de Rungcharoenkitkul (2026).
-
-**Limite.** Les noms communs des résumés tiennent lieu d'idées, et la fenêtre après 2022 est courte. L'article ne relie pas la concentration de l'attention à la production ; la lecture en termes de croissance est la nôtre.
-
-### Soda, Iorio and Rizzo (2026), "The Effects of Generative AI on Collaboration and Social Networks Among Knowledge Workers" {#soda-iorio-and-rizzo-2026-the-effects-of-generative-ai-on-collaboration-and-social-networks-among-knowledge-workers}
-<!-- kind: paper -->
-
-Université Bocconi et SDA Bocconi, prépublication arXiv, 23 octobre 2026. [Article](https://arxiv.org/abs/2610.32461). Doubles différences échelonnées sur les traces de collaboration enregistrées pendant le déploiement progressif de Microsoft Copilot dans une entreprise, vérifiées par un instrument de type shift-share.
-
-**En bref.**
-Ce qu'elle explore : si les employés de bureau qui commencent à utiliser un assistant d'IA parlent moins, ou davantage, à leurs collègues.
-Pourquoi c'est important : on craint souvent que l'IA rende le travail plus solitaire et coupe les échanges quotidiens par lesquels on apprend des autres.
-Ce que cela change aux preuves : l'étude ajoute un volet social aux travaux sur l'IA et le travail de bureau. Les échanges entre collègues ont augmenté, pas baissé.
-
-**Ce que l'étude trouve.** Les salariés qui ont adopté Copilot passent plus de temps à collaborer, et avec davantage de collègues. Les données sont les traces Microsoft Viva Insights de 11,868 travailleurs du savoir d'une unité d'une multinationale des biens de consommation, de septembre 2024 à septembre 2025 : 1,992 adoptants durables comparés à 9,876 non-adoptants, sans écart avant l'adoption. Dans les trois mois suivant l'adoption, les heures de collaboration initiées par le salarié augmentent de 1.4 par mois par rapport aux non-adoptants, surtout en réunions et en appels. Les adoptants travaillent avec environ 2.2 collègues distincts de plus par mois, leurs réseaux deviennent moins regroupés, et ils consacrent une plus grande part de leur temps aux collègues qu'ils connaissaient déjà bien.
-
-**Où cela se place.** L'étude éclaire la section [« Qui détient le savoir ? »](#who-holds-knowledge) : le contenu produit par l'IA doit encore être vérifié et accepté par des collègues, si bien que l'assistant ajoute de la consultation au lieu de la remplacer, à l'inverse du passage au télétravail chez Yang et al. (2022). Elle nuance Dillon et al. (2025), où Copilot fait gagner du temps au sein des emplois existants : une partie de ce temps peut aller à la coordination.
-
-**Limite.** Les salariés ont en partie choisi quand commencer à utiliser l'outil, et le suivi couvre trois mois dans une seule entreprise. Les traces montrent qui rencontre qui, pas le contenu des échanges ni la qualité du travail.
-
-### Rungcharoenkitkul (2026), "Transformative AI and Demand Bottlenecks" {#rungcharoenkitkul-2026-transformative-ai-and-demand-bottlenecks}
-<!-- kind: paper -->
-
-Banque des règlements internationaux, BIS Working Paper No. 1381, 10 octobre 2026. [Article](https://www.bis.org/publications/working-paper-1381-transformative-ai-and-demand-bottlenecks). Modèle de croissance endogène calibré, avec automatisation et innovation ; théorie, sans estimation causale.
-
-**En bref.**
-Ce qu'elle explore : si une IA qui automatise toujours plus de travail peut se freiner elle-même, car construire des machines laisse moins de dépenses de consommation pour financer les inventions.
-Pourquoi c'est important : certaines prévisions annoncent une croissance de 13 à 18% par an d'ici vingt ans. L'étude demande qui paie la recherche nécessaire.
-Ce que cela change aux preuves : elle se situe du côté prudent des prévisions de croissance et prédit des salaires plus bas que sans IA pendant des décennies.
-
-**Ce que l'étude trouve.** Dans le calibrage central, l'IA accélère brièvement la croissance, puis la ralentit : la croissance tendancielle se stabilise 0.41 point de pourcentage sous les 2% d'avant l'IA. L'automatisation exige de construire des machines, ce qui réduit les dépenses de consommation qui rémunèrent les innovateurs ; la recherche cesse d'être rentable et l'automatisation s'arrête, avec une part des tâches du travail de 48%, contre 60% auparavant. La croissance de la production culmine juste sous 2.4% environ 15 ans après l'activation, et les salaires sont 14.5% sous la trajectoire sans IA au bout de 20 ans. Le scénario le plus optimiste atteint 5.5% de croissance à 20 ans, contre 13% chez Jones et Tonetti (2026) et 18% chez Korinek et Suh (2024). La croissance tendancielle finit sous 2% dans les 32 combinaisons de paramètres testées.
-
-**Où cela se place.** L'étude ajoute une limite du côté de la demande à la section de la revue compagnon sur l'automatisation des biens et services : au-delà des maillons faibles (Aghion, Jones et Jones 2019 ; Jones et Tonetti 2026), la croissance peut caler quand l'innovation est financée par la consommation. Elle projette bien moins que Korinek et al. (2026), car la recherche répond aux rentes. La baisse des salaires implique un $$\sigma_o$$ élevé ([Principales régularités](#main-patterns)). Subventionner la recherche compense le manque à gagner ; redistribuer ne le fait pas.
-
-**Limite.** Le rythme d'arrivée de l'IA est déduit d'estimations de productivité de 0.06 à 1.5 point par an ; selon les valeurs testées, le manque à gagner va de 0.02 à 1.83 point. Le résultat repose sur des rentes tirées uniquement des consommateurs.

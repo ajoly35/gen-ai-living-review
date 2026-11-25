@@ -22,11 +22,13 @@ Dueñas, Marco, and Antoine Mandel. 2026. *Structural Economic Change under the 
 
 Esposito, Mark, and Liu Zhang. 2026. *AI and the Two Margins of Work: Why Job Losses Show Up Before Job Creation*. arXiv:2611.17530. [Link](https://arxiv.org/abs/2611.17530).
 
+Fernández-Villaverde, Jesús. 2026. *Saving for the Machines*. Working Paper No. 35964. NBER; PIER Working Paper 26-018, University of Pennsylvania. [Link](https://www.nber.org/papers/w35964).
+
 Fleck, Lara, Marie-Christine Fregin, Andries de Grip, and Sanne Steens. 2026. *AI Implementation at Work: Worker Preferences for Task Changes*. IZA Discussion Paper No. 19076. IZA@LISER Network, November. [Link](https://www.iza.org/publications/dp/19076/ai-implementation-at-work-worker-preferences-for-task-changes).
 
 Hermle, Johannes, Benjamin Jones, Lukas Althoff, Ryan Heller, Thomas Lyttelton, Carolyn Stein, Nathan Wilmers, Maxim Massenkoff, and Peter McCrory. 2026. *AI for Scientific Discovery: How Researchers Use Claude*. Technical Report. The Anthropic Institute, 5 November. [Link](https://www.anthropic.com/research/how-researchers-use-claude).
 
-Jones, Charles I., and Christopher Tonetti. 2026. *Past Automation and Future A.I.: How Weak Links Tame the Growth Explosion*. Working Paper. Stanford University. [Link](https://web.stanford.edu/~chadj/JonesTonetti_Automation.pdf).
+Jones, Charles I., and Christopher Tonetti. 2026. *Past Automation and Future AI: How Weak Links Tame the Growth Explosion*. Working Paper No. 36050. NBER. [Link](https://www.nber.org/papers/w36050).
 
 Korinek, Anton, and Donghyun Suh. 2024. *Scenarios for the Transition to AGI*. Working Paper No. 32255. NBER. [Link](https://www.nber.org/papers/w32255).
 
@@ -39,6 +41,8 @@ Major, Mike. 2026. *Monitoring Early Effects of AI on the Labour Market*. RBA In
 Mehdi, Tahsin, and Marc Frenette. 2026. *Hiring and Job Separation Rates in the Era of Generative Artificial Intelligence: Early Evidence*. Economic and Social Reports, Catalogue no. 36-28-0001. Statistics Canada, 28 October. [Link](https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026010/article/00003-eng.htm).
 
 Mohnen, Myra, and Joshua S. Gans. 2026. *How AI Impacts the Quest for Knowledge: Evidence from AlphaFold2*. Working Paper No. 36045. NBER. [Link](https://www.nber.org/papers/w36045).
+
+Raymond, Lindsey, and Eleanor Dillon. 2026. *AI-Assisted Programming and Labor Demand*. arXiv:2611.31083. [Link](https://arxiv.org/abs/2611.31083).
 
 Rungcharoenkitkul, Phurichai. 2026. *Transformative AI and Demand Bottlenecks*. BIS Working Papers No. 1381. Bank for International Settlements. [Link](https://www.bis.org/publications/working-paper-1381-transformative-ai-and-demand-bottlenecks).
 
