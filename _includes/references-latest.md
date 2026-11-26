@@ -2,6 +2,8 @@ Aghion, Philippe, Benjamin F. Jones, and Charles I. Jones. 2019. “Artificial I
 
 Ahn, Hie Joo, and Nicholas A. Carollo. 2026. *Artificial Intelligence and Labor Market Reallocation*. Working paper. Board of Governors of the Federal Reserve System, 16 July; posted by the Federal Reserve Bank of San Francisco, 17 November. [Link](https://www.frbsf.org/research-and-insights/publications/board-of-governors/2026/11/artificial-intelligence-labor-market-reallocation/).
 
+Bastani, Spencer, Georg Graetz, Bernat Pla, and Oskar Nordström Skans. 2026. *AI, Automation, and Fiscal Pressure*. arXiv:2611.34234. [Link](https://arxiv.org/abs/2611.34234).
+
 Bekkerman, Ron, Nichole Li, Bahareh Kargar, and Mark Somers. 2026. *Large Language Models Have Not Yet Transformed Science*. arXiv:2611.22975. [Link](https://arxiv.org/abs/2611.22975).
 
 Björkegren, Daniel, David Lagakos, and Mitchell VanVuren. 2026. *Will AI Growth Reach the Developing World?* Working Paper No. 36035. NBER. [Link](https://www.nber.org/papers/w36035).
@@ -15,8 +17,6 @@ Chin, Caroline, Shagun Kala, Nadav Kunievsky, Teng Liu, Alex Martin Richmond, an
 Chow, Kevin, Sophia Deng, Bowen He, Hanyi Min, Qiaosi Wang, Koustuv Saha, and Vedant Das Swain. 2026. *AI-Induced Social Erosion: Using LLMs for Work Tasks Reduces Help-Seeking Intentions Towards Colleagues*. arXiv:2611.25269. [Link](https://arxiv.org/abs/2611.25269).
 
 Cline, Alexander, and Barış Kaymak. 2026. *Job Finding and Unemployment in the Age of AI*. Economic Commentary 2026-26. Federal Reserve Bank of Cleveland. [Link](https://doi.org/10.26509/frbc-ec-202626).
-
-Diener, Moritz, Daniel Hendriks, Philipp Spitzer, Gerhard Satzger, Joshua Holstein, and Wei Sun. 2026. *Today’s Work, Tomorrow’s Workforce: Incentivizing Learning in AI-Assisted Work*. arXiv:2611.06346. [Link](https://arxiv.org/abs/2611.06346).
 
 Dueñas, Marco, and Antoine Mandel. 2026. *Structural Economic Change under the Digital Transformation*. arXiv:2611.26338. [Link](https://arxiv.org/abs/2611.26338).
 
@@ -34,15 +34,17 @@ Korinek, Anton, and Donghyun Suh. 2024. *Scenarios for the Transition to AGI*. W
 
 Korinek, Anton, Charles I. Jones, Szymon Sacher, Tess Cotter, and Peter McCrory. 2026. *Economic Scenarios for Transformative AI*. Working Paper No. 2026-02. The Anthropic Institute.
 
-Lu, Beichen, Honglin Bao, Qi Huang, Qingguo Meng, and James A. Evans. 2026. *Stronger Artificial Intelligence Breakthroughs Hasten Their Own Exhaustion*. arXiv:2610.27296. [Link](https://arxiv.org/abs/2610.27296).
+Levy Yeyati, Eduardo. 2026. *Burning the Bridge: Agentification and Domestic Value Added*. arXiv:2611.31518. [Link](https://arxiv.org/abs/2611.31518).
 
-Major, Mike. 2026. *Monitoring Early Effects of AI on the Labour Market*. RBA Insight 2026-09. Reserve Bank of Australia, 9 November. [Link](https://www.rba.gov.au/publications/insights/australian-economy/2026/monitoring-early-effects-of-ai-on-the-labour-market.html).
+Lu, Beichen, Honglin Bao, Qi Huang, Qingguo Meng, and James A. Evans. 2026. *Stronger Artificial Intelligence Breakthroughs Hasten Their Own Exhaustion*. arXiv:2610.27296. [Link](https://arxiv.org/abs/2610.27296).
 
 Mehdi, Tahsin, and Marc Frenette. 2026. *Hiring and Job Separation Rates in the Era of Generative Artificial Intelligence: Early Evidence*. Economic and Social Reports, Catalogue no. 36-28-0001. Statistics Canada, 28 October. [Link](https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026010/article/00003-eng.htm).
 
 Mohnen, Myra, and Joshua S. Gans. 2026. *How AI Impacts the Quest for Knowledge: Evidence from AlphaFold2*. Working Paper No. 36045. NBER. [Link](https://www.nber.org/papers/w36045).
 
 Raymond, Lindsey, and Eleanor Dillon. 2026. *AI-Assisted Programming and Labor Demand*. arXiv:2611.31083. [Link](https://arxiv.org/abs/2611.31083).
+
+Rost, Vincent, and Fabian Stephany. 2026. *Will AI Replace Juniors? How Task Complexity Reduces Automation Risk*. arXiv:2611.34099. [Link](https://arxiv.org/abs/2611.34099).
 
 Rungcharoenkitkul, Phurichai. 2026. *Transformative AI and Demand Bottlenecks*. BIS Working Papers No. 1381. Bank for International Settlements. [Link](https://www.bis.org/publications/working-paper-1381-transformative-ai-and-demand-bottlenecks).
 

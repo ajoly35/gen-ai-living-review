@@ -1,5 +1,53 @@
 New papers on AI and labour markets and AI and growth, newest first, each placed against the review below. Every figure is checked against the paper itself.
 
+### Rost and Stephany (2026), "Will AI Replace Juniors? How Task Complexity Reduces Automation Risk"
+<!-- kind: paper -->
+
+ZEW Mannheim and Oxford Internet Institute, arXiv preprint, 25 November 2026. [Paper](https://arxiv.org/abs/2611.34099). Pre-registered survey experiment with managers of 1,435 German firms; outcomes are stated choices, not realised hiring.
+
+**In brief.**
+What it explores: Whether managers would use AI instead of hiring a beginner, and whether that depends on how routine the beginner's work is.
+Why it matters: If only routine starter work is at risk, beginners who take on tasks needing judgement keep a way in.
+How it fits the evidence: It supports the view that juniors lose because their tasks are easiest to write down as rules, not because they are junior.
+
+**What it finds.** Managers are less willing to replace a junior with AI when the work needs judgement. In the ZEW business survey, fielded June to August 2026, managers of German information-economy and manufacturing firms were randomly shown a lasting need for either standardised tasks or tasks needing judgement and context. Complex tasks lower willingness to use AI instead of hiring by 0.54 points on a five-point scale, from a mean of 3.21, and raise the importance of human review by 0.15 points, from 4.32. Asked before the scenario, 31% expect AI to cut their entry-level hiring over two years and 25% their experienced hiring; 5.5% and 10.1% expect increases.
+
+**Where it fits.** Section [“Why these patterns: theory”](#why-these-patterns-theory): it tests the codifiability mechanism directly. Managers sort entry work by task, not by seniority, consistent with Hosseini and Lichtinger (2025) and Raymond and Dillon (2026). Expected cuts for experienced hires too contradict a simple story of seniors complementing AI. It identifies a mechanism, not the size of $$b_o$$ ([Main patterns](#main-patterns)).
+
+**Caveat.** Answers are stated intentions about a hypothetical, from frequent AI users; large firms are overrepresented. The expectation shares are descriptive and say nothing about how many hires change.
+
+### Bastani et al. (2026), "AI, Automation, and Fiscal Pressure"
+<!-- kind: paper -->
+
+Uppsala University and IFAU, arXiv preprint, 25 November 2026. [Paper](https://arxiv.org/abs/2611.34234). Two-sector task-based general equilibrium model with tax-funded public services, calibrated to 2023 accounts and tax data for the EU-27 and each member state; theory and calibration.
+
+**In brief.**
+What it explores: Whether growth driven by AI automation makes it easier or harder for European governments to pay for health care and schools.
+Why it matters: Many hope AI growth will ease tight budgets. If it shifts income from taxed wages to lightly taxed profits, deficits grow instead.
+How it fits the evidence: It adds a public finance channel to the debate on who captures AI gains: the state loses when the wage share falls.
+
+**What it finds.** Automation widens the primary deficit at unchanged tax rates if public services keep pace with demand. Labour is taxed at 37.0% and capital at 19.6% in the EU-27, so a lower labour share erodes the base. In the benchmark, the automated task share rises 5 points in the market sector and 2.5 in public services. Output grows 12.3%, and the deficit rises by 0.87 points of value added, almost all from the tax base. The rise runs from 0.41 points in Luxembourg to 1.43 in Slovakia. If public services are frozen in real terms, the deficit instead falls by 1.54 points.
+
+**Where it fits.** For the companion review's sections on aggregating task gains and on who captures the gains: it uses Acemoglu (2025) task cost savings and the Aghion, Jones and Jones (2019) Baumol logic, but finds the tax-base channel, not cost disease, drives fiscal pressure. It complements Imas and Moll (2026) and Restrepo (2025) on a falling labour share.
+
+**Caveat.** Automation is exogenous, capital supply perfectly elastic, and unemployment is left out. Results hinge on each automated task initially saving 20% of cost and on how governments set provision.
+
+### Levy Yeyati (2026), "Burning the Bridge: Agentification and Domestic Value Added"
+<!-- kind: paper -->
+
+Universidad Torcuato Di Tella and Inter-American Development Bank, arXiv preprint, 23 November 2026. [Paper](https://arxiv.org/abs/2611.31518). Small open economy model of firms importing foreign AI agents, with scenario maps calibrated to 2014 Brazilian and Mexican accounts; theory, not a causal design.
+
+**In brief.**
+What it explores: What happens to a middle-income country's income when local firms hand work to AI agents sold by foreign companies.
+Why it matters: Each firm saves money, but the payments go abroad. The country as a whole can end up poorer.
+How it fits the evidence: It warns that productivity gains at adopting firms need not become national income where AI is imported.
+
+**What it finds.** Once wages hit workers' reservation floor, using more foreign agents in local services lowers domestic income even if agents are cheap. Real value added also falls if suppliers capture enough of the saving: above a bargaining share of about 0.15 in local services for Brazil (0.17 for Mexico). Exporters can pay for agents by selling more abroad, so their threshold is higher, about 0.66 for Brazil and 0.45 for Mexico. Using 2014 WIOD accounts, the paper maps how much export growth is needed to keep income and consumption unchanged. Cheaper agents ease the consumption requirement; lower export prices raise it.
+
+**Where it fits.** For the companion review's section on who captures the gains: it extends Restrepo (2025) and Imas and Moll (2026) to an open economy where rents go to foreign suppliers. It sharpens Björkegren, Lagakos and VanVuren (2026) on whether AI growth reaches developing countries, adding a balance of payments constraint.
+
+**Caveat.** Task replacement, agent costs and bargaining shares are not observed but varied as scenarios. The maps show where gains and losses occur, not where Brazil or Mexico stand today.
+
 ### Raymond and Dillon (2026), "AI-Assisted Programming and Labor Demand"
 <!-- kind: paper -->
 
@@ -271,51 +319,3 @@ How it fits the evidence: AI shows up in spending and in fewer first jobs, not y
 **Where it fits.** For growth, it supports the companion review's "what the data show so far": AI enters GDP through investment before productivity, with Jones and Tonetti (2026) weak links as a brake. For labour, it reads the entry evidence as Tucker (2026) and Hosseini and Lichtinger (2025) do: fewer young hires, small aggregate effects (section [“Exposure designs: hiring and entry”](#exposure-designs-hiring-and-entry)).
 
 **Caveat.** A synthesis, not new estimates. Most of the analysis was completed in June 2026, and the revenue figures rest on unaudited company statements.
-
-### Major (2026), "Monitoring Early Effects of AI on the Labour Market"
-<!-- kind: paper -->
-
-Reserve Bank of Australia, RBA Insight 2026-09, 9 November 2026. [Paper](https://www.rba.gov.au/publications/insights/australian-economy/2026/monitoring-early-effects-of-ai-on-the-labour-market.html). Labour-market indicators by occupational AI exposure and age against a November 2022 benchmark; descriptive monitoring, reported as context.
-
-**In brief.**
-What it explores: Whether Australians in the jobs most open to AI, and young people, have fared worse since ChatGPT arrived.
-Why it matters: A central bank needs early warning if AI starts to push up unemployment, before it shows in national totals.
-How it fits the evidence: It finds the faint pattern seen elsewhere: little change overall, weaker outcomes for young workers in jobs open to AI.
-
-**What it finds.** There is little sign yet that AI has disrupted Australia's labour market, with tentative signs of weaker outcomes for young workers in the most exposed occupations. Occupations are ranked into employment-weighted quintiles by Jobs and Skills Australia's automation exposure measure (from Gmyrek et al. 2023). Job ads and Labour Force Survey data, complete to February 2026, are compared with November 2022. New top-quintile ads slowed a little more, led by clerks, programmers, ICT analysts, call-centre workers and receptionists. Job-finding and job-loss rates show little gap by exposure. Employment and hours grew a little less in exposed occupations, and within them young workers did worse. Results are in charts only.
-
-**Where it fits.** It adds Australia to section [“Exposure designs: hiring and entry”](#exposure-designs-hiring-and-entry), next to the US, Sweden, the UK and France. Unlike Cline and Kaymak (2026) for the US, it finds no gap in job-finding rates by exposure. Like Mehdi and Frenette (2026) for Canada, it is an official monitoring exercise, not an estimate of $$b_o$$ ([Main patterns](#main-patterns)).
-
-**Caveat.** Exposure measures potential, not actual use. The 2022 benchmark was an exceptionally tight youth labour market, so later weakness may be cyclical, and post-pandemic remote work hits the same groups.
-
-### Cline and Kaymak (2026), "Job Finding and Unemployment in the Age of AI"
-<!-- kind: paper -->
-
-Federal Reserve Bank of Cleveland, Economic Commentary 2026-26, 9 November 2026. [Paper](https://www.clevelandfed.org/publications/economic-commentary/2026/ec-202626-job-finding-and-unemployment-in-the-age-of-ai). Worker flows by occupational AI exposure, 2015–2019 against 2024–2026, seasonal controls only, no pre-trend test; descriptive, reported as context.
-
-**In brief.**
-What it explores: Whether Americans whose work AI can do are losing jobs, or struggling to find new ones.
-Why it matters: Losing a job and failing to find one call for different help: protecting people in work, or supporting job seekers.
-How it fits the evidence: It supports the view that AI means fewer hires, not more layoffs, with young people hit hardest.
-
-**What it finds.** In the most AI-exposed US occupations, unemployment rose because the unemployed took longer to find work, not because more workers lost jobs. Using linked monthly Current Population Survey records for 23 to 54 year olds, the authors rank 923 occupations into 20 exposure groups and compare 2015–2019 with May 2025 to April 2026 (flows from January 2024). Unemployment rose about 1 percentage point more in the most than the least exposed group. The monthly job-finding rate, about 34% on average, fell about 6 points more, lengthening spells from about 10.5 to over 13 weeks. The unemployment gap is about 2 points at ages 23 to 30.
-
-**Where it fits.** It carries the entry margin of section [“Exposure designs: hiring and entry”](#exposure-designs-hiring-and-entry) to the unemployed: as in Tucker (2026) and Bergeaud, Bertheau, et al. (2026), hiring falls while separations do not, and the rise echoes Kläui and Siegenthaler (2025). It qualifies Imas and Schaal (2026), who see no unemployment effect (section [“Evaluation”](#evaluation)). The flatter usage-based slope fits a productivity gain $$\pi_o$$ offsetting substitution ([Main patterns](#main-patterns)).
-
-**Caveat.** The 2015–2019 baseline cannot separate AI from the decline of exposed jobs from early 2022 (Frank et al. 2026). Classing the unemployed by last occupation leaves out first-job seekers.
-
-### Diener et al. (2026), "Today's Work, Tomorrow's Workforce: Incentivizing Learning in AI-Assisted Work"
-<!-- kind: paper -->
-
-Karlsruhe Institute of Technology and IBM Research, arXiv preprint, 4 November 2026. [Paper](https://arxiv.org/abs/2611.06346). Dynamic model of workers choosing between accepting an AI's answer and solving tasks themselves; theory with illustrative numbers, no causal estimates.
-
-**In brief.**
-What it explores: Whether workers who can accept an AI's answer still practise enough to learn their job, or keep their skills.
-Why it matters: Juniors have always learned by doing routine work. If AI does it, someone must decide who trains the next experts.
-How it fits the evidence: It offers a reason why firms may stop training juniors, and prices what keeping them learning would cost.
-
-**What it finds.** Relying on AI can trap novices at low skill and let experts lose theirs, while output quality stays at the AI's level, so the loss goes unseen. Solving by hand costs effort but builds skill; accepting saves effort and lets skill decay. Even forward-looking workers stay trapped when learning pays too late. In the authors' code-review example, a novice who finds 40% of bugs, beside an AI that finds 62%, never practises. Paying for correct unaided answers, at first 0.27 of a bug's value per task and falling with skill, carries the novice to 70%, after which payments stop.
-
-**Where it fits.** It formalises the training channel in section [“Why these patterns: theory”](#why-these-patterns-theory): as in Garicano and Rayo (2025), AI removes the routine work through which juniors paid for their training. It adds expert deskilling and an explicit price for practice, a choice that sits with employers (section [“Organisation: who decides how AI is used”](#organisation-who-decides-how-ai-is-used)). It does not test the junior hiring falls of Hosseini and Lichtinger (2025).
-
-**Caveat.** One worker, one task family and chosen parameters, not estimates. Skill grows only through unaided work; if engaged use of AI also teaches, the trap weakens, as the authors note.

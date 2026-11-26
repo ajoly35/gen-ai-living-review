@@ -1,5 +1,53 @@
 Nouveaux articles sur l'IA et les marchés du travail et sur l'IA et la croissance, du plus récent au plus ancien, chacun situé par rapport à la revue ci-dessous. Chaque chiffre est vérifié dans l'article lui-même.
 
+### Rost and Stephany (2026), "Will AI Replace Juniors? How Task Complexity Reduces Automation Risk" {#rost-and-stephany-2026-will-ai-replace-juniors-how-task-complexity-reduces-automation-risk}
+<!-- kind: paper -->
+
+ZEW Mannheim et Oxford Internet Institute, prépublication arXiv, 25 novembre 2026. [Article](https://arxiv.org/abs/2611.34099). Expérience par questionnaire préenregistrée auprès des dirigeants de 1,435 entreprises allemandes ; les résultats sont des choix déclarés, pas des embauches réalisées.
+
+**En bref.**
+Ce qu'elle explore : si des dirigeants utiliseraient l'IA plutôt que d'embaucher un débutant, et si cela dépend du caractère routinier de son travail.
+Pourquoi c'est important : si seul le travail routinier des débutants est menacé, ceux qui prennent des tâches demandant du jugement gardent une porte d'entrée.
+Ce que cela change aux preuves : l'étude conforte l'idée que les juniors perdent parce que leurs tâches sont les plus faciles à mettre en règles, pas parce qu'ils sont juniors.
+
+**Ce que l'étude trouve.** Les dirigeants sont moins prêts à remplacer un junior par l'IA quand le travail demande du jugement. Dans l'enquête de conjoncture du ZEW, menée de juin à août 2026, des dirigeants d'entreprises allemandes de l'économie de l'information et de l'industrie se sont vu présenter au hasard un besoin durable portant soit sur des tâches standardisées, soit sur des tâches exigeant jugement et connaissance du contexte. Les tâches complexes réduisent la disposition à utiliser l'IA plutôt qu'embaucher de 0.54 point sur une échelle de cinq, depuis une moyenne de 3.21, et accroissent l'importance du contrôle humain de 0.15 point, depuis 4.32. Interrogés avant le scénario, 31% prévoient que l'IA réduira leurs embauches de débutants sur deux ans et 25% celles de salariés expérimentés ; 5.5% et 10.1% prévoient une hausse.
+
+**Où cela se place.** Section [« Pourquoi ces régularités : la théorie »](#why-these-patterns-theory) : l'étude teste directement le mécanisme de codifiabilité. Les dirigeants classent le travail d'entrée par tâche, non par ancienneté, ce qui concorde avec Hosseini et Lichtinger (2025) et Raymond et Dillon (2026). Les baisses attendues aussi pour les expérimentés contredisent un récit simple de complémentarité entre seniors et IA. Elle identifie un mécanisme, pas l'ampleur de $$b_o$$ ([Main patterns](#main-patterns)).
+
+**Limite.** Les réponses sont des intentions déclarées face à une situation hypothétique, venant d'utilisateurs fréquents de l'IA ; les grandes entreprises sont surreprésentées. Les parts d'anticipations sont descriptives et ne disent rien du nombre d'embauches concernées.
+
+### Bastani et al. (2026), "AI, Automation, and Fiscal Pressure" {#bastani-et-al-2026-ai-automation-and-fiscal-pressure}
+<!-- kind: paper -->
+
+Université d'Uppsala et IFAU, prépublication arXiv, 25 novembre 2026. [Article](https://arxiv.org/abs/2611.34234). Modèle d'équilibre général à deux secteurs fondé sur les tâches, avec des services publics financés par l'impôt, calibré sur les comptes et données fiscales 2023 de l'UE à 27 et de chaque État membre ; théorie et calibrage.
+
+**En bref.**
+Ce qu'elle explore : si la croissance tirée par l'automatisation par l'IA aide ou gêne les États européens pour financer la santé et l'école.
+Pourquoi c'est important : beaucoup espèrent que la croissance due à l'IA allégera des budgets tendus. Si elle déplace le revenu des salaires taxés vers des profits peu taxés, les déficits se creusent.
+Ce que cela change aux preuves : l'étude ajoute un canal de finances publiques au débat sur qui capte les gains de l'IA : l'État perd quand la part des salaires baisse.
+
+**Ce que l'étude trouve.** À taux d'imposition inchangés, l'automatisation creuse le déficit primaire si les services publics suivent la demande. Dans l'UE à 27, le travail est taxé à 37.0% et le capital à 19.6%, donc une part du travail plus faible érode l'assiette. Dans le scénario de référence, la part des tâches automatisées augmente de 5 points dans le secteur marchand et de 2.5 dans les services publics. La production croît de 12.3% et le déficit augmente de 0.87 point de valeur ajoutée, presque entièrement par l'assiette fiscale. La hausse va de 0.41 point au Luxembourg à 1.43 en Slovaquie. Si les services publics sont gelés en volume, le déficit baisse au contraire de 1.54 point.
+
+**Où cela se place.** Pour les sections de la revue compagnon sur l'agrégation des gains par tâche et sur qui capte les gains : l'étude reprend les économies de coût par tâche d'Acemoglu (2025) et la logique de Baumol d'Aghion, Jones et Jones (2019), mais c'est le canal de l'assiette, pas la maladie des coûts, qui crée la pression budgétaire. Elle complète Imas et Moll (2026) et Restrepo (2025) sur la baisse de la part du travail.
+
+**Limite.** L'automatisation est exogène, l'offre de capital parfaitement élastique, et le chômage est ignoré. Les résultats dépendent d'une économie initiale de 20% du coût par tâche automatisée et de la façon dont les États fixent l'offre de services.
+
+### Levy Yeyati (2026), "Burning the Bridge: Agentification and Domestic Value Added" {#levy-yeyati-2026-burning-the-bridge-agentification-and-domestic-value-added}
+<!-- kind: paper -->
+
+Universidad Torcuato Di Tella et Banque interaméricaine de développement, prépublication arXiv, 23 novembre 2026. [Article](https://arxiv.org/abs/2611.31518). Modèle de petite économie ouverte où les entreprises importent des agents d'IA étrangers, avec des cartes de scénarios calibrées sur les comptes 2014 du Brésil et du Mexique ; théorie, pas un dispositif causal.
+
+**En bref.**
+Ce qu'elle explore : ce que devient le revenu d'un pays à revenu intermédiaire quand ses entreprises confient du travail à des agents d'IA vendus par des sociétés étrangères.
+Pourquoi c'est important : chaque entreprise économise, mais les paiements partent à l'étranger. Le pays dans son ensemble peut s'appauvrir.
+Ce que cela change aux preuves : l'étude avertit que les gains de productivité des entreprises adoptantes ne deviennent pas forcément du revenu national quand l'IA est importée.
+
+**Ce que l'étude trouve.** Une fois les salaires au plancher de réservation des travailleurs, recourir davantage à des agents étrangers dans les services locaux réduit le revenu national, même si les agents sont bon marché. La valeur ajoutée réelle baisse aussi si les fournisseurs captent assez de l'économie réalisée : au-delà d'un pouvoir de négociation d'environ 0.15 dans les services locaux pour le Brésil (0.17 pour le Mexique). Les exportateurs peuvent payer les agents en vendant plus à l'étranger, d'où un seuil plus élevé, environ 0.66 pour le Brésil et 0.45 pour le Mexique. Avec les comptes WIOD de 2014, l'article chiffre la croissance des exportations nécessaire pour maintenir revenu et consommation. Des agents moins chers allègent l'exigence de consommation ; des prix à l'export plus bas l'alourdissent.
+
+**Où cela se place.** Pour la section de la revue compagnon sur qui capte les gains : l'étude étend Restrepo (2025) et Imas et Moll (2026) à une économie ouverte où les rentes vont à des fournisseurs étrangers. Elle précise Björkegren, Lagakos et VanVuren (2026) sur la diffusion de la croissance due à l'IA aux pays en développement, en ajoutant une contrainte de balance des paiements.
+
+**Limite.** Le remplacement des tâches, le coût des agents et le pouvoir de négociation ne sont pas observés mais varient selon des scénarios. Les cartes montrent où se situent gains et pertes, pas où se trouvent aujourd'hui le Brésil ou le Mexique.
+
 ### Raymond and Dillon (2026), "AI-Assisted Programming and Labor Demand" {#raymond-and-dillon-2026-ai-assisted-programming-and-labor-demand}
 <!-- kind: paper -->
 
@@ -271,51 +319,3 @@ Ce que cela change aux preuves : l'IA se voit dans l'investissement et dans la 
 **Où cela se place.** Pour la croissance, l'étude conforte la partie « ce que montrent les données » de la revue compagnon : l'IA entre dans le PIB par l'investissement avant la productivité, freinée par les maillons faibles de Jones et Tonetti (2026). Pour le travail, elle lit les preuves sur l'entrée comme Tucker (2026) et Hosseini et Lichtinger (2025) : moins d'embauches de jeunes, effets agrégés faibles (section [« Approches par l'exposition : embauches et entrée »](#exposure-designs-hiring-and-entry)).
 
 **Limite.** Une synthèse, sans estimation nouvelle. L'essentiel de l'analyse date de juin 2026, et les chiffres de revenus reposent sur des déclarations d'entreprises non auditées.
-
-### Major (2026), "Monitoring Early Effects of AI on the Labour Market" {#major-2026-monitoring-early-effects-of-ai-on-the-labour-market}
-<!-- kind: paper -->
-
-Reserve Bank of Australia, RBA Insight 2026-09, 9 novembre 2026. [Article](https://www.rba.gov.au/publications/insights/australian-economy/2026/monitoring-early-effects-of-ai-on-the-labour-market.html). Indicateurs du marché du travail selon l'exposition des professions à l'IA et l'âge, par rapport à novembre 2022 ; suivi descriptif, contexte.
-
-**En bref.**
-Ce qu'elle explore : si les Australiens des métiers les plus ouverts à l'IA, et les jeunes, s'en sortent moins bien depuis l'arrivée de ChatGPT.
-Pourquoi c'est important : une banque centrale doit savoir tôt si l'IA commence à faire monter le chômage, avant que cela se voie dans les totaux.
-Ce que cela change aux preuves : on retrouve le signal faible observé ailleurs : peu de changement global, des jeunes en difficulté dans les métiers ouverts à l'IA.
-
-**Ce que l'étude trouve.** Rien n'indique encore que l'IA ait perturbé le marché du travail australien, mais des signes fragiles montrent des résultats plus faibles pour les jeunes dans les professions les plus exposées. Les professions sont classées en quintiles pondérés par l'emploi selon la mesure d'exposition à l'automatisation de Jobs and Skills Australia (tirée de Gmyrek et al. 2023). Les offres d'emploi et l'enquête emploi, complètes jusqu'à février 2026, sont comparées à novembre 2022. Les nouvelles offres du quintile le plus exposé ralentissent un peu plus, surtout pour les employés de bureau, programmeurs, analystes informatiques, téléconseillers et réceptionnistes. Les taux de retour à l'emploi et de perte d'emploi varient peu avec l'exposition. L'emploi et les heures progressent un peu moins dans les professions exposées, et les jeunes y font moins bien. Les résultats ne figurent que dans des graphiques.
-
-**Où cela se place.** L'étude ajoute l'Australie à la section [« Approches par l'exposition : embauches et entrée »](#exposure-designs-hiring-and-entry), après les États-Unis, la Suède, le Royaume-Uni et la France. Contrairement à Cline et Kaymak (2026) pour les États-Unis, elle ne trouve pas d'écart de retour à l'emploi selon l'exposition. Comme Mehdi et Frenette (2026) pour le Canada, c'est un exercice officiel de suivi, non une estimation de $$b_o$$ ([Principales régularités](#main-patterns)).
-
-**Limite.** L'exposition mesure un potentiel, non un usage réel. En 2022, le marché du travail des jeunes était exceptionnellement tendu : la faiblesse qui suit peut être conjoncturelle, et le télétravail d'après pandémie touche les mêmes groupes.
-
-### Cline and Kaymak (2026), "Job Finding and Unemployment in the Age of AI" {#cline-and-kaymak-2026-job-finding-and-unemployment-in-the-age-of-ai}
-<!-- kind: paper -->
-
-Federal Reserve Bank of Cleveland, Economic Commentary 2026-26, 9 novembre 2026. [Article](https://www.clevelandfed.org/publications/economic-commentary/2026/ec-202626-job-finding-and-unemployment-in-the-age-of-ai). Flux de travailleurs selon l'exposition des professions à l'IA, 2015–2019 contre 2024–2026, contrôles saisonniers seulement, sans test de tendances préalables ; descriptif, contexte.
-
-**En bref.**
-Ce qu'elle explore : si les Américains dont l'IA peut faire le travail perdent leur emploi, ou peinent à en retrouver un.
-Pourquoi c'est important : perdre un emploi et ne pas en retrouver appellent des aides différentes : protéger ceux qui travaillent, ou soutenir ceux qui cherchent.
-Ce que cela change aux preuves : l'étude confirme que l'IA signifie moins d'embauches, pas plus de licenciements, et touche d'abord les jeunes.
-
-**Ce que l'étude trouve.** Dans les professions américaines les plus exposées à l'IA, le chômage a augmenté parce que les chômeurs mettent plus de temps à retrouver un emploi, non parce que davantage de salariés perdent le leur. À partir des données mensuelles appariées de la Current Population Survey pour les 23 à 54 ans, les auteurs classent 923 professions en 20 groupes d'exposition et comparent 2015–2019 à mai 2025–avril 2026 (flux à partir de janvier 2024). Le chômage a augmenté d'environ 1 point de pourcentage de plus dans le groupe le plus exposé que dans le moins exposé. Le taux mensuel de retour à l'emploi, d'environ 34% en moyenne, a baissé d'environ 6 points de plus, ce qui allonge la durée du chômage d'environ 10.5 à plus de 13 semaines. L'écart de chômage atteint environ 2 points chez les 23 à 30 ans.
-
-**Où cela se place.** L'étude étend aux chômeurs la marge d'entrée de la section [« Approches par l'exposition : embauches et entrée »](#exposure-designs-hiring-and-entry) : comme chez Tucker (2026) et Bergeaud, Bertheau, et al. (2026), les embauches reculent sans hausse des séparations, et la hausse rejoint Kläui et Siegenthaler (2025). Elle nuance Imas et Schaal (2026), qui ne voient aucun effet sur le chômage (section [« Évaluation »](#evaluation)). La pente plus faible de la mesure fondée sur l'usage cadre avec un gain de productivité $$\pi_o$$ qui compense la substitution ([Principales régularités](#main-patterns)).
-
-**Limite.** La période de référence 2015–2019 ne permet pas de distinguer l'IA de la dégradation des emplois exposés dès début 2022 (Frank et al. 2026). Classer les chômeurs selon leur dernière profession exclut ceux qui cherchent un premier emploi.
-
-### Diener et al. (2026), "Today's Work, Tomorrow's Workforce: Incentivizing Learning in AI-Assisted Work" {#diener-et-al-2026-todays-work-tomorrows-workforce-incentivizing-learning-in-ai-assisted-work}
-<!-- kind: paper -->
-
-Karlsruhe Institute of Technology et IBM Research, prépublication arXiv, 4 novembre 2026. [Article](https://arxiv.org/abs/2611.06346). Modèle dynamique où le travailleur choisit, tâche après tâche, entre accepter la réponse de l'IA et résoudre lui-même ; théorie avec chiffres illustratifs, sans estimation causale.
-
-**En bref.**
-Ce qu'elle explore : si des travailleurs qui peuvent accepter la réponse d'une IA s'exercent encore assez pour apprendre leur métier, ou garder leurs compétences.
-Pourquoi c'est important : les débutants ont toujours appris par le travail courant. Si l'IA le fait, il faut décider qui formera les prochains experts.
-Ce que cela change aux preuves : l'étude explique pourquoi les entreprises peuvent cesser de former les débutants, et chiffre ce que coûterait leur apprentissage.
-
-**Ce que l'étude trouve.** S'en remettre à l'IA peut bloquer les débutants à un faible niveau et faire perdre leur savoir-faire aux experts, alors que la qualité du résultat reste celle de l'IA : la perte passe inaperçue. Résoudre à la main coûte un effort mais forme ; accepter épargne l'effort et laisse la compétence s'éroder. Même un travailleur prévoyant reste bloqué quand l'apprentissage paie trop tard. Dans l'exemple des auteurs, une revue de code, un débutant qui trouve 40% des bogues, face à une IA qui en trouve 62%, ne s'exerce jamais. Rémunérer les bonnes réponses trouvées seul, d'abord 0.27 de la valeur d'un bogue par tâche puis moins à mesure que la compétence progresse, le mène à 70%, après quoi les paiements s'arrêtent.
-
-**Où cela se place.** L'étude formalise le canal de la formation de la section [« Pourquoi ces régularités : la théorie »](#why-these-patterns-theory) : comme chez Garicano et Rayo (2025), l'IA supprime le travail courant par lequel les débutants payaient leur formation. Elle y ajoute la perte de compétences des experts et un prix explicite de la pratique, choix qui revient aux employeurs (section [« Organisation : qui décide de l’usage de l’IA »](#organisation-who-decides-how-ai-is-used)). Elle ne teste pas la baisse des embauches de débutants chez Hosseini et Lichtinger (2025).
-
-**Limite.** Un seul travailleur, une seule famille de tâches et des paramètres choisis, non estimés. La compétence ne progresse que par le travail sans aide ; si l'usage actif de l'IA forme aussi, le piège s'atténue, comme le notent les auteurs.
