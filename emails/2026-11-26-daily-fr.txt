@@ -1,0 +1,77 @@
+IA GÉNÉRATIVE, EMPLOI ET CROISSANCE
+La nouvelle recherche du jour sur l'IA et le travail, en mots simples.
+
+IA et travail, en bref
+
+
+
+Aujourd'hui en trois lignes
+
+- Des patrons allemands choisiraient l'IA plutôt qu'un débutant pour des tâches routinières, beaucoup moins pour un travail qui demande du jugement.
+- En Europe, la croissance tirée par l'IA pourrait creuser les déficits publics : les salaires sont taxés presque deux fois plus que les profits.
+- Un pays qui achète son IA à l'étranger peut travailler plus vite tout en gagnant moins.
+
+La nouvelle recherche, en mots simples
+
+Les patrons remplaceraient un débutant par l'IA pour du travail routinier, bien moins pour un travail de jugement
+
+Ce qu'elle explore. À l'été 2026, Vincent Rost et Fabian Stephany ont interrogé les dirigeants d'environ 1 400 entreprises allemandes : face à un besoin durable de main-d'œuvre, choisiriez-vous l'IA plutôt que l'embauche d'un débutant ? Pour la moitié d'entre eux, le poste décrit consistait en tâches routinières, comme la mise à jour de données. Pour l'autre moitié, il demandait du jugement.
+
+Pourquoi c'est important. Les patrons optaient beaucoup plus volontiers pour l'IA face à un travail routinier que face à un travail de jugement. D'ici deux ans, près d'un tiers anticipent que l'IA freinera leurs embauches de débutants, et un quart prévoient aussi moins de recrutements chez les profils expérimentés.
+
+Ce que cela change aux preuves. Dans d'autres pays, on observe déjà que les entreprises recrutent moins de jeunes sans pour autant licencier. Cette enquête éclaire le mécanisme : on confie aux débutants les tâches routinières, qui sont les plus simples à déléguer à une machine. Il s'agit toutefois d'intentions déclarées, pas d'embauches observées.
+
+Entrée complète · Article
+
+La croissance due à l'IA pourrait laisser les États européens plus à court d'argent, pas plus riches
+
+Ce qu'elle explore. Spencer Bastani et trois collègues de l'université d'Uppsala modélisent une économie européenne où les machines reprennent davantage de tâches, pour voir ce qu'il advient des budgets qui financent l'école et l'hôpital.
+
+Pourquoi c'est important. Dans leur scénario principal, l'économie grandit d'environ un huitième, mais le déficit public se creuse de près d'un euro pour cent euros produits. Les revenus se déplacent des salariés vers les propriétaires des machines, or les profits sont moins imposés que les salaires.
+
+Ce que cela change aux preuves. L'IA ne financera le vieillissement de la population que si les services publics grandissent moins vite que l'économie, ou si la fiscalité évolue. Cela reste un modèle, pas une mesure sur données réelles.
+
+Entrée complète · Article
+
+Quand l'IA est importée, un pays peut travailler plus vite et finir plus pauvre
+
+Ce qu'elle explore. Eduardo Levy Yeyati se penche sur des pays comme le Brésil et le Mexique, où les entreprises achètent à des fournisseurs étrangers des « agents » d'IA, des programmes capables d'exécuter des tâches entières. Un cabinet comptable traite alors plus de clients par heure, mais reverse une partie de ses recettes à l'étranger.
+
+Pourquoi c'est important. Lorsque les salaires ne peuvent plus baisser, confier les services locaux à une IA étrangère ampute le revenu du pays. Si le fournisseur étranger garde plus d'environ un sixième des économies réalisées, la production recule aussi. Les exportateurs s'en sortent mieux, car ils peuvent vendre davantage à l'étranger pour payer la facture.
+
+Ce que cela change aux preuves. Qui gagne avec l'IA ? Le partage ne se joue pas seulement entre salariés et propriétaires des machines, mais aussi entre pays acheteurs et pays vendeurs. Là encore, c'est un modèle.
+
+Entrée complète · Article
+
+Comment les pièces s'assemblent
+
+La première trace visible de l'IA sur le marché du travail tient au recul des embauches en début de carrière. Aux États-Unis, en Suède, au Royaume-Uni et en France, les jeunes qui entrent dans les métiers les plus ouverts à l'IA sont moins recrutés, jusqu'à un quart de moins que dans les autres métiers, sans vague de licenciements. L'étude allemande apporte le regard des employeurs : les débutants ne sont pas remplaçables parce qu'ils sont jeunes, mais parce qu'on leur confie du travail routinier.
+
+Avec l'IA, une entreprise peut produire davantage et recruter, ou produire autant avec moins de bras. Les patrons allemands penchent surtout pour la seconde voie, à commencer par les débutants. Tout dépend pourtant de l'organisation du travail : confiez aux débutants des missions qui demandent du jugement, et leur embauche garde tout son intérêt.
+
+Ces travaux sur la croissance posent une question ouverte : qui empoche les gains ? Si le revenu glisse des salaires vers les profits, les États encaissent moins d'impôts. S'il part vers des fournisseurs d'IA étrangers, le Brésil peut s'appauvrir au moment même où le travail s'accélère.
+
+Une idée expliquée : les étudiants votent déjà avec leurs pieds
+
+Imaginez une ville qui apprend que des machines savent désormais façonner le pain. Avant même qu'un boulanger ne perde son poste, moins d'adolescents choisissent d'apprendre le métier. Ils ajustent leurs choix à ce qu'ils anticipent.
+
+C'est ce que Domnisoru et Heikkinen (2026) constatent en Finlande. Entre 2022 et 2026, le nombre de candidats plaçant l'informatique en premier choix a chuté de plus d'un tiers, alors que les candidatures dans les autres filières progressaient d'environ un sixième. Les diplômes les plus ouverts à l'IA ont perdu des candidats plus vite, et ce repli n'apparaît qu'après 2023. L'emploi de leurs jeunes diplômés, en revanche, a peu bougé.
+
+Les étudiants prennent peut-être de l'avance, à tort ou à raison : l'informatique attire toujours plus de candidats que de places disponibles. L'étude allemande rappelle d'ailleurs que le contenu du poste compte plus que la filière : ce sont les tâches routinières de début de carrière qui sont les plus menacées.
+
+Pour un étudiant, mieux vaut donc chercher des cours et des emplois qui exercent le jugement. Pour un employeur, voir arriver moins de candidats aujourd'hui annonce moins de salariés expérimentés dans dix ans.
+
+Où en sont les preuves
+
+!Études sur l'emploi, les embauches ou les salaires, par dispositif. Orange : moins d'emplois, d'embauches ou de salaire. Gris : pas d'effet mesurable. Bleu : gains.
+
+Orange : moins d'emplois, moins d'embauches ou des salaires en baisse ; gris : pas d'effet mesurable ; bleu : des gains. Les expériences sur la vitesse de travail relèvent des gains, les études sur les recrutements constatent des baisses, et celles sur l'emploi total ne voient encore rien bouger. Aucun article du jour n'ajoute de barre : l'enquête allemande porte sur des intentions, même si elle tire vers l'orange, et les travaux sur la croissance modélisent l'avenir.
+
+Pour aller plus loin
+
+La revue vivante · Où va la recherche · Articles récents · Proposer un article
+
+Se désabonner: {{ unsubscribe_url }}
+
+Une revue vivante tenue par Adrien Joly, London School of Economics.
+Les entrées sont rédigées par un assistant IA à partir de l'article lui-même et ne sont pas relues avant envoi. Les chiffres viennent de l'article ; l'appréciation de la revue est dans la limite.

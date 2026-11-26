@@ -1,0 +1,47 @@
+# New study: Will AI Replace Juniors? How Task Complexity Reduces Automation Risk
+
+*One new study on AI and work, checked against its full text.*
+
+## Rost and Stephany (2026), "Will AI Replace Juniors? How Task Complexity Reduces Automation Risk"
+
+ZEW Mannheim and Oxford Internet Institute, arXiv preprint, 25 November 2026. [Paper](https://arxiv.org/abs/2611.34099). Pre-registered survey experiment with managers of 1,435 German firms; outcomes are stated choices, not realised hiring.
+
+**What it finds.** Managers are less willing to replace a junior with AI when the job calls for judgement. In the ZEW business survey, fielded from June to August 2026, managers at German information-economy and manufacturing firms were randomly given a lasting need for either standardised tasks or tasks requiring judgement and context. Compared with standardised tasks, complex tasks lower willingness to use AI instead of hiring by 0.54 points on a five-point scale, down from a mean of 3.21. They also raise the importance of human review by 0.15 points, up from 4.32. Asked before seeing the scenario, 31% expect AI to cut their entry-level hiring over two years and 25% expect cuts to experienced hiring, while 5.5% and 10.1% expect increases.
+
+**Why it matters.** Section [“Why these patterns: theory”](#why-these-patterns-theory): this directly tests the codifiability mechanism. Managers sort entry-level work by task rather than seniority, matching Hosseini and Lichtinger (2025) and Raymond and Dillon (2026). That managers also expect cuts to experienced hiring goes against a simple story where seniors always complement AI. The study pins down a mechanism, not the size of $$b_o$$ ([Main patterns](#main-patterns)).
+
+*Caveat.* These answers are stated intentions for a hypothetical scenario, coming from frequent AI users, with large firms overrepresented. The expectation shares are purely descriptive and say nothing about how many actual hires change.
+
+## Bastani et al. (2026), "AI, Automation, and Fiscal Pressure"
+
+Uppsala University and IFAU, arXiv preprint, 25 November 2026. [Paper](https://arxiv.org/abs/2611.34234). Two-sector task-based general equilibrium model with tax-funded public services, calibrated to 2023 accounts and tax data for the EU-27 and each member state; theory and calibration.
+
+**What it finds.** At unchanged tax rates, automation widens the primary deficit if public services keep up with demand. Because the EU-27 taxes labour at 37.0% and capital at 19.6%, a falling labour share shrinks the tax base. In the benchmark scenario, the automated task share rises by 5 points in the market sector and 2.5 in public services. Output grows 12.3%, while the deficit rises by 0.87 points of value added, driven almost entirely by the narrower tax base. That increase ranges from 0.41 points in Luxembourg to 1.43 in Slovakia. If governments freeze public services in real terms instead, the deficit falls by 1.54 points.
+
+**Why it matters.** This speaks to the companion review's sections on aggregating task gains and on who captures the gains. The paper combines task cost savings from Acemoglu (2025) with the Baumol logic of Aghion, Jones and Jones (2019), but finds that tax-base erosion, not cost disease, drives the fiscal pressure. It complements Imas and Moll (2026) and Restrepo (2025) on a falling labour share.
+
+*Caveat.* The model treats automation as exogenous, assumes a perfectly elastic capital supply, and leaves out unemployment. Its results depend on each automated task initially saving 20% of cost and on how governments set provision.
+
+## Levy Yeyati (2026), "Burning the Bridge: Agentification and Domestic Value Added"
+
+Universidad Torcuato Di Tella and Inter-American Development Bank, arXiv preprint, 23 November 2026. [Paper](https://arxiv.org/abs/2611.31518). Small open economy model of firms importing foreign AI agents, with scenario maps calibrated to 2014 Brazilian and Mexican accounts; theory, not a causal design.
+
+**What it finds.** Once wages hit workers' reservation floor, bringing more foreign agents into local services cuts domestic income, even when those agents are cheap. Real value added also drops if suppliers capture enough of the savings: above a bargaining share of about 0.15 in local services for Brazil (0.17 for Mexico). Exporters can pay for agents by selling more abroad, which puts their threshold higher, at about 0.66 for Brazil and 0.45 for Mexico. Using 2014 WIOD accounts, the paper maps the export growth required to hold income and consumption steady. Cheaper agents lower that bar for consumption, while falling export prices raise it.
+
+**Why it matters.** For the companion review's section on who captures the gains, this paper extends Restrepo (2025) and Imas and Moll (2026) to an open economy where rents flow to foreign suppliers. It also builds on Björkegren, Lagakos and VanVuren (2026) on whether AI growth reaches developing countries, adding a balance of payments constraint.
+
+*Caveat.* Rather than observing actual task replacement, agent costs and bargaining shares, the paper varies them across scenarios. The maps trace where gains turn into losses, not where Brazil or Mexico sit today.
+
+### Main ideas
+
+- *Large gains on tasks, none yet in the aggregates.* In field experiments, generative AI raises output on narrow tasks by 14 to 34%, most for workers who were least productive before. In the Nordic registers, total employment, hours and earnings are unchanged so far.
+- *The adjustment runs through entry, not layoffs.* Young hires in the most exposed occupations have fallen in the US, Sweden, the UK and France, by up to a quarter relative to less exposed occupations, and contract ends fell too: firms stop hiring juniors rather than dismiss workers. Hires are a small flow, so the stock of jobs moves slowly and totals look flat.
+- *Exposed occupations adjust through pay as well.* Wages in the most exposed occupations fell by about 5% by 2026 with no change in headcount, and this explains close to a third of the fall in the college wage premium.
+- *Firm-level results split.* Some adopters cut junior employment by about 9% while senior employment is unchanged; others, especially the biggest spenders on AI, grew and hired more entrants. Who counts as an adopter drives much of the gap, and whether substitution or scale wins is the central open question.
+- *Juniors lose because their tasks are the most codifiable.* AI raises novices' output most, but hiring depends on demand for the firm's output, not on output per worker. If AI does the routine work juniors used to train on, firms have less reason to hire and train them.
+- *Organisation decides the direction.* Management quality, the cost of reorganising and the flexibility of labour law set how deeply firms adopt. So far AI mostly saves time within existing jobs and moves knowledge down the hierarchy; new tasks appear only where employers reorganise.
+- *What is still unknown.* How strongly demand responds to cheaper output, how much of the fall in entry is AI rather than remote work or a slowdown that began in 2022, where the fall in entry ends as models improve, and who captures the gains.
+
+[Read the full review](https://ajoly35.github.io/gen-ai-living-review/) · [Send a paper](https://github.com/ajoly35/gen-ai-living-review/issues/new?template=paper.yml)
+
+*A living review maintained by Adrien Joly, London School of Economics. Entries are written by an AI assistant from the paper itself and are not reviewed before they are sent. Figures are taken from the paper; the review's own assessment is in the caveat.*

@@ -1,0 +1,73 @@
+# AI and work, in brief: 26 November 2026
+
+# AI and work, in brief
+
+
+
+## Today in three lines
+
+- German bosses would choose AI over hiring a beginner for routine work, but much less so for work that calls for judgement.
+- In Europe, AI-led growth could widen budget deficits: wages are taxed at nearly twice the rate of profits.
+- When firms buy their AI abroad, a country can work faster and still earn less.
+
+## New research, in plain words
+
+### Managers would swap a beginner for AI on routine work, much less on work that needs judgement
+
+**What it explores.** In summer 2026, Vincent Rost and Fabian Stephany asked the bosses of about 1,400 German firms a simple question: if you permanently needed extra capacity, would you use AI instead of hiring a beginner? Half were told the work was routine, like keeping data up to date. The other half were told it required judgement.
+
+**Why it matters.** Bosses given the routine scenario were clearly readier to pick AI over a new hire. Looking two years ahead, nearly a third expect AI to reduce their hiring of beginners, and a quarter expect to hire fewer experienced workers too.
+
+**How it fits the evidence.** Studies across several countries show firms hiring fewer young people rather than firing existing staff. This survey points to a reason: beginners usually get the routine tasks, which are the easiest to hand to a machine. Still, these are stated plans, not actual hires.
+
+[Full entry](https://ajoly35.github.io/gen-ai-living-review/latest/#rost-and-stephany-2026-will-ai-replace-juniors-how-task-complexity-reduces-automation-risk) · [Paper](https://arxiv.org/abs/2611.34099)
+
+### Growth from AI could leave European governments shorter of money, not richer
+
+**What it explores.** Spencer Bastani and three colleagues at Uppsala model a European economy where machines take on a growing share of tasks, and ask what happens to the public budgets that fund schools and hospitals.
+
+**Why it matters.** In their main scenario, the economy grows by about an eighth, yet the budget gap widens by nearly one euro for every hundred produced. More income flows to machines and their owners, and governments tax profits much more lightly than wages.
+
+**How it fits the evidence.** Many hope AI growth will help pay for ageing societies. That holds up only if public services grow more slowly than the economy, or if tax rules change. Keep in mind this is a theoretical model, not a measurement.
+
+[Full entry](https://ajoly35.github.io/gen-ai-living-review/latest/#bastani-et-al-2026-ai-automation-and-fiscal-pressure) · [Paper](https://arxiv.org/abs/2611.34234)
+
+### When AI is imported, a country can work faster and end up poorer
+
+**What it explores.** Eduardo Levy Yeyati looks at countries like Brazil and Mexico, where local firms buy AI "agents", programs that run whole tasks, from foreign providers. A local accounting firm can serve more clients per hour, but part of what customers pay leaves the country.
+
+**Why it matters.** Once local wages cannot fall any further, handing domestic service work to foreign AI shrinks the country's income. If the foreign seller keeps more than about a sixth of the cost savings, total output falls as well. Exporters are safer because they can sell more abroad to cover the bill.
+
+**How it fits the evidence.** It adds a question to who gains from AI: not only workers or owners, but which country. It is also a model.
+
+[Full entry](https://ajoly35.github.io/gen-ai-living-review/latest/#levy-yeyati-2026-burning-the-bridge-agentification-and-domestic-value-added) · [Paper](https://arxiv.org/abs/2611.31518)
+
+## How it fits together
+
+AI's clearest mark on the labour market so far is a drop in entry-level hiring. In the United States, Sweden, the United Kingdom and France, young people entering the occupations most open to AI are hired less, by up to a quarter compared with other jobs. Firms are not laying people off; they are slowing the intake. Today's German study gives the employers' side of the story: beginners are easy to replace not because they are young, but because we give them routine work.
+
+A firm can use AI to expand output and hire, or to produce the same amount with fewer people. German managers mostly picture the second path, especially for entry-level roles. How firms organise work decides the outcome: give beginners tasks that demand judgement, and the reason to hire them holds.
+
+The two growth papers turn to a wider question: who keeps the gains. When income shifts from wages to profits, European governments collect less tax. When it flows to foreign AI vendors, countries like Brazil can end up poorer even as their firms work faster.
+
+## One idea, explained: students are already voting with their feet
+
+Picture a town where word gets around that new machines can shape bread dough. Before a single baker loses a job, fewer teenagers sign up to train as bakers. People act on what they expect to happen.
+
+Domnisoru and Heikkinen (2026) see just this pattern in Finland. Between 2022 and 2026, the number of students listing computing as their first choice fell by more than a third, while first-choice applications to other fields rose by about a sixth. Degrees closer to what AI can do lost applicants faster, and the drop started only after 2023. Yet the actual job prospects of recent graduates from those degrees had barely budged.
+
+Students may be moving ahead of the job market, for better or worse: computing courses in Finland still attract more applicants than they have seats. Today's German survey suggests that what matters most is not the degree title, anyway, since routine starter tasks are the ones at risk.
+
+For a student, the takeaway is to look for courses and first jobs that build judgement rather than routine skills alone. For an employer, fewer applicants today means a smaller pool of experienced staff ten years from now.
+
+## Where the evidence stands
+
+![Studies on jobs, hiring or pay, by research design. Orange: fewer jobs, hires or lower pay. Grey: no measurable effect. Blue: gains.](https://ajoly35.github.io/gen-ai-living-review/assets/vitals/direction-by-design-en.png)
+
+Orange marks fewer jobs, fewer hires or lower pay; grey means no measurable change; blue means gains. Experiments on worker speed mostly show gains, studies of hiring show drops, and studies of overall employment find nothing yet. None of today's papers adds a bar to the chart: the German survey tracks what managers say they would do, though it points toward orange, and the two growth papers model the future.
+
+## Read more
+
+[The living review](https://ajoly35.github.io/gen-ai-living-review/) · [Direction of the field](https://ajoly35.github.io/gen-ai-living-review/vitals/) · [Recent papers](https://ajoly35.github.io/gen-ai-living-review/latest/) · [Send a paper](https://github.com/ajoly35/gen-ai-living-review/issues/new?template=paper.yml)
+
+*A living review maintained by Adrien Joly, London School of Economics. Entries are written by an AI assistant from the paper itself and are not reviewed before they are sent. Figures are taken from the paper; the review's own assessment is in the caveat.*
