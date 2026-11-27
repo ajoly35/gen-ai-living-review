@@ -1,0 +1,53 @@
+# IA et travail, en bref : 27 novembre 2026
+
+# IA et travail, en bref
+
+
+
+## Aujourd'hui en trois lignes
+
+- Des chercheurs d'Anthropic ont interrogé les salariés de 58 entreprises américaines sur leur usage de l'IA au travail. Dans deux d'entre elles seulement, l'IA avait supprimé un poste pour de bon.
+- Pourtant, deux entreprises sur trois disent embaucher moins à cause de l'IA, et neuf font moins appel à des prestataires extérieurs, souvent à l'étranger.
+- Celles qui tirent le meilleur parti de l'IA ont repensé les postes autour d'elle, au lieu de simplement acheter un outil.
+
+## La nouvelle recherche, en mots simples
+
+### Les entreprises qui utilisent l'IA licencient peu, mais la plupart embauchent moins
+
+**Ce qu'elle explore.** Trois économistes d'Anthropic, le créateur des modèles d'IA Claude, ont mené 66 entretiens vidéo auprès de 58 de leurs entreprises clientes aux États-Unis. Ils ont ensuite classé près de 300 usages de l'IA selon la valeur que les salariés leur accordent, et selon ce que l'entreprise a dû changer pour en profiter.
+
+**Pourquoi c'est important.** La plupart des entreprises disent que l'IA les aide à produire plus ou mieux, plutôt qu'à baisser leurs coûts. Peu d'emplois ont vraiment disparu : l'automatisation a supprimé un poste entier dans deux entreprises, cinq ont poussé vers la sortie des salariés réticents à l'IA, et dix ont recruté davantage grâce à elle. Mais deux entreprises sur trois disent embaucher moins qu'elles ne l'auraient fait. Ce sont surtout des postes qu'on n'ouvre pas alors que l'activité grandit.
+
+**Ce que cela change aux preuves.** Ce constat rejoint ce que montrent déjà les grands fichiers sur l'emploi : pas de vague de licenciements, mais un coup de frein sur les embauches, surtout chez les débutants. L'étude éclaire deux points qui échappent à ces fichiers. D'abord, les entreprises réduisent le recours aux prestataires à l'étranger, dans les centres d'appels et l'administratif. Ensuite, les plus gros gains vont à celles qui ont revu qui fait quoi. Toutes ces entreprises sont toutefois clientes d'Anthropic, choisies pour leur variété et non au hasard, et les auteurs travaillent chez Anthropic. On lit ici des témoignages bien choisis, pas une mesure.
+
+[Entrée complète](https://ajoly35.github.io/gen-ai-living-review/fr/latest/#wilmers-massenkoff-and-mccrory-2026-working-with-ai) · [Rapport](https://www.anthropic.com/research/working-with-ai)
+
+## Comment les pièces s'assemblent
+
+La revue revient sans cesse à deux forces. Avec l'IA, une entreprise peut faire plus avec la même équipe, ou faire la même chose avec moins de monde. Les entretiens du jour montrent les deux à l'œuvre. La plupart des entreprises disent produire davantage grâce à l'IA : c'est la force « faire plus ». Mais la plupart disent aussi recruter moins : c'est la force « moins de monde », qui agit sans bruit par des offres jamais publiées.
+
+C'est ce mouvement silencieux que la revue observe aux États-Unis, en Suède, au Royaume-Uni et en France : moins de premiers emplois pour les jeunes dans les métiers où l'IA aide le plus, jusqu'à un quart de moins, sans hausse des licenciements. Ces entretiens mettent un visage sur les chiffres. Comme le résume une personne interrogée : « On ne licencie peut-être pas, mais on n'embauche pas. »
+
+Ces entretiens confirment aussi une idée centrale de la revue : tout dépend de la façon dont l'entreprise s'organise. Trois cabinets d'avocats ont pris le même outil et l'ont utilisé de trois façons. Le premier a automatisé son service courrier. Le deuxième n'a pas réussi à faire bien utiliser l'IA. Le troisième a mis ses jeunes avocats en binôme avec des seniors pour vérifier et reprendre les brouillons de l'IA : les débutants continuent d'apprendre et personne n'a perdu sa place. Reste à savoir à quelle fréquence les entreprises choisissent cette troisième voie.
+
+## Une idée expliquée : l'IA permet-elle de faire plus, ou la même chose avec moins de monde ?
+
+Imaginez une boulangerie qui s'offre un bien meilleur four. Le patron peut cuire le même nombre de pains avec un boulanger de moins, ou garder toute son équipe et cuire deux fois plus de pains, si la ville les achète. Le four ne décide de rien. Ce sont les clients et le patron qui tranchent.
+
+Les économistes appellent la première voie la substitution et la seconde l'effet d'échelle, et les études menées sur des entreprises entières observent les deux. Aux États-Unis, le tiers des entreprises qui dépensent le plus en IA a augmenté ses effectifs d'environ un dixième et ses débutants d'environ un huitième (Kharazian et ses coauteurs). D'autres entreprises américaines passées à l'IA ont réduit leurs équipes juniors d'environ un dixième tout en gardant leurs seniors (Hosseini et Lichtinger). En Chine, de petites boutiques en ligne qui ont activé l'IA ont vendu moitié plus (Barwick et ses coauteurs).
+
+Les entretiens du jour montrent ces deux chemins côte à côte. Grâce à l'IA, une entreprise peut vendre plus tout en embauchant moins qu'elle ne l'aurait fait : la croissance et moins d'emplois peuvent aller de pair.
+
+Pour un étudiant qui s'interroge sur un métier, la bonne question n'est pas « l'IA peut-elle en faire une partie ? », mais « si l'IA rend ce travail moins cher, les gens en achèteront-ils davantage ? ». Pour un employeur, acheter le four est le plus simple. Les vrais gains viennent ensuite, quand on décide de ce que font les boulangers.
+
+## Où en sont les preuves
+
+![Études sur l'emploi, les embauches ou les salaires, par dispositif. Orange : moins d'emplois, d'embauches ou de salaire. Gris : pas d'effet mesurable. Bleu : gains.](https://ajoly35.github.io/gen-ai-living-review/assets/vitals/direction-by-design-fr.png)
+
+Les barres orange comptent les études qui observent moins d'emplois, moins d'embauches ou des salaires plus bas ; en gris, pas d'effet mesurable ; en bleu, des gains. Les expériences qui mesurent la vitesse de travail relèvent des gains, les études sur qui est embauché voient des baisses, et celles sur l'emploi total ne trouvent encore rien. Le rapport du jour s'appuie sur des entretiens, pas sur un décompte : il n'a donc pas sa propre barre. S'il en avait une, elle figurerait dans la ligne « entreprises qui ont adopté » et serait coupée en deux : bleue pour ce que les entreprises produisent, orange pour le nombre de personnes qu'elles embauchent.
+
+## Pour aller plus loin
+
+[La revue vivante](https://ajoly35.github.io/gen-ai-living-review/fr/) · [Où va la recherche](https://ajoly35.github.io/gen-ai-living-review/fr/vitals/) · [Articles récents](https://ajoly35.github.io/gen-ai-living-review/fr/latest/) · [Proposer un article](https://github.com/ajoly35/gen-ai-living-review/issues/new?template=paper.yml)
+
+*Une revue vivante tenue par Adrien Joly, London School of Economics. Les entrées sont rédigées par un assistant IA à partir de l'article lui-même et ne sont pas relues avant envoi. Les chiffres viennent de l'article ; l'appréciation de la revue est dans la limite.*
