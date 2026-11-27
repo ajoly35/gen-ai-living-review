@@ -1,5 +1,21 @@
 Nouveaux articles sur l'IA et les marchés du travail et sur l'IA et la croissance, du plus récent au plus ancien, chacun situé par rapport à la revue ci-dessous. Chaque chiffre est vérifié dans l'article lui-même.
 
+### Wilmers, Massenkoff and McCrory (2026), "Working with AI" {#wilmers-massenkoff-and-mccrory-2026-working-with-ai}
+<!-- kind: paper -->
+
+Rapport de recherche de l'équipe Economics d'Anthropic, 23 novembre 2026. [Rapport](https://www.anthropic.com/research/working-with-ai). Entretiens dans 58 entreprises clientes d'Anthropic aux États-Unis, codés par un modèle d'IA. Étude qualitative descriptive, hors du critère de preuve causale de la revue ; présentée comme contexte.
+
+**En bref.**
+Ce qu'elle explore : comment 58 entreprises américaines qui utilisent l'IA d'Anthropic transforment autour d'elle les emplois, les embauches et les rôles des équipes.
+Pourquoi c'est important : les entreprises disent embaucher moins plutôt que licencier, et tirer les plus grands gains là où elles ont redessiné les postes.
+Ce que cela change aux preuves : l'étude concorde avec moins d'embauches sans licenciements, et avec l'idée que l'organisation décide de ce que l'IA fait au travail.
+
+**Ce que l'étude trouve.** Les entreprises disent que l'IA accroît surtout la production plutôt qu'elle ne réduit les coûts, et que les usages les plus précieux ont exigé le plus de réorganisation. Wilmers, Massenkoff et McCrory (2026) ont mené 66 entretiens vidéo dans 58 entreprises américaines, et codé près de 300 applications de l'IA selon la valeur déclarée et l'ampleur du changement organisationnel. L'automatisation n'a supprimé entièrement un poste que dans deux entreprises ; cinq ont poussé au départ des salariés réticents à l'IA ; 10 ont embauché davantage grâce à l'IA. Dans deux tiers des entreprises, les personnes interrogées déclarent embaucher moins à cause de l'IA, surtout en renonçant à des recrutements nécessaires à la croissance. Neuf ont réduit leurs prestataires, souvent à l'étranger. Six start-up disent qu'il leur faudrait quatre fois plus de salariés sans l'IA.
+
+**Où cela se place.** Section [« Organisation : qui décide de l’usage de l’IA »](#organisation-who-decides-how-ai-is-used) : la valeur déclarée croît avec l'ampleur de la réorganisation, ce qui prolonge Dillon et al. (2025), où le temps gagné ne devient pas de nouvelles tâches sans refonte. Moins d'embauches sans licenciements concorde avec Hosseini et Lichtinger (2025) et avec la marge d'entrée des [Principaux constats](#main-patterns). La baisse du recours aux prestataires étrangers est une marge invisible dans les registres nationaux.
+
+**Limite.** Les personnes interrogées sont des clients d'Anthropic choisis pour leur diversité, non au hasard, et les auteurs travaillent chez Anthropic. La valeur est déclarée et codée par un modèle d'IA, non mesurée.
+
 ### Rost and Stephany (2026), "Will AI Replace Juniors? How Task Complexity Reduces Automation Risk" {#rost-and-stephany-2026-will-ai-replace-juniors-how-task-complexity-reduces-automation-risk}
 <!-- kind: paper -->
 
@@ -303,19 +319,3 @@ Ce que cela change aux preuves : comme dans les études antérieures sur les in
 **Où cela se place.** L'étude prolonge la section [« Marchés du travail en ligne »](#online-labour-markets) : Hui et al. (2024) trouvent que les indépendants de la rédaction ont perdu des contrats et des revenus ; ici, les offres de rédaction reculent tandis que les projets d'IA progressent. C'est une preuve, au niveau des offres, des nouvelles tâches que Dillon et al. (2025) n'ont pas trouvées au sein des emplois existants (section [« La réorganisation crée-t-elle de nouvelles tâches ? »](#does-reorganisation-create-new-tasks)), et d'un regroupement des tâches (Garicano, Li et Wu 2026). L'ajustement passe par les heures, pas par le prix de l'heure.
 
 **Limite.** Les deux entreprises ont intérêt à montrer que l'IA accroît la demande de travail indépendant. Les offres liées à l'IA peuvent différer des autres d'une manière que les contrôles par catégorie et par mois ne captent pas.
-
-### Carollo et al. (2026), "Artificial Intelligence and the U.S. Economy: Current Evidence" {#carollo-et-al-2026-artificial-intelligence-and-the-us-economy-current-evidence}
-<!-- kind: paper -->
-
-Federal Reserve Board, Finance and Economics Discussion Series 2026-074, 12 novembre 2026. [Article](https://www.federalreserve.gov/econres/feds/artificial-intelligence-and-the-us-economy-current-evidence.htm). Synthèse par des économistes de la Fed des données et études américaines sur l'investissement, l'adoption, les prix, l'emploi et la productivité ; descriptif, contexte.
-
-**En bref.**
-Ce qu'elle explore : ce que l'IA a déjà changé dans l'économie américaine : centres de données, usage au travail, prix, emploi et productivité.
-Pourquoi c'est important : c'est la lecture des preuves par les économistes de la Réserve fédérale elle-même, et elle oriente le jugement des banquiers centraux.
-Ce que cela change aux preuves : l'IA se voit dans l'investissement et dans la baisse des premiers emplois, pas encore dans l'emploi total ni la productivité.
-
-**Ce que l'étude trouve.** L'IA est visible dans l'investissement et certains prix, à peine dans l'emploi et la productivité. Dans le scénario central des auteurs, l'investissement mesuré dans les centres de données passe d'environ &#36;100 milliards en 2024 à plus de &#36;880 milliards fin 2027, soit plus de 2% du PIB, dont environ la moitié importée. Le chiffre d'affaires annualisé d'OpenAI, Anthropic et Google DeepMind atteint au moins &#36;107 milliards au troisième trimestre 2026, environ 19% de la production brute du logiciel. Plus de 40% des salariés utilisent l'IA au travail, mais 10% seulement chaque jour. Les catégories du PCE sous-jacent au 90e centile d'exposition aux centres de données ont connu environ 5 points d'inflation de plus que la catégorie médiane depuis janvier 2025. La hausse récente de la productivité précède pour l'essentiel l'IA générative.
-
-**Où cela se place.** Pour la croissance, l'étude conforte la partie « ce que montrent les données » de la revue compagnon : l'IA entre dans le PIB par l'investissement avant la productivité, freinée par les maillons faibles de Jones et Tonetti (2026). Pour le travail, elle lit les preuves sur l'entrée comme Tucker (2026) et Hosseini et Lichtinger (2025) : moins d'embauches de jeunes, effets agrégés faibles (section [« Approches par l'exposition : embauches et entrée »](#exposure-designs-hiring-and-entry)).
-
-**Limite.** Une synthèse, sans estimation nouvelle. L'essentiel de l'analyse date de juin 2026, et les chiffres de revenus reposent sur des déclarations d'entreprises non auditées.

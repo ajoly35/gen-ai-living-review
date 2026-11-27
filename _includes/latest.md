@@ -1,5 +1,21 @@
 New papers on AI and labour markets and AI and growth, newest first, each placed against the review below. Every figure is checked against the paper itself.
 
+### Wilmers, Massenkoff and McCrory (2026), "Working with AI"
+<!-- kind: paper -->
+
+Anthropic Economics research report, 23 November 2026. [Report](https://www.anthropic.com/research/working-with-ai). Interviews at 58 US enterprise customers of Anthropic, coded by an AI model. Descriptive qualitative study, outside the review's causal evidence standard; reported as context.
+
+**In brief.**
+What it explores: How 58 American companies using Anthropic's AI are changing jobs, hiring and team roles around it.
+Why it matters: Firms report hiring fewer people rather than firing, and say the biggest gains came where they redesigned jobs.
+How it fits the evidence: It matches the pattern of fewer new hires without layoffs, and the view that organisation decides what AI does to work.
+
+**What it finds.** Firms say AI mostly raises output rather than cutting costs, and their most valued uses required the most reorganisation. Wilmers, Massenkoff and McCrory (2026) held 66 video interviews in 58 US companies, and coded nearly 300 AI applications by reported value and depth of organisational change. Automation fully eliminated a job at only two companies; five pushed out workers who would not adopt AI; 10 hired more because of AI. People at two-thirds of the companies reported hiring less because of AI, mostly by forgoing hires needed to grow. Nine cut contractors, often offshore. Six startups said they would need four times as many staff without AI.
+
+**Where it fits.** Section [“Organisation: who decides how AI is used”](#organisation-who-decides-how-ai-is-used): reported value rises with the depth of reorganisation, which extends Dillon et al. (2025), where saved time did not become new tasks without redesign. Fewer hires without layoffs match Hosseini and Lichtinger (2025) and the entry margin in [Main patterns](#main-patterns). Cuts to offshore contractors are a margin that national registers cannot see.
+
+**Caveat.** Interviewees are Anthropic customers chosen for variety, not at random, and the authors work at Anthropic. Value is reported by interviewees and coded by an AI model, not measured.
+
 ### Rost and Stephany (2026), "Will AI Replace Juniors? How Task Complexity Reduces Automation Risk"
 <!-- kind: paper -->
 
@@ -303,19 +319,3 @@ How it fits the evidence: As in earlier freelance studies, writing work shrinks;
 **Where it fits.** It extends section [“Online labour markets”](#online-labour-markets): Hui et al. (2024) find writing freelancers lost jobs and earnings; here writing postings shrink while AI projects grow. It is posting-level evidence of the new tasks Dillon et al. (2025) did not find inside existing jobs (section [“Does reorganisation create new tasks?”](#does-reorganisation-create-new-tasks)), and of rebundling (Garicano, Li and Wu 2026). Adjustment runs through hours, not hourly pay.
 
 **Caveat.** Both firms gain from showing that AI raises freelance demand. AI-related postings may differ from others in ways that controls for category and month do not capture.
-
-### Carollo et al. (2026), "Artificial Intelligence and the U.S. Economy: Current Evidence"
-<!-- kind: paper -->
-
-Federal Reserve Board, Finance and Economics Discussion Series 2026-074, 12 November 2026. [Paper](https://www.federalreserve.gov/econres/feds/artificial-intelligence-and-the-us-economy-current-evidence.htm). Staff review of US data and studies on AI investment, adoption, prices, jobs and productivity; descriptive, reported as context.
-
-**In brief.**
-What it explores: What AI has done to the US economy so far: data-centre spending, use at work, prices, jobs and productivity.
-Why it matters: It is Federal Reserve staff's own reading of the evidence, and it shapes how central bankers judge AI.
-How it fits the evidence: AI shows up in spending and in fewer first jobs, not yet in total jobs or in productivity.
-
-**What it finds.** AI is visible in investment and some prices, barely in jobs and productivity. In the authors' middle scenario, measured data-centre investment rises from about &#36;100 billion in 2024 to over &#36;880 billion by end-2027, above 2% of GDP, with about half of it imported. Annualised revenue of OpenAI, Anthropic and Google DeepMind reached at least &#36;107 billion in 2026Q3, about 19% of software gross output. Over 40% of workers use AI at work, but only 10% daily. Core PCE categories at the 90th percentile of data-centre exposure saw about 5 points more inflation since January 2025 than the median one. The recent productivity pickup mostly predates generative AI.
-
-**Where it fits.** For growth, it supports the companion review's "what the data show so far": AI enters GDP through investment before productivity, with Jones and Tonetti (2026) weak links as a brake. For labour, it reads the entry evidence as Tucker (2026) and Hosseini and Lichtinger (2025) do: fewer young hires, small aggregate effects (section [“Exposure designs: hiring and entry”](#exposure-designs-hiring-and-entry)).
-
-**Caveat.** A synthesis, not new estimates. Most of the analysis was completed in June 2026, and the revenue figures rest on unaudited company statements.

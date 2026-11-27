@@ -10,8 +10,6 @@ Björkegren, Daniel, David Lagakos, and Mitchell VanVuren. 2026. *Will AI Growth
 
 Borri, Nicola, Anton Cheremukhin, Yukun Liu, and Aleh Tsyvinski. 2026. *The Rise of Agents and the Labor Market*. arXiv:2611.27210. [Link](https://arxiv.org/abs/2611.27210).
 
-Carollo, Nick, Leland D. Crane, Daniel Garcia Molina, and Joseph Nichols. 2026. *Artificial Intelligence and the U.S. Economy: Current Evidence*. Finance and Economics Discussion Series 2026-074. Board of Governors of the Federal Reserve System, 12 November. [Link](https://doi.org/10.17016/FEDS.2026.074).
-
 Chin, Caroline, Shagun Kala, Nadav Kunievsky, Teng Liu, Alex Martin Richmond, and Carl Shan. 2026. *The Rebundling of Freelance Work in the AI Age*. arXiv:2611.14708. [Link](https://arxiv.org/abs/2611.14708).
 
 Chow, Kevin, Sophia Deng, Bowen He, Hanyi Min, Qiaosi Wang, Koustuv Saha, and Vedant Das Swain. 2026. *AI-Induced Social Erosion: Using LLMs for Work Tasks Reduces Help-Seeking Intentions Towards Colleagues*. arXiv:2611.25269. [Link](https://arxiv.org/abs/2611.25269).
@@ -53,6 +51,8 @@ Soda, Giuseppe, Alessandro Iorio, and Leonardo Rizzo. 2026. *The Effects of Gene
 Strauss, Delphine, Valentina Romei, and Sam Fleming. 2026. "What Is Behind the Surprising Resilience of the UK Economy?" *Financial Times*, 17 October.
 
 Van Nieuwerburgh, Stijn, and Zijin Su. 2026. *Clouds of Credit: Mapping the Financial Web Behind AI Compute*. Working Paper No. 36032. NBER. [Link](https://www.nber.org/papers/w36032).
+
+Wilmers, Nathan, Maxim Massenkoff, and Peter McCrory. 2026. *Working with AI*. Research report. Anthropic, 23 November. [Link](https://www.anthropic.com/research/working-with-ai).
 
 Xu, Feiyang, Poonacha K. Medappa, and Murat M. Tunc. 2026. *Does the AI Reviewer Alleviate or Aggravate the Maintenance Burden? Evidence from GitHub Copilot Reviewer*. arXiv:2611.22793. [Link](https://arxiv.org/abs/2611.22793).
 
