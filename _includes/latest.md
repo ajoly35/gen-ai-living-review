@@ -1,5 +1,21 @@
 New papers on AI and labour markets and AI and growth, newest first, each placed against the review below. Every figure is checked against the paper itself.
 
+### Naudé, Neves Sequeira and Almeida (2026), "From Automation to Acceleration: Transitional Regimes in AI-Driven Growth"
+<!-- kind: paper -->
+
+IZA Discussion Paper 19110, November 2026. [Paper](https://www.iza.org/publications/dp/19110/from-automation-to-acceleration-transitional-regimes-in-ai-driven-growth). Semi-endogenous growth model of AI in research, calibrated to US automation shares, four scenarios; theory, not a causal design.
+
+**In brief.**
+What it explores: Whether AI that takes over research tasks can make the economy grow ever faster, and when that would start and stop.
+Why it matters: Forecasts range from no change to explosive growth. The same economy can end up at either, depending on two unknowns.
+How it fits the evidence: It agrees that tasks people still do hold growth back, and adds that energy limits, not automation, end any boom.
+
+**What it finds.** Growth depends less on how much research is automated than on how easily AI replaces researchers and how fast ideas get harder to find. Naudé, Neves Sequeira and Almeida (2026) fit an automation frontier to US task shares (0.28 in 1950, 0.75 in 2023, from Jones and Tonetti 2026), set the AI–researcher substitution elasticity at 0.2, and simulate from 2023. With the idea parameters of Bloom et al. (2020), output growth peaks at 3.6% in 2090. With heavy duplication of research effort, it never exceeds 2.7%. With Moore's Law parameters, it peaks at 96% in 2066; an energy ceiling then cuts it to about 25% by 2123.
+
+**Where it fits.** Companion review, automating ideas and long-run growth: like Jones and Tonetti (2026), it turns the Aghion, Jones and Jones (2019) bottleneck into a dated path. The Davidson et al. explosion appears only with Moore's Law parameters, and energy caps it. Early speed-ups come from handing tasks to machines, not from AI capital, which qualifies the accumulation channel in Trammell and Korinek.
+
+**Caveat.** The frontier is fitted to automation in private business, not research, and timing hinges on parameters nobody has estimated for AI, above all how easily AI substitutes for researchers.
+
 ### Wilmers, Massenkoff and McCrory (2026), "Working with AI"
 <!-- kind: paper -->
 
@@ -303,19 +319,3 @@ How it fits the evidence: It gives workers' own view on the choice between AI th
 **Where it fits.** It informs section [“Organisation: who decides how AI is used”](#organisation-who-decides-how-ai-is-used): workers prefer what Acemoglu et al. (2026) call augmenting technology over automation, and value it like a small raise. It points to a cost of stepwise rollouts that move from augmentation to automation, a margin firm adoption studies do not observe.
 
 **Caveat.** Choices are hypothetical, in one firm and one occupation, among mostly female workers with intermediate education. The firm helped design the choices, which may frame how AI was presented.
-
-### Chin et al. (2026), "The Rebundling of Freelance Work in the AI Age"
-<!-- kind: paper -->
-
-OpenAI and Upwork, research report on arXiv, 10 November 2026. [Paper](https://arxiv.org/abs/2611.14708). Upwork job postings, 2023 to mid-2026, set against sampled ChatGPT conversations; descriptive, no comparison group over time, outside the review's causal evidence standard; reported as context.
-
-**In brief.**
-What it explores: Whether businesses still pay freelancers for work people now do with ChatGPT, and how AI projects mix kinds of work.
-Why it matters: If AI creates new combinations of tasks, it can make new paid work, not only remove old work.
-How it fits the evidence: As in earlier freelance studies, writing work shrinks; it adds that AI projects are larger and mix unusual tasks.
-
-**What it finds.** Activities common in ChatGPT tend to lose share of Upwork postings, and AI-related postings bundle tasks in new ways. Of 63 work categories, 43 moved as substitution predicts between H1 2023 and H2 2025: content-writing postings fell more than twice as fast as all postings, while video and animation gained about a third in share. In AI-related postings, 8.4% of task pairs were rarely requested together before generative AI, against 2.4% elsewhere. Against non-AI postings in the same category and month, fixed-price budgets are about 52% higher, hours in the first 90 days of hired hourly contracts about 41% higher, and posted hourly rates about 1.5% higher.
-
-**Where it fits.** It extends section [“Online labour markets”](#online-labour-markets): Hui et al. (2024) find writing freelancers lost jobs and earnings; here writing postings shrink while AI projects grow. It is posting-level evidence of the new tasks Dillon et al. (2025) did not find inside existing jobs (section [“Does reorganisation create new tasks?”](#does-reorganisation-create-new-tasks)), and of rebundling (Garicano, Li and Wu 2026). Adjustment runs through hours, not hourly pay.
-
-**Caveat.** Both firms gain from showing that AI raises freelance demand. AI-related postings may differ from others in ways that controls for category and month do not capture.

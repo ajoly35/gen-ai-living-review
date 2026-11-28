@@ -10,8 +10,6 @@ Björkegren, Daniel, David Lagakos, and Mitchell VanVuren. 2026. *Will AI Growth
 
 Borri, Nicola, Anton Cheremukhin, Yukun Liu, and Aleh Tsyvinski. 2026. *The Rise of Agents and the Labor Market*. arXiv:2611.27210. [Link](https://arxiv.org/abs/2611.27210).
 
-Chin, Caroline, Shagun Kala, Nadav Kunievsky, Teng Liu, Alex Martin Richmond, and Carl Shan. 2026. *The Rebundling of Freelance Work in the AI Age*. arXiv:2611.14708. [Link](https://arxiv.org/abs/2611.14708).
-
 Chow, Kevin, Sophia Deng, Bowen He, Hanyi Min, Qiaosi Wang, Koustuv Saha, and Vedant Das Swain. 2026. *AI-Induced Social Erosion: Using LLMs for Work Tasks Reduces Help-Seeking Intentions Towards Colleagues*. arXiv:2611.25269. [Link](https://arxiv.org/abs/2611.25269).
 
 Cline, Alexander, and Barış Kaymak. 2026. *Job Finding and Unemployment in the Age of AI*. Economic Commentary 2026-26. Federal Reserve Bank of Cleveland. [Link](https://doi.org/10.26509/frbc-ec-202626).
@@ -39,6 +37,8 @@ Lu, Beichen, Honglin Bao, Qi Huang, Qingguo Meng, and James A. Evans. 2026. *Str
 Mehdi, Tahsin, and Marc Frenette. 2026. *Hiring and Job Separation Rates in the Era of Generative Artificial Intelligence: Early Evidence*. Economic and Social Reports, Catalogue no. 36-28-0001. Statistics Canada, 28 October. [Link](https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026010/article/00003-eng.htm).
 
 Mohnen, Myra, and Joshua S. Gans. 2026. *How AI Impacts the Quest for Knowledge: Evidence from AlphaFold2*. Working Paper No. 36045. NBER. [Link](https://www.nber.org/papers/w36045).
+
+Naudé, Wim, Tiago Neves Sequeira, and Derick Almeida. 2026. *From Automation to Acceleration: Transitional Regimes in AI-Driven Growth*. IZA Discussion Paper No. 19110. IZA@LISER Network, November. [Link](https://www.iza.org/publications/dp/19110/from-automation-to-acceleration-transitional-regimes-in-ai-driven-growth).
 
 Raymond, Lindsey, and Eleanor Dillon. 2026. *AI-Assisted Programming and Labor Demand*. arXiv:2611.31083. [Link](https://arxiv.org/abs/2611.31083).
 

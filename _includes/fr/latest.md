@@ -1,5 +1,21 @@
 Nouveaux articles sur l'IA et les marchés du travail et sur l'IA et la croissance, du plus récent au plus ancien, chacun situé par rapport à la revue ci-dessous. Chaque chiffre est vérifié dans l'article lui-même.
 
+### Naudé, Neves Sequeira and Almeida (2026), "From Automation to Acceleration: Transitional Regimes in AI-Driven Growth" {#naud-neves-sequeira-and-almeida-2026-from-automation-to-acceleration-transitional-regimes-in-ai-driven-growth}
+<!-- kind: paper -->
+
+IZA Discussion Paper 19110, novembre 2026. [Article](https://www.iza.org/publications/dp/19110/from-automation-to-acceleration-transitional-regimes-in-ai-driven-growth). Modèle de croissance semi-endogène de l'IA dans la recherche, calibré sur les parts d'automatisation américaines, quatre scénarios ; théorie, pas de dispositif causal.
+
+**En bref.**
+Ce qu'elle explore : si une IA qui reprend des tâches de recherche peut faire croître l'économie toujours plus vite, et quand cela commencerait et s'arrêterait.
+Pourquoi c'est important : les prévisions vont du statu quo à une croissance explosive. La même économie peut aboutir à l'un ou l'autre, selon deux inconnues.
+Ce que cela change aux preuves : l'étude confirme que les tâches encore faites par des personnes freinent la croissance, et ajoute que l'énergie, non l'automatisation, met fin à tout emballement.
+
+**Ce que l'étude trouve.** La croissance dépend moins de la part de la recherche automatisée que de la facilité avec laquelle l'IA remplace les chercheurs et de la vitesse à laquelle les idées deviennent plus difficiles à trouver. Naudé, Neves Sequeira et Almeida (2026) ajustent une frontière d'automatisation aux parts de tâches américaines (0.28 en 1950, 0.75 en 2023, d'après Jones et Tonetti 2026), fixent l'élasticité de substitution entre IA et chercheurs à 0.2 et simulent à partir de 2023. Avec les paramètres d'idées de Bloom et al. (2020), la croissance de la production culmine à 3.6% en 2090. Avec une forte duplication de l'effort de recherche, elle ne dépasse jamais 2.7%. Avec les paramètres de la loi de Moore, elle culmine à 96% en 2066 ; un plafond énergétique la ramène ensuite à environ 25% en 2123.
+
+**Où cela se place.** Revue compagnon, automatisation des idées et croissance de long terme : comme Jones et Tonetti (2026), l'étude transforme le goulot d'étranglement d'Aghion, Jones et Jones (2019) en trajectoire datée. L'explosion de Davidson et al. n'apparaît qu'avec les paramètres de la loi de Moore, et l'énergie la plafonne. Les premières accélérations viennent du transfert de tâches aux machines, non du capital d'IA, ce qui nuance le canal d'accumulation de Trammell et Korinek.
+
+**Limite.** La frontière est ajustée sur l'automatisation du secteur privé, non de la recherche, et le calendrier dépend de paramètres jamais estimés pour l'IA, surtout la substituabilité entre IA et chercheurs.
+
 ### Wilmers, Massenkoff and McCrory (2026), "Working with AI" {#wilmers-massenkoff-and-mccrory-2026-working-with-ai}
 <!-- kind: paper -->
 
@@ -303,19 +319,3 @@ Ce que cela change aux preuves : elle donne le point de vue des salariés sur l
 **Où cela se place.** L'étude éclaire la section [« Organisation : qui décide de l’usage de l’IA »](#organisation-who-decides-how-ai-is-used) : les salariés préfèrent ce qu'Acemoglu et al. (2026) appellent une technologie d'augmentation à l'automatisation, et la valorisent comme une petite hausse de salaire. Elle signale un coût des déploiements par étapes, qui passent de l'augmentation à l'automatisation, une dimension que les études d'adoption par les entreprises n'observent pas.
 
 **Limite.** Les choix sont hypothétiques, dans une seule entreprise et un seul métier, auprès de salariés surtout féminins et de niveau d'études intermédiaire. L'entreprise a participé à la conception des choix, ce qui peut orienter la présentation de l'IA.
-
-### Chin et al. (2026), "The Rebundling of Freelance Work in the AI Age" {#chin-et-al-2026-the-rebundling-of-freelance-work-in-the-ai-age}
-<!-- kind: paper -->
-
-OpenAI et Upwork, rapport de recherche sur arXiv, 10 novembre 2026. [Article](https://arxiv.org/abs/2611.14708). Offres d'emploi Upwork de 2023 à mi-2026, comparées à un échantillon de conversations ChatGPT ; descriptif, sans groupe de comparaison dans le temps, hors du standard de preuve causale de la revue ; rapporté à titre de contexte.
-
-**En bref.**
-Ce qu'elle explore : si les entreprises paient encore des indépendants pour un travail que l'on fait désormais avec ChatGPT, et comment les projets d'IA mêlent les types de travail.
-Pourquoi c'est important : si l'IA crée de nouvelles combinaisons de tâches, elle peut créer du travail rémunéré nouveau, pas seulement en supprimer.
-Ce que cela change aux preuves : comme dans les études antérieures sur les indépendants, la rédaction recule ; les projets d'IA sont en outre plus gros et mêlent des tâches inhabituelles.
-
-**Ce que l'étude trouve.** Les activités fréquentes dans ChatGPT tendent à perdre des parts dans les offres Upwork, et les offres liées à l'IA regroupent les tâches de façon nouvelle. Sur 63 catégories de travail, 43 ont évolué comme le prévoit la substitution entre le premier semestre 2023 et le second semestre 2025 : les offres de rédaction de contenu ont reculé plus de deux fois plus vite que l'ensemble des offres, tandis que la part de la vidéo et de l'animation a gagné environ un tiers. Dans les offres liées à l'IA, 8.4% des paires de tâches étaient rarement demandées ensemble avant l'IA générative, contre 2.4% ailleurs. Par rapport aux offres sans IA de même catégorie et de même mois, les budgets forfaitaires sont supérieurs d'environ 52%, les heures des 90 premiers jours des contrats horaires pourvus d'environ 41%, et les taux horaires affichés d'environ 1.5%.
-
-**Où cela se place.** L'étude prolonge la section [« Marchés du travail en ligne »](#online-labour-markets) : Hui et al. (2024) trouvent que les indépendants de la rédaction ont perdu des contrats et des revenus ; ici, les offres de rédaction reculent tandis que les projets d'IA progressent. C'est une preuve, au niveau des offres, des nouvelles tâches que Dillon et al. (2025) n'ont pas trouvées au sein des emplois existants (section [« La réorganisation crée-t-elle de nouvelles tâches ? »](#does-reorganisation-create-new-tasks)), et d'un regroupement des tâches (Garicano, Li et Wu 2026). L'ajustement passe par les heures, pas par le prix de l'heure.
-
-**Limite.** Les deux entreprises ont intérêt à montrer que l'IA accroît la demande de travail indépendant. Les offres liées à l'IA peuvent différer des autres d'une manière que les contrôles par catégorie et par mois ne captent pas.
