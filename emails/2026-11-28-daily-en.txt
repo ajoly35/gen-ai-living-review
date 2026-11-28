@@ -1,0 +1,57 @@
+GEN-AI, JOBS AND GROWTH
+Today's new research on AI and work, in plain words.
+
+AI and work, in brief
+
+
+
+Today in three lines
+
+- A new study asks whether AI doing scientists' work could push economic growth faster and faster. The answer comes down to two things nobody yet knows.
+- Under cautious assumptions, annual growth climbs from under three per cent to a little under four around 2090. Under bold ones, it takes off in the 2060s before hitting an energy limit.
+- Either way, the tasks people still do hold the whole system back for decades, the same brake this review sees in workplaces today.
+
+New research, in plain words
+
+AI could speed up growth a little or enormously, and the deciding factors are still unknown
+
+What it explores. Economists Wim Naudé, Tiago Neves Sequeira and Derick Almeida build a model of an economy in which AI gradually takes over research tasks. Fresh ideas lift output, higher output pays for more computers, and more computers generate more ideas. Starting the model in 2023 under four sets of assumptions, they ask when this loop would speed up growth and what would stop it.
+
+Why it matters. Forecasts for AI and economic growth range from barely noticeable to explosive. This paper shows that the very same economy can land at either extreme, depending on how well AI can step in for human researchers and how quickly good ideas become harder to find. Using cautious US estimates, growth peaks at a little under four per cent a year around 2090. If extra research mostly repeats existing work, growth never speeds up at all. If ideas stay as easy to find as they have been in computer chips, growth hits extreme rates in the 2060s until the energy needed to run the machines runs short.
+
+How it fits the evidence. The paper lines up with the most careful earlier work: tasks that still require people act as a brake. Adding computers barely helps for decades because humans remain the slow step. Until nearly nothing in research needs a person, gains come from passing tasks to machines one by one. Keep in mind that this is a theoretical model, not a real-world measurement, and nobody has ever measured the two deciding factors for AI.
+
+Full entry · Paper
+
+How it fits together
+
+This review tracks two forces inside companies: AI can help a business produce more with the same staff, or produce the same output with fewer people. Today's paper asks that question for the whole economy, looking over a century rather than a few years. Its message echoes what company-level studies already show. What AI can do on paper is not what it does on the ground, and the parts of the job that still need humans set the pace.
+
+You can already spot that brake in today's job market. In the United States, Sweden, the United Kingdom and France, hiring of young workers into the jobs most open to AI has fallen by up to a quarter, yet overall employment has not budged. Companies that rethink how they work around AI gain the most, while those that simply buy the software gain very little. Work shifts to machines one task at a time, so the big totals move slowly.
+
+The unknowns are the same at both levels: how far AI can replace people in the hardest tasks, and how much more people buy when things get cheaper. Today's study adds a third for the long run: how much energy the machines will need.
+
+One idea, explained: why the slowest step decides how fast the economy can grow
+
+Picture a hospital ward given an AI that reads every scan and writes up every report in seconds. Patients still do not go home ten times faster. A nurse still has to turn them in bed, and a doctor still has to talk them through their options. Once the paperwork costs almost nothing, those human steps set the speed of the entire ward.
+
+Philippe Aghion, Benjamin Jones and Charles Jones made this exact argument for the wider economy back in 2019. When new technology makes certain things cheap, spending shifts toward what remains hard to do, such as care work, construction or teaching. Those slower sectors then set the pace of overall growth. A recent study of scientists found the same pattern inside research itself: fields with little lab work stand to gain far more from AI than fields where physical work at the lab bench slows everything down.
+
+Today's paper shows just how long that kind of bottleneck can last. In its cautious scenario, AI adds almost nothing to research for decades, before its contribution jumps within a single generation once the final human steps are taken over.
+
+If you are a worker or an employer, look closely at the slow steps in any job, the parts that call for physical presence, judgement or trust. That is where people remain essential the longest, and where rethinking how the work is organised pays off the most.
+
+Where the evidence stands
+
+!Studies on jobs, hiring or pay, by research design. Orange: fewer jobs, hires or lower pay. Grey: no measurable effect. Blue: gains.
+
+In our chart, orange bars count studies that find fewer jobs, slower hiring or lower pay; grey bars mark no measurable effect; blue bars show gains. Experiments measuring how fast people work find clear gains, studies of who gets hired show drops, and studies of total employment find nothing so far. Because today's paper models long-run growth rather than counting jobs, it gets no bar of its own. Still, it helps explain that grey row: when the tasks left to humans hold the rest back, big speed-ups on individual tasks can sit beside almost no change in overall employment for a very long time.
+
+Read more
+
+The living review · Direction of the field · Recent papers · Send a paper
+
+Unsubscribe: {{ unsubscribe_url }}
+
+A living review maintained by Adrien Joly, London School of Economics.
+Entries are written by an AI assistant from the paper itself and are not reviewed before they are sent. Figures are taken from the paper; the review's own assessment is in the caveat.
